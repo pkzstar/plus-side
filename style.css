@@ -6,24 +6,24 @@ a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
+a:link { color: black;}
+a:visited { color: black;}
+a:hover {color: slateblue;}
+a:link { color: black;}
 .header-nav {
-  color: black;
-  text-align: center;
-  border-radius: 25%;
-  background: linear-gradient(90deg, rgb(4, 37, 0)5%, rgb(21, 180, 0)75%, rgb(233, 0, 182)90%, rgb(82, 0, 121));
+    font-size: 35px;
+    text-align: center;
+  border-radius: 30%;
   font-family: Nunito;
-  font-size: 35px;
+  background: linear-gradient(90deg, rgb(4, 37, 0)5%, rgb(21, 180, 0)75%, rgb(233, 0, 182)90%, rgb(82, 0, 121));
   padding: 30px;
 }
-.header-nav:hover {
-    color: slateblue;
-  }
-.Nav-Upcoming
-{
+.Nav-Upcoming {
     margin-inline: 25px;
     display: inline-block;
 }
 .Nav-Calendar {
+    border-radius: 50%;
     margin-inline: 25px;
     display: inline-block;
 }
