@@ -194,6 +194,9 @@ img.plussidenetnav {
 .pmrank {
     float: right;
 }
+.pm-rank-centered {
+    float: center;
+}
 .startgg {
     font-size: 30px;
     float: center;
@@ -216,7 +219,7 @@ img.plussidenetnav {
         border-block-style: groove;
        border-block-width: thick;
 }
-.pastEvents {
+.pastEvents { 
     border-inline-color: rgb(0, 146, 172);
     font-family: Nunito;
     text-align: center;
@@ -229,9 +232,9 @@ img.plussidenetnav {
     box-shadow: 0 0 3px 0 rgb(0, 196, 16);
     transition: .3s;
     border-block-color: green;
-    border-style: double;
     border-block-style: groove;
    border-block-width: thick;
+   border-style: double;
    background: linear-gradient(rgb(50, 185, 152), rgb(156, 249, 214));
    border-block-end-color: rgb(0, 65, 50);
    writing-mode: horizontal-tb;
@@ -242,4 +245,11 @@ img.plussidenetnav {
     border-block-color: rgb(255, 255, 255);
     border-block-style: groove;
    border-block-width: thick;
+}
+.pastArticleText {
+        font-size: larger;
+        text-align: center;
+}
+.pastList {
+display: flex;
 }
