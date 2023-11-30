@@ -6,52 +6,26 @@ a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
-a:link { color: black;}
-a:visited { color: black;}
+a:link { color: rgb(0, 0, 0);}
+a:visited { color: rgb(0, 0, 0);}
 a:hover {color: slateblue;}
-a:link { color: black;}
+a:link { color: rgb(0, 0, 0);}
+b {
+    color: white;
+    text-shadow: 3px 3px 3px #000000;   
+}
+b:hover {
+    color: slateblue;
+}
 .header-nav {
-    background-position: center;
-    background-image: url(https://github.com/pkzstar/plus-side/blob/main/images/stars.gif?raw=true);
+    background-position-y: 70%;
+    background-size: cover;
+    background-image: url(https://github.com/pkzstar/plus-side/blob/main/images/pokemon.gif?raw=true);
     font-size: 35px;
     text-align: center;
   border-radius: 30%;
   font-family: Nunito;
   padding: 30px;
-}
-.Nav-Text {
-    a:visited { background-color: rgb(50, 185, 152);}
-    a:link { background-color: rgb(50, 185, 152);}
-    a:visited { border-radius: 50%;}
-    a:link { border-radius: 50%;}
-    a:visited { padding-left: 20px;}
-    a:link { padding-left: 20px;}
-    a:visited { padding-right: 20px;}
-    a:link { padding-right: 20px;}
-    a:link { box-shadow: 0 0 3px 0 rgb(0, 196, 16);
-        transition: .3s;
-        border-block-color: green;
-        border-style: double;
-        border-block-style: groove;
-       border-block-width: thick;}
-    a:visited { box-shadow: 0 0 3px 0 rgb(0, 196, 16);
-        transition: .3s;
-        border-block-color: green;
-        border-style: double;
-        border-block-style: groove;
-       border-block-width: thick;}
-.Nav-Text:hover {
-    a:link { border-inline-color: rgb(0, 146, 172);
-        border-style: double;
-        border-block-color: rgb(255, 255, 255);
-        border-block-style: groove;
-       border-block-width: thick;}
-    a:visited { border-inline-color: rgb(0, 146, 172);
-        border-style: double;
-        border-block-color: rgb(255, 255, 255);
-        border-block-style: groove;
-       border-block-width: thick;}
-}
 }
 .Nav-Upcoming {
     margin-inline: 25px;
@@ -123,6 +97,7 @@ img.plussidenetnav {
    border-block-width: thick;
 }
 .eventsTitle{
+    color: rgb(0, 0, 0);
     padding-left: 50px;
     text-align: left;
 }
