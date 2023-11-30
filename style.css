@@ -11,8 +11,7 @@ a:visited { color: black;}
 a:hover {color: slateblue;}
 a:link { color: black;}
 .header-nav {
-    background-blend-mode: difference;
-    background-image: url(https://raw.githubusercontent.com/pkzstar/plus-side/main/images/css%20background.png);
+    background-image: url(https://github.com/pkzstar/plus-side/blob/main/images/headertest.gif?raw=true);
     font-size: 35px;
     text-align: center;
   border-radius: 30%;
