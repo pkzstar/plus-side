@@ -45,9 +45,7 @@ b:hover {
     display: inline-block;
 }
 img.plussidenetnav {
-    object-position : bottom 20px left 0;
-    position: relative;
-    float: left;
+    float: inline-start;
     width: 15%;
     height: auto;
 }
