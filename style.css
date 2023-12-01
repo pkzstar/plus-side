@@ -49,6 +49,9 @@ img.plussidenetnav {
     width: 15%;
     height: auto;
 }
+img.plussidenetnav:hover {
+    width: 16%;
+}
 .twitterlink {
     float: right;
     height: 50px;
