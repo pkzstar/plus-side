@@ -197,6 +197,10 @@ img.plussidenetnav {
 .pm-rank-centered {
     float: center;
 }
+.pm-rank-centered-invis {
+    float: center;
+    visibility: hidden;
+}
 .startgg {
     font-size: 30px;
     float: center;
