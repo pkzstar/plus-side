@@ -98,7 +98,6 @@ img.plussidenetnav:hover {
    border-block-width: thick;
 }
 .eventsTitle{
-    color: rgb(0, 0, 0);
     padding-left: 50px;
     text-align: left;
 }
@@ -119,7 +118,6 @@ img.plussidenetnav:hover {
 .article-read {
     font-size: 30px;
     float: center;
-    color: black;
     background-color: rgb(50, 185, 152);
     border-radius: 50%;
     padding-left: 20px;
@@ -207,7 +205,6 @@ img.plussidenetnav:hover {
 .startgg {
     font-size: 30px;
     float: center;
-    color: black;
     background-color: rgb(50, 185, 152);
     border-radius: 50%;
     padding-left: 20px;
@@ -259,4 +256,18 @@ img.plussidenetnav:hover {
 }
 .pastList {
 display: flex;
+}
+.vods-past {
+    font-size: 30px;
+    float: center;
+    background-color: rgb(50, 185, 152);
+    border-radius: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0 0 3px 0 rgb(0, 196, 16);
+        transition: .3s;
+        border-block-color: green;
+        border-style: double;
+        border-block-style: groove;
+       border-block-width: thick;
 }
