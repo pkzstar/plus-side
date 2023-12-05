@@ -287,7 +287,7 @@ iframe
     width: 75%;
     height: 635px;
 }
-@media only screen and (max-width: 320px) {
+@media screen and (max-width: 320px) {
 iframe {
     width: 100vw;
     height: 100vh;
