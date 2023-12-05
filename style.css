@@ -280,3 +280,7 @@ img.plussidenetnav:hover {
     margin-left: 150px;
     margin-right: 150px;
 }
+.article-body-image {
+    width: 75%;
+    height: auto;
+}
