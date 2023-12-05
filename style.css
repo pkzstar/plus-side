@@ -289,7 +289,7 @@ iframe
 }
 @media only screen and (max-width: 320px) {
 iframe {
-    width: 177.77vw;
+    width: 100vw;
     height: 100vh;
 }}
     
