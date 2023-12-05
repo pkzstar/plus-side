@@ -271,3 +271,8 @@ img.plussidenetnav:hover {
         border-block-style: groove;
        border-block-width: thick;
 }
+.article-page-text {
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+}
