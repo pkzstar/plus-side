@@ -275,4 +275,8 @@ img.plussidenetnav:hover {
     color: white;
     font-size: xx-large;
     text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
 }
