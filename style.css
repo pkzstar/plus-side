@@ -255,7 +255,7 @@ img.plussidenetnav:hover {
         text-align: center;
 }
 .pastList {
-display: flex;
+    display: flex;
 }
 .vods-past {
     font-size: 30px;
