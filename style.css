@@ -283,10 +283,19 @@ img.plussidenetnav:hover {
     width: 75%;
     height: auto;
 }
+.article-body-image-potential {
+    width: 100%;
+    height: auto;
+}
 .article-player-side {
     text-align: left;
 }
-
+img.article-potential-characters {
+    display: block;
+    float: right;
+    height: 250px;
+    width: auto;
+}
 .video-size-desktop
 {
     width: 75%;
