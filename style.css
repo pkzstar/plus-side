@@ -283,6 +283,10 @@ img.plussidenetnav:hover {
     width: 75%;
     height: auto;
 }
+.article-player-side {
+    text-align: left;
+}
+
 .video-size-desktop
 {
     width: 75%;
@@ -305,4 +309,3 @@ img.plussidenetnav:hover {
     width: 100%;
     height: 100%;
 }
-  
