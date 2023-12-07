@@ -17,6 +17,13 @@ b {
 b:hover {
     color: slateblue;
 }
+c {
+    color: rgb(10, 180, 88);
+    text-shadow: 5px 5px 5px #000000;  
+}
+c:hover {
+    color: slateblue;
+}
 .header-nav {
     background-position-y: 70%;
     background-size: cover;
