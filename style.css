@@ -45,6 +45,12 @@ c:hover {
 .upcoming-resize {
     width: 75%;
 }
+.upcoming-date {
+    padding-left: 50px;
+    text-align: left;
+        font-size: large;
+        font-family: Nunito;
+}
 .Nav-Calendar {
     border-radius: 15px 15px 15px 15px;
     margin-inline: 25px;
