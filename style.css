@@ -74,7 +74,8 @@ img.plussidenetnav:focus {
 }
 .twitterlink:hover,
 .twitterlink:focus {
-    transform: scale3d(1.1, 1.1, 1.1); 
+    transform: scale3d(1.1, 1.1, 1.1);
+
 }
 .youtubelink {
     float: right;
@@ -82,7 +83,7 @@ img.plussidenetnav:focus {
     width: auto;
 }
 .youtubelink:hover {
-    transform: scale3d(1.1, 1.1, 1.1); 
+    transform: scale3d(1.1, 1.1, 1.1);
 }
 .Events {
     border-inline-color: rgb(0, 146, 172);
@@ -197,6 +198,9 @@ img.plussidenetnav:focus {
     border-block-end-color: rgb(0, 65, 50);
     box-shadow: 3px 3px 6px 2px rgb(0, 43, 4);
 }
+.article-banner:hover {
+    box-shadow: 6px 6px 9px 4px rgb(0, 43, 4);
+}
 .events-banners {
     flex: 0px;
     border-radius: 25%;
@@ -205,6 +209,9 @@ img.plussidenetnav:focus {
     border-style: double;
     border-block-end-color: rgb(0, 65, 50);
     box-shadow: 3px 3px 6px 2px rgb(0, 43, 4);
+}
+.events-banners:hover {
+    box-shadow: 6px 6px 9px 4px rgb(0, 43, 4);
 }
 .pmrank {
     float: right;
@@ -231,7 +238,7 @@ img.plussidenetnav:focus {
        border-block-width: thick;
 }
 .startgg:hover {
-    color: slateblue;
+    box-shadow: 2px 2px 5px 1px rgb(0, 43, 4);
     border-inline-color: slateblue;
         border-style: double;
         border-block-style: groove;
@@ -281,6 +288,13 @@ img.plussidenetnav:focus {
     box-shadow: 0 0 3px 0 rgb(0, 196, 16);
         transition: .3s;
         border-block-color: green;
+        border-style: double;
+        border-block-style: groove;
+       border-block-width: thick;
+}
+.vods-past:hover {
+    box-shadow: 2px 2px 5px 1px rgb(0, 43, 4);
+    border-inline-color: slateblue;
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
