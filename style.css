@@ -63,17 +63,18 @@ img.plussidenetnav {
     width: 15%;
     height: auto;
 }
-img.plussidenetnav:hover {
-    width: 16%;
+img.plussidenetnav:hover,
+img.plussidenetnav:focus {
+  transform: scale3d(1.1, 1.1, 1.1); 
 }
 .twitterlink {
     float: right;
     height: 50px;
     width: auto;
 }
-.twitterlink:hover {
-    height: 65px;
-    width: auto;
+.twitterlink:hover,
+.twitterlink:focus {
+    transform: scale3d(1.1, 1.1, 1.1); 
 }
 .youtubelink {
     float: right;
@@ -81,8 +82,7 @@ img.plussidenetnav:hover {
     width: auto;
 }
 .youtubelink:hover {
-    height: 65px;
-    width: auto;
+    transform: scale3d(1.1, 1.1, 1.1); 
 }
 .Events {
     border-inline-color: rgb(0, 146, 172);
