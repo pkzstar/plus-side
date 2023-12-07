@@ -38,6 +38,13 @@ c:hover {
     margin-inline: 25px;
     display: inline-block;
 }
+.upcoming-image-parent {
+    margin-top: 25px;
+    text-align: center;
+}
+.upcoming-resize {
+    width: 75%;
+}
 .Nav-Calendar {
     border-radius: 15px 15px 15px 15px;
     margin-inline: 25px;
