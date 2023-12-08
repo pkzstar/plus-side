@@ -9,7 +9,8 @@ a:active { text-decoration: none; }
 a:link { color: rgb(0, 0, 0);}
 a:visited { color: rgb(0, 0, 0);}
 a:hover {color: slateblue;}
-a:link { color: rgb(0, 0, 0);}
+a:active { color: rgb(60, 42, 177)}
+
 b {
     color: white;
     text-shadow: 7px 7px 7px #000000;
@@ -19,6 +20,8 @@ b {
 b:hover {
     color: slateblue;
 }
+b:active { color: rgb(60, 42, 177)}
+
 c {
     color: rgb(10, 180, 88);
     text-shadow: 5px 5px 5px #000000;  
@@ -26,6 +29,8 @@ c {
 c:hover {
     color: slateblue;
 }
+c:active { color: rgb(60, 42, 177)}
+
 .header-nav {
     background-position-y: 70%;
     background-size: cover;
