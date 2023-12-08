@@ -12,7 +12,9 @@ a:hover {color: slateblue;}
 a:link { color: rgb(0, 0, 0);}
 b {
     color: white;
-    text-shadow: 5px 5px 5px #000000;   
+    text-shadow: 7px 7px 7px #000000;
+    margin-inline: 1%;
+    display: inline-flex;
 }
 b:hover {
     color: slateblue;
@@ -33,41 +35,11 @@ c:hover {
   border-radius: 35%;
   font-family: Nunito;
  padding: 30px;
-}
-.Nav-Upcoming {
-    margin-inline: 25px;
-    display: inline-block;
-}
-.upcoming-image-parent {
-    margin-top: 25px;
-    text-align: center;
-}
-.upcoming-resize {
-    width: 75%;
-}
-.upcoming-date {
-    padding-left: 50px;
-    text-align: left;
-        font-size: large;
-        font-family: Nunito;
-}
-.Nav-Calendar {
-    border-radius: 15px 15px 15px 15px;
-    margin-inline: 25px;
-    display: inline-block;
-}
-.Nav-Articles {
-    margin-inline: 25px;
-    display: inline-block;
-}
-.Nav-Past {
-    margin-inline: 25px;
-    display: inline-block;
+ 
 }
 img.plussidenetnav {
-    float: inline-start;
-    width: 15%;
-    height: auto;
+    float: left;
+    width: 250px;
 }
 img.plussidenetnav:hover,
 img.plussidenetnav:focus {
@@ -91,6 +63,20 @@ img.plussidenetnav:focus {
 .youtubelink:hover {
     transform: scale3d(1.1, 1.1, 1.1);
 }
+.upcoming-image-parent {
+    margin-top: 25px;
+    text-align: center;
+}
+.upcoming-resize {
+    width: 75%;
+}
+.upcoming-date {
+    padding-left: 50px;
+    text-align: left;
+        font-size: large;
+        font-family: Nunito;
+}
+
 .Events {
     border-inline-color: rgb(0, 146, 172);
     font-family: Nunito;
