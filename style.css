@@ -240,9 +240,9 @@ img.plussidenetnav:focus {
     border-inline-color: rgb(0, 146, 172);
     font-family: Nunito;
     text-align: center;
-    padding: 25px;
-    margin: 25px;
     align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
     justify-content: center;
     display: flex;
     border-radius: 100px 100px 100px 100px;
@@ -267,8 +267,8 @@ img.plussidenetnav:focus {
         font-size: larger;
         text-align: center;
 }
-.pastList {
-    display: flex;
+.pasteventsTitle{
+    text-align: center;
 }
 .vods-past {
     font-size: 30px;
