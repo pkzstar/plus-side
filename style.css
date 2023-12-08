@@ -46,19 +46,22 @@ img.plussidenetnav {
     float: left;
     width: 250px;
 }
-img.plussidenetnav:hover,
-img.plussidenetnav:focus {
+img.plussidenetnav:hover {
   transform: scale3d(1.1, 1.1, 1.1); 
 }
+img.plussidenetnav:active {
+    transform: scale3d(1.2, 1.2, 1.2); 
+  }
 .twitterlink {
     float: right;
     height: 50px;
     width: auto;
 }
-.twitterlink:hover,
-.twitterlink:focus {
+.twitterlink:hover {
     transform: scale3d(1.1, 1.1, 1.1);
-
+}
+.twitterlink:active {
+    transform: scale3d(1.2, 1.2, 1.2);
 }
 .youtubelink {
     float: right;
@@ -67,6 +70,9 @@ img.plussidenetnav:focus {
 }
 .youtubelink:hover {
     transform: scale3d(1.1, 1.1, 1.1);
+}
+.youtubelink:active {
+    transform: scale3d(1.2, 1.2, 1.2);
 }
 .upcoming-image-parent {
     margin-top: 25px;
