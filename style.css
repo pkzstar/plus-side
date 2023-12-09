@@ -207,6 +207,8 @@ img.plussidenetnav:active {
 .events-banners {
     flex: 0px;
     border-radius: 25%;
+    max-width: 300px;
+    max-height: 300px;
     height: 300px;
     width: 300px;
     border-style: double;
@@ -255,7 +257,6 @@ img.plussidenetnav:active {
     padding-top: 25px;
     padding-bottom: 25px;
     justify-content: center;
-    display: flex;
     border-radius: 100px 100px 100px 100px;
     box-shadow: 0 0 3px 0 rgb(0, 196, 16);
     transition: .3s;
