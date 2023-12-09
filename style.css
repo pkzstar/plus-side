@@ -193,7 +193,7 @@ img.plussidenetnav:active {
     text-align: left;
 }
 .article-banner {
-    flex: 0px;
+    flex: 0 0 300px;
     border-radius: 25%;
     height: 300px;
     width: 300px;
@@ -201,6 +201,17 @@ img.plussidenetnav:active {
     border-block-end-color: rgb(0, 65, 50);
     box-shadow: 3px 3px 6px 2px rgb(0, 43, 4);
 }
+
+@media (max-width: 767px) {
+    /* Adjust styles for screens with a width of 767 pixels or less (typical mobile screens) */
+    .article-banner {
+        flex: 1; /* Allow the image to grow to fill the container */
+        width: 100%; /* Make the width 100% of the container */
+        max-width: 300px; /* Limit the maximum width to 300px */
+        height: auto; /* Allow the height to adjust proportionally */
+    }
+}
+
 .article-banner:hover {
     box-shadow: 6px 6px 9px 4px rgb(0, 43, 4);
 }
