@@ -206,7 +206,7 @@ img.plussidenetnav:active {
     /* Adjust styles for screens with a width of 767 pixels or less (typical mobile screens) */
     .article-banner {
         flex: 1; /* Allow the image to grow to fill the container */
-        width: 100%; /* Make the width 100% of the container */
+        width: 75%; /* Make the width 100% of the container */
         max-width: 300px; /* Limit the maximum width to 300px */
         height: auto; /* Allow the height to adjust proportionally */
     }
