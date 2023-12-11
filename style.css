@@ -200,16 +200,6 @@ img.plussidenetnav:active {
     border-block-end-color: rgb(0, 65, 50);
     box-shadow: 3px 3px 6px 2px rgb(0, 43, 4);
 }
-
-@media (max-width: 767px) {
-    .article-banner {
-        flex: 1;
-        width: 50%;
-        max-width: 150px;
-        height: 150px; 
-    }
-}
-
 .article-banner:hover {
     box-shadow: 6px 6px 9px 4px rgb(0, 43, 4);
 }
@@ -223,6 +213,14 @@ img.plussidenetnav:active {
     border-style: double;
     border-block-end-color: rgb(0, 65, 50);
     box-shadow: 3px 3px 6px 2px rgb(0, 43, 4);
+}
+@media (max-width: 767px) {
+    .events-banner {
+        flex: 1;
+        width: 50%;
+        max-width: 150px;
+        height: 150px; 
+    }
 }
 .events-banners:hover {
     box-shadow: 6px 6px 9px 4px rgb(0, 43, 4);
