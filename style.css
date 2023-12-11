@@ -214,7 +214,7 @@ img.plussidenetnav:active {
     border-block-end-color: rgb(0, 65, 50);
     box-shadow: 3px 3px 6px 2px rgb(0, 43, 4);
 }
-@media (max-width: 767px) {
+@media only screen and (max-width: 767px) {
     .events-banners {
         flex: 1;
         width: 100%;
