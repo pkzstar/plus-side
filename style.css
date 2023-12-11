@@ -202,12 +202,11 @@ img.plussidenetnav:active {
 }
 
 @media (max-width: 767px) {
-    /* Adjust styles for screens with a width of 767 pixels or less (typical mobile screens) */
     .article-banner {
-        flex: 1; /* Allow the image to grow to fill the container */
-        width: 50%; /* Make the width 100% of the container */
-        max-width: 150px; /* Limit the maximum width to 300px */
-        height: 150px; /* Allow the height to adjust proportionally */
+        flex: 1;
+        width: 50%;
+        max-width: 150px;
+        height: 150px; 
     }
 }
 
