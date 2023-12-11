@@ -216,14 +216,6 @@ img.plussidenetnav:active {
     border-block-end-color: rgb(0, 65, 50);
     box-shadow: 3px 3px 6px 2px rgb(0, 43, 4);
 }
-@media only screen and (max-width: 767px) {
-    .events-banners {
-        flex: 1;
-        width: 100%;
-        max-width: 300px;
-        height: 300px; 
-    }
-}
 .events-banners:hover {
     box-shadow: 6px 6px 9px 4px rgb(0, 43, 4);
 }
@@ -250,6 +242,14 @@ img.plussidenetnav:active {
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
+}
+@media only screen and (max-width: 600px) {
+    a.startgg {
+        flex: 1;
+        width: 50%;
+        height: auto;
+        font-size: 15px;
+    }
 }
 .startgg:hover {
     box-shadow: 2px 2px 5px 1px rgb(0, 43, 4);
@@ -304,6 +304,13 @@ img.plussidenetnav:active {
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
+}
+@media only screen and (max-width: 600px) {
+    a.vods-past {
+        flex: 1;
+        width: 50;
+        font-size: 15px;
+    }
 }
 .vods-past:hover {
     box-shadow: 2px 2px 5px 1px rgb(0, 43, 4);
@@ -408,6 +415,28 @@ img.article-potential-characters {
     color: slateblue;
 }
 #Past-Year:active { color: rgb(60, 42, 177)}
+.past-events-banners {
+    flex: 0px;
+    border-radius: 25%;
+    max-width: 300px;
+    max-height: 300px;
+    height: 300px;
+    width: 300px;
+    border-style: double;
+    border-block-end-color: rgb(0, 65, 50);
+    box-shadow: 3px 3px 6px 2px rgb(0, 43, 4);
+}
+@media only screen and (max-width: 600px) {
+    img.past-events-banners {
+        flex: 1;
+        width: 75%;
+        max-width: 300px;
+        max-height: 300px; 
+    }
+}
+.past-events-banners:hover {
+    box-shadow: 6px 6px 9px 4px rgb(0, 43, 4);
+}
 .pikachu-running {
     height: 100px;
     width: auto;
