@@ -12,6 +12,11 @@ a:visited { color: rgb(0, 0, 0);}
 a:hover {color: slateblue;}
 a:active { color: rgb(60, 42, 177)}
 
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 15px;
+    }
+}
 b {
     color: white;
     text-shadow: 7px 7px 7px #000000;
@@ -443,8 +448,6 @@ img.article-potential-characters {
         box-shadow: 3px 3px 6px 2px rgb(0, 43, 4);
         flex: 1;
         width: 75%;
-        max-width: 300px;
-        max-height: 300px; 
     }
 }
 .past-events-banners:hover {

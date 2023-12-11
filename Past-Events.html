@@ -39,7 +39,35 @@ p {
     margin: 5px;
   }
 
-
+  @media only screen and (max-width: 600px) {
+    .pastList {
+      list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+p {
+  font-size: large;
+  margin: 2px 0 2px 0;
+}
+  .pastEvents {
+    margin: 20px 20px 20px 20px;
+  }
+  .pastEvents img {
+    width: 75%;
+    height: 75%;
+  }
+  .pastEvents div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .pastArticleText {
+    margin: 5px;
+  }
+}
 </style>
         <script src="script.js"></script>
  </head>
