@@ -1,6 +1,8 @@
 body {
     background-image: url(https://github.com/pkzstar/plus-side/blob/main/images/mosiac.png?raw=true);
     background-attachment: fixed;
+    overflow-x: hidden;
+
 }
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
@@ -421,7 +423,4 @@ img.article-potential-characters {
     50% {
       left: 1000000%;
     }
-}
-body {
-    overflow-x: hidden;
 }
