@@ -276,6 +276,16 @@ img.plussidenetnav:active {
    border-block-end-color: rgb(0, 65, 50);
    writing-mode: horizontal-tb;
 }
+@media only screen and (max-width: 600px) {
+    li.pastEvents {
+        border-radius: 25%;
+        border-style: double;
+        border-block-end-color: rgb(0, 65, 50);
+        box-shadow: 3px 3px 6px 2px rgb(0, 43, 4);
+        flex: 1;
+        width: 50%;
+    }
+}
 .pastEvents:hover {
     border-inline-color: rgb(0, 146, 172);
     border-style: double;
@@ -427,6 +437,10 @@ img.article-potential-characters {
 }
 @media only screen and (max-width: 600px) {
     img.past-events-banners {
+        border-radius: 25%;
+        border-style: double;
+        border-block-end-color: rgb(0, 65, 50);
+        box-shadow: 3px 3px 6px 2px rgb(0, 43, 4);
         flex: 1;
         width: 75%;
         max-width: 300px;
