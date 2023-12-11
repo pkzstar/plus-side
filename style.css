@@ -21,7 +21,6 @@ b:hover {
     color: slateblue;
 }
 b:active { color: rgb(60, 42, 177)}
-
 c {
     color: rgb(10, 180, 88);
     text-shadow: 5px 5px 5px #000000;  
@@ -361,3 +360,52 @@ img.article-potential-characters {
     width: 99%;
     height: 99%;
 }
+.Past-Events-Drop {
+    float: center;
+    overflow: hidden;
+}
+#Past-Events-Drop-Btn:hover {
+    color: slateblue;
+}
+.Past-Events-Drop .Past-Events-Drop-Btn {
+    align-content: center;
+    text-align: center;
+    font-size: 35px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.Past-Events-Drop:hover .dropdown-content {
+    align-content: center;
+    display: block;
+}
+.dropdown-links {
+    float: center;
+}
+.Past-Events-Drop-Btn {
+    font-weight: bold;
+    align-content: center;
+    text-shadow: 7px 7px 7px #000000;
+    margin-inline: 1%;
+}
+#Past-Year {
+    color:  rgb(10, 180, 88);
+    text-shadow: 5px 5px 5px #000000;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-stroke-width: .1px;
+    margin: 0 0px 0 0px;
+}
+#Past-Year:hover {
+    color: slateblue;
+}
+#Past-Year:active { color: rgb(60, 42, 177)}

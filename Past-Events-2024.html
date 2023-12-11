@@ -1,13 +1,44 @@
 <!DOCTYPE html>
 <html>
+  <meta charset="UTF-8">
  <head>
   <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
     <title>Plus Side</title>
     <link rel="icon" type="image/x-icon" href="https://github.com/pkzstar/plus-side/blob/main/images/favicon.png?raw=true">
     <link rel="stylesheet" href="style.css">
     <style>
-    </style>
-    <script src="script.js"></script>
+    .pastList {
+      list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+p {
+  font-size: large;
+  margin: 10px 0 10px 0;
+}
+  .pastEvents {
+    height: calc(25% - 50px);
+    width: calc(25% - 50px);
+    margin: 0 20px 20px 20px;
+  }
+
+  .pastEvents img {
+    width: 100%;
+    height: 100%;
+  }
+  .pastEvents div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .pastArticleText {
+    margin: 5px;
+  }
+</style>
+        <script src="script.js"></script>
  </head>
  <body>
     <div class="header-nav">
@@ -35,3 +66,12 @@
       </section>
     </div>
     
+    
+    <div class="upcoming-image-parent">
+      <img class="upcoming-resize" src="https://media4.giphy.com/media/39GAXpLVKvYRO/giphy.gif" alt="">    
+        <h1 style="font-size: 100px;" class="article-page-text">2 Weeks</h1>
+    </div>
+  
+
+ </body>
+</html>
