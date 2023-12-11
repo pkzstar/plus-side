@@ -289,6 +289,8 @@ img.plussidenetnav:active {
         box-shadow: 3px 3px 6px 2px rgb(0, 43, 4);
         flex: 1;
         width: 50%;
+        max-width: 250px;
+        min-width: 200px;
     }
 }
 .pastEvents:hover {
@@ -467,5 +469,16 @@ img.article-potential-characters {
     }
     50% {
       left: 1000000%;
+    }
+}
+ul {
+    display: flex;
+}
+@media only screen and (max-width: 600px) {
+    ul {
+        flex: 1;
+        width: 100%;
+        height: auto;
+        font-size: 15px;
     }
 }
