@@ -215,7 +215,7 @@ img.plussidenetnav:active {
     box-shadow: 3px 3px 6px 2px rgb(0, 43, 4);
 }
 @media (max-width: 767px) {
-    .events-banner {
+    .events-banners {
         flex: 1;
         width: 50%;
         max-width: 150px;
