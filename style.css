@@ -406,3 +406,22 @@ img.article-potential-characters {
     color: slateblue;
 }
 #Past-Year:active { color: rgb(60, 42, 177)}
+.pikachu-running {
+    height: 100px;
+    width: auto;
+    position: absolute;
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: run;
+    -webkit-animation-duration: 500000s;
+  }
+  @-webkit-keyframes run {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: 1000000%;
+    }
+}
+body {
+    overflow-x: hidden;
+}
