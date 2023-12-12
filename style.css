@@ -546,6 +546,6 @@ ul.pastList {
 }
 @media only screen and (max-width: 600px) {
     img.pikachu-running {
-        overflow-x: hidden;
+        display: none;
     }
 }
