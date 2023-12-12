@@ -1,5 +1,3 @@
-html {
-}
 body {
     background-image: url(https://github.com/pkzstar/plus-side/blob/main/images/mosiac.png?raw=true);
     background-attachment: fixed;
@@ -37,22 +35,13 @@ c:hover {
     color: slateblue;
 }
 c:active { color: rgb(60, 42, 177)}
-
-
-
-section.Nav-Text {
-
-}
 @media only screen and (max-width: 600px) {
-    
-    
 section.Nav-Text {
      width: auto;
      font-size: 20px;
      padding: 5px;
     }
  }
-
 .header-nav {
     background-position-y: 70%;
     background-size: cover;
@@ -63,8 +52,7 @@ section.Nav-Text {
   font-family: Nunito;
  padding: 30px;
 }
-@media only screen and (max-width: 600px) {
-    
+@media only screen and (max-width: 600px) { 
    div.header-nav {
     width: auto;
     background-position-y: 70%;
@@ -74,8 +62,6 @@ section.Nav-Text {
     padding: 5px;
    }
 }
-
-
 img.plussidenetnav {
     float: left;
     width: 250px;
@@ -98,9 +84,7 @@ img.plussidenetnav:active {
     height: 50px;
     width: auto;
 }
-@media only screen and (max-width: 600px) {
-    
-    img.twitterlink {
+@media only screen and (max-width: 600px) { img.twitterlink {
         display: none;
         height: 25px;
         width: auto;
@@ -117,9 +101,7 @@ img.plussidenetnav:active {
     height: 50px;
     width: auto;
 }
-@media only screen and (max-width: 600px) {
-    
-    img.youtubelink {
+@media only screen and (max-width: 600px) { img.youtubelink {
         display: none;
         height: 25px;
         width: auto;
@@ -150,7 +132,6 @@ img.plussidenetnav:active {
         font-size: large;
         font-family: Nunito;
 }
-
 .Events {
     border-inline-color: rgb(0, 146, 172);
     font-family: Nunito;
@@ -522,9 +503,6 @@ img.article-potential-characters {
 }
 .past-events-banners:hover {
     box-shadow: 6px 6px 9px 4px rgb(0, 43, 4);
-}
-ul.pastlist {
-
 }
 @media only screen and (max-width: 600px) {
     ul.pastList {
