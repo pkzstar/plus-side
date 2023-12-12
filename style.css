@@ -523,12 +523,11 @@ img.article-potential-characters {
 .past-events-banners:hover {
     box-shadow: 6px 6px 9px 4px rgb(0, 43, 4);
 }
-
+ul {
+    
+}
 @media only screen and (max-width: 600px) {
     ul.pastList {
         justify-content: center;
     }
-}
-ul.pastList {
-
 }
