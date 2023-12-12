@@ -36,6 +36,21 @@ c:hover {
 }
 c:active { color: rgb(60, 42, 177)}
 
+
+
+section.Nav-Text {
+
+}
+@media only screen and (max-width: 600px) {
+    
+    
+section.Nav-Text {
+     width: auto;
+     font-size: 20px;
+     padding: 5px;
+    }
+ }
+
 .header-nav {
     background-position-y: 70%;
     background-size: cover;
@@ -55,8 +70,10 @@ c:active { color: rgb(60, 42, 177)}
     background-image: url(https://github.com/pkzstar/plus-side/blob/main/images/pokemon.gif?raw=true);
     font-size: 20px;
     padding: 5px;
-    }
+   }
 }
+
+
 img.plussidenetnav {
     float: left;
     width: 250px;
@@ -64,8 +81,8 @@ img.plussidenetnav {
 @media only screen and (max-width: 600px) {
     
     img.plussidenetnav {
-        width: 125px;  
-     padding: 5px;
+        display: none;
+        position: absolute;
      }
  }
 img.plussidenetnav:hover {
@@ -82,9 +99,9 @@ img.plussidenetnav:active {
 @media only screen and (max-width: 600px) {
     
     img.twitterlink {
+        display: none;
         height: 25px;
         width: auto;
-        padding: 2px;
      }
  }
 .twitterlink:hover {
@@ -101,9 +118,9 @@ img.plussidenetnav:active {
 @media only screen and (max-width: 600px) {
     
     img.youtubelink {
+        display: none;
         height: 25px;
         width: auto;
-        padding: 2px;
      }
  }
 .youtubelink:hover {
@@ -119,6 +136,12 @@ img.plussidenetnav:active {
 .upcoming-resize {
     width: 75%;
 }
+@media only screen and (max-width: 600px) {
+    
+   img.upcoming-resize  {
+    width: 100%;
+     }
+ }
 .upcoming-date {
     padding-left: 50px;
     text-align: left;
@@ -513,11 +536,16 @@ img.article-potential-characters {
       left: 1000000%;
     }
 }
+@media only screen and (max-width: 600px) {
+    ul.pastList {
+        justify-content: center;
+    }
+}
 ul.pastList {
 
 }
 @media only screen and (max-width: 600px) {
-    ul.pastList {
-        justify-content: center;
+    img.pikachu-running {
+        overflow-x: hidden;
     }
 }
