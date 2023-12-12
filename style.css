@@ -49,9 +49,9 @@ c:active { color: rgb(60, 42, 177)}
 @media only screen and (max-width: 600px) {
     
    div.header-nav {
+    width: auto;
     background-position-y: 70%;
     background-size:cover;
-    width: fit-content;
     background-image: url(https://github.com/pkzstar/plus-side/blob/main/images/pokemon.gif?raw=true);
     font-size: 20px;
     padding: 5px;
@@ -197,6 +197,7 @@ img.plussidenetnav:active {
        border-block-width: thick;
 }
 .article-style {
+    flex-direction: row;
     border-inline-color: rgb(0, 146, 172);
     font-family: Nunito;
     text-align: center;
@@ -512,14 +513,11 @@ img.article-potential-characters {
       left: 1000000%;
     }
 }
-ul {
-    display: flex;
+ul.pastList {
+
 }
 @media only screen and (max-width: 600px) {
-    ul {
-        flex: 1;
-        width: 100%;
-        height: auto;
-        font-size: 15px;
+    ul.pastList {
+        justify-content: center;
     }
 }
