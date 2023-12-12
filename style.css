@@ -6,6 +6,7 @@ body {
     background-image: url(https://github.com/pkzstar/plus-side/blob/main/images/mosiac.png?raw=true);
     background-attachment: fixed;
     overflow-x: hidden;
+    background-color: transparent;
 }
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
@@ -15,7 +16,6 @@ a:link { color: rgb(0, 0, 0);}
 a:visited { color: rgb(0, 0, 0);}
 a:hover {color: slateblue;}
 a:active { color: rgb(60, 42, 177)}
-
 @media only screen and (max-width: 600px) {
     p {
         font-size: 15px;
