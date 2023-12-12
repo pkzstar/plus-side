@@ -1,8 +1,4 @@
-- mobile pikachu shrinking everything
-
-- white shit when scrolling
-
-- start.gg  and event banners on past events page needing to be scaled down
+- clean up and standardize code
 
 - domain swappies
 
