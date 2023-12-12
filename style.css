@@ -477,7 +477,8 @@ img.article-potential-characters {
     display: block;
 }
 .dropdown-links {
-    float: center;
+    margin: 0 5px 0 5px;
+    float: left;
 }
 .Past-Events-Drop-Btn {
     font-weight: bold;
