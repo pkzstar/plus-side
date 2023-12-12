@@ -51,6 +51,7 @@ c:active { color: rgb(60, 42, 177)}
    div.header-nav {
     background-position-y: 70%;
     background-size:cover;
+    width: fit-content;
     background-image: url(https://github.com/pkzstar/plus-side/blob/main/images/pokemon.gif?raw=true);
     font-size: 20px;
     padding: 5px;
