@@ -3,6 +3,12 @@ body {
     background-attachment: fixed;
     overflow-x: hidden;
 }
+#root  {}
+@media only screen and (max-width: 600px) {
+    body#root {
+      position: fixed;       width: 100%;       height:100%;      font-size: 15px;
+    }
+}
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
@@ -168,6 +174,11 @@ img.plussidenetnav:active {
    background: linear-gradient(rgb(50, 185, 152), rgb(156, 249, 214));
    border-block-end-color: rgb(0, 65, 50);
    writing-mode: horizontal-tb;
+}
+@media only screen and (max-width: 600px) {
+    img.pikachu-running {
+        display: none;
+    }
 }
 .Events:hover {
     border-inline-color: rgb(0, 146, 172);
