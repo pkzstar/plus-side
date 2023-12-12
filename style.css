@@ -3,12 +3,6 @@ body {
     background-attachment: fixed;
     overflow-x: hidden;
 }
-#root  {}
-@media only screen and (max-width: 600px) {
-    body#root {
-      position: fixed;       width: 100%;       height:100%;      font-size: 15px;
-    }
-}
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
@@ -174,11 +168,6 @@ img.plussidenetnav:active {
    background: linear-gradient(rgb(50, 185, 152), rgb(156, 249, 214));
    border-block-end-color: rgb(0, 65, 50);
    writing-mode: horizontal-tb;
-}
-@media only screen and (max-width: 600px) {
-    img.pikachu-running {
-        display: none;
-    }
 }
 .Events:hover {
     border-inline-color: rgb(0, 146, 172);
@@ -532,22 +521,7 @@ img.article-potential-characters {
 .past-events-banners:hover {
     box-shadow: 6px 6px 9px 4px rgb(0, 43, 4);
 }
-.pikachu-running {
-    height: 100px;
-    width: auto;
-    position: absolute;
-    -webkit-animation: linear infinite;
-    -webkit-animation-name: run;
-    -webkit-animation-duration: 500000s;
-  }
-  @-webkit-keyframes run {
-    0% {
-      left: 0;
-    }
-    50% {
-      left: 1000000%;
-    }
-}
+
 @media only screen and (max-width: 600px) {
     ul.pastList {
         justify-content: center;
@@ -555,9 +529,4 @@ img.article-potential-characters {
 }
 ul.pastList {
 
-}
-@media only screen and (max-width: 600px) {
-    img.pikachu-running {
-        display: none;
-    }
 }
