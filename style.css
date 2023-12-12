@@ -1,5 +1,5 @@
 html {
-    overflow-x: hidden;
+    overscroll-behavior: none
 }
 body {
     background-image: url(https://github.com/pkzstar/plus-side/blob/main/images/mosiac.png?raw=true);
