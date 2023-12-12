@@ -1,11 +1,10 @@
 html {
-    overscroll-behavior: none;
 }
 body {
     background-image: url(https://github.com/pkzstar/plus-side/blob/main/images/mosiac.png?raw=true);
     background-attachment: fixed;
     overflow-x: hidden;
-    background-color: transparent;
+    background-color: black;
     overflow: hidden;
 
 }
