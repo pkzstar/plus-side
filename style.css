@@ -132,7 +132,7 @@ img.plus-side-net-nav:active {
         font-size: large;
         font-family: Nunito;
 }
-.Events {
+.events {
     border-inline-color: rgb(0, 146, 172);
     font-family: Nunito;
     text-align: center;
@@ -152,14 +152,14 @@ img.plus-side-net-nav:active {
    border-block-end-color: rgb(0, 65, 50);
    writing-mode: horizontal-tb;
 }
-.Events:hover {
+.events:hover {
     border-inline-color: rgb(0, 146, 172);
     border-style: double;
     border-block-color: rgb(255, 255, 255);
     border-block-style: groove;
    border-block-width: thick;
 }
-.eventsTitle{
+.events-title{
     padding-left: 50px;
     text-align: left;
 }
@@ -263,7 +263,7 @@ img.plus-side-net-nav:active {
 .events-banners:hover {
     box-shadow: 6px 6px 9px 4px rgb(0, 43, 4);
 }
-.pmrank {
+.pm-rank {
     float: right;
 }
 .pm-rank-centered {
@@ -273,7 +273,7 @@ img.plus-side-net-nav:active {
     float: center;
     visibility: hidden;
 }
-.startgg {
+.start-gg {
     font-size: 30px;
     float: center;
     background-color: rgb(50, 185, 152);
@@ -288,21 +288,21 @@ img.plus-side-net-nav:active {
        border-block-width: thick;
 }
 @media only screen and (max-width: 600px) {
-    a.startgg {
+    a.start-gg {
         flex: 1;
         width: 50%;
         height: auto;
         font-size: 15px;
     }
 }
-.startgg:hover {
+.start-gg:hover {
     box-shadow: 2px 2px 5px 1px rgb(0, 43, 4);
     border-inline-color: slateblue;
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
 }
-.pastEvents { 
+.past-events { 
     border-inline-color: rgb(0, 146, 172);
     font-family: Nunito;
     text-align: center;
@@ -322,7 +322,7 @@ img.plus-side-net-nav:active {
    writing-mode: horizontal-tb;
 }
 @media only screen and (max-width: 600px) {
-    li.pastEvents {
+    li.past-events {
         border-radius: 25%;
         border-style: double;
         border-block-end-color: rgb(0, 65, 50);
@@ -333,18 +333,18 @@ img.plus-side-net-nav:active {
         min-width: 200px;
     }
 }
-.pastEvents:hover {
+.past-events:hover {
     border-inline-color: rgb(0, 146, 172);
     border-style: double;
     border-block-color: rgb(255, 255, 255);
     border-block-style: groove;
    border-block-width: thick;
 }
-.pastArticleText {
+.past-article-text {
         font-size: larger;
         text-align: center;
 }
-.pasteventsTitle{
+.past-events-title{
     text-align: center;
 }
 .vods-past {
