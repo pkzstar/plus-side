@@ -437,8 +437,8 @@ img.article-potential-characters {
     outline: none;
     color: white;
     background-color: inherit;
-    font-family: inherit; /* Important for vertical align on mobile phones */
-    margin: 0; /* Important for vertical align on mobile phones */
+    font-family: inherit;
+    margin: 0;
 }
 @media only screen and (max-width: 600px) {
     
@@ -462,6 +462,11 @@ img.article-potential-characters {
 .dropdown-links {
     margin: 0 5px 0 5px;
     float: left;
+    border-radius: 25%;
+    background-color: rgba(0, 0, 0, 0.705);
+    border-style: double;
+    border-block-end-color: rgb(0, 65, 50);
+    box-shadow: 3px 3px 6px 2px rgb(0, 43, 4);
 }
 .past-events-drop-btn {
     font-weight: bold;
