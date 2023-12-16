@@ -1,5 +1,7 @@
 - clean up and standardize code
 
+- fix use of <b> and <c>
+
 - domain swappies
 
 - javescript/node projects

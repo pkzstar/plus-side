@@ -36,7 +36,7 @@ c:hover {
 }
 c:active { color: rgb(60, 42, 177)}
 @media only screen and (max-width: 600px) {
-section.Nav-Text {
+section.nav-text {
      width: auto;
      font-size: 20px;
      padding: 5px;
@@ -96,21 +96,21 @@ img.plus-side-net-nav:active {
 .twitter-link:active {
     transform: scale3d(1.2, 1.2, 1.2);
 }
-.youtubelink {
+.youtube-link {
     float: right;
     height: 50px;
     width: auto;
 }
-@media only screen and (max-width: 600px) { img.youtubelink {
+@media only screen and (max-width: 600px) { img.youtube-link {
         display: none;
         height: 25px;
         width: auto;
      }
  }
-.youtubelink:hover {
+.youtube-link:hover {
     transform: scale3d(1.1, 1.1, 1.1);
 }
-.youtubelink:active {
+.youtube-link:active {
     transform: scale3d(1.2, 1.2, 1.2);
 }
 .upcoming-image-parent {
@@ -469,17 +469,17 @@ img.article-potential-characters {
     text-shadow: 7px 7px 7px #000000;
     margin-inline: 1%;
 }
-#Past-Year {
+#past-year {
     color:  rgb(10, 180, 88);
     text-shadow: 5px 5px 5px #000000;
     -webkit-text-stroke-color: rgb(0, 0, 0);
     -webkit-text-stroke-width: .1px;
     margin: 0 0px 0 0px;
 }
-#Past-Year:hover {
+#past-year:hover {
     color: slateblue;
 }
-#Past-Year:active { color: rgb(60, 42, 177)}
+#past-year:active { color: rgb(60, 42, 177)}
 .past-events-banners {
     flex: 0px;
     border-radius: 25%;
