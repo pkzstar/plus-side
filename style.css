@@ -449,6 +449,7 @@ img.article-potential-characters {
      }
  }
 .dropdown-content {
+    padding-inline-end: 50px;
     display: none;
     position: absolute;
     min-width: 120px;
@@ -456,7 +457,6 @@ img.article-potential-characters {
     z-index: 1;
 }
 .past-events-drop:hover .dropdown-content {
-    align-content: center;
     display: grid;
 }
 .dropdown-links {
@@ -464,8 +464,15 @@ img.article-potential-characters {
     border-radius: 25%;
     background-color: rgba(0, 0, 0, 0.705);
     border-style: double;
-    border-block-end-color: rgb(0, 65, 50);
+    border-style: double;
+    border-inline-color: rgb(0, 146, 172);
+    border-block-color: green;
+    border-block-style: groove;
+    border-block-width: thick;
     box-shadow: 3px 3px 6px 2px rgb(0, 43, 4);
+}
+.dropdown-links:hover {
+    border-inline-color: slateblue;
 }
 .past-events-drop-btn {
     font-weight: bold;
@@ -475,9 +482,6 @@ img.article-potential-characters {
 }
 #past-year {
     color:  rgb(10, 180, 88);
-    text-shadow: 5px 5px 5px #000000;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
-    -webkit-text-stroke-width: .1px;
     margin: 0 0px 0 0px;
 }
 #past-year:hover {
