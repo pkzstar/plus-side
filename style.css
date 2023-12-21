@@ -21,7 +21,6 @@ b {
     color: white;
     text-shadow: 7px 7px 7px #000000;
     margin-inline: 1%;
-    display: inline-flex;
 }
 b:hover {
     color: slateblue;
@@ -42,15 +41,18 @@ section.nav-text {
      padding: 5px;
     }
  }
+ section.nav-text {
+    display: flex;
+    justify-content: space-evenly;
+ }
 .header-nav {
     background-position-y: 70%;
     background-size: cover;
     background-image: url(https://github.com/pkzstar/plus-side/blob/main/images/pokemon.gif?raw=true);
     font-size: 35px;
-    text-align: center;
   border-radius: 35%;
   font-family: Nunito;
- padding: 30px;
+  padding: 30px 30px 10px 30px;
 }
 @media only screen and (max-width: 600px) { 
    div.header-nav {
@@ -423,15 +425,12 @@ img.article-potential-characters {
     height: 99%;
 }
 .past-events-drop {
-    float: center;
     overflow: hidden;
 }
 #past-events-drop-btn:hover {
     color: slateblue;
 }
 .past-events-drop .past-events-drop-btn {
-    align-content: center;
-    text-align: center;
     font-size: 35px;
     border: none;
     outline: none;
@@ -476,9 +475,7 @@ img.article-potential-characters {
 }
 .past-events-drop-btn {
     font-weight: bold;
-    align-content: center;
     text-shadow: 7px 7px 7px #000000;
-    margin-inline: 1%;
 }
 #past-year {
     color:  rgb(10, 180, 88);
