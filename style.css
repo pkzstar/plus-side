@@ -31,8 +31,10 @@ a:active { color: rgb(60, 42, 177)}
 #navText:active { 
     color: rgb(60, 42, 177);
 }
-@media only screen and (max-width: 6000px) {
+@media only screen and (max-width: 600px) {
 section.nav-text {
+    display: flex;
+    justify-content: space-evenly;
     }
  }
  section.nav-text {
@@ -482,6 +484,7 @@ img.article-potential-characters {
     color: white;
     background-color: inherit;
     font-family: inherit;
+    padding: 0;
 }
 .past-events-drop:hover .past-events-drop-btn:hover {
     transform: scale3d(1.1, 1.1, 1.1); 
