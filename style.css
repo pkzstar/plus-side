@@ -14,7 +14,7 @@ a:hover {color: slateblue;}
 a:active { color: rgb(60, 42, 177)}
 @media only screen and (max-width: 600px) {
     p {
-        font-size: 10px;
+        font-size: 15px;
     }
 }
 #navText {
@@ -464,7 +464,7 @@ img.article-potential-characters {
 @media only screen and (max-width: 600px) {
     
     .past-events-drop {
-        font-size: 10px;
+        font-size: 15px;
         margin: 0;
         padding-bottom: 4px;
 
@@ -489,7 +489,7 @@ img.article-potential-characters {
 @media only screen and (max-width: 600px) {
     
     button#past-events-drop-btn {
-        font-size: 10px;
+        font-size: 15px;
         }
  }
 .dropdown-content {
