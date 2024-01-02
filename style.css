@@ -258,6 +258,28 @@ img.plus-side-net-nav:active {
 .article-banner:active {
     transform: scale3d(1.03, 1.03, 1.03); 
 }
+.articleLink {
+    display: inline-flex;
+    color:  rgb(10, 180, 88);
+}
+.articleLink:hover {
+    color: slateblue;
+}
+.articleLink:active {
+    color: rgb(60, 42, 177);
+}
+#articleLink {
+    color:  rgb(10, 180, 88);
+}
+#articleLink:hover {
+    color: slateblue;
+}
+#articleLink:active {
+    color: rgb(60, 42, 177);
+}
+#articleAuthor {
+    float: right;
+}
 .events-banners {
     flex: 0px;
     border-radius: 25%;
