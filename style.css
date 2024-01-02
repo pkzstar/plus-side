@@ -24,6 +24,8 @@ b {
 }
 b:hover {
     color: slateblue;
+    transition: transform 0.3s ease
+
 }
 b:active { color: rgb(60, 42, 177)}
 c {
@@ -32,6 +34,8 @@ c {
 }
 c:hover {
     color: slateblue;
+    transition: transform 0.3s ease
+
 }
 c:active { color: rgb(60, 42, 177)}
 @media only screen and (max-width: 600px) {
@@ -77,6 +81,8 @@ img.plus-side-net-nav {
  }
 img.plus-side-net-nav:hover {
   transform: scale3d(1.1, 1.1, 1.1); 
+  transition: transform 0.3s ease
+
 }
 img.plus-side-net-nav:active {
     transform: scale3d(1.2, 1.2, 1.2); 
@@ -94,6 +100,8 @@ img.plus-side-net-nav:active {
  }
 .twitter-link:hover {
     transform: scale3d(1.1, 1.1, 1.1);
+    transition: transform 0.3s ease
+
 }
 .twitter-link:active {
     transform: scale3d(1.2, 1.2, 1.2);
@@ -111,6 +119,8 @@ img.plus-side-net-nav:active {
  }
 .youtube-link:hover {
     transform: scale3d(1.1, 1.1, 1.1);
+    transition: transform 0.3s ease
+
 }
 .youtube-link:active {
     transform: scale3d(1.2, 1.2, 1.2);
@@ -160,6 +170,8 @@ img.plus-side-net-nav:active {
     border-block-color: rgb(255, 255, 255);
     border-block-style: groove;
    border-block-width: thick;
+   transition: transform 0.3s ease
+
 }
 .events-title{
     padding-left: 50px;
@@ -203,6 +215,8 @@ img.plus-side-net-nav:active {
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
+       transition: transform 0.3s ease
+
 }
 .article-style {
     flex-direction: row;
@@ -233,6 +247,8 @@ img.plus-side-net-nav:active {
     border-block-style: groove;
    writing-mode: horizontal-tb;
    border-block-width: thick;
+   transition: transform 0.3s ease
+
 }
 .article-body {
     font-size: larger;
@@ -250,6 +266,8 @@ img.plus-side-net-nav:active {
 }
 .article-banner:hover {
     box-shadow: 6px 6px 9px 4px rgb(0, 43, 4);
+    transition: transform 0.3s ease
+
 }
 .events-banners {
     flex: 0px;
@@ -264,6 +282,8 @@ img.plus-side-net-nav:active {
 }
 .events-banners:hover {
     box-shadow: 6px 6px 9px 4px rgb(0, 43, 4);
+    transition: transform 0.3s ease
+
 }
 .pm-rank {
     float: right;
@@ -303,6 +323,8 @@ img.plus-side-net-nav:active {
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
+       transition: transform 0.3s ease
+
 }
 .past-events { 
     border-inline-color: rgb(0, 146, 172);
@@ -341,6 +363,8 @@ img.plus-side-net-nav:active {
     border-block-color: rgb(255, 255, 255);
     border-block-style: groove;
    border-block-width: thick;
+   transition: transform 0.3s ease
+
 }
 .past-article-text {
         font-size: larger;
@@ -376,6 +400,8 @@ img.plus-side-net-nav:active {
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
+       transition: transform 0.3s ease
+
 }
 .article-page-text {
     color: white;
@@ -429,6 +455,8 @@ img.article-potential-characters {
 }
 #past-events-drop-btn:hover {
     color: slateblue;
+    transition: transform 0.3s ease
+
 }
 .past-events-drop .past-events-drop-btn {
     font-size: 35px;
@@ -456,6 +484,8 @@ img.article-potential-characters {
 }
 .past-events-drop:hover .dropdown-content {
     display: grid;
+    transition: transform 0.3s ease
+
 }
 .dropdown-links {
     margin: 5px 0px 5px 50px;
@@ -476,6 +506,8 @@ img.article-potential-characters {
 }
 .dropdown-links:hover {
     border-inline-color: slateblue;
+    transition: transform 0.3s ease
+
 }
 .past-events-drop-btn {
     font-weight: bold;
@@ -487,6 +519,8 @@ img.article-potential-characters {
 }
 #past-year:hover {
     color: slateblue;
+    transition: transform 0.3s ease
+
 }
 #past-year:active { color: rgb(60, 42, 177)}
 .past-events-banners {
@@ -512,6 +546,8 @@ img.article-potential-characters {
 }
 .past-events-banners:hover {
     box-shadow: 6px 6px 9px 4px rgb(0, 43, 4);
+    transition: transform 0.3s ease
+
 }
 @media only screen and (max-width: 600px) {
     ul.pastList {
