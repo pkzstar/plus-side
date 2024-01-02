@@ -14,7 +14,7 @@ a:hover {color: slateblue;}
 a:active { color: rgb(60, 42, 177)}
 @media only screen and (max-width: 600px) {
     p {
-        font-size: 15px;
+        font-size: 10px;
     }
 }
 #navText {
@@ -31,11 +31,8 @@ a:active { color: rgb(60, 42, 177)}
 #navText:active { 
     color: rgb(60, 42, 177);
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 6000px) {
 section.nav-text {
-     width: auto;
-     font-size: 20px;
-     padding: 5px;
     }
  }
  section.nav-text {
@@ -68,8 +65,10 @@ img.plus-side-net-nav {
 @media only screen and (max-width: 600px) {
     
     img.plus-side-net-nav {
-        display: none;
-        position: absolute;
+        display: flex;
+        min-width: 25px;
+        width: 25%;
+        max-width: 100px;
      }
  }
 img.plus-side-net-nav:hover {
@@ -85,10 +84,12 @@ img.plus-side-net-nav:active {
     height: 50px;
     width: auto;
 }
-@media only screen and (max-width: 600px) { img.twitter-link {
-        display: none;
-        height: 25px;
-        width: auto;
+@media only screen and (max-width: 600px) { 
+    img.twitter-link {
+    display: flex;
+    min-height: 20px;
+    height: 10%;
+    max-height: 30px;
      }
  }
 .twitter-link:hover {
@@ -105,9 +106,9 @@ img.plus-side-net-nav:active {
     width: auto;
 }
 @media only screen and (max-width: 600px) { img.youtube-link {
-        display: none;
-        height: 25px;
-        width: auto;
+    min-height: 20px;
+    height: 10%;
+    max-height: 30px;
      }
  }
 .youtube-link:hover {
@@ -460,6 +461,15 @@ img.article-potential-characters {
 .past-events-drop {
     overflow: hidden;
 }
+@media only screen and (max-width: 600px) {
+    
+    .past-events-drop {
+        font-size: 10px;
+        margin: 0;
+        padding-bottom: 4px;
+
+        }
+ }
 #past-events-drop-btn:hover {
     color: slateblue;
     transition: transform 0.3s ease
@@ -472,18 +482,15 @@ img.article-potential-characters {
     color: white;
     background-color: inherit;
     font-family: inherit;
-    margin: 0;
 }
 .past-events-drop:hover .past-events-drop-btn:hover {
     transform: scale3d(1.1, 1.1, 1.1); 
 }
 @media only screen and (max-width: 600px) {
     
-    button#past-events-drop-btn
-   {
-    font-size: 20px;
-        padding: 2px;
-     }
+    button#past-events-drop-btn {
+        font-size: 10px;
+        }
  }
 .dropdown-content {
     padding-inline-end: 50px;
