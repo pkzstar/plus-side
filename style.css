@@ -163,8 +163,6 @@ img.plus-side-net-nav:active {
     border-block-color: rgb(255, 255, 255);
     border-block-style: groove;
    border-block-width: thick;
-   transition: transform 0.3s ease
-
 }
 .events-title{
     padding-left: 50px;
@@ -208,8 +206,6 @@ img.plus-side-net-nav:active {
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
-       transition: transform 0.3s ease
-
 }
 .article-style {
     flex-direction: row;
@@ -240,8 +236,6 @@ img.plus-side-net-nav:active {
     border-block-style: groove;
    writing-mode: horizontal-tb;
    border-block-width: thick;
-   transition: transform 0.3s ease
-
 }
 .article-body {
     font-size: larger;
@@ -358,8 +352,6 @@ img.plus-side-net-nav:active {
     border-block-color: rgb(255, 255, 255);
     border-block-style: groove;
    border-block-width: thick;
-   transition: transform 0.3s ease
-
 }
 .past-article-text {
         font-size: larger;
@@ -395,8 +387,6 @@ img.plus-side-net-nav:active {
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
-       transition: transform 0.3s ease
-
 }
 .article-page-text {
     color: white;
