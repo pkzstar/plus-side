@@ -30,7 +30,6 @@ a:active { color: rgb(60, 42, 177)}
 }
 #navText:active { 
     color: rgb(60, 42, 177);
-    transform: scale3d(1.2, 1.2, 1.2); 
 }
 @media only screen and (max-width: 600px) {
 section.nav-text {
