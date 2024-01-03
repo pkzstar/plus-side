@@ -424,10 +424,16 @@ img.plus-side-net-nav:active {
 .article-body-image {
     width: 75%;
     height: auto;
+    border-width: 2px;
+    border-color: white;
+    border-style: outset;
 }
 .article-body-image-bigger {
     width: 100%;
     height: auto;
+    border-width: 2px;
+    border-color: white;
+    border-style: outset;
 }
 .article-player-side {
     text-align: left;
@@ -485,9 +491,11 @@ img.article-potential-characters {
     background-color: inherit;
     font-family: inherit;
     padding: 0;
+    overflow: visible;
+    z-index: 11111;
 }
 .past-events-drop:hover .past-events-drop-btn:hover {
-    transform: scale3d(1.1, 1.1, 1.1); 
+    transform: scale3d(1.1, 1.1, 1.1);
 }
 @media only screen and (max-width: 600px) {
     
@@ -576,4 +584,40 @@ img.article-potential-characters {
 }
 .top3 {
     font-size: large;
+}
+img:focus {
+    image-rendering:optimizeQuality;
+    transform: scale3d(1.3, 1.3, 1.3);
+    cursor:pointer;
+    transition: .25s ease;
+}
+img:hover {
+    cursor:zoom-in;
+}
+img.past-events-banners:hover {
+    cursor: pointer;
+}
+img.events-banners:hover {
+    cursor: pointer;
+}
+img.plus-side-net-nav:hover {
+    cursor: pointer;
+}
+img.youtube-link:hover {
+    cursor: pointer;
+}
+img.twitter-link:hover {
+    cursor: pointer;
+}
+img.article-banner:hover {
+    cursor: pointer;
+}
+img.upcoming-resize:hover {
+    cursor: unset;
+}
+img.pm-rank:hover {
+    cursor: unset;
+}
+img.pm-rank-centered:hover {
+    cursor: unset;
 }
