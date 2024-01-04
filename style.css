@@ -420,6 +420,11 @@ img.plus-side-net-nav:active {
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
+       color: rgb(60, 42, 177);
+}
+.vods-past:active {
+    color: rgb(27, 0, 199);
+
 }
 .article-page-text {
     color: white;
