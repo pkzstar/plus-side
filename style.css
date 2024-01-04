@@ -10,8 +10,8 @@ a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 a:link { color: rgb(0, 0, 0);}
 a:visited { color: rgb(0, 0, 0);}
-a:hover {color: slateblue;}
-a:active { color: rgb(60, 42, 177)}
+a:hover {color: rgb(60, 42, 177);}
+a:active { color: rgb(27, 0, 199);}
 @media only screen and (max-width: 600px) {
     p {
         font-size: 15px;
@@ -24,7 +24,7 @@ a:active { color: rgb(60, 42, 177)}
     margin: 0;
 }
 #navText:hover {
-    color: slateblue;
+    color: rgb(10, 180, 88);
     transform: scale3d(1.1, 1.1, 1.1); 
     transition: transform 0.3s ease;
 }
@@ -204,11 +204,15 @@ img.plus-side-net-nav:active {
     box-shadow: 2px 2px 5px 1px rgb(0, 43, 4);
     border-style: double;
     font-family: Nunito; 
-    color: slateblue;
+    color: rgb(60, 42, 177);
     border-inline-color: slateblue;
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
+}
+.article-read:active {
+    color: rgb(27, 0, 199);
+
 }
 .article-style {
     flex-direction: row;
@@ -334,11 +338,15 @@ img.plus-side-net-nav:active {
     }
 }
 .start-gg:hover {
+    color: rgb(60, 42, 177);
     box-shadow: 2px 2px 5px 1px rgb(0, 43, 4);
     border-inline-color: slateblue;
         border-style: double;
         border-block-style: groove;
-       border-block-width: thick;
+       border-block-width: thick;       
+}
+.start-gg:active {
+    color: rgb(27, 0, 199);
 }
 .past-events { 
     border-inline-color: rgb(0, 146, 172);
@@ -475,15 +483,16 @@ img.article-potential-characters {
         font-size: 15px;
         margin: 0;
         padding-bottom: 4px;
-
         }
  }
 #past-events-drop-btn:hover {
-    color: slateblue;
+    color:  rgb(10, 180, 88);
     transition: transform 0.3s ease
 
 }
 .past-events-drop .past-events-drop-btn {
+    width: 200px;
+    height: auto;
     font-size: 35px;
     border: none;
     outline: none;
