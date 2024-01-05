@@ -515,6 +515,11 @@ img.article-potential-characters {
     
     button#past-events-drop-btn {
         font-size: 15px;
+        width: 85px;
+    }
+        .past-events-drop {
+            width: max-content;
+
         }
  }
 .dropdown-content {
