@@ -406,6 +406,7 @@ img.plus-side-net-nav:active {
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
+       margin: 0px 0 10px 0;
 }
 @media only screen and (max-width: 600px) {
     a.vods-past {
