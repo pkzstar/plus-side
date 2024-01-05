@@ -14,7 +14,7 @@ a:hover {color: rgb(60, 42, 177);}
 a:active { color: rgb(27, 0, 199);}
 @media only screen and (max-width: 600px) {
     p {
-        font-size: 15px;
+        font-size: 12px;
     }
 }
 #navText {
@@ -320,8 +320,8 @@ img.plus-side-net-nav:active {
     float: center;
     background-color: rgb(50, 185, 152);
     border-radius: 15px 15px 15px 15px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding-left: 18px;
+    padding-right: 18px;
     box-shadow: 0 0 3px 0 rgb(0, 196, 16);
         transition: .3s;
         border-block-color: green;
@@ -409,9 +409,13 @@ img.plus-side-net-nav:active {
 }
 @media only screen and (max-width: 600px) {
     a.vods-past {
+        margin: 0px 0 10px 0;
         flex: 1;
         width: 50;
         font-size: 15px;
+    }
+    p.top3 {
+        margin: 10px 0 10px 0;
     }
 }
 .vods-past:hover {
@@ -485,7 +489,7 @@ img.article-potential-characters {
 @media only screen and (max-width: 600px) {
     
     .past-events-drop {
-        font-size: 15px;
+        font-size: 12px;
         margin: 0;
         padding-bottom: 4px;
         }
@@ -514,8 +518,8 @@ img.article-potential-characters {
 @media only screen and (max-width: 600px) {
     
     button#past-events-drop-btn {
-        font-size: 15px;
-        width: 85px;
+        font-size: 12px;
+        width: 70px;
     }
         .past-events-drop {
             width: max-content;
