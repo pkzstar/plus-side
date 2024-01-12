@@ -72,7 +72,7 @@ img.plus-side-net-nav {
         min-width: 25px;
         width: 25%;
         max-width: 100px;
-     }
+     } 
  }
 img.plus-side-net-nav:hover {
   transform: scale3d(1.1, 1.1, 1.1); 
@@ -185,6 +185,11 @@ img.plus-side-net-nav:active {
 .article-date {
     font-size: large;
     font-family: Nunito;
+}
+@media only screen and (max-width: 1000px) {
+    b.article-date {
+        font-size: 29px;
+    }
 }
 .article-read {
     font-size: 30px;
