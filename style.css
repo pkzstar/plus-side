@@ -195,6 +195,9 @@ img.plus-side-net-nav:active {
     b.article-date {
         font-size: 29px;
     }
+    p.article-date {
+        font-size: 29px;
+    }
 }
 .article-read {
     font-size: 30px;
