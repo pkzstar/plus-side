@@ -8,32 +8,59 @@
     <link rel="icon" type="image/x-icon" href="https://github.com/pkzstar/plus-side/blob/main/images/favicon.png?raw=true">
     <link rel="stylesheet" href="style.css">
     <style>
-    .pastList {
+     .pastList {
       list-style: none;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
   }
-  .pastEvents {
+  .past-events {
     height: calc(25% - 50px);
     width: calc(25% - 50px);
     margin: 0 20px 20px 20px;
   }
-
-  .pastEvents img {
+  .past-events img {
     width: 100%;
     height: 100%;
   }
-  .pastEvents div {
+  .past-events div {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
   }
-  .pastArticleText {
+  .past-article-text {
     margin: 5px;
   }
+
+  @media only screen and (max-width: 600px) {
+    .pastList {
+      list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+p {
+  margin: 2px 0 2px 0;
+}
+  .past-events {
+    margin: 20px 20px 20px 20px;
+  }
+  .past-events img {
+    width: 75%;
+    height: 75%;
+  }
+  .past-events div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .past-article-text {
+    margin: 5px;
+  }
+}
 </style>
         <script src="script.js"></script>
  </head>
@@ -70,10 +97,27 @@
     </div>
   
     
-    <div class="upcoming-image-parent">
-      <img class="upcoming-resize" src="https://media4.giphy.com/media/39GAXpLVKvYRO/giphy.gif" alt="">    
-        <h1 style="font-size: 100px;" class="article-page-text">2 Weeks</h1>
-    </div>
+    <div>
+      <!--create dynamic table with js later-->
+      <ul class="pastList">
+
+        <li class="past-events">
+          <div style="flex: 0;">
+            <a href="https://www.start.gg/tournament/game-5-in-the-d/details" target="_blank"><img class="past-events-banners" src="https://github.com/pkzstar/plus-side/blob/main/images/game5In.png?raw=true" alt=""></a>   
+            <div>
+              <img class="pm-rank-centered" src="https://github.com/pkzstar/plus-side/blob/main/images/pmrank.png?raw=true" alt="">
+            </div>
+            <h1 class="past-events-title"><a href="https://www.start.gg/tournament/game-5-in-the-d/details" target="_blank">Game 5 In The D</a></h1>
+           <p class="past-article-text">Date: December 20 2024</p>
+           <p class="past-article-text">Location: Michigan</p>
+           <p class="past-article-text">Entrants: </p>
+           <p class="top3">🥇: </p>
+           <p class="top3"> 🥈: </p>
+           <p class="top3"> 🥉: </p>
+            <a class="start-gg" href="https://www.start.gg/tournament/game-5-in-the-d/details" target="_blank">start.gg</a>
+          </div>
+        </li>
+
   
 
  </body>
