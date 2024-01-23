@@ -339,6 +339,8 @@ img.plus-side-net-nav:active {
     max-height: 300px;
     height: 300px;
     width: 300px;
+    border-radius: 25%;
+
 }
 .events-banners-trans:hover {
     transform: scale3d(1.02, 1.02, 1.02); 
