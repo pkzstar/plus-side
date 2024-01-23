@@ -333,6 +333,20 @@ img.plus-side-net-nav:active {
 #articleAuthor {
     float: right;
 }
+.events-banners-trans {
+    flex: 0px;
+    max-width: 300px;
+    max-height: 300px;
+    height: 300px;
+    width: 300px;
+}
+.events-banners-trans:hover {
+    transform: scale3d(1.02, 1.02, 1.02); 
+    transition: transform 0.3s ease;
+}
+.events-banners-trans:active {
+    transform: scale3d(1.03, 1.03, 1.03); 
+}
 .events-banners {
     flex: 0px;
     border-radius: 25%;
@@ -360,7 +374,11 @@ img.plus-side-net-nav:active {
         flex: 1;
         height: auto;
         width: 75%;
-
+    }
+    img.events-banners-trans {
+        flex: 1;
+        width: 75%;
+        height: auto;
     }
 }
 .pm-rank {
@@ -704,5 +722,8 @@ img.pm-rank:hover {
     cursor: unset;
 }
 img.pm-rank-centered:hover {
+    cursor: unset;
+}
+img.events-banners-trans {
     cursor: unset;
 }
