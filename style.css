@@ -821,6 +821,7 @@ img.events-banners-trans {
 }
 @media only screen and (max-width: 600px) {
    #pageHeader {
+    font-family: Futura;
     -webkit-text-stroke-width: unset;
     font-size: x-large;
     margin: unset;
