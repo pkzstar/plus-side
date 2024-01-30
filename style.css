@@ -827,6 +827,7 @@ img.events-banners-trans {
     margin: unset;
    }
    #authorPageHeader {
+    font-family: Futura;
     -webkit-text-stroke-width: unset;
     font-size: large;
     margin: 5px 0 5px 0;
