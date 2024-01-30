@@ -441,6 +441,10 @@ img.plus-side-net-nav:active {
         width: 75%;
         height: auto;
     }
+    h3 
+    {
+        font-size: medium;
+    }
 }
 .pm-rank {
     float: right;
