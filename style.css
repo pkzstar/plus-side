@@ -555,6 +555,10 @@ img.plus-side-net-nav:active {
     p.top3 {
         margin: 10px 0 10px 0;
     }
+    div.article-page-text {
+        margin: unset;
+        margin: 5%;
+    }
 }
 .vods-past:hover {
     box-shadow: 2px 2px 5px 1px rgb(0, 43, 4);
@@ -572,8 +576,8 @@ img.plus-side-net-nav:active {
     color: white;
     font-size: x-large;
     text-align: center;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 10%;
+    margin-right: 10%;
     margin-bottom: 5%;
 }
 .article-body-image {
@@ -746,7 +750,6 @@ img.article-potential-characters {
     ul.eventsList {
         margin: unset;
         justify-content: center;
-        width: min-content;
         padding: unset;
     }
     li.article-style {
@@ -806,11 +809,26 @@ img.events-banners-trans {
     font-style: italic;
     margin: unset;
 }
+#authorPageHeader {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 50px;
+    font-family: Futura;
+    font-style: italic;
+    margin: unset;
+    margin: 1% 0 2% 0;
+}
 @media only screen and (max-width: 600px) {
    #pageHeader {
     -webkit-text-stroke-width: unset;
     font-size: x-large;
     margin: unset;
+   }
+   #authorPageHeader {
+    -webkit-text-stroke-width: unset;
+    font-size: large;
+    margin: 5px 0 5px 0;
    }
 }
 .textGradient {
@@ -819,4 +837,13 @@ img.events-banners-trans {
     background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 29%, rgba(255,255,255,1) 31%, rgba(255,255,255,1) 45%, rgba(128,128,128,1) 60%, rgba(255,255,255,1) 75%, rgba(255,255,255,1) 100%);
     background: linear-gradient(180deg, rgba(255,255,255,1) 29%, rgba(255,255,255,1) 31%, rgba(255,255,255,1) 45%, rgba(128,128,128,1) 60%, rgba(255,255,255,1) 75%, rgba(255,255,255,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
+}
+#pageHeaderAuthor {
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 50px;
+    font-family: Futura;
+    font-style: italic;
+    margin: unset;
 }
