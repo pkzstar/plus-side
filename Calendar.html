@@ -1,0 +1,119 @@
+<!--Header Start-->
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css"
+    integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+ <head>
+  <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+    <title>Plus Side</title>
+    <link rel="icon" type="image/x-icon" href="https://github.com/pkzstar/plus-side/blob/main/images/favicon.png?raw=true">
+    <link rel="stylesheet" href="style.css">
+    <style>
+    </style>
+ </head>
+ <body>
+    <div class="header-nav">
+      <a class="plus-side-net-nav" href="/"><img class="plus-side-net-nav" src="https://github.com/pkzstar/plus-side/blob/main/images/plusside.net.png?raw=true" alt="oops"/></a>
+      <a class="twitter-link" href="https://twitter.com/pplusside" target="_blank"><img class=twitter-link src="https://github.com/pkzstar/plus-side/blob/main/images/twitterlogo.png?raw=true"></a>
+      <a class="youtube-link" href="https://www.youtube.com/@PPlusSide/featured" target="_blank"><img class=youtube-link src="https://github.com/pkzstar/plus-side/blob/main/images/youtubelogo.png?raw=true"></a>
+      <section class="nav-text">
+        <a href="/"><p id="navText">Events</p></a>
+        <a href="Articles.html"><p id="navText">Articles</p></a>
+
+        <!--Past Years-->
+          <div class="past-events-drop">
+            <button id="past-events-drop-btn" class="past-events-drop-btn">
+              Past Events
+              <i class="2023-drop"></i>
+            </button>
+            <div class="dropdown-content">  
+              <a class="dropdown-links" href="Past-Events-2024.html"><p id="past-year">2024</p></a>
+              <a class="dropdown-links" href="Past-Events.html"><p id="past-year">2023</p></a>
+            </div>
+          </div>
+      <!--Past Years End-->
+         
+
+      </section>
+    </div>
+
+    <div class="upcoming-image-parent">
+      <h1 id="pageHeader" class="textGradient">CALENDAR</h1>
+    </div>
+<!--Header End-->
+
+    <div class="container calendar-container mt-5">
+      <div class="card ">
+          <h3 class="card-header" id="monthAndYear"></h3>
+          <table class="table table-bordered table-responsive-sm" id="calendar">
+              <thead>
+              <tr>
+                  <th>Sun</th>
+                  <th>Mon</th>
+                  <th>Tue</th>
+                  <th>Wed</th>
+                  <th>Thu</th>
+                  <th>Fri</th>
+                  <th>Sat</th>
+              </tr>
+              </thead>
+  
+              <tbody id="calendar-body"><tr><td></td><td></td><td></td><td></td><td>1</td><td class="bg-info">2</td><td>3</td></tr><tr><td>4</td><td>5</td><td>6</td><td>7</td><td>8</td><td>9</td><td>10</td></tr><tr><td>11</td><td>12</td><td>13</td><td>14</td><td>15</td><td>16</td><td>17</td></tr><tr><td>18</td><td>19</td><td>20</td><td>21</td><td>22</td><td>23</td><td>24</td></tr><tr><td>25</td><td>26</td><td>27</td><td>28</td><td>29</td></tr><tr></tr></tbody>
+          </table>
+  
+          <div class="form-inline">
+  
+              <button class="btn btn-outline-primary col-sm-6" id="previous" onclick="previous()">Previous</button>
+  
+              <button class="btn btn-outline-primary col-sm-6" id="next" onclick="next()">Next</button>
+          </div>
+          <br>
+          <form class="form-inline">
+              <label class="lead mr-2 ml-2" for="month">Jump To: </label>
+              <select class="form-control col-sm-4" name="month" id="month" onchange="jump()">
+                  <option value="0">Jan</option>
+                  <option value="1">Feb</option>
+                  <option value="2">Mar</option>
+                  <option value="3">Apr</option>
+                  <option value="4">May</option>
+                  <option value="5">Jun</option>
+                  <option value="6">Jul</option>
+                  <option value="7">Aug</option>
+                  <option value="8">Sep</option>
+                  <option value="9">Oct</option>
+                  <option value="10">Nov</option>
+                  <option value="11">Dec</option>
+              </select>
+  
+  
+              <label for="year"></label><select class="form-control col-sm-4" name="year" id="year" onchange="jump()">
+        
+              <option value="2024">2024</option>
+          </select></form>
+      </div>
+  </div>
+  <!--<button name="jump" onclick="jump()">Go</button>-->
+  <script src="scripts.js"></script>
+  
+  <!-- Optional JavaScript for bootstrap -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+          integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+          crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"
+          integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ"
+          crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"
+          integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm"
+          crossorigin="anonymous"></script>
+  
+  
+
+          <script src="script.js"></script>
+
+  </body>
+</html>
