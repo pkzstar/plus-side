@@ -877,6 +877,8 @@ img.events-banners-trans {
     margin: unset;
 }
 .card {
+    background-color: rgb(198, 248, 217);
+
     width: max-content;
 }
 .bg-info {
@@ -886,17 +888,25 @@ td {
     justify-content: center;
 }
 th {
+    background-color: rgb(248, 198, 227);
+
     text-align: center;
 }
 .card-header {
+    font-family: Nunito;
     text-align: center;
 }
 .calendarImg {
+    border-radius: 25%;
+
     height: 100px;
     width: 100px;
 }
 .calendarImg:hover {
     cursor: unset;
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: transform 0.3s ease;
+
 }
 .calendar-container {
     display: flex;
@@ -915,13 +925,32 @@ th {
     vertical-align: middle;
   }
   form.form-inline {
+    
     justify-content: space-evenly;
   }
   .table td {
     padding: unset;
-
   }
 td {
+    background-color: rgb(213, 235, 241);
     height: 100px;
     width: 100px;
+}
+td:hover {
+
+}
+.table {
+    background-color: rgb(213, 235, 241);
+
+}
+#next, #previous {
+    color: #000000;
+    border-color:rgb(0, 0, 0);
+    font-size: large;
+}
+#month, #year {
+    margin-bottom: 20px;
+}
+label.lead {
+    margin-bottom: 20px;
 }
