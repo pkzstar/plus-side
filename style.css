@@ -917,4 +917,11 @@ th {
   form.form-inline {
     justify-content: space-evenly;
   }
-  
+  .table td {
+    padding: unset;
+
+  }
+td {
+    height: 100px;
+    width: 100px;
+}
