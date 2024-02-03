@@ -867,8 +867,6 @@ img.events-banners-trans {
 
     width: max-content;
 }
-.bg-info {
-}
 td {
     text-align: center;
     justify-content: center;
@@ -911,7 +909,6 @@ th {
     vertical-align: middle;
   }
   form.form-inline {
-    
     justify-content: space-evenly;
   }
   .table td {
@@ -935,4 +932,52 @@ td {
 }
 label.lead {
     margin-bottom: 20px;
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        margin: unset;
+        height: 15px;
+        width: 15px;
+    } 
+    .calendar-container  {
+        height: 15px;
+        width: 15px;
+    } 
+    div.card  {
+        background-color: rgb(198, 248, 217);
+
+        height: 100px;
+        width: 100px;
+        min-width: 382px;
+         margin-left: 550px;
+    } 
+    td  {
+        height: 15px;
+        width: 15px;
+    } 
+    .table  {
+        height: 15px;
+        width: 15px;
+    } 
+    .table td  {
+        height: 50px;
+        width: 50px;
+    } 
+    .table-bordered  {
+        height: 15px;
+        width: 15px;
+    } 
+    #calendar  {
+        height: 15px;
+        width: 15px;
+    } 
+    .calendarImg {
+        height: 50px;
+        width: 50px;
+    }
+    .form-inline {
+        margin-top: -15px;
+        background-color: rgb(198, 248, 217);
+
+    }
 }
