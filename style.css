@@ -948,7 +948,7 @@ label.lead {
         height: 100px;
         width: 100px;
         min-width: 382px;
-         margin-left: 550px;
+        margin-left: 550px;
     } 
     td  {
         height: 15px;
@@ -975,8 +975,16 @@ label.lead {
         width: 50px;
     }
     .form-inline {
-        margin-top: -15px;
+        margin-top: -21px;
         background-color: rgb(198, 248, 217);
-
+    }
+    #next, #previous {
+        margin-top: 20px;
+    }
+    #month, #year {
+        margin-bottom: unset;
+    }
+    label.lead {
+        margin-bottom: unset;
     }
 }
