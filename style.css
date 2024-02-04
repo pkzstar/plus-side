@@ -897,7 +897,7 @@ th {
     justify-content: center;
     align-items: center;
     height: 80vh;
-    margin-bottom: 50px;
+    margin-bottom: 100px;
   }
 
   .calendar-content {
@@ -990,7 +990,6 @@ label.lead {
 }
 .calView {
     font-size: 30px;
-    float: center;
     background-color: rgb(50, 185, 152);
     border-radius: 15px 15px 15px 15px;
     padding-left: 18px;
