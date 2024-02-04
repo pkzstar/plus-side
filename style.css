@@ -988,3 +988,39 @@ label.lead {
         margin-bottom: unset;
     }
 }
+.calView {
+    font-size: 30px;
+    float: center;
+    background-color: rgb(50, 185, 152);
+    border-radius: 15px 15px 15px 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    box-shadow: 0 0 3px 0 rgb(0, 196, 16);
+        transition: .3s;
+        border-block-color: green;
+        border-style: double;
+        border-block-style: groove;
+       border-block-width: thick;
+}
+@media only screen and (max-width: 600px) {
+    button.calView {
+
+        margin-top: 10px;
+        flex: 1;
+        width: fit-content;
+        height: auto;
+        font-size: 17.5px;
+    }
+}
+.calView:hover
+    {
+    color: rgb(60, 42, 177);
+    box-shadow: 2px 2px 5px 1px rgb(0, 43, 4);
+    border-inline-color: slateblue;
+        border-style: double;
+        border-block-style: groove;
+       border-block-width: thick;       
+}
+.listView {
+    margin-bottom: 25px;
+}
