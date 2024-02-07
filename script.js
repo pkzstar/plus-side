@@ -158,6 +158,24 @@ function showCalendar(month, year) {
                     link.appendChild(image);
                     cell.appendChild(link);
 
+
+                    //Metal Tavern
+                } else if (month === 2 && date === 30 && year === 2024) {
+
+                    let link = document.createElement("a");
+                    link.href = "https://www.start.gg/tournament/metal-tavern/details";
+                    link.target = "_blank";
+
+                    let image = document.createElement("img");
+                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/metal-tavern.png?raw=true";
+
+                    image.classList.add("calendarImg");
+
+
+                    link.appendChild(image);
+                    cell.appendChild(link);
+
+
                     //The Action 2
                 } else if (month === 3 && (date === 5 || date === 6 || date === 7) && year === 2024) {
 
