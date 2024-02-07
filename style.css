@@ -938,23 +938,21 @@ label.lead {
 }
 @media only screen and (max-width: 767px) {
     .container {
-        margin: unset;
+        padding-right: 100%;
         height: 15px;
-        width: 15px;
     } 
     .calendar-container  {
-        margin: unset;
+
         justify-content: center;
         align-items: center;
         height: 15px;
-        width: 15px;
     } 
     div.card  {
-
+        margin: unset;
         background-color: rgb(198, 248, 217);
         height: 100px;
         width: 100px;
-        min-width: 382px;
+        min-width: 375px;
         margin-left: 550px;
     } 
     td  {
