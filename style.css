@@ -937,6 +937,7 @@ label.lead {
         padding-left: 0;
     } 
     .calendar-container  {
+        padding: 0 10px 10px 10px;
 
         justify-content: center;
         align-items: center;
