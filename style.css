@@ -933,12 +933,10 @@ label.lead {
 }
 @media only screen and (max-width: 767px) {
     .container {
+        padding: 0 20px 20px 20px;
         height: 15px;
-        padding-left: 0;
     } 
     .calendar-container  {
-        padding: 0 10px 10px 10px;
-
         justify-content: center;
         align-items: center;
         height: 15px;
