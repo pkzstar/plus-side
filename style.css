@@ -863,9 +863,9 @@ img.events-banners-trans {
     margin: unset;
 }
 .card {
+    display: block;
+    align-items: center;
     background-color: rgb(198, 248, 217);
-
-    width: max-content;
 }
 td {
     text-align: center;
@@ -892,6 +892,7 @@ th {
 
 }
 .calendar-container {
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -942,10 +943,14 @@ label.lead {
         width: 15px;
     } 
     .calendar-container  {
+        margin: unset;
+        justify-content: center;
+        align-items: center;
         height: 15px;
         width: 15px;
     } 
     div.card  {
+
         background-color: rgb(198, 248, 217);
         height: 100px;
         width: 100px;
@@ -977,6 +982,9 @@ label.lead {
         width: 50px;
     }
     .form-inline {
+        justify-content: space-evenly;
+
+
         margin-top: -21px;
         background-color: rgb(198, 248, 217);
     }
@@ -984,9 +992,11 @@ label.lead {
         margin-top: 20px;
     }
     #month, #year {
+        
         margin-bottom: unset;
     }
     label.lead {
+        
         margin-bottom: unset;
     }
 }
