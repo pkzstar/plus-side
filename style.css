@@ -1013,7 +1013,8 @@ label.lead {
         font-size: 17.5px;
     }
     .listView {
-    margin: unset;    }
+    margin-bottom: 1%;    
+}
 }
 .calView:hover
     {
