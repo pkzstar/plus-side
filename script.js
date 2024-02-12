@@ -116,7 +116,7 @@ function showCalendar(month, year) {
                             
                         },
                         {
-                            link: "https://www.start.gg/tournament/smashing-grounds-10th-anniversary-celebration-a-melee-and-project-regional/details",
+                            link: "https://www.start.gg/tournament/perfect-pivot/details",
                             imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/pp.png?raw=true"
                         }, 
                         {
