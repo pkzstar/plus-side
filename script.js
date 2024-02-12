@@ -82,16 +82,14 @@ function showCalendar(month, year) {
                     let link = document.createElement("a");
                     link.href = "https://www.start.gg/tournament/smashing-grounds-10th-anniversary-celebration-a-melee-and-project-regional/details";
                     link.target = "_blank";
-
+                
                     let image = document.createElement("img");
                     image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/10th%20aniv.png?raw=true";
-
                     image.classList.add("calendarImg");
-
-
+                
                     link.appendChild(image);
                     cell.appendChild(link);
-                    
+
                     // Exodus
                 } else if (month === 1 && date === 17 && year === 2024) {
 
@@ -108,22 +106,69 @@ function showCalendar(month, year) {
                     link.appendChild(image);
                     cell.appendChild(link);
 
-                    //Full Bloom
+                    //Full Bloom, Perfect pivot, The Truce
                 } else if (month === 1 && (date === 24 || date === 25) && year === 2024) {
 
+                    const events = [
+                        {   
+                            link: "https://www.start.gg/tournament/full-bloom-2024/details",
+                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/fullbloom.png?raw=true"
+                            
+                        },
+                        {
+                            link: "https://www.start.gg/tournament/smashing-grounds-10th-anniversary-celebration-a-melee-and-project-regional/details",
+                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/pp.png?raw=true"
+                        }, 
+                        {
+                            link: "https://www.start.gg/tournament/the-truce/details",
+                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/truce.png?raw=true"
+                        }
+                    ];
+                    let currentIndex = 0; // Initialize current index
+
                     let link = document.createElement("a");
-                    link.href = "https://www.start.gg/tournament/full-bloom-2024/details";
                     link.target = "_blank";
 
                     let image = document.createElement("img");
-                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/fullbloom.png?raw=true";
 
                     image.classList.add("calendarImg");
-
 
                     link.appendChild(image);
                     cell.appendChild(link);
 
+                    // Function to fade in/out the image and link
+                    function fadeInOut(element) {
+                        let opacity = 0;
+                        let increasing = true;
+                        let interval = setInterval(function() {
+                            if (increasing) {
+                                opacity += 0.05;
+                            } else {
+                                opacity -= 0.05;
+                            }
+                            element.style.opacity = opacity;
+                            if (opacity >= 1) {
+                                increasing = false;
+                                setTimeout(() => {
+                                    increasing = true;
+                                    updateLinkAndImage(); // Update link and image after fully visible
+                                }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                            } else if (opacity <= 0) {
+                                clearInterval(interval);
+                                fadeInOut(element); // Restart the fading animation
+                            }
+                        }, 100); // Adjust the timing as needed
+                    }
+                
+                    // Function to update the link and image
+                    function updateLinkAndImage() {
+                        link.href = events[currentIndex].link;
+                        image.src = events[currentIndex].imageSrc;
+                        currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+                    }
+                
+                    updateLinkAndImage(); // Initially update link and image
+                    fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
                     //Storm
                 } else if (month === 2 && date === 16 && year === 2024) {
@@ -142,21 +187,71 @@ function showCalendar(month, year) {
                     cell.appendChild(link);
 
 
-                    //ETSU-Con
+                    //ETSU-Con, Titans, Game5in
                 } else if (month === 2 && date === 23 && year === 2024) {
 
+                    const events = [
+                        {   
+                            link: "https://www.start.gg/tournament/smash-of-the-titans-8-1/details",
+                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/titans.png?raw=true"
+                            
+                        },
+                        {
+                            link: "https://www.start.gg/tournament/game-5-in-the-d-2-yuko-s-bday-edition/details",
+                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/game5In.png?raw=true"
+                        }, 
+                        {
+                            link: "https://www.start.gg/tournament/etsu-con-2024/details",
+                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/etsu.png?raw=true"
+                        }
+                    ];
+
+
+                    let currentIndex = 0; // Initialize current index
                     let link = document.createElement("a");
-                    link.href = "https://www.start.gg/tournament/etsu-con-2024/details";
                     link.target = "_blank";
 
                     let image = document.createElement("img");
-                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/etsu.png?raw=true";
 
                     image.classList.add("calendarImg");
 
 
                     link.appendChild(image);
                     cell.appendChild(link);
+
+                    // Function to fade in/out the image and link
+                    function fadeInOut(element) {
+                        let opacity = 0;
+                        let increasing = true;
+                        let interval = setInterval(function() {
+                            if (increasing) {
+                                opacity += 0.05;
+                            } else {
+                                opacity -= 0.05;
+                            }
+                            element.style.opacity = opacity;
+                            if (opacity >= 1) {
+                                increasing = false;
+                                setTimeout(() => {
+                                    increasing = true;
+                                    updateLinkAndImage(); // Update link and image after fully visible
+                                }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                            } else if (opacity <= 0) {
+                                clearInterval(interval);
+                                fadeInOut(element); // Restart the fading animation
+                            }
+                        }, 100); // Adjust the timing as needed
+                    }
+                
+                    // Function to update the link and image
+                    function updateLinkAndImage() {
+                        link.href = events[currentIndex].link;
+                        image.src = events[currentIndex].imageSrc;
+                        currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+                    }
+                
+                    updateLinkAndImage(); // Initially update link and image
+                    fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
 
                     //Metal Tavern
@@ -225,10 +320,8 @@ function showCalendar(month, year) {
                     cell.appendChild(link);
 
                     //Smash Camp
-                } else if (
-                    (month === 4 && date === 31 && year === 2024)
-                ) {
-
+                } else if ( (month === 4 && date === 31 && year === 2024) ) {
+                    
                     let link = document.createElement("a");
                     link.href = "https://www.start.gg/tournament/smash-camp-new-lands-2024/details";
                     link.target = "_blank";
@@ -242,8 +335,70 @@ function showCalendar(month, year) {
                     link.appendChild(image);
                     cell.appendChild(link);
 
-                    //invincible
-                } else if (month === 5 && (date === 1 || date === 2) && year === 2024) {
+
+                    //invincible and smashcamp crossover
+                } else if (month === 5 && (date === 1) && year === 2024) {
+                    const events = [
+                        {   
+                            link: "https://www.start.gg/tournament/smash-camp-new-lands-2024/details",
+                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/smashcamp.png?raw=true"
+                            
+                        },
+                        {
+                            link: "https://www.start.gg/tournament/invincible-viii/details",
+                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/invincible8.png?raw=true"
+                        }
+                    ];
+
+
+                    let currentIndex = 0; // Initialize current index
+                    let link = document.createElement("a");
+                    link.target = "_blank";
+
+                    let image = document.createElement("img");
+
+                    image.classList.add("calendarImg");
+
+
+                    link.appendChild(image);
+                    cell.appendChild(link);
+
+                    // Function to fade in/out the image and link
+                    function fadeInOut(element) {
+                        let opacity = 0;
+                        let increasing = true;
+                        let interval = setInterval(function() {
+                            if (increasing) {
+                                opacity += 0.05;
+                            } else {
+                                opacity -= 0.05;
+                            }
+                            element.style.opacity = opacity;
+                            if (opacity >= 1) {
+                                increasing = false;
+                                setTimeout(() => {
+                                    increasing = true;
+                                    updateLinkAndImage(); // Update link and image after fully visible
+                                }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                            } else if (opacity <= 0) {
+                                clearInterval(interval);
+                                fadeInOut(element); // Restart the fading animation
+                            }
+                        }, 100); // Adjust the timing as needed
+                    }
+                
+                    // Function to update the link and image
+                    function updateLinkAndImage() {
+                        link.href = events[currentIndex].link;
+                        image.src = events[currentIndex].imageSrc;
+                        currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+                    }
+                
+                    updateLinkAndImage(); // Initially update link and image
+                    fadeInOut(image); // Start fade-in/out animation // Start cycling events
+
+
+                } else if (month === 5 && (date === 2) && year === 2024) {
 
                     let link = document.createElement("a");
                     link.href = "https://www.start.gg/tournament/invincible-viii/details";
