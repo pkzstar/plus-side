@@ -955,7 +955,7 @@ label.lead {
        font-size: calc(1vw + 1vh);
     }
     td  {
-        height: fit-content;
+        height: min-content;
         width: 100%;
     } 
      table#calendar.table.table-bordered  {
@@ -963,7 +963,7 @@ label.lead {
     } 
     .table {
         table-layout: fixed;
-        height: fit-content;
+        height: min-content;
     } 
     #calendar  {
         
