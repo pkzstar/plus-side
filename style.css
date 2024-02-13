@@ -952,12 +952,10 @@ label.lead {
         width: 1%;
       }
     thead {
-       height: fit-content; 
-       width: fit-content;
        font-size: calc(1vw + 1vh);
     }
     td  {
-        height: 15px;
+        height: fit-content;
         width: 100%;
     } 
      table#calendar.table.table-bordered  {
@@ -968,6 +966,7 @@ label.lead {
 
     } 
     #calendar  {
+        
         justify-content: center;
         align-items: center;
     } 
