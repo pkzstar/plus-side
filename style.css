@@ -931,7 +931,7 @@ label.lead {
 }
 @media only screen and (max-width: 767px) {
     .container {
-        margin: 20px 15px 30px 15px;
+        margin: 3% 3% 3% 3%;
         width: fit-content;
     } 
     .calendar-container  {
