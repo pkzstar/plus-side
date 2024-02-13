@@ -952,27 +952,23 @@ label.lead {
         width: 1%;
       }
     thead {
-       height: 15px; 
-       width: 100%;
+       height: fit-content; 
+       width: fit-content;
+       font-size: 12px;
     }
     td  {
         height: 15px;
         width: 100%;
     } 
      table#calendar.table.table-bordered  {
-        height: 15px;
         width: 100%;
+
     } 
-    .table td  {
-        height: 50px;
-        width: 100%;
-    } 
-    .table-bordered  {
-        height: 15px;
-        width: 100%;
+    .table {
+        table-layout: fixed;
+
     } 
     #calendar  {
-        
         justify-content: center;
         align-items: center;
     } 
