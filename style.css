@@ -931,7 +931,8 @@ label.lead {
 }
 @media only screen and (max-width: 767px) {
     .container {
-        height: 15px;
+        margin: 20px 15px 30px 15px;
+        width: fit-content;
     } 
     .calendar-container  {
         justify-content: center;
