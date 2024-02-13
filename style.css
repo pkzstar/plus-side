@@ -954,7 +954,7 @@ label.lead {
     thead {
        height: fit-content; 
        width: fit-content;
-       font-size: 12px;
+       font-size: calc(1vw + 1vh);
     }
     td  {
         height: 15px;
@@ -962,7 +962,6 @@ label.lead {
     } 
      table#calendar.table.table-bordered  {
         width: 100%;
-
     } 
     .table {
         table-layout: fixed;
@@ -973,13 +972,11 @@ label.lead {
         align-items: center;
     } 
     .calendarImg {
-        height: 50px;
-        width: 50px;
+        height: fit-content;
+        width: 100%
     }
     .form-inline {
         justify-content: space-evenly;
-
-
         margin-top: -21px;
         background-color: rgb(198, 248, 217);
     }
