@@ -931,41 +931,50 @@ label.lead {
 }
 @media only screen and (max-width: 767px) {
     .container {
+        max-width: fit-content;
         margin: 3% 3% 3% 3%;
-        width: fit-content;
+        padding: 3% 3% 3% 3%;
     } 
     .calendar-container  {
+
         justify-content: center;
         align-items: center;
         height: 15px;
     } 
     div.card  {
+        max-width: 80%;
         margin: unset;
         background-color: rgb(198, 248, 217);
         height: 100px;
-        width: 100px;
-        min-width: 375px;
         margin-left: 550px;
     } 
+    #calendar-body {
+        width: 1%;
+      }
+    thead {
+       height: 15px; 
+       width: 100%;
+    }
     td  {
         height: 15px;
-        width: 15px;
+        width: 100%;
     } 
-    .table  {
+     table#calendar.table.table-bordered  {
         height: 15px;
-        width: 15px;
+        width: 100%;
     } 
     .table td  {
         height: 50px;
-        width: 50px;
+        width: 100%;
     } 
     .table-bordered  {
         height: 15px;
-        width: 15px;
+        width: 100%;
     } 
     #calendar  {
-        height: 15px;
-        width: 15px;
+        
+        justify-content: center;
+        align-items: center;
     } 
     .calendarImg {
         height: 50px;
