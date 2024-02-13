@@ -904,7 +904,7 @@ th {
   form.form-inline {
     justify-content: space-evenly;
   }
-  .table td {
+  .table td, .table th {
     padding: unset;
   }
 td {
@@ -1006,6 +1006,7 @@ label.lead {
        border-block-width: thick;
 }
 .calViewList {
+    margin-bottom: -25px;
     font-size: 30px;
     background-color: rgb(50, 185, 152);
     border-radius: 15px 15px 15px 15px;
@@ -1031,6 +1032,7 @@ label.lead {
 }
 button.calViewList {
     margin-top: 10px;
+    margin-bottom: 10px;
         width: fit-content;
         height: auto;
         font-size: 17.5px;
