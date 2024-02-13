@@ -971,7 +971,7 @@ label.lead {
         align-items: center;
     } 
     .calendarImg {
-        height: fit-content;
+        height: 100%;
         width: 100%
     }
     .form-inline {
