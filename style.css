@@ -957,11 +957,11 @@ label.lead {
     div.card  {
         max-width: 90%;
         margin: unset;
-        background: rgb(73,255,142);
-        background: -moz-linear-gradient(90deg, rgba(73,255,142,1) 0%, rgba(198,248,217,1) 50%);
-        background: -webkit-linear-gradient(90deg, rgba(73,255,142,1) 0%, rgba(198,248,217,1) 50%);
-        background: linear-gradient(90deg, rgba(73,255,142,1) 0%, rgba(198,248,217,1) 50%);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#49ff8e",endColorstr="#c6f8d9",GradientType=1);
+        background: rgb(84,255,149);
+        background: -moz-linear-gradient(90deg, rgba(84,255,149,1) 5%, rgba(185,255,212,1) 50%, rgba(84,255,149,1) 95%);
+        background: -webkit-linear-gradient(90deg, rgba(84,255,149,1) 5%, rgba(185,255,212,1) 50%, rgba(84,255,149,1) 95%);
+        background: linear-gradient(90deg, rgba(84,255,149,1) 5%, rgba(185,255,212,1) 50%, rgba(84,255,149,1) 95%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#54ff95",endColorstr="#54ff95",GradientType=1);
         height: 100px;
         margin-left: 550px;
     } 
@@ -994,11 +994,11 @@ label.lead {
     .form-inline {
         justify-content: space-evenly;
         margin-top: -21px;
-            background: rgb(73,255,142);
-    background: -moz-linear-gradient(90deg, rgba(73,255,142,1) 0%, rgba(198,248,217,1) 50%);
-    background: -webkit-linear-gradient(90deg, rgba(73,255,142,1) 0%, rgba(198,248,217,1) 50%);
-    background: linear-gradient(90deg, rgba(73,255,142,1) 0%, rgba(198,248,217,1) 50%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#49ff8e",endColorstr="#c6f8d9",GradientType=1);
+        background: rgb(84,255,149);
+        background: -moz-linear-gradient(90deg, rgba(84,255,149,1) 5%, rgba(185,255,212,1) 50%, rgba(84,255,149,1) 95%);
+        background: -webkit-linear-gradient(90deg, rgba(84,255,149,1) 5%, rgba(185,255,212,1) 50%, rgba(84,255,149,1) 95%);
+        background: linear-gradient(90deg, rgba(84,255,149,1) 5%, rgba(185,255,212,1) 50%, rgba(84,255,149,1) 95%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#54ff95",endColorstr="#54ff95",GradientType=1);
     }
     #next, #previous {
         margin-top: 20px;
