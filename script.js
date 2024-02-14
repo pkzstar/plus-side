@@ -92,20 +92,49 @@ function showCalendar(month, year) {
 
                     // Exodus
                 } else if (month === 1 && date === 17 && year === 2024) {
-
                     let link = document.createElement("a");
                     link.href = "https://www.start.gg/tournament/exodus-2024/details";
                     link.target = "_blank";
-
+                
                     let image = document.createElement("img");
                     image.src = "https://github.com/pkzstar/plus-side/blob/main/images/past-events/exodus.png?raw=true";
-
+                
                     image.classList.add("calendarImg");
-
-
+                
+                    // Assigning an ID to the image
+                    image.setAttribute('id', 'newImageId');
+                
+                    // Adding hover event listener
+                    image.addEventListener('mouseenter', function() {
+                        // Function to run when hovered
+                        console.log('Image hovered!');
+                        // Call your function here
+                        addElement();
+                    });
+                
                     link.appendChild(image);
                     cell.appendChild(link);
+                
+                
+                function addElement() {
 
+                    // Create a new element
+                    let sideCalendarDiv = document.createElement("div");
+                    let paragraph = document.createElement("p");
+
+                    sideCalendarDiv.setAttribute('id', 'sideCalendarDiv');
+                                
+                    // Append the new element to the document body
+                    document.body.appendChild(sideCalendarDiv);
+                    sideCalendarDiv.appendChild(paragraph);
+                    
+                    paragraph.classList.add("article-head");
+                    let articleHead = "Exodus 2024";
+
+                    paragraph.document.innerHTML("");
+                }
+                
+            
                     //Full Bloom, Perfect pivot, The Truce
                 } else if (month === 1 && (date === 24 || date === 25) && year === 2024) {
 
@@ -459,4 +488,27 @@ function showCalendar(month, year) {
 function daysInMonth(iMonth, iYear) {
     return 32 - new Date(iYear, iMonth, 32).getDate();
 }
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    const hoverImage = document.getElementsById('calendarImg');
+    const hoverContent = document.getElementsById('Exodus');
+  
+    hoverImage.addEventListener('mouseover', function() {
+      // Change the URL to the page you want to load content from
+      fetch('https://plusside.net/')
+        .then(response => response.text())
+        .then(html => {
+          hoverContent.innerHTML = html;
+          hoverContent.style.display = 'flex';
+        })
+        .catch(error => console.error('Error fetching HTML:', error));
+    });
+  
+    hoverImage.addEventListener('mouseout', function() {
+      hoverContent.style.display = 'none';
+    });
+  });
+
 //Calendar End
+
