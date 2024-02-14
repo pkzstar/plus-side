@@ -865,14 +865,31 @@ img.events-banners-trans {
 .card {
     display: block;
     align-items: center;
-    background-color: rgb(198, 248, 217);
+    background: rgb(84,255,149);
+    background: -moz-linear-gradient(90deg, rgba(84,255,149,1) 5%, rgba(185,255,212,1) 50%, rgba(84,255,149,1) 95%);
+    background: -webkit-linear-gradient(90deg, rgba(84,255,149,1) 5%, rgba(185,255,212,1) 50%, rgba(84,255,149,1) 95%);
+    background: linear-gradient(90deg, rgba(84,255,149,1) 5%, rgba(185,255,212,1) 50%, rgba(84,255,149,1) 95%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#54ff95",endColorstr="#54ff95",GradientType=1);
 }
 td {
     text-align: center;
     justify-content: center;
 }
+table {
+    background: rgb(64,213,254);
+    background: -moz-linear-gradient(180deg, rgba(64,213,254,1) 0%, rgba(213,235,241,1) 90%);
+    background: -webkit-linear-gradient(180deg, rgba(64,213,254,1) 0%, rgba(213,235,241,1) 90%);
+    background: linear-gradient(180deg, rgba(64,213,254,1) 0%, rgba(213,235,241,1) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#40d5fe",endColorstr="#d5ebf1",GradientType=1); 
+}
+thead {
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 5%, rgba(255,186,226,1) 30%, rgba(255,255,255,1) 80%);
+    background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 5%, rgba(255,186,226,1) 30%, rgba(255,255,255,1) 80%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 5%, rgba(255,186,226,1) 30%, rgba(255,255,255,1) 80%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
+}
 th {
-    background-color: rgb(248, 198, 227);
     text-align: center;
 }
 .card-header {
@@ -908,12 +925,8 @@ th {
     padding: unset;
   }
 td {
-    background-color: rgb(213, 235, 241);
     height: 100px;
     width: 100px;
-}
-.table {
-    background-color: rgb(213, 235, 241);
 }
 #next, #previous {
     color: #000000;
@@ -944,7 +957,11 @@ label.lead {
     div.card  {
         max-width: 90%;
         margin: unset;
-        background-color: rgb(198, 248, 217);
+        background: rgb(73,255,142);
+        background: -moz-linear-gradient(90deg, rgba(73,255,142,1) 0%, rgba(198,248,217,1) 50%);
+        background: -webkit-linear-gradient(90deg, rgba(73,255,142,1) 0%, rgba(198,248,217,1) 50%);
+        background: linear-gradient(90deg, rgba(73,255,142,1) 0%, rgba(198,248,217,1) 50%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#49ff8e",endColorstr="#c6f8d9",GradientType=1);
         height: 100px;
         margin-left: 550px;
     } 
@@ -977,7 +994,11 @@ label.lead {
     .form-inline {
         justify-content: space-evenly;
         margin-top: -21px;
-        background-color: rgb(198, 248, 217);
+            background: rgb(73,255,142);
+    background: -moz-linear-gradient(90deg, rgba(73,255,142,1) 0%, rgba(198,248,217,1) 50%);
+    background: -webkit-linear-gradient(90deg, rgba(73,255,142,1) 0%, rgba(198,248,217,1) 50%);
+    background: linear-gradient(90deg, rgba(73,255,142,1) 0%, rgba(198,248,217,1) 50%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#49ff8e",endColorstr="#c6f8d9",GradientType=1);
     }
     #next, #previous {
         margin-top: 20px;
