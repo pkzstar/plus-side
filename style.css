@@ -175,7 +175,13 @@ img.plus-side-net-nav:active {
     border-style: double;
     border-block-style: groove;
    border-block-width: thick;
-   background: linear-gradient(rgb(50, 185, 152), rgb(156, 249, 214));
+   
+   background: rgb(50,185,152);
+   background: -moz-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+   background: -webkit-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+   background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#32b998",GradientType=1);
+
    border-block-end-color: rgb(0, 65, 50);
    writing-mode: horizontal-tb;
 }
@@ -248,8 +254,11 @@ img.plus-side-net-nav:active {
 .article-read {
     font-size: 30px;
     float: center;
-    background-color: rgb(50, 185, 152);
-    border-radius: 15px 15px 15px 15px;
+    background: rgb(50,185,152);
+    background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#ffffff",GradientType=1);    border-radius: 15px 15px 15px 15px;
     padding-left: 20px;
     padding-right: 20px;
     box-shadow: 0 0 3px 0 rgb(0, 196, 16);
@@ -292,8 +301,11 @@ img.plus-side-net-nav:active {
     border-style: double;
     border-block-style: groove;
    border-block-width: thick;
-   background: linear-gradient(rgb(50, 185, 152), rgb(156, 249, 214));
-   border-block-end-color: rgb(0, 65, 50);
+   background: rgb(50,185,152);
+   background: -moz-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+   background: -webkit-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+   background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#32b998",GradientType=1);   border-block-end-color: rgb(0, 65, 50);
    writing-mode: horizontal-tb;
 }
 @media only screen and (max-width: 600px) {
@@ -466,7 +478,13 @@ img.plus-side-net-nav:active {
 .start-gg {
     font-size: 30px;
     float: center;
-    background-color: rgb(50, 185, 152);
+
+    background: rgb(50,185,152);
+    background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#ffffff",GradientType=1);
+
     border-radius: 15px 15px 15px 15px;
     padding-left: 18px;
     padding-right: 18px;
@@ -511,8 +529,11 @@ img.plus-side-net-nav:active {
     border-block-style: groove;
    border-block-width: thick;
    border-style: double;
-   background: linear-gradient(rgb(50, 185, 152), rgb(156, 249, 214));
-   border-block-end-color: rgb(0, 65, 50);
+   background: rgb(50,185,152);
+   background: -moz-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+   background: -webkit-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+   background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#32b998",GradientType=1);   border-block-end-color: rgb(0, 65, 50);
    writing-mode: horizontal-tb;
 }
 @media only screen and (max-width: 600px) {
@@ -544,8 +565,11 @@ img.plus-side-net-nav:active {
 .vods-past {
     font-size: 30px;
     float: center;
-    background-color: rgb(50, 185, 152);
-    border-radius: 15px 15px 15px 15px;
+    background: rgb(50,185,152);
+    background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#ffffff",GradientType=1);    border-radius: 15px 15px 15px 15px;
     padding-left: 20px;
     padding-right: 20px;
     box-shadow: 0 0 3px 0 rgb(0, 196, 16);
@@ -865,11 +889,11 @@ img.events-banners-trans {
 .card {
     display: block;
     align-items: center;
-    background: rgb(84,255,149);
-    background: -moz-linear-gradient(90deg, rgba(84,255,149,1) 5%, rgba(185,255,212,1) 50%, rgba(84,255,149,1) 95%);
-    background: -webkit-linear-gradient(90deg, rgba(84,255,149,1) 5%, rgba(185,255,212,1) 50%, rgba(84,255,149,1) 95%);
-    background: linear-gradient(90deg, rgba(84,255,149,1) 5%, rgba(185,255,212,1) 50%, rgba(84,255,149,1) 95%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#54ff95",endColorstr="#54ff95",GradientType=1);
+    background: rgb(147,255,214);
+    background: -moz-radial-gradient(circle, rgba(147,255,214,1) 65%, rgba(50,185,152,1) 90%);
+    background: -webkit-radial-gradient(circle, rgba(147,255,214,1) 65%, rgba(50,185,152,1) 90%);
+    background: radial-gradient(circle, rgba(147,255,214,1) 65%, rgba(50,185,152,1) 90%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#93ffd6",endColorstr="#32b998",GradientType=1);
 }
 td {
     text-align: center;
@@ -888,6 +912,13 @@ thead {
     background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 5%, rgba(255,186,226,1) 30%, rgba(255,255,255,1) 80%);
     background: linear-gradient(180deg, rgba(255,255,255,1) 5%, rgba(255,186,226,1) 30%, rgba(255,255,255,1) 80%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
+}
+.bg-info {
+    background: rgb(63,247,251);
+    background: -moz-linear-gradient(125deg, rgba(63,247,251,1) 20%, rgba(115,141,252,1) 50%, rgba(255,173,189,1) 80%);
+    background: -webkit-linear-gradient(125deg, rgba(63,247,251,1) 20%, rgba(115,141,252,1) 50%, rgba(255,173,189,1) 80%);
+    background: linear-gradient(125deg, rgba(63,247,251,1) 20%, rgba(115,141,252,1) 50%, rgba(255,173,189,1) 80%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#3ff7fb",endColorstr="#ffadbd",GradientType=1);
 }
 th {
     text-align: center;
@@ -957,11 +988,11 @@ label.lead {
     div.card  {
         max-width: 90%;
         margin: unset;
-        background: rgb(84,255,149);
-        background: -moz-linear-gradient(90deg, rgba(84,255,149,1) 5%, rgba(185,255,212,1) 50%, rgba(84,255,149,1) 95%);
-        background: -webkit-linear-gradient(90deg, rgba(84,255,149,1) 5%, rgba(185,255,212,1) 50%, rgba(84,255,149,1) 95%);
-        background: linear-gradient(90deg, rgba(84,255,149,1) 5%, rgba(185,255,212,1) 50%, rgba(84,255,149,1) 95%);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#54ff95",endColorstr="#54ff95",GradientType=1);
+        background: rgb(147,255,214);
+        background: -moz-radial-gradient(circle, rgba(147,255,214,1) 65%, rgba(50,185,152,1) 90%);
+        background: -webkit-radial-gradient(circle, rgba(147,255,214,1) 65%, rgba(50,185,152,1) 90%);
+        background: radial-gradient(circle, rgba(147,255,214,1) 65%, rgba(50,185,152,1) 90%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#93ffd6",endColorstr="#32b998",GradientType=1);
         height: 100px;
         margin-left: 550px;
     } 
@@ -994,11 +1025,11 @@ label.lead {
     .form-inline {
         justify-content: space-evenly;
         margin-top: -21px;
-        background: rgb(84,255,149);
-        background: -moz-linear-gradient(90deg, rgba(84,255,149,1) 5%, rgba(185,255,212,1) 50%, rgba(84,255,149,1) 95%);
-        background: -webkit-linear-gradient(90deg, rgba(84,255,149,1) 5%, rgba(185,255,212,1) 50%, rgba(84,255,149,1) 95%);
-        background: linear-gradient(90deg, rgba(84,255,149,1) 5%, rgba(185,255,212,1) 50%, rgba(84,255,149,1) 95%);
-        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#54ff95",endColorstr="#54ff95",GradientType=1);
+        background: rgb(147,255,214);
+        background: -moz-radial-gradient(circle, rgba(147,255,214,1) 65%, rgba(50,185,152,1) 90%);
+        background: -webkit-radial-gradient(circle, rgba(147,255,214,1) 65%, rgba(50,185,152,1) 90%);
+        background: radial-gradient(circle, rgba(147,255,214,1) 65%, rgba(50,185,152,1) 90%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#93ffd6",endColorstr="#32b998",GradientType=1);
     }
     #next, #previous {
         margin-top: 20px;
@@ -1014,8 +1045,11 @@ label.lead {
 }
 .calView {
     font-size: 30px;
-    background-color: rgb(50, 185, 152);
-    border-radius: 15px 15px 15px 15px;
+background: rgb(50,185,152);
+background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+background: linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#ffffff",GradientType=1);    border-radius: 15px 15px 15px 15px;
     padding-left: 18px;
     padding-right: 18px;
     box-shadow: 0 0 3px 0 rgb(0, 196, 16);
@@ -1028,8 +1062,11 @@ label.lead {
 .calViewList {
     margin-bottom: -25px;
     font-size: 30px;
-    background-color: rgb(50, 185, 152);
-    border-radius: 15px 15px 15px 15px;
+    background: rgb(50,185,152);
+    background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#ffffff",GradientType=1);    border-radius: 15px 15px 15px 15px;
     padding-left: 18px;
     padding-right: 18px;
     box-shadow: 0 0 3px 0 rgb(0, 196, 16);
