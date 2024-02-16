@@ -511,4 +511,3 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
 //Calendar End
-
