@@ -1,7 +1,7 @@
-import React from 'jsx templates';
-import PastEvents from '/PastEvents';
+import React from 'react';
+import PastEvents from './PastEvents';
 
-function PastEvents() {
+function App() {
   return (
     <div className="App">
       {/* Other components or content */}
@@ -12,4 +12,4 @@ function PastEvents() {
   );
 }
 
-export default PastEvents;
+export default App;
