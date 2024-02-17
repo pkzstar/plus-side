@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from 'react-dom/client';
+
 export default function PastEvents() {
     return (
         <li className="past-events">
@@ -27,3 +30,12 @@ export default function PastEvents() {
 </li>
     )
 }
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <PastEvents />
+  </React.StrictMode>
+);
+
+const rootElement = document.getElementById('react-container');
+ReactDOM.render(<PastEvents />, rootElement,);

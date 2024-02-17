@@ -98,7 +98,7 @@ p {
     
     <div>
       <!--create dynamic table with js later-->
-      <ul class="pastList">
+      <ul class="pastList" id="pastList">
 
         <li class="past-events">
           <div style="flex: 0;">
@@ -153,6 +153,8 @@ p {
         </li>
 
 
+        <section id="react-container"></section>
+
         
 
 
@@ -180,11 +182,17 @@ p {
         <li style="height: 800px;" class="past-eventsHidden">
         </li>
 
-        <script></script>
-        <script src="react-templates\past-events-template\src\past-events.js"></script>
-        <script src="script.js"></script>
+<!-- Include React and ReactDOM from CDN -->
+<script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+<script type="module">
+  import PastEvents from '/react-templates/past-events-template/src/PastEvents.js';
+  ReactDOM.render(<PastEvents />, document.getElementById('root'));
+</script>
+
+<script src="/react-templates\past-events-template\src\PastEvents.js"></script>
+<script src="/react-templates\past-events-template\src\index.js"></script>
+
  </body>
- <script>
-            ReactDOM.render(<PastEvents />, document.getElementById('past-events-container'));
- </script>
 </html>

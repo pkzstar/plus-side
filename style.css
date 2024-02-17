@@ -779,6 +779,9 @@ img.article-potential-characters {
 .past-events-banners:active {
     transform: scale3d(1.03, 1.03, 1.03); 
 }
+#pastList {
+    display: flex;
+}
 @media only screen and (max-width: 600px) {
     ul.pastList {
         justify-content: center;
