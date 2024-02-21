@@ -60,8 +60,45 @@ function showCalendar(month, year) {
             } else {
                 cell = document.createElement("td");
 
+                if (month === 0 && year === 2024) {
+                    document.getElementById("previous").style.display = "none";
+                } else {
+                    document.getElementById("previous").style.display = "block";
+                }
+                //Game 5 in the D
+            if(month === 0 && date === 20 && year === 2024) {
+                // Example link with image
+                let link = document.createElement("a");
+                link.href = "https://www.start.gg/tournament/game-5-in-the-d/details";
+                link.target = "_blank";
+
+                let image = document.createElement("img");
+                image.src = "https://github.com/pkzstar/plus-side/blob/main/images/game5In.png?raw=true";
+
+                image.classList.add("calendarImg");
+
+
+                link.appendChild(image);
+                cell.appendChild(link);
+
+                //Vortex
+            } else if (month === 0 && date === 28 && year === 2024) {
+                    // Example link with image
+                    let link = document.createElement("a");
+                    link.href = "https://www.start.gg/tournament/vortex-gallery-at-frosty-faustings-xvi/event/project-wii/standings";
+                    link.target = "_blank";
+
+                    let image = document.createElement("img");
+                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/vortex.png?raw=true";
+
+                    image.classList.add("calendarImg");
+
+
+                    link.appendChild(image);
+                    cell.appendChild(link);
+                    
                 // The Cure
-                if (month === 1 && date === 9 && year === 2024) {
+                 } else if(month === 1 && date === 9 && year === 2024) {
                     // Example link with image
                     let link = document.createElement("a");
                     link.href = "https://www.start.gg/tournament/the-cure-100-pot-bonus-p-invitational/details";
