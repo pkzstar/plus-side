@@ -3,6 +3,8 @@
   <meta charset="UTF-8">  
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
  <head>
+  <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
     <title>Plus Side</title>
     <link rel="icon" type="image/x-icon" href="https://github.com/pkzstar/plus-side/blob/main/images/favicon.png?raw=true">
@@ -153,46 +155,38 @@ p {
         </li>
 
 
+      
+
+        <li style="height: 800px;" class="past-eventsHidden">
+        </li>
+        <li style="height: 800px;" class="past-eventsHidden">
+        </li>
+        <li style="height: 800px;" class="past-eventsHidden">
+        </li>
+        <li style="height: 800px;" class="past-eventsHidden">
+        </li>
+        <li style="height: 800px;" class="past-eventsHidden">
+        </li>
+        <li style="height: 800px;" class="past-eventsHidden">
+        </li>
+        <li style="height: 800px;" class="past-eventsHidden">
+        </li>
+        <li style="height: 800px;" class="past-eventsHidden">
+        </li>
+        <li style="height: 800px;" class="past-eventsHidden">
+        </li>
+        <li style="height: 800px;" class="past-eventsHidden">
+        </li>
+        <li style="height: 800px;" class="past-eventsHidden">
+        </li>
+
         <section id="react-container"></section>
 
-        
-
-
-
-        <li style="height: 800px;" class="past-eventsHidden">
-        </li>
-        <li style="height: 800px;" class="past-eventsHidden">
-        </li>
-        <li style="height: 800px;" class="past-eventsHidden">
-        </li>
-        <li style="height: 800px;" class="past-eventsHidden">
-        </li>
-        <li style="height: 800px;" class="past-eventsHidden">
-        </li>
-        <li style="height: 800px;" class="past-eventsHidden">
-        </li>
-        <li style="height: 800px;" class="past-eventsHidden">
-        </li>
-        <li style="height: 800px;" class="past-eventsHidden">
-        </li>
-        <li style="height: 800px;" class="past-eventsHidden">
-        </li>
-        <li style="height: 800px;" class="past-eventsHidden">
-        </li>
-        <li style="height: 800px;" class="past-eventsHidden">
-        </li>
-
-<!-- Include React and ReactDOM from CDN -->
-<script src="https://unpkg.com/react@17/umd/react.development.js"></script>
-<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
-
+        <script src="../react-templates/past-events-template/src/PastEvents.js" type="module"></script>
 <script type="module">
-  import PastEvents from '/react-templates/past-events-template/src/PastEvents.js';
-  ReactDOM.render(<PastEvents />, document.getElementById('root'));
+import PastEvents from '../react-templates/past-events-template/src/PastEvents.js';
+ReactDOM.render(<PastEvents />, document.getElementById('react-container'));
 </script>
-
-<script src="/react-templates\past-events-template\src\PastEvents.js"></script>
-<script src="/react-templates\past-events-template\src\index.js"></script>
 
  </body>
 </html>
