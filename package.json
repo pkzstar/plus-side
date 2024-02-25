@@ -1,7 +1,17 @@
 {
+  "scripts": {
+    "build": "npx babel react-templates/past-events-template/src/PastEvents.js --out-file dist/PastEvents.js"
+  },
   "devDependencies": {
     "@babel/cli": "^7.23.9",
-    "@babel/core": "^7.23.9",
-    "@babel/preset-react": "^7.23.3"
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-transform-react-jsx": "^7.23.4",
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3",
+    "babel-cli": "^6.26.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
