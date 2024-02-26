@@ -1,0 +1,10 @@
+{
+      eventTitle: "",
+      imageUrl: "",
+      eventUrl: "",
+      date: "",
+      location: "",
+      entrants: ,
+      top3: ["", "", ""],
+      vodsUrl: ""
+    },
