@@ -237,6 +237,32 @@ function showCalendar(month, year) {
                     fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
 
+                    //mutiny
+                } else if (month === 2 && date === 2 && year === 2024) {
+                    let link = document.createElement("a");
+                    link.href = "https://www.start.gg/tournament/college-park-mutiny-blossom-feat-eve-kevin-maples-mvlvchi-200/details";
+                    link.target = "_blank";
+                
+                    let image = document.createElement("img");
+                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/mutiny.png?raw=true";
+                
+                    image.classList.add("calendarImg");
+                
+                    // Assigning an ID to the image
+                    image.setAttribute('id', 'newImageId');
+                
+                    // Adding hover event listener
+                    image.addEventListener('mouseenter', function() {
+                        // Function to run when hovered
+                        console.log('Image hovered!');
+                        // Call your function here
+                        addElement();
+                    });
+                
+                    link.appendChild(image);
+                    cell.appendChild(link);
+                
+                
                     //Northstar
                 } else if (month === 2 && date === 10 && year === 2024) {
 
