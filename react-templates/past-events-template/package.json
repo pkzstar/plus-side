@@ -2,6 +2,8 @@
   "name": "past-events-template",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://plusside.net/react-templates/past-events-template/public/index.html",
+
   "dependencies": {
     "@babel/preset-env": "^7.17.0",
     "@babel/preset-react": "^7.17.0",

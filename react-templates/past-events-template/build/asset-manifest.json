@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.0e6522df.css",
-    "main.js": "/static/js/main.19dcc77b.js",
-    "static/js/453.fa19c935.chunk.js": "/static/js/453.fa19c935.chunk.js",
-    "index.html": "/index.html",
-    "main.0e6522df.css.map": "/static/css/main.0e6522df.css.map",
-    "main.19dcc77b.js.map": "/static/js/main.19dcc77b.js.map",
-    "453.fa19c935.chunk.js.map": "/static/js/453.fa19c935.chunk.js.map"
+    "main.css": "/react-templates/past-events-template/public/index.html/static/css/main.0e6522df.css",
+    "main.js": "/react-templates/past-events-template/public/index.html/static/js/main.2e15d2c8.js",
+    "static/js/453.fa19c935.chunk.js": "/react-templates/past-events-template/public/index.html/static/js/453.fa19c935.chunk.js",
+    "index.html": "/react-templates/past-events-template/public/index.html/index.html",
+    "main.0e6522df.css.map": "/react-templates/past-events-template/public/index.html/static/css/main.0e6522df.css.map",
+    "main.2e15d2c8.js.map": "/react-templates/past-events-template/public/index.html/static/js/main.2e15d2c8.js.map",
+    "453.fa19c935.chunk.js.map": "/react-templates/past-events-template/public/index.html/static/js/453.fa19c935.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0e6522df.css",
-    "static/js/main.19dcc77b.js"
+    "static/js/main.2e15d2c8.js"
   ]
 }
