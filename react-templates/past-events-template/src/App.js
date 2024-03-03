@@ -1,7 +1,5 @@
 import React from 'react';
 import PastEvents from './PastEvents';
-import HiddenEvent from './HiddenList'; 
-
 
 function App() {
   // Define event data
