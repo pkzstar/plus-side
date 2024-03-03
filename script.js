@@ -279,6 +279,23 @@ function showCalendar(month, year) {
                     link.appendChild(image);
                     cell.appendChild(link);
 
+                    //aftershock
+                } else if (month === 2 && date === 15 && year === 2024) {
+
+                    let link = document.createElement("a");
+                    link.href = "https://www.start.gg/tournament/aftershock-p-hdr-2/details";
+                    link.target = "_blank";
+
+                    let image = document.createElement("img");
+                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/aftershock.png?raw=true";
+
+                    image.classList.add("calendarImg");
+
+
+                    link.appendChild(image);
+                    cell.appendChild(link);
+
+
                     //Storm
                 } else if (month === 2 && date === 16 && year === 2024) {
 

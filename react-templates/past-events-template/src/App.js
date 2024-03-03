@@ -7,6 +7,16 @@ function App() {
   // Define event data
   const events = [
     {
+      eventTitle: "College Park Mutiny: Blossom",
+      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/mutiny.png?raw=true",
+      eventUrl: "https://www.start.gg/tournament/college-park-mutiny-blossom-feat-eve-kevin-maples-mvlvchi-200/event/project-singles/brackets/1564756/2347891",
+      date: "March 2 2024",
+      location: "Maryland",
+      entrants: 10,
+      top3: ["Hyperflame", "Mo $", "Bluuest"],
+      vodsUrl: ""
+    },
+    {
       eventTitle: "Full Bloom 2024",
       imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/fullbloom.png?raw=true",
       eventUrl: "https://www.start.gg/tournament/full-bloom-2024/event/project-singles",
@@ -114,7 +124,7 @@ function App() {
             second={event.top3[1]}
             third={event.top3[2]}
             vodsUrl={event.vodsUrl}
-            hideRankImage={index === 1 || index === 2 || index === 3 || index === 6}
+            hideRankImage={ index === 0 || index === 2 || index === 3 || index === 4 || index === 7}
           />
         ))}
       </ul>
