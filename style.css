@@ -661,60 +661,67 @@ img.article-potential-characters {
     height: 99%;
 }
 .past-events-drop {
+    display: inline-block;
     overflow: hidden;
 }
 @media only screen and (max-width: 600px) {
     
     .past-events-drop {
         font-size: 12px;
-        margin: 0;
-        padding-bottom: 4px;
+        margin-top: 10px;
         }
  }
-#past-events-drop-btn:hover {
-    color:  rgb(10, 180, 88);
-    transition: transform 0.3s ease
-
-}
 .past-events-drop .past-events-drop-btn {
-    width: 200px;
     height: auto;
-    font-size: 35px;
+    font-size: 30px;
     border: none;
     outline: none;
-    color: white;
+    color: rgb(0, 0, 0);
     background-color: inherit;
-    font-family: inherit;
     padding: 0;
     overflow: visible;
     z-index: 11111;
 }
-.past-events-drop:hover .past-events-drop-btn:hover {
-    transform: scale3d(1.1, 1.1, 1.1);
+.past-events-drop-btn:hover {
+    color: rgb(60, 42, 177);
+    transition: transform 0.3s ease
 }
 @media only screen and (max-width: 600px) {
-    
-    button#past-events-drop-btn {
-        font-size: 12px;
-        width: 70px;
-    }
-        .past-events-drop {
-            width: max-content;
 
-        }
+    div.past-events-drop.calView {
+        margin: 10px 5px 5px 0;
+
+    }
+
+    div.dropdown-content {
+        margin: 30px 0px 0px -5px;
+        grid-template-columns: repeat(2, auto);
+        grid-auto-flow: column;
+        position: absolute;
+        z-index: 1;
+    }
+    a.dropdown-links {
+        margin: 0 10px 0px 0px;
+    }
+    #past-year {
+        font-size: 20px;
+    }
+    button#past-events-drop-btn {
+        font-size: 17.5px;
+        flex: 1;
+        width: fit-content;
+        height: auto;
+    }
  }
 .dropdown-content {
-    padding-inline-end: 50px;
-    display: none;
+    margin: 50px 0px 5px 0px;
+    grid-template-columns: repeat(2, auto);
+    grid-auto-flow: column;
     position: absolute;
     z-index: 1;
 }
-.past-events-drop:hover .dropdown-content {
-    display: grid;
-    transition: transform 0.3s ease
-}
 .dropdown-links {
-    margin: 5px 0px 5px 50px;
+    margin: 0px 0px 5px 10px;
     border-radius: 25%;
     background-color: rgba(0, 0, 0, 0.705);
     border-style: double;
@@ -734,9 +741,6 @@ img.article-potential-characters {
     border-inline-color: slateblue;
     transform: scale3d(1.1, 1.1, 1.1);
     transition: transform 0.3s ease
-}
-.past-events-drop-btn {
-    text-shadow: 7px 7px 7px #000000;
 }
 #past-year {
     color:  rgb(10, 180, 88);
@@ -1047,6 +1051,7 @@ label.lead {
     }
 }
 .calView {
+    margin: 0 50px 0 50px;
     font-size: 30px;
 background: rgb(50,185,152);
 background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
@@ -1081,7 +1086,7 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endCo
 }
 @media only screen and (max-width: 767px) {
     button.calView {
-        margin-top: 10px;
+        margin: 10px 5px 5px 0;
         flex: 1;
         width: fit-content;
         height: auto;

@@ -2,7 +2,6 @@ import React from 'react';
 import PastEvents from './PastEvents';
 
 function App() {
-  // Define event data
   const events = [
     {
       eventTitle: "College Park Mutiny: Blossom",
