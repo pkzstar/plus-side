@@ -313,7 +313,7 @@ function showCalendar(month, year) {
                     cell.appendChild(link);
 
 
-                    //ETSU-Con, Titans, Game5in
+                    //ETSU-Con, Titans, Game5in, cascade
                 } else if (month === 2 && date === 23 && year === 2024) {
 
                     const events = [
@@ -329,6 +329,10 @@ function showCalendar(month, year) {
                         {
                             link: "https://www.start.gg/tournament/etsu-con-2024/details",
                             imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/etsu.png?raw=true"
+                        },
+                        {
+                            link: "https://www.start.gg/tournament/cascade-clash-a-best-in-texas-league-event-1/details",
+                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/cascade.png?raw=true"
                         }
                     ];
 
