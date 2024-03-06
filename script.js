@@ -628,3 +628,31 @@ document.addEventListener('DOMContentLoaded', function() {
   });
 
 //Calendar End
+
+//Past events button
+
+// Function to toggle the dropdown content
+function toggleDropdown(event) {
+  let dropdownContent = document.getElementById("dropdown-content");
+  if (dropdownContent.style.display === "none" || dropdownContent.style.display === "") {
+    dropdownContent.style.display = "grid";
+    // Add event listener to hide dropdown when clicking outside of it
+    document.addEventListener('click', hideDropdownOnClickOutside);
+  } else {
+    dropdownContent.style.display = "none";
+    // Remove event listener when hiding dropdown
+    document.removeEventListener('click', hideDropdownOnClickOutside);
+  }
+  // Stop event propagation
+  event.stopPropagation();
+}
+
+// Function to hide dropdown when clicking outside of it
+function hideDropdownOnClickOutside(event) {
+  var dropdown = document.getElementById("dropdown-content");
+  var button = document.getElementById("past-events-drop-btn");
+  if (!dropdown.contains(event.target) && !button.contains(event.target)) {
+    dropdown.style.display = "none";
+    document.removeEventListener('click', hideDropdownOnClickOutside);
+  }
+}
