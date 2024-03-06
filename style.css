@@ -1070,7 +1070,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endCo
        border-block-width: thick;
 }
 .calViewList {
-    margin-bottom: -25px;
     font-size: 30px;
     background: rgb(50,185,152);
     background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
@@ -1087,6 +1086,12 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endCo
        border-block-width: thick;
 }
 @media only screen and (max-width: 767px) {
+    
+    div.calViewListContainer {
+        margin: 0 0px 0 30px;
+
+    }
+
     button.calView {
         margin: 10px 5px 5px 0;
         flex: 1;
@@ -1098,13 +1103,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endCo
     margin-bottom: 1%;    
 }
 button.calViewList {
-    margin-top: 10px;
-    margin-bottom: 10px;
-        width: fit-content;
-        height: auto;
-        font-size: 17.5px;
-    display: flex;
-    justify-content: center;
+    margin: 10px 5px 5px 0;
+    font-size: 17.5px;
 }
 }
 .calView:hover
@@ -1120,6 +1120,8 @@ button.calViewList {
     margin-bottom: 6%;
 }
 .calViewListContainer {
+    margin: 0 0px 0 70px;
     display: flex;
     justify-content: center;
+
 }
