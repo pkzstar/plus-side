@@ -663,6 +663,7 @@ img.article-potential-characters {
 .past-events-drop {
     display: inline-block;
     overflow: hidden;
+    cursor: pointer;
 }
 @media only screen and (max-width: 600px) {
     
@@ -672,6 +673,7 @@ img.article-potential-characters {
         }
  }
 .past-events-drop .past-events-drop-btn {
+    cursor: pointer;
     height: auto;
     font-size: 30px;
     border: none;
