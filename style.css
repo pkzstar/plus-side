@@ -811,6 +811,9 @@ img:focus {
     cursor:pointer;
     transition: .25s ease;
 }
+img.zoomed {
+    transform: scale3d(1, 1, 1);
+}
 img:hover {
     cursor:zoom-in;
 }

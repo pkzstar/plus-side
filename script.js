@@ -649,10 +649,28 @@ function toggleDropdown(event) {
 
 // Function to hide dropdown when clicking outside of it
 function hideDropdownOnClickOutside(event) {
-  var dropdown = document.getElementById("dropdown-content");
-  var button = document.getElementById("past-events-drop-btn");
+  let dropdown = document.getElementById("dropdown-content");
+  let button = document.getElementById("past-events-drop-btn");
   if (!dropdown.contains(event.target) && !button.contains(event.target)) {
     dropdown.style.display = "none";
     document.removeEventListener('click', hideDropdownOnClickOutside);
   }
+}
+
+
+
+function ToggleZoom(imageId) {
+    let isZoomed = false;
+    let zoomIn = document.getElementById(imageId);
+    let zoomInStyle = window.getComputedStyle(zoomIn);
+
+    if (zoomInStyle.cursor === "zoom-out") {
+        zoomIn.classList.add("zoomed");
+        zoomIn.style.cursor = "zoom-in";
+
+    } else {
+        zoomIn.style.cursor = "zoom-out";
+        zoomIn.classList.remove("zoomed");
+
+    }
 }
