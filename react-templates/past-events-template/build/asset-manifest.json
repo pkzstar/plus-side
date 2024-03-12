@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-templates/past-events-template/public/index.html/static/css/main.0e6522df.css",
-    "main.js": "/react-templates/past-events-template/public/index.html/static/js/main.e28942ce.js",
+    "main.js": "/react-templates/past-events-template/public/index.html/static/js/main.c55309bd.js",
     "static/js/453.fa19c935.chunk.js": "/react-templates/past-events-template/public/index.html/static/js/453.fa19c935.chunk.js",
     "index.html": "/react-templates/past-events-template/public/index.html/index.html",
     "main.0e6522df.css.map": "/react-templates/past-events-template/public/index.html/static/css/main.0e6522df.css.map",
-    "main.e28942ce.js.map": "/react-templates/past-events-template/public/index.html/static/js/main.e28942ce.js.map",
+    "main.c55309bd.js.map": "/react-templates/past-events-template/public/index.html/static/js/main.c55309bd.js.map",
     "453.fa19c935.chunk.js.map": "/react-templates/past-events-template/public/index.html/static/js/453.fa19c935.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0e6522df.css",
-    "static/js/main.e28942ce.js"
+    "static/js/main.c55309bd.js"
   ]
 }

@@ -1,7 +1,11 @@
-- pikachu add someday?
+- npm run build needing to redirect js everytime 
 
-- exodus and other calendar event popups via hover js
+- article form for editors
 
-- react exp, standardize past events etc
+- character summaries
 
--
+- hdr report???
+
+- upcoming event template
+
+- 

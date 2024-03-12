@@ -52,7 +52,7 @@ function App() {
       location: "Le Kremlin-Bicêtre",
       entrants: 40,
       top3: ["Smash_Falco3", "Melody", "iPunch"],
-      vodsUrl: ""
+      vodsUrl: "https://www.youtube.com/playlist?list=PLOrpg49V8Z_KlpTmgnJdOWtHbrNDx6E3Y"
     },
     {
       eventTitle: "Beantown Lean House I",
@@ -82,7 +82,7 @@ function App() {
       location: "Massachusetts",
       entrants: 34,
       top3: ["wren", "Shadowhawke", "~CP9~"],
-      vodsUrl: ""
+      vodsUrl: "https://www.youtube.com/playlist?list=PLAIIMiVssmgoLW_ael9HgTWKG5L3SIyUq"
     },
     {
       eventTitle: "The Cure",
@@ -92,7 +92,7 @@ function App() {
       location: "Colorado",
       entrants: 14,
       top3: ["Whoratio", "shwang", "meecrobs"],
-      vodsUrl: "",
+      vodsUrl: "https://www.youtube.com/playlist?list=PLjAjRxkFDTqOIcs4xm5tbfH_KuO0FvY4S",
     },
     {
       eventTitle: "Vortex Gallery at Frosty Faustings XVI",
