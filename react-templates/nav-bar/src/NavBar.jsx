@@ -49,7 +49,7 @@ function NavBar() {
           <a href="/">
             <p id="navText">Events</p>
           </a>
-          <a href="Articles.html">
+          <a href="/Articles.html">
             <p id="navText">Articles</p>
           </a>
         </section>

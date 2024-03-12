@@ -721,7 +721,7 @@ function hideDropdownOnClickOutside(event) {
 }
 
 
-
+//image zoom in and out
 function ToggleZoom(imageId) {
     let isZoomed = false;
     let zoomIn = document.getElementById(imageId);
