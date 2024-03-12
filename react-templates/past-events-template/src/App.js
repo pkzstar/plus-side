@@ -62,7 +62,7 @@ function App() {
       location: "Massachusetts",
       entrants: 8,
       top3: ["Serb", "Foxy Grandpa", "sfy bees"],
-      vodsUrl: ""
+      vodsUrl: "https://www.youtube.com/watch?v=2DsDtuoZIN4"
     },
     {
       eventTitle: "Exodus 2024",
