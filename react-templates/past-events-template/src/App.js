@@ -5,6 +5,16 @@ import PastEvents from './PastEvents';
 function App() {
   const events = [
     {
+      eventTitle: "Northstar II",
+      imageUrl: "https://raw.githubusercontent.com/pkzstar/plus-side/main/images/upcoming%20events/northstar.png",
+      eventUrl: "https://www.start.gg/tournament/northstar-ii-at-cloud-con/events/project-singles/brackets/1585325/2374365/standings",
+      date: "March 10 2024",
+      location: "Minnesota",
+      entrants: 10,
+      top3: ["Ben", "Perfect Sunset", "Cranky"],
+      vodsUrl: ""
+    },
+    {
       eventTitle: "College Park Mutiny: Blossom",
       imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/mutiny.png?raw=true",
       eventUrl: "https://www.start.gg/tournament/college-park-mutiny-blossom-feat-eve-kevin-maples-mvlvchi-200/event/project-singles/brackets/1564756/2347891",
@@ -122,7 +132,7 @@ function App() {
             second={event.top3[1]}
             third={event.top3[2]}
             vodsUrl={event.vodsUrl}
-            hideRankImage={ index === 0 || index === 2 || index === 3 || index === 4 || index === 7}
+            hideRankImage={ index === 0 || index === 1 || index === 4 || index === 5 || index === 3 || index === 8}
           />
         ))}
       </ul>
