@@ -32,7 +32,7 @@ function App() {
       location: "Indiana",
       entrants: 84,
       top3: ["Dirtboy", "Anther", "Chaloopy"],
-      vodsUrl: ""
+      vodsUrl: "https://www.youtube.com/playlist?list=PL28nRWo732KWJjJ5ujIrH_34dLYDxqwJd"
     },
     {
       eventTitle: "Perfect Pivot",
