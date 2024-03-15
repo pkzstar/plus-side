@@ -52,7 +52,7 @@ function App() {
       location: "Le Kremlin-Bicêtre",
       entrants: 40,
       top3: ["Smash_Falco3", "Melody", "iPunch"],
-      vodsUrl: "https://www.youtube.com/playlist?list=PLOrpg49V8Z_KlpTmgnJdOWtHbrNDx6E3Y"
+      vodsUrl: "https://www.youtube.com/playlist?list=PLKRfQKsyLmMa-134SQQmSRVh_QHmI69fW"
     },
     {
       eventTitle: "Beantown Lean House I",
