@@ -575,6 +575,23 @@ function showCalendar(month, year) {
                     link.appendChild(image);
                     cell.appendChild(link);
 
+                    //SuperTps
+                } else if (month === 4 && (date === 24) && year === 2024) {
+
+
+                    let link = document.createElement("a");
+                    link.href = "https://www.start.gg/tournament/tripoint-smash-presents-super-tps-iii/details";
+                    link.target = "_blank";
+
+                    let image = document.createElement("img");
+                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/supertps.png?raw=true";
+
+                    image.classList.add("calendarImg");
+
+
+                    link.appendChild(image);
+                    cell.appendChild(link);
+
                     //Smash Camp
                 } else if ( (month === 4 && date === 31 && year === 2024) ) {
                     
@@ -701,7 +718,22 @@ function showCalendar(month, year) {
                     link.appendChild(image);
                     cell.appendChild(link);
 
-                    //
+                 //Carnival-clash
+                } else if (month === 7 && (date === 3) && year === 2024) {
+
+
+                    let link = document.createElement("a");
+                    link.href = "https://www.start.gg/tournament/carnival-clash-2/details";
+                    link.target = "_blank";
+
+                    let image = document.createElement("img");
+                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/carnivalclash2.png?raw=true";
+
+                    image.classList.add("calendarImg");
+
+
+                    link.appendChild(image);
+                    cell.appendChild(link);
 
 
 

@@ -5,6 +5,26 @@ import PastEvents from './PastEvents';
 function App() {
   const events = [
     {
+      eventTitle: "Storm VIII",
+      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/storm.png?raw=true",
+      eventUrl: "https://www.start.gg/tournament/storm-viii-1/event/pm-singles",
+      date: "March 16 2024",
+      location: "Newcastle upon Tyne",
+      entrants: 24,
+      top3: ["Eon", "maXy", "squeachu"],
+      vodsUrl: ""
+    },
+    {
+      eventTitle: "Aftershock P+ & HDR",
+      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/aftershock.png?raw=true",
+      eventUrl: "https://www.start.gg/tournament/aftershock-p-hdr-2/details",
+      date: "March 15 2024",
+      location: "New Jersey",
+      entrants: 39,
+      top3: ["Shiny Zubat", "Jodeci Joestar", "Vaporeon"],
+      vodsUrl: ""
+    },
+    {
       eventTitle: "Northstar II",
       imageUrl: "https://raw.githubusercontent.com/pkzstar/plus-side/main/images/upcoming%20events/northstar.png",
       eventUrl: "https://www.start.gg/tournament/northstar-ii-at-cloud-con/events/project-singles/brackets/1585325/2374365/standings",
@@ -132,7 +152,7 @@ function App() {
             second={event.top3[1]}
             third={event.top3[2]}
             vodsUrl={event.vodsUrl}
-            hideRankImage={ index === 0 || index === 1 || index === 4 || index === 5 || index === 3 || index === 8}
+            hideRankImage={ index === 0 || index === 1 || index === 2 || index === 3 ||  index === 5 || index === 6 || index === 7 || index === 10}
           />
         ))}
       </ul>
