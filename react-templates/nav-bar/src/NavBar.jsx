@@ -3,22 +3,9 @@ import React from "react";
 function NavBar() {
   return (
     <div>
-      <meta charSet="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <link
-        href="https://fonts.googleapis.com/css?family=Nunito"
-        rel="stylesheet"
-      />
-      <title>Plus Side</title>
-      <link
-        rel="icon"
-        type="image/x-icon"
-        href="https://github.com/pkzstar/plus-side/blob/main/images/favicon.png?raw=true"
-      />
-      <link rel="stylesheet" href="style.css" />
       <style dangerouslySetInnerHTML={{ __html: "\n      " }} />
       <div className="header-nav">
-        <a className="plus-side-net-nav" href="/">
+        <a href="/">
           <img
             className="plus-side-net-nav"
             src="https://github.com/pkzstar/plus-side/blob/main/images/plusside.net.png?raw=true"

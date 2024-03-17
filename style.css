@@ -40,22 +40,20 @@ a:active { color: rgb(27, 0, 199);}
 @media only screen and (max-width: 600px) {
 section.nav-text {
     display: flex;
-
     justify-content: space-evenly;
     }
  }
  section.nav-text {
     display: flex;
-
     justify-content: space-evenly;
  }
 .header-nav {
+    font-family: 'Nunito';
     background-position-y: 70%;
     background-size: cover;
     background-image: url(https://github.com/pkzstar/plus-side/blob/main/images/pokemon.gif?raw=true);
     font-size: 35px;
   border-radius: 35%;
-  font-family: Nunito;
   padding: 30px 30px 30px 30px;
 }
 @media only screen and (max-width: 600px) { 
@@ -76,10 +74,10 @@ img.plus-side-net-nav {
     
     img.plus-side-net-nav {
         display: flex;
-
         min-width: 25px;
         width: 25%;
         max-width: 100px;
+        margin: -3px 0 0 10px;
      } 
  }
 img.plus-side-net-nav:hover {
@@ -98,7 +96,6 @@ img.plus-side-net-nav:active {
 @media only screen and (max-width: 600px) { 
     img.twitter-link {
     display: flex;
-
     min-height: 20px;
     height: 10%;
     max-height: 30px;
@@ -110,7 +107,6 @@ img.plus-side-net-nav:active {
 .twitter-link:hover {
     transform: scale3d(1.1, 1.1, 1.1);
     transition: transform 0.3s ease
-
 }
 .twitter-link:active {
     transform: scale3d(1.2, 1.2, 1.2);
@@ -153,44 +149,41 @@ img.plus-side-net-nav:active {
      }
  }
 .upcoming-date {
+    font-family: 'Nunito';
     padding-left: 50px;
     text-align: left;
         font-size: large;
-        font-family: Nunito;
 }
 .events {
-    border-inline-color: rgb(0, 146, 172);
-    font-family: Nunito;
+    font-family: 'Nunito';
     text-align: center;
     padding: 25px;
     margin: 25px;
     align-items: center;
     justify-content: center;
     display: flex;
-
     border-radius: 100px 100px 100px 100px;
-    box-shadow: 0 0 3px 0 rgb(0, 196, 16);
     transition: .3s;
-    border-block-color: green;
     border-style: double;
     border-block-style: groove;
    border-block-width: thick;
-   
    background: rgb(50,185,152);
    background: -moz-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
    background: -webkit-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
    background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#32b998",GradientType=1);
-
-   border-block-end-color: rgb(0, 65, 50);
+   box-shadow: 0 0 8px 0  rgb(113, 36, 255);
+   border-inline-color: rgb(113, 36, 255);
+   border-block-color: green;
    writing-mode: horizontal-tb;
 }
 .events:hover {
-    border-inline-color: rgb(0, 146, 172);
     border-style: double;
-    border-block-color: rgb(255, 255, 255);
     border-block-style: groove;
    border-block-width: thick;
+   box-shadow: 0 0 20px 0  rgb(255, 255, 255);
+   border-inline-color: green;
+   border-block-color: rgb(113, 36, 255);
 }
 @media only screen and (max-width: 600px) {
     .events {
@@ -235,13 +228,13 @@ img.plus-side-net-nav:active {
     text-align: left;
 }
 .article-head {
+    font-family: 'Nunito';
     padding-left: 50px;
     text-align: left;
-    font-family: Nunito;
 }
 .article-date {
+    font-family: 'Nunito';
     font-size: large;
-    font-family: Nunito;
 }
 @media only screen and (max-width: 1000px) {
     b.article-date {
@@ -270,9 +263,9 @@ img.plus-side-net-nav:active {
        
 }
 .article-read:hover {
+    font-family: 'Nunito';
     box-shadow: 2px 2px 5px 1px rgb(0, 43, 4);
     border-style: double;
-    font-family: Nunito; 
     color: rgb(60, 42, 177);
     border-inline-color: slateblue;
         border-style: double;
@@ -283,21 +276,16 @@ img.plus-side-net-nav:active {
     color: rgb(27, 0, 199);
 }
 .article-style {
+    font-family: 'Nunito';
     flex-direction: row;
-
-    border-inline-color: rgb(0, 146, 172);
-    font-family: Nunito;
     text-align: center;
     padding: 25px;
     margin: 25px;
     align-items: center;
     justify-content: center;
     display: flex;
-
     border-radius: 100px 100px 100px 100px;
-    box-shadow: 0 0 3px 0 rgb(0, 196, 16);
     transition: .3s;
-    border-block-color: green;
     border-style: double;
     border-block-style: groove;
    border-block-width: thick;
@@ -306,6 +294,9 @@ img.plus-side-net-nav:active {
    background: -webkit-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
    background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#32b998",GradientType=1);   border-block-end-color: rgb(0, 65, 50);
+   box-shadow: 0 0 8px 0  rgb(113, 36, 255);
+   border-inline-color: rgb(113, 36, 255);
+   border-block-color: green;
    writing-mode: horizontal-tb;
 }
 @media only screen and (max-width: 600px) {
@@ -359,13 +350,15 @@ img.plus-side-net-nav:active {
     }
 }
 .article-style:hover {
-    box-shadow: 2px 2px 5px 1px rgb(0, 43, 4);
+    font-family: 'Nunito';
     border-style: double;
-    font-family: Nunito; 
     border-block-color: rgb(255, 255, 255);
     border-block-style: groove;
    writing-mode: horizontal-tb;
    border-block-width: thick;
+   box-shadow: 0 0 20px 0  rgb(255, 255, 255);
+   border-inline-color: green;
+   border-block-color: rgb(113, 36, 255);
 }
 .article-body {
     font-size: larger;
@@ -478,18 +471,17 @@ img.plus-side-net-nav:active {
 .start-gg {
     font-size: 30px;
     float: center;
-
     background: rgb(50,185,152);
     background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
     background: -webkit-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
     background: linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#ffffff",GradientType=1);
-
     border-radius: 15px 15px 15px 15px;
     padding-left: 18px;
     padding-right: 18px;
     box-shadow: 0 0 3px 0 rgb(0, 196, 16);
         transition: .3s;
+        border-inline-color: rgb(113, 36, 255);
         border-block-color: green;
         border-style: double;
         border-block-style: groove;
@@ -506,26 +498,23 @@ img.plus-side-net-nav:active {
 .start-gg:hover {
     color: rgb(60, 42, 177);
     box-shadow: 2px 2px 5px 1px rgb(0, 43, 4);
-    border-inline-color: slateblue;
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;       
 }
 .start-gg:active {
+    box-shadow: 4px 4px 7px 3px rgb(0, 43, 4);
     color: rgb(27, 0, 199);
 }
 .past-events { 
-    border-inline-color: rgb(0, 146, 172);
-    font-family: Nunito;
+    font-family: 'Nunito';
     text-align: center;
     align-items: center;
     padding-top: 25px;
     padding-bottom: 25px;
     justify-content: center;
     border-radius: 100px 100px 100px 100px;
-    box-shadow: 0 0 3px 0 rgb(0, 196, 16);
     transition: .3s;
-    border-block-color: green;
     border-block-style: groove;
    border-block-width: thick;
    border-style: double;
@@ -534,14 +523,15 @@ img.plus-side-net-nav:active {
    background: -webkit-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
    background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#32b998",GradientType=1);   border-block-end-color: rgb(0, 65, 50);
+   box-shadow: 0 0 8px 0  rgb(113, 36, 255);
+   border-inline-color: rgb(113, 36, 255);
+   border-block-color: green;
    writing-mode: horizontal-tb;
 }
 @media only screen and (max-width: 600px) {
     li.past-events {
         border-radius: 25%;
         border-style: double;
-        border-block-end-color: rgb(0, 65, 50);
-        box-shadow: 3px 3px 6px 2px rgb(0, 43, 4);
         flex: 1;
         width: 50%;
         max-width: 250px;
@@ -549,11 +539,12 @@ img.plus-side-net-nav:active {
     }
 }
 .past-events:hover {
-    border-inline-color: rgb(0, 146, 172);
     border-style: double;
-    border-block-color: rgb(255, 255, 255);
     border-block-style: groove;
    border-block-width: thick;
+   box-shadow: 0 0 20px 0  rgb(255, 255, 255);
+   border-inline-color: green;
+   border-block-color: rgb(113, 36, 255);
 }
 .past-article-text {
         font-size: larger;
@@ -574,10 +565,11 @@ img.plus-side-net-nav:active {
     padding-right: 20px;
     box-shadow: 0 0 3px 0 rgb(0, 196, 16);
         transition: .3s;
-        border-block-color: green;
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
+   border-inline-color: rgb(113, 36, 255);
+   border-block-color: green;
        margin: 0px 0 10px 0;
 }
 @media only screen and (max-width: 600px) {
@@ -597,7 +589,6 @@ img.plus-side-net-nav:active {
 }
 .vods-past:hover {
     box-shadow: 2px 2px 5px 1px rgb(0, 43, 4);
-    border-inline-color: slateblue;
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
@@ -605,6 +596,7 @@ img.plus-side-net-nav:active {
 }
 .vods-past:active {
     color: rgb(27, 0, 199);
+    box-shadow: 4px 4px 7px 3px rgb(0, 43, 4);
 
 }
 .article-page-text {
@@ -621,6 +613,8 @@ img.plus-side-net-nav:active {
     border-width: 2px;
     border-color: white;
     border-style: outset;
+    box-shadow: 0 0 15px 0  rgb(167, 83, 247);
+
 }
 .article-body-image-bigger {
     width: 100%;
@@ -628,6 +622,8 @@ img.plus-side-net-nav:active {
     border-width: 2px;
     border-color: white;
     border-style: outset;
+    box-shadow: 0 0 15px 0  rgb(167, 83, 247);
+
 }
 .article-player-side {
     text-align: left;
@@ -728,11 +724,10 @@ img.article-potential-characters {
     background-color: rgba(0, 0, 0, 0.705);
     border-style: double;
     border-style: double;
-    border-inline-color: rgb(0, 146, 172);
-    border-block-color: green;
     border-block-style: groove;
     border-block-width: thick;
-    box-shadow: 3px 3px 6px 2px rgb(0, 43, 4);
+    border-inline-color: rgb(113, 36, 255);
+    border-block-color: green;
 }
 @media only screen and (max-width: 600px) {
     .dropdown-links {
@@ -740,7 +735,6 @@ img.article-potential-characters {
     }
 }
 .dropdown-links:hover {
-    border-inline-color: slateblue;
     transform: scale3d(1.1, 1.1, 1.1);
     transition: transform 0.3s ease
 }
@@ -848,38 +842,44 @@ img.events-banners-trans {
     cursor: unset;
 }
 #pageHeader {
+    font-family: 'Nunito';
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: rgb(0, 0, 0);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
     font-size: 100px;
-    font-family: Futura;
     font-style: italic;
     margin: unset;
 }
 #authorPageHeader {
+    font-family: 'Nunito';
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
     font-size: 50px;
-    font-family: Futura;
     font-style: italic;
     margin: unset;
     margin: 1% 0 2% 0;
 }
 @media only screen and (max-width: 600px) {
    #pageHeader {
-    font-family: Futura;
+    font-family: 'Nunito';
     -webkit-text-stroke-width: unset;
     font-size: x-large;
     margin: unset;
    }
    #authorPageHeader {
-    font-family: Futura;
+    font-family: 'Nunito';
     -webkit-text-stroke-width: unset;
     font-size: large;
     margin: 5px 0 5px 0;
+   }
+   h1.textGradient {
+    text-shadow:
+    0px 0px 0px #ffffff, /* Outer shadow */
+    2px 2px 2px rgba(50,185,152,1), /* Inner shadow */
+    2px 2px 2px  rgba(50,185,152,1); /* Inner shadow */
    }
 }
 .textGradient {
@@ -888,13 +888,18 @@ img.events-banners-trans {
     background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 29%, rgba(255,255,255,1) 31%, rgba(255,255,255,1) 45%, rgba(128,128,128,1) 60%, rgba(255,255,255,1) 75%, rgba(255,255,255,1) 100%);
     background: linear-gradient(180deg, rgba(255,255,255,1) 29%, rgba(255,255,255,1) 31%, rgba(255,255,255,1) 45%, rgba(128,128,128,1) 60%, rgba(255,255,255,1) 75%, rgba(255,255,255,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
+    text-shadow:
+    0px 0px 0px #ffffff, /* Outer shadow */
+    3px 3px 3px rgba(50,185,152,1), /* Inner shadow */
+    3px 3px 3px  rgba(50,185,152,1); /* Inner shadow */
 }
 #pageHeaderAuthor {
+
+    font-family: 'Nunito';
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-clip: text;
     font-size: 50px;
-    font-family: Futura;
     font-style: italic;
     margin: unset;
 }
@@ -906,6 +911,7 @@ img.events-banners-trans {
     background: -webkit-radial-gradient(circle, rgba(147,255,214,1) 65%, rgba(50,185,152,1) 90%);
     background: radial-gradient(circle, rgba(147,255,214,1) 65%, rgba(50,185,152,1) 90%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#93ffd6",endColorstr="#32b998",GradientType=1);
+    box-shadow: 0px 0px 22px 0px  rgb(0, 0, 0);
 }
 td {
     text-align: center;
@@ -919,7 +925,6 @@ table {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#40d5fe",endColorstr="#d5ebf1",GradientType=1); 
 }
 thead {
-    background: rgb(255,255,255);
     background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 5%, rgba(255,186,226,1) 30%, rgba(255,255,255,1) 80%);
     background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 5%, rgba(255,186,226,1) 30%, rgba(255,255,255,1) 80%);
     background: linear-gradient(180deg, rgba(255,255,255,1) 5%, rgba(255,186,226,1) 30%, rgba(255,255,255,1) 80%);
@@ -936,7 +941,7 @@ th {
     text-align: center;
 }
 .card-header {
-    font-family: Nunito;
+    font-family: 'Nunito';
     text-align: center;
 }
 .calendarImg {
@@ -948,7 +953,6 @@ th {
     cursor: unset;
     transform: scale3d(1.1, 1.1, 1.1);
     transition: transform 0.3s ease;
-
 }
 .calendar-container {
     padding: unset;
@@ -970,6 +974,7 @@ th {
 td {
     height: 100px;
     width: 100px;
+    box-shadow: 0 0 15px 0  rgb(167, 83, 247);
 }
 #next, #previous {
     color: #000000;
@@ -1114,11 +1119,19 @@ button.calViewList {
     {
     color: rgb(60, 42, 177);
     box-shadow: 2px 2px 5px 1px rgb(0, 43, 4);
-    border-inline-color: slateblue;
         border-style: double;
         border-block-style: groove;
-       border-block-width: thick;       
+       border-block-width: thick;
+       box-shadow: 0 0 8px 0  rgb(113, 36, 255);
+       border-inline-color: rgb(113, 36, 255);
+       border-block-color: green;       
 }
+.calViewList:hover {
+    box-shadow: 0 0 8px 0  rgb(113, 36, 255);
+    border-inline-color: rgb(113, 36, 255);
+    border-block-color: green;
+}
+
 .listView {
     margin-bottom: 6%;
 }
