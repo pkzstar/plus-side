@@ -559,6 +559,23 @@ function showCalendar(month, year) {
                     link.appendChild(image);
                     cell.appendChild(link);
 
+
+                    //Ledge 6
+                } else if (month === 3 && date === 27 && year === 2024) {
+
+                    let link = document.createElement("a");
+                    link.href = "https://www.start.gg/tournament/who-s-on-ledge-6-melee-and-p-edition/details";
+                    link.target = "_blank";
+
+                    let image = document.createElement("img");
+                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/ledge6.png?raw=true";
+
+                    image.classList.add("calendarImg");
+
+
+                    link.appendChild(image);
+                    cell.appendChild(link);
+
                     //Ghost Town
                 } else if (month === 4 && (date === 11) && year === 2024) {
 
