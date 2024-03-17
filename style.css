@@ -172,7 +172,7 @@ img.plus-side-net-nav:active {
    background: -webkit-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
    background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#32b998",GradientType=1);
-   box-shadow: 0 0 8px 0  rgb(113, 36, 255);
+   box-shadow: 0 0 9px 0  rgb(113, 36, 255);
    border-inline-color: rgb(113, 36, 255);
    border-block-color: green;
    writing-mode: horizontal-tb;
@@ -294,7 +294,7 @@ img.plus-side-net-nav:active {
    background: -webkit-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
    background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#32b998",GradientType=1);   border-block-end-color: rgb(0, 65, 50);
-   box-shadow: 0 0 8px 0  rgb(113, 36, 255);
+   box-shadow: 0 0 9px 0  rgb(113, 36, 255);
    border-inline-color: rgb(113, 36, 255);
    border-block-color: green;
    writing-mode: horizontal-tb;
@@ -523,7 +523,7 @@ img.plus-side-net-nav:active {
    background: -webkit-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
    background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#32b998",GradientType=1);   border-block-end-color: rgb(0, 65, 50);
-   box-shadow: 0 0 8px 0  rgb(113, 36, 255);
+   box-shadow: 0 0 20px 0  rgb(113, 36, 255);
    border-inline-color: rgb(113, 36, 255);
    border-block-color: green;
    writing-mode: horizontal-tb;
@@ -1122,12 +1122,12 @@ button.calViewList {
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
-       box-shadow: 0 0 8px 0  rgb(113, 36, 255);
+       box-shadow: 0 0 9px 0  rgb(113, 36, 255);
        border-inline-color: rgb(113, 36, 255);
        border-block-color: green;       
 }
 .calViewList:hover {
-    box-shadow: 0 0 8px 0  rgb(113, 36, 255);
+    box-shadow: 0 0 9px 0  rgb(113, 36, 255);
     border-inline-color: rgb(113, 36, 255);
     border-block-color: green;
 }
