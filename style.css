@@ -1122,7 +1122,7 @@ button.calViewList {
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
-       box-shadow: 0 0 9px 0  rgb(113, 36, 255);
+       box-shadow: 0 0 20px 0  rgb(167, 83, 247);
        border-inline-color: rgb(113, 36, 255);
        border-block-color: green;       
 }
