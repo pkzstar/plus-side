@@ -73,7 +73,7 @@ function showCalendar(month, year) {
                 link.target = "_blank";
 
                 let image = document.createElement("img");
-                image.src = "https://github.com/pkzstar/plus-side/blob/main/images/game5In.png?raw=true";
+                image.src = "https://github.com/pkzstar/plus-side/blob/main/images/past-events/game5In.png?raw=true";
 
                 image.classList.add("calendarImg");
 
@@ -244,7 +244,7 @@ function showCalendar(month, year) {
                     link.target = "_blank";
                 
                     let image = document.createElement("img");
-                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/mutiny.png?raw=true";
+                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/past-events/mutiny.png?raw=true";
                 
                     image.classList.add("calendarImg");
                 
