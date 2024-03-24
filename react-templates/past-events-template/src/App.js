@@ -5,8 +5,48 @@ import PastEvents from './PastEvents';
 function App() {
   const events = [
     {
+      eventTitle: "ETSU-Con 2024",
+      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/etsu.png?raw=true",
+      eventUrl: "https://www.start.gg/tournament/etsu-con-2024/event/p-singles",
+      date: "March 23 2024",
+      location: "Tennessee",
+      entrants: 21,
+      top3: ["Moist", "Shenanigans", "Mr. Brandandorf"],
+      vodsUrl: ""
+    },
+    {
+      eventTitle: "Smash of the Titans 8",
+      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/titans.png?raw=true",
+      eventUrl: "https://www.start.gg/tournament/smash-of-the-titans-8-1/event/p-singles",
+      date: "March 23 2024",
+      location: "Illinois",
+      entrants: 22,
+      top3: ["Chaloopy", "ORLY", "Star"],
+      vodsUrl: ""
+    },
+    {
+      eventTitle: "Game 5 In The D #2",
+      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/game5In.png?raw=true",
+      eventUrl: "https://www.start.gg/tournament/game-5-in-the-d-2-yuko-s-bday-edition/event/project-singles",
+      date: "March 23 2024",
+      location: "Michigan",
+      entrants: 18,
+      top3: ["Dirtboy", "Anther", "techboy"],
+      vodsUrl: ""
+    },
+    {
+      eventTitle: "Cascade Clash",
+      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/cascade.png?raw=true",
+      eventUrl: "https://www.start.gg/tournament/cascade-clash-a-best-in-texas-league-event-1/event/p-singles",
+      date: "March 23 2024",
+      location: "Texas",
+      entrants: 28,
+      top3: ["Salt", "Apathy", "SDJ"],
+      vodsUrl: ""
+    },
+    {
       eventTitle: "Storm VIII",
-      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/storm.png?raw=true",
+      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/storm.png?raw=true",
       eventUrl: "https://www.start.gg/tournament/storm-viii-1/event/pm-singles",
       date: "March 16 2024",
       location: "Newcastle upon Tyne",
@@ -16,7 +56,7 @@ function App() {
     },
     {
       eventTitle: "Aftershock P+ & HDR",
-      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/aftershock.png?raw=true",
+      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/aftershock.png?raw=true",
       eventUrl: "https://www.start.gg/tournament/aftershock-p-hdr-2/details",
       date: "March 15 2024",
       location: "New Jersey",
@@ -26,7 +66,7 @@ function App() {
     },
     {
       eventTitle: "Northstar II",
-      imageUrl: "https://raw.githubusercontent.com/pkzstar/plus-side/main/images/upcoming%20events/northstar.png",
+      imageUrl: "https://raw.githubusercontent.com/pkzstar/plus-side/main/images/past-events/northstar.png",
       eventUrl: "https://www.start.gg/tournament/northstar-ii-at-cloud-con/events/project-singles/brackets/1585325/2374365/standings",
       date: "March 10 2024",
       location: "Minnesota",
@@ -36,7 +76,7 @@ function App() {
     },
     {
       eventTitle: "College Park Mutiny: Blossom",
-      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/mutiny.png?raw=true",
+      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/mutiny.png?raw=true",
       eventUrl: "https://www.start.gg/tournament/college-park-mutiny-blossom-feat-eve-kevin-maples-mvlvchi-200/event/project-singles/brackets/1564756/2347891",
       date: "March 2 2024",
       location: "Maryland",
@@ -46,7 +86,7 @@ function App() {
     },
     {
       eventTitle: "Full Bloom 2024",
-      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/fullbloom.png?raw=true",
+      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/fullbloom.png?raw=true",
       eventUrl: "https://www.start.gg/tournament/full-bloom-2024/event/project-singles",
       date: "February 24-25, 2024",
       location: "Indiana",
@@ -56,7 +96,7 @@ function App() {
     },
     {
       eventTitle: "Perfect Pivot",
-      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/pp.png?raw=true",
+      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/pp.png?raw=true",
       eventUrl: "https://www.start.gg/tournament/perfect-pivot/details",
       date: "February 24-25, 2024",
       location: "Winnipeg",
@@ -66,7 +106,7 @@ function App() {
     },
     {
       eventTitle: "The Truce",
-      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/truce.png?raw=true",
+      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/truce.png?raw=true",
       eventUrl: "https://www.start.gg/tournament/the-truce/details",
       date: "February 24-25, 2024",
       location: "Le Kremlin-Bicêtre",
@@ -76,7 +116,7 @@ function App() {
     },
     {
       eventTitle: "Beantown Lean House I",
-      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/beantown.png?raw=true",
+      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/beantown.png?raw=true",
       eventUrl: "https://www.start.gg/tournament/beantown-lean-house-i/event/project-singles",
       date: "February 24 2024",
       location: "Massachusetts",
@@ -96,7 +136,7 @@ function App() {
     },
     {
       eventTitle: "Smashing Grounds 10th Anniversary Celebration",
-      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/10th%20aniv.png?raw=true",
+      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/10th%20aniv.png?raw=true",
       eventUrl: "https://www.start.gg/tournament/smashing-grounds-10th-anniversary-celebration-a-melee-and-project-regional/events/project-singles/brackets/1545109/2321524/overview",
       date: "February 10 2024",
       location: "Massachusetts",
@@ -106,7 +146,7 @@ function App() {
     },
     {
       eventTitle: "The Cure",
-      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/the%20cure.png?raw=true",
+      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/the%20cure.png?raw=true",
       eventUrl: "https://www.start.gg/tournament/the-cure-100-pot-bonus-p-invitational/event/singles/brackets/1533162/2305744",
       date: "February 9 2024",
       location: "Colorado",
@@ -116,7 +156,7 @@ function App() {
     },
     {
       eventTitle: "Vortex Gallery at Frosty Faustings XVI",
-      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/vortex.png?raw=true",
+      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/vortex.png?raw=true",
       eventUrl: "https://www.start.gg/tournament/vortex-gallery-at-frosty-faustings-xvi/event/project-wii/standings",
       date: "January 28 2024",
       location: "Illinois",
@@ -126,7 +166,7 @@ function App() {
     },
     {
       eventTitle: "Game 5 In The D",
-      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/game5In.png?raw=true",
+      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/game5In.png?raw=true",
       eventUrl: "https://www.start.gg/tournament/game-5-in-the-d/details",
       date: "January 20 2024",
       location: "Michigan",
@@ -152,7 +192,7 @@ function App() {
             second={event.top3[1]}
             third={event.top3[2]}
             vodsUrl={event.vodsUrl}
-            hideRankImage={ index === 0 || index === 2 || index === 3 ||  index === 5 || index === 6 || index === 7 || index === 10}
+            hideRankImage={ index === 0 || index === 2 || index === 3 ||  index === 4 || index === 6 || index === 7 || index === 9 ||  index === 10 ||  index === 11 ||  index === 14}
           />
         ))}
       </ul>

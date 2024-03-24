@@ -89,7 +89,7 @@ function showCalendar(month, year) {
                     link.target = "_blank";
 
                     let image = document.createElement("img");
-                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/vortex.png?raw=true";
+                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/past-events/vortex.png?raw=true";
 
                     image.classList.add("calendarImg");
 
@@ -105,7 +105,7 @@ function showCalendar(month, year) {
                     link.target = "_blank";
 
                     let image = document.createElement("img");
-                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/the%20cure.png?raw=true";
+                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/past-events/the%20cure.png?raw=true";
 
                     image.classList.add("calendarImg");
 
@@ -121,7 +121,7 @@ function showCalendar(month, year) {
                     link.target = "_blank";
                 
                     let image = document.createElement("img");
-                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/10th%20aniv.png?raw=true";
+                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/past-events/10th%20aniv.png?raw=true";
                     image.classList.add("calendarImg");
                 
                     link.appendChild(image);
@@ -178,16 +178,16 @@ function showCalendar(month, year) {
                     const events = [
                         {   
                             link: "https://www.start.gg/tournament/full-bloom-2024/details",
-                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/fullbloom.png?raw=true"
+                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/fullbloom.png?raw=true"
                             
                         },
                         {
                             link: "https://www.start.gg/tournament/perfect-pivot/details",
-                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/pp.png?raw=true"
+                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/pp.png?raw=true"
                         }, 
                         {
                             link: "https://www.start.gg/tournament/the-truce/details",
-                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/truce.png?raw=true"
+                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/truce.png?raw=true"
                         }
                     ];
                     let currentIndex = 0; // Initialize current index
@@ -271,7 +271,7 @@ function showCalendar(month, year) {
                     link.target = "_blank";
 
                     let image = document.createElement("img");
-                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/northstar.png?raw=true";
+                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/past-events/northstar.png?raw=true";
 
                     image.classList.add("calendarImg");
 
@@ -287,7 +287,7 @@ function showCalendar(month, year) {
                     link.target = "_blank";
 
                     let image = document.createElement("img");
-                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/aftershock.png?raw=true";
+                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/past-events/aftershock.png?raw=true";
 
                     image.classList.add("calendarImg");
 
@@ -304,7 +304,7 @@ function showCalendar(month, year) {
                     link.target = "_blank";
 
                     let image = document.createElement("img");
-                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/storm.png?raw=true";
+                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/past-events/storm.png?raw=true";
 
                     image.classList.add("calendarImg");
 
@@ -319,20 +319,20 @@ function showCalendar(month, year) {
                     const events = [
                         {   
                             link: "https://www.start.gg/tournament/smash-of-the-titans-8-1/details",
-                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/titans.png?raw=true"
+                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/titans.png?raw=true"
                             
                         },
                         {
                             link: "https://www.start.gg/tournament/game-5-in-the-d-2-yuko-s-bday-edition/details",
-                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/game5In.png?raw=true"
+                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/game5In.png?raw=true"
                         }, 
                         {
                             link: "https://www.start.gg/tournament/etsu-con-2024/details",
-                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/etsu.png?raw=true"
+                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/etsu.png?raw=true"
                         },
                         {
                             link: "https://www.start.gg/tournament/cascade-clash-a-best-in-texas-league-event-1/details",
-                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/cascade.png?raw=true"
+                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/cascade.png?raw=true"
                         }
                     ];
 
