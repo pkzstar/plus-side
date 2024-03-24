@@ -192,7 +192,7 @@ function App() {
             second={event.top3[1]}
             third={event.top3[2]}
             vodsUrl={event.vodsUrl}
-            hideRankImage={ index === 0 || index === 2 || index === 3 ||  index === 5 || index === 6 || index === 7 || index === 10}
+            hideRankImage={ index === 0 || index === 2 || index === 3 ||  index === 4 || index === 6 || index === 7 || index === 9 ||  index === 10 ||  index === 11 ||  index === 14}
           />
         ))}
       </ul>
