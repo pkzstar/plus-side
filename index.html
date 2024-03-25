@@ -47,6 +47,35 @@
         </div>
       </div>
 
+
+      <!-- add an event form, remove hidden from button to make visible -->
+      <div>
+        <button id="toggleBtn" class="Upcoming-event-form-button hidden">Add an Event</button>
+        <div id="inputContainer" class="hidden Upcoming-event-form">
+
+          <p id="EventTitleUpcoming"></p>
+            <input placeholder="Event Name" type="text" id="textInputUpcomingTitle">
+            <br>
+            <p id="EventDateUpcoming"></p>
+            <input placeholder="Event Date(s)" type="text" id="textInputUpcomingDate">
+            <br>
+            <p id="EventLocationUpcoming"></p>
+            <input placeholder="(City, State, Country)" type="text" id="textInputUpcomingLocation">
+            <br>
+            <p id="EventUrlUpcoming"></p>
+            <input placeholder="Start.gg" type="text" id="textInputUpcomingUrl">
+            <br>
+            <p id="EventImageUpcoming"></p>
+            <input placeholder="Direct Link" type="text" id="textInputUpcomingImage">
+            <br>
+            <p id="EventDescriptionUpcoming"></p>
+            <input placeholder="Description" type="text" id="textInputUpcomingDescription">
+            <br>
+            <button id="SubmitBtn" class="submit-btn">Submit</button>
+
+      </div>
+      
+
     </div>
 <ul class="eventsList">
 
@@ -351,11 +380,12 @@
     </div> 
 
 
-
+    <script src="index.js"></script>
     <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
     <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
     <script src="/react-templates\nav-bar\build\static\js\main.66d7fd4c.js"></script>
     <script src="script.js"></script>
+    
 
    </body>
 </html>
