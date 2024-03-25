@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+ <head>
+  <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+    <title>Plus Side</title>
+    <link rel="icon" type="image/x-icon" href="https://github.com/pkzstar/plus-side/blob/main/images/favicon.png?raw=true">
+    <link rel="stylesheet" href="../style.css">
+    <style>
+    a:link {
+      color: revert;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:visited {
+      color: revert;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: revert;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    
+    a:active {
+      color: revert;
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+    .article-body-image-GUI {
+    width: 20%;
+    border-width: 2px;
+    border-color: white;
+    border-style: outset;
+    box-shadow: 0 0 15px 0  rgb(167, 83, 247);
+    }
+  </style>
+ </head>
+ <body>
+  <div id="react-nav"></div>
+        
+    <div class="article-page-text">
+     <h1 id="pageHeader" class="textGradient">Project+ Stream Tool Article</h1>
+     <h3>Written by ilikepizza107</h3>
+
+    <h2>Introduction</h2>
+    <p>If you’ve tried to get into streaming Project+ in the last two years or so, you’ve probably seen or heard of my stream tool. While this <a href="https://github.com/ilikepizza107/PPlus-Stream-Tool">old version</a> of the tool was a great starting point for people, I had always wanted to go back and improve on it. Recently, this became a reality - and with this update, a whole slew of features were introduced. While I’d hope that the interface is clear enough for people to figure out what everything does, I understand that opening programs for the first time and seeing all the options can be overwhelming. That said, I wanted to take some time to go over the changes introduced in the <a href="https://github.com/ilikepizza107/Project-Plus-Stream-Tool">newest version</a> of the tool here.</p>
+
+    <img onclick="ToggleZoom('reImg3')" id="reImg3" class="article-body-image" src="../images/Article-images/Stream-Tool/Preview.png?raw=true" alt="" tabindex="0"> 
+  
+    <h2>Overview</h2>
+    <p>This tool is made to be quick to set up and use. All it takes is <a href="https://file.garden/Zf2bnkmk1CN8FNMM/Setup.mp4">dragging and dropping</a> either the <a href="https://raw.githubusercontent.com/ilikepizza107/Project-Plus-Stream-Tool/master/Git%20Images/16-9.png">16:9</a> or <a href="https://raw.githubusercontent.com/ilikepizza107/Project-Plus-Stream-Tool/master/Git%20Images/4-3.png">4:3</a> .html files into OBS, launching the tool .exe, and you’re good to go.</p>
+    <p>The <a href="https://file.garden/Zf2bnkmk1CN8FNMM/GUIDemo.mp4">interface</a> is designed to quickly change everything you’d need, including player names, pronouns, port colors, characters, scores, round, socials, and casters. You can add up to nine commentators (but for real, why are you going above five??), and the interface fully supports <a href="https://raw.githubusercontent.com/ilikepizza107/Project-Plus-Stream-Tool/master/Git%20Images/2v2.png">doubles!</a></p>
+    <p>The tool also has a <a href="https://file.garden/Zf2bnkmk1CN8FNMM/VSDemo.mp4">VS Screen</a> scene to be displayed when waiting for the next game, or to use as thumbnails for YouTube videos!</p>
+    <p>There’s also a <a href="https://raw.githubusercontent.com/ilikepizza107/Project-Plus-Stream-Tool/master/Git%20Images/BracketPreview.png">Top 8 bracket scene</a> to showcase your tournament’s top 8 positions. The scene has a transparent background, so you can use whatever background you feel fits the theme of your tournament.</p>
+    <p>Lastly, the stream tool has a <a href="https://raw.githubusercontent.com/ilikepizza107/Project-Plus-Stream-Tool/master/Git%20Images/RemoteGUI.png">Remote GUI</a> feature, allowing for the tool to be accessed by any device within the local network, including mobile devices!</p>
+    <p>Every character and skin in Project+ is supported in the stream tool. However, if future Project+ updates add or remove skins, I will release an updated version of the tool with all of the current costumes!</p>
+
+    <h2>Interface Shortcuts/hotkeys</h2>
+    <p>Pressing Enter updates the scenes’ data.</p>
+    <p>Pressing either F1 or F2 to increase P1's or P2's score (or Team 1 or Team 2’s score, if in doubles mode).</p>
+    <p>Pressing ESC clears all player info.</p>
+    <p>For developing, there are some shortcuts to make things easier. Pressing F5 reloads the GUI, and pressing F12 opens the dev console. This will also unlock window resolution.</p>
+
+    <h2>Feature Deep Dives</h2>
+    <h3>Tag (Sponsor) Logos</h3>
+    <p>This update of the stream tool has a  feature that allows you to quickly add logos or images to be placed on top of the overlay, depending on the tag a player is using. The images will be searched on the Resources/Logos/ folder. You can use the included example, typing +Side as a tag:</p>
+    <img onclick="ToggleZoom('reImg4')" id="reImg4" class="article-body-image" src="../images/Article-images/Stream-Tool/SBLogo.png?raw=true" alt="" tabindex="0"> 
+    <p>Since the sponsor possibilities could be infinite, there are no more images included as examples, so if you want to use this feature, you'll have to make your own images.</p>
+    <p>For 2v2, this feature will only work for team names, so in this case, if the team name is Flame, the logo will show up.</p>
+
+    <h3>Player Presets</h3>
+    <p>One of the bigger changes the tool has seen this update is the ability to add player and commentator presets. Simply enter in all the player information (including their character + skin,if making a player preset), then click the “Save preset and apply” button. The next time you go to enter that player’s name, you’ll be able to select that preset from the dropdown menu that appears, saving streamers precious time setting up for the next match! You’re also able to save presets with the same player name, allowing you to seamlessly and quickly switch between all of SipMastah’s four characters.</p>
+    <img onclick="ToggleZoom('reImg5')" id="reImg5" class="article-body-image" src="../images/Article-images/Stream-Tool/PlayerPreset.png?raw=true" alt="" tabindex="0"> 
+    <p>That being said, it's important to know where those are being stored so they can be shared or deleted, if desired. Player presets are stored in Resources/Texts/Player Info, and comms presets are stored in Resources/Texts/Caster Info.</p>
+
+    <h3>Bracket Scene</h3>
+    <p>In the bottom left-hand corner of the tool, there is a button to edit the top 8 bracket scene. Clicking on it will bring you to a different section of the GUI:</p>
+    <img onclick="ToggleZoom('reImg6')" id="reImg6" class="article-body-image" src="../images/Article-images/Stream-Tool/T8Bracket.png?raw=true" alt="" tabindex="0"> 
+    <p>Clicking the top drop-down box will allow you to edit different parts of the bracket. While you could enter all the information manually, if you click the arrow button on the far right of a bracket section, it will import all player data that is already set up in the main part of the tool. Additionally, any player preset you’ve made will still work here - start typing their tag as usual and select the appropriate preset!</p>
+
+    <h3>Remote GUI</h3>
+    <p>As soon as you open the Stream Tool GUI, an HTTP server will be active, which means any device in your network that can open up a web browser, can access the Remote GUI. The Remote GUI functions exactly like it would on your computer, meaning all features of the tool will work no matter how you access it!</p>
+    <img onclick="ToggleZoom('reImg7')" id="reImg7" class="article-body-image-GUI" src="../images/Article-images/Stream-Tool/RemoteGUI.png?raw=true" alt="" tabindex="0"> 
+    <p>By default, you can access this remote GUI in the computer you're running the ST GUI with an url like 127.0.0.1:1111. First part of the url being the IP you want to access, and the second one being the port being used, separated by “:”. If you want to access the remote GUI from another device within the network, you will need to know the local IP of the computer that's running the ST GUI, then change 127.0.0.1 for that IP.</p>
+    <p>It's important to note that you are able to change the ports being used by the Stream Tool without having to rebuild the executable, something that could be useful to avoid colliding with other Stream Tools running in the same network. Over at Resources/Texts/GUI Settings.json, you will find the variables remoteUpdatePort and webSocketPort that can be changed to any value you need.</p>
+    <p>If you change webSocketPort however, this only changes the port that's used on the executable, so you will need to make sure to manually edit the port for the HTML files over at Resources/Scripts/Utils/Websocket.mjs for those to keep working (Ctrl+F 8080). This won't work for the Bracket however, but you can also Ctrl+F 8080 on Resources/Scripts/Bracket.js and change the number there.</p>
+
+    <h3>OBS Transitions</h3>
+    <p>2 basic transitions are included in the Resources/OBS Transitions folder, intended to be used to change to the game scene and to the vs screen, if you don't have a transition yourself of course. To use them on OBS:</p>
+    <div>
+      <ul style="list-style: none;">
+        <li>Add a new stinger transition.</li>
+        <li>Set the video file to Game In.webm if creating the game scene transition, and Swoosh.webm if creating a vs screen transition.</li>
+        <li>Transition point -> 350 ms.</li>
+        <li>I recommend you to set the Audio Fade Style to crossfade, just in case.</li>
+        <li>On the scene's right click menu, set it to Transition Override to the transition you just created.</li>
+      </ul>
+    </div>
+
+    <h3>Additional Settings</h3>
+    <p>In the bottom right-hand corner of the tool, there is a button to open the additional settings menu. Since some of these settings aren’t as straightforward, I’ll outline what they do here:</p>
+
+    <h4>Allow Intro</h4>
+    <p>Checking the “Allow Intro” button will make the scoreboard scenes use a special intro when transitioning to the scene.</p>
+
+    <h4>Use Custom Round</h4>
+    <p>This will allow you to input text instead of clicking an option from the round drop-down menu.</p>
+
+    <h4>Force [W]/[L]</h4>
+    <p>This allows you to set [W] and [L] for players in rounds. They will always appear when selecting Grand Finals/True Finals or typing “Grand” into the round box.</p>
+
+    <h4>Update on score hotkey</h4>
+    <p>Checking this will make scoreboard data instantly update when pressing a score hotkey (F1/F2).</p>
+
+    <h4>Backwards score hotkeys</h4>
+    <p>Score hotkeys (F1/F2) will remove score ticks instead of adding them.</p>
+
+    <h4>Write simple texts</h4>
+    <p>Saves plain text files at "Resources/Texts/Simple Texts/" to be used by other apps.</p>
+
+    <h4>Match info to clipboard</h4>
+    <p>Automatically copies match info to your clipboard when clicked, saving it as "Tournament Name - Round - Player1 (Character1) VS Player2 (Character2)".</p>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <h3>Q: How do I add my custom skins to this?</h3>
+    <p>A: You’ll need the skin’s HD Character Select Portrait (CSP), and HD Stock Icon (STC). It is highly recommended that you do not use the SD versions of these textures. Next, go to Resources/Characters/(Character Name). In this example, I’ll be using Captain Falcon. The HD CSP will go into the “Skins” folder, and the HD STC will go into the “Icons” folder.</p>
+    <p>However, when you place the HD CSP in the Captain Falcon folder, you notice something…</p>
+    <img onclick="ToggleZoom('reImg8')" id="reImg8" class="article-body-image" src="../images/Article-images/Stream-Tool/Skins1.png?raw=true" alt="" tabindex="0"> 
+    <p>That’s correct, some characters’ CSPs are flipped horizontally. To fix this, import the HD CSP into your favorite image editor (I use GIMP) and flip it. However, keep in mind that you will never have to flip STCs.</p>
+    <p>Next, rename the new CSP and STC to whatever you want, but keep in mind that they have to use the same name! I usually do “(Character Name) (Number)”. In this example, you can see I named this one “Captain Falcon (19)”. Remember this!</p>
+    <p>After you’ve renamed the CSP and STC, you’ll want to open the character’s “_Info.json” file. I use VSCode, but you can use Notepad or any text editor, really.</p>
+    <img onclick="ToggleZoom('reImg9')" id="reImg9" class="article-body-image" src="../images/Article-images/Stream-Tool/Skins2.png?raw=true" alt="" tabindex="0"> 
+    <p>Finally, scroll down to the last entry of the “_Info.json” file, and add the appropriate lines, copying what has been done previously.</p>
+    <img onclick="ToggleZoom('reImg10')" id="reImg10" class="article-body-image" src="../images/Article-images/Stream-Tool/Skins3.png?raw=true" alt="" tabindex="0">
+    <p>This is very important, but the last “}” in the skin list cannot have a comma after it. If it does, the .json file will break and it won’t work.</p>
+    <p>If everything has been done correctly, you should be able to see the added skin in the GUI!</p> 
+    <img onclick="ToggleZoom('reImg11')" id="reImg11" class="article-body-image" src="../images/Article-images/Stream-Tool/Skins4.png?raw=true" alt="" tabindex="0">
+
+    <h3>Q: How do I add custom characters to this?</h3>
+    <p>A: In Resources/Characters, create a new folder titled “(Character Name)”, for example “Ridley”. Then, you’ll need to add the following components: A “Icons” folder, a “Skins” folder, and an “_Info.json”. To make this as painless as possible, copy an existing character’s folder and delete all the CSPs and STCs from “Skins” and “Icons”. Then, follow the same procedure for adding skins as described above. You may have to edit some values in the bottom of the “_Info.json” to get the CSPs and STCs to display correctly in scenes, but with enough testing you should be able to get it looking how you want. Once you’re done, open the tool and your added character should be there.</p>
+
+    <h3>Q: How do I customize the overlays or GUI?</h3>
+    <p>A: This will require a decent amount of knowledge of how HTML, CSS, and JavaScript works. However, all CSS files are in the Resources/CSS folder, all JavaScript files are in the Resources/Scripts folder, and all .pngs that are used in the overlays are in the Resources/Overlay folder.</p>
+
+    <h2>Wrapping Up</h2>
+    <p>This tool upgrade has been something that’s been on my mind for awhile now. My goal was to improve the overall quality of all Project+ streams, and to make it as easy as possible for anyone who wants to stream offline/online events. My hope is that this tool will allow for this to be a reality. If you ever have any issues with the tool, or questions, or suggestions, please reach out to me at ilikepizza107 on Discord (or if you’re a nerd, open an issue/pull request on the tool’s GitHub page). I hope this article was helpful, and happy streaming!</p>
+
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="/react-templates\nav-bar\build\static\js\main.66d7fd4c.js"></script>
+      <script src="/script.js"></script>
+   </body>
+</html>
