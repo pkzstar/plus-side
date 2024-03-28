@@ -245,7 +245,6 @@ img.plus-side-net-nav:active {
 }
 .article-read {
     font-size: 30px;
-    float: center;
     background: rgb(50,185,152);
     background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
     background: -webkit-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
@@ -460,16 +459,11 @@ img.plus-side-net-nav:active {
 .pm-rank {
     float: right;
 }
-.pm-rank-centered {
-    float: center;
-}
 .pm-rank-centered-invis {
-    float: center;
     visibility: hidden;
 }
 .start-gg {
     font-size: 30px;
-    float: center;
     background: rgb(50,185,152);
     background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
     background: -webkit-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
@@ -554,7 +548,6 @@ img.plus-side-net-nav:active {
 }
 .vods-past {
     font-size: 30px;
-    float: center;
     background: rgb(50,185,152);
     background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
     background: -webkit-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
@@ -1152,7 +1145,6 @@ button.calViewList {
 }
 .Upcoming-event-form {
     font-size: 25px;
-    float: center;
     border-radius: 15px 15px 15px 15px;
     padding-left: 8px;
     padding-right: 8px;
@@ -1207,7 +1199,6 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endCo
 }
 .submit-btn {
     font-size: 20px;
-    float: center;
     background: rgb(50,185,152);
     background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
     background: -webkit-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
