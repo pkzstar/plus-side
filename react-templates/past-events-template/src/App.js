@@ -11,7 +11,7 @@ function App() {
       date: "March 30 2024",
       location: "Arizona",
       entrants: 37,
-      top3: ["", "", ""],
+      top3: ["", "", "Cloudburst"],
       vodsUrl: ""
     },
     {
