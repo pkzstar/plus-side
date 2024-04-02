@@ -771,6 +771,10 @@ img.article-potential-characters {
 .past-events-banners:active {
     transform: scale3d(1.03, 1.03, 1.03); 
 }
+.pastList {
+    display: flex;
+
+}
 #pastList {
     display: flex;
 }
