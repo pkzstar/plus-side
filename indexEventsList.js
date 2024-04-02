@@ -108,7 +108,17 @@ const eventsData = [
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/ledge6.png?raw=true",
         link: "https://www.start.gg/tournament/who-s-on-ledge-6-melee-and-p-edition/details",
         rankImg: false
-    }, {
+    },
+    {
+      name: "Creed III",
+      date: "5/11/24",
+      location: "Philadelphia, PA, USA",
+      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/creed.png?raw=true",
+      link: "https://www.start.gg/tournament/creed-iii/details",
+      rankImg: false
+
+    }, 
+    { 
         name: "Ghost Town 2",
         date: "5/11/24",
         location: "Portland, OR, USA",
@@ -152,6 +162,15 @@ const eventsData = [
         description: "Ripped Off is here as the P+ shadow major for Tipped Off 15! Taking place across the campus in the KSU engineering and technology center on Friday June 14th, Ripped Off brings a new home to all the P+ players of the South East.",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/ripped.png?raw=true",
         link: "https://www.start.gg/tournament/ripped-off-1/details",
+        rankImg: false
+      },
+      {
+        name: "Phantom 2024",
+        date: "7/06/24 - 7/07/24",
+        location: "Coburg, VIC, Australia",
+        description: "Phantom returns after a year away, and this time in Melbourne.",
+        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/phantom.png?raw=true",
+        link: "https://www.start.gg/tournament/phantom-2024/details",
         rankImg: false
       },
       {
