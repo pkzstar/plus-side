@@ -51,7 +51,7 @@ function createEventComponent(eventData) {
   const locationLabel = document.createElement('b');
   locationLabel.classList.add('article-date');
   locationLabel.style.display = 'inline-flex';
-  locationLabel.textContent = 'Location : ';
+  locationLabel.textContent = 'Location :' + '\u00A0';
   eventLocationDiv.appendChild(locationLabel);
   const location = document.createElement('b');
   location.classList.add('article-date');
