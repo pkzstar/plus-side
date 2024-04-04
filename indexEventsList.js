@@ -104,7 +104,7 @@ const eventsData = [
       name: "Scarlet Classic IX+",
       date: "4/20/24",
       location: "Piscataway, NJ, USA",
-      imageUrl: "",
+      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/scarlet.png?raw=true",
       link: "https://www.start.gg/tournament/scarlet-classic-ix-1/details",
       rankImg: false
     },
