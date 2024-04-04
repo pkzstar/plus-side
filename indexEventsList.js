@@ -135,7 +135,6 @@ const eventsData = [
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/supertps.png?raw=true",
         link: "https://www.start.gg/tournament/tripoint-smash-presents-super-tps-iii/details",
         rankImg: false
-
       },
       {
         name: "Smash Camp: New Lands 2024",
