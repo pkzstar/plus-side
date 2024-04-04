@@ -45,7 +45,10 @@ body {
     }
 }
 @media only screen and (max-width: 767px) {
-    body {
+    div.wallpaper  {
+        background-size: 75%;
+    }
+    div.wallpaper2 {
         background-size: 75%;
     }
 }
