@@ -101,6 +101,14 @@ const eventsData = [
         rankImg: true
     },
     {
+      name: "Scarlet Classic IX+",
+      date: "4/20/24",
+      location: "Piscataway, NJ, USA",
+      imageUrl: "",
+      link: "https://www.start.gg/tournament/scarlet-classic-ix-1/details",
+      rankImg: false
+    },
+    {
         name: "Who's on Ledge? 6",
         date: "4/27/24",
         location: "Des Moines, IA, USA",
