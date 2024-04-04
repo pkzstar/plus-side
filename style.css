@@ -2,7 +2,6 @@ body {
     background-color: rgb(0, 0, 0);
     overflow-x: hidden;
     background-size: 100%;
-
 }
 .wallpaper {
     z-index: -100;
