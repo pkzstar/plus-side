@@ -544,7 +544,7 @@ function showCalendar(month, year) {
                     cell.appendChild(link);
 
                     //THE BIGGER MILE HIGH CLUB
-                } else if (month === 3 && (date === 20 || date === 21) && year === 2024) {
+                } else if (month === 3 && (date === 21) && year === 2024) {
 
                     let link = document.createElement("a");
                     link.href = "https://www.start.gg/tournament/the-bigger-mile-high-club/details";
@@ -559,6 +559,68 @@ function showCalendar(month, year) {
                     link.appendChild(image);
                     cell.appendChild(link);
 
+          //THE BIGGER MILE HIGH CLUB & scarlet
+                } else if (month === 3 && (date === 20) && year === 2024) {
+
+                    const events = [
+
+                        {   
+                            link: "https://www.start.gg/tournament/the-bigger-mile-high-club/details",
+                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/milehigh.jpg?raw=true"
+                            
+                        },
+                        {
+                            link: "https://www.start.gg/tournament/scarlet-classic-ix-1/details",
+                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/scarlet.png?raw=true"
+                        }
+                    ];
+
+              
+                    let currentIndex = 0; // Initialize current index
+                    let link = document.createElement("a");
+                    link.target = "_blank";
+    
+                    let image = document.createElement("img");
+    
+                    image.classList.add("calendarImg");
+    
+    
+                    link.appendChild(image);
+                    cell.appendChild(link);
+    
+                    // Function to fade in/out the image and link
+                    function fadeInOut(element) {
+                        let opacity = 0;
+                        let increasing = true;
+                        let interval = setInterval(function() {
+                            if (increasing) {
+                                opacity += 0.05;
+                            } else {
+                                opacity -= 0.05;
+                            }
+                            element.style.opacity = opacity;
+                            if (opacity >= 1) {
+                                increasing = false;
+                                setTimeout(() => {
+                                    increasing = true;
+                                    updateLinkAndImage(); // Update link and image after fully visible
+                                }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                            } else if (opacity <= 0) {
+                                clearInterval(interval);
+                                fadeInOut(element); // Restart the fading animation
+                            }
+                        }, 100); // Adjust the timing as needed
+                    }
+                
+                    // Function to update the link and image
+                    function updateLinkAndImage() {
+                        link.href = events[currentIndex].link;
+                        image.src = events[currentIndex].imageSrc;
+                        currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+                    }
+                
+                    updateLinkAndImage(); // Initially update link and image
+                    fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
                     //Ledge 6
                 } else if (month === 3 && date === 27 && year === 2024) {
