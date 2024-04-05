@@ -115,7 +115,7 @@ const eventsData = [
         description: "DMGC presents Who's on Ledge? Our monthly tournament series featuring Super Smash Bros. Melee, Ultimate, and Project+ at RezBlue Arena! For the month of April, we will be splitting up the event into two dates, due to a high amount of interest in Project+. April 13th will be for Smash Ultimate events, and April 27th will be for Melee and Project+ events. We will resume our usual schedule in May.",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/ledge6.png?raw=true",
         link: "https://www.start.gg/tournament/who-s-on-ledge-6-melee-and-p-edition/details",
-        rankImg: false
+        rankImg: true
     },
     {
       name: "Creed III",
