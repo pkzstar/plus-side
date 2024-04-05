@@ -34,7 +34,7 @@ function createEventComponent(eventData) {
       rankImg.classList.add('pm-rank');
       rankImg.src = "https://github.com/pkzstar/plus-side/blob/main/images/pmrank.png?raw=true";
       rankImg.alt = '';
-      eventName.appendChild(rankImg); // Append the rankImg to the eventName (h1) element
+      eventDetailsDiv.appendChild(rankImg); // Append the rankImg to the eventName (div) element
   }
 
   const eventDate = document.createElement('p');
