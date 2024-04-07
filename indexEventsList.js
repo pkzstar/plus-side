@@ -92,6 +92,15 @@ const eventsData = [
         rankImg: false
     },
     {
+      name: "Thunder Throwdown",
+      date: "4/13/24 - 4/14/24",
+      location: "Plano, TX, USA",
+      description: "Welcome to the third Best in Texas 2024 League event! This event features three different tiers of brackets after pools, so each tier of player will have a chance to compete against other players around their skill level. That means there's a trophy for the winner of each bracket! P+ Brackets will be taking place on SUNDAY 4/14! We will be running a redemption bracket for those who don't advance past pools for P+ as well.",
+      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/thunder.png?raw=true",
+      link: "https://www.start.gg/tournament/thunder-throwdown-a-best-in-texas-league-event/details",
+      rankImg: false
+    },
+    {
         name: "THE BIGGER MILE HIGH CLUB",
         date: "4/20/24 - 4/21/24",
         location: "Lakewood, CO, USA",

@@ -543,6 +543,23 @@ function showCalendar(month, year) {
                     link.appendChild(image);
                     cell.appendChild(link);
 
+                    //Thunder
+                } else if (month === 3 && (date === 13 || date === 14) && year === 2024) {
+
+                    let link = document.createElement("a");
+                    link.href = "https://www.start.gg/tournament/thunder-throwdown-a-best-in-texas-league-event/details";
+                    link.target = "_blank";
+
+                    let image = document.createElement("img");
+                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/thunder.png?raw=true";
+
+                    image.classList.add("calendarImg");
+
+
+                    link.appendChild(image);
+                    cell.appendChild(link);
+
+
                     //THE BIGGER MILE HIGH CLUB
                 } else if (month === 3 && (date === 21) && year === 2024) {
 
