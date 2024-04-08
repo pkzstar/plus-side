@@ -34,7 +34,7 @@ function createEventComponent(eventData) {
       rankImg.classList.add('pm-rank');
       rankImg.src = "https://github.com/pkzstar/plus-side/blob/main/images/pmrank.png?raw=true";
       rankImg.alt = '';
-      eventName.appendChild(rankImg); // Append the rankImg to the eventName (h1) element
+      eventDetailsDiv.appendChild(rankImg); // Append the rankImg to the eventName (div) element
   }
 
   const eventDate = document.createElement('p');
@@ -82,14 +82,15 @@ function createEventComponent(eventData) {
 
 // Sample event data (replace this with actual event data)
 const eventsData = [
+  
     {
-        name: "Somnio 5",
-        date: "4/06/24",
-        location: "DE Eindhoven, Nederland",
-        description: "FROM THE PEOPLE THAT BROUGHT YOU DREAMHACK ROTTERDAM, SECTOR Z AND COUNTLESS OTHER EVENTS. Nuckels & JMYL Present : Somnio @ Dynamo in Eindhoven during the Eindhoven Game Festival The 'Dynamo Esports Center' is for all the gaming fans in and around Eindhoven. Within our centre their are various activities all within the space of gaming and esports. From tournaments to workshops, training and more!",
-        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/somniov.png?raw=true",
-        link: "https://www.start.gg/tournament/somnio-5/details",
-        rankImg: false
+      name: "Thunder Throwdown",
+      date: "4/13/24 - 4/14/24",
+      location: "Plano, TX, USA",
+      description: "Welcome to the third Best in Texas 2024 League event! This event features three different tiers of brackets after pools, so each tier of player will have a chance to compete against other players around their skill level. That means there's a trophy for the winner of each bracket! P+ Brackets will be taking place on SUNDAY 4/14! We will be running a redemption bracket for those who don't advance past pools for P+ as well.",
+      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/thunder.png?raw=true",
+      link: "https://www.start.gg/tournament/thunder-throwdown-a-best-in-texas-league-event/details",
+      rankImg: false
     },
     {
         name: "THE BIGGER MILE HIGH CLUB",
@@ -202,7 +203,7 @@ const eventsData = [
         name: "Carnival Clash 2",
         date: "7/26/24 - 7/27/24",
         location: "Portland, OR USA",
-        description: "We're So Back! 🎡 August 3rd, 2024 Oregon's Ride-Filled Summer Regional Returns for another lap on the roller coaster! 📅 Friday May 31 5PM - Monday June 3 9AM PT All main brackets take place on Saturday June 1 and Sunday June 2 🤝 Venue Fee: $220 Your venue fee gives you: Access to the entire camp 8 total meals (1x Friday, 3x Saturday, 3x Sunday, 1x Monday) A spot in a powered and heated cabin with bunk beds on Friday, Saturday, and Sunday night. 24hr friendlies 250 total attendee cap",
+        description: "We're So Back! 🎡 August 3rd, 2024 Oregon's Ride-Filled Summer Regional Returns for another lap on the roller coaster! Why Oaks Amusement Park? Smash & Ride! Rides and attractions will be OPEN. Carnival Food on site! 🍔  Get 20% off UNLIMITED ALL DAY RIDE BRACELET! ",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/carnivalclash2.png?raw=true",
         link: "https://www.start.gg/tournament/carnival-clash-2/details",
         rankImg: false
