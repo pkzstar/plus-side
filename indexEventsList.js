@@ -82,15 +82,7 @@ function createEventComponent(eventData) {
 
 // Sample event data (replace this with actual event data)
 const eventsData = [
-    {
-        name: "Somnio 5",
-        date: "4/06/24",
-        location: "DE Eindhoven, Nederland",
-        description: "FROM THE PEOPLE THAT BROUGHT YOU DREAMHACK ROTTERDAM, SECTOR Z AND COUNTLESS OTHER EVENTS. Nuckels & JMYL Present : Somnio @ Dynamo in Eindhoven during the Eindhoven Game Festival The 'Dynamo Esports Center' is for all the gaming fans in and around Eindhoven. Within our centre their are various activities all within the space of gaming and esports. From tournaments to workshops, training and more!",
-        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/somniov.png?raw=true",
-        link: "https://www.start.gg/tournament/somnio-5/details",
-        rankImg: false
-    },
+  
     {
       name: "Thunder Throwdown",
       date: "4/13/24 - 4/14/24",

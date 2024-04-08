@@ -110,6 +110,19 @@ function createPastEventElement(eventData) {
   // Sample data for past event
 const eventData = [
   {
+    eventTitle: "Somnio 5",
+    imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/somniov.png?raw=true",
+    eventUrl: "https://www.start.gg/tournament/somnio-5/event/brawl-singles-somnio-5",
+    date: "April 6 2024",
+    location: "Nederland",
+    entrants: 27,
+    first: "Smash_Falco3",
+    second: "Melody",
+    third: "Ace",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Metal Tavern",
     imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/metal-tavern.png?raw=true",
     eventUrl: "https://www.start.gg/tournament/metal-tavern/details",
