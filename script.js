@@ -470,7 +470,7 @@ function showCalendar(month, year) {
                     const events = [
                         {   
                             link: "https://www.start.gg/tournament/the-action-2-action-replay/details",
-                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/replay.png?raw=true"
+                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/replay.png?raw=true"
                             
                         },
                         {
