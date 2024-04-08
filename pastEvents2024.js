@@ -119,7 +119,7 @@ const eventData = [
     first: "Smash_Falco3",
     second: "Melody",
     third: "Ace",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLXuSSlxxWDDocvJs5SkF29chHQz-wUvn6",
     hideRankImage: true
   },
   {
