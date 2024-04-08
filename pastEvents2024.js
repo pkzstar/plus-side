@@ -111,21 +111,34 @@ function createPastEventElement(eventData) {
 const eventData = [
   {
     eventTitle: "Somnio 5",
-    imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/somniov.png?raw=true",
+    imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/somniov.png?raw=true",
     eventUrl: "https://www.start.gg/tournament/somnio-5/event/brawl-singles-somnio-5",
     date: "April 6 2024",
-    location: "Nederland",
+    location: "Eindhoven",
     entrants: 27,
     first: "Smash_Falco3",
     second: "Melody",
     third: "Ace",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLXuSSlxxWDDocvJs5SkF29chHQz-wUvn6",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "The Action 2: Action Replay",
+    imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/replay.png?raw=true",
+    eventUrl: "https://www.start.gg/tournament/the-action-2-action-replay/event/project-singles",
+    date: "April 5-6 2024",
+    location: "Canberra",
+    entrants: 32,
+    first: "Ryzuul",
+    second: "RNGReallyNotGood",
+    third: "Tyler",
     vodsUrl: "",
     hideRankImage: true
   },
   {
     eventTitle: "Metal Tavern",
-    imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/metal-tavern.png?raw=true",
-    eventUrl: "https://www.start.gg/tournament/metal-tavern/details",
+    imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/metal-tavern.png?raw=true",
+    eventUrl: "https://www.start.gg/tournament/metal-tavern/event/joust-project-singles",
     date: "March 30 2024",
     location: "Arizona",
     entrants: 37,
@@ -137,7 +150,7 @@ const eventData = [
   },
   {
     eventTitle: "Sakura-Con",
-    imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/sakura.png?raw=true",
+    imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/sakura.png?raw=true",
     eventUrl: "https://www.start.gg/tournament/sakura-con-2024/events/project/brackets/1582567/2370758/standings",
     date: "March 29-31 2024",
     location: "Washington",

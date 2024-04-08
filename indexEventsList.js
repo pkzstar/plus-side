@@ -207,6 +207,15 @@ const eventsData = [
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/carnivalclash2.png?raw=true",
         link: "https://www.start.gg/tournament/carnival-clash-2/details",
         rankImg: false
+      },
+      {
+        name: "Big Cheese 5",
+        date: "10/11/24 - 10/13/24",
+        location: "Woodville South SA, Australia",
+        description: "The South Australian Smash & Fighting Game Community are proud to announce the return of Adelaide's local competitive gaming community Major - The Big Cheese ",
+        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/bigcheese5.png?raw=true",
+        link: "https://www.start.gg/tournament/big-cheese-5-south-australia-smash-fgc-major/details",
+        rankImg: false
       }
     ];
 
