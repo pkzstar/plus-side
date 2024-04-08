@@ -262,7 +262,7 @@ const eventData = [
     first: "Hyperflame",
     second: "Mo $",
     third: "Bluuest",
-    vodsUrl: "",
+    vodsUrl: "https://www.twitch.tv/videos/2114594529",
     hideRankImage: true
   },
   {

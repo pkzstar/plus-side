@@ -394,7 +394,7 @@ function showCalendar(month, year) {
                     link.target = "_blank";
 
                     let image = document.createElement("img");
-                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/sakura.png?raw=true";
+                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/past-events/sakura.png?raw=true";
 
                     image.classList.add("calendarImg");
 
@@ -408,12 +408,12 @@ function showCalendar(month, year) {
                     const events = [
                         {   
                             link: "https://www.start.gg/tournament/sakura-con-2024/details",
-                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/sakura.png?raw=true"
+                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/sakura.png?raw=true"
                             
                         },
                         {
                             link: "https://www.start.gg/tournament/metal-tavern/details",
-                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/metal-tavern.png?raw=true"
+                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/metal-tavern.png?raw=true"
                         }
                     ];
 
@@ -475,7 +475,7 @@ function showCalendar(month, year) {
                         },
                         {
                             link: "https://www.start.gg/tournament/somnio-5/details",
-                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/somniov.png?raw=true"
+                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/somniov.png?raw=true"
                         }
                     ];
 
@@ -535,7 +535,7 @@ function showCalendar(month, year) {
                     link.target = "_blank";
 
                     let image = document.createElement("img");
-                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/replay.png?raw=true";
+                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/past-events/replay.png?raw=true";
 
                     image.classList.add("calendarImg");
 
@@ -904,6 +904,24 @@ function showCalendar(month, year) {
 
                     let image = document.createElement("img");
                     image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/carnivalclash2.png?raw=true";
+
+                    image.classList.add("calendarImg");
+
+
+                    link.appendChild(image);
+                    cell.appendChild(link);
+
+
+                //Big Cheese
+                } else if (month === 9 && (date === 11 || date === 12 || date === 13) && year === 2024) {
+
+
+                    let link = document.createElement("a");
+                    link.href = "https://www.start.gg/tournament/big-cheese-5-south-australia-smash-fgc-major/details";
+                    link.target = "_blank";
+
+                    let image = document.createElement("img");
+                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/bigcheese5.png?raw=true";
 
                     image.classList.add("calendarImg");
 
