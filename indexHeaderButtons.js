@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', function () {
             </div>
           </div>
           <div>
-            <button id="toggleBtn" class="Upcoming-event-form-button hidden">Add an Event</button>
+            <button onclick="toggleForm(event)" id="toggleBtn" class="Upcoming-event-form-button">Add an Event</button>
             <div id="inputContainer" class="hidden Upcoming-event-form">
               <form action="/submit-event" method="post">
                 <p id="EventTitleUpcoming"></p>
