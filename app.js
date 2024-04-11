@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 connectToDatabase().catch(error => console.error('Error:', error));
 
 
-app.get('/submitEvent', async (req, res) => {
+app.get('/', async (req, res) => {
   console.log("hello");
   res.status(200).send('Data saved successfully');
   // const { upcomingTitle, upcomingDate, upcomingLocation, upcomingUrl, upcomingImg, upcomingDescription } = req.body;
