@@ -197,7 +197,7 @@ const eventData = [
     first: "Dirtboy",
     second: "Anther",
     third: "techboy",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLp0mqricKIh1JTJG2dp7GdUt0opZwKrrI",
     hideRankImage: true
   },
   {
