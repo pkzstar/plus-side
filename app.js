@@ -9,6 +9,10 @@ const port = process.env.PORT || 4000; // Use environment port or default to 400
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
+
+app.use(express.static(path.join(__dirname, '')));
+
+
 // Connect to the database and create events table
 connectToDatabase()
   .then(() => {
