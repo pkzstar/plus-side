@@ -145,7 +145,7 @@ const eventData = [
     first: "Jonny Sosa",
     second: "Av",
     third: "Cloudburst",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLUlQZqWo6xoRBr-_93qfQn_ZlzdijLgGq",
     hideRankImage: false
   },
   {
@@ -197,7 +197,7 @@ const eventData = [
     first: "Dirtboy",
     second: "Anther",
     third: "techboy",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLp0mqricKIh1JTJG2dp7GdUt0opZwKrrI",
     hideRankImage: true
   },
   {
