@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const { client, connectToDatabase, closeDatabaseConnection } = require('./server'); // Correct the import path
+const path = require('path'); // Import the path module
 require('dotenv').config();
 
 const app = express();
