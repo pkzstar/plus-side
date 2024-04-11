@@ -145,7 +145,7 @@ const eventData = [
     first: "Jonny Sosa",
     second: "Av",
     third: "Cloudburst",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLUlQZqWo6xoRBr-_93qfQn_ZlzdijLgGq",
     hideRankImage: false
   },
   {
