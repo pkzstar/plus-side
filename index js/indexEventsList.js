@@ -1,23 +1,3 @@
-const fetchDataFromDatabase = require('./exportData');
-
-// Assuming this is where you want to export the data to a separate file
-fetchDataFromDatabase()
-  .then(mergedData => {
-    const fs = require('fs');
-    const path = require('path');
-
-    const exportFilePath = path.join(__dirname, 'exportedUpcomingData.js');
-    const exportContent = `const eventsData = ${JSON.stringify(mergedData, null, 2)};\n\nmodule.exports = eventsData;`;
-
-    fs.writeFileSync(exportFilePath, exportContent);
-
-    console.log('Data exported successfully to exportedData.js');
-  })
-  .catch(error => {
-    console.error('Error exporting data:', error);
-  });
-
-
 function createEventComponent(eventData) {
   // Create the main li element
   const eventLi = document.createElement('li');
