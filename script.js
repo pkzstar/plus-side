@@ -1041,14 +1041,16 @@ form.addEventListener('submit', async function (event) {
     });
 
     if (response.ok) {
-      console.log('Form submitted successfully');
-      // Handle success
+      const responseData = await response.text();
+      console.log('Server response:', responseData); // Display success message in the console
+      // You can display a success message to the user in the UI if needed
     } else {
-      console.error('Form submission failed:', response.statusText);
-      // Handle failure
+      const errorMessage = await response.text();
+      console.error('Form submission failed:', errorMessage); // Display error message in the console
+      // You can display an error message to the user in the UI if needed
     }
   } catch (error) {
-    console.error('Error submitting form:', error);
-    // Handle error
+    console.error('Error submitting form:', error); // Display error in the console
+    // You can display an error message to the user in the UI if needed
   }
 });

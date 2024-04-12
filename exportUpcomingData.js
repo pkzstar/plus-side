@@ -1,6 +1,8 @@
 const express = require('express');
 const router = express.Router();
 const { Client } = require('pg');
+const axios = require('axios'); // Import Axios
+
 require('dotenv').config();
 
 const client = new Client({
@@ -8,10 +10,16 @@ const client = new Client({
 });
 
 // Connect to the database
-client.connect();
+client.connect()
+  .then(() => {
+    console.log('Connected to the database');
+  })
+  .catch(error => {
+    console.error('Error connecting to the database:', error);
+  });
 
 // Route to fetch data from the database
-router.get('/fetchData', async (req, res) => {
+router.get('/submitEvent', async (req, res) => {
   try {
     const query = 'SELECT * FROM events'; // Assuming 'events' is the name of your table
     const result = await client.query(query);

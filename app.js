@@ -1,14 +1,15 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const { client, connectToDatabase, closeDatabaseConnection } = require('./server');
-const path = require('path');
+const { client, connectToDatabase, closeDatabaseConnection } = require('./server'); // Correct the import path
+const path = require('path'); // Import the path module
 require('dotenv').config();
 
 const app = express();
-const port = process.env.PORT || 4000;
+const port = process.env.PORT || 4000; // Use environment port or default to 4000
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+
 app.use(express.static(path.join(__dirname, '')));
 
 // Connect to the database and create events table
@@ -18,10 +19,9 @@ connectToDatabase()
   })
   .catch(error => {
     console.error('Error connecting to the database:', error);
-    process.exit(1);
+    process.exit(1); // Exit the process if unable to connect to the database
   });
 
-// Handle form submission using AJAX/Fetch API
 app.post('/submitEvent', async (req, res) => {
   const { upcomingTitle, upcomingDate, upcomingLocation, upcomingUrl, upcomingImg, upcomingDescription } = req.body;
 
@@ -29,6 +29,14 @@ app.post('/submitEvent', async (req, res) => {
   const values = [upcomingTitle, upcomingDate, upcomingLocation, upcomingUrl, upcomingImg, upcomingDescription];
 
   try {
+    // Validate date format here if needed before inserting into the database
+
+    // Convert date string to date object if needed
+    // const dateObject = new Date(upcomingDate);
+
+    // Use the dateObject in the values array instead of upcomingDate
+    // const values = [upcomingTitle, dateObject, upcomingLocation, upcomingUrl, upcomingImg, upcomingDescription];
+
     const result = await client.query(query, values);
     console.log('Data saved successfully:', result.rows);
     res.status(200).send('Data saved successfully');
@@ -38,16 +46,13 @@ app.post('/submitEvent', async (req, res) => {
   }
 });
 
+app.listen(port, () => {
+  console.log(`Server is running on port ${port}`);
+});
+
 // Gracefully close the database connection when the server is shutting down
 process.on('SIGINT', async () => {
   console.log('Shutting down server...');
   await closeDatabaseConnection();
   process.exit(0);
 });
-
-// Start the server
-const server = app.listen(port, () => {
-  console.log(`Server is running on port ${port}`);
-});
-
-module.exports = server; // Export the server for testing or other purposes

@@ -1,7 +1,7 @@
 // Assuming this is where you want to fetch and use the data
-fetch('/fetchData') // Assuming the server is running on the same host and port
-  .then(response => response.json())
-  .then(data => {
+axios.get('/submitEvent') // Assuming the server is running on the same host and port
+  .then(response => {
+    const data = response.data;
     console.log('Fetched Data:', data); // Check fetched data
     // Merge fetched data with existing eventsData without duplicates
     const mergedData = [

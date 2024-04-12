@@ -1,13 +1,14 @@
 {
   "scripts": {
     "start": "node app.js"
-  },  
+  },
   "devDependencies": {
     "html-webpack-plugin": "^5.6.0",
     "http-server": "^14.1.1",
     "webpack-dev-server": "^5.0.2"
-  },  
+  },
   "dependencies": {
+    "axios": "^1.6.8",
     "body-parser": "^1.20.2",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",
