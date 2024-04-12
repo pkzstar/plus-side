@@ -10,6 +10,7 @@ async function connectToDatabase() {
     await client.connect();
     console.log('Connected to the database!');
     await createEventsTable(); // Call the function to create the events table
+    await deleteEmptyRows(); // Call the function to delete rows with 'EMPTY'
   } catch (error) {
     console.error('Error connecting to the database:', error);
   }
@@ -40,6 +41,19 @@ async function createEventsTable() {
   }
 }
 
+
+async function deleteEmptyRows() {
+  try {
+    const deleteQuery = `
+      DELETE FROM events
+      WHERE title = 'EMPTY'
+    `;
+    const result = await client.query(deleteQuery);
+    console.log(`${result.rowCount} row(s) deleted.`);
+  } catch (error) {
+    console.error('Error deleting rows:', error);
+  }
+}
 
 async function closeDatabaseConnection() {
   try {

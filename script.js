@@ -1027,30 +1027,39 @@ function ToggleZoom(imageId) {
     }
 }
 
-const form = document.getElementById('myForm');
+// Assuming your existing code is here
 
-form.addEventListener('submit', async function (event) {
-  event.preventDefault();
-
-  const formData = new FormData(form);
-
-  try {
-    const response = await fetch('/submitEvent', {
-      method: 'POST',
-      body: formData,
+// Function to handle form submission
+function handleSubmit(event) {
+    event.preventDefault(); // Prevent default form submission behavior
+    const formData = new FormData(event.target); // Get form data
+    const formObject = {};
+    formData.forEach((value, key) => {
+      formObject[key] = value;
     });
-
-    if (response.ok) {
-      const responseData = await response.text();
-      console.log('Server response:', responseData); // Display success message in the console
-      // You can display a success message to the user in the UI if needed
-    } else {
-      const errorMessage = await response.text();
-      console.error('Form submission failed:', errorMessage); // Display error message in the console
-      // You can display an error message to the user in the UI if needed
-    }
-  } catch (error) {
-    console.error('Error submitting form:', error); // Display error in the console
-    // You can display an error message to the user in the UI if needed
+    
+    axios.post('/submitEvent', formObject) // Assuming the server endpoint for form submission is /submitEvent
+      .then(response => {
+        const eventData = response.data;
+        console.log('Submitted Data:', eventData); // Check submitted data
+        renderEvent(eventData); // Render the submitted event data on the page
+      })
+      .catch(error => {
+        console.error('Error submitting form:', error);
+      });
   }
-});
+  
+  // Assuming this is where you have your form element in your HTML
+  const formElement = document.getElementById('upcomingSub'); // Replace 'your-form-id' with the actual ID of your form
+  formElement.addEventListener('submit', handleSubmit); // Listen for form submission
+  
+  // Function to render event data on the page
+  function renderEvent(eventData) {
+    // Create event component using eventData (similar to your createEventComponent function)
+    const eventComponent = createEventComponent(eventData);
+  
+    // Assuming you have a container to append the event component to
+    const eventsContainer = document.getElementById('eventsList'); // Replace 'events-container' with the actual ID of your container
+    eventsContainer.appendChild(eventComponent);
+  }
+  

@@ -38,4 +38,21 @@ router.get('/submitEvent', async (req, res) => {
   }
 });
 
+// Route to handle form submission and insert data into the database
+router.post('/submitEvent', async (req, res) => {
+  const { upcomingTitle, upcomingDate, upcomingLocation, upcomingUrl, upcomingImg, upcomingDescription } = req.body;
+
+  const query = 'INSERT INTO events (title, date, location, url, image, description) VALUES ($1, $2, $3, $4, $5, $6)';
+  const values = [upcomingTitle, upcomingDate, upcomingLocation, upcomingUrl, upcomingImg, upcomingDescription];
+
+  try {
+    const result = await client.query(query, values);
+    console.log('Data saved successfully:', result.rows);
+    res.status(200).send('Data saved successfully');
+  } catch (err) {
+    console.error('Error executing query:', err);
+    res.status(500).send('Error saving data');
+  }
+});
+
 module.exports = router;
