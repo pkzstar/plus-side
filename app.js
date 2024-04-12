@@ -46,6 +46,26 @@ app.post('/submitEvent', async (req, res) => {
   }
 });
 
+app.get('/submitEvent', async (req, res) => {
+  try {
+    const query = 'SELECT * FROM events'; // Assuming 'events' is the name of your table
+    const result = await client.query(query);
+    const data = result.rows.map(row => ({
+      name: row.title,
+      date: row.date,
+      location: row.location,
+      imageUrl: row.image,
+      link: row.url,
+      rankImg: false // You can modify this based on your requirements
+    }));
+    res.json(data);
+  } catch (error) {
+    console.error('Error fetching data from database:', error);
+    res.status(500).json({ error: 'Error fetching data from database' });
+  }
+});
+
+
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
