@@ -36,7 +36,7 @@ app.post('/submitEvent', async (req, res) => {
     res.status(200).send('Data saved successfully');
   } catch (err) {
     console.error('Error executing query:', err);
-    res.status(500).send('Error saving data a');
+    res.status(500).send('Error saving data');
   }
 });
 
