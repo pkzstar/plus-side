@@ -1026,3 +1026,29 @@ function ToggleZoom(imageId) {
 
     }
 }
+
+const form = document.getElementById('myForm');
+
+form.addEventListener('submit', async function (event) {
+  event.preventDefault();
+
+  const formData = new FormData(form);
+
+  try {
+    const response = await fetch('/submitEvent', {
+      method: 'POST',
+      body: formData,
+    });
+
+    if (response.ok) {
+      console.log('Form submitted successfully');
+      // Handle success
+    } else {
+      console.error('Form submission failed:', response.statusText);
+      // Handle failure
+    }
+  } catch (error) {
+    console.error('Error submitting form:', error);
+    // Handle error
+  }
+});
