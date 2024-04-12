@@ -21,7 +21,7 @@ async function createEventsTable() {
       CREATE TABLE IF NOT EXISTS events (
         id SERIAL PRIMARY KEY,
         title VARCHAR(255) NOT NULL,
-        date VARCHAR(255),
+        date VARCHAR(255), 
         location VARCHAR(255),
         url VARCHAR(255),
         image VARCHAR(255),

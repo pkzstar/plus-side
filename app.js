@@ -10,9 +10,7 @@ const port = process.env.PORT || 4000; // Use environment port or default to 400
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-
 app.use(express.static(path.join(__dirname, '')));
-
 
 // Connect to the database and create events table
 connectToDatabase()
@@ -31,6 +29,14 @@ app.post('/submitEvent', async (req, res) => {
   const values = [upcomingTitle, upcomingDate, upcomingLocation, upcomingUrl, upcomingImg, upcomingDescription];
 
   try {
+    // Validate date format here if needed before inserting into the database
+
+    // Convert date string to date object if needed
+    // const dateObject = new Date(upcomingDate);
+
+    // Use the dateObject in the values array instead of upcomingDate
+    // const values = [upcomingTitle, dateObject, upcomingLocation, upcomingUrl, upcomingImg, upcomingDescription];
+
     const result = await client.query(query, values);
     console.log('Data saved successfully:', result.rows);
     res.status(200).send('Data saved successfully');
