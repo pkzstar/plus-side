@@ -1,3 +1,5 @@
+const express = require('express');
+const router = express.Router();
 const { Client } = require('pg');
 require('dotenv').config();
 
@@ -5,10 +7,12 @@ const client = new Client({
   connectionString: process.env.DATABASE_URL,
 });
 
-async function fetchDataFromDatabase() {
-  try {
-    await client.connect();
+// Connect to the database
+client.connect();
 
+// Route to fetch data from the database
+router.get('/fetchData', async (req, res) => {
+  try {
     const query = 'SELECT * FROM events'; // Assuming 'events' is the name of your table
     const result = await client.query(query);
     const data = result.rows.map(row => ({
@@ -19,16 +23,11 @@ async function fetchDataFromDatabase() {
       link: row.url,
       rankImg: false // You can modify this based on your requirements
     }));
-
-    // Merge fetched data with existing eventsData without duplicates
-    const mergedData = [...eventsData, ...data.filter(item => !eventsData.some(existing => existing.name === item.name))];
-    return mergedData;
+    res.json(data);
   } catch (error) {
     console.error('Error fetching data from database:', error);
-    return eventsData; // Return existing data if fetching fails
-  } finally {
-    await client.end();
+    res.status(500).json({ error: 'Error fetching data from database' });
   }
-}
+});
 
-module.exports = fetchDataFromDatabase;
+module.exports = router;
