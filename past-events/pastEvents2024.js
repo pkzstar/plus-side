@@ -171,7 +171,7 @@ const eventData = [
     first: "Moist",
     second: "Shenanigans",
     third: "Mr. Brandandorf",
-    vodsUrl: "",
+    vodsUrl: "https://youtu.be/Hm23MrFl12E?si=rVweE0VK1lL6ICGU",
     hideRankImage: true
   },
   {
@@ -184,7 +184,7 @@ const eventData = [
     first: "Chaloopy",
     second: "ORLY",
     third: "Star",
-    vodsUrl: "",
+    vodsUrl: "https://youtube.com/playlist?list=PLJIkd-7ajnoVagmYPeSwB6HZ0yrNxnwsG&si=rGg_L2m1ZUXh8Lbj",
     hideRankImage: false
   },
   {
@@ -379,7 +379,7 @@ const eventData = [
     first: "Morsecode762",
     second: "Techboy",
     third: "Star",
-    vodsUrl: "https://www.youtube.com/@Game5ProjectPlus",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLp0mqricKIh0expHS97UELiUGIHBrgxX5",
     hideRankImage: false
   },
 ];
