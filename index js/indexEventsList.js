@@ -233,7 +233,3 @@ document.addEventListener('DOMContentLoaded', function () {
     const eventsListDiv = document.getElementById('eventsList');
     eventsListDiv.parentNode.insertBefore(eventsList, eventsListDiv);
 });
-
-// Append the past event element to a container (e.g., a div with id 'pastListContainer')
-const pastListContainer = document.getElementById('pastListContainer');
-pastListContainer.appendChild(pastEventElement);
