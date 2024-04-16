@@ -1,59 +1,65 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const { client, connectToDatabase, closeDatabaseConnection } = require('./db'); // Assuming your database handling functions are in a file called db.js
-const path = require('path');
+const { Client } = require('pg');
 require('dotenv').config();
 
-const app = express();
-const PORT = process.env.PORT || 4000;
+const client = new Client({
+  connectionString: process.env.DATABASE_URL,
+});
 
-app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
-app.use(express.static(path.join(__dirname, 'public')));
-
-connectToDatabase()
-  .then(() => {
-    console.log('Connected to the database');
-  })
-  .catch(error => {
+async function connectToDatabase() {
+  try {
+    await client.connect();
+    console.log('Connected to the database!');
+    await createEventsTable(); // Call the function to create the events table
+  } catch (error) {
     console.error('Error connecting to the database:', error);
-    process.exit(1);
-  });
-
-app.post('/submitEvent', async (req, res) => {
-  const { name, date, location, imageUrl, link, rankImg } = req.body;
-
-  try {
-    const query = 'INSERT INTO events (name, date, location, imageUrl, link, rankImg) VALUES ($1, $2, $3, $4, $5, $6)';
-    const values = [name, date, location, imageUrl, link, rankImg];
-
-    await client.query(query, values);
-    res.status(200).send('Event added successfully');
-  } catch (error) {
-    console.error('Error adding event to the database:', error);
-    res.status(500).send('Error adding event');
   }
-});
+}
 
-app.get('/events', async (req, res) => {
+async function createEventsTable() {
   try {
-    const query = 'SELECT * FROM events';
-    const { rows } = await client.query(query);
-    res.status(200).json(rows);
+    await client.query(`
+    CREATE TABLE IF NOT EXISTS events (
+      id SERIAL PRIMARY KEY,
+      title VARCHAR(255) NOT NULL,
+      date VARCHAR(255), 
+      location VARCHAR(255),
+      url VARCHAR(255),
+      image VARCHAR(255),
+      description TEXT
+    )
+  `);
+  console.log('Table created successfully');
+    // Check if the column type needs to be changed
+    const checkColumnTypeQuery = `
+      SELECT data_type FROM information_schema.columns
+      WHERE table_name = 'events' AND column_name = 'date'
+    `;
+    const { rows } = await client.query(checkColumnTypeQuery);
+
+    if (rows.length > 0 && rows[0].data_type === 'date') {
+      // Alter the column type to VARCHAR(255)
+      const alterColumnTypeQuery = `
+        ALTER TABLE events
+        ALTER COLUMN date TYPE VARCHAR(255)
+      `;
+      await client.query(alterColumnTypeQuery);
+      console.log('Column type updated successfully.');
+    } else {
+      console.log('Column type is already VARCHAR(255). No changes needed.');
+    }
   } catch (error) {
-    console.error('Error fetching events from the database:', error);
-    res.status(500).send('Error fetching events');
+    console.error('Error creating table:', error);
+    console.error('Error altering column type:', error);
   }
-});
+}
 
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
 
-process.on('SIGINT', async () => {
-  console.log('Shutting down server...');
-  await closeDatabaseConnection();
-  process.exit(0);
-});
-
-module.exports = app;
+async function closeDatabaseConnection() {
+  try {
+    await client.end();
+    console.log('Disconnected from the database.');
+  } catch (error) {
+    console.error('Error closing database connection:', error);
+  }
+}
+module.exports = { client, connectToDatabase, closeDatabaseConnection };
