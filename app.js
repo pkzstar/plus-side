@@ -1,11 +1,13 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const { client, connectToDatabase, closeDatabaseConnection } = require('./server'); // Correct the import path
-const path = require('path'); // Import the path module
-require('dotenv').config();
+const http = require('http');
+const app = require('./server');
 
-const app = express();
-const port = process.env.PORT || 4000; // Use environment port or default to 4000
+const PORT = process.env.PORT || 4000;
+const server = http.createServer(app);
+
+server.listen(PORT, () => {
+  console.log(`Server is running on port ${PORT}`);
+});
+
 
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
@@ -37,9 +39,34 @@ app.post('/submitEvent', async (req, res) => {
     // Use the dateObject in the values array instead of upcomingDate
     // const values = [upcomingTitle, dateObject, upcomingLocation, upcomingUrl, upcomingImg, upcomingDescription];
 
-    const result = await client.query(query, values);
-    console.log('Data saved successfully:', result.rows);
-    res.status(200).send('Data saved successfully');
+    const http = require('http'); // Import the native HTTP module
+    const options = {
+      hostname: 'localhost', // Your server's hostname
+      port: port, // Your server's port
+      path: '/submitEvent',
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+    };
+
+    const request = http.request(options, (response) => {
+      console.log(`statusCode: ${response.statusCode}`);
+
+      response.on('data', (data) => {
+        console.log(data.toString());
+        res.status(200).send('Data saved successfully');
+      });
+    });
+
+    request.on('error', (error) => {
+      console.error(error);
+      res.status(500).send('Error saving data');
+    });
+
+    request.write(JSON.stringify({ ...req.body })); // Send the request body
+    request.end();
+
   } catch (err) {
     console.error('Error executing query:', err);
     res.status(500).send('Error saving data');
@@ -48,23 +75,39 @@ app.post('/submitEvent', async (req, res) => {
 
 app.get('/submitEvent', async (req, res) => {
   try {
-    const query = 'SELECT * FROM events'; // Assuming 'events' is the name of your table
-    const result = await client.query(query);
-    const data = result.rows.map(row => ({
-      name: row.title,
-      date: row.date,
-      location: row.location,
-      imageUrl: row.image,
-      link: row.url,
-      rankImg: false // You can modify this based on your requirements
-    }));
-    res.json(data);
+    const http = require('http'); // Import the native HTTP module
+    const options = {
+      hostname: 'localhost', // Your server's hostname
+      port: port, // Your server's port
+      path: '/submitEvent',
+      method: 'GET',
+    };
+
+    const request = http.request(options, (response) => {
+      let data = '';
+
+      response.on('data', (chunk) => {
+        data += chunk;
+      });
+
+      response.on('end', () => {
+        const parsedData = JSON.parse(data);
+        res.json(parsedData);
+      });
+    });
+
+    request.on('error', (error) => {
+      console.error(error);
+      res.status(500).json({ error: 'Error fetching data from database' });
+    });
+
+    request.end();
+
   } catch (error) {
     console.error('Error fetching data from database:', error);
     res.status(500).json({ error: 'Error fetching data from database' });
   }
 });
-
 
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);

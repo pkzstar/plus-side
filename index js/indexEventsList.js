@@ -1,23 +1,3 @@
-// Assuming this is where you want to fetch and use the data
-axios.get('/submitEvent') // Assuming the server is running on the same host and port
-  .then(response => {
-    const data = response.data;
-    console.log('Fetched Data:', data); // Check fetched data
-    // Merge fetched data with existing eventsData without duplicates
-    const mergedData = [
-      ...eventsData,
-      ...data.filter(
-        fetchedItem => !eventsData.some(existingItem => existingItem.name === fetchedItem.name)
-      ),
-    ];
-    console.log('Merged Data:', mergedData); // Check merged data
-    // Use mergedData as needed, for example:
-    // renderEventsList(mergedData);
-  })
-  .catch(error => {
-    console.error('Error fetching and merging data:', error);
-  });
-
 function createEventComponent(eventData) {
   // Create the main li element
   const eventLi = document.createElement('li');
