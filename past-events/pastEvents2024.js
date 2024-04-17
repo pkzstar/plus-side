@@ -110,6 +110,19 @@ function createPastEventElement(eventData) {
   // Sample data for past event
 const eventData = [
   {
+    eventTitle: "Thunder Throwdown",
+    imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/thunder.png?raw=true",
+    eventUrl: "https://www.start.gg/tournament/thunder-throwdown-a-best-in-texas-league-event/details",
+    date: "April 13-14 2024",
+    location: "Texas",
+    entrants: 21,
+    first: "Salt",
+    second: "Fury",
+    third: "Captain Birdman",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Somnio 5",
     imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/somniov.png?raw=true",
     eventUrl: "https://www.start.gg/tournament/somnio-5/event/brawl-singles-somnio-5",
