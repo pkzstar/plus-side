@@ -111,7 +111,7 @@ function createPastEventElement(eventData) {
 const eventData = [
   {
     eventTitle: "Thunder Throwdown",
-    imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/thunder.png?raw=true",
+    imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/thunder.png?raw=true",
     eventUrl: "https://www.start.gg/tournament/thunder-throwdown-a-best-in-texas-league-event/details",
     date: "April 13-14 2024",
     location: "Texas",

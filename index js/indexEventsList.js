@@ -110,6 +110,15 @@ const eventsData = [
         rankImg: true
     },
     {
+      name: "Rainbow Rodeo",
+      date: "5/4/24",
+      location: "San Antonio, TX, USA",
+      description: "Welcome to the fourth Best in Texas 2024 League event! This event features three different tiers of brackets after pools, so each tier of player will have a chance to compete against other players around their skill level. That means there's a trophy for the winner of each bracket!",
+      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/rainbow.png?raw=true",
+      link: "https://www.start.gg/tournament/rainbow-rodeo-a-best-in-texas-league-event/details",
+      rankImg: true
+  },
+    {
       name: "Creed III",
       date: "5/11/24",
       location: "Philadelphia, PA, USA",
@@ -152,7 +161,7 @@ const eventsData = [
         description: "Smash Camp returns to New Lands! Join us again in the Pacific Northwest this Spring 2024. 📅 Friday May 31 5PM - Monday June 3 9AM PT All main brackets take place on Saturday June 1 and Sunday June 2 🤝 Venue Fee: $220 Your venue fee gives you: Access to the entire camp 8 total meals (1x Friday, 3x Saturday, 3x Sunday, 1x Monday) A spot in a powered and heated cabin with bunk beds on Friday, Saturday, and Sunday night. 24hr friendlies 250 total attendee cap",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/smashcamp.png?raw=true",
         link: "https://www.start.gg/tournament/smash-camp-new-lands-2024/details",
-        rankImg: false
+        rankImg: true
       },
       {
         name: "Invincible VIII",
@@ -161,7 +170,7 @@ const eventsData = [
         description: "10,000+ Square Feet Heart of downtown Madison, in walking distance of great restaurants & entertainment. Attached hotel, additional hotels close by Flying in Dane County Regional Airport (MSN) is located 20 minutes away from Union South by car Cheaper flights can be found to General Mitchell Airport (MKE) or O'Hare International Airport (ORD) If flying into O'Hare you can take the Van Galder bus",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/invincible8.png?raw=true",
         link: "https://www.start.gg/tournament/invincible-viii/details",
-        rankImg: false
+        rankImg: true
       },
       {
         name: "Ripped Off",

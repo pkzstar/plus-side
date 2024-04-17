@@ -551,7 +551,7 @@ function showCalendar(month, year) {
                     link.target = "_blank";
 
                     let image = document.createElement("img");
-                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/thunder.png?raw=true";
+                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/past-events/thunder.png?raw=true";
 
                     image.classList.add("calendarImg");
 
