@@ -50,27 +50,40 @@
       </div>
     </div>
     <div>
-      <button id="toggleBtn" class="Upcoming-event-form-button hidden ">Add an Event</button>
+      <button id="toggleBtn" class="Upcoming-event-form-button calView ">Add an Event</button>
       <div id="inputContainer" class="hidden Upcoming-event-form">
         <form id="upcomingSub" action="/submitEvent" method="post">
-          <p id="EventTitleUpcoming"></p>
+
+          <div class="addEventSec">
+            <p id="EventTitleUpcoming"></p>
           <input placeholder="Event Name" type="text" id="textInputUpcomingTitle" name="upcomingTitle">
-          <br>
-          <p id="EventDateUpcoming"></p>
+          </div>
+
+          <div class="addEventSec">
+            <p id="EventDateUpcoming"></p>
           <input placeholder="Event Date(s)" type="text" id="textInputUpcomingDate" name="upcomingDate">
-          <br>
-          <p id="EventLocationUpcoming"></p>
+       </div>
+         
+       <div class="addEventSec">
+        <p id="EventLocationUpcoming"></p>
           <input placeholder="(City, State, Country)" type="text" id="textInputUpcomingLocation" name="upcomingLocation">
-          <br>
-          <p id="EventUrlUpcoming"></p>
+       </div>
+          
+       <div class="addEventSec">
+        <p id="EventUrlUpcoming"></p>
           <input placeholder="Start.gg" type="text" id="textInputUpcomingUrl" name="upcomingUrl">
-          <br>
-          <p id="EventImageUpcoming"></p>
+       </div>
+         
+       <div class="addEventSec">
+        <p id="EventImageUpcoming"></p>
           <input placeholder="Direct Link" type="text" id="textInputUpcomingImage" name="upcomingImg">
-          <br>
-          <p id="EventDescriptionUpcoming"></p>
+       </div>
+         
+       <div class="addEventSec">
+        <p id="EventDescriptionUpcoming"></p>
           <input placeholder="Description" type="text" id="textInputUpcomingDescription" name="upcomingDescription">
-          <br>
+       </div>
+          
           <button id="SubmitBtn" class="submit-btn" type="submit">Submit</button>
         </form>
       </div>

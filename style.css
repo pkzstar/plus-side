@@ -1152,6 +1152,12 @@ button.calViewList {
     margin: 10px 5px 5px 0;
     font-size: 17.5px;
 }
+div#inputContainer {
+    margin: 0 0 0 10%;
+}
+div.Upcoming-event-form  {
+    width: 75%;
+}
 }
 .calView:hover
     {
@@ -1201,7 +1207,6 @@ button.calViewList {
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
-       margin: 10px 40% 0 40%;
        background: rgb(50,185,152);
        background: -moz-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
        background: -webkit-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
@@ -1211,8 +1216,10 @@ button.calViewList {
        border-inline-color: rgb(113, 36, 255);
        border-block-color: green;
        font-family: 'Nunito';
-       width: fit-content;
        height: fit-content; 
+       width: 30%;
+       margin: 10px 0 0 34%;
+
 }
 .Upcoming-event-form:hover {
     border-style: double;
@@ -1258,4 +1265,35 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endCo
 .submit-btn:hover {
     color: rgb(60, 42, 177);
     box-shadow: 2px 2px 5px 1px rgb(0, 43, 4);
+}
+input#textInputUpcomingTitle {
+    display: inline-flex;
+    width: 50%;
+}
+input#textInputUpcomingDate { 
+    display: inline-flex;
+    width: 50%;
+}
+input#textInputUpcomingLocation { 
+    display: inline-flex;
+    width: 50%;
+}
+input#textInputUpcomingUrl { 
+    display: inline-flex;
+    width: 50%;
+}
+input#textInputUpcomingImage { 
+    display: inline-flex;
+    width: 50%;
+}
+input#textInputUpcomingDescription { 
+    display: inline-flex;
+    width: 50%;
+}
+div.addEventSec {
+    font-size: 20px;
+}
+form#upcomingSub {
+    text-align: center;
+    margin: 10px 0 10px 0;
 }
