@@ -16,10 +16,6 @@ const toggleBtn = document.getElementById('toggleBtn');
 
         toggleBtn.addEventListener('click', () => {
             inputContainer.classList.toggle('hidden');
-            if (!inputContainer.classList.contains('hidden')) {
-                // If input is visible, focus on it
-                document.getElementById('textInput').focus();
-            }
         });
 
 //submit button
@@ -34,7 +30,7 @@ submitBtn.addEventListener('click', () => {
         submitBtn.textContent = 'Your request is being reviewed';
 
         // Clear the information in all input fields
-        inputFields.forEach(input => input.value = '');
+        // inputFields.forEach(input => input.value = '');
 
         submitted = true;
     } else {
