@@ -24,7 +24,8 @@ const inputFields = document.querySelectorAll('input[type="text"]');
 let originalBtnText = submitBtn.textContent;
 let submitted = false;
 
-submitBtn.addEventListener('click', () => {
+submitBtn.addEventListener('click', (event) => {
+    event.preventDefault()
     if (!submitted) {
         // Change the text of the button
         submitBtn.textContent = 'Your request is being reviewed';
@@ -33,6 +34,34 @@ submitBtn.addEventListener('click', () => {
         // inputFields.forEach(input => input.value = '');
 
         submitted = true;
+
+        axios.post('/submitEvent', { 
+            upcomingTitle: inputFields[0].value, 
+            upcomingDate: inputFields[1].value, 
+            upcomingLocation: inputFields[2].value, 
+            upcomingUrl: inputFields[3].value, 
+            upcomingImg: inputFields[4].value, 
+            upcomingDescription: inputFields[5].value
+          })
+
+        .then(response => {
+            // const data = response.data;
+            // console.log('Fetched Data:', data); // Check fetched data
+            // // Merge fetched data with existing eventsData without duplicates
+            // const mergedData = [
+            // ...eventsData,
+            // ...data.filter(
+            //     fetchedItem => !eventsData.some(existingItem => existingItem.name === fetchedItem.name)
+            // ),
+            // ];
+            // console.log('Merged Data:', mergedData); // Check merged data
+            // Use mergedData as needed, for example:
+            // renderEventsList(mergedData);
+        })
+        .catch(error => {
+            console.error('Error fetching and merging data:', error);
+        });
+
     } else {
         // Reset button text
         submitBtn.textContent = originalBtnText;
