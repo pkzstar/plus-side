@@ -110,6 +110,32 @@ function createPastEventElement(eventData) {
   // Sample data for past event
 const eventData = [
   {
+    eventTitle: "The Bigger Mile High Club!",
+    imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/milehigh.jpg?raw=true",
+    eventUrl: "https://www.start.gg/tournament/the-bigger-mile-high-club/details",
+    date: "April 20-21 2024",
+    location: "Colorado",
+    entrants: 134,
+    first: "SipMastah",
+    second: "Sneez",
+    third: "Shiny Zubat",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "Scarlet Classic IX+",
+    imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/scarletix.png?raw=true",
+    eventUrl: "https://www.start.gg/tournament/scarlet-classic-ix-1/details",
+    date: "April 20 2024",
+    location: "New Jersey",
+    entrants: 20,
+    first: "Gclem",
+    second: "russ",
+    third: "Montblanc",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Thunder Throwdown",
     imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/thunder.png?raw=true",
     eventUrl: "https://www.start.gg/tournament/thunder-throwdown-a-best-in-texas-league-event/details",

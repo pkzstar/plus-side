@@ -82,24 +82,7 @@ function createEventComponent(eventData) {
 
 // Sample event data (replace this with actual event data)
 const eventsData = [
-  
-    {
-        name: "THE BIGGER MILE HIGH CLUB",
-        date: "4/20/24 - 4/21/24",
-        location: "Lakewood, CO, USA",
-        description: "Colorado's P+ Major is back!! The Bigger Mile High Club is happening on April 20th and 21st at Localhost's Warehouse sized venue! Come Show your skills at the city in the clouds!",
-        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/milehigh.jpg?raw=true",
-        link: "https://www.start.gg/tournament/the-bigger-mile-high-club/details",
-        rankImg: true
-    },
-    {
-      name: "Scarlet Classic IX+",
-      date: "4/20/24",
-      location: "Piscataway, NJ, USA",
-      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/scarlet.png?raw=true",
-      link: "https://www.start.gg/tournament/scarlet-classic-ix-1/details",
-      rankImg: false
-    },
+
     {
         name: "Who's on Ledge? 6",
         date: "4/27/24",
@@ -116,7 +99,7 @@ const eventsData = [
       description: "Welcome to the fourth Best in Texas 2024 League event! This event features three different tiers of brackets after pools, so each tier of player will have a chance to compete against other players around their skill level. That means there's a trophy for the winner of each bracket!",
       imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/rainbow.png?raw=true",
       link: "https://www.start.gg/tournament/rainbow-rodeo-a-best-in-texas-league-event/details",
-      rankImg: true
+      rankImg: false
   },
     {
       name: "Creed III",
@@ -138,7 +121,7 @@ const eventsData = [
       },
       {
         name: "Game 5 In The D #3",
-        date: "05/18/24",
+        date: "5/18/24",
         location: "Detroit, MI, USA",
         description: "We welcome all valiant competitors to our local P+ scene's return-to-form! Featuring a professional stream, custom tournament badges, your favorite players, and much, much more, this will be an event you won't want to miss!",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/game5In.png?raw=true",
@@ -202,10 +185,19 @@ const eventsData = [
       {
         name: "Carnival Clash 2",
         date: "7/26/24 - 7/27/24",
-        location: "Portland, OR USA",
-        description: "We're So Back! 🎡 August 3rd, 2024 Oregon's Ride-Filled Summer Regional Returns for another lap on the roller coaster! Why Oaks Amusement Park? Smash & Ride! Rides and attractions will be OPEN. Carnival Food on site! 🍔  Get 20% off UNLIMITED ALL DAY RIDE BRACELET! ",
+        location: "Portland, OR, USA",
+        description: "We're So Back! 🎡 August 3rd, 2024 Oregon's Ride-Filled Summer Regional Returns for another lap on the roller coaster! Why Oaks Amusement Park? Smash & Ride! Rides and attractions will be OPEN. Carnival Food on site! 🍔  Get 20% off UNLIMITED ALL DAY RIDE BRACELET!",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/carnivalclash2.png?raw=true",
         link: "https://www.start.gg/tournament/carnival-clash-2/details",
+        rankImg: false
+      },
+      {
+        name: "Undertow 2024",
+        date: "9/6/24 - 9/9/24",
+        location: "Sandusky, OH, USA",
+        description: "Thanks to the dedication of the Midwest Project+ and HDR communities, we're proud to continue the water park shadow major tradition in 2024!",
+        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/undertow2024.png?raw=true",
+        link: "https://www.start.gg/tournament/undertow-2024/details",
         rankImg: false
       },
       {
