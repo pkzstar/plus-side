@@ -568,7 +568,7 @@ function showCalendar(month, year) {
                     link.target = "_blank";
 
                     let image = document.createElement("img");
-                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/milehigh.jpg?raw=true";
+                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/past-events/milehigh.jpg?raw=true";
 
                     image.classList.add("calendarImg");
 
@@ -583,12 +583,12 @@ function showCalendar(month, year) {
 
                         {   
                             link: "https://www.start.gg/tournament/the-bigger-mile-high-club/details",
-                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/milehigh.jpg?raw=true"
+                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/milehigh.jpg?raw=true"
                             
                         },
                         {
                             link: "https://www.start.gg/tournament/scarlet-classic-ix-1/details",
-                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/scarlet.png?raw=true"
+                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/scarletix.png?raw=true"
                         }
                     ];
 
@@ -924,6 +924,24 @@ function showCalendar(month, year) {
 
                     let image = document.createElement("img");
                     image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/carnivalclash2.png?raw=true";
+
+                    image.classList.add("calendarImg");
+
+
+                    link.appendChild(image);
+                    cell.appendChild(link);
+
+
+                //Undertow 2024
+                } else if (month === 8 && (date === 6 || date === 7 || date === 8) && year === 2024) {
+
+
+                    let link = document.createElement("a");
+                    link.href = "https://www.start.gg/tournament/undertow-2024/details";
+                    link.target = "_blank";
+
+                    let image = document.createElement("img");
+                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/undertow2024.png?raw=true";
 
                     image.classList.add("calendarImg");
 
