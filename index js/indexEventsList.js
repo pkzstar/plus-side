@@ -107,7 +107,7 @@ const eventsData = [
       location: "Philadelphia, PA, USA",
       imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/creed.png?raw=true",
       link: "https://www.start.gg/tournament/creed-iii/details",
-      rankImg: false
+      rankImg: true
 
     }, 
     { 
@@ -162,7 +162,7 @@ const eventsData = [
         description: "Ripped Off is here as the P+ shadow major for Tipped Off 15! Taking place across the campus in the KSU engineering and technology center on Friday June 14th, Ripped Off brings a new home to all the P+ players of the South East.",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/ripped.png?raw=true",
         link: "https://www.start.gg/tournament/ripped-off-1/details",
-        rankImg: false
+        rankImg: true
       },
       {
         name: "Phantom 2024",
