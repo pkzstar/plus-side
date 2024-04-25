@@ -21,6 +21,7 @@ connectToDatabase()
     console.error('Error connecting to the database:', error);
     process.exit(1); // Exit the process if unable to connect to the database
   });
+
 app.post('/submitEvent', async (req, res) => {
   const { upcomingTitle, upcomingDate, upcomingLocation, upcomingUrl, upcomingImg, upcomingDescription } = req.body;
   const query = 'INSERT INTO events (title, date, location, url, image, description) VALUES ($1, $2, $3, $4, $5, $6)';
@@ -43,6 +44,20 @@ app.post('/submitEvent', async (req, res) => {
     res.status(500).send('Error saving data');
   }
 });
+
+app.get('/submitEvent', async (req, res) => {
+  try {
+    const query = 'SELECT * FROM events'; // Query to select all data from the events table
+    const result = await client.query(query);
+    console.log('Retrieved data from database:', result.rows);
+    res.status(200).json(result.rows); // Send the retrieved data as JSON response
+  } catch (err) {
+    console.error('Error executing query:', err);
+    res.status(500).send('Error retrieving data');
+  }
+});
+
+
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
