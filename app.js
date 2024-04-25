@@ -31,7 +31,7 @@ connectToDatabase()
     process.exit(1); // Exit the process if unable to connect to the database
   });
 
-  const hashedPassword = process.env.Hashed_FORM_PASS;
+  const hashedPassword = process.env.Hashed_Form_Pass;
 
 
 app.post('/submitEvent', async (req, res) => {

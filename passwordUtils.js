@@ -5,7 +5,7 @@ require('dotenv').config();
 const argon2 = require('argon2');
 const crypto = require('crypto');
 
-const password = process.env.FORM_PASS;
+const password = process.env.Form_Pass;
 
 
 // Generate a random salt
