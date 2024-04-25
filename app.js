@@ -31,6 +31,9 @@ connectToDatabase()
     process.exit(1); // Exit the process if unable to connect to the database
   });
 
+  const hashedPassword = process.env.Hashed_Form_Pass;
+
+
   app.post('/submitEvent', async (req, res) => {
     const { upcomingTitle, upcomingDate, upcomingLocation, upcomingUrl, upcomingImg, upcomingDescription } = req.body;
     const query = 'INSERT INTO events (title, date, location, url, image, description) VALUES ($1, $2, $3, $4, $5, $6)';

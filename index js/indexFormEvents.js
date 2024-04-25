@@ -26,65 +26,52 @@ const inputFields = document.querySelectorAll('input[type="text"]');
 let originalBtnText = submitBtn.textContent;
 let submitted = false;
 
-submitBtn.addEventListener('click', async (event) => {
+submitBtn.addEventListener('click', (event) => {
     event.preventDefault();
 
     if (!submitted) {
         // Change the text of the button
         submitBtn.textContent = 'Your request is being reviewed';
 
+        // Clear the information in all input fields
+        // inputFields.forEach(input => input.value = '');
+
+        submitted = true;
+
         // Get the password from the input field
         const password = document.getElementById('textPassUpcoming').value;
 
-        const savedPassword = process.env.Form_Pass; // Password saved in the environment variable
-        const hashedPassword = process.env.Hashed_Form_Pass; // Hashed password from the environment variable
+        axios.post('/submitEvent', { 
+            upcomingTitle: inputFields[0].value, 
+            upcomingDate: inputFields[1].value, 
+            upcomingLocation: inputFields[2].value, 
+            upcomingUrl: inputFields[3].value, 
+            upcomingImg: inputFields[4].value, 
+            upcomingDescription: inputFields[5].value,
+            upcomingPass: password  // Include the password in the request
+        })
+        .then(response => {
+            const data = response.data;
+            console.log('Response Data:', data); // Check the response data
 
-        async function verifyPassword(enteredPass, savedPass) {
-            try {
-                // Verify the entered password against the saved password
-                const match = await argon2.verify(savedPass, enteredPass);
-                return match;
-            } catch (error) {
-                console.error('Error verifying password:', error);
-                return false;
-            }
-        }
-
-        // Call the function to verify the password
-        const isPasswordCorrect = await verifyPassword(password, hashedPassword);
-
-        if (isPasswordCorrect) {
-            // Proceed with submitting the form data
-            axios.post('/submitEvent', { 
-                upcomingTitle: inputFields[0].value, 
-                upcomingDate: inputFields[1].value, 
-                upcomingLocation: inputFields[2].value, 
-                upcomingUrl: inputFields[3].value, 
-                upcomingImg: inputFields[4].value, 
-                upcomingDescription: inputFields[5].value,
-                upcomingPass: password  // Include the password in the request
-            })
-            .then(response => {
-                const data = response.data;
-                console.log('Response Data:', data); // Check the response data
-                console.log('Form submitted successfully!');
+            // Check if the password is correct in the response
+            if (data.passwordCorrect) {
+                console.log('Password is correct!');
                 // Perform actions or display messages as needed
-            })
-            .catch(error => {
-                console.error('Error submitting event:', error);
-            });
-        } else {
-            console.log('Incorrect password. Access denied.');
-            // Handle incorrect password scenario
-        }
+            } else {
+                console.log('Incorrect password. Access denied.');
+                // Handle incorrect password scenario
+            }
+        })
+        .catch(error => {
+            console.error('Error submitting event:', error);
+        });
 
-        submitted = true;
     } else {
         // Reset button text
         submitBtn.textContent = originalBtnText;
         submitted = false;
     }
-
     setTimeout(() => {
         submitBtn.textContent = originalBtnText;
     }, 3000);
