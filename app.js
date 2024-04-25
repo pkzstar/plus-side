@@ -34,10 +34,10 @@ connectToDatabase()
   const hashedPassword = process.env.Hashed_Form_Pass;
 
 
-  app.post('/submitEvent', async (req, res) => {
-    const { upcomingTitle, upcomingDate, upcomingLocation, upcomingUrl, upcomingImg, upcomingDescription } = req.body;
-    const query = 'INSERT INTO events (title, date, location, url, image, description) VALUES ($1, $2, $3, $4, $5, $6)';
-    const values = [upcomingTitle, upcomingDate, upcomingLocation, upcomingUrl, upcomingImg, upcomingDescription];
+app.post('/submitEvent', async (req, res) => {
+  const { upcomingTitle, upcomingDate, upcomingLocation, upcomingUrl, upcomingImg, upcomingDescription } = req.body;
+  const query = 'INSERT INTO events (title, date, location, url, image, description) VALUES ($1, $2, $3, $4, $5, $6, $7)';
+  const values = [upcomingTitle, upcomingDate, upcomingLocation, upcomingUrl, upcomingImg, upcomingDescription, process.env.Hashed_Form_Pass];
 
   try {
     // Validate date format here if needed before inserting into the database
