@@ -57,6 +57,23 @@ app.get('/events', async (req, res) => {
   }
 });
 
+app.post('/queryEvents', async (req, res) => {
+  const { queries } = req.body;
+
+  try {
+    const results = [];
+    for (const query of queries) {
+      const result = await client.query(query);
+      results.push(result.rows);
+    }
+    console.log('Query results:', results);
+    res.status(200).json(results);
+  } catch (err) {
+    console.error('Error executing queries:', err);
+    res.status(500).send('Error fetching data');
+  }
+});
+
 
 
 app.listen(port, () => {
