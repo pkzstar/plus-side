@@ -1,3 +1,5 @@
+//app.js
+
 const express = require('express');
 const bodyParser = require('body-parser');
 const { client, connectToDatabase, closeDatabaseConnection } = require('./server'); // Correct the import path

@@ -1189,10 +1189,10 @@ div.Upcoming-event-form  {
     display: none;
 }
 
-#EventDateUpcoming, #EventLocationUpcoming, #EventTitleUpcoming, #EventUrlUpcoming, #EventImageUpcoming, #EventDescriptionUpcoming {
+#EventDateUpcoming, #EventLocationUpcoming, #EventTitleUpcoming, #EventUrlUpcoming, #EventImageUpcoming, #EventDescriptionUpcoming, #EventPassUpcoming {
     display: inline;
 }
-#textInputUpcomingTitle, #textInputUpcomingDate, #textInputUpcomingLocation, #textInputUpcomingUrl, #textInputUpcomingImage, #textInputUpcomingDescription {
+#textInputUpcomingTitle, #textInputUpcomingDate, #textInputUpcomingLocation, #textInputUpcomingUrl, #textInputUpcomingImage, #textInputUpcomingDescription, #textPassUpcoming {
     margin: 10px;
 }
 .Upcoming-event-form {
@@ -1289,6 +1289,10 @@ input#textInputUpcomingImage {
 input#textInputUpcomingDescription { 
     display: inline-flex;
     width: 50%;
+}
+input#textPassUpcoming {
+    display: inline-flex;
+    width: 50%; 
 }
 div.addEventSec {
     font-size: 20px;

@@ -1,3 +1,5 @@
+//indexFormEvents.js
+
 //Add an event button toggle
 const toggleBtn = document.getElementById('toggleBtn');
         const inputContainer = document.getElementById('inputContainer');
@@ -13,6 +15,9 @@ const toggleBtn = document.getElementById('toggleBtn');
         eventImageElement.innerHTML = "Image :";
         const eventDescriptionElement = document.getElementById('EventDescriptionUpcoming');
         eventDescriptionElement.innerHTML = "Description :";
+
+        // const eventPassElement = document.getElementById('EventPassUpcoming');
+        // eventPassElement.innerHTML = "+side Staff :";
 
         toggleBtn.addEventListener('click', () => {
             inputContainer.classList.toggle('hidden');
