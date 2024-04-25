@@ -45,7 +45,7 @@ app.post('/submitEvent', async (req, res) => {
   }
 });
 
-app.get('/submitEvent', (req, res) => {
+app.get('/events', (req, res) => {
   try {
     const query = 'SELECT * FROM events'; // Query to select all data from the events table
     const result = client.query(query);
