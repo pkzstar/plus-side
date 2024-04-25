@@ -67,7 +67,9 @@ app.post('/queryEvents', async (req, res) => {
       results.push(result.rows);
     }
     console.log('Query results:', results);
-    res.status(200).json(results);
+
+    // Send back only the results from the second array
+    res.status(200).json(results[1]); // Assuming the second array is at index 1
   } catch (err) {
     console.error('Error executing queries:', err);
     res.status(500).send('Error fetching data');
