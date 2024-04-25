@@ -28,6 +28,7 @@ async function createEventsTable() {
       url VARCHAR(255),
       image VARCHAR(255),
       description TEXT
+      hashed_password VARCHAR(255) NOT NULL
     )
   `);
   console.log('Table created successfully');
