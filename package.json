@@ -8,8 +8,6 @@
     "webpack-dev-server": "^5.0.2"
   },
   "dependencies": {
-    "argon2": "^0.40.1",
-    "argon2-browser": "^1.18.0",
     "body-parser": "^1.20.2",
     "dotenv": "^16.4.5",
     "express": "^4.19.2",

@@ -1,22 +1,13 @@
-//app.js
-
 const express = require('express');
 const bodyParser = require('body-parser');
 const { client, connectToDatabase, closeDatabaseConnection } = require('./server'); // Correct the import path
 const path = require('path'); // Import the path module
-const argon2 = require('argon2'); // Add Argon2 import
 require('dotenv').config();
 const app = express();
 const port = process.env.PORT || 4000; // Use environment port or default to 4000
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-
-// Middleware to log requests
-app.use((req, res, next) => {
-  console.log(`${req.method} ${req.path}`);
-  next();
-});
 
 app.use(express.static(path.join(__dirname, '')));
 
@@ -31,13 +22,15 @@ connectToDatabase()
     process.exit(1); // Exit the process if unable to connect to the database
   });
 
-  const hashedPassword = process.env.Hashed_FORM_PASS;
-
-
 app.post('/submitEvent', async (req, res) => {
   const { upcomingTitle, upcomingDate, upcomingLocation, upcomingUrl, upcomingImg, upcomingDescription } = req.body;
+<<<<<<< HEAD
   const query = 'INSERT INTO events (title, date, location, url, image, description) VALUES ($1, $2, $3, $4, $5, $6, $7)';
   const values = [upcomingTitle, upcomingDate, upcomingLocation, upcomingUrl, upcomingImg, upcomingDescription, process.env.Hashed_Form_Pass];
+=======
+  const query = 'INSERT INTO events (title, date, location, url, image, description) VALUES ($1, $2, $3, $4, $5, $6)';
+  const values = [upcomingTitle, upcomingDate, upcomingLocation, upcomingUrl, upcomingImg, upcomingDescription];
+>>>>>>> parent of 5836a39 (pass test)
 
   try {
     // Validate date format here if needed before inserting into the database
