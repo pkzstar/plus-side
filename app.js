@@ -45,10 +45,10 @@ app.post('/submitEvent', async (req, res) => {
   }
 });
 
-app.get('/submitEvent', async (req, res) => {
+app.get('/submitEvent', (req, res) => {
   try {
     const query = 'SELECT * FROM events'; // Query to select all data from the events table
-    const result = await client.query(query);
+    const result = client.query(query);
     console.log('Retrieved data from database:', result.rows);
     res.status(200).json(result.rows); // Send the retrieved data as JSON response
   } catch (err) {
