@@ -33,13 +33,16 @@ function createNavBar() {
 
   const navTextSection = document.createElement('section');
   navTextSection.className = 'nav-text';
+
   const eventsLink = document.createElement('a');
   eventsLink.href = '/';
   const eventsText = document.createElement('p');
   eventsText.id = 'navText';
   eventsText.textContent = 'Events';
   eventsLink.appendChild(eventsText);
+
   navTextSection.appendChild(eventsLink);
+
   const articlesLink = document.createElement('a');
   articlesLink.href = '/Articles.html';
   const articlesText = document.createElement('p');
@@ -47,6 +50,16 @@ function createNavBar() {
   articlesText.textContent = 'Articles';
   articlesLink.appendChild(articlesText);
   navTextSection.appendChild(articlesLink);
+  navBar.appendChild(navTextSection);
+
+  const CharactersLink = document.createElement('a');
+  CharactersLink.href = '/Characters.html';
+  const CharactersText = document.createElement('p');
+  CharactersText.id = 'navText';
+  CharactersText.textContent = 'Characters';
+  CharactersText.classList.add('hidden');
+  CharactersLink.appendChild(CharactersText);
+  navTextSection.appendChild(CharactersLink);
   navBar.appendChild(navTextSection);
 
   return navBar;
