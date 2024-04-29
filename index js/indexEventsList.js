@@ -161,7 +161,7 @@ const eventsData = [
         location: "Calgary, AB, Canada",
         description: "A celebration of Smash Bros. fan games!Featuring HDR Singles, HDR Doubles and P+ Singles as paid events, along with plenty of free side events such as HDR Amateur brackets, Smash Remix, Rivals of Aether and Sonic Adventure 2!",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/blackmarket.png?raw=true",
-        link: "https://www.start.gg/tournament/ripped-off-1/details",
+        link: "https://www.start.gg/tournament/the-black-market/details",
         rankImg: false
       },
       {
