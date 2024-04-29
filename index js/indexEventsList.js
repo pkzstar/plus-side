@@ -84,15 +84,6 @@ function createEventComponent(eventData) {
 const eventsData = [
 
     {
-        name: "Who's on Ledge? 6",
-        date: "4/27/24",
-        location: "Des Moines, IA, USA",
-        description: "DMGC presents Who's on Ledge? Our monthly tournament series featuring Super Smash Bros. Melee, Ultimate, and Project+ at RezBlue Arena! For the month of April, we will be splitting up the event into two dates, due to a high amount of interest in Project+. April 13th will be for Smash Ultimate events, and April 27th will be for Melee and Project+ events. We will resume our usual schedule in May.",
-        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/ledge6.png?raw=true",
-        link: "https://www.start.gg/tournament/who-s-on-ledge-6-melee-and-p-edition/details",
-        rankImg: true
-    },
-    {
       name: "Rainbow Rodeo",
       date: "5/4/24",
       location: "San Antonio, TX, USA",
@@ -163,6 +154,15 @@ const eventsData = [
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/ripped.png?raw=true",
         link: "https://www.start.gg/tournament/ripped-off-1/details",
         rankImg: true
+      },
+      {
+        name: "The Black Market",
+        date: "6/22/24",
+        location: "Calgary, AB, Canada",
+        description: "A celebration of Smash Bros. fan games!Featuring HDR Singles, HDR Doubles and P+ Singles as paid events, along with plenty of free side events such as HDR Amateur brackets, Smash Remix, Rivals of Aether and Sonic Adventure 2!",
+        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/blackmarket.png?raw=true",
+        link: "https://www.start.gg/tournament/ripped-off-1/details",
+        rankImg: false
       },
       {
         name: "Phantom 2024",

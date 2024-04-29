@@ -110,6 +110,19 @@ function createPastEventElement(eventData) {
   // Sample data for past event
 const eventData = [
   {
+    eventTitle: "Who's on Ledge? 6",
+    imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/ledge6.png?raw=true",
+    eventUrl: "https://www.start.gg/tournament/who-s-on-ledge-6-melee-and-p-edition/details",
+    date: "April 27 2024",
+    location: "Iowa",
+    entrants: 32,
+    first: "Chaloopy",
+    second: "metroid",
+    third: "ORLY",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLJIkd-7ajnoWhn4-sszntqcIULs4HCGPF",
+    hideRankImage: false
+  },
+  {
     eventTitle: "The Bigger Mile High Club!",
     imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/milehigh.jpg?raw=true",
     eventUrl: "https://www.start.gg/tournament/the-bigger-mile-high-club/details",
