@@ -126,7 +126,7 @@ const eventsData = [
         description: "The Romeoville Project+ Tournament Returns! Taking place Combo Breaker weekend, ILPM and UGS are once again bringing you a premier P+ event, featuring our massive venue, top quality livestream production with MULTIPLE streams, and plenty of setups!",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/supertps.png?raw=true",
         link: "https://www.start.gg/tournament/tripoint-smash-presents-super-tps-iii/details",
-        rankImg: false
+        rankImg: true
       },
       {
         name: "Smash Camp: New Lands 2024",
