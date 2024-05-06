@@ -84,15 +84,6 @@ function createEventComponent(eventData) {
 const eventsData = [
 
     {
-      name: "Rainbow Rodeo",
-      date: "5/4/24",
-      location: "San Antonio, TX, USA",
-      description: "Welcome to the fourth Best in Texas 2024 League event! This event features three different tiers of brackets after pools, so each tier of player will have a chance to compete against other players around their skill level. That means there's a trophy for the winner of each bracket!",
-      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/rainbow.png?raw=true",
-      link: "https://www.start.gg/tournament/rainbow-rodeo-a-best-in-texas-league-event/details",
-      rankImg: false
-  },
-    {
       name: "Creed III",
       date: "5/11/24",
       location: "Philadelphia, PA, USA",
@@ -117,6 +108,15 @@ const eventsData = [
         description: "We welcome all valiant competitors to our local P+ scene's return-to-form! Featuring a professional stream, custom tournament badges, your favorite players, and much, much more, this will be an event you won't want to miss!",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/game5In.png?raw=true",
         link: "https://www.start.gg/tournament/game-5-in-the-d-3-1/details",
+        rankImg: false
+      },
+      {
+        name:"Get Out of My Venue",
+        date: "5/17/24 - 5/18/24",
+        location: "Toronto, ON, Canada",
+        description: "HDR/P+ SILLY MAJOR AT GOML. P+ - FRIDAY NIGHT 6:30 - FINISH - BO3 UNTIL TOP 8. HDR- SATURDAY NIGHT 8:30 - FINISH - BO3 UNTIL TOP 8. Times subject to change depending on GOML schedule.  HDR will be on Nightly unless the Smashline 2 update is pushed to beta. 2 week cutoff for nightly patch.",
+        imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Canada_%28leaf%29.svg/630px-Flag_of_Canada_%28leaf%29.svg.png",
+        link: "https://www.start.gg/tournament/get-out-of-my-venue/details",
         rankImg: false
       },
       {
@@ -180,6 +180,15 @@ const eventsData = [
         description: "Phantom returns after a year away, and this time in Melbourne.",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/phantom.png?raw=true",
         link: "https://www.start.gg/tournament/phantom-2024/details",
+        rankImg: false
+      },
+      {
+        name: "Terminal Velocity",
+        date: "7/14/24",
+        location: "Boston, MA, USA",
+        description: "📍Terminal Velocity takes place Sunday, July 14, at Balance Patch on Commonwealth Avenue in Boston.",
+        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/terminal.png?raw=true",
+        link: "https://www.start.gg/tournament/terminal-velocity/details",
         rankImg: false
       },
       {

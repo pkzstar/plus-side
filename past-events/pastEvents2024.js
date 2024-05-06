@@ -109,6 +109,20 @@ function createPastEventElement(eventData) {
   }
   // Sample data for past event
 const eventData = [
+
+  {
+    eventTitle: "Rainbow Rodeo",
+    imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/rainbow.png?raw=true",
+    eventUrl: "https://www.start.gg/tournament/rainbow-rodeo-a-best-in-texas-league-event/event/p-singles",
+    date: "May 4 2024",
+    location: "Texas",
+    entrants: 27,
+    first: "~CP9~",
+    second: "Captain Birdman",
+    third: "Ntire",
+    vodsUrl: "",
+    hideRankImage: true
+  },
   {
     eventTitle: "Who's on Ledge? 6",
     imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/ledge6.png?raw=true",
