@@ -52,15 +52,14 @@ function createNavBar() {
   navTextSection.appendChild(articlesLink);
   navBar.appendChild(navTextSection);
 
-  const CharactersLink = document.createElement('a');
-  CharactersLink.href = '/Characters.html';
-  const CharactersText = document.createElement('p');
-  CharactersText.id = 'navText';
-  CharactersText.textContent = 'Characters';
-  CharactersText.classList.add('hidden');
-  CharactersLink.appendChild(CharactersText);
-  navTextSection.appendChild(CharactersLink);
-  navBar.appendChild(navTextSection);
+  // const CharactersLink = document.createElement('a');
+  // CharactersLink.href = '/Characters.html';
+  // const CharactersText = document.createElement('p');
+  // CharactersText.id = 'navText';
+  // CharactersText.textContent = 'Characters';
+  // CharactersLink.appendChild(CharactersText);
+  // navTextSection.appendChild(CharactersLink);
+  // navBar.appendChild(navTextSection);
 
   return navBar;
 }
