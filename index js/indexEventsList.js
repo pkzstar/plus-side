@@ -99,7 +99,7 @@ const eventsData = [
         description: "ft. Zamu, Spark, Fiction, Stiv, Pbag Portland's fighting game community will be renting out a 500 person capacity event room inside of the Lloyd Center in the middle of NE Portland. Spectator passes will be $5 at the door. No refunds after 4/11/2024",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/ghost-town.png?raw=true",
         link: "https://www.start.gg/tournament/ghost-town-2-call-of-the-lloyd-ft-zamu-spark/details",
-        rankImg: false
+        rankImg: true
       },
       {
         name: "Game 5 In The D #3",
@@ -117,7 +117,7 @@ const eventsData = [
         description: "HDR/P+ SILLY MAJOR AT GOML. P+ - FRIDAY NIGHT 6:30 - FINISH - BO3 UNTIL TOP 8. HDR- SATURDAY NIGHT 8:30 - FINISH - BO3 UNTIL TOP 8. Times subject to change depending on GOML schedule.  HDR will be on Nightly unless the Smashline 2 update is pushed to beta. 2 week cutoff for nightly patch.",
         imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Canada_%28leaf%29.svg/630px-Flag_of_Canada_%28leaf%29.svg.png",
         link: "https://www.start.gg/tournament/get-out-of-my-venue/details",
-        rankImg: false
+        rankImg: true
       },
       {
         name: "Super TPS III",
