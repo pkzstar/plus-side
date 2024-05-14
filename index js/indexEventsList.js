@@ -139,6 +139,15 @@ const eventsData = [
         rankImg: true
       },
       {
+        name: "Untitled Stoke Tournament",
+        date: "6/16/24",
+        location: "College RdStoke-on-Trent, UK",
+        description: "A New Melee Regional In Stoke-On-Trent! Brought To You By The Choke On Trent Team",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F661701%2Fimage-fd4e28a68d3eef0eda541bef36e01a0f-optimized.png&ehk=1k8V3O4JFqIok2XJzcUdVsy4uG1NQMISoCxy%2Fg%2BnAxA%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/untitled-stoke-tournament/details",
+        rankImg: false
+      },
+      {
         name: "The Black Market",
         date: "6/22/24",
         location: "Calgary, AB, Canada",

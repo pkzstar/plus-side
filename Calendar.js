@@ -926,6 +926,21 @@ function showCalendar(month, year) {
                     link.appendChild(image);
                     cell.appendChild(link);
                 
+                    //stoke
+                } else if (month === 5 && (date === 2) && year === 2024) {
+
+                    let link = document.createElement("a");
+                    link.href = "https://www.start.gg/tournament/untitled-stoke-tournament/details";
+                    link.target = "_blank";
+
+                    let image = document.createElement("img");
+                    image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F661701%2Fimage-fd4e28a68d3eef0eda541bef36e01a0f-optimized.png&ehk=1k8V3O4JFqIok2XJzcUdVsy4uG1NQMISoCxy%2Fg%2BnAxA%3D&w=280&h=280&r=0";
+
+                    image.classList.add("calendarImg");
+
+
+                    link.appendChild(image);
+                    cell.appendChild(link);
                                     //SUPER CLOUDY SCUFFLE & Black Market
             } else if(month === 5 &&  date === 22 && year === 2024) {
 
