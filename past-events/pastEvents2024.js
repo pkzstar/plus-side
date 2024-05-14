@@ -111,6 +111,32 @@ function createPastEventElement(eventData) {
 const eventData = [
 
   {
+    eventTitle: "Creed 3",
+    imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/creed.png?raw=true",
+    eventUrl: "https://www.start.gg/tournament/creed-iii/event/p-singles/standings",
+    date: "May 11 2024",
+    location: "Pennsylvania",
+    entrants: 29,
+    first: "Switch",
+    second: "Gclem",
+    third: "Hyperflame",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "Ghost Town 2",
+    imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/ghost-town.png?raw=true",
+    eventUrl: "https://www.start.gg/tournament/ghost-town-2-call-of-the-lloyd-ft-zamu-spark/details",
+    date: "May 11 2024",
+    location: "Oregon",
+    entrants: 32,
+    first: "PartyGhoul",
+    second: "Catosat",
+    third: "Spark",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
     eventTitle: "Rainbow Rodeo",
     imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/rainbow.png?raw=true",
     eventUrl: "https://www.start.gg/tournament/rainbow-rodeo-a-best-in-texas-league-event/event/p-singles",

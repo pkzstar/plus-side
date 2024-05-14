@@ -83,24 +83,7 @@ function createEventComponent(eventData) {
 // Sample event data (replace this with actual event data)
 const eventsData = [
 
-    {
-      name: "Creed III",
-      date: "5/11/24",
-      location: "Philadelphia, PA, USA",
-      imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/creed.png?raw=true",
-      link: "https://www.start.gg/tournament/creed-iii/details",
-      rankImg: true
-
-    }, 
-    { 
-        name: "Ghost Town 2",
-        date: "5/11/24",
-        location: "Portland, OR, USA",
-        description: "ft. Zamu, Spark, Fiction, Stiv, Pbag Portland's fighting game community will be renting out a 500 person capacity event room inside of the Lloyd Center in the middle of NE Portland. Spectator passes will be $5 at the door. No refunds after 4/11/2024",
-        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/ghost-town.png?raw=true",
-        link: "https://www.start.gg/tournament/ghost-town-2-call-of-the-lloyd-ft-zamu-spark/details",
-        rankImg: true
-      },
+    
       {
         name: "Game 5 In The D #3",
         date: "5/18/24",
