@@ -927,7 +927,7 @@ function showCalendar(month, year) {
                     cell.appendChild(link);
                 
                     //stoke
-                } else if (month === 5 && (date === 2) && year === 2024) {
+                } else if (month === 5 && (date === 16) && year === 2024) {
 
                     let link = document.createElement("a");
                     link.href = "https://www.start.gg/tournament/untitled-stoke-tournament/details";
