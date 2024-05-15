@@ -23,7 +23,7 @@ function createNavBar() {
 
   const twitchLink = document.createElement('a');
   twitchLink.className = 'youtube-link';
-  twitchLinkhref = 'https://www.youtube.com/@PPlusSide/featured';
+  twitchLink.href = 'https://www.twitch.tv/pplusside';
   twitchLink.target = '_blank';
   const twitchImage = document.createElement('img');
   twitchImage.className = 'youtube-link';
