@@ -58,7 +58,7 @@ a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 a:link { color: rgb(0, 0, 0);}
 a:visited { color: rgb(0, 0, 0);}
-a:hover {color: rgb(60, 42, 177);}
+a:hover {color: rgb(167, 83, 247);}
 a:active { color: rgb(27, 0, 199);}
 @media only screen and (max-width: 600px) {
     p {
@@ -73,11 +73,39 @@ a:active { color: rgb(27, 0, 199);}
 }
 #navText:hover {
     color: rgb(10, 180, 88);
-    transform: scale3d(1.1, 1.1, 1.1); 
+    /* transform: scale3d(1.1, 1.1, 1.1);  */
     transition: transform 0.3s ease;
 }
 #navText:active { 
-    color: rgb(60, 42, 177);
+    transition: transform 0.3s ease;
+    color: rgb(167, 83, 247);
+}
+h1.navText {
+    color: white;
+    text-shadow: 7px 7px 7px #000000;
+    margin-inline: 1%;
+    margin: 0;
+}
+h1.navText:hover {
+    color: rgb(10, 180, 88);
+    transform: scale3d(1.1, 1.1, 1.1); 
+    transition: transform 0.3s ease;
+}
+h1.navText:active { 
+    color: rgb(167, 83, 247);
+}
+div#patrons {
+    margin: 25px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+div#patrons:active {
+    color: rgb(167, 83, 247);
+    margin: 25px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
 @media only screen and (max-width: 600px) {
 section.nav-text {
@@ -127,12 +155,13 @@ img.plus-side-net-nav:hover {
   transition: transform 0.3s ease
 
 }
-img.plus-side-net-nav:active {
+/* img.plus-side-net-nav:active {
     transform: scale3d(1.2, 1.2, 1.2); 
-  }
+  } */
 .twitter-link {
+    margin: -2px -2px 0px -2px;
     float: right;
-    height: 50px;
+    height: 55px;
     width: auto;
 }
 @media only screen and (max-width: 600px) { 
@@ -150,10 +179,11 @@ img.plus-side-net-nav:active {
     transform: scale3d(1.1, 1.1, 1.1);
     transition: transform 0.3s ease
 }
-.twitter-link:active {
+/* .twitter-link:active {
     transform: scale3d(1.2, 1.2, 1.2);
-}
+} */
 .youtube-link {
+    margin: 0 1px 0 1px;
     float: right;
     height: 50px;
     width: auto;
@@ -174,9 +204,9 @@ img.plus-side-net-nav:active {
     transition: transform 0.3s ease
 
 }
-.youtube-link:active {
+/* .youtube-link:active {
     transform: scale3d(1.2, 1.2, 1.2);
-}
+} */
 .upcoming-image-parent {
     margin-top: 25px;
     text-align: center;
@@ -531,7 +561,7 @@ img.plus-side-net-nav:active {
     }
 }
 .start-gg:hover {
-    color: rgb(60, 42, 177);
+    color: rgb(167, 83, 247);
     box-shadow: 2px 2px 5px 1px rgb(0, 43, 4);
         border-style: double;
         border-block-style: groove;
@@ -626,7 +656,7 @@ img.plus-side-net-nav:active {
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
-       color: rgb(60, 42, 177);
+       color: rgb(167, 83, 247);
 }
 .vods-past:active {
     color: rgb(27, 0, 199);
@@ -715,7 +745,7 @@ img.article-potential-characters {
     z-index: 11111;
 }
 .past-events-drop-btn:hover {
-    color: rgb(60, 42, 177);
+    color: rgb(167, 83, 247);
     transition: transform 0.3s ease
 }
 @media only screen and (max-width: 600px) {
@@ -777,11 +807,11 @@ img.article-potential-characters {
     margin: 0 0px 0 0px;
 }
 #past-year:hover {
-    color: slateblue;
+    color: rgb(167, 83, 247);
     transition: transform 0.3s ease
 
 }
-#past-year:active { color: rgb(60, 42, 177)}
+#past-year:active { color: rgb(104, 85, 233)}
 .past-events-banners {
     flex: 0px;
 
@@ -1300,4 +1330,155 @@ div.addEventSec {
 form#upcomingSub {
     text-align: center;
     margin: 10px 0 10px 0;
+}
+.patreonList {
+    align-items: center;
+    display: flex
+}
+.patreonList1 {
+    align-items: center;
+    min-height: 25%;
+    min-width: 25%;
+    max-width: 25%;
+    max-height: 25%;
+    display: flex;
+}
+.patreonList2 {
+    align-items: center;
+    min-height: 50%;
+    min-width: 50%;
+    max-width: 50%;
+    max-height: 50%;
+    display: flex;
+}
+.patreonList3 {
+    align-items: center;
+    min-height: 75%;
+    min-width: 75%;
+    max-width: 75%;
+    max-height: 75%;
+    display: flex;
+}
+.donor {
+    font-size: x-large;
+    margin: 50px;
+}
+.donorImg {
+    margin: -10px;
+    min-height: 50%;
+    min-width: 50%;
+    max-width: 50%;
+    max-height: 50%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    height: 50%;
+    width: 50%;
+    border:  rgba(50,185,152,1);
+    border-width: 7px;
+    border-style: groove;
+    border-radius: 75%;
+    box-shadow: 0px 0px 20px 0  rgb(167, 83, 247);
+
+}
+.donorImg:hover { 
+    border-color:  rgb(167, 83, 247);
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    transform: scale3d(1.1, 1.1, 1.1); 
+    box-shadow: 0 0 20px 0  rgba(50,185,152,1);
+
+}
+.donorImg:active { 
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.donorBorder {
+    font-family: 'Nunito';
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px 100px 100px 100px;
+    transition: .3s;
+    border-style: double;
+    border-block-style: groove;
+   border-block-width: thick;
+   background: rgb(50,185,152);
+   background: -moz-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+   background: -webkit-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+   background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#32b998",GradientType=1);
+   box-shadow: 0 0 9px 0  rgb(113, 36, 255);
+   border-inline-color: rgb(113, 36, 255);
+   border-block-color: green;
+   writing-mode: horizontal-tb;
+}
+.donorBorder:hover {
+    border-style: double;
+    border-block-style: groove;
+   border-block-width: thick;
+   box-shadow: 0 0 20px 0  rgb(255, 255, 255);
+   border-inline-color: green;
+   border-block-color: rgb(113, 36, 255);
+}
+@media only screen and (max-width: 600px) {
+    .donorBorder {
+        display: flex;
+        align-items: center;
+        border-radius: 25%;
+        border-style: double;
+        flex: 1;
+        width: 75%;
+        height: 75%;
+        max-width: 250px;
+        min-width: 200px;
+        box-shadow: 0 0 15px 0  rgb(113, 36, 255);
+}
+
+.patreonList {
+    display: inline-block;
+    align-items: center;
+}
+.patreonList1 {
+    display: inline-block;
+    align-items: center;
+}
+.patreonList2 {
+    display: inline-block;
+    align-items: center;
+}
+.patreonList3 {
+    display: inline-block;
+    align-items: center;
+}
+
+.donor {
+    margin: 15px;
+}
+.donorImg {
+    margin: unset;
+    min-height: 75%;
+    min-width: 75%;
+    max-width: 75%;
+    max-height: 75%;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-width: 7px;
+    border-style: groove;
+    border-radius: 75%;
+}
+.donorName {
+    font-size: x-large;
+}
+}
+a.donorName {
+    color: white;
+    font-size: x-large;
+}
+a.donorName:hover {
+    color: rgb(10, 180, 88);
+}
+a.donorName:active { 
+    color: rgb(167, 83, 247);
 }

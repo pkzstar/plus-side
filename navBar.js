@@ -21,6 +21,16 @@ function createNavBar() {
   twitterLink.appendChild(twitterImage);
   navBar.appendChild(twitterLink);
 
+  const twitchLink = document.createElement('a');
+  twitchLink.className = 'youtube-link';
+  twitchLinkhref = 'https://www.youtube.com/@PPlusSide/featured';
+  twitchLink.target = '_blank';
+  const twitchImage = document.createElement('img');
+  twitchImage.className = 'youtube-link';
+  twitchImage.src = 'https://cdn-icons-png.freepik.com/256/15059/15059878.png?semt=ais_hybrid';
+  twitchLink.appendChild(twitchImage);
+  navBar.appendChild(twitchLink);
+
   const youtubeLink = document.createElement('a');
   youtubeLink.className = 'youtube-link';
   youtubeLink.href = 'https://www.youtube.com/@PPlusSide/featured';
@@ -30,6 +40,18 @@ function createNavBar() {
   youtubeImage.src = 'https://github.com/pkzstar/plus-side/blob/main/images/youtubelogo.png?raw=true';
   youtubeLink.appendChild(youtubeImage);
   navBar.appendChild(youtubeLink);
+
+
+
+  // const twitchLink = document.createElement('a');
+  // twitchLinkLink.className = 'youtube-link';
+  // twitchLinkLinkhref = 'https://www.youtube.com/@PPlusSide/featured';
+  // twitchLinkLink.target = '_blank';
+  // const twitchImage = document.createElement('img');
+  // twitchImage.className = 'youtube-link';
+  // twitchImage.src = 'https://github.com/pkzstar/plus-side/blob/main/images/youtubelogo.png?raw=true';
+  // twitchLink.appendChild(twitchImage);
+  // navBar.appendChild(twitchLink);
 
   const navTextSection = document.createElement('section');
   navTextSection.className = 'nav-text';

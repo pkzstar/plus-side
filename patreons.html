@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+ <head>
+  <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+    <title>Plus Side</title>
+    <link rel="icon" type="image/x-icon" href="https://github.com/pkzstar/plus-side/blob/main/images/favicon.png?raw=true">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+      @media only screen and (max-width:600px) {
+        .pm-rank {
+          position: relative;
+    float: unset;
+}
+.events {
+  margin: 20px 20px 20px 20px;
+}
+.eventsList {
+  list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+      }
+    </style>
+ </head>
+ <body>
+  <div class="wallpaper"></div>
+  <div class="wallpaper2"></div>
+
+<div id="navBar"></div>
+<div id="headerButtons hidden"></div>
+
+<div class="upcoming-image-parent">
+  <h1 id="pageHeader" class="textGradient">PATRONS</h1>
+  <div>
+    <button class="calView"><a href="Calendar.html">Calendar</a></button>
+    <div onclick="toggleDropdown(event)" style="display: inline-flex;" class="past-events-drop calView">
+      <!-- Dropdown Button -->
+      <button id="past-events-drop-btn" class="past-events-drop-btn">
+        Past Events
+        <i class="2023-drop"></i>
+      </button>
+      <!-- Dropdown Content -->
+      <div id="dropdown-content" class="dropdown-content" style="display: none;">  
+        <a class="dropdown-links" href="/past-events/2023.html"><p id="past-year">2023</p></a>
+        <a class="dropdown-links" href="/past-events/2024.html"><p id="past-year">2024</p></a>
+      </div>
+    </div>
+
+
+<!-- <div class="patreonList">
+
+<div class="donor">
+    <a href="https://twitter.com/pkzStar" target="_blank"><img class="donorImg" src="https://pbs.twimg.com/profile_images/1779808174888951808/ZQahjGjA_400x400.jpg" alt=""></a>
+    <h3><a class="donorName" href="https://twitter.com/pkzStar" target="_blank">Zoer</a></h3>
+</div>
+
+<div class="donor">
+    <a href="https://twitter.com/tuckzelda" target="_blank"><img class="donorImg" src="https://pbs.twimg.com/profile_images/1698853289574469632/s9cL3Ey3_400x400.jpg" alt=""></a>
+    <h3 ><a class="donorName" href="https://twitter.com/tuckzelda" target="_blank">tuckerino</a></h3>
+</div>
+
+<div class="donor">
+    <a href="https://twitter.com/FlarpLuigi" target="_blank"><img class="donorImg" src="https://pbs.twimg.com/profile_images/1687467891422121985/TlYs88CT_400x400.jpg" alt=""></a>
+    <h3><a class="donorName" href="https://twitter.com/FlarpLuigi" target="_blank">flarpington</a></h3>
+</div>
+
+<div class="donor">
+    <a href="https://twitter.com/princeshadrick" target="_blank"><img class="donorImg" src="https://pbs.twimg.com/profile_images/1732471440295723008/NEwSbD4q_400x400.jpg" alt=""></a>
+    <h3><a class="donorName" href="https://twitter.com/princeshadrick" target="_blank">omscar schmorders</a></h3>
+</div>
+</div>
+</div> -->
+
+
+
+    <script src="displayEvents.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="/index js\indexFormEvents.js"></script>
+    <script src="/index js\indexEventsList.js"></script>
+    <script src="navBar.js"></script>
+    <script src="script.js"></script>
+    
+   </body>
+</html>
