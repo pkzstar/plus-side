@@ -1482,3 +1482,11 @@ a.donorName:hover {
 a.donorName:active { 
     color: rgb(167, 83, 247);
 }
+.whitetext {
+    color: white;
+}
+img.placeholderimg {
+    border-radius: 30%;
+    cursor: default;
+    box-shadow: 0 0 30px 0 rgb(206, 169, 255);
+}
