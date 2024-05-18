@@ -166,6 +166,8 @@ img.plus-side-net-nav:hover {
 }
 @media only screen and (max-width: 600px) { 
     img.twitter-link {
+        margin: 1px 0 0 0;
+
     display: flex;
     min-height: 20px;
     height: 10%;
