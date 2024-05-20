@@ -112,6 +112,9 @@ section.nav-text {
     display: flex;
     justify-content: space-evenly;
     }
+    div#patrons {
+        text-align: center;
+    }
  }
  section.nav-text {
     display: flex;
@@ -229,16 +232,17 @@ img.plus-side-net-nav:hover {
         font-size: large;
 }
 .events {
+    max-width: 45%;
+    min-width: 45%;
     font-family: 'Nunito';
     text-align: center;
     padding: 25px;
     margin: 25px;
     align-items: center;
-    justify-content: center;
-    display: flex;
     border-radius: 100px 100px 100px 100px;
     transition: .3s;
     border-style: double;
+    display: flex;
     border-block-style: groove;
    border-block-width: thick;
    background: rgb(50,185,152);
@@ -298,13 +302,13 @@ img.plus-side-net-nav:hover {
 .events-text {
     font-size: larger;
     padding-left: 50px;
-    text-align: left;
+    text-align: center;
 }
-.article-head {
-    font-family: 'Nunito';
-    padding-left: 50px;
-    text-align: left;
-}
+    .article-head {
+        font-family: 'Nunito';
+        padding-left: 50px;
+        text-align: left;
+    }
 .article-date {
     font-family: 'Nunito';
     font-size: large;
@@ -314,6 +318,27 @@ img.plus-side-net-nav:hover {
         font-size: 29px;
     }
     p.article-date {
+        font-size: 29px;
+    }
+}
+.event-head {
+    font-family: 'Nunito';
+    text-align: center;
+    align-content: center;
+}
+.event-date {
+    text-align: center;
+    font-family: 'Nunito';
+    font-size: large;
+}
+p.event-date {
+    margin: 2% 0 -2% 0;
+}
+@media only screen and (max-width: 1000px) {
+    b.event-date {
+        font-size: 29px;
+    }
+    p.event-date {
         font-size: 29px;
     }
 }
@@ -348,6 +373,7 @@ img.plus-side-net-nav:hover {
     color: rgb(27, 0, 199);
 }
 .article-style {
+
     font-family: 'Nunito';
     flex-direction: row;
     text-align: center;
@@ -370,6 +396,9 @@ img.plus-side-net-nav:hover {
    border-inline-color: rgb(113, 36, 255);
    border-block-color: green;
    writing-mode: horizontal-tb;
+}
+.articleSplit {
+    display: flex;
 }
 @media only screen and (max-width: 600px) {
     .article-style {
@@ -1491,4 +1520,11 @@ img.placeholderimg {
     border-radius: 30%;
     cursor: default;
     box-shadow: 0 0 30px 0 rgb(206, 169, 255);
+}
+.eventsList {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    padding-inline-start: unset;
+
 }

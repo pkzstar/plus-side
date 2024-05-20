@@ -17,6 +17,8 @@ function createEventComponent(eventData) {
   // Create the div for event details
   const eventDetailsDiv = document.createElement('div');
   eventDetailsDiv.style.flex = 'auto';
+  eventDetailsDiv.classList.add('eventsContent');
+
 
   // Create the h1 element for event name
   const eventNameLink = document.createElement('a');
@@ -25,8 +27,10 @@ function createEventComponent(eventData) {
   eventNameLink.textContent = eventData.name;
   const eventName = document.createElement('h1');
   eventName.style.flex = '100';
-  eventName.classList.add('article-head');
+  eventName.classList.add('event-head');
   eventName.appendChild(eventNameLink);
+  const lineBreak = document.createElement('br');
+eventName.appendChild(lineBreak)
 
   // Check if rankImg should be visible
   if (eventData.rankImg) {
@@ -37,28 +41,25 @@ function createEventComponent(eventData) {
       eventDetailsDiv.appendChild(rankImg); // Append the rankImg to the eventName (div) element
   }
 
+// Append the event location to the h1 element
+const locationLabel = document.createElement('b');
+locationLabel.classList.add('event-date');
+locationLabel.style.display = 'inline-flex';
+eventName.appendChild(locationLabel);
+const location = document.createElement('b');
+location.classList.add('event-date');
+location.style.display = 'inline-flex';
+location.textContent = eventData.location;
+eventName.appendChild(location);
+
+
   const eventDate = document.createElement('p');
-  eventDate.classList.add('article-date');
+  eventDate.classList.add('event-date');
   eventDate.style.display = 'block';
   eventDate.textContent = eventData.date;
   eventName.appendChild(eventDate);
   eventDetailsDiv.appendChild(eventName);
 
-  // Create the div for event location
-  const eventLocationDiv = document.createElement('div');
-  eventLocationDiv.classList.add('article-head');
-  eventLocationDiv.style.flex = 'auto';
-  const locationLabel = document.createElement('b');
-  locationLabel.classList.add('article-date');
-  locationLabel.style.display = 'inline-flex';
-  locationLabel.textContent = 'Location :' + '\u00A0';
-  eventLocationDiv.appendChild(locationLabel);
-  const location = document.createElement('b');
-  location.classList.add('article-date');
-  location.style.display = 'inline-flex';
-  location.textContent = eventData.location;
-  eventLocationDiv.appendChild(location);
-  eventDetailsDiv.appendChild(eventLocationDiv);
 
   // Create paragraphs for event description
   const eventDescription = document.createElement('p');
@@ -69,6 +70,7 @@ function createEventComponent(eventData) {
   // Create the start.gg link
   const startGgLink = document.createElement('a');
   startGgLink.classList.add('start-gg');
+  startGgLink.classList.add('start-gg-home');
   startGgLink.href = eventData.link;
   startGgLink.target = '_blank';
   startGgLink.textContent = 'start.gg';
@@ -96,10 +98,10 @@ const eventsData = [
         rankImg: true
       },
       {
-        name: "Smash Camp: New Lands 2024",
+        name: "Smash Camp: New Lands",
         date: "5/31/24 - 6/2/24",
         location: "Gresham, OR, USA",
-        description: "Smash Camp returns to New Lands! Join us again in the Pacific Northwest this Spring 2024. 📅 Friday May 31 5PM - Monday June 3 9AM PT All main brackets take place on Saturday June 1 and Sunday June 2 🤝 Venue Fee: $220 Your venue fee gives you: Access to the entire camp 8 total meals (1x Friday, 3x Saturday, 3x Sunday, 1x Monday) A spot in a powered and heated cabin with bunk beds on Friday, Saturday, and Sunday night. 24hr friendlies 250 total attendee cap",
+        description: "Smash Camp returns to New Lands! Join us again in the Pacific Northwest this Spring 2024. 📅 Friday May 31 5PM - Monday June 3 9AM PT All main brackets take place on Saturday June 1 and Sunday June 2",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/smashcamp.png?raw=true",
         link: "https://www.start.gg/tournament/smash-camp-new-lands-2024/details",
         rankImg: true
@@ -108,7 +110,7 @@ const eventsData = [
         name: "Invincible VIII",
         date: "6/1/24 - 6/2/24",
         location: "Madison, WI, USA",
-        description: "10,000+ Square Feet Heart of downtown Madison, in walking distance of great restaurants & entertainment. Attached hotel, additional hotels close by Flying in Dane County Regional Airport (MSN) is located 20 minutes away from Union South by car Cheaper flights can be found to General Mitchell Airport (MKE) or O'Hare International Airport (ORD) If flying into O'Hare you can take the Van Galder bus",
+        description: "10,000+ Square Feet Heart of downtown Madison, in walking distance of great restaurants & entertainment. Attached hotel, additional hotels close by Flying in Dane County Regional Airport (MSN) is located 20 minutes away from Union South",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/invincible8.png?raw=true",
         link: "https://www.start.gg/tournament/invincible-viii/details",
         rankImg: true
@@ -144,7 +146,7 @@ const eventsData = [
         name: "SUPER CLOUDY SCUFFLE",
         date: "6/22/24",
         location: "Oshawa, ON, Canada",
-        description: "Karamel is proud to present: SUPER CLOUDY SCUFFLE! A Durham Regional 🐈 In collaboration with No Style Esports, ft. Ultimate, Melee, Rivals of Aether 2, Project+ and HDR This tournament is dedicated to Karamel's late cat, Cloudy. Her likeness appearing in every iteration of any event hosted by them, hidden in Ontario twitch emotes, and making cameos in many livestreams. This tournament is a final send off for her. Please feel free to take Cloudy merch off of the floor, tables and chair throughout the event.",
+        description: "Karamel is proud to present: SUPER CLOUDY SCUFFLE! A Durham Regional 🐈 In collaboration with No Style Esports, ft. Ultimate, Melee, Rivals of Aether 2, Project+ and HDR This tournament is dedicated to Karamel's late cat, Cloudy.",
         imageUrl: "https://github.com/pkzstar/HDReport/blob/main/images/upcoming%20events/super%20cloudy%20scuffle.png?raw=true",
         link: "https://www.start.gg/tournament/super-cloudy-scuffle-a-durham-regional/details",
         rankImg: false
@@ -180,7 +182,7 @@ const eventsData = [
         name: "Carnival Clash 2",
         date: "7/26/24 - 7/27/24",
         location: "Portland, OR, USA",
-        description: "We're So Back! 🎡 August 3rd, 2024 Oregon's Ride-Filled Summer Regional Returns for another lap on the roller coaster! Why Oaks Amusement Park? Smash & Ride! Rides and attractions will be OPEN. Carnival Food on site! 🍔  Get 20% off UNLIMITED ALL DAY RIDE BRACELET!",
+        description: "We're So Back! 🎡 August 3rd, 2024 Oregon's Ride-Filled Summer Regional Returns for another lap on the roller coaster! Why Oaks Amusement Park? Smash & Ride! Rides and attractions will be OPEN.",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/carnivalclash2.png?raw=true",
         link: "https://www.start.gg/tournament/carnival-clash-2/details",
         rankImg: false
@@ -205,17 +207,40 @@ const eventsData = [
       }
     ];
 
+// Create a single div element to contain all the lists
+const eventsContainer = document.createElement('div');
+eventsContainer.classList.add('eventsContainer');
+
+// Create the event components for each pair of events
+for (let i = 0; i < eventsData.length; i += 2) {
+    // Create a new ul for each pair of events
+    const eventList = document.createElement('ul');
+    eventList.classList.add('eventsList');
+
+    // Create and append the li elements for each event in the pair
+    for (let j = i; j < i + 2 && j < eventsData.length; j++) {
+        const eventData = eventsData[j];
+        const eventComponent = createEventComponent(eventData);
+        // Append the event component directly to the ul
+        eventList.appendChild(eventComponent);
+    }
+
+// Check if there's only one li element in the ul and it's not on a screen less than 600px wide
+const lis = eventList.querySelectorAll('li');
+const screenWidthLessThan600 = window.matchMedia("(max-width: 600px)").matches;
+if (lis.length === 1 && !screenWidthLessThan600) {
+    // Apply max-width: 100% to the single li element
+    lis[0].style.marginLeft = '25%';
+}
 
 
-// Create the event components for each event
-const eventComponents = eventsData.map(eventData => createEventComponent(eventData));
 
-// Append the event components to the eventsList div
+    // Append the ul (with li inside) to the container div
+    eventsContainer.appendChild(eventList);
+}
+
+// Append the container div to the eventsListDiv
 document.addEventListener('DOMContentLoaded', function () {
-    const eventsList = document.createElement('ul');
-    eventsList.classList.add('eventsList');
-    eventComponents.forEach(eventComponent => eventsList.appendChild(eventComponent));
-    
     const eventsListDiv = document.getElementById('eventsList');
-    eventsListDiv.parentNode.insertBefore(eventsList, eventsListDiv);
+    eventsListDiv.appendChild(eventsContainer);
 });
