@@ -84,15 +84,7 @@ function createEventComponent(eventData) {
 const eventsData = [
 
     
-      {
-        name: "Game 5 In The D #3",
-        date: "5/18/24",
-        location: "Detroit, MI, USA",
-        description: "We welcome all valiant competitors to our local P+ scene's return-to-form! Featuring a professional stream, custom tournament badges, your favorite players, and much, much more, this will be an event you won't want to miss!",
-        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/game5In.png?raw=true",
-        link: "https://www.start.gg/tournament/game-5-in-the-d-3-1/details",
-        rankImg: false
-      },
+
       {
         name:"Get Out of My Venue",
         date: "5/17/24 - 5/18/24",

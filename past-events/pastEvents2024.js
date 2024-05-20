@@ -111,6 +111,32 @@ function createPastEventElement(eventData) {
 const eventData = [
 
   {
+    eventTitle: "Get Out of My Venue",
+    imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Canada_%28leaf%29.svg/630px-Flag_of_Canada_%28leaf%29.svg.png",
+    eventUrl: "https://www.start.gg/tournament/get-out-of-my-venue/event/p-singles/standings",
+    date: "May 17-18 2024",
+    location: "Ontario",
+    entrants: 68,
+    first: "Morsecode762",
+    second: "Rongunshu",
+    third: "Blitz",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "Game 5 In The D #3",
+    imageUrl: "https://raw.githubusercontent.com/pkzstar/plus-side/main/images/past-events/game5In.png",
+    eventUrl: "https://www.start.gg/tournament/game-5-in-the-d-3-1/event/project-singles/standings",
+    date: "May 18 2024",
+    location: "Michigan",
+    entrants: 16,
+    first: "Trai",
+    second: "Lordy",
+    third: "Yuko",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Creed 3",
     imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/creed.png?raw=true",
     eventUrl: "https://www.start.gg/tournament/creed-iii/event/p-singles/standings",
