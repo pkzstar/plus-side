@@ -112,7 +112,7 @@ const eventData = [
 
 {
   eventTitle: "Get Out of My Venue",
-  imageUrl: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Flag_of_Canada_%28leaf%29.svg/630px-Flag_of_Canada_%28leaf%29.svg.png",
+  imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F653520%2Fimage-26823721265eaac67b492375dd61d58c-optimized.png&ehk=wPnJ7gk4QYPmNh4K607NYyXo4pJfEwRcPlzUymJMUVU%3D&w=280&h=280&r=0",
   eventUrl: "https://www.start.gg/tournament/get-out-of-my-venue/event/p-singles/standings",
   date: "May 17-18 2024",
   location: "Ontario",
