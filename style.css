@@ -1,7 +1,9 @@
 body {
+    font-family: 'nunito';
     background-color: rgb(0, 0, 0);
     overflow-x: hidden;
     background-size: 100%;
+    margin: 8px 0px 8px 0px;
 }
 .wallpaper {
     z-index: -100;
@@ -66,6 +68,7 @@ a:active { color: rgb(27, 0, 199);}
     }
 }
 #navText {
+    font-family: 'nunito';
     color: white;
     text-shadow: 7px 7px 7px #000000;
     margin-inline: 1%;
@@ -94,27 +97,64 @@ h1.navText:hover {
 h1.navText:active { 
     color: rgb(167, 83, 247);
 }
-div#patrons {
-    margin: 25px;
-    justify-content: center;
-    display: flex;
+.wave {
+    margin-top: -100px;
+    display: inline-flex;
+height: auto;
+width: 30%;
+position: absolute; left: 0%;
+}
+.wave:hover {
+    cursor: default;
+}
+.waveReverse {
+    margin-top: -100px;
+    display: inline-flex;
+    /* rotate: 180deg; */
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    height: auto;
+    width: 30%;
+    position: absolute; right: 0%;
+    }
+    .waveReverse:hover {
+        cursor: default;
+    }
+
+a#patrons {
+    justify-content: space-around;
+    display: inline-flex;
     align-items: center;
 }
-div#patrons:active {
-    color: rgb(167, 83, 247);
-    margin: 25px;
-    justify-content: center;
-    display: flex;
-    align-items: center;
+.patronsCenter {
+    text-align: center;
 }
 @media only screen and (max-width: 600px) {
 section.nav-text {
     display: flex;
     justify-content: space-evenly;
     }
-    div#patrons {
+    a#patrons {
+        display: inline-block;
         text-align: center;
     }
+    .patronsCenter {
+        text-align: center;
+        font-size: xx-small;
+    }
+    .waveReverse {
+        margin: unset;
+        /* rotate: 180deg; */
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        height: auto;
+        width: 30%;
+        }
+        .wave {
+            margin: unset;
+        height: auto;
+        width: 30%;
+        }
  }
  section.nav-text {
     display: flex;
