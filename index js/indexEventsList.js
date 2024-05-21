@@ -110,7 +110,7 @@ const eventsData = [
         name: "Invincible VIII",
         date: "6/1/24 - 6/2/24",
         location: "Madison, WI, USA",
-        description: "10,000+ Square Feet Heart of downtown Madison, in walking distance of great restaurants & entertainment. Attached hotel, additional hotels close by Flying in Dane County Regional Airport (MSN) is located 20 minutes away from Union South",
+        description: "10,000+ Square Feet Heart of downtown Madison, in walking distance of great restaurants & entertainment. Attached hotel, additional hotels close by Flying in Dane County Regional Airport (MSN) is located 20 minutes away from Union South.",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/invincible8.png?raw=true",
         link: "https://www.start.gg/tournament/invincible-viii/details",
         rankImg: true
