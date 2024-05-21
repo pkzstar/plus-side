@@ -98,7 +98,6 @@ h1.navText:active {
     color: rgb(167, 83, 247);
 }
 .wave {
-    margin-top: -100px;
     display: inline-flex;
 height: auto;
 width: 30%;
@@ -108,7 +107,6 @@ position: absolute; left: 0%;
     cursor: default;
 }
 .waveReverse {
-    margin-top: -100px;
     display: inline-flex;
     /* rotate: 180deg; */
     -webkit-transform: scaleX(-1);
@@ -126,7 +124,15 @@ a#patrons {
     display: inline-flex;
     align-items: center;
 }
+h1.navText {
+    margin-top: 50px;
+    justify-content: space-around;
+    display: inline-flex;
+    align-items: center;
+}
 .patronsCenter {
+    justify-content: center;
+    display: flex;
     text-align: center;
 }
 @media only screen and (max-width: 600px) {
@@ -134,13 +140,19 @@ section.nav-text {
     display: flex;
     justify-content: space-evenly;
     }
+    h1.navText {
+        margin-top: 0px;
+        justify-content: space-around;
+        display: inline-flex;
+        align-items: center;
+    }
     a#patrons {
         display: inline-block;
         text-align: center;
     }
     .patronsCenter {
         text-align: center;
-        font-size: xx-small;
+        font-size: x-small;
     }
     .waveReverse {
         margin: unset;
