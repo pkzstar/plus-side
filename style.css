@@ -13,7 +13,6 @@ body {
     background-image: url(https://github.com/pkzstar/plus-side/blob/main/images/bg100.png?raw=true);
     animation: scrollAnimation 40000s linear infinite;
 }
-
 @keyframes scrollAnimation {
     0% {
         transform: translateY(0);
@@ -54,7 +53,7 @@ a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 a:link { color: rgb(0, 0, 0);}
 a:visited { color: rgb(0, 0, 0);}
-a:hover {color: rgb(167, 83, 247);}
+a:hover {color: rgb(0, 0, 0);}
 a:active { color: rgb(27, 0, 199);}
 @media only screen and (max-width: 600px) {
     p {
@@ -309,8 +308,6 @@ img.plus-side-net-nav:hover {
     border-block-style: groove;
    border-block-width: thick;
    background: rgb(50,185,152);
-   background: -moz-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
-   background: -webkit-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
    background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#32b998",GradientType=1);
    box-shadow: 0 0 9px 0  rgb(113, 36, 255);
@@ -325,6 +322,20 @@ img.plus-side-net-nav:hover {
    box-shadow: 0 0 20px 0  rgb(255, 255, 255);
    border-inline-color: green;
    border-block-color: rgb(113, 36, 255);
+   background: linear-gradient(45deg, #dd8af7, #dd8af7, #8aeef5, #fff2ba, #9ff8b2, #9ff8b2 );
+   animation: colorAnimationEvent 6s  infinite;
+   background-size: 600% 600%;
+}
+@keyframes colorAnimationEvent {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 @media only screen and (max-width: 600px) {
     .events {
@@ -389,6 +400,12 @@ img.plus-side-net-nav:hover {
     text-align: center;
     align-content: center;
 }
+.eventTitle:hover {
+    text-shadow: 3px 7px 7px #000000
+}
+.past-events-title:hover {
+    text-shadow: 3px 8px 8px #000000
+}
 .event-date {
     text-align: center;
     font-family: 'Nunito';
@@ -426,17 +443,21 @@ p.event-date {
     font-family: 'Nunito';
     box-shadow: 2px 2px 5px 1px rgb(0, 43, 4);
     border-style: double;
-    color: rgb(60, 42, 177);
+    color: rgb(0, 0, 0);
     border-inline-color: slateblue;
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
-}
+       background: transparent;
+       animation: colorAnimationEvent 6s  infinite;
+       background-size: 600% 600%;
+    }
 .article-read:active {
     color: rgb(27, 0, 199);
+    box-shadow: 4px 4px 7px 3px rgb(0, 43, 4);
+
 }
 .article-style {
-
     font-family: 'Nunito';
     flex-direction: row;
     text-align: center;
@@ -523,6 +544,20 @@ p.event-date {
    box-shadow: 0 0 20px 0  rgb(255, 255, 255);
    border-inline-color: green;
    border-block-color: rgb(113, 36, 255);
+   background: linear-gradient(45deg, #dd8af7, #dd8af7, #8aeef5, #fff2ba, #9ff8b2, #9ff8b2 );
+   animation: colorAnimationArticle 6s  infinite;
+   background-size: 600% 600%;
+}
+@keyframes colorAnimationArticle {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
 }
 .article-body {
     font-size: larger;
@@ -624,6 +659,12 @@ p.event-date {
 }
 .pm-rank {
     float: right;
+    transition:  1s;
+    /* rotate: 360deg; */
+}
+.pm-rank:hover {
+    transform: rotate3d(0, 10, 0, 360deg);
+
 }
 .pm-rank-centered-invis {
     visibility: hidden;
@@ -638,8 +679,8 @@ p.event-date {
     border-radius: 15px 15px 15px 15px;
     padding-left: 18px;
     padding-right: 18px;
+    transition:  .3s;
     box-shadow: 0 0 3px 0 rgb(0, 196, 16);
-        transition: .3s;
         border-inline-color: rgb(113, 36, 255);
         border-block-color: green;
         border-style: double;
@@ -655,11 +696,12 @@ p.event-date {
     }
 }
 .start-gg:hover {
-    color: rgb(167, 83, 247);
+    color: rgb(0, 0, 0);
     box-shadow: 2px 2px 5px 1px rgb(0, 43, 4);
         border-style: double;
         border-block-style: groove;
-       border-block-width: thick;       
+       border-block-width: thick;   
+       background: transparent;
 }
 .start-gg:active {
     box-shadow: 4px 4px 7px 3px rgb(0, 43, 4);
@@ -704,6 +746,9 @@ p.event-date {
    box-shadow: 0 0 20px 0  rgb(255, 255, 255);
    border-inline-color: green;
    border-block-color: rgb(113, 36, 255);
+   background: linear-gradient(45deg, #dd8af7, #dd8af7, #dd8af7, #dd8af7, #8aeef5, #fff2ba, #9ff8b2, #9ff8b2, #9ff8b2, #9ff8b2);
+   animation: colorAnimationEvent 6s  infinite;
+   background-size: 600% 600%;
 }
 .past-article-text {
         font-size: larger;
@@ -750,7 +795,8 @@ p.event-date {
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
-       color: rgb(167, 83, 247);
+       color: rgb(0, 0, 0);
+       background: transparent;
 }
 .vods-past:active {
     color: rgb(27, 0, 199);
@@ -908,7 +954,6 @@ img.article-potential-characters {
 #past-year:active { color: rgb(104, 85, 233)}
 .past-events-banners {
     flex: 0px;
-
     border-radius: 25%;
     max-width: 300px;
     max-height: 300px;
@@ -999,9 +1044,12 @@ img.pm-rank:hover {
 }
 img.pm-rank-centered:hover {
     cursor: unset;
+    transition: 1s;
 }
 img.events-banners-trans {
     cursor: unset;
+    transform: rotate3d(0, 10, 0, 360deg);
+
 }
 #pageHeader {
     font-family: 'Nunito';

@@ -23,6 +23,8 @@ function createEventComponent(eventData) {
   // Create the h1 element for event name
   const eventNameLink = document.createElement('a');
   eventNameLink.href = eventData.link;
+eventNameLink.classList.add('eventTitle');;
+
   eventNameLink.target = '_blank';
   eventNameLink.textContent = eventData.name;
   const eventName = document.createElement('h1');

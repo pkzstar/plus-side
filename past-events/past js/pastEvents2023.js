@@ -29,7 +29,7 @@ function createPastEventElement(eventData) {
         const rankImageDiv = document.createElement('div');
         const rankImage = document.createElement('img');
         rankImage.classList.add('pm-rank-centered');
-        rankImage.id = "yourContainerElementId";
+        // rankImage.id = "yourContainerElementId";
         rankImage.src = 'https://github.com/pkzstar/plus-side/blob/main/images/pmrank.png?raw=true';
         rankImage.alt = '';
         rankImageDiv.appendChild(rankImage);
@@ -38,7 +38,7 @@ function createPastEventElement(eventData) {
         const rankImageDiv = document.createElement('div');
         const rankImage = document.createElement('img');
         rankImage.classList.add('pm-rank-centered-invis');
-        rankImage.id = "yourContainerElementId";
+        // rankImage.id = "yourContainerElementId";
         rankImage.src = 'https://github.com/pkzstar/plus-side/blob/main/images/pmrank.png?raw=true';
         rankImage.alt = '';
         rankImageDiv.appendChild(rankImage);
