@@ -146,6 +146,12 @@ h1.navText {
     display: flex;
     text-align: center;
 }
+@media only screen and (max-width: 400px) {
+
+        h1.navText {
+            font-size: 13px;
+        }
+    }
 @media only screen and (max-width: 600px) {
 section.nav-text {
     display: flex;
@@ -156,6 +162,10 @@ section.nav-text {
         justify-content: space-around;
         display: inline-flex;
         align-items: center;
+        position: relative; 
+
+        z-index: 101;
+
     }
     a#patrons {
         display: inline-block;
@@ -659,12 +669,10 @@ p.event-date {
 }
 .pm-rank {
     float: right;
+    /* width: auto; */
     transition:  1s;
     /* rotate: 360deg; */
-}
-.pm-rank:hover {
-    transform: rotate3d(0, 10, 0, 360deg);
-
+    
 }
 .pm-rank-centered-invis {
     visibility: hidden;
@@ -1041,6 +1049,9 @@ img.upcoming-resize:hover {
 }
 img.pm-rank:hover {
     cursor: unset;
+}
+img.pm-rank-centered {
+    transition:  1s;
 }
 img.pm-rank-centered:hover {
     cursor: unset;

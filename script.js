@@ -41,3 +41,40 @@ function ToggleZoom(imageId) {
 
     }
 }
+
+
+// pm rank spin
+
+document.addEventListener('DOMContentLoaded', () => {
+  const images = document.querySelectorAll('.pm-rank');
+  console.log(images); // Check if images are selected correctly
+  images.forEach(image => {
+    let rotation = 0;
+    image.addEventListener('mouseenter', () => {
+      console.log("Mouse entered"); // Check if mouseenter event is triggered
+      rotation += 360; // Increment rotation by 360 degrees
+      image.style.transform = `rotate3d(0, 1, 0, ${rotation}deg)`;
+
+      setTimeout(() => {
+        // No need to reset the transform
+      }, 500); // Delay to ensure reset happens before reapplying transformation
+    });
+  });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  const imagesCentered = document.querySelectorAll('.pm-rank-centered');
+  console.log(imagesCentered); // Check if images are selected correctly
+  imagesCentered.forEach(imagesCentered => {
+    let rotation = 0;
+    imagesCentered.addEventListener('mouseenter', () => {
+      console.log("Mouse entered"); // Check if mouseenter event is triggered
+      rotation += 360; // Increment rotation by 360 degrees
+      imagesCentered.style.transform = `rotate3d(0, 1, 0, ${rotation}deg)`;
+
+      setTimeout(() => {
+        // No need to reset the transform
+      }, 500); // Delay to ensure reset happens before reapplying transformation
+    });
+  });
+});
