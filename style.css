@@ -1243,7 +1243,7 @@ label.lead {
     td  {
         height: min-content;
         width: 100%;
-    } 
+    }  
      table#calendar.table.table-bordered  {
         width: 100%;
     } 
@@ -1257,7 +1257,7 @@ label.lead {
         align-items: center;
     } 
     .calendarImg {
-        height: 50px;
+        height: auto;
         width: 100%
     }
     .form-inline {
