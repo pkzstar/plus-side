@@ -465,7 +465,7 @@ p.event-date {
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
-       background: transparent;
+       background: rgba(0, 0, 0, 0.322);
        animation: colorAnimationEvent 6s  infinite;
        background-size: 600% 600%;
     }
@@ -715,7 +715,7 @@ p.event-date {
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;   
-       background: transparent;
+       background: rgba(0, 0, 0, 0.322)
 }
 .start-gg:active {
     box-shadow: 4px 4px 7px 3px rgb(0, 43, 4);
@@ -810,7 +810,8 @@ p.event-date {
         border-block-style: groove;
        border-block-width: thick;
        color: rgb(0, 0, 0);
-       background: transparent;
+       background: rgba(0, 0, 0, 0.322)
+
 }
 .vods-past:active {
     color: rgb(27, 0, 199);
@@ -917,7 +918,7 @@ img.article-potential-characters {
         z-index: 1;
     }
     a.dropdown-links {
-        margin: 0 10px 0px 0px;
+        margin: 0 10px 0px -5px;
     }
     #past-year {
         font-size: 20px;
@@ -930,7 +931,7 @@ img.article-potential-characters {
     }
  }
 .dropdown-content {
-    margin: 50px 0px 5px 0px;
+    margin: 50px 5px 0px -10px;
     grid-template-columns: repeat(2, auto);
     grid-auto-flow: column;
     position: absolute;
