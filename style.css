@@ -413,6 +413,13 @@ img.plus-side-net-nav:hover {
 .eventTitle:hover {
     text-shadow: 3px 7px 7px #000000
 }
+.articleTitle:hover {
+    text-shadow: 3px 7px 7px #000000
+}
+.articleAuthor:hover {
+    text-shadow: 3px 7px 7px #000000
+
+}
 .past-events-title:hover {
     text-shadow: 3px 8px 8px #000000
 }
@@ -1650,3 +1657,7 @@ img.placeholderimg {
     padding-inline-start: unset;
 
 }
+
+
+
+
