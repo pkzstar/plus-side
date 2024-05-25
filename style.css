@@ -599,7 +599,6 @@ p.event-date {
 }
 .articleLink {
     display: inline-flex;
-
     color:  rgb(10, 180, 88);
 }
 .articleLink:hover {
@@ -833,10 +832,10 @@ p.event-date {
     border-color: white;
     border-style: outset;
     box-shadow: 0 0 15px 0  rgb(167, 83, 247);
-
 }
+
 .article-body-image-bigger {
-    width: 100%;
+    width: 50%;
     height: auto;
     border-width: 2px;
     border-color: white;
@@ -1657,7 +1656,7 @@ img.placeholderimg {
     padding-inline-start: unset;
 
 }
-
-
-
-
+.article-body-image-bigger {
+    max-width: 90%;
+        max-height: 90%;
+}
