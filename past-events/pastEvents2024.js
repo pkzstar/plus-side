@@ -110,6 +110,19 @@ function createPastEventElement(eventData) {
 // Sample data for past event
 const eventData = [
 
+  {
+    eventTitle: "Super TPS III",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F645334%2Fimage-4060881a6adb2f03c420d83e3cca0111-optimized.png&ehk=Rvf7eAJXx4e6TZdpG%2FbUoAleCnIZVzi54lyGPwfStNY%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/tripoint-smash-presents-super-tps-iii/event/project-singles",
+    date: "May 24 2024",
+    location: "Illinois",
+    entrants: 41,
+    first: "Hyperflame",
+    second: "Dirtboy",
+    third: "Chaloopy",
+    vodsUrl: "",
+    hideRankImage: false
+  },
 {
   eventTitle: "Get Out of My Venue",
   imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F653520%2Fimage-26823721265eaac67b492375dd61d58c-optimized.png&ehk=wPnJ7gk4QYPmNh4K607NYyXo4pJfEwRcPlzUymJMUVU%3D&w=280&h=280&r=0",
