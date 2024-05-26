@@ -172,7 +172,7 @@ const eventData = [
   first: "PartyGhoul",
   second: "Catosat",
   third: "Spark",
-  vodsUrl: "",
+  vodsUrl: "https://youtube.com/playlist?list=PLzS-yXSHqq9hZnSArdE55rfppyvF0jM00&si=T7UdbfjYrY1U0Vvo",
   hideRankImage: false
 },
 {
@@ -263,7 +263,7 @@ const eventData = [
   first: "Ryzuul",
   second: "RNGReallyNotGood",
   third: "Tyler",
-  vodsUrl: "",
+  vodsUrl: "https://www.youtube.com/watch?v=AJdHUk8SY6k",
   hideRankImage: true
 },
 {
