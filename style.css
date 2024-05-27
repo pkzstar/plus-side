@@ -76,26 +76,24 @@ a:active { color: rgb(27, 0, 199);}
     transition: transform 0.3s ease;
     color: rgb(167, 83, 247);
 }
-h1.navText {
-    color: white;
-    text-shadow: 7px 7px 7px #000000;
-    margin-inline: 1%;
-    margin: 0;
-}
-h1.navText:hover {
-    color: rgb(10, 180, 88);
-    transform: scale3d(1.1, 1.1, 1.1); 
-    transition: transform 0.3s ease;
-}
-h1.navText:active { 
-    color: rgb(167, 83, 247);
-}
 .wave {
-    display: inline-flex;
-height: auto;
 width: 30%;
 position: absolute; left: 0%;
-margin-top: 2.5%;
+}
+.waveReverse {
+    /* rotate: 180deg; */
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    width: 30%;
+    position: absolute; right: 0%;
+    }
+    .waveReverse:hover {
+        cursor: default;
+    }
+
+.wavesBoth {
+    display: inline-flex;
+    margin-top: 4.8%;
 }
 .waveSide {
     display: inline-flex;
@@ -118,63 +116,51 @@ transform: scaleX(-1);
 .wave:hover {
     cursor: default;
 }
-.waveReverse {
-    margin-top: 2.5%;
-
-    display: inline-flex;
-    /* rotate: 180deg; */
-    -webkit-transform: scaleX(-1);
-    transform: scaleX(-1);
-    height: auto;
-    width: 30%;
-    position: absolute; right: 0%;
-    }
-    .waveReverse:hover {
-        cursor: default;
-    }
-
-a#patrons {
-    justify-content: space-around;
-    display: inline-flex;
-    align-items: center;
+a.patrons {
+    font-weight: bold;
+    font-size: 50px;
+    display: inline-block;
+        color: white;
+    text-shadow: 7px 7px 7px #000000;
+        align-items: center;
 }
-img#patronsImg {
-    margin-top: 2%;
+a.patrons:hover {
+    color: rgb(10, 180, 88);
+    transform: scale3d(1.1, 1.1, 1.1); 
+    transition: transform 0.3s ease;
+}
+a.patrons:active { 
+    color: rgb(167, 83, 247);
+}
+.patronsImg {
+    margin-bottom: -18%;
     border-radius: 100px 100px 100px 100px;
     max-width: 40%;
     justify-content: space-around;
     display: inline-flex;
     align-items: center; 
 }
-img#patronsImg:hover {
+.patronsImg:hover {
     cursor: pointer;
     transition: .3s ease;
     transform: scale3d(1.1, 1.1, 1.1);
 }
-h1.navText {
-    margin-top: 100px;
-    justify-content: space-around;
-    display: inline-flex;
-    align-items: center;
-}
 .patronsCenter {
-    margin-top: 2.5%;
+        margin-bottom: -11%;
+    margin-top: 4%;
     justify-content: center;
-    display: flex;
+    text-align: center;
+}
+.patronsCenterImg {
+    display: inline-block;
+    margin-top: 2.4%;
+    justify-content: center;
     text-align: center;
 }
 @media only screen and (max-width: 400px) {
 
-        h1.navText {
-            font-size: 13px;
-        }
-        img#patronsImg {
-            margin-top: 2%;
-            border-radius: 100px 100px 100px 100px;
-            max-width: 30%;
-            justify-content: space-around;
-            display: inline-flex;
-            align-items: center; 
+        a.patrons {
+            font-size: 10px !important;
         }
     }
 @media only screen and (max-width: 600px) {
@@ -182,13 +168,12 @@ section.nav-text {
     display: flex;
     justify-content: space-evenly;
     }
-    h1.navText {
-        margin-top: 0px;
+    a.patrons {
+        font-size: 15px;
+        margin: 0;
         justify-content: space-around;
-        display: inline-flex;
         align-items: center;
         position: relative; 
-
         z-index: 101;
 
     }
@@ -196,22 +181,38 @@ section.nav-text {
         display: inline-block;
         text-align: center;
     }
-    .patronsCenter {
+    div.patronsCenter {
+        margin-bottom: 5%;
         text-align: center;
         font-size: x-small;
     }
     .waveReverse {
-        margin: unset;
         -webkit-transform: scaleX(-1);
         transform: scaleX(-1);
         height: auto;
         width: 30%;
         }
         .wave {
-            margin: unset;
         height: auto;
         width: 30%;
         }
+        .wavesBoth {
+            display: block;
+            margin-top: -10%;
+        }
+        .patronsCenterImg {
+            margin-top: -50%;
+            text-align: center;
+        }
+        .patronsImg {
+            margin-bottom: -5%;
+            border-radius: 100px 100px 100px 100px;
+            max-width: 30%;
+            justify-content: space-around;
+            display: inline-flex;
+            align-items: center; 
+        }
+    
  }
  section.nav-text {
     display: flex;
@@ -1517,6 +1518,7 @@ form#upcomingSub {
     margin: 10px 0 10px 0;
 }
 .patreonList {
+    margin-bottom: -2.5%;
     justify-content: space-around;
     align-items: center;
     display: flex;
@@ -1621,8 +1623,10 @@ min-height: 200px;
 }
 
 .patreonList {
-    display: inline-block;
-    align-items: center;
+    margin: 5% 0 0% 0;
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 .patreonList1 {
     display: inline-block;
@@ -1638,9 +1642,14 @@ min-height: 200px;
 }
 
 .donor {
-    margin: 15px;
+justify-self: center;
+    align-items: center;
+    flex-basis: 100%;
+    margin: 2% 0 0% 0;
 }
 .donorImg {
+    flex-wrap: wrap;
+    display: flex;
     margin: unset;
     min-width: 100px;
     min-height: 100px;
@@ -1653,6 +1662,7 @@ min-height: 200px;
     border-radius: 75%;
 }
 .donorName {
+    text-align: center;
     font-size: x-large;
 }
 }
