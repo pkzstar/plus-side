@@ -95,6 +95,7 @@ h1.navText:active {
 height: auto;
 width: 30%;
 position: absolute; left: 0%;
+margin-top: 2.5%;
 }
 .waveSide {
     display: inline-flex;
@@ -118,6 +119,8 @@ transform: scaleX(-1);
     cursor: default;
 }
 .waveReverse {
+    margin-top: 2.5%;
+
     display: inline-flex;
     /* rotate: 180deg; */
     -webkit-transform: scaleX(-1);
@@ -135,13 +138,27 @@ a#patrons {
     display: inline-flex;
     align-items: center;
 }
+img#patronsImg {
+    margin-top: 2%;
+    border-radius: 100px 100px 100px 100px;
+    max-width: 40%;
+    justify-content: space-around;
+    display: inline-flex;
+    align-items: center; 
+}
+img#patronsImg:hover {
+    cursor: pointer;
+    transition: .3s ease;
+    transform: scale3d(1.1, 1.1, 1.1);
+}
 h1.navText {
-    margin-top: 50px;
+    margin-top: 100px;
     justify-content: space-around;
     display: inline-flex;
     align-items: center;
 }
 .patronsCenter {
+    margin-top: 2.5%;
     justify-content: center;
     display: flex;
     text-align: center;
@@ -150,6 +167,14 @@ h1.navText {
 
         h1.navText {
             font-size: 13px;
+        }
+        img#patronsImg {
+            margin-top: 2%;
+            border-radius: 100px 100px 100px 100px;
+            max-width: 30%;
+            justify-content: space-around;
+            display: inline-flex;
+            align-items: center; 
         }
     }
 @media only screen and (max-width: 600px) {
@@ -1495,7 +1520,6 @@ form#upcomingSub {
     justify-content: space-around;
     align-items: center;
     display: flex;
-    margin-bottom: 5%;
 }
 .patreonList1 {
     align-items: center;
@@ -1599,8 +1623,6 @@ min-height: 200px;
 .patreonList {
     display: inline-block;
     align-items: center;
-    margin-bottom: 15%;
-
 }
 .patreonList1 {
     display: inline-block;
