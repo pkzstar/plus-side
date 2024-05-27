@@ -133,7 +133,7 @@ a.patrons:active {
     color: rgb(167, 83, 247);
 }
 .patronsImg {
-    margin-bottom: -5%;
+    margin-bottom: -10%;
     border-radius: 100px 100px 100px 100px;
     max-width: 20%;
     justify-content: space-around;
@@ -1629,6 +1629,7 @@ justify-self: center;
 }
 }
 h3.donorName {
+    text-align: center;
     color: white;
     font-size: x-large;
 }
