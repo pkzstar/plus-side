@@ -1492,8 +1492,10 @@ form#upcomingSub {
     margin: 10px 0 10px 0;
 }
 .patreonList {
+    justify-content: space-around;
     align-items: center;
-    display: flex
+    display: flex;
+    margin-bottom: 5%;
 }
 .patreonList1 {
     align-items: center;
@@ -1525,14 +1527,12 @@ form#upcomingSub {
 }
 .donorImg {
     margin: -10px;
-    min-height: 50%;
-    min-width: 50%;
-    max-width: 50%;
-    max-height: 50%;
+min-width: 200px;
+min-height: 200px;
+    max-height: 200px;
+    max-width: 200px;
     cursor: pointer;
     transition: transform 0.3s ease;
-    height: 50%;
-    width: 50%;
     border:  rgba(50,185,152,1);
     border-width: 7px;
     border-style: groove;
@@ -1541,15 +1541,15 @@ form#upcomingSub {
 
 }
 .donorImg:hover { 
+    cursor: default;
     border-color:  rgb(167, 83, 247);
-    cursor: pointer;
     transition: transform 0.3s ease;
     transform: scale3d(1.1, 1.1, 1.1); 
     box-shadow: 0 0 20px 0  rgba(50,185,152,1);
 
 }
 .donorImg:active { 
-    cursor: pointer;
+    cursor: default;
     transition: transform 0.3s ease;
 }
 .donorBorder {
@@ -1599,6 +1599,8 @@ form#upcomingSub {
 .patreonList {
     display: inline-block;
     align-items: center;
+    margin-bottom: 15%;
+
 }
 .patreonList1 {
     display: inline-block;
@@ -1618,10 +1620,10 @@ form#upcomingSub {
 }
 .donorImg {
     margin: unset;
-    min-height: 75%;
-    min-width: 75%;
-    max-width: 75%;
-    max-height: 75%;
+    min-width: 100px;
+    min-height: 100px;
+        max-height: 100px;
+        max-width: 100px;
     cursor: pointer;
     transition: transform 0.3s ease;
     border-width: 7px;
@@ -1632,15 +1634,9 @@ form#upcomingSub {
     font-size: x-large;
 }
 }
-a.donorName {
+h3.donorName {
     color: white;
     font-size: x-large;
-}
-a.donorName:hover {
-    color: rgb(10, 180, 88);
-}
-a.donorName:active { 
-    color: rgb(167, 83, 247);
 }
 .whitetext {
     color: white;
