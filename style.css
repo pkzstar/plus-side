@@ -133,9 +133,9 @@ a.patrons:active {
     color: rgb(167, 83, 247);
 }
 .patronsImg {
-    margin-bottom: -18%;
+    margin-bottom: -5%;
     border-radius: 100px 100px 100px 100px;
-    max-width: 40%;
+    max-width: 20%;
     justify-content: space-around;
     display: inline-flex;
     align-items: center; 
@@ -152,7 +152,6 @@ a.patrons:active {
     text-align: center;
 }
 .patronsCenterImg {
-    display: inline-block;
     margin-top: 2.4%;
     justify-content: center;
     text-align: center;
@@ -160,7 +159,7 @@ a.patrons:active {
 @media only screen and (max-width: 400px) {
 
         a.patrons {
-            font-size: 10px !important;
+            font-size: 13px !important;
         }
     }
 @media only screen and (max-width: 600px) {
@@ -1523,30 +1522,6 @@ form#upcomingSub {
     align-items: center;
     display: flex;
 }
-.patreonList1 {
-    align-items: center;
-    min-height: 25%;
-    min-width: 25%;
-    max-width: 25%;
-    max-height: 25%;
-    display: flex;
-}
-.patreonList2 {
-    align-items: center;
-    min-height: 50%;
-    min-width: 50%;
-    max-width: 50%;
-    max-height: 50%;
-    display: flex;
-}
-.patreonList3 {
-    align-items: center;
-    min-height: 75%;
-    min-width: 75%;
-    max-width: 75%;
-    max-height: 75%;
-    display: flex;
-}
 .donor {
     font-size: x-large;
     margin: 50px;
@@ -1628,19 +1603,6 @@ min-height: 200px;
     flex-wrap: wrap;
     justify-content: center;
 }
-.patreonList1 {
-    display: inline-block;
-    align-items: center;
-}
-.patreonList2 {
-    display: inline-block;
-    align-items: center;
-}
-.patreonList3 {
-    display: inline-block;
-    align-items: center;
-}
-
 .donor {
 justify-self: center;
     align-items: center;
