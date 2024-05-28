@@ -1,5 +1,3 @@
-/* need to organize */
-
 .articleStyle {
     font-family: 'Nunito';
     flex-direction: row;
@@ -23,6 +21,26 @@
    border-inline-color: rgb(113, 36, 255);
    border-block-color: green;
    writing-mode: horizontal-tb;
+}
+.articleStyle:hover {
+    font-family: 'Nunito';
+    border-style: double;
+    border-block-color: rgb(255, 255, 255);
+    border-block-style: groove;
+   writing-mode: horizontal-tb;
+   border-block-width: thick;
+   border-inline-color: green;
+   border-block-color: rgb(113, 36, 255);
+   background: linear-gradient(45deg, #dd8af7, #dd8af7, #8aeef5, #fff2ba, #9ff8b2, #9ff8b2 );
+   animation: colorAnimationArticle 6s  infinite;
+   background-size: 600% 600%;
+   box-shadow: inset 360px 0px 10px 0px  rgba(0, 0, 0, 0.521);
+   transition: .5s ease-in-out;
+}
+.articleStyleAfter {
+    transition: .5s ease-in-out; 
+    background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+    box-shadow: inset 0px 0px 0px 0px  rgba(0, 0, 0, 0.521);
 }
 .articleSplit {
     display: flex;
@@ -82,30 +100,6 @@ font-size: large;
 
 }
 .articleReadAfter {
-    transition: .5s ease-in-out; 
-    background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
-    box-shadow: inset 0px 0px 0px 0px  rgba(0, 0, 0, 0.521);
-}
-.article-body-image-bigger {
-    max-width: 90%;
-        max-height: 90%;
-}
-.articleStyle:hover {
-    font-family: 'Nunito';
-    border-style: double;
-    border-block-color: rgb(255, 255, 255);
-    border-block-style: groove;
-   writing-mode: horizontal-tb;
-   border-block-width: thick;
-   border-inline-color: green;
-   border-block-color: rgb(113, 36, 255);
-   background: linear-gradient(45deg, #dd8af7, #dd8af7, #8aeef5, #fff2ba, #9ff8b2, #9ff8b2 );
-   animation: colorAnimationArticle 6s  infinite;
-   background-size: 600% 600%;
-   box-shadow: inset 360px 0px 10px 0px  rgba(0, 0, 0, 0.521);
-   transition: .5s ease-in-out;
-}
-.articleStyleAfter {
     transition: .5s ease-in-out; 
     background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
     box-shadow: inset 0px 0px 0px 0px  rgba(0, 0, 0, 0.521);
@@ -244,24 +238,12 @@ img.article-banner:hover {
         padding: unset;
         text-align: center;
     }
-    div.article-head {
-        padding: unset;
-        text-align: center;
-    }
     div.article-page-text {
         margin: unset;
         margin: 5%;
     }
     li.articleStyle {
         justify-content: center;
-    }
-    h1.article-head {
-        padding: unset;
-        text-align: center;
-    }
-    div.article-head {
-        padding: unset;
-        text-align: center;
     }
     img.article-banner {
         display: inline-flex;

@@ -57,74 +57,43 @@ a:active { color: rgb(27, 0, 199);}
 @media only screen and (max-width: 600px) {
     p {
         font-size: 12px;
-    }
-}
-@media only screen and (max-width: 600px) {
-    
-   img.upcoming-resize  {
-    width: 100%;
-     }
- }
-.upcoming-date {
-    font-family: 'Nunito';
-    padding-left: 50px;
-    text-align: left;
-        font-size: large;
-}
-@media only screen and (max-width: 600px) {
-  
-    h3 
-    {
+    } 
+    h3 {
         font-size: medium;
     }
 }
-.startgg {
-    font-size: 30px;
-    background: rgb(50,185,152);
-    background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
-    background: -webkit-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
-    background: linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#ffffff",GradientType=1);
-    border-radius: 15px 15px 15px 15px;
-    padding-left: 18px;
-    padding-right: 18px;
-    transition:  .3s;
-    box-shadow: inset 0 0 3px 0 rgb(50,185,152);
-        border-inline-color: rgb(113, 36, 255);
-        border-block-color: green;
-        border-style: double;
-        border-block-style: groove;
-       border-block-width: thick;
+img:focus {
+    image-rendering:optimizeQuality;
+    transform: scale3d(1.3, 1.3, 1.3);
+    cursor:pointer;
+    transition: .25s ease;
 }
-@media only screen and (max-width: 600px) {
-    a.startgg {
-        flex: 1;
-        width: 50%;
-        height: auto;
-        font-size: 20px;
-    }
+img.zoomed {
+    transform: scale3d(1, 1, 1);
 }
-.startgg:hover {
-    transition: .75s ease-in-out;
-    color: rgb(0, 0, 0);
-        border-style: double;
-        border-block-style: groove;
-       border-block-width: thick;
-       box-shadow:inset 0px 0px 0px 300px rgba(0, 0, 0, 0.438);
-       background: transparent
+img:hover {
+    cursor:zoom-in;
 }
-.startgg:active {
-    transition: none;
-    box-shadow: 4px 4px 7px 3px rgb(0, 43, 4);
-    color: rgb(27, 0, 199);
-    background: rgba(0, 0, 0, 0.322);
+img.upcoming-resize:hover {
+    cursor: unset;
+}
+img.pm-rank:hover {
+    cursor: unset;
+}
+.hidden {
+    display: none;
+}
+.whiteText {
+    color: white;
+}
 
-}
-.startggAfter {
-    transition: .5s ease-in-out; /* Transition added only for hover state */
-    background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
-    box-shadow: inset 0px 0px 0px 0px  rgba(0, 0, 0, 0.521);
-}
+
+
+
+
+/* calendar & past events buttons */
+
+
 .past-events-drop {
     display: inline-block;
     overflow: hidden;
@@ -218,90 +187,6 @@ a:active { color: rgb(27, 0, 199);}
 #past-year:active { color: rgb(104, 85, 233)}
 .pastList {
     display: flex;
-
-}
-#pastList {
-    display: flex;
-}
-img:focus {
-    image-rendering:optimizeQuality;
-    transform: scale3d(1.3, 1.3, 1.3);
-    cursor:pointer;
-    transition: .25s ease;
-}
-img.zoomed {
-    transform: scale3d(1, 1, 1);
-}
-img:hover {
-    cursor:zoom-in;
-}
-img.upcoming-resize:hover {
-    cursor: unset;
-}
-img.pm-rank:hover {
-    cursor: unset;
-}
-#pageHeader {
-    font-family: 'Nunito';
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: rgb(0, 0, 0);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    font-size: 100px;
-    font-style: italic;
-    margin: unset;
-}
-#authorPageHeader {
-    font-family: 'Nunito';
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    font-size: 50px;
-    font-style: italic;
-    margin: unset;
-    margin: 1% 0 2% 0;
-}
-@media only screen and (max-width: 600px) {
-   #pageHeader {
-    font-family: 'Nunito';
-    -webkit-text-stroke-width: unset;
-    font-size: x-large;
-    margin: unset;
-   }
-   #authorPageHeader {
-    font-family: 'Nunito';
-    -webkit-text-stroke-width: unset;
-    font-size: large;
-    margin: 5px 0 5px 0;
-   }
-   h1.textGradient {
-    text-shadow:
-    0px 0px 0px #ffffff, /* Outer shadow */
-    2px 2px 2px rgba(50,185,152,1), /* Inner shadow */
-    2px 2px 2px  rgba(50,185,152,1); /* Inner shadow */
-   }
-}
-.textGradient {
-    background: rgb(255,255,255);
-    background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 29%, rgba(255,255,255,1) 31%, rgba(255,255,255,1) 45%, rgba(128,128,128,1) 60%, rgba(255,255,255,1) 75%, rgba(255,255,255,1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 29%, rgba(255,255,255,1) 31%, rgba(255,255,255,1) 45%, rgba(128,128,128,1) 60%, rgba(255,255,255,1) 75%, rgba(255,255,255,1) 100%);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 29%, rgba(255,255,255,1) 31%, rgba(255,255,255,1) 45%, rgba(128,128,128,1) 60%, rgba(255,255,255,1) 75%, rgba(255,255,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
-    text-shadow:
-    0px 0px 0px #ffffff, /* Outer shadow */
-    3px 3px 3px rgba(50,185,152,1), /* Inner shadow */
-    3px 3px 3px  rgba(50,185,152,1); /* Inner shadow */
-}
-#pageHeaderAuthor {
-
-    font-family: 'Nunito';
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
-    font-size: 50px;
-    font-style: italic;
-    margin: unset;
 }
 .calView {
     margin: 0 50px 0 50px;
@@ -373,7 +258,6 @@ button.calViewList {
     border-inline-color: rgb(113, 36, 255);
     border-block-color: green;
 }
-
 .listView {
     margin-bottom: 6%;
 }
@@ -382,9 +266,120 @@ button.calViewList {
     display: flex;
     justify-content: center;
 }
-.hidden {
-    display: none;
+
+/* page headers */
+
+#pageHeader {
+    font-family: 'Nunito';
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 100px;
+    font-style: italic;
+    margin: unset;
 }
-.whiteText {
-    color: white;
+#authorPageHeader {
+    font-family: 'Nunito';
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 50px;
+    font-style: italic;
+    margin: unset;
+    margin: 1% 0 2% 0;
+}
+@media only screen and (max-width: 600px) {
+   #pageHeader {
+    font-family: 'Nunito';
+    -webkit-text-stroke-width: unset;
+    font-size: x-large;
+    margin: unset;
+   }
+   #authorPageHeader {
+    font-family: 'Nunito';
+    -webkit-text-stroke-width: unset;
+    font-size: large;
+    margin: 5px 0 5px 0;
+   }
+   h1.textGradient {
+    text-shadow:
+    0px 0px 0px #ffffff, /* Outer shadow */
+    2px 2px 2px rgba(50,185,152,1), /* Inner shadow */
+    2px 2px 2px  rgba(50,185,152,1); /* Inner shadow */
+   }
+}
+.textGradient {
+    background: rgb(255,255,255);
+    background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 29%, rgba(255,255,255,1) 31%, rgba(255,255,255,1) 45%, rgba(128,128,128,1) 60%, rgba(255,255,255,1) 75%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 29%, rgba(255,255,255,1) 31%, rgba(255,255,255,1) 45%, rgba(128,128,128,1) 60%, rgba(255,255,255,1) 75%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(180deg, rgba(255,255,255,1) 29%, rgba(255,255,255,1) 31%, rgba(255,255,255,1) 45%, rgba(128,128,128,1) 60%, rgba(255,255,255,1) 75%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
+    text-shadow:
+    0px 0px 0px #ffffff, /* Outer shadow */
+    3px 3px 3px rgba(50,185,152,1), /* Inner shadow */
+    3px 3px 3px  rgba(50,185,152,1); /* Inner shadow */
+}
+#pageHeaderAuthor {
+
+    font-family: 'Nunito';
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 50px;
+    font-style: italic;
+    margin: unset;
+}
+
+
+
+/* startgg */
+
+.startgg {
+    font-size: 30px;
+    background: rgb(50,185,152);
+    background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#ffffff",GradientType=1);
+    border-radius: 15px 15px 15px 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    transition:  .3s;
+    box-shadow: inset 0 0 3px 0 rgb(50,185,152);
+        border-inline-color: rgb(113, 36, 255);
+        border-block-color: green;
+        border-style: double;
+        border-block-style: groove;
+       border-block-width: thick;
+}
+@media only screen and (max-width: 600px) {
+    a.startgg {
+        flex: 1;
+        width: 50%;
+        height: auto;
+        font-size: 20px;
+    }
+}
+.startgg:hover {
+    transition: .75s ease-in-out;
+    color: rgb(0, 0, 0);
+        border-style: double;
+        border-block-style: groove;
+       border-block-width: thick;
+       box-shadow:inset 0px 0px 0px 300px rgba(0, 0, 0, 0.438);
+       background: transparent
+}
+.startgg:active {
+    transition: none;
+    box-shadow: 4px 4px 7px 3px rgb(0, 43, 4);
+    color: rgb(27, 0, 199);
+    background: rgba(0, 0, 0, 0.322);
+
+}
+.startggAfter {
+    transition: .5s ease-in-out; 
+    background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+    box-shadow: inset 0px 0px 0px 0px  rgba(0, 0, 0, 0.521);
 }

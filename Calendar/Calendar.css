@@ -1,8 +1,6 @@
-/* need to organize */
 body {
-    margin: 0;
+    margin: 0 !important;
 }
-
 .card {
     display: block;
     align-items: center;
@@ -97,7 +95,6 @@ label.lead {
         padding: 1% 1% 1% 1%;
     } 
     .calendar-container  {
-
         justify-content: center;
         align-items: center;
         height: 15px;
@@ -131,7 +128,7 @@ label.lead {
         height: min-content;
     } 
     #calendar  {
-        
+    
         justify-content: center;
         align-items: center;
     } 
@@ -152,11 +149,9 @@ label.lead {
         margin-top: 20px;
     }
     #month, #year {
-        
         margin-bottom: unset;
     }
     label.lead {
-        
         margin-bottom: unset;
     }
 }

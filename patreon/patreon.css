@@ -1,8 +1,3 @@
-/* need to organize */
-
-a.patrons:link {
-    color: white;
-}
 a.patrons {
     color: white;
     font-weight: bold;
@@ -10,6 +5,9 @@ a.patrons {
     display: inline-block;
     text-shadow: 7px 7px 7px #000000;
         align-items: center;
+}
+a.patrons:link {
+    color: white;
 }
 a.patrons:visited {
     color: white;
@@ -114,51 +112,7 @@ min-height: 200px;
    border-inline-color: green;
    border-block-color: rgb(113, 36, 255);
 }
-@media only screen and (max-width: 600px) {
-    .donorBorder {
-        display: flex;
-        align-items: center;
-        border-radius: 25%;
-        border-style: double;
-        flex: 1;
-        width: 75%;
-        height: 75%;
-        max-width: 250px;
-        min-width: 200px;
-        box-shadow: 0 0 15px 0  rgb(113, 36, 255);
-}
 
-.patreonList {
-    margin: 5% 0 0% 0;
-    display: grid;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.donor {
-justify-self: center;
-    align-items: center;
-    flex-basis: 100%;
-    margin: 2% 0 0% 0;
-}
-.donorImg {
-    flex-wrap: wrap;
-    display: flex;
-    margin: unset;
-    min-width: 100px;
-    min-height: 100px;
-        max-height: 100px;
-        max-width: 100px;
-    cursor: pointer;
-    transition: transform 0.3s ease;
-    border-width: 7px;
-    border-style: groove;
-    border-radius: 75%;
-}
-.donorName {
-    text-align: center;
-    font-size: x-large;
-}
-}
 h3.donorName {
     text-align: center;
     color: white;
@@ -204,13 +158,7 @@ h3.donorName {
     .wave:hover {
         cursor: default;
     }
-@media only screen and (max-width: 400px) {
 
-        a.patrons {
-            font-size: 13px !important;
-        }
-    }
-    
     @media only screen and (max-width: 600px) {
 
     a.patrons {
@@ -256,5 +204,55 @@ h3.donorName {
             justify-content: space-around;
             display: inline-flex;
             align-items: center; 
+        }
+        .donorBorder {
+            display: flex;
+            align-items: center;
+            border-radius: 25%;
+            border-style: double;
+            flex: 1;
+            width: 75%;
+            height: 75%;
+            max-width: 250px;
+            min-width: 200px;
+            box-shadow: 0 0 15px 0  rgb(113, 36, 255);
+    }
+    
+    .patreonList {
+        margin: 5% 0 0% 0;
+        display: grid;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .donor {
+    justify-self: center;
+        align-items: center;
+        flex-basis: 100%;
+        margin: 2% 0 0% 0;
+    }
+    .donorImg {
+        flex-wrap: wrap;
+        display: flex;
+        margin: unset;
+        min-width: 100px;
+        min-height: 100px;
+            max-height: 100px;
+            max-width: 100px;
+        cursor: pointer;
+        transition: transform 0.3s ease;
+        border-width: 7px;
+        border-style: groove;
+        border-radius: 75%;
+    }
+    .donorName {
+        text-align: center;
+        font-size: x-large;
+    }
+}
+
+    @media only screen and (max-width: 400px) {
+
+        a.patrons {
+            font-size: 13px !important;
         }
     }
