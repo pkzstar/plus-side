@@ -172,7 +172,7 @@ const eventData = [
   first: "PartyGhoul",
   second: "Catosat",
   third: "Spark",
-  vodsUrl: "https://youtube.com/playlist?list=PLzS-yXSHqq9hZnSArdE55rfppyvF0jM00&si=T7UdbfjYrY1U0Vvo",
+  vodsUrl: "",
   hideRankImage: false
 },
 {

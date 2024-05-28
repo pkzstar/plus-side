@@ -187,6 +187,7 @@ const eventData = [
     eventTitle: 'Ghost Town',
     eventUrl: 'https://www.start.gg/tournament/ghost-town/details',
     imageUrl: 'https://github.com/pkzstar/plus-side/blob/main/images/past-events/ghost-town.png?raw=true',
+    vodsUrl: 'https://youtube.com/playlist?list=PLzS-yXSHqq9hZnSArdE55rfppyvF0jM00&si=T7UdbfjYrY1U0Vvo',
     date: 'November 4-5 2023',
     location: 'Oregon',
     entrants: '24',

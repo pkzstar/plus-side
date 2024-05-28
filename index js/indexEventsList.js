@@ -196,6 +196,15 @@ const eventsData = [
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/bigcheese5.png?raw=true",
         link: "https://www.start.gg/tournament/big-cheese-5-south-australia-smash-fgc-major/details",
         rankImg: false
+      },
+      {
+        name: "Five Nights at Fingy's 2",
+        date: "10/12/24 - 10/13/24",
+        location: "Mesa, AZ, USA",
+        description: "Trailer: https://youtu.be/mEsQ1_rF7gM AZPM is back! Five Nights at Fingy's 2 is a FNAF themed Project+ Tournament in Mesa, Arizona",
+        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/fnaf2.png?raw=true",
+        link: "https://www.start.gg/tournament/five-nights-at-fingy-s-2/details",
+        rankImg: false
       }
     ];
 
