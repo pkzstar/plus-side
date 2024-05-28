@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     const headerButtonsDiv = document.getElementById('headerButtons');
   
     const upcomingEventsHTML = `
-      <div class="upcoming-image-parent">
+      <div class="upcomingImageParent">
         <h1 id="pageHeader" class="textGradient">2024 PAST EVENTS</h1>
         <div>
         <button class="calView"><a href="../Calendar/CalView.html">Calendar</a></button>

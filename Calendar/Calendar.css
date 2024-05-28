@@ -1,4 +1,7 @@
 /* need to organize */
+body {
+    margin: 0;
+}
 
 .card {
     display: block;
