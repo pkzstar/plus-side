@@ -71,7 +71,7 @@ eventName.appendChild(location);
 
   // Create the start.gg link
   const startGgLink = document.createElement('a');
-  startGgLink.classList.add('start-gg');
+  startGgLink.classList.add('startgg');
   startGgLink.classList.add('start-gg-home');
   startGgLink.href = eventData.link;
   startGgLink.target = '_blank';

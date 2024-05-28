@@ -88,7 +88,7 @@ function createPastEventElement(eventData) {
   
       if (event.vodsUrl) {
         const vodsLink = document.createElement('a');
-        vodsLink.classList.add('vods-past');
+        vodsLink.classList.add('vodsPast');
         vodsLink.href = event.vodsUrl;
         vodsLink.target = '_blank';
         vodsLink.textContent = 'Vods';
@@ -96,7 +96,7 @@ function createPastEventElement(eventData) {
       }
   
       const startGGLink = document.createElement('a');
-      startGGLink.classList.add('start-gg');
+      startGGLink.classList.add('startgg');
       startGGLink.href = event.eventUrl;
       startGGLink.target = '_blank';
       startGGLink.textContent = 'start.gg';

@@ -78,3 +78,70 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+
+
+//box shadow inset
+
+document.addEventListener('DOMContentLoaded', () => {
+
+  const eventElements = document.querySelectorAll('.events');
+  
+  Array.from(eventElements).forEach(eventElement => {
+      eventElement.addEventListener('mouseleave', () => {
+          eventElement.classList.remove('events:hover');
+          void eventElement.offsetWidth;
+          eventElement.classList.add('eventsAfter');
+      });
+  })});
+
+  document.addEventListener('DOMContentLoaded', () => {
+
+    const articleElements = document.querySelectorAll('.articleStyle');
+    
+    Array.from(articleElements).forEach(eventElement => {
+        articleElement.addEventListener('mouseleave', () => {
+            articleElementElement.classList.remove('articleStyle:hover');
+            void articleElement.offsetWidth;
+            articleElement.classList.add('articleStyleAfter');
+        });
+    })});
+
+
+// startgg inset
+document.addEventListener('DOMContentLoaded', () => {
+
+  const startggElements = document.querySelectorAll('.startgg');
+  
+  Array.from(startggElements).forEach(eventElement => {
+      startggElement.addEventListener('mouseleave', () => {
+          startggElementElement.classList.remove('startgg:hover');
+          void startggElement.offsetWidth;
+          startggElement.classList.add('startggAfter');
+      });
+  })});
+
+  // vods inset
+document.addEventListener('DOMContentLoaded', () => {
+
+  const vodsElements = document.querySelectorAll('.vodsPast');
+  
+  Array.from(vodsElements).forEach(vodsElement => {
+      vodsElement.addEventListener('mouseleave', () => {
+          vodsElementElement.classList.remove('vodsPast:hover');
+          void vodsElement.offsetWidth;
+          vodsElement.classList.add('vodsPastAfter');
+      });
+  })});
+
+// article inset
+  document.addEventListener('DOMContentLoaded', () => {
+
+    const articleReadElements = document.querySelectorAll('.articleRead');
+    
+    Array.from(articleReadElements).forEach(articleReadElement => {
+        articleReadElement.addEventListener('mouseleave', () => {
+            articleReadElementElement.classList.remove('articleRead:hover');
+            void articleReadElement.offsetWidth;
+            articleReadElement.classList.add('articleReadAfter');
+        });
+    })});

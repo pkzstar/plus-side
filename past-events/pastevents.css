@@ -1,0 +1,84 @@
+.past-events { 
+    font-family: 'Nunito';
+    text-align: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    justify-content: center;
+    border-radius: 100px 100px 100px 100px;
+    transition: .3s;
+    border-block-style: groove;
+   border-block-width: thick;
+   border-style: double;
+   background: rgb(50,185,152);
+   background: -moz-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+   background: -webkit-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+   background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#32b998",GradientType=1);   border-block-end-color: rgb(0, 65, 50);
+   box-shadow: 0 0 20px 0  rgb(113, 36, 255);
+   border-inline-color: rgb(113, 36, 255);
+   border-block-color: green;
+   writing-mode: horizontal-tb;
+}
+.past-events:hover {
+    border-style: double;
+    border-block-style: groove;
+   border-block-width: thick;
+   box-shadow: 0 0 20px 0  rgb(255, 255, 255);
+   border-inline-color: green;
+   border-block-color: rgb(113, 36, 255);
+   background: linear-gradient(45deg, #dd8af7, #dd8af7, #dd8af7, #dd8af7, #8aeef5, #fff2ba, #9ff8b2, #9ff8b2, #9ff8b2, #9ff8b2);
+   animation: colorAnimationEvent 6s  infinite;
+   background-size: 600% 600%;
+}
+.past-events-banners {
+    flex: 0px;
+    border-radius: 25%;
+    max-width: 300px;
+    max-height: 300px;
+    height: 300px;
+    width: 300px;
+    border-style: double;
+    border-block-end-color: rgb(0, 65, 50);
+    box-shadow: 3px 3px 6px 2px rgb(0, 43, 4);
+}
+.past-events-banners:hover {
+    transform: scale3d(1.02, 1.02, 1.02); 
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.past-events-banners:active {
+    transform: scale3d(1.03, 1.03, 1.03); 
+}
+.past-events-title{
+    text-align: center;
+}
+.past-events-title:hover {
+    text-shadow: 3px 8px 8px #000000
+}
+@media only screen and (max-width: 600px) {
+    li.past-events {
+        border-radius: 25%;
+        border-style: double;
+        flex: 1;
+        width: 50%;
+        max-width: 250px;
+        min-width: 200px;
+    }
+    img.past-events-banners {
+        border-radius: 25%;
+        border-style: double;
+        border-block-end-color: rgb(0, 65, 50);
+        box-shadow: 3px 3px 6px 2px rgb(0, 43, 4);
+        flex: 1;
+        width: 75%;
+    }
+    img.past-events-banners {
+        border-radius: 25%;
+        border-style: double;
+        border-block-end-color: rgb(0, 65, 50);
+        box-shadow: 3px 3px 6px 2px rgb(0, 43, 4);
+        flex: 1;
+        width: 75%;
+    }
+}
