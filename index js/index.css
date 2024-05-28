@@ -1,0 +1,307 @@
+/* need to organize */
+
+.events {
+    max-width: 45%;
+    min-width: 45%;
+    font-family: 'Nunito';
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+    align-items: center;
+    border-radius: 100px 100px 100px 100px;
+    border-style: double;
+    display: flex;
+    border-block-style: groove;
+    border-block-width: thick;
+    background: rgb(50,185,152);
+    background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#32b998",GradientType=1);
+    box-shadow: inset 0 0 9px 0  rgb(113, 36, 255);
+    border-inline-color: rgb(113, 36, 255);
+    border-block-color: green;
+}
+
+.events:hover {
+    border-style: double;
+    border-block-style: groove;
+    border-block-width: thick;
+    box-shadow: inset 360px 0px 10px 0px  rgba(0, 0, 0, 0.521)
+                /* inset -500px 0px 0px 0px  rgba(0, 0, 0, 0.301); */
+    ;
+    border-inline-color: green;
+    border-block-color: rgb(113, 36, 255);
+    background: linear-gradient(45deg, #dd8af7, #dd8af7, #8aeef5, #fff2ba, #9ff8b2, #9ff8b2);
+    animation: colorAnimationEvent 6s infinite;
+    background-size: 600% 600%;
+    transition: .5s ease-in-out;
+}
+.eventsAfter {
+    transition: .5s ease-in-out; 
+    background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+    box-shadow: inset 0px 0px 0px 0px  rgba(0, 0, 0, 0.521);
+}
+.pm-rank {
+    float: right;
+    /* width: auto; */
+    transition:  1s;
+    /* rotate: 360deg; */
+}
+@keyframes colorAnimationEvent {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .events {
+        align-items: center;
+        display: block;
+        border-radius: 25%;
+        border-style: double;
+        flex: 1;
+        width: 75%;
+        height: 75%;
+        max-width: 250px;
+        min-width: 200px;
+        box-shadow: 0 0 15px 0  rgb(113, 36, 255);
+    }
+    .events-title {
+        text-align: center;
+        align-content: center;
+    }
+    p.events-text {
+        padding: unset;
+        font-size: larger;
+        text-align: center;
+    }
+    img.events-banners {
+        border-radius: 25%;
+        border-style: double;
+        border-block-end-color: rgb(0, 65, 50);
+        box-shadow: 3px 3px 6px 2px rgb(0, 43, 4);
+        flex: 1;
+        height: auto;
+        width: 75%;
+    }
+    img.events-banners-trans {
+        flex: 1;
+        width: 75%;
+        height: auto;
+    }
+    ul.eventsList {
+        margin: unset;
+        justify-content: center;
+        padding: unset;
+    }
+    div#inputContainer {
+        margin: 0 0 0 10%;
+    }
+    div.Upcoming-event-form  {
+        width: 75%; 
+    }
+}
+img.events-banners:hover {
+    cursor: pointer;
+}
+.events-title{
+    padding-left: 50px;
+    text-align: left;
+}
+.events-text {
+    font-size: larger;
+    padding-left: 50px;
+    text-align: center;
+}
+.event-head {
+    font-family: 'Nunito';
+    text-align: center;
+    align-content: center;
+}
+.eventTitle:hover {
+    text-shadow: 3px 7px 7px #000000
+}
+.event-date {
+    text-align: center;
+    font-family: 'Nunito';
+    font-size: large;
+}
+p.event-date {
+    margin: 2% 0 -2% 0;
+}
+@media only screen and (max-width: 1000px) {
+    b.event-date {
+        font-size: 29px;
+    }
+    p.event-date {
+        font-size: 29px;
+    }
+}
+@media only screen and (max-width: 600px) {
+
+    .events-title {
+        text-align: center;
+        align-content: center;
+    }
+    p.events-text {
+        padding: unset;
+        font-size: larger;
+        text-align: center;
+    }
+}
+.events-banners-trans {
+    flex: 0px;
+    max-width: 300px;
+    max-height: 300px;
+    height: 300px;
+    width: 300px;
+    border-radius: 25%;
+
+}
+.events-banners-trans:hover {
+    transform: scale3d(1.02, 1.02, 1.02); 
+    transition: transform 0.3s ease;
+}
+.events-banners-trans:active {
+    transform: scale3d(1.03, 1.03, 1.03); 
+}
+.events-banners {
+    flex: 0px;
+    border-radius: 25%;
+    max-width: 300px;
+    max-height: 300px;
+    height: 300px;
+    width: 300px;
+    border-style: double;
+    border-block-end-color: rgb(0, 65, 50);
+    box-shadow: 3px 3px 6px 2px rgb(0, 43, 4);
+}
+.events-banners:hover {
+    transform: scale3d(1.02, 1.02, 1.02); 
+    transition: transform 0.3s ease
+}
+.events-banners:active {
+    transform: scale3d(1.03, 1.03, 1.03); 
+}
+.eventsList {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px 0 30px;
+    padding-inline-start: unset;
+}
+#EventDateUpcoming, #EventLocationUpcoming, #EventTitleUpcoming, #EventUrlUpcoming, #EventImageUpcoming, #EventDescriptionUpcoming, #EventPassUpcoming {
+    display: inline;
+}
+#textInputUpcomingTitle, #textInputUpcomingDate, #textInputUpcomingLocation, #textInputUpcomingUrl, #textInputUpcomingImage, #textInputUpcomingDescription, #textPassUpcoming {
+    margin: 10px;
+}
+.Upcoming-event-form {
+    font-size: 25px;
+    border-radius: 15px 15px 15px 15px;
+    padding-left: 8px;
+    padding-right: 8px;
+    box-shadow: 0 0 3px 0 rgb(0, 196, 16);
+        transition: .3s;
+        border-inline-color: rgb(113, 36, 255);
+        border-block-color: green;
+        border-style: double;
+        border-block-style: groove;
+       border-block-width: thick;
+       background: rgb(50,185,152);
+       background: -moz-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+       background: -webkit-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+       background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+       filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#32b998",GradientType=1);
+       box-shadow: 0 0 9px 0  rgb(113, 36, 255);
+       border-inline-color: rgb(113, 36, 255);
+       border-block-color: green;
+       font-family: 'Nunito';
+       height: fit-content; 
+       width: 30%;
+       margin: 10px 0 0 34%;
+
+}
+.Upcoming-event-form:hover {
+    border-style: double;
+    border-block-style: groove;
+   border-block-width: thick;
+   border-inline-color: green;
+   border-block-color: rgb(113, 36, 255);
+}
+.Upcoming-event-form-button {
+    margin: 8px 50px 0 50px;
+    font-size: 30px;
+background: rgb(50,185,152);
+background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+background: -webkit-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+background: linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#ffffff",GradientType=1);    border-radius: 15px 15px 15px 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    box-shadow: 0 0 3px 0 rgb(0, 196, 16);
+        transition: .3s;
+        border-block-color: green;
+        border-style: double;
+        border-block-style: groove;
+       border-block-width: thick;
+}
+.Upcoming-event-form-button:hover, .Upcoming-event-form-button:focus {
+    box-shadow: 0 0 20px 0  rgb(167, 83, 247);
+    border-inline-color: rgb(113, 36, 255);
+    border-block-color: green;
+}
+.submit-btn {
+    font-size: 20px;
+    background: rgb(50,185,152);
+    background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#ffffff",GradientType=1);
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 3px 0 rgb(0, 196, 16);
+        transition: .3s;
+        margin: 0px 0px 10px 0px;
+}
+.submit-btn:hover {
+    color: rgb(60, 42, 177);
+    box-shadow: 2px 2px 5px 1px rgb(0, 43, 4);
+}
+input#textInputUpcomingTitle {
+    display: inline-flex;
+    width: 50%;
+}
+input#textInputUpcomingDate { 
+    display: inline-flex;
+    width: 50%;
+}
+input#textInputUpcomingLocation { 
+    display: inline-flex;
+    width: 50%;
+}
+input#textInputUpcomingUrl { 
+    display: inline-flex;
+    width: 50%;
+}
+input#textInputUpcomingImage { 
+    display: inline-flex;
+    width: 50%;
+}
+input#textInputUpcomingDescription { 
+    display: inline-flex;
+    width: 50%;
+}
+input#textPassUpcoming {
+    display: inline-flex;
+    width: 50%; 
+}
+div.addEventSec {
+    font-size: 20px;
+}
+form#upcomingSub {
+    text-align: center;
+    margin: 10px 0 10px 0;
+}

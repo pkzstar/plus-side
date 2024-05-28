@@ -1,0 +1,256 @@
+/* need to organize */
+
+a.patrons {
+    font-weight: bold;
+    font-size: 50px;
+    display: inline-block;
+    text-shadow: 7px 7px 7px #000000;
+        align-items: center;
+}
+a.patrons:visited {
+    color: white;
+}
+a.patrons:hover {
+    color: rgb(10, 180, 88);
+    transform: scale3d(1.1, 1.1, 1.1); 
+    transition: transform 0.3s ease;
+}
+a.patrons:active { 
+    color: rgb(167, 83, 247);
+}
+.patronsImg {
+    margin-bottom: -10%;
+    border-radius: 100px 100px 100px 100px;
+    max-width: 20%;
+    justify-content: space-around;
+    display: inline-flex;
+    align-items: center; 
+}
+.patronsImg:hover {
+    cursor: pointer;
+    transition: .3s ease;
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+.patronsCenter {
+        margin-bottom: -11%;
+    margin-top: 4%;
+    justify-content: center;
+    text-align: center;
+}
+.patronsCenterImg {
+    margin-top: 2.4%;
+    justify-content: center;
+    text-align: center;
+}
+
+.patreonList {
+    margin-bottom: -2.5%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+}
+.donor {
+    font-size: x-large;
+    margin: 50px;
+}
+.donorImg {
+    margin: -10px;
+min-width: 200px;
+min-height: 200px;
+    max-height: 200px;
+    max-width: 200px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border:  rgba(50,185,152,1);
+    border-width: 7px;
+    border-style: groove;
+    border-radius: 75%;
+    box-shadow: 0px 0px 20px 0  rgb(167, 83, 247);
+
+}
+.donorImg:hover { 
+    cursor: default;
+    border-color:  rgb(167, 83, 247);
+    transition: transform 0.3s ease;
+    transform: scale3d(1.1, 1.1, 1.1); 
+    box-shadow: 0 0 20px 0  rgba(50,185,152,1);
+
+}
+.donorImg:active { 
+    cursor: default;
+    transition: transform 0.3s ease;
+}
+.donorBorder {
+    font-family: 'Nunito';
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100px 100px 100px 100px;
+    transition: .3s;
+    border-style: double;
+    border-block-style: groove;
+   border-block-width: thick;
+   background: rgb(50,185,152);
+   background: -moz-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+   background: -webkit-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+   background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#32b998",GradientType=1);
+   box-shadow: 0 0 9px 0  rgb(113, 36, 255);
+   border-inline-color: rgb(113, 36, 255);
+   border-block-color: green;
+   writing-mode: horizontal-tb;
+}
+.donorBorder:hover {
+    border-style: double;
+    border-block-style: groove;
+   border-block-width: thick;
+   box-shadow: 0 0 20px 0  rgb(255, 255, 255);
+   border-inline-color: green;
+   border-block-color: rgb(113, 36, 255);
+}
+@media only screen and (max-width: 600px) {
+    .donorBorder {
+        display: flex;
+        align-items: center;
+        border-radius: 25%;
+        border-style: double;
+        flex: 1;
+        width: 75%;
+        height: 75%;
+        max-width: 250px;
+        min-width: 200px;
+        box-shadow: 0 0 15px 0  rgb(113, 36, 255);
+}
+
+.patreonList {
+    margin: 5% 0 0% 0;
+    display: grid;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.donor {
+justify-self: center;
+    align-items: center;
+    flex-basis: 100%;
+    margin: 2% 0 0% 0;
+}
+.donorImg {
+    flex-wrap: wrap;
+    display: flex;
+    margin: unset;
+    min-width: 100px;
+    min-height: 100px;
+        max-height: 100px;
+        max-width: 100px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    border-width: 7px;
+    border-style: groove;
+    border-radius: 75%;
+}
+.donorName {
+    text-align: center;
+    font-size: x-large;
+}
+}
+h3.donorName {
+    text-align: center;
+    color: white;
+    font-size: x-large;
+}
+.wave {
+    width: 30%;
+    position: absolute; left: 0%;
+    }
+    .waveReverse {
+        /* rotate: 180deg; */
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        width: 30%;
+        position: absolute; right: 0%;
+        }
+        .waveReverse:hover {
+            cursor: default;
+        }
+    
+    .wavesBoth {
+        display: inline-flex;
+        margin-top: 4.8%;
+    }
+    .waveSide {
+        display: inline-flex;
+                rotate: 90deg;
+    height: auto;
+    width: 30%;
+    position: absolute; left: -10%; top: 21%;
+    z-index: -1;
+    }
+    .waveSide2 {
+        display: inline-flex;
+                rotate: 270deg;
+    height: auto;
+    width: 30%;
+    position: absolute; right: -10%; top: 21%;
+    z-index: -1;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    }
+    .wave:hover {
+        cursor: default;
+    }
+@media only screen and (max-width: 400px) {
+
+        a.patrons {
+            font-size: 13px !important;
+        }
+    }
+    
+    @media only screen and (max-width: 600px) {
+
+    a.patrons {
+        font-size: 15px;
+        margin: 0;
+        justify-content: space-around;
+        align-items: center;
+        position: relative; 
+        z-index: 101;
+
+    }
+    a#patrons {
+        display: inline-block;
+        text-align: center;
+    }
+    div.patronsCenter {
+        margin-bottom: 5%;
+        text-align: center;
+        font-size: x-small;
+    }
+    .waveReverse {
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        height: auto;
+        width: 30%;
+        }
+        .wave {
+        height: auto;
+        width: 30%;
+        }
+        .wavesBoth {
+            display: block;
+            margin-top: -10%;
+        }
+        .patronsCenterImg {
+            margin-top: -50%;
+            text-align: center;
+        }
+        .patronsImg {
+            margin-bottom: -5%;
+            border-radius: 100px 100px 100px 100px;
+            max-width: 30%;
+            justify-content: space-around;
+            display: inline-flex;
+            align-items: center; 
+        }
+    }

@@ -1,0 +1,217 @@
+/* need to organize */
+
+
+#navText {
+    font-family: 'nunito';
+    color: white;
+    text-shadow: 7px 7px 7px #000000;
+    margin-inline: 1%;
+    margin: 0;
+    position: relative;
+}
+#navText:hover {
+    color: rgb(10, 180, 88);
+    /* transform: scale3d(1.1, 1.1, 1.1);  */
+    animation: rainbowText 15s infinite;
+
+}
+#navText::after {
+    content: '';
+    position: absolute;
+    bottom: -2px; /* Adjust the distance of the line from the text */
+    left: 0;
+    width: 0; /* Initial width of the line */
+    height: 3px; /* Height of the line */
+    background-color: rgb(167, 83, 247); /* Change line color on active */
+    transition: width 0.5s ease; /* Animation transition */
+}
+
+#navText:hover::after {
+    width: 100%; /* Full width of the line on hover */
+}
+#navText:active { 
+    color: rgb(167, 83, 247);
+}
+#navText:active::after {
+    background-color: rgb(10, 180, 88); /* Color of the line */
+}
+@media only screen and (max-width: 600px) {
+
+section.nav-text {
+    display: flex;
+    justify-content: space-evenly;
+    }
+ }
+ section.nav-text {
+    display: flex;
+    justify-content: space-evenly;
+ }
+ .header-nav {
+    width: auto;
+    font-family: 'Nunito';
+    background-position-y: 70%;
+    background-size: cover;
+    background-image: url(https://github.com/pkzstar/plus-side/blob/main/images/pokemon.gif?raw=true);
+    font-size: 35px;
+    padding: 30px;
+    animation: rainbowBorder 15s infinite;
+    border-bottom: 3px solid transparent;
+}
+
+@keyframes rainbowText {
+    0% {
+        color: #dd8af7; 
+    }
+    12.5% {
+        color: #8aeef5; 
+    }
+    25% {
+        color: #fff2ba; 
+    }
+    37.5% {
+        color: #9ff8b2; 
+    }
+    50% {
+        color: #dd8af7; 
+    }
+    62.5% {
+        color: #8aeef5; 
+    }
+    75% {
+        color: #fff2ba; 
+    }
+    87.5% {
+        color: #9ff8b2; 
+    }
+    100% {
+        color: #9ff8b2; 
+    }
+}
+
+
+@keyframes rainbowBorder {
+    0% {
+        border-color: #dd8af7; 
+    }
+    12.5% {
+        border-color: #8aeef5; 
+    }
+    25% {
+        border-color: #fff2ba; 
+    }
+    37.5% {
+        border-color: #9ff8b2; 
+    }
+    50% {
+        border-color: #dd8af7; 
+    }
+    62.5% {
+        border-color: #8aeef5; 
+    }
+    75% {
+        border-color: #fff2ba; 
+    }
+    87.5% {
+        border-color: #9ff8b2; 
+    }
+    100% {
+        border-color: #9ff8b2; 
+    }
+}
+
+
+@media only screen and (max-width: 600px) { 
+   div.header-nav {
+    font-size: 20px;
+    padding: 5px;
+    border-bottom: 1px solid transparent;
+   }
+}
+img.plus-side-net-nav {
+    float: left;
+    width: 250px;
+}
+@media only screen and (max-width: 600px) {
+    
+    img.plus-side-net-nav {
+        display: flex;
+        min-width: 25px;
+        width: 25%;
+        max-width: 100px;
+        margin: -2px 0 0 10px;
+     } 
+ }
+img.plus-side-net-nav:hover {
+  transform: scale3d(1.1, 1.1, 1.1); 
+  transition: transform 0.3s ease
+
+}
+/* img.plus-side-net-nav:active {
+    transform: scale3d(1.2, 1.2, 1.2); 
+  } */
+.twitter-link {
+    margin: -2px -2px 0px -2px;
+    float: right;
+    height: 55px;
+    width: auto;
+}
+@media only screen and (max-width: 600px) { 
+    img.twitter-link {
+        margin: 1px 0 0 0;
+    display: flex;
+    min-height: 20px;
+    height: 10%;
+    max-height: 30px;
+     }
+     a.twitter-link {
+        max-height: 20px;
+     }
+ }
+.twitter-link:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: transform 0.3s ease
+}
+/* .twitter-link:active {
+    transform: scale3d(1.2, 1.2, 1.2);
+} */
+.youtube-link {
+    margin: 0 1px 0 1px;
+    float: right;
+    height: 50px;
+    width: auto;
+}
+@media only screen and (max-width: 600px) { 
+    
+    img.youtube-link {
+    min-height: 20px;
+    height: 10%;
+    max-height: 30px;
+     }
+     a.youtube-link {
+        max-height: 20px;
+     }
+ }
+.youtube-link:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: transform 0.3s ease
+
+}
+/* .youtube-link:active {
+    transform: scale3d(1.2, 1.2, 1.2);
+} */
+.upcoming-image-parent {
+    margin-top: 25px;
+    text-align: center;
+}
+.upcoming-resize {
+    width: 75%;
+}
+img.plus-side-net-nav:hover {
+    cursor: pointer;
+}
+img.youtube-link:hover {
+    cursor: pointer;
+}
+img.twitter-link:hover {
+    cursor: pointer;
+}

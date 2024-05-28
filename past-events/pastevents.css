@@ -1,3 +1,5 @@
+/* need to organize */
+
 .past-events { 
     font-family: 'Nunito';
     text-align: center;
@@ -56,6 +58,78 @@
 .past-events-title:hover {
     text-shadow: 3px 8px 8px #000000
 }
+
+img.pm-rank-centered {
+    transition:  1s;
+}
+img.pm-rank-centered:hover {
+    cursor: unset;
+    transition: 1s;
+}
+.vodsPast {
+    font-size: 30px;
+    background: rgb(50,185,152);
+    background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#ffffff",GradientType=1);    border-radius: 15px 15px 15px 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0 0 3px 0 rgb(0, 196, 16);
+        transition: .3s;
+        border-style: double;
+        border-block-style: groove;
+       border-block-width: thick;
+   border-inline-color: rgb(113, 36, 255);
+   border-block-color: green;
+       margin: 0px 0 10px 0;
+       box-shadow: inset 0 0 3px 0 rgb(50,185,152);
+}
+@media only screen and (max-width: 600px) {
+    a.vodsPast {
+        margin: 0px 0 10px 0;
+        flex: 1;
+        width: 50;
+        font-size: 20px;
+    }
+    p.top3 {
+        margin: 10px 0 10px 0;
+    }
+}
+.top3 {
+    font-size: large;
+}
+.pm-rank-centered-invis {
+    visibility: hidden;
+}
+img.events-banners-trans {
+    cursor: unset;
+    transform: rotate3d(0, 10, 0, 360deg);
+}
+.vodsPast:hover {
+    transition: .75s ease-in-out;
+        border-style: double;
+        border-block-style: groove;
+       border-block-width: thick;
+       color: rgb(0, 0, 0);
+       background: rgba(0, 0, 0, 0.322);
+       transition: .75s ease-in-out;
+       box-shadow:inset 0px 0px 0px 300px rgba(0, 0, 0, 0.438);
+          background: transparent
+}
+.vodsPast:active {
+    transition: none;
+    color: rgb(27, 0, 199);
+    box-shadow: 4px 4px 7px 3px rgb(0, 43, 4);
+    background: rgba(0, 0, 0, 0.322);
+}
+.vodsPastAfter {
+    transition: .5s ease-in-out; /* Transition added only for hover state */
+    background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+    box-shadow: inset 0px 0px 0px 0px  rgba(0, 0, 0, 0.521);
+}
+
+
 @media only screen and (max-width: 600px) {
     li.past-events {
         border-radius: 25%;
@@ -80,5 +154,9 @@
         box-shadow: 3px 3px 6px 2px rgb(0, 43, 4);
         flex: 1;
         width: 75%;
+    }
+    ul.pastList {
+        justify-content: center;
+        margin: unset;
     }
 }

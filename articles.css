@@ -1,0 +1,296 @@
+/* need to organize */
+
+.articleStyle {
+    font-family: 'Nunito';
+    flex-direction: row;
+    text-align: center;
+    padding: 25px;
+    margin: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 100px 100px 100px 100px;
+    transition: .3s;
+    border-style: double;
+    border-block-style: groove;
+   border-block-width: thick;
+   background: rgb(50,185,152);
+   background: -moz-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+   background: -webkit-linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+   background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#32b998",GradientType=1);   border-block-end-color: rgb(0, 65, 50);
+   box-shadow: inset 0 0 9px 0  rgb(113, 36, 255);
+   border-inline-color: rgb(113, 36, 255);
+   border-block-color: green;
+   writing-mode: horizontal-tb;
+}
+.articleSplit {
+    display: flex;
+}
+.article-head {
+    font-family: 'Nunito';
+    padding-left: 50px;
+    text-align: left;
+}
+.article-date {
+font-family: 'Nunito';
+font-size: large;
+}
+.articleTitle:hover {
+    text-shadow: 3px 7px 7px #000000
+}
+.articleAuthor:hover {
+    text-shadow: 3px 7px 7px #000000
+}
+
+.articleRead {
+    font-size: 30px;
+    background: rgb(50,185,152);
+    background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#ffffff",GradientType=1);    border-radius: 15px 15px 15px 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition:  .3s;
+    box-shadow: inset 0 0 3px 0 rgb(50,185,152);
+            border-block-color: green;
+        border-style: double;
+        border-block-style: groove;
+       border-block-width: thick;
+}
+.articleRead:hover {
+    transition: .75s ease-in-out;
+    font-family: 'Nunito';
+    box-shadow: 2px 2px 5px 1px rgb(0, 43, 4);
+    border-style: double;
+    color: rgb(0, 0, 0);
+    border-inline-color: slateblue;
+        border-style: double;
+        border-block-style: groove;
+       border-block-width: thick;
+       animation: colorAnimationEvent 6s  infinite;
+       background-size: 600% 600%;
+       box-shadow:inset 0px 0px 0px 300px rgba(0, 0, 0, 0.438);
+       background: transparent
+    }
+.articleRead:active {
+    transition: none;
+    color: rgb(27, 0, 199);
+    box-shadow: 4px 4px 7px 3px rgb(0, 43, 4);
+    background: rgba(0, 0, 0, 0.322);
+
+}
+.articleReadAfter {
+    transition: .5s ease-in-out; 
+    background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+    box-shadow: inset 0px 0px 0px 0px  rgba(0, 0, 0, 0.521);
+}
+.article-body-image-bigger {
+    max-width: 90%;
+        max-height: 90%;
+}
+.articleStyle:hover {
+    font-family: 'Nunito';
+    border-style: double;
+    border-block-color: rgb(255, 255, 255);
+    border-block-style: groove;
+   writing-mode: horizontal-tb;
+   border-block-width: thick;
+   border-inline-color: green;
+   border-block-color: rgb(113, 36, 255);
+   background: linear-gradient(45deg, #dd8af7, #dd8af7, #8aeef5, #fff2ba, #9ff8b2, #9ff8b2 );
+   animation: colorAnimationArticle 6s  infinite;
+   background-size: 600% 600%;
+   box-shadow: inset 360px 0px 10px 0px  rgba(0, 0, 0, 0.521);
+   transition: .5s ease-in-out;
+}
+.articleStyleAfter {
+    transition: .5s ease-in-out; 
+    background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+    box-shadow: inset 0px 0px 0px 0px  rgba(0, 0, 0, 0.521);
+}
+.article-body {
+    font-size: larger;
+    padding-left: 50px;
+    text-align: left;
+}
+.article-banner {
+    flex: 0 0 300px;
+    border-radius: 25%;
+    height: 300px;
+    width: 300px;
+    border-style: double;
+    border-block-end-color: rgb(0, 65, 50);
+    box-shadow: 3px 3px 6px 2px rgb(0, 43, 4);
+}
+.article-banner:hover {
+    transform: scale3d(1.02, 1.02, 1.02); 
+    transition: transform 0.3s ease
+}
+.article-banner:active {
+    transform: scale3d(1.03, 1.03, 1.03); 
+}
+.articleLink {
+    display: inline-flex;
+    color:  rgb(10, 180, 88);
+}
+.articleLink:hover {
+    color: slateblue;
+}
+.articleLink:active {
+    color: rgb(60, 42, 177);
+}
+#articleLink {
+    color:  rgb(10, 180, 88);
+}
+#articleLink:hover {
+    color: slateblue;
+}
+#articleLink:active {
+    color: rgb(60, 42, 177);
+}
+#articleAuthor {
+    float: right;
+}
+.past-article-text {
+    font-size: larger;
+    text-align: center;
+}
+.article-page-text {
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+}
+.article-body-image {
+    width: 75%;
+    height: auto;
+    border-width: 2px;
+    border-color: white;
+    border-style: outset;
+    box-shadow: 0 0 15px 0  rgb(167, 83, 247);
+}
+
+.article-body-image-bigger {
+    width: 50%;
+    height: auto;
+    border-width: 2px;
+    border-color: white;
+    border-style: outset;
+    box-shadow: 0 0 15px 0  rgb(167, 83, 247);
+
+}
+.article-player-side {
+    text-align: left;
+}
+img.article-potential-characters {
+    display: block;
+    float: right;
+    height: 250px;
+    width: auto;
+}
+.video-size-desktop
+{
+    width: 75%;
+    height: 635px;
+}
+.video-con {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; 
+    height: 0; 
+    overflow: hidden;
+}
+img.article-banner:hover {
+    cursor: pointer;
+}
+
+.video-con iframe,
+.video-con object,
+.video-con embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 99%;
+    height: 99%;
+}
+@media only screen and (max-width: 1000px) {
+    b.article-date {
+        font-size: 29px;
+    }
+    p.article-date {
+        font-size: 29px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .articleStyle {
+        align-items: center;
+        display: block;
+        border-radius: 25%;
+        border-style: double;
+        border-block-end-color: rgb(0, 65, 50);
+        box-shadow: 3px 3px 6px 2px rgb(0, 43, 4);
+        flex: 1;
+        width: 75%;
+        height: 75%;
+        max-width: 250px;
+        min-width: 200px;
+    } 
+    h1.article-head {
+        padding: unset;
+        text-align: center;
+    }
+    div.article-head {
+        padding: unset;
+        text-align: center;
+    }
+    div.article-page-text {
+        margin: unset;
+        margin: 5%;
+    }
+    li.articleStyle {
+        justify-content: center;
+    }
+    h1.article-head {
+        padding: unset;
+        text-align: center;
+    }
+    div.article-head {
+        padding: unset;
+        text-align: center;
+    }
+    img.article-banner {
+        display: inline-flex;
+        justify-content: left;
+        flex: 1;
+        height: auto;
+        width: 75%;
+        min-height: 150px;
+    }
+    p.article-body {
+        text-align: center;
+        padding: unset;
+    }
+    a.articleRead {
+        flex: 1;
+        width: 50%;
+        height: auto;
+        font-size: 20px;
+    }
+}
+
+@keyframes colorAnimationArticle {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
