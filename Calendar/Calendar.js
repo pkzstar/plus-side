@@ -941,7 +941,7 @@ function showCalendar(month, year) {
 
                     link.appendChild(image);
                     cell.appendChild(link);
-                                    //SUPER CLOUDY SCUFFLE & Black Market
+                                    //SUPER CLOUDY SCUFFLE & Black Market & mineral melee
             } else if(month === 5 &&  date === 22 && year === 2024) {
 
                 const events = [
@@ -953,6 +953,10 @@ function showCalendar(month, year) {
                     {
                         link: "https://www.start.gg/tournament/the-black-market/details",
                         imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/blackmarket.png?raw=true"
+                    },
+                    {
+                        link: "https://www.start.gg/tournament/mineral-melee-a-best-in-texas-league-event/details",
+                        imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F674411%2Fimage-a6eb8cdb1ecb9ff623700df120a6d0da-optimized.png&ehk=vC2efFJcqrX9OoFYOhe%2FewrublZOliZQgSSMSmH%2B33U%3D&w=280&h=280&r=0"
                     }
                 ];
                 let currentIndex = 0; // Initialize current index

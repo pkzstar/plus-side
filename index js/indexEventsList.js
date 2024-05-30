@@ -144,6 +144,15 @@ const eventsData = [
         rankImg: false
       },
       {
+        name: "Mineral Melee",
+        date: "6/22/24",
+        location: "Austin, TX, USA",
+        description: "This event features three different tiers of brackets after pools, so each tier of player will have a chance to compete against other players around their skill level. That means there's a trophy for the winner of each bracket!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F674411%2Fimage-a6eb8cdb1ecb9ff623700df120a6d0da-optimized.png&ehk=vC2efFJcqrX9OoFYOhe%2FewrublZOliZQgSSMSmH%2B33U%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/mineral-melee-a-best-in-texas-league-event/details",
+        rankImg: false
+      },
+      {
         name: "Phantom 2024",
         date: "7/06/24 - 7/07/24",
         location: "Coburg, VIC, Australia",
