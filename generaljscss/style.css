@@ -91,6 +91,8 @@ img.pm-rank:hover {
 
 
 
+
+
 /* calendar & past events buttons */
 
 
@@ -203,7 +205,7 @@ img.pm-rank:hover {
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
-       margin: 0 50px 0 50px;
+       margin: 0 -20px 0 75px;
        cursor: pointer;
 }
 .calViewList {
