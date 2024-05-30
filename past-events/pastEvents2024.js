@@ -185,7 +185,7 @@ const eventData = [
   first: "~CP9~",
   second: "Captain Birdman",
   third: "Ntire",
-  vodsUrl: "",
+  vodsUrl: "https://www.youtube.com/playlist?list=PLjsXbJ48MWJV8OlZj5OTtlUJef-dvl48H",
   hideRankImage: true
 },
 {
@@ -211,7 +211,7 @@ const eventData = [
   first: "SipMastah",
   second: "Sneez",
   third: "Shiny Zubat",
-  vodsUrl: "",
+  vodsUrl: "https://www.youtube.com/playlist?list=PLOXE2HcT1t5fHPDuxZdlpsNXx6bVmQ1e4",
   hideRankImage: false
 },
 {
