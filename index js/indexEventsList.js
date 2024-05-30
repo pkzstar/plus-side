@@ -75,8 +75,38 @@ eventName.appendChild(location);
   startGgLink.classList.add('start-gg-home');
   startGgLink.href = eventData.link;
   startGgLink.target = '_blank';
-  startGgLink.textContent = 'start.gg';
+  startGgLink.textContent = 'Start.gg';
   eventDetailsDiv.appendChild(startGgLink);
+
+    // Create the streams link
+    const streamLink = document.createElement('a');
+    streamLink.classList.add('stream');
+    streamLink.classList.add('start-gg-home');
+    if (eventData.stream) {
+      streamLink.href = eventData.stream;
+      streamLink.target = '_blank';
+      eventDetailsDiv.appendChild(streamLink);
+      streamLink.textContent = 'Stream';
+  
+    } else {
+      // If eventData.stream is empty, do something else or just skip appending streamLink
+    }
+
+
+  // Create the trailer link
+  const trailerLink = document.createElement('a');
+  trailerLink.classList.add('trailer');
+  trailerLink.classList.add('start-gg-home');
+  if (eventData.trailer) {
+    trailerLink.href = eventData.trailer;
+    trailerLink.target = '_blank';
+    eventDetailsDiv.appendChild(trailerLink);
+    trailerLink.textContent = 'Trailer';
+
+  } else {
+    // If eventData.trailer is empty, do something else or just skip appending trailerLink
+  }
+
 
   // Append the event details div to the main li element
   eventLi.appendChild(eventDetailsDiv);
@@ -96,7 +126,9 @@ const eventsData = [
         description: "Smash Camp returns to New Lands! Join us again in the Pacific Northwest this Spring 2024. 📅 Friday May 31 5PM - Monday June 3 9AM PT All main brackets take place on Saturday June 1 and Sunday June 2",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/smashcamp.png?raw=true",
         link: "https://www.start.gg/tournament/smash-camp-new-lands-2024/details",
-        rankImg: true
+        rankImg: true,
+        trailer: "https://www.youtube.com/watch?v=VhDWVcVyX90",
+        stream: ""
       },
       {
         name: "Invincible VIII",
@@ -105,7 +137,9 @@ const eventsData = [
         description: "10,000+ Square Feet Heart of downtown Madison, in walking distance of great restaurants & entertainment. Attached hotel, additional hotels close by Flying in Dane County Regional Airport (MSN) is located 20 minutes away from Union South.",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/invincible8.png?raw=true",
         link: "https://www.start.gg/tournament/invincible-viii/details",
-        rankImg: true
+        rankImg: true,
+        trailer: "https://www.youtube.com/watch?v=AvtB-nDAju8",
+        stream: "https://www.twitch.tv/ugsgaming"
       },
       {
         name: "Ripped Off",
@@ -114,7 +148,8 @@ const eventsData = [
         description: "Ripped Off is here as the P+ shadow major for Tipped Off 15! Taking place across the campus in the KSU engineering and technology center on Friday June 14th, Ripped Off brings a new home to all the P+ players of the South East.",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/ripped.png?raw=true",
         link: "https://www.start.gg/tournament/ripped-off-1/details",
-        rankImg: true
+        rankImg: true,
+        trailer: ""
       },
       {
         name: "Untitled Stoke Tournament",
@@ -123,7 +158,8 @@ const eventsData = [
         description: "A New Melee Regional In Stoke-On-Trent! Brought To You By The Choke On Trent Team",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F661701%2Fimage-fd4e28a68d3eef0eda541bef36e01a0f-optimized.png&ehk=1k8V3O4JFqIok2XJzcUdVsy4uG1NQMISoCxy%2Fg%2BnAxA%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/untitled-stoke-tournament/details",
-        rankImg: false
+        rankImg: false,
+        trailer: ""
       },
       {
         name: "The Black Market",
@@ -132,7 +168,8 @@ const eventsData = [
         description: "A celebration of Smash Bros. fan games!Featuring HDR Singles, HDR Doubles and P+ Singles as paid events, along with plenty of free side events such as HDR Amateur brackets, Smash Remix, Rivals of Aether and Sonic Adventure 2!",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/blackmarket.png?raw=true",
         link: "https://www.start.gg/tournament/the-black-market/details",
-        rankImg: false
+        rankImg: false,
+        trailer: "https://www.youtube.com/watch?v=l8kSbqR6urc"
       },
       {
         name: "SUPER CLOUDY SCUFFLE",
@@ -141,7 +178,8 @@ const eventsData = [
         description: "Karamel is proud to present: SUPER CLOUDY SCUFFLE! A Durham Regional 🐈 In collaboration with No Style Esports, ft. Ultimate, Melee, Rivals of Aether 2, Project+ and HDR This tournament is dedicated to Karamel's late cat, Cloudy.",
         imageUrl: "https://github.com/pkzstar/HDReport/blob/main/images/upcoming%20events/super%20cloudy%20scuffle.png?raw=true",
         link: "https://www.start.gg/tournament/super-cloudy-scuffle-a-durham-regional/details",
-        rankImg: false
+        rankImg: false,
+        trailer: ""
       },
       {
         name: "Mineral Melee",
@@ -150,7 +188,8 @@ const eventsData = [
         description: "This event features three different tiers of brackets after pools, so each tier of player will have a chance to compete against other players around their skill level. That means there's a trophy for the winner of each bracket!",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F674411%2Fimage-a6eb8cdb1ecb9ff623700df120a6d0da-optimized.png&ehk=vC2efFJcqrX9OoFYOhe%2FewrublZOliZQgSSMSmH%2B33U%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/mineral-melee-a-best-in-texas-league-event/details",
-        rankImg: false
+        rankImg: false,
+        trailer: ""
       },
       {
         name: "Phantom 2024",
@@ -159,7 +198,8 @@ const eventsData = [
         description: "Phantom returns after a year away, and this time in Melbourne.",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/phantom.png?raw=true",
         link: "https://www.start.gg/tournament/phantom-2024/details",
-        rankImg: false
+        rankImg: false,
+        trailer: ""
       },
       {
         name: "Terminal Velocity",
@@ -168,7 +208,9 @@ const eventsData = [
         description: "📍Terminal Velocity takes place Sunday, July 14, at Balance Patch on Commonwealth Avenue in Boston.",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/terminal.png?raw=true",
         link: "https://www.start.gg/tournament/terminal-velocity/details",
-        rankImg: false
+        rankImg: false,
+        trailer: "",
+        stream: "https://www.twitch.tv/projectmnexus"
       },
       {
         name: "Warehouse War 4",
@@ -177,7 +219,8 @@ const eventsData = [
         description: "$10,000 in Pot Bonuses Premier Top Talent Huge venue complex with indoor and outdoor skate park as well as a full service coffee bar Venue located in the heart of Nashville within walking distance of the historic and famous Broadway Street Fun Friday side events and Saturday main events",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/ww4.png?raw=true",
         link: "https://www.start.gg/tournament/warehouse-war-4/details",
-        rankImg: true
+        rankImg: true,
+        trailer: "https://www.youtube.com/watch?v=gMGJVzZlSqg"
       },
       {
         name: "Carnival Clash 2",
@@ -186,7 +229,8 @@ const eventsData = [
         description: "We're So Back! 🎡 August 3rd, 2024 Oregon's Ride-Filled Summer Regional Returns for another lap on the roller coaster! Why Oaks Amusement Park? Smash & Ride! Rides and attractions will be OPEN.",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/carnivalclash2.png?raw=true",
         link: "https://www.start.gg/tournament/carnival-clash-2/details",
-        rankImg: false
+        rankImg: false,
+        trailer: ""
       },
       {
         name: "Undertow 2024",
@@ -195,7 +239,8 @@ const eventsData = [
         description: "Thanks to the dedication of the Midwest Project+ and HDR communities, we're proud to continue the water park shadow major tradition in 2024!",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/undertow2024.png?raw=true",
         link: "https://www.start.gg/tournament/undertow-2024/details",
-        rankImg: false
+        rankImg: false,
+        trailer: "https://drive.google.com/file/d/1vimHNr_rDTmjhH1vFLUpQZjQPFIsG7xR/view"
       },
       {
         name: "Big Cheese 5",
@@ -204,16 +249,19 @@ const eventsData = [
         description: "The South Australian Smash & Fighting Game Community are proud to announce the return of Adelaide's local competitive gaming community Major - The Big Cheese ",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/bigcheese5.png?raw=true",
         link: "https://www.start.gg/tournament/big-cheese-5-south-australia-smash-fgc-major/details",
-        rankImg: false
+        rankImg: false,
+        trailer: ""
       },
       {
         name: "Five Nights at Fingy's 2",
         date: "10/12/24 - 10/13/24",
         location: "Mesa, AZ, USA",
-        description: "Trailer: https://youtu.be/mEsQ1_rF7gM AZPM is back! Five Nights at Fingy's 2 is a FNAF themed Project+ Tournament in Mesa, Arizona",
+        description: "AZPM is back! Five Nights at Fingy's 2 is a FNAF themed Project+ Tournament in Mesa, Arizona",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/fnaf2.png?raw=true",
         link: "https://www.start.gg/tournament/five-nights-at-fingy-s-2/details",
-        rankImg: false
+        rankImg: false, 
+        trailer: "https://www.youtube.com/watch?v=mEsQ1_rF7gM&feature=youtu.be",
+        stream: "https://www.twitch.tv/AZPM"
       }
     ];
 
