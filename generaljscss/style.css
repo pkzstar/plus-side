@@ -189,13 +189,12 @@ img.pm-rank:hover {
     display: flex;
 }
 .calView {
-    margin: 0 50px 0 50px;
     font-size: 30px;
-background: rgb(50,185,152);
-background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
-background: -webkit-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
-background: linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
-filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#ffffff",GradientType=1);    border-radius: 15px 15px 15px 15px;
+    background: rgb(50,185,152);
+    background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#ffffff",GradientType=1);    border-radius: 15px 15px 15px 15px;
     padding-left: 18px;
     padding-right: 18px;
     box-shadow: 0 0 3px 0 rgb(0, 196, 16);
@@ -204,6 +203,8 @@ filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endCo
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
+       margin: 0 50px 0 50px;
+       cursor: pointer;
 }
 .calViewList {
     font-size: 30px;
@@ -244,8 +245,8 @@ button.calViewList {
 }
 .calView:hover
     {
-    color: rgb(60, 42, 177);
-    box-shadow: 2px 2px 5px 1px rgb(0, 43, 4);
+        color: rgb(167, 83, 247);
+        box-shadow: 2px 2px 5px 1px rgb(0, 43, 4);
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
@@ -253,10 +254,18 @@ button.calViewList {
        border-inline-color: rgb(113, 36, 255);
        border-block-color: green;       
 }
+.calView:active {
+    color: rgb(27, 0, 199);
+}
 .calViewList:hover {
+    color: rgb(167, 83, 247);
+    cursor: pointer;
     box-shadow: 0 0 20px 0  rgb(167, 83, 247);
     border-inline-color: rgb(113, 36, 255);
     border-block-color: green;
+}
+.calViewList:active {
+    color: rgb(27, 0, 199);
 }
 .listView {
     margin-bottom: 6%;

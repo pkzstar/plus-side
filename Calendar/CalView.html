@@ -19,6 +19,12 @@
     <link rel="stylesheet" href="../generaljscss\style.css">
 
     <style>
+button:active,
+button:focus {
+    outline: none;
+}
+
+
             @media only screen and (max-width:600px) {
         .pm-rank {
           position: relative;
@@ -57,7 +63,7 @@
     </div>
 
 <div class="calViewListContainer">
-  <button class="calViewList"><a href="/">List</a></button>
+  <a href="/"><button class="calViewList">List</button></a>
   <div onclick="toggleDropdown(event)" style="display: inline-flex;" class="past-events-drop calView">
     <!-- Dropdown Button -->
     <button id="past-events-drop-btn" class="past-events-drop-btn">
