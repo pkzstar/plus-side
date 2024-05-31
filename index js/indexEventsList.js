@@ -162,6 +162,17 @@ const eventsData = [
         trailer: ""
       },
       {
+        name: "Game 5: Canadian Invasion",
+        date: "6/22/24",
+        location: "Detroit, MI, USA",
+        description: "We welcome all valiant competitors to our local P+ scene's return-to-form! Featuring a professional stream, custom tournament badges, your favorite players, and much, much more, this will be an event you won't want to miss!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F675196%2Fimage-54ebffee07de2dd4d200af40c8df6987-optimized.jpg&ehk=6cxSKy3MqOJK%2FFkbqEGwYZdcBnEglYc1xpdIKB0zOBs%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/game-5-in-the-d-4-the-canadian-invasion/details",
+        rankImg: false,
+        trailer: "",
+        stream: "https://www.youtube.com/@Game5ProjectPlus"
+      },
+      {
         name: "The Black Market",
         date: "6/22/24",
         location: "Calgary, AB, Canada",

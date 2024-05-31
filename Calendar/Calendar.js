@@ -1037,7 +1037,22 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-
+                //Game 5 in the D #4
+     } else if(month === 6 && date === 20 && year === 2024) {
+                    // Example link with image
+                    let link = document.createElement("a");
+                    link.href = "https://www.start.gg/tournament/game-5-in-the-d-4-the-canadian-invasion/details";
+                    link.target = "_blank";
+    
+                    let image = document.createElement("img");
+                    image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F675196%2Fimage-54ebffee07de2dd4d200af40c8df6987-optimized.jpg&ehk=6cxSKy3MqOJK%2FFkbqEGwYZdcBnEglYc1xpdIKB0zOBs%3D&w=280&h=280&r=0";
+    
+                    image.classList.add("calendarImg");
+    
+    
+                    link.appendChild(image);
+                    cell.appendChild(link);
+    
                     //warehouse war
                 } else if (month === 6 && (date === 26 || date === 27) && year === 2024) {
 
