@@ -235,7 +235,7 @@ const eventsData = [
       },
       {
         name: "Carnival Clash 2",
-        date: "7/26/24 - 7/27/24",
+        date: "8/3/24",
         location: "Portland, OR, USA",
         description: "We're So Back! 🎡 August 3rd, 2024 Oregon's Ride-Filled Summer Regional Returns for another lap on the roller coaster! Why Oaks Amusement Park? Smash & Ride! Rides and attractions will be OPEN.",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/carnivalclash2.png?raw=true",
