@@ -133,7 +133,7 @@ const eventData = [
     first: "Dirtboy",
     second: "Pikmon",
     third: "Partyghoul",
-    vodsUrl: "",
+    vodsUrl: "https://www.twitch.tv/level1_tv",
     hideRankImage: false
   },
   {
