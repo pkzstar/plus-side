@@ -119,28 +119,7 @@ const eventsData = [
 
     
 
-      {
-        name: "Smash Camp: New Lands",
-        date: "5/31/24 - 6/2/24",
-        location: "Gresham, OR, USA",
-        description: "Smash Camp returns to New Lands! Join us again in the Pacific Northwest this Spring 2024. 📅 Friday May 31 5PM - Monday June 3 9AM PT All main brackets take place on Saturday June 1 and Sunday June 2",
-        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/smashcamp.png?raw=true",
-        link: "https://www.start.gg/tournament/smash-camp-new-lands-2024/details",
-        rankImg: true,
-        trailer: "https://www.youtube.com/watch?v=VhDWVcVyX90",
-        stream: ""
-      },
-      {
-        name: "Invincible VIII",
-        date: "6/1/24 - 6/2/24",
-        location: "Madison, WI, USA",
-        description: "10,000+ Square Feet Heart of downtown Madison, in walking distance of great restaurants & entertainment. Attached hotel, additional hotels close by Flying in Dane County Regional Airport (MSN) is located 20 minutes away from Union South.",
-        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/invincible8.png?raw=true",
-        link: "https://www.start.gg/tournament/invincible-viii/details",
-        rankImg: true,
-        trailer: "https://www.youtube.com/watch?v=AvtB-nDAju8",
-        stream: "https://www.twitch.tv/ugsgaming"
-      },
+
       {
         name: "Ripped Off",
         date: "6/14/24",

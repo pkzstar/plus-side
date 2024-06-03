@@ -64,23 +64,53 @@ img.pm-rank-centered:hover {
     transition: 1s;
 }
 .vodsPast {
-    font-size: 30px;
+    font-size: 25px;
     background: rgb(50,185,152);
     background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
     background: -webkit-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
     background: linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#ffffff",GradientType=1);    border-radius: 15px 15px 15px 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    box-shadow: 0 0 3px 0 rgb(0, 196, 16);
-        transition: .3s;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#ffffff",GradientType=1);
+    border-radius: 15px 15px 15px 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition:  .3s;
+    box-shadow: inset 0 0 3px 0 rgb(50,185,152);
+        border-inline-color: rgb(113, 36, 255);
+        border-block-color: green;
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
-   border-inline-color: rgb(113, 36, 255);
-   border-block-color: green;
-       margin: 0px 0 10px 0;
-       box-shadow: inset 0 0 3px 0 rgb(50,185,152);
+       margin: 0px 15px 5px 15px;
+}
+@media only screen and (max-width: 600px) {
+    a.vodsPast {
+        flex: 1;
+        width: 50%;
+        font-size: 20px;
+        display: inline-block;
+        margin: 5px 0 5px 0;
+    }
+}
+.vodsPast:hover {
+    transition: .75s ease-in-out;
+    color: rgb(0, 0, 0);
+        border-style: double;
+        border-block-style: groove;
+       border-block-width: thick;
+       box-shadow:inset 0px 0px 0px 300px rgba(0, 0, 0, 0.438);
+       background: transparent
+}
+.vodsPast:active {
+    transition: none;
+    box-shadow: 4px 4px 7px 3px rgb(0, 43, 4);
+    color: rgb(27, 0, 199);
+    background: rgba(0, 0, 0, 0.322);
+
+}
+.vodsPastAfter {
+    transition: .5s ease-in-out; 
+    background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
+    box-shadow: inset 0px 0px 0px 0px  rgba(0, 0, 0, 0.521);
 }
 .top3 {
     font-size: large;
@@ -92,30 +122,6 @@ img.events-banners-trans {
     cursor: unset;
     transform: rotate3d(0, 10, 0, 360deg);
 }
-.vodsPast:hover {
-    transition: .75s ease-in-out;
-        border-style: double;
-        border-block-style: groove;
-       border-block-width: thick;
-       color: rgb(0, 0, 0);
-       background: rgba(0, 0, 0, 0.322);
-       transition: .75s ease-in-out;
-       box-shadow:inset 0px 0px 0px 300px rgba(0, 0, 0, 0.438);
-          background: transparent
-}
-.vodsPast:active {
-    transition: none;
-    color: rgb(27, 0, 199);
-    box-shadow: 4px 4px 7px 3px rgb(0, 43, 4);
-    background: rgba(0, 0, 0, 0.322);
-}
-.vodsPastAfter {
-    transition: .5s ease-in-out; /* Transition added only for hover state */
-    background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
-    box-shadow: inset 0px 0px 0px 0px  rgba(0, 0, 0, 0.521);
-}
-
-
 @media only screen and (max-width: 600px) {
     li.past-events {
         border-radius: 25%;
@@ -144,12 +150,6 @@ img.events-banners-trans {
     ul.pastList {
         justify-content: center;
         margin: unset;
-    }
-    a.vodsPast {
-        margin: 0px 0 10px 0;
-        flex: 1;
-        width: 50;
-        font-size: 20px;
     }
     p.top3 {
         margin: 10px 0 10px 0;

@@ -111,6 +111,32 @@ function createPastEventElement(eventData) {
 const eventData = [
 
   {
+    eventTitle: "Invincible VIII",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F628549%2Fimage-b9b41a8a31d09900d2b140c591720d36-optimized.png&ehk=lCA84Qw9j67HhjlW8rDhiJXc2%2FC1ByJPk51BjbOrvi8%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/tripoint-smash-presents-super-tps-iii/event/project-singles",
+    date: "June 1-2 2024",
+    location: "Wisconsin",
+    entrants: 46,
+    first: "Chaloopy",
+    second: "Veka",
+    third: "ORLY",
+    vodsUrl: "https://youtu.be/Uit2vJ7LXDU",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "Smash Camp: New Lands",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F610441%2Fimage-19ea60088cabdbbf7b59e5246a8b4d3b-optimized.png&ehk=bouxfCgSG1JM%2F3sYvFxB%2BikGULDOP1%2Fvha2JwqNuSdo%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/tripoint-smash-presents-super-tps-iii/event/project-singles",
+    date: "May 31 - June 2 2024",
+    location: "Oregon",
+    entrants: 62,
+    first: "Dirtboy",
+    second: "Pikmon",
+    third: "Partyghoul",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
     eventTitle: "Super TPS III",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F645334%2Fimage-4060881a6adb2f03c420d83e3cca0111-optimized.png&ehk=Rvf7eAJXx4e6TZdpG%2FbUoAleCnIZVzi54lyGPwfStNY%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/tripoint-smash-presents-super-tps-iii/event/project-singles",
