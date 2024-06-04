@@ -121,6 +121,7 @@ const eventData = [
     first: 'Techboy',
     second: 'SipMastah',
     third: 'Rongunshu',
+    vodsUrl: "",
     hideRankImage: false
   },
   {
@@ -133,6 +134,7 @@ const eventData = [
     first: 'Smash_Falco3',
     second: 'Professor Pro',
     third: 'NyxTheShield',
+    vodsUrl: "https://www.youtube.com/watch?v=MvJE_QX4Chg",
     hideRankImage: true
   },
   {
@@ -145,6 +147,7 @@ const eventData = [
     first: 'SipMastah',
     second: 'Pikmon',
     third: 'WouldSmokeCraq',
+    vodsUrl: "https://www.youtube.com/playlist?list=PLxUXtlCftvoMersyYq6WiLqLzlBFVc5ya",
     hideRankImage: false
   },
   {
@@ -157,6 +160,7 @@ const eventData = [
     first: 'Rongunshu',
     second: 'Zaza',
     third: 'Erg',
+    vodsUrl: "",
     hideRankImage: true
   },
   {
@@ -169,6 +173,7 @@ const eventData = [
     first: 'Chaloopy',
     second: 'Orly',
     third: 'Mekk',
+    vodsUrl: "https://www.youtube.com/playlist?list=PLJIkd-7ajnoUsq5ysWR04qW40i-ZsU17J",
     hideRankImage: false
   },
   {
@@ -181,6 +186,7 @@ const eventData = [
     first: 'Stango',
     second: 'Boiko',
     third: 'Shiny Zubat',
+    vodsUrl: "https://youtu.be/P4p2DtKIyqs",
     hideRankImage: false
   },
   {
@@ -194,6 +200,7 @@ const eventData = [
     first: 'Sabre',
     second: 'PartyGhoul',
     third: 'Nerfy',
+    vodsUrl: "",
     hideRankImage: false
   },
   {
@@ -206,6 +213,7 @@ const eventData = [
     first: 'Comb',
     second: 'Chaloopy',
     third: 'Metroid',
+    vodsUrl: "https://www.youtube.com/playlist?list=PLJIkd-7ajnoUgbiqoFbqyhoIrhAvT92DM",
     hideRankImage: false
   },
   {
@@ -219,6 +227,7 @@ const eventData = [
     first: 'Malachi',
     second: 'Phresh',
     third: 'dvd',
+    vodsUrl: "",
     hideRankImage: false
   },
   {
@@ -232,6 +241,7 @@ const eventData = [
     first: 'Morsecode762',
     second: 'Techboy',
     third: 'Ellipsis',
+    vodsUrl: "",
     hideRankImage: false
   },
   {
@@ -245,6 +255,7 @@ const eventData = [
     first: 'Sneez',
     second: 'Trai',
     third: 'AZ_r0cky',
+    vodsUrl: "https://www.youtube.com/playlist?list=PLXuSSlxxWDDoQWFC8Z0FBbmWSz5_6Iity",
     hideRankImage: false
   },
   {
@@ -258,6 +269,7 @@ const eventData = [
     first: 'Orly',
     second: 'Chaloopy',
     third: 'Kendrick',
+    vodsUrl: "",
     hideRankImage: false
   },
   {
@@ -271,6 +283,7 @@ const eventData = [
     first: 'Techboy',
     second: 'Jagz$',
     third: 'Ellipsis',
+    vodsUrl: "",
     hideRankImage: false
   },
   {
@@ -284,6 +297,7 @@ const eventData = [
     first: 'Chaloopy',
     second: 'Metroid',
     third: 'Kendrick',
+    vodsUrl: "",
     hideRankImage: true // Assuming "pm-rank-centered-invis" class means hiding the rank image
   },
   {
@@ -297,6 +311,7 @@ const eventData = [
     first: 'Shadowhawke',
     second: 'Aklo',
     third: 'Grealy',
+    vodsUrl: "",
     hideRankImage: false
   },
   {
@@ -310,6 +325,7 @@ const eventData = [
     first: 'Blue',
     second: 'CP9',
     third: 'Studebacher Hoch',
+    vodsUrl: "",
     hideRankImage: false
   },
   {
@@ -323,6 +339,7 @@ const eventData = [
     first: 'Dirtboy',
     second: 'Chaloopy',
     third: 'Comb',
+    vodsUrl: "",
     hideRankImage: false
   },
   {
@@ -336,6 +353,7 @@ const eventData = [
     first: 'Techboy',
     second: 'Lunchables',
     third: 'Comb',
+    vodsUrl: "",
     hideRankImage: false
   },
   {
@@ -349,6 +367,7 @@ const eventData = [
     first: 'Dingo',
     second: 'Xtreme',
     third: 'Magi',
+    vodsUrl: "",
     hideRankImage: true // Assuming "pm-rank-centered-invis" class means hiding the rank image
   },
   {
@@ -362,6 +381,7 @@ const eventData = [
     first: 'Lunchables',
     second: 'Techboy',
     third: 'SipMastah',
+    vodsUrl: "",
     hideRankImage: false
   },
   {
@@ -375,6 +395,7 @@ const eventData = [
     first: 'Ryzuul',
     second: 'Motobug',
     third: 'Tyler',
+    vodsUrl: "",
     hideRankImage: true // Assuming "pm-rank-centered-invis" class means hiding the rank image
   },
   {
@@ -387,6 +408,7 @@ const eventData = [
     first: 'Aklo',
     second: 'Smash_Falco3',
     third: 'Foxy Grandpa',
+    vodsUrl: "https://www.youtube.com/playlist?list=PLXuSSlxxWDDrN1qq_yPa8e-mLTrMI_DVu",
     hideRankImage: true
   },
   {
@@ -400,6 +422,7 @@ const eventData = [
     first: 'Lunchables',
     second: 'Sothe',
     third: 'Chaloopy',
+    vodsUrl: "",
     hideRankImage: false
   },
   {
@@ -412,6 +435,7 @@ const eventData = [
     first: 'Dirtboy',
     second: 'Melody',
     third: 'Lafungo',
+    vodsUrl: "",
     hideRankImage: true
   },
   {
@@ -425,6 +449,7 @@ const eventData = [
     first: 'Cloudburst',
     second: 'Pikmon',
     third: 'PwrUp!',
+    vodsUrl: "",
     hideRankImage: false
   },
   {
@@ -438,6 +463,7 @@ const eventData = [
     first: 'Malachi',
     second: 'Shiny Zubat',
     third: 'AssTAStic',
+    vodsUrl: "",
     hideRankImage: false
   },
   {
@@ -450,6 +476,7 @@ const eventData = [
     first: 'Aklo',
     second: 'Dirtboy',
     third: 'Dank',
+    vodsUrl: "",
     hideRankImage: false
   },
   {
@@ -463,6 +490,7 @@ const eventData = [
     first: 'Boat',
     second: 'Olivia',
     third: 'Gunther',
+    vodsUrl: "",
     hideRankImage: true
   },
   {
@@ -475,6 +503,7 @@ const eventData = [
     first: 'Lunchables',
     second: 'Metroid',
     third: 'Chaloopy',
+    vodsUrl: "https://www.youtube.com/playlist?list=PLov8ro2MZrJJ6oXOmudzAHOU7cXVihjQP",
     hideRankImage: false
   },
   {
@@ -487,6 +516,7 @@ const eventData = [
     first: 'Stango',
     second: 'Switch',
     third: 'Phresh',
+    vodsUrl: "",
     hideRankImage: false
   },
   {
@@ -499,6 +529,7 @@ const eventData = [
     first: 'Cloudburst',
     second: 'Studebacher Hoch',
     third: 'ilovebagelz',
+    vodsUrl: "https://www.youtube.com/playlist?list=PLUlQZqWo6xoSLozGW7EppWBN90M-Xhccx",
     hideRankImage: false
   },
   {
@@ -511,6 +542,7 @@ const eventData = [
     first: 'dvd',
     second: 'The Doctor',
     third: 'Rongunshu',
+    vodsUrl: "https://www.youtube.com/playlist?list=PLK6QY5XQ-uu05lpl6G9vgbRMeE_V4aTuc",
     hideRankImage: false
   },
   {
@@ -523,6 +555,7 @@ const eventData = [
     first: 'Dirtboy',
     second: 'Metroid',
     third: 'Chaloopy',
+    vodsUrl: "https://www.youtube.com/playlist?list=PLXuSSlxxWDDrkVop6Fm1qpTY_yWuCaRPv",
     hideRankImage: false
   },
   {
@@ -535,6 +568,7 @@ const eventData = [
     first: 'Jonny Sosa',
     second: 'dvd',
     third: 'Lunchables',
+    vodsUrl: "https://www.youtube.com/playlist?list=PLov8ro2MZrJIVTTitzT4WkqMWOZRq5_ex",
     hideRankImage: false
   },
   {
@@ -547,6 +581,7 @@ const eventData = [
     first: 'Rongunshu',
     second: 'The Doctor',
     third: 'SipMastah',
+    vodsUrl: "https://www.youtube.com/playlist?list=PLbAu2AXgjXnvTYm2pw0AsFyU5UjFr-Xl3",
     hideRankImage: false
   },
   {
@@ -559,11 +594,12 @@ const eventData = [
     first: 'dvd',
     second: 'Kycse',
     third: 'Envy',
+    vodsUrl: "https://www.youtube.com/watch?v=vUjFboj_ZtA",
     hideRankImage: false
   },
     {
       eventTitle: 'Lake George Snowdown',
-      eventUrl: 'https://www.start.gg/tournament/the-action/event/project-singles',
+      eventUrl: 'https://www.start.gg/tournament/lake-george-snowdown/event/project-singles',
       imageUrl: 'https://github.com/pkzstar/plus-side/blob/main/images/past-events/lgs.png?raw=true',
       date: 'February 5 2023',
       location: 'New York',
@@ -571,6 +607,7 @@ const eventData = [
       first: 'Phresh',
       second: 'dvd',
       third: 'Kycse',
+      vodsUrl: "https://www.youtube.com/watch?v=kOvVEfaEQJ4",
       hideRankImage: false
     },
     {
@@ -583,6 +620,7 @@ const eventData = [
       first: 'dvd',
       second: 'Lunchables',
       third: 'Orly',
+      vodsUrl: "https://www.youtube.com/playlist?list=PLXuSSlxxWDDqVX7LavVFmNMzHgCou5N9C",
       hideRankImage: false
     },
     {
@@ -595,6 +633,7 @@ const eventData = [
       first: 'The Doctor',
       second: 'Stango',
       third: 'SipMastah',
+      vodsUrl: "https://www.youtube.com/playlist?list=PLK6QY5XQ-uu2YyZL5eHJ_LbRKtuAy0QJE",
       hideRankImage: false
     },
     {
@@ -607,6 +646,7 @@ const eventData = [
       first: 'Ryzuul',
       second: 'Joshman',
       third: 'Tyler',
+      vodsUrl: "https://www.youtube.com/playlist?list=PL0aGqojhLGj3FN7s4suiCZQMH6-pZsE45",
       hideRankImage: true
     },
 ];
