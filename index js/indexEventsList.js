@@ -151,6 +151,16 @@ const eventsData = [
         trailer: ""
       },
       {
+        name: "Natufest 5 - Reawakening",
+        date: "6/22/24",
+        location: "Grand Rapids, MI, USA",
+        description: "Natufest returns to bring you a free, open venue right in the heart of downtown Grand Rapids. Get your games in and check out the many local restaurants within a short walking distance.",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F660623%2Fimage-bdb14521bb3d3ce57c4ffdd5793b3981-optimized.jpg&ehk=X19abGlB6SwZaY%2B9dMO0URVJQT3kafAP69Bni%2BfUM7s%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/natufest-5-the-reawakening-no-venue-fee-melee-singles-p/details",
+        rankImg: false,
+        trailer: ""
+      },
+      {
         name: "The Black Market",
         date: "6/22/24",
         location: "Calgary, AB, Canada",

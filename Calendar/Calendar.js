@@ -957,7 +957,7 @@ function showCalendar(month, year) {
 
                     link.appendChild(image);
                     cell.appendChild(link);
-                                    //SUPER CLOUDY SCUFFLE & Black Market & mineral melee
+                                    //SUPER CLOUDY SCUFFLE & Black Market & mineral melee & natufest
             } else if(month === 5 &&  date === 22 && year === 2024) {
 
                 const events = [
@@ -973,6 +973,10 @@ function showCalendar(month, year) {
                     {
                         link: "https://www.start.gg/tournament/mineral-melee-a-best-in-texas-league-event/details",
                         imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F674411%2Fimage-a6eb8cdb1ecb9ff623700df120a6d0da-optimized.png&ehk=vC2efFJcqrX9OoFYOhe%2FewrublZOliZQgSSMSmH%2B33U%3D&w=280&h=280&r=0"
+                    },
+                    {
+                        link: "https://www.start.gg/tournament/natufest-5-the-reawakening-no-venue-fee-melee-singles-p/details",
+                        imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F660623%2Fimage-bdb14521bb3d3ce57c4ffdd5793b3981-optimized.jpg&ehk=X19abGlB6SwZaY%2B9dMO0URVJQT3kafAP69Bni%2BfUM7s%3D&w=280&h=280&r=0"
                     }
                 ];
                 let currentIndex = 0; // Initialize current index
