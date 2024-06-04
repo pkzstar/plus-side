@@ -121,6 +121,16 @@ const eventsData = [
 
 
       {
+        name: "Mass Madness 47",
+        date: "6/8/24",
+        location: "Waltham, MA, USA",
+        description: "The premier Melee monthly in Massachusetts returns, now with Project+! Masks are recommended to be worn while in the venue.",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F668782%2Fimage-f46841adb07e246ca977f2ebb36cdf7d-optimized.png&ehk=ktORfrKbxTMuLt%2FfCTZ5o32wj%2FgWtpvPfByFbDBAQOA%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/mass-madness-47-a-new-england-melee-and-project-event/details",
+        rankImg: false,
+        trailer: ""
+      },
+      {
         name: "Ripped Off",
         date: "6/14/24",
         location: "Marietta, GA, USA",
@@ -221,6 +231,16 @@ const eventsData = [
         link: "https://www.start.gg/tournament/carnival-clash-2/details",
         rankImg: false,
         trailer: ""
+      },
+      {
+        name: "Garden Brawl",
+        date: "8/24/24",
+        location: "Ridgewood, NJ, USA",
+        description: "On August 24th, it's time to return to the garden. Over 4 years later, our namesake event is back! 🌼 Melee, Ultimate, P+, and HDR 🌼 256 Event Cap 🌼 Ridgewood, New Jersey",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F673156%2Fimage-0a6f4b065a1ae1c4d91d5756129d7bb8-optimized.png&ehk=ba6JikL4X%2Frf5t3o54c5h95%2BdgVUtm66bGi3H2jzZV8%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/garden-brawl/details",
+        rankImg: false,
+        trailer: "https://twitter.com/i/status/1797729780219224249"
       },
       {
         name: "Undertow 2024",
