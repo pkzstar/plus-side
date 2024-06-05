@@ -120,8 +120,7 @@ const eventData = [
     entrants: '80',
     first: 'Techboy',
     second: 'SipMastah',
-    third: 'Rongunshu',
-    vodsUrl: "",
+    third: 'Rongunshu',    
     hideRankImage: false
   },
   {
@@ -159,8 +158,7 @@ const eventData = [
     entrants: '19',
     first: 'Rongunshu',
     second: 'Zaza',
-    third: 'Erg',
-    vodsUrl: "",
+    third: 'Erg',    
     hideRankImage: true
   },
   {
@@ -180,13 +178,13 @@ const eventData = [
     eventTitle: 'Cream of the Crop: November',
     eventUrl: 'https://www.start.gg/tournament/cream-of-the-crop-november-edition-new-york-s-project/event/singles',
     imageUrl: 'https://github.com/pkzstar/plus-side/blob/main/images/past-events/cream.png?raw=true',
+    vodsUrl: 'https://youtu.be/P4p2DtKIyqs',
     date: 'November 11 2023',
     location: 'New York',
     entrants: '34',
     first: 'Stango',
     second: 'Boiko',
     third: 'Shiny Zubat',
-    vodsUrl: "https://youtu.be/P4p2DtKIyqs",
     hideRankImage: false
   },
   {
@@ -199,8 +197,7 @@ const eventData = [
     entrants: '24',
     first: 'Sabre',
     second: 'PartyGhoul',
-    third: 'Nerfy',
-    vodsUrl: "",
+    third: 'Nerfy',    
     hideRankImage: false
   },
   {
@@ -226,8 +223,7 @@ const eventData = [
     entrants: '77',
     first: 'Malachi',
     second: 'Phresh',
-    third: 'dvd',
-    vodsUrl: "",
+    third: 'dvd',    
     hideRankImage: false
   },
   {
@@ -240,36 +236,33 @@ const eventData = [
     entrants: '16',
     first: 'Morsecode762',
     second: 'Techboy',
-    third: 'Ellipsis',
-    vodsUrl: "",
+    third: 'Ellipsis',    
     hideRankImage: false
   },
   {
     eventTitle: 'Five Nights at Fingy\'s',
     eventUrl: 'https://www.start.gg/tournament/five-nights-at-fingy-s/events/project-singles/brackets/1459177/2208583/standings',
     imageUrl: 'https://github.com/pkzstar/plus-side/blob/main/images/past-events/th%20(8).png?raw=true',
-    vodsUrl: '', // No VODs URL provided in the HTML
+    vodsUrl: 'https://www.youtube.com/playlist?list=PLXuSSlxxWDDoQWFC8Z0FBbmWSz5_6Iity',
     date: 'October 13 2023',
     location: 'Arizona',
     entrants: '24',
     first: 'Sneez',
     second: 'Trai',
     third: 'AZ_r0cky',
-    vodsUrl: "https://www.youtube.com/playlist?list=PLXuSSlxxWDDoQWFC8Z0FBbmWSz5_6Iity",
     hideRankImage: false
   },
   {
     eventTitle: 'Cream City Convergence',
     eventUrl: 'https://www.start.gg/tournament/c3-community-coordinated-competitions-side-tournaments/event/project/brackets/1474345/2228587',
     imageUrl: 'https://github.com/pkzstar/plus-side/blob/main/images/past-events/th%20(6).png?raw=true',
-    vodsUrl: '', // No VODs URL provided in the HTML
+    vodsUrl: 'https://www.youtube.com/playlist?list=PLkZ-2v0APBi5EEPB-Z2ypC0RCGEW4vPRz',
     date: 'September 30 2023',
     location: 'Wisconsin',
     entrants: '22',
     first: 'Orly',
     second: 'Chaloopy',
-    third: 'Kendrick',
-    vodsUrl: "",
+    third: 'Kendrick',    
     hideRankImage: false
   },
   {
@@ -282,8 +275,7 @@ const eventData = [
     entrants: '76',
     first: 'Techboy',
     second: 'Jagz$',
-    third: 'Ellipsis',
-    vodsUrl: "",
+    third: 'Ellipsis',    
     hideRankImage: false
   },
   {
@@ -296,8 +288,7 @@ const eventData = [
     entrants: '30',
     first: 'Chaloopy',
     second: 'Metroid',
-    third: 'Kendrick',
-    vodsUrl: "",
+    third: 'Kendrick',    
     hideRankImage: true // Assuming "pm-rank-centered-invis" class means hiding the rank image
   },
   {
@@ -310,8 +301,7 @@ const eventData = [
     entrants: '81',
     first: 'Shadowhawke',
     second: 'Aklo',
-    third: 'Grealy',
-    vodsUrl: "",
+    third: 'Grealy',    
     hideRankImage: false
   },
   {
@@ -324,8 +314,7 @@ const eventData = [
     entrants: '25',
     first: 'Blue',
     second: 'CP9',
-    third: 'Studebacher Hoch',
-    vodsUrl: "",
+    third: 'Studebacher Hoch',    
     hideRankImage: false
   },
   {
@@ -338,8 +327,7 @@ const eventData = [
     entrants: '36',
     first: 'Dirtboy',
     second: 'Chaloopy',
-    third: 'Comb',
-    vodsUrl: "",
+    third: 'Comb',    
     hideRankImage: false
   },
   {
@@ -352,8 +340,7 @@ const eventData = [
     entrants: '12',
     first: 'Techboy',
     second: 'Lunchables',
-    third: 'Comb',
-    vodsUrl: "",
+    third: 'Comb',    
     hideRankImage: false
   },
   {
@@ -366,8 +353,7 @@ const eventData = [
     entrants: '81',
     first: 'Dingo',
     second: 'Xtreme',
-    third: 'Magi',
-    vodsUrl: "",
+    third: 'Magi',    
     hideRankImage: true // Assuming "pm-rank-centered-invis" class means hiding the rank image
   },
   {
@@ -380,8 +366,7 @@ const eventData = [
     entrants: '102',
     first: 'Lunchables',
     second: 'Techboy',
-    third: 'SipMastah',
-    vodsUrl: "",
+    third: 'SipMastah',    
     hideRankImage: false
   },
   {
@@ -394,8 +379,7 @@ const eventData = [
     entrants: '38',
     first: 'Ryzuul',
     second: 'Motobug',
-    third: 'Tyler',
-    vodsUrl: "",
+    third: 'Tyler',    
     hideRankImage: true // Assuming "pm-rank-centered-invis" class means hiding the rank image
   },
   {
@@ -421,8 +405,7 @@ const eventData = [
     entrants: '84',
     first: 'Lunchables',
     second: 'Sothe',
-    third: 'Chaloopy',
-    vodsUrl: "",
+    third: 'Chaloopy',    
     hideRankImage: false
   },
   {
@@ -435,7 +418,6 @@ const eventData = [
     first: 'Dirtboy',
     second: 'Melody',
     third: 'Lafungo',
-    vodsUrl: "",
     hideRankImage: true
   },
   {
@@ -449,7 +431,6 @@ const eventData = [
     first: 'Cloudburst',
     second: 'Pikmon',
     third: 'PwrUp!',
-    vodsUrl: "",
     hideRankImage: false
   },
   {
@@ -463,20 +444,19 @@ const eventData = [
     first: 'Malachi',
     second: 'Shiny Zubat',
     third: 'AssTAStic',
-    vodsUrl: "",
     hideRankImage: false
   },
   {
     eventTitle: 'Tipped Off 14: Resurgence',
     eventUrl: 'https://www.start.gg/tournament/tipped-off-14-resurgence/event/p-singles',
     imageUrl: 'https://github.com/pkzstar/plus-side/blob/main/images/past-events/th%20(4).png?raw=true',
+    vodsUrl: 'https://www.youtube.com/playlist?list=PLXuSSlxxWDDpGFYGz_ZscplVrUcUA0jXf',
     date: 'June 3-4 2023',
     location: 'Georgia',
     entrants: '65',
     first: 'Aklo',
     second: 'Dirtboy',
     third: 'Dank',
-    vodsUrl: "",
     hideRankImage: false
   },
   {
@@ -490,7 +470,7 @@ const eventData = [
     first: 'Boat',
     second: 'Olivia',
     third: 'Gunther',
-    vodsUrl: "",
+    
     hideRankImage: true
   },
   {
@@ -516,7 +496,6 @@ const eventData = [
     first: 'Stango',
     second: 'Switch',
     third: 'Phresh',
-    vodsUrl: "",
     hideRankImage: false
   },
   {
