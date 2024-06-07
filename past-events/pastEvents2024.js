@@ -120,7 +120,7 @@ const eventData = [
     first: "Chaloopy",
     second: "Veka",
     third: "ORLY",
-    vodsUrl: "https://youtu.be/Uit2vJ7LXDU",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLXuSSlxxWDDphaX9nXuYE7lcUGnv9V3ua",
     hideRankImage: false
   },
   {
