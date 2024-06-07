@@ -212,6 +212,17 @@ const eventsData = [
         stream: "https://www.twitch.tv/projectmnexus"
       },
       {
+        name: "Sunset 2024",
+        date: "7/14/24",
+        location: "Etobicoke, ON, Canada",
+        description: "Sunset 2024 Feauring Project + and HDR. If you've Already Registered for Solar Flare 2024, Your Venue Fee For Sunset will Be Free",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F674387%2Fimage-bd67f6a27e634d0fa71050cf01605081-optimized.jpg&ehk=vdl14TFJAjqPpTQ9MaYEu7eid%2BvknHYwSI%2FfNal95aY%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/sunset-2024/details",
+        rankImg: false,
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Game 5: Canadian Invasion",
         date: "7/22/24",
         location: "Detroit, MI, USA",
@@ -259,7 +270,7 @@ const eventsData = [
         description: "Thanks to the dedication of the Midwest Project+ and HDR communities, we're proud to continue the water park shadow major tradition in 2024!",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/undertow2024.png?raw=true",
         link: "https://www.start.gg/tournament/undertow-2024/details",
-        rankImg: false,
+        rankImg: true,
         trailer: "https://drive.google.com/file/d/1vimHNr_rDTmjhH1vFLUpQZjQPFIsG7xR/view"
       },
       {
