@@ -121,16 +121,6 @@ const eventsData = [
 
 
       {
-        name: "Mass Madness 47",
-        date: "6/8/24",
-        location: "Waltham, MA, USA",
-        description: "The premier Melee monthly in Massachusetts returns, now with Project+! Masks are recommended to be worn while in the venue.",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F668782%2Fimage-f46841adb07e246ca977f2ebb36cdf7d-optimized.png&ehk=ktORfrKbxTMuLt%2FfCTZ5o32wj%2FgWtpvPfByFbDBAQOA%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/mass-madness-47-a-new-england-melee-and-project-event/details",
-        rankImg: false,
-        trailer: ""
-      },
-      {
         name: "Ripped Off",
         date: "6/14/24",
         location: "Marietta, GA, USA",
