@@ -111,9 +111,22 @@ function createPastEventElement(eventData) {
 const eventData = [
 
   {
+    eventTitle: "Mass Madness 47",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F668782%2Fimage-f46841adb07e246ca977f2ebb36cdf7d-optimized.png&ehk=ktORfrKbxTMuLt%2FfCTZ5o32wj%2FgWtpvPfByFbDBAQOA%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/mass-madness-47-a-new-england-melee-and-project-event/event/project-singles",
+    date: "June 8 2024",
+    location: "Massachusets",
+    entrants: 5,
+    first: "Thalia",
+    second: "Motobug",
+    third: "snafu",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Invincible VIII",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F628549%2Fimage-b9b41a8a31d09900d2b140c591720d36-optimized.png&ehk=lCA84Qw9j67HhjlW8rDhiJXc2%2FC1ByJPk51BjbOrvi8%3D&w=280&h=280&r=0",
-    eventUrl: "https://www.start.gg/tournament/tripoint-smash-presents-super-tps-iii/event/project-singles",
+    eventUrl: "https://www.start.gg/tournament/invincible-viii/event/project-singles",
     date: "June 1-2 2024",
     location: "Wisconsin",
     entrants: 46,
