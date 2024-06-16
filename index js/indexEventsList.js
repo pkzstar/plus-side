@@ -121,26 +121,6 @@ const eventsData = [
 
 
       {
-        name: "Ripped Off",
-        date: "6/14/24",
-        location: "Marietta, GA, USA",
-        description: "Ripped Off is here as the P+ shadow major for Tipped Off 15! Taking place across the campus in the KSU engineering and technology center on Friday June 14th, Ripped Off brings a new home to all the P+ players of the South East.",
-        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/ripped.png?raw=true",
-        link: "https://www.start.gg/tournament/ripped-off-1/details",
-        rankImg: true,
-        trailer: ""
-      },
-      {
-        name: "Untitled Stoke Tournament",
-        date: "6/16/24",
-        location: "College RdStoke-on-Trent, UK",
-        description: "A New Melee Regional In Stoke-On-Trent! Brought To You By The Choke On Trent Team",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F661701%2Fimage-fd4e28a68d3eef0eda541bef36e01a0f-optimized.png&ehk=1k8V3O4JFqIok2XJzcUdVsy4uG1NQMISoCxy%2Fg%2BnAxA%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/untitled-stoke-tournament/details",
-        rankImg: false,
-        trailer: ""
-      },
-      {
         name: "Natufest 5 - Reawakening",
         date: "6/22/24",
         location: "Grand Rapids, MI, USA",
