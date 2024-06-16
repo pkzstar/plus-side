@@ -111,6 +111,32 @@ function createPastEventElement(eventData) {
 const eventData = [
 
   {
+    eventTitle: "Untitled Stoke Tournament",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F661701%2Fimage-fd4e28a68d3eef0eda541bef36e01a0f-optimized.png&ehk=1k8V3O4JFqIok2XJzcUdVsy4uG1NQMISoCxy%2Fg%2BnAxA%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/untitled-stoke-tournament/details",
+    date: "June 16 2024",
+    location: "Staffordshire",
+    entrants: 14,
+    first: "SkillZ",
+    second: "Squeachu",
+    third: "HyPeVxStarz",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Ripped Off",
+    imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/ripped.png?raw=true",
+    eventUrl: "https://www.start.gg/tournament/ripped-off-1/details",
+    date: "June 14 2024",
+    location: "Georgia",
+    entrants: 36,
+    first: "Xtreme",
+    second: "Jagz$",
+    third: "Chaloopy",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
     eventTitle: "Mass Madness 47",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F668782%2Fimage-f46841adb07e246ca977f2ebb36cdf7d-optimized.png&ehk=ktORfrKbxTMuLt%2FfCTZ5o32wj%2FgWtpvPfByFbDBAQOA%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/mass-madness-47-a-new-england-melee-and-project-event/event/project-singles",
