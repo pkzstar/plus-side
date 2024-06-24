@@ -120,46 +120,7 @@ const eventsData = [
     
 
 
-      {
-        name: "Natufest 5 - Reawakening",
-        date: "6/22/24",
-        location: "Grand Rapids, MI, USA",
-        description: "Natufest returns to bring you a free, open venue right in the heart of downtown Grand Rapids. Get your games in and check out the many local restaurants within a short walking distance.",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F660623%2Fimage-bdb14521bb3d3ce57c4ffdd5793b3981-optimized.jpg&ehk=X19abGlB6SwZaY%2B9dMO0URVJQT3kafAP69Bni%2BfUM7s%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/natufest-5-the-reawakening-no-venue-fee-melee-singles-p/details",
-        rankImg: false,
-        trailer: ""
-      },
-      {
-        name: "The Black Market",
-        date: "6/22/24",
-        location: "Calgary, AB, Canada",
-        description: "A celebration of Smash Bros. fan games!Featuring HDR Singles, HDR Doubles and P+ Singles as paid events, along with plenty of free side events such as HDR Amateur brackets, Smash Remix, Rivals of Aether and Sonic Adventure 2!",
-        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/blackmarket.png?raw=true",
-        link: "https://www.start.gg/tournament/the-black-market/details",
-        rankImg: false,
-        trailer: "https://www.youtube.com/watch?v=l8kSbqR6urc"
-      },
-      {
-        name: "SUPER CLOUDY SCUFFLE",
-        date: "6/22/24",
-        location: "Oshawa, ON, Canada",
-        description: "Karamel is proud to present: SUPER CLOUDY SCUFFLE! A Durham Regional 🐈 In collaboration with No Style Esports, ft. Ultimate, Melee, Rivals of Aether 2, Project+ and HDR This tournament is dedicated to Karamel's late cat, Cloudy.",
-        imageUrl: "https://github.com/pkzstar/HDReport/blob/main/images/upcoming%20events/super%20cloudy%20scuffle.png?raw=true",
-        link: "https://www.start.gg/tournament/super-cloudy-scuffle-a-durham-regional/details",
-        rankImg: false,
-        trailer: ""
-      },
-      {
-        name: "Mineral Melee",
-        date: "6/22/24",
-        location: "Austin, TX, USA",
-        description: "This event features three different tiers of brackets after pools, so each tier of player will have a chance to compete against other players around their skill level. That means there's a trophy for the winner of each bracket!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F674411%2Fimage-a6eb8cdb1ecb9ff623700df120a6d0da-optimized.png&ehk=vC2efFJcqrX9OoFYOhe%2FewrublZOliZQgSSMSmH%2B33U%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/mineral-melee-a-best-in-texas-league-event/details",
-        rankImg: false,
-        trailer: ""
-      },
+
       {
         name: "Phantom 2024",
         date: "7/06/24 - 7/07/24",

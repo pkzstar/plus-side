@@ -111,6 +111,45 @@ function createPastEventElement(eventData) {
 const eventData = [
 
   {
+    eventTitle: "Mineral Melee",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F674411%2Fimage-a6eb8cdb1ecb9ff623700df120a6d0da-optimized.png&ehk=vC2efFJcqrX9OoFYOhe%2FewrublZOliZQgSSMSmH%2B33U%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/mineral-melee-a-best-in-texas-league-event/details",
+    date: "June 22 2024",
+    location: "Texas",
+    entrants: 30,
+    first: "Fury",
+    second: "Apathy",
+    third: "~CP9~",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "SUPER CLOUDY SCUFFLE",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F651261%2Fimage-907569c693d1a20fe255d3941409bdb5-optimized.png&ehk=GmueA6BdKSm8c9PTry1mZa4hXidSXkW2o8sX%2FbpxJzI%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/super-cloudy-scuffle-a-durham-regional/details",
+    date: "June 22 2024",
+    location: "Oshawa",
+    entrants: 8,
+    first: "Blitz",
+    second: "Zaza",
+    third: "Erg",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "The Black Market",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F661639%2Fimage-1395622085e1cb5b86833f8060d8b3d0-optimized.png&ehk=Ni2vnmmggNSQOH8FzKf7y4JwfWGpmfvWxPKaOs6z%2Fg0%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/the-black-market/details",
+    date: "June 22 2024",
+    location: "Calgary",
+    entrants: 8,
+    first: "Smear",
+    second: "BlueZone",
+    third: "nunavut kaiju",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Untitled Stoke Tournament",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F661701%2Fimage-fd4e28a68d3eef0eda541bef36e01a0f-optimized.png&ehk=1k8V3O4JFqIok2XJzcUdVsy4uG1NQMISoCxy%2Fg%2BnAxA%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/untitled-stoke-tournament/details",
