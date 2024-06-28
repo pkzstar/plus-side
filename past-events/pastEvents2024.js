@@ -120,7 +120,7 @@ const eventData = [
     first: "Fury",
     second: "Apathy",
     third: "~CP9~",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLjsXbJ48MWJXG3ot0lG3vJhtUbspJfrgY",
     hideRankImage: true
   },
   {
@@ -172,7 +172,7 @@ const eventData = [
     first: "Xtreme",
     second: "Jagz$",
     third: "Chaloopy",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLJIkd-7ajnoVydrvmblVMnQ8oJvfHdKdf",
     hideRankImage: false
   },
   {
@@ -224,7 +224,7 @@ const eventData = [
     first: "Hyperflame",
     second: "Dirtboy",
     third: "Chaloopy",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/watch?v=C-FePn7RivY",
     hideRankImage: false
   },
 {
@@ -237,7 +237,7 @@ const eventData = [
   first: "Morsecode762",
   second: "Rongunshu",
   third: "Blitz",
-  vodsUrl: "",
+  vodsUrl: "https://www.youtube.com/live/PefBJNakzf4?si=Y9Bxt5FFdWv6SmfW",
   hideRankImage: false
 },
 {
@@ -250,7 +250,7 @@ const eventData = [
   first: "Trai",
   second: "Lordy",
   third: "Yuko",
-  vodsUrl: "",
+  vodsUrl: "https://www.youtube.com/playlist?list=PLp0mqricKIh142azt6vnawXZbaPBqtwhC",
   hideRankImage: true
 },
 {
