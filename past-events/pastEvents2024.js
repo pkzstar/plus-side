@@ -120,7 +120,7 @@ const eventData = [
     first: "Fury",
     second: "Apathy",
     third: "~CP9~",
-    vodsUrl: "https://www.youtube.com/playlist?list=PLjsXbJ48MWJXG3ot0lG3vJhtUbspJfrgY",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLjsXbJ48MWJVIW0pYZoYoCVfOynequsfZ",
     hideRankImage: true
   },
   {
@@ -341,7 +341,7 @@ const eventData = [
   first: "Salt",
   second: "Fury",
   third: "Captain Birdman",
-  vodsUrl: "",
+  vodsUrl: "https://www.youtube.com/playlist?list=PLjsXbJ48MWJUM9KqKI0qNydWCFipO1xtn",
   hideRankImage: true
 },
 {
