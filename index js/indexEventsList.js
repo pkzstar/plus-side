@@ -132,6 +132,16 @@ const eventsData = [
         trailer: ""
       },
       {
+        name: "Glacier Gauntlet",
+        date: "7/13/24",
+        location: "Webster, TX, USA",
+        description: "his event features three different tiers of brackets after pools, so each tier of player will have a chance to compete against other players around their skill level. That means there's a trophy for the winner of each bracket!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F681727%2Fimage-d59c9aef0d5d77939939dbd970ef6c7d-optimized.png&ehk=AUUIFLk0Oiq1d3WhjesVORgtOMv3%2FhrahPeTbelbXa8%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tmgg",
+        rankImg: false,
+        trailer: ""
+      },
+      {
         name: "Terminal Velocity",
         date: "7/14/24",
         location: "Boston, MA, USA",
