@@ -111,6 +111,19 @@ function createPastEventElement(eventData) {
 const eventData = [
 
   {
+    eventTitle: "Phantom",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F649930%2Fimage-ea6128ec783d22d9b09b445dc22aeaf8-optimized.png&ehk=PqsAaF02V88lpgpAagfN8Qq6YySbqtD9S%2BaEmNnClWU%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/mineral-melee-a-best-in-texas-league-event/details",
+    date: "July 6-7 2024",
+    location: "Coburg VIC",
+    entrants: 40,
+    first: "Ryzull",
+    second: "Tyler",
+    third: "Joshman",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Mineral Melee",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F674411%2Fimage-a6eb8cdb1ecb9ff623700df120a6d0da-optimized.png&ehk=vC2efFJcqrX9OoFYOhe%2FewrublZOliZQgSSMSmH%2B33U%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/mineral-melee-a-best-in-texas-league-event/details",

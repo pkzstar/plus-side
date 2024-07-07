@@ -119,18 +119,6 @@ const eventsData = [
 
     
 
-
-
-      {
-        name: "Phantom 2024",
-        date: "7/06/24 - 7/07/24",
-        location: "Coburg, VIC, Australia",
-        description: "Phantom returns after a year away, and this time in Melbourne.",
-        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/phantom.png?raw=true",
-        link: "https://www.start.gg/tournament/phantom-2024/details",
-        rankImg: false,
-        trailer: ""
-      },
       {
         name: "Glacier Gauntlet",
         date: "7/13/24",
