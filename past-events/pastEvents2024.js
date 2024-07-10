@@ -237,7 +237,7 @@ const eventData = [
     first: "Hyperflame",
     second: "Dirtboy",
     third: "Chaloopy",
-    vodsUrl: "https://www.youtube.com/watch?v=C-FePn7RivY",
+    vodsUrl: "https://www.youtube.com/playlist?list=PL28nRWo732KVGZmKwZZee5cUNeorPopTt",
     hideRankImage: false
   },
 {
