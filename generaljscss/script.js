@@ -145,3 +145,61 @@ document.addEventListener('DOMContentLoaded', () => {
             articleReadElement.classList.add('articleReadAfter');
         });
     })});
+
+    //pressure calc
+
+    // let hitLag = JSON.parse(calcDisplayHitLag);
+    // let shieldStun = JSON.parse(calcDisplayshieldStun)
+
+    function calcOption() {
+      let forms = document.getElementById("PressureForms");
+  
+      if (forms.children.length === 0) {
+
+          let frameData = document.createElement("a");
+          frameData.href = "https://rukaidata.com/P+/";
+          frameData.id = "rukai";
+          frameData.innerHTML = "Rukai"
+          frameData.target = "_blank";
+          forms.appendChild(frameData);
+          let inputHitLag = document.createElement('input');
+          inputHitLag.classList.add("inputPressure")
+          inputHitLag.placeholder = "Landing lag";
+          let inputshieldStun = document.createElement('input');
+          inputshieldStun.classList.add("inputPressure")
+          inputshieldStun.placeholder = "Shield stun";
+          forms.appendChild(inputHitLag);
+          forms.appendChild(inputshieldStun);
+          let submitPressure = document.createElement('button')
+          submitPressure.id = "submitPressure"
+          forms.appendChild(submitPressure);
+          document.getElementById("submitPressure").innerHTML = "Submit";
+          submitPressure.addEventListener("click", function() {
+
+            let hitLag = parseInt(inputHitLag.value);
+            let shieldStun = parseInt(inputshieldStun.value);
+          let calcResult = shieldStun - hitLag;
+          let calcOutPut = document.createElement("p");
+          calcOutPut.id = "calcOutPut";
+          forms.appendChild(calcOutPut);
+
+          if (calcResult >= 1) {
+          document.getElementById("calcOutPut").innerHTML = "+" + calcResult;
+          console.log(calcResult);
+          } else {
+            document.getElementById("calcOutPut").innerHTML = calcResult;
+            console.log(calcResult);
+          }
+
+      
+          let submitDisable = document.getElementById("submitPressure")
+          submitDisable.disabled = true;
+          })
+      } else {
+          // Remove existing forms
+          while (forms.firstChild) {
+              forms.removeChild(forms.firstChild);
+          }
+      }      
+  }
+  

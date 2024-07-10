@@ -45,6 +45,12 @@ body {
     div.wallpaper2 {
         background-size: 75%;
     }
+    input.inputPressure {
+        font-size: 15px !important;
+        }
+        button#submitPressure {
+font-size: 20px !important;
+        }
 }
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
@@ -61,6 +67,7 @@ a:active { color: rgb(27, 0, 199);}
     h3 {
         font-size: medium;
     }
+
 }
 img:focus {
     image-rendering:optimizeQuality;
@@ -172,6 +179,11 @@ img.pm-rank:hover {
     .dropdown-links {
         margin: 5px 0 5px 30px;
     }
+    button#pressureCalc.calView {
+        font-size: 17.5px;
+        display: block;
+        max-width: fit-content;
+    }
 }
 .dropdown-links:hover {
     transform: scale3d(1.1, 1.1, 1.1);
@@ -231,11 +243,11 @@ img.pm-rank:hover {
 
     }
     button.calView {
+        font-size: 17.5px !important;
         margin: 10px 5px 5px 0;
         flex: 1;
         width: fit-content;
         height: auto;
-        font-size: 17.5px;
     }
     .listView {
     margin-bottom: 1%;    
@@ -244,6 +256,7 @@ button.calViewList {
     margin: 10px 5px 5px 0;
     font-size: 17.5px;
 }
+
 }
 .calView:hover
     {
@@ -277,7 +290,60 @@ button.calViewList {
     display: flex;
     justify-content: center;
 }
-
+button.calView {
+    font-size: 30px;
+    background: rgb(50,185,152);
+    background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#ffffff",GradientType=1);    border-radius: 15px 15px 15px 15px;
+    padding-left: 18px;
+    padding-right: 18px;
+    box-shadow: 0 0 3px 0 rgb(0, 196, 16);
+        transition: .3s;
+        border-block-color: green;
+        border-style: double;
+        border-block-style: groove;
+       border-block-width: thick;
+       margin: 0 -20px 0 75px;
+       cursor: pointer;
+}
+#pressureCalc {
+    margin: 10px 0 0 0;
+    display: flex
+}
+.containerCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#PressureForms {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    text-align: center;
+}
+input.inputPressure {
+    text-align: center;
+}
+#calcOutPut {
+    display: block;
+    font-size: 30px;
+    color: #ffffff;
+    margin: 10px 0 0 0;
+}
+#rukai {
+    font-style: bold;
+    color:  rgb(10, 180, 88);
+    font-size: 30px;
+}
+#rukai:hover {
+    color: slateblue;
+}
+#rukai:active {
+    color: rgb(60, 42, 177);
+}
 /* page headers */
 
 #pageHeader {
@@ -374,6 +440,13 @@ button.calViewList {
         display: inline-block;
         margin: 5px 0 5px 0;
     }
+    #rukai {
+        font-size: 20px;
+    }
+    #calcOutPut {
+        margin: 5px 0 0 0;
+        font-size: 20px;
+    }
 }
 .startgg:hover {
     transition: .75s ease-in-out;
@@ -396,8 +469,50 @@ button.calViewList {
     background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
     box-shadow: inset 0px 0px 0px 0px  rgba(0, 0, 0, 0.521);
 }
-
 .upcomingMedia {
     margin-left: 25px;
-    
 }
+button#submitPressure {
+    justify-self: center;
+    width: fit-content;
+    font-size: 25px;
+    background: rgb(50,185,152);
+    background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#ffffff",GradientType=1);
+    border-radius: 15px 15px 15px 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition:  .3s;
+    box-shadow: inset 0 0 3px 0 rgb(50,185,152);
+        border-inline-color: rgb(113, 36, 255);
+        border-block-color: green;
+        border-style: double;
+        border-block-style: groove;
+       border-block-width: thick;
+       margin: 1px 15px 1px 15px;
+cursor: pointer;
+}
+button#submitPressure:hover
+    {
+        color: rgb(167, 83, 247);
+        box-shadow: 2px 2px 5px 1px rgb(0, 43, 4);
+        border-style: double;
+        border-block-style: groove;
+       border-block-width: thick;
+       box-shadow: 0 0 5px 0  rgb(167, 83, 247);
+       border-inline-color: rgb(113, 36, 255);
+       border-block-color: green;       
+}
+button#submitPressure:active {
+    color: rgb(27, 0, 199);
+}
+input.inputPressure {
+    font-size: 20px;
+    border-radius: 15px 15px 15px 15px;
+        margin: 1px 0px 1px 0px;
+        border-color: rgb(225, 145, 245);
+        border-inline-color: rgb(113, 36, 255);
+        border-width: 3px;
+    }
