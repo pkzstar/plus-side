@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+ <head>
+  <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+    <title>Plus Side</title>
+    <link rel="icon" type="image/x-icon" href="https://github.com/pkzstar/plus-side/blob/main/images/favicon.png?raw=true">
+    <link rel="stylesheet" href="../articles\articles.css">
+    <link rel="stylesheet" href="../generaljscss\navBar.css">
+    <link rel="stylesheet" href="../generaljscss\style.css">
+    <style>
+      .article-body-image-bigger {
+    width: 60% !important;
+}
+    </style>
+ </head>
+ <body>
+  <div class="wallpaper"></div>
+  <div class="wallpaper2"></div>
+  <div id="navBar"></div>
+
+
+<div class="article-page-text">
+  <h1 id="pageHeader" class="textGradient">Motobug's In-Depth Guide to Project M Console Capture</h1>
+      <h3>Written by<a href="https://twitter.com/Motobug_" target="_blank"> <p class="articleLink">@Motobug_</p></a></h3>
+      <p>Hey there! Thanks for your interest in recording or streaming Project+! This guide will encompass the large variety of methods for capturing console feed for P+ at a wide variety of price points.</p>
+<hr></hr>
+<h2 style="text-align:center;">Introductory Knowledge</h2>
+<p>If this is your first time doing any sort of capture, or working with AV in general, let me lay out a list of terms and pieces of advice before we get started with the guide:</p>
+<ul style="text-align:left">
+  <li>
+    <strong>Composite:
+    </strong>this is the yellow connector included by default with the Wii, and is the one you’re most likely to see. The cable will also include white and red cables for audio.</li>
+</ul>
+<ul style="text-align:left">
+  <li>
+    <strong>S-Video:
+    </strong>the next step up from composite, though this is the least common cable to find of the three nowadays. This cable has a circular connector, and splits the video signal of composite into two parts, increasing quality. You’re likely to find cables with S-Video that also include a composite connector, which will be talked about in the
+    <strong>Cheap
+    </strong>section.</li>
+</ul>
+<ul style="text-align:left">
+  <li>
+    <strong>Component:
+    </strong>Formally known as YPbPr, Component is the highest quality level available for stock Wiis. This is the current most common way to capture Wii games, though further options will be discussed in the
+    <strong>Advanced
+    </strong>section. Unlike with the GameCube, Wii component cables are very cheap and very common.</li>
+</ul>
+<ul style="text-align:left">
+  <li>
+    <strong>Analog:
+    </strong>the type of video signal that the Wii natively outputs. This fact is the reason why we still use CRTs for tournaments, as only they can take analog input natively!</li>
+</ul>
+<ul style="text-align:left">
+  <li>
+    <strong>Digital:
+    </strong>the type of video signal newer devices (~mid-2000s and later) use. Some setups will need to use digital signals for either players or capture, which we will cover later on.</li>
+</ul>
+<ul style="text-align:left">
+  <li>
+    <strong>480i:
+    </strong>the video quality the Wii outputs by default, and is overwhelmingly the most common for tournament use. All setups will use this format until the
+    <strong>Advanced
+    </strong>section.</li>
+</ul>
+<ul style="text-align:left">
+  <li>
+    <strong>480p</strong>: the higher quality video format the Wii can output, only available for use with component cables officially. This format is a significant quality increase from 480i, as it doubles the line count. As mentioned above, we’ll talk about taking advantage of this format in the
+    <strong>Advanced
+    </strong>section.</li>
+</ul>
+<ul style="text-align:left">
+  <li>
+    <strong>Splitter:
+    </strong>a general term for devices that will separate video/audio signals into multiple outputs. A note for this is that you’ll want to only use
+    <strong>powered</strong>
+    splitters, especially for any analog signals!</li>
+</ul>
+<ul style="text-align:left">
+  <li>
+    <strong>OBS Studio:
+    </strong>a piece of capture software for various desktop operating systems. I fully recommend using this for any recording or streaming you may do, as it is free, feature-rich, and stable.</li>
+</ul>
+<hr></hr>
+<h2 style="text-align:center;">Cheap/Beginner</h2>
+<p>On a budget, or just starting up a weekly? No problem! There are a few ways to grab easy console capture in good quality for the price. The simplest way to do this is to use one of these dual
+  <a target="_blank" id="articleLink" href="https://www.amazon.com/Universal-S-video-av-Cables-Not-Specified/dp/B003SVTFHW/ref=sr_1_3?crid=PTCRZ2D9LB1H&amp;keywords=wii+s+video+cable&amp;qid=1697135088&amp;sprefix=wii+svideo+%2Caps%2C92&amp;sr=8-3">Composite/S-Video AV cables</a>; this way, composite can go to the TV, while S-video is sent to a device like
+  <a target="_blank" id="articleLink" href="https://www.amazon.com/DIGITNOW-Capture-Adapter-Grabber-Converter/dp/B08RMSJNW2/ref=sr_1_3?keywords=composite%2Bcapture%2Bcard&amp;qid=1697134810&amp;sr=8-3&amp;th=1">this one</a>
+  and captured on the PC side of things. I’ve linked from Amazon for convenience for those, but these can be found across the internet with a little bit of searching.</p>
+<p>Capturing with S-Video is much better than using composite, as it splits the video data into two separate signals. It’s debatably a bigger jump than going to component, and is by far the cheapest method for getting a good quality stream. Capture samples below (grabbed with a RetroTINK 2X-M):</p>
+<p>
+  <strong>Composite (</strong>
+  <a id="articleLink" target="_blank" href="https://imgur.com/a/bDFydTf">
+    <strong>https://imgur.com/a/bDFydTf</strong>
+  </a>
+  <strong>)</strong>:&nbsp;</p>
+  <img onclick="ToggleZoom('reImg1')" id="reImg1" class="article-body-image-console" src="../images/Article-images/console-capture/Composite.png" alt="" tabindex="0">
+<p>
+  <strong>S-Video (</strong>
+  <a id="articleLink" target="_blank" href="https://imgur.com/a/CISGTVo">
+    <strong>https://imgur.com/a/CISGTVo</strong>
+  </a>
+  <strong>)</strong>:</p>
+<img onclick="ToggleZoom('reImg2')" id="reImg2" class="article-body-image-console" src="../images/Article-images/console-capture/SVideo.png" alt="" tabindex="0">
+<hr></hr>
+<h2 style="text-align:center;">Intermediate</h2>
+<p>Want to upgrade to the best native output for the Wii? It’s easier than you’d think! This part of the guide will cover getting the best of the best without any hardware modification. You'll need a few things for this setup to work:</p>
+<ul style="text-align:left">
+  <li>
+    <strong>CRT with Component input</strong>: might be obvious, but the signal will need to get to the players as well. CRTs generally started including these inputs in the early to mid 1990s, so anything from that time onwards has a chance of including them. I’d personally recommend early 2000s-era Sony Trinitrons, as those not only have the best tubes, but will also likely have component inputs. Make sure to avoid anything that calls itself an EDTV, though, as these are usually digital internally and may introduce lag. If it has a tube, it’s generally fine.</li>
+</ul>
+<ul style="text-align:left">
+  <li>
+    <strong>Component cables</strong>: these will be needed to grab the output from the Wii. These are still quite cheap on places like Amazon, and can also be found locally still if you’re lucky.
+    <a id="articleLink" target="_blank" href="https://www.amazon.com/Component-HDTV-EDTV-Definition-Compatible-Nintendo/dp/B08TM4T3NS/ref=sr_1_5?crid=12U60KOEHGXGU&amp;keywords=wii+component+cables&amp;qid=1697136668&amp;sprefix=wii+component+cables%2Caps%2C99&amp;sr=8-5">These</a>
+    should work just fine, but for best quality I’d recommend the
+    <a id="articleLink" target="_blank" href="https://rondoproducts.com/products/hd-retrovision-wii?dt_id=504345%3Bap%3A232740">HD Retrovision ones</a>.</li>
+</ul>
+<ul style="text-align:left">
+  <li>
+    <strong>Component splitter:
+    </strong>this will be needed to send your Wii’s output to both the CRT and your capture device, as well as any other places video or audio may need to be sent. I’d personally recommend
+    <a id="articleLink" target="_blank" href="https://www.amazon.com/Component-Video-Audio-Splitter-BolAAzuL/dp/B09575J94F/ref=sr_1_3?crid=1F404TGKUFRC1&amp;keywords=component+video+splitter&amp;qid=1697136776&amp;sprefix=component+video+splitte%2Caps%2C104&amp;sr=8-3">this one</a>, but units from the component era (early-mid 2000s) are generally good picks as well. Make sure the splitter you buy is
+    <strong>powered</strong>!</li>
+</ul>
+<ul style="text-align:left">
+  <li>
+    <strong>Upscaler:
+    </strong>this is where the fun begins! An upscaler will convert your analog video signal from 480i to a format that capture cards will accept, output over HDMI. I’ll split these into their own tiers as well.</li>
+</ul>
+<ul style="text-align:left">
+  <li>
+    <a id="articleLink" target="_blank" href="https://www.amazon.com/Paddsun-Converter-Output-Monitor-GBS-8200/dp/B01IBJCAIG/ref=as_li_ss_tl?ie=UTF8&amp;qid=1539004437&amp;sr=8-2&amp;keywords=gbs8200&amp;linkCode=sl1&amp;tag=myliinga-20&amp;linkId=7279a7f8ddf204c8f5498d54e43992a3&amp;language=en_US">
+      <strong>GBS-8200</strong>
+    </a>
+    <strong>:
+    </strong>a bare bones scaler originally intended for arcade boards, this scaler fits in as a low-end option. This box will output a VGA signal though (like you’d find on an old PC monitor), so you’ll need a
+    <a id="articleLink" target="_blank" href="https://www.amazon.com/Gold-Plated-Compatible-Computer-Projector-Raspberry/dp/B07ZF8WFZN/ref=sr_1_3?crid=7AX9VJUVFOSL&amp;keywords=vga+to+hdmi+adapter&amp;qid=1697137478&amp;sprefix=vga+to+hdmi+%2Caps%2C98&amp;sr=8-3">VGA to HDMI adapter</a>
+    to use it with a capture card. This option trades cost for a bit of required manual adjustment to get optimal video quality, so keep that in mind if you go this route.</li>
+</ul>
+<ul style="text-align:left">
+  <li>
+    <a id="articleLink" target="_blank" href="https://www.retrotink.com/product-page/retrotink-2x-pro">
+      <strong>RetroTINK 2X-Pro</strong>
+    </a>
+    <strong>:
+    </strong>the middle of the pack in terms of upscalers, this is what many recording setups at major tournaments will use. While it's quite the price increase compared to the GBS, the 2X-Pro is a much simpler plug-and-play solution. The 2X-Pro will line double content to 480p, though don't be fooled - no method of deinterlacing will look nearly as clean as a direct 480p signal. For better results, you'll want to move up to one of the two pricer scalers.</li>
+</ul>
+<ul style="text-align:left">
+  <li>
+    <a id="articleLink" target="_blank" href="https://www.amazon.com/Source-Converter-SCART-Component-Gaming/dp/B07QF95QP3">
+      <strong>OSSC</strong>
+    </a>
+    <strong>:
+    </strong>the OSSC is the first scaler that I'd recommend that can upscale the Wii's signal to 1080p. While it's cheaper than the next scaler we'll talk about, it is similar to the GBS in that it requires some manual tweaking and setup to get your feed configured correctly.</li>
+</ul>
+<ul style="text-align:left">
+  <li>
+    <a id="articleLink" target="_blank" href="https://www.retrotink.com/product-page/5x-pro">
+      <strong>RetroTINK 5X-Pro</strong>
+    </a>: the current top of the line scaler for analog signals. With its plethora of inputs, easy 1080p scaling, and excellent handling of 480i, the 5X is what I'd recommend for getting the best quality out of your 480i signal. Many major tournaments these days use the 5X as their upscaler.</li>
+</ul>
+<ul style="text-align:left">
+  <li>
+    <a id="articleLink" target="_blank" href="https://www.ebay.com/sch/i.html?_nkw=blackmagic+intensity+shuttle&amp;_trksid=p4432023.m4084.l1312&amp;_sacat=0">
+      <strong>Blackmagic Design Intensity Shuttle</strong>
+    </a>
+    <strong>:
+    </strong>an option I would consider as high risk, high reward. While this does not scale footage on its own, the main draw of this device is that it can take in the Wii's 480p signal, and convert that to 480i for the CRT to receive whole retaining 480p capture! However, not only is this item now out of production, its software is also notoriously finicky and unreliable. This device also works best in conjunction with a separate scaler - which may be a dealbreaker price-wise for many.</li>
+</ul>
+<hr></hr>
+<h2 style="text-align:center;">Intermission: Running on Monitor</h2>
+<p>CRT isn't the only option for running tournaments these days. If your situation makes running on monitors easier (or required), this can be done.
+  <strong>I would</strong>
+  <strong>still recommend running on CRT if possible,
+  </strong>as monitors will feel different to most players than CRT will. Using a monitor will, on average, introduce half a frame of input lag when set up properly; some players may also be able to feel or see the difference in signal processing of LCD monitors compared to CRTs.</p>
+<ul style="text-align:left">
+  <li>
+    <strong>Make sure you're running on good monitors:
+    </strong>not all monitors are built equal! Anything on the mid-range of gaming monitors should be fine, though. Generally, ASUS and ViewSonic are solid brands, and anything 120hz or over will be serviceable.</li>
+</ul>
+<ul style="text-align:left">
+  <li>
+    <strong>Get reliable Wii2HDMI units</strong>: like monitors, not all of these are built equal, either.
+    <a id="articleLink" target="_blank" href="https://www.aliexpress.us/item/2251832645592280.html?gatewayAdapt=glo2usa4itemAdapt&amp;_randl_shipto=US">These ones</a>
+    are known to be good, but most units on places such as Amazon should be fine as well. Make sure to avoid any with "720p/1080p" switches on them!</li>
+</ul>
+<ul style="text-align:left">
+  <li>
+    <strong>Swap your Wii to output 480p
+    </strong>to make sure you're getting the best output out of these devices!</li>
+</ul>
+<ul style="text-align:left">
+  <li>For capture, most if not all regular capture cards will work. I'd recommend the
+    <strong>AverMedia Live Gamer Portable 2
+    </strong>and the
+    <strong>Elgato HD 60S+.</strong>
+  </li>
+</ul>
+<hr></hr>
+<h2 style="text-align:center;">Advanced</h2>
+<p>Interested in getting the absolute best capture quality out of your console? This is the section for you!</p>
+<p>This section will focus primarily around getting 480p output from your Wii, while still having players compete on CRT.</p>
+<ul style="text-align:left">
+  <li>
+    <strong>Finding a compatible CRT</strong>: Unfortunately, not many consumer CRTs out there will support 480p, as it only became a widely used standard right at the end of the CRT's mainstream production. If you're lucky, you can find a higher end PVM (Production Video Monitor) or BVM (Broadcast Video Monitor) for this purpose. However, the more likely (and much cheaper) option is to get a PC CRT monitor. These were everywhere in the 90s and early 2000s, so there are plenty of units still out in the wild. I'd recommend checking Facebook Marketplace and Craigslist on a regular basis if you're looking to get one; they frequently pop up listed for low prices (or even free) on those sites. The rest of this section will work under the assumption that you're using this method.</li>
+</ul>
+<ul style="text-align:left">
+  <li>
+    <strong>Getting the Wii's video to your PC CRT:
+    </strong>many PC CRT monitors have a hardwired VGA as their only video input, which means you'll need to convert the Wii's output to that format. If they're in stock, I recommend the handmade adapters from
+    <a id="articleLink" target="_blank" href="https://www.ebay.com/usr/wakabavideo">this seller on eBay</a>, but the
+    <a id="articleLink" target="_blank" href="https://www.beharbros.com/product-page/garo-lite">GARO Lite</a>
+    should also be a good choice. Refer to the
+    <strong>Intermediate</strong>
+    section for splitting your component signal to both your CRT and capture device.</li>
+</ul>
+<ul style="text-align:left">
+  <li>
+    <strong>Capturing your 480p signal:
+    </strong>this is the part that gets expensive! Only the latter two scalers mentioned in the
+    <strong>Intermediate</strong>
+    section will accept a 480p signal, which means you'll be spending a bit of money to get your capture going. Alternatively, you could split your VGA signal to both the monitor and to HDMI, though you'll only get unscaled 480p that way, which I wouldn't recommend with analog video.</li>
+</ul>
+<ul style="text-align:left">
+  <li>
+    <a id="articleLink" target="_blank" href="https://electron-shepherd.com/products/ave-hdmi-kit">
+      <strong>AVE-HDMI, the cream of the crop</strong>
+    </a>
+    <strong>:
+    </strong>the best possible option you can use as of writing is having the AVE-HDMI<strong></strong>installed in your console. This is a hardware mod that will pull video signal directly from the Wii's GPU, and output a pure digital signal through a mini HDMI port on the back. Though expensive, this will remove the need for both a component splitter and an external scaler. Since both the mini HDMI and the native component output can be used at the same time, there's no need to split the signal externally. Also, since the HDMI output is purely digital, no scaler is needed, as scaling digital video is a much simpler process that can be handled exclusively by your capture card and/or OBS. This is the option that I now use, and you can see video samples in the
+    <a id="articleLink" target="_blank" href="https://www.youtube.com/watch?v=aXSAPmMvO74">Blacklisted 8 stream VODs</a>.</li>
+</ul>
+<hr></hr>
+<h2 style="text-align:center;">Capturing and Recording Your Feed</h2>
+<p>Capture is a lot simpler than doing the upscaling and getting it to your players; any traditional capture card should work in most cases. The
+  <strong>AverMedia Live Gamer Portable 2
+  </strong>and the
+  <strong>Elgato HD 60S+
+  </strong>mentioned earlier are both good options, though Elgato products may not always play nice with RetroTINK products. To record and stream, you’ll want to use
+  <a id="articleLink" target="_blank" href="https://obsproject.com/">
+    <strong>OBS Studio</strong>
+  </a>. You can add your game capture by adding a “Video Capture Device” source, then selecting your capture card. For proper scaling in the normal (4:3-like) aspect ratio, I’d recommend using a screenshot from Dolphin, then attempting to match it manually via scaling in OBS. Here’s one for your use (<a id="articleLink" target="_blank" href="https://i.imgur.com/XiaD5Zd.png">https://i.imgur.com/XiaD5Zd.png</a>):</p>
+  <img width="50%" onclick="ToggleZoom('reImg3')" id="reImg3" class="article-body-image-console" src="../images/Article-images/console-capture/AspectTemplate.png" alt="" tabindex="0">
+<p>If you’re on monitor and using PM’s widescreen mode, no adjustment should be necessary from your capture device.</p>
+<p>For spicing things up, a great starting point is
+  <a id="articleLink" target="_blank" href="https://github.com/ilikepizza107/Project-Plus-Stream-Tool">ilikepizza107’s Stream Tool</a>. This will give you a clean layout for both regular and widescreen views. This tool is also incredibly customizable with enough know-how, so you can make some pretty derivative layouts with its feature-rich base! More in-depth instructions for usage can be found on the GitHub page.</p>
+</div>
+         
+         <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+         <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+         <script src="../generaljscss\navBar.js"></script>
+         <script src="../generaljscss\script.js"></script>
+
+
+ </body>
+</html>

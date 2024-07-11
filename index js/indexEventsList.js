@@ -136,7 +136,7 @@ const eventsData = [
         description: "📍Terminal Velocity takes place Sunday, July 14, at Balance Patch on Commonwealth Avenue in Boston.",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/terminal.png?raw=true",
         link: "https://www.start.gg/tournament/terminal-velocity/details",
-        rankImg: false,
+        rankImg: true,
         trailer: "",
         stream: "https://www.twitch.tv/projectmnexus"
       },
@@ -170,7 +170,8 @@ const eventsData = [
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/ww4.png?raw=true",
         link: "https://www.start.gg/tournament/warehouse-war-4/details",
         rankImg: true,
-        trailer: "https://www.youtube.com/watch?v=gMGJVzZlSqg"
+        trailer: "https://www.youtube.com/watch?v=gMGJVzZlSqg",
+        stream: "https://www.twitch.tv/projectmnexus"
       },
       {
         name: "Carnival Clash 2",
@@ -179,7 +180,7 @@ const eventsData = [
         description: "We're So Back! 🎡 August 3rd, 2024 Oregon's Ride-Filled Summer Regional Returns for another lap on the roller coaster! Why Oaks Amusement Park? Smash & Ride! Rides and attractions will be OPEN.",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/carnivalclash2.png?raw=true",
         link: "https://www.start.gg/tournament/carnival-clash-2/details",
-        rankImg: false,
+        rankImg: true,
         trailer: ""
       },
       {
@@ -200,7 +201,8 @@ const eventsData = [
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/undertow2024.png?raw=true",
         link: "https://www.start.gg/tournament/undertow-2024/details",
         rankImg: true,
-        trailer: "https://drive.google.com/file/d/1vimHNr_rDTmjhH1vFLUpQZjQPFIsG7xR/view"
+        trailer: "https://drive.google.com/file/d/1vimHNr_rDTmjhH1vFLUpQZjQPFIsG7xR/view",
+        stream: "https://www.twitch.tv/projectmnexus"
       },
       {
         name: "Big Cheese 5",

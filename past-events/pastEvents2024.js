@@ -120,7 +120,7 @@ const eventData = [
     first: "Ryzuul",
     second: "Tyler",
     third: "Joshman",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/watch?v=T8lu5vUywU4&list=PL4cUURZHmnRi6mpPVII99e_XhZfUcWiu5&index=10",
     hideRankImage: true
   },
   {
