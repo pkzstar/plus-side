@@ -161,7 +161,10 @@ document.addEventListener('DOMContentLoaded', () => {
           frameData.id = "rukai";
           frameData.innerHTML = "Rukai"
           frameData.target = "_blank";
-          forms.appendChild(frameData);
+          let rukai = document.createElement("p");
+          rukai.classList.add("rukaiSpacing");
+          forms.appendChild(rukai);
+          rukai.appendChild(frameData);
           let inputHitLag = document.createElement('input');
           inputHitLag.classList.add("inputPressure")
           inputHitLag.placeholder = "Landing lag";
@@ -201,5 +204,39 @@ document.addEventListener('DOMContentLoaded', () => {
               forms.removeChild(forms.firstChild);
           }
       }      
-  }
+  };
   
+  //past events
+  let pastEvents = document.getElementById("pastEvents");
+  let pastEventsText = document.createElement("p");
+  pastEventsText.innerHTML = "Past Events";
+  pastEventsText.classList.add("pastEventsHeader");
+  pastEvents.appendChild(pastEventsText);
+  console.log(pastEventsText);
+
+  //2023
+  let pastEvents2023 = document.getElementById("pastEvents")
+  let pastEventsList = document.createElement("div");
+  pastEventsList.classList.add("pastEventsList")
+  pastEvents.appendChild(pastEventsList);
+  let pastEvents2023Wrapper = document.createElement("p");
+  pastEvents2023Wrapper.classList.add("pastYearWrapper")
+  let pastEvents2023Link = document.createElement("a");
+  pastEvents2023Link.href = "../past-events/2023.html";
+  pastEvents2023Wrapper.appendChild(pastEvents2023Link);
+  pastEvents2023Link.innerHTML = "2023";
+  pastEventsList.appendChild(pastEvents2023Wrapper);
+  pastEvents2023Link.classList.add("past-year");
+
+  //2024
+    let pastEvents2024 = document.getElementById("pastEvents")
+    pastEventsList.classList.add("pastEventsList")
+    pastEvents.appendChild(pastEventsList);
+    let pastEvents2024Wrapper = document.createElement("p");
+    pastEvents2024Wrapper.classList.add("pastYearWrapper")
+    let pastEvents2024Link = document.createElement("a");
+    pastEvents2024Link.href = "../past-events/2024.html";
+    pastEvents2024Wrapper.appendChild(pastEvents2024Link);
+    pastEvents2024Link.innerHTML = "2024";
+    pastEventsList.appendChild(pastEvents2024Wrapper);
+    pastEvents2024Link.classList.add("past-year");
