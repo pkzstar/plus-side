@@ -38,20 +38,6 @@ body {
         top: 0;
     }
 }
-@media only screen and (max-width: 767px) {
-    div.wallpaper  {
-        background-size: 75%;
-    }
-    div.wallpaper2 {
-        background-size: 75%;
-    }
-    input.inputPressure {
-        font-size: 15px !important;
-        }
-        button#submitPressure {
-font-size: 20px !important;
-        }
-}
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
 a:hover { text-decoration: none; }
@@ -67,7 +53,6 @@ a:active { color: rgb(27, 0, 199);}
     h3 {
         font-size: medium;
     }
-
 }
 img:focus {
     image-rendering:optimizeQuality;
@@ -153,7 +138,7 @@ div.past-events-drop.calView:hover {
         margin: 0 10px 0px -5px;
     }
     .past-year {
-        font-size: 20px;
+        font-size: 15px;
     }
     button#past-events-drop-btn {
         font-size: 17.5px;
@@ -245,27 +230,6 @@ a.past-year:active { color: rgb(104, 85, 233)}
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
-}
-@media only screen and (max-width: 767px) {
-    
-    div.calViewListContainer {
-        margin: 0 0px 0 30px;
-    }
-    button.calView {
-        font-size: 17.5px !important;
-        margin: 10px 5px 5px 0;
-        flex: 1;
-        width: fit-content;
-        height: auto;
-    }
-    .listView {
-    margin-bottom: 1%;    
-}
-button.calViewList {
-    margin: 10px 5px 5px 0;
-    font-size: 17.5px;
-}
-
 }
 .calView:hover
     {
@@ -538,4 +502,49 @@ p.pastEventsHeader {
 margin: 10px 30px 0 0;
 text-align: right;
 position: relative;
+}
+@media only screen and (max-width: 767px) {
+    div.wallpaper  {
+        background-size: 75%;
+    }
+    div.wallpaper2 {
+        background-size: 75%;
+    }
+    input.inputPressure {
+        font-size: 15px !important;
+        }
+        button#submitPressure {
+font-size: 20px !important;
+        }
+        #pastEvents {
+            right: 0;
+        }
+        p.pastEventsHeader { 
+        margin: unset;
+        text-align: right;
+        position: relative;
+        margin: 0 5px 0 0;
+        }
+        p.pastYearWrapper {
+            position: relative;
+            left: 44px;
+            bottom: 10px;
+        }
+        div.calViewListContainer {
+            margin: 0 0px 0 30px;
+        }
+        button.calView {
+            font-size: 17.5px !important;
+            margin: 10px 5px 5px 0;
+            flex: 1;
+            width: fit-content;
+            height: auto;
+        }
+        .listView {
+        margin-bottom: 1%;    
+    }
+    button.calViewList {
+        margin: 10px 5px 5px 0;
+        font-size: 17.5px;
+    }
 }
