@@ -136,7 +136,7 @@ const eventsData = [
         description: "📍Terminal Velocity takes place Sunday, July 14, at Balance Patch on Commonwealth Avenue in Boston.",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/terminal.png?raw=true",
         link: "https://www.start.gg/tournament/terminal-velocity/details",
-        rankImg: false,
+        rankImg: true,
         trailer: "",
         stream: "https://www.twitch.tv/projectmnexus"
       },
@@ -153,7 +153,7 @@ const eventsData = [
       },
       {
         name: "Game 5 in the D #4: Canadian Invasion",
-        date: "7/22/24",
+        date: "7/20/24",
         location: "Detroit, MI, USA",
         description: "We welcome all valiant competitors to our local P+ scene's return-to-form! Featuring a professional stream, custom tournament badges, your favorite players, and much, much more, this will be an event you won't want to miss!",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F675196%2Fimage-54ebffee07de2dd4d200af40c8df6987-optimized.jpg&ehk=6cxSKy3MqOJK%2FFkbqEGwYZdcBnEglYc1xpdIKB0zOBs%3D&w=280&h=280&r=0",
@@ -170,7 +170,8 @@ const eventsData = [
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/ww4.png?raw=true",
         link: "https://www.start.gg/tournament/warehouse-war-4/details",
         rankImg: true,
-        trailer: "https://www.youtube.com/watch?v=gMGJVzZlSqg"
+        trailer: "https://www.youtube.com/watch?v=gMGJVzZlSqg",
+        stream: "https://www.twitch.tv/projectmnexus"
       },
       {
         name: "Carnival Clash 2",
@@ -179,7 +180,7 @@ const eventsData = [
         description: "We're So Back! 🎡 August 3rd, 2024 Oregon's Ride-Filled Summer Regional Returns for another lap on the roller coaster! Why Oaks Amusement Park? Smash & Ride! Rides and attractions will be OPEN.",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/carnivalclash2.png?raw=true",
         link: "https://www.start.gg/tournament/carnival-clash-2/details",
-        rankImg: false,
+        rankImg: true,
         trailer: ""
       },
       {
@@ -200,7 +201,8 @@ const eventsData = [
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/undertow2024.png?raw=true",
         link: "https://www.start.gg/tournament/undertow-2024/details",
         rankImg: true,
-        trailer: "https://drive.google.com/file/d/1vimHNr_rDTmjhH1vFLUpQZjQPFIsG7xR/view"
+        trailer: "https://drive.google.com/file/d/1vimHNr_rDTmjhH1vFLUpQZjQPFIsG7xR/view",
+        stream: "https://www.twitch.tv/projectmnexus"
       },
       {
         name: "Big Cheese 5",
