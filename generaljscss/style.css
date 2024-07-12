@@ -277,8 +277,8 @@ button.calView {
         border-style: double;
         border-block-style: groove;
        border-block-width: thick;
-       margin: 0 -20px 0 75px;
        cursor: pointer;
+       margin: 0;
 }
 #pressureCalc {
     margin: 10px 0 0 0;
@@ -548,3 +548,97 @@ font-size: 20px !important;
         font-size: 17.5px;
     }
 }
+@media only screen and (max-width:600px) {
+    .pm-rank {
+      position: relative;
+float: unset;
+}
+.events {
+margin: 20px 20px 20px 20px;
+}
+.eventsList {
+list-style: none;
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+  }
+
+  .upcomingImageParent {
+    margin: .5%;
+  }
+  a.past-year {
+    margin: .5%
+  }
+button:active,
+button:focus {
+outline: none;
+}
+
+.pastList {
+    list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.past-events {
+  height: calc(25% - 50px);
+  width: calc(25% - 50px);
+  margin: 0 20px 20px 20px;
+}
+.past-events img {
+  width: 100%;
+  height: 100%;
+}
+.past-events div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.past-article-text {
+  margin: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+  .pastList {
+    list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+p {
+margin: 2px 0 2px 0;
+}
+.past-events {
+  margin: 20px 20px 20px 20px;
+}
+.past-events img {
+  width: 75%;
+  height: 75%;
+}
+.past-events div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.past-article-text {
+  margin: 5px;
+}
+}
+
+ul {
+    padding: unset;
+  }
+        @media only screen and (max-width:600px) {
+.eventsList {
+list-style: none;
+padding: 0;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+  }
