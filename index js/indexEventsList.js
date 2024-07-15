@@ -117,40 +117,6 @@ eventName.appendChild(location);
 // Sample event data (replace this with actual event data)
 const eventsData = [
 
-    
-
-      {
-        name: "Glacier Gauntlet",
-        date: "7/13/24",
-        location: "Webster, TX, USA",
-        description: "This event features three different tiers of brackets after pools, so each tier of player will have a chance to compete against other players around their skill level. That means there's a trophy for the winner of each bracket!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F681727%2Fimage-d59c9aef0d5d77939939dbd970ef6c7d-optimized.png&ehk=AUUIFLk0Oiq1d3WhjesVORgtOMv3%2FhrahPeTbelbXa8%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tmgg",
-        rankImg: false,
-        trailer: ""
-      },
-      {
-        name: "Terminal Velocity",
-        date: "7/14/24",
-        location: "Boston, MA, USA",
-        description: "📍Terminal Velocity takes place Sunday, July 14, at Balance Patch on Commonwealth Avenue in Boston.",
-        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/terminal.png?raw=true",
-        link: "https://www.start.gg/tournament/terminal-velocity/details",
-        rankImg: true,
-        trailer: "",
-        stream: "https://www.twitch.tv/projectmnexus"
-      },
-      {
-        name: "Sunset 2024",
-        date: "7/14/24",
-        location: "Etobicoke, ON, Canada",
-        description: "Sunset 2024 Feauring Project + and HDR. If you've Already Registered for Solar Flare 2024, Your Venue Fee For Sunset will Be Free",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F674387%2Fimage-bd67f6a27e634d0fa71050cf01605081-optimized.jpg&ehk=vdl14TFJAjqPpTQ9MaYEu7eid%2BvknHYwSI%2FfNal95aY%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/sunset-2024/details",
-        rankImg: false,
-        trailer: "",
-        stream: ""
-      },
       {
         name: "Game 5 in the D #4: Canadian Invasion",
         date: "7/20/24",
@@ -172,6 +138,16 @@ const eventsData = [
         rankImg: true,
         trailer: "https://www.youtube.com/watch?v=gMGJVzZlSqg",
         stream: "https://www.twitch.tv/projectmnexus"
+      },
+      {
+        name: "Glacier Gauntlet",
+        date: "8/3/24",
+        location: "Webster, TX, USA",
+        description: "This event features three different tiers of brackets after pools, so each tier of player will have a chance to compete against other players around their skill level. That means there's a trophy for the winner of each bracket!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F681727%2Fimage-d59c9aef0d5d77939939dbd970ef6c7d-optimized.png&ehk=AUUIFLk0Oiq1d3WhjesVORgtOMv3%2FhrahPeTbelbXa8%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tmgg",
+        rankImg: false,
+        trailer: ""
       },
       {
         name: "Carnival Clash 2",
