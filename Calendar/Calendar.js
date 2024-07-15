@@ -1152,23 +1152,65 @@ function showCalendar(month, year) {
                     link.appendChild(image);
                     cell.appendChild(link);
 
-                 //Carnival-clash
+                 //Carnival-clash + Glacier Gauntlet
                 } else if (month === 7 && (date === 3) && year === 2024) {
 
-
-                    let link = document.createElement("a");
-                    link.href = "https://www.start.gg/tournament/carnival-clash-2/details";
-                    link.target = "_blank";
-
-                    let image = document.createElement("img");
-                    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/carnivalclash2.png?raw=true";
-
-                    image.classList.add("calendarImg");
-
-
-                    link.appendChild(image);
-                    cell.appendChild(link);
-
+                        const events = [
+                            {   
+                                link: "https://www.start.gg/tournament/carnival-clash-2/details",
+                                imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/carnivalclash2.png?raw=true"
+                                
+                            },
+                            {
+                                link: "https://www.start.gg/tmgg",
+                                imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F681727%2Fimage-d59c9aef0d5d77939939dbd970ef6c7d-optimized.png&ehk=AUUIFLk0Oiq1d3WhjesVORgtOMv3%2FhrahPeTbelbXa8%3D&w=280&h=280&r=0"
+                            }
+                        ];
+                        let currentIndex = 0; // Initialize current index
+                    
+                        let link = document.createElement("a");
+                        link.target = "_blank";
+                    
+                        let image = document.createElement("img");
+                    
+                        image.classList.add("calendarImg");
+                    
+                        link.appendChild(image);
+                        cell.appendChild(link);
+                    
+                        // Function to fade in/out the image and link
+                        function fadeInOut(element) {
+                            let opacity = 0;
+                            let increasing = true;
+                            let interval = setInterval(function() {
+                                if (increasing) {
+                                    opacity += 0.05;
+                                } else {
+                                    opacity -= 0.05;
+                                }
+                                element.style.opacity = opacity;
+                                if (opacity >= 1) {
+                                    increasing = false;
+                                    setTimeout(() => {
+                                        increasing = true;
+                                        updateLinkAndImage(); // Update link and image after fully visible
+                                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                                } else if (opacity <= 0) {
+                                    clearInterval(interval);
+                                    fadeInOut(element); // Restart the fading animation
+                                }
+                            }, 100); // Adjust the timing as needed
+                        }
+                    
+                        // Function to update the link and image
+                        function updateLinkAndImage() {
+                            link.href = events[currentIndex].link;
+                            image.src = events[currentIndex].imageSrc;
+                            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+                        }
+                    
+                        updateLinkAndImage(); // Initially update link and image
+                        fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
                 //Garden Brawl
                 } else if (month === 7 && (date === 24) && year === 2024) {

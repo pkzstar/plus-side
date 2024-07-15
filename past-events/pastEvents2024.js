@@ -111,6 +111,32 @@ function createPastEventElement(eventData) {
 const eventData = [
 
   {
+    eventTitle: "Sunset 2024",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F674387%2Fimage-bd67f6a27e634d0fa71050cf01605081-optimized.jpg&ehk=vdl14TFJAjqPpTQ9MaYEu7eid%2BvknHYwSI%2FfNal95aY%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/sunset-2024/details",
+    date: "July 14 2024",
+    location: "Etobicoke, ON, Canada",
+    entrants: 14,
+    first: "Blitz",
+    second: "Erg",
+    third: "LF DOOM",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Terminal Velocity",
+    imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/terminal.png?raw=true",
+    eventUrl: "https://www.start.gg/tournament/terminal-velocity/details",
+    date: "July 14 2024",
+    location: "Boston, MA, USA",
+    entrants: 31,
+    first: "Shiny Zubat",
+    second: "Flarp",
+    third: "Motobug",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
     eventTitle: "Phantom",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F649930%2Fimage-ea6128ec783d22d9b09b445dc22aeaf8-optimized.png&ehk=PqsAaF02V88lpgpAagfN8Qq6YySbqtD9S%2BaEmNnClWU%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/phantom-2024/details",
@@ -146,7 +172,7 @@ const eventData = [
     first: "Blitz",
     second: "Zaza",
     third: "Erg",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/watch?v=37tIU45_lMU&t=4904s",
     hideRankImage: true
   },
   {
@@ -159,7 +185,7 @@ const eventData = [
     first: "Smear",
     second: "BlueZone",
     third: "nunavut kaiju",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLFcAeieXqWf2xwQNCd7NrwxmpAZFCumLP",
     hideRankImage: true
   },
   {
