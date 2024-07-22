@@ -1229,6 +1229,24 @@ function showCalendar(month, year) {
                     link.appendChild(image);
                     cell.appendChild(link);
 
+                    
+                //Tech Zone 3
+                } else if (month === 7 && (date === 31) && year === 2024) {
+
+
+                    let link = document.createElement("a");
+                    link.href = "https://www.start.gg/tournament/tech-zone-3/details";
+                    link.target = "_blank";
+
+                    let image = document.createElement("img");
+                    image.src = "";
+
+                    image.classList.add("calendarImg");
+
+
+                    link.appendChild(image);
+                    cell.appendChild(link);
+
 
                 //Undertow 2024
                 } else if (month === 8 && (date === 6 || date === 7 || date === 8) && year === 2024) {
@@ -1247,6 +1265,7 @@ function showCalendar(month, year) {
                     link.appendChild(image);
                     cell.appendChild(link);
 
+
                     //Infrared 2024
                 } else if (month === 9 && (date === 6) && year === 2024) {
 
@@ -1263,6 +1282,7 @@ function showCalendar(month, year) {
 
                     link.appendChild(image);
                     cell.appendChild(link);
+
 
                 //Big Cheese
                 } else if (month === 9 && (date === 11) && year === 2024) {

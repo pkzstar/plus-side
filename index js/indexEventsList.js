@@ -160,6 +160,17 @@ const eventsData = [
         trailer: "https://twitter.com/i/status/1797729780219224249"
       },
       {
+        name: "Tech Zone 3",
+        date: "8/31/24",
+        location: "Lisle, IL, USA",
+        description: "Competitor Registration (7/12 - 8/30) $15. Day-Of Competitor Registration (8/31) $20. Spectator Registration $10. Online Day-Of registration will be available from 12:00am-02:00pm. If you would like to register at the venue, you will have to be there at least 1 hour before your bracket of choice is set to start.",
+        imageUrl: "",
+        link: "https://www.start.gg/tournament/tech-zone-3/details",
+        rankImg: false,
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Undertow 2024",
         date: "9/6/24 - 9/9/24",
         location: "Sandusky, OH, USA",
@@ -172,7 +183,7 @@ const eventsData = [
       },
       {
         name: "Infrared 2024",
-        date: "8/6/24",
+        date: "10/6/24",
         location: "Westford, MA, USA",
         description: "This event will take place on Saturday, October 6th inside of the Wavelength 2024 Venue. You MUST be registered for Wavelength 2024 as a competitor or spectator in order to attend this event!",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F689857%2Fimage-beb293c506128370f03dbac8b3301b61-optimized.jpg&ehk=USndSOdl8bTgh1izawrAwxr2nxvNn%2FTpocJgAGqoDY0%3D&w=280&h=280&r=0",
