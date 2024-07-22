@@ -146,7 +146,7 @@ const eventData = [
     first: "Shiny Zubat",
     second: "Flarp",
     third: "Motobug",
-    vodsUrl: "",
+    vodsUrl: "https://youtube.com/playlist?list=PLov8ro2MZrJJjtzUKAX6QJq6A1KNr-cMd&si=_t0VpsS-ZZovO_Ej",
     hideRankImage: false
   },
   {
@@ -263,7 +263,7 @@ const eventData = [
     first: "Dirtboy",
     second: "Pikmon",
     third: "Partyghoul",
-    vodsUrl: "https://www.twitch.tv/level1_tv",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLzS-yXSHqq9jqelHtoKJ-JqIPCLyXCS81",
     hideRankImage: false
   },
   {
@@ -419,7 +419,7 @@ const eventData = [
   first: "Ryzuul",
   second: "RNGReallyNotGood",
   third: "Tyler",
-  vodsUrl: "https://www.youtube.com/watch?v=AJdHUk8SY6k",
+  vodsUrl: "https://youtube.com/playlist?list=PL4cUURZHmnRgCn_zVSPJEc4RGZi25iB73&si=iGysxKv0BG0ulpf8",
   hideRankImage: true
 },
 {

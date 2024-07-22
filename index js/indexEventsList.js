@@ -117,6 +117,7 @@ eventName.appendChild(location);
 // Sample event data (replace this with actual event data)
 const eventsData = [
 
+
       {
         name: "Warehouse War 4",
         date: "7/26/24 - 7/27/24",
@@ -168,6 +169,17 @@ const eventsData = [
         rankImg: true,
         trailer: "https://drive.google.com/file/d/1vimHNr_rDTmjhH1vFLUpQZjQPFIsG7xR/view",
         stream: "https://www.twitch.tv/projectmnexus"
+      },
+      {
+        name: "Infrared 2024",
+        date: "8/6/24",
+        location: "Westford, MA, USA",
+        description: "This event will take place on Saturday, October 6th inside of the Wavelength 2024 Venue. You MUST be registered for Wavelength 2024 as a competitor or spectator in order to attend this event!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F689857%2Fimage-beb293c506128370f03dbac8b3301b61-optimized.jpg&ehk=USndSOdl8bTgh1izawrAwxr2nxvNn%2FTpocJgAGqoDY0%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/infrared-2024/details",
+        rankImg: false,
+        trailer: "",
+        stream: ""
       },
       {
         name: "Big Cheese 5",

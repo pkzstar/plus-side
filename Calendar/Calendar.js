@@ -1247,6 +1247,22 @@ function showCalendar(month, year) {
                     link.appendChild(image);
                     cell.appendChild(link);
 
+                    //Infrared 2024
+                } else if (month === 9 && (date === 6) && year === 2024) {
+
+
+                    let link = document.createElement("a");
+                    link.href = "https://www.start.gg/tournament/infrared-2024/details";
+                    link.target = "_blank";
+
+                    let image = document.createElement("img");
+                    image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F689857%2Fimage-beb293c506128370f03dbac8b3301b61-optimized.jpg&ehk=USndSOdl8bTgh1izawrAwxr2nxvNn%2FTpocJgAGqoDY0%3D&w=280&h=280&r=0";
+
+                    image.classList.add("calendarImg");
+
+
+                    link.appendChild(image);
+                    cell.appendChild(link);
 
                 //Big Cheese
                 } else if (month === 9 && (date === 11) && year === 2024) {
