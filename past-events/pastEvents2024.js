@@ -111,6 +111,19 @@ function createPastEventElement(eventData) {
 const eventData = [
 
   {
+    eventTitle: "Game 5 in the D #4: Canadian Invasion",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F675196%2Fimage-54ebffee07de2dd4d200af40c8df6987-optimized.jpg&ehk=6cxSKy3MqOJK%2FFkbqEGwYZdcBnEglYc1xpdIKB0zOBs%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/game-5-in-the-d-4-the-canadian-invasion/details",
+    date: "July 20 2024",
+    location: "Michigan",
+    entrants: 38,
+    first: "Rongunshu",
+    second: "Anther",
+    third: "Dirtboy",
+    vodsUrl: "https://www.youtube.com/@Game5ProjectPlus",
+    hideRankImage: false
+  },
+  {
     eventTitle: "Sunset 2024",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F674387%2Fimage-bd67f6a27e634d0fa71050cf01605081-optimized.jpg&ehk=vdl14TFJAjqPpTQ9MaYEu7eid%2BvknHYwSI%2FfNal95aY%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/sunset-2024/details",
