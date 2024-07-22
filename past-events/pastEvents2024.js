@@ -133,7 +133,7 @@ const eventData = [
     first: "Blitz",
     second: "Erg",
     third: "LF DOOM",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLdxdm5Mb0WcsgLJUH2osXNn_m2WhZnHBO",
     hideRankImage: true
   },
   {
