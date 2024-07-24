@@ -1239,7 +1239,7 @@ function showCalendar(month, year) {
                     link.target = "_blank";
 
                     let image = document.createElement("img");
-                    image.src = "";
+                    image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F685674%2Fimage-c4721066d975473bbb300c0cb9c6fba3-optimized.png&ehk=8hPucP15HYK%2BadyuKPEp36gjy6N9HFnZm5UZKxcINS8%3D&w=280&h=280&r=0";
 
                     image.classList.add("calendarImg");
 
