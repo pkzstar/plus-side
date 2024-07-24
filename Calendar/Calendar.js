@@ -816,6 +816,24 @@ function showCalendar(month, year) {
                     link.appendChild(image);
                     cell.appendChild(link);
 
+                    
+                    //Soul Showdown
+                } else if (month === 4 && (date === 25) && year === 2024) {
+
+
+                    let link = document.createElement("a");
+                    link.href = "https://www.start.gg/tournament/soul-showdown-a-best-in-texas-league-event/details";
+                    link.target = "_blank";
+
+                    let image = document.createElement("img");
+                    image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F666183%2Fimage-ebee1a8d2cb6ce2cc050fed8580769a2-optimized.jpg&ehk=8%2BM4zWeTJnVDqCcizmN3VspAdm7p6pNJmU1px2KyESk%3D&w=280&h=280&r=0";
+
+                    image.classList.add("calendarImg");
+
+
+                    link.appendChild(image);
+                    cell.appendChild(link);
+
                     //Smash Camp
                 } else if ( (month === 4 && date === 31 && year === 2024) ) {
                     

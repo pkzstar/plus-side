@@ -267,6 +267,19 @@ const eventData = [
     hideRankImage: false
   },
   {
+    eventTitle: "Soul Showdown",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F666183%2Fimage-ebee1a8d2cb6ce2cc050fed8580769a2-optimized.jpg&ehk=8%2BM4zWeTJnVDqCcizmN3VspAdm7p6pNJmU1px2KyESk%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/soul-showdown-a-best-in-texas-league-event/details",
+    date: "May 25 2024",
+    location: "Texas",
+    entrants: 14,
+    first: "Salt",
+    second: "~CP9~",
+    third: "Ntire",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLjsXbJ48MWJXf5iqVmD6vYP9L4tWKCoum",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Super TPS III",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F645334%2Fimage-4060881a6adb2f03c420d83e3cca0111-optimized.png&ehk=Rvf7eAJXx4e6TZdpG%2FbUoAleCnIZVzi54lyGPwfStNY%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/tripoint-smash-presents-super-tps-iii/event/project-singles",
