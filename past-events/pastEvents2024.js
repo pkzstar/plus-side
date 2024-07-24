@@ -497,7 +497,7 @@ const eventData = [
   first: "Salt",
   second: "Apathy",
   third: "SDJ",
-  vodsUrl: "",
+  vodsUrl: "https://www.youtube.com/playlist?list=PLjsXbJ48MWJUOoGnQw0-ma0rHNQKkVyek",
   hideRankImage: true
 },
 {
