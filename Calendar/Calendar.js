@@ -1380,7 +1380,24 @@ function showCalendar(month, year) {
                     fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
 
-                } else {
+                //BL9
+                } else if (month === 10 && (date === 16 || date === 17) && year === 2024) {
+
+
+                    let link = document.createElement("a");
+                    link.href = "https://www.start.gg/tournament/blacklisted-9-a-project-and-hdr-major/details";
+                    link.target = "_blank";
+
+                    let image = document.createElement("img");
+                    image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F681909%2Fimage-7d4e0ff8435ebeb4a6ceb3cd129b1705-optimized.png&ehk=sQBjT2ATBqcPGXSXEzLSl2H8PYlq6I79X7ucG2mT4hU%3D&w=280&h=280&r=0";
+
+                    image.classList.add("calendarImg");
+
+
+                    link.appendChild(image);
+                    cell.appendChild(link);
+                }         
+                else {
                     // Create and append the date text only if there is no image
                     cellText = document.createTextNode(date);
                     cell.appendChild(cellText);

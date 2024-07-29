@@ -119,17 +119,6 @@ const eventsData = [
 
 
       {
-        name: "Warehouse War 4",
-        date: "7/26/24 - 7/27/24",
-        location: "Nashville, TN, USA",
-        description: "$10,000 in Pot Bonuses Premier Top Talent Huge venue complex with indoor and outdoor skate park as well as a full service coffee bar Venue located in the heart of Nashville within walking distance of the historic and famous Broadway Street Fun Friday side events and Saturday main events",
-        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/ww4.png?raw=true",
-        link: "https://www.start.gg/tournament/warehouse-war-4/details",
-        rankImg: true,
-        trailer: "https://www.youtube.com/watch?v=gMGJVzZlSqg",
-        stream: "https://www.twitch.tv/projectmnexus"
-      },
-      {
         name: "Glacier Gauntlet",
         date: "8/3/24",
         location: "Webster, TX, USA",
@@ -156,7 +145,7 @@ const eventsData = [
         description: "On August 24th, it's time to return to the garden. Over 4 years later, our namesake event is back! 🌼 Melee, Ultimate, P+, and HDR 🌼 256 Event Cap 🌼 Ridgewood, New Jersey",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F673156%2Fimage-0a6f4b065a1ae1c4d91d5756129d7bb8-optimized.png&ehk=ba6JikL4X%2Frf5t3o54c5h95%2BdgVUtm66bGi3H2jzZV8%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/garden-brawl/details",
-        rankImg: false,
+        rankImg: true,
         trailer: "https://twitter.com/i/status/1797729780219224249"
       },
       {
@@ -212,6 +201,17 @@ const eventsData = [
         rankImg: false, 
         trailer: "https://www.youtube.com/watch?v=mEsQ1_rF7gM&feature=youtu.be",
         stream: "https://www.twitch.tv/AZPM"
+      },
+      {
+        name: "Blacklisted 9",
+        date: "11/16/24 - 11/17/24",
+        location: "Springfield, MA, USA",
+        description: "Blacklisted has moved venues for the first time in five years! Join us in Springfield, Massachusetts for the biggest and best Blacklisted yet! Blacklisted 9 will be returning with Doubles and Singles pools which will send players into double elimination Pro and Amateur brackets - now for both Project+ and HDR!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F681909%2Fimage-7d4e0ff8435ebeb4a6ceb3cd129b1705-optimized.png&ehk=sQBjT2ATBqcPGXSXEzLSl2H8PYlq6I79X7ucG2mT4hU%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/blacklisted-9-a-project-and-hdr-major/details",
+        rankImg: false, 
+        trailer: "https://twitter.com/BlacklistedSSB/status/1817403907984761246",
+        stream: "https://www.twitch.tv/projectmnexus"
       }
     ];
 
