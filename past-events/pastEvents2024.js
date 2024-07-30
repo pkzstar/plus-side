@@ -111,6 +111,18 @@ function createPastEventElement(eventData) {
 const eventData = [
 
   {
+    eventTitle: "Warehouse War IV",
+    imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/ww4.png?raw=true",
+    eventUrl: "https://www.start.gg/tournament/warehouse-war-4/details",
+    date: "July 26-27 2024",
+    location: "Tennessee",
+    entrants: 140,
+    first: "SipMastah",
+    second: "Jagz$",
+    third: "Chaloopy",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLXuSSlxxWDDrdouF5cQ8pIom1LThma6iJ",
+    hideRankImage: false
+  },{
     eventTitle: "Game 5 in the D #4: Canadian Invasion",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F675196%2Fimage-54ebffee07de2dd4d200af40c8df6987-optimized.jpg&ehk=6cxSKy3MqOJK%2FFkbqEGwYZdcBnEglYc1xpdIKB0zOBs%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/game-5-in-the-d-4-the-canadian-invasion/details",
