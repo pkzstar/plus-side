@@ -139,6 +139,16 @@ const eventsData = [
         trailer: ""
       },
       {
+        name: "Storm IX",
+        date: "8/17/24",
+        location: "Newcastle, Northumberland, UK",
+        description: "THERE BE A STORM BREWIN' We return with Storm. Hosted at the Bridge Inn - Castle Garth venue. Opposite the Newcastle Castle. 48 PLAYER ENTRY CAP",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F685889%2Fimage-93aa902db1980d230e1408e73e570b32-optimized.png&ehk=k0xKVQvVRrSRjoIXPf4YN4aPmQXvWKjwYTpH2OKTo0E%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/storm-ix/details",
+        rankImg: false,
+        trailer: ""
+      },
+      {
         name: "Garden Brawl",
         date: "8/24/24",
         location: "Ridgewood, NJ, USA",
@@ -160,6 +170,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "DFW Fest FINALE :(",
+        date: "8/31/24",
+        location: "Plano, TX, USA",
+        description: "The final DFW Fest! Doors at 12PM CT, Dubs at 1PM CT, Singles at 3PM CT",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F694863%2Fimage-566e5e5f63a5f87f94a87375509f61c9-optimized.png&ehk=CaWmVw9oqVniui2UvyVvvcfkhfGIJ9rEMmwP9AdBz9A%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/dfw-fest-finale/details",
+        rankImg: false,
+        trailer: "https://youtu.be/plhYgcCJwtA",
+        stream: "https://www.twitch.tv/projectmnexus"
+      },
+      {
         name: "Undertow 2024",
         date: "9/6/24 - 9/9/24",
         location: "Sandusky, OH, USA",
@@ -169,6 +190,17 @@ const eventsData = [
         rankImg: true,
         trailer: "https://drive.google.com/file/d/1vimHNr_rDTmjhH1vFLUpQZjQPFIsG7xR/view",
         stream: "https://www.twitch.tv/projectmnexus"
+      },
+      {
+        name: "Game 5 in the D #5: The Big One!",
+        date: "9/21/24 - 9/22/24",
+        location: "Detroit, MI, USA",
+        description: "We welcome all valiant competitors to our local P+ scene's return-to-form! Featuring a professional stream, custom tournament badges, your favorite players, and much, much more, this will be an event you won't want to miss!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F691070%2Fimage-20c7e0ee687afcac9b01ac503fbdc8c3-optimized.jpg&ehk=RA9HKOI4f5SFLA5BA6Eogqbd89fxlbUvo52xfFEc1Mg%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/game-5-in-the-d-5-the-big-one/details",
+        rankImg: false,
+        trailer: "",
+        stream: "https://www.twitch.tv/game5projectplus"
       },
       {
         name: "Infrared 2024",
