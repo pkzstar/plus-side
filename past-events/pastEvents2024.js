@@ -111,6 +111,32 @@ function createPastEventElement(eventData) {
 const eventData = [
 
   {
+    eventTitle: "Glacier Gauntlet",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F681727%2Fimage-d59c9aef0d5d77939939dbd970ef6c7d-optimized.png&ehk=AUUIFLk0Oiq1d3WhjesVORgtOMv3%2FhrahPeTbelbXa8%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/glacier-gauntlet-a-best-in-texas-league-event/details",
+    date: "August 3 2024",
+    location: "Texas",
+    entrants: 33,
+    first: "Apathy",
+    second: "~CP9~",
+    third: "Phorcys",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Carnival Clash 2",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F640839%2Fimage-e94ee53615edd49f9d209151dd01861e-optimized.png&ehk=wF2gPXe%2FQdTGVh6VH9aj%2BfckKLzhz2jnWAHHb6WP0NQ%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/carnival-clash-2-ft-joshman-zamu-aura-essy-zoey-clich/details",
+    date: "August 3 2024",
+    location: "Oregon",
+    entrants: 59,
+    first: "Kycse",
+    second: "Flarp",
+    third: "Pikmon",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
     eventTitle: "Warehouse War IV",
     imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/ww4.png?raw=true",
     eventUrl: "https://www.start.gg/tournament/warehouse-war-4/details",
@@ -122,7 +148,8 @@ const eventData = [
     third: "Chaloopy",
     vodsUrl: "https://www.youtube.com/playlist?list=PLXuSSlxxWDDrdouF5cQ8pIom1LThma6iJ",
     hideRankImage: false
-  },{
+  },
+  {
     eventTitle: "Game 5 in the D #4: Canadian Invasion",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F675196%2Fimage-54ebffee07de2dd4d200af40c8df6987-optimized.jpg&ehk=6cxSKy3MqOJK%2FFkbqEGwYZdcBnEglYc1xpdIKB0zOBs%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/game-5-in-the-d-4-the-canadian-invasion/details",

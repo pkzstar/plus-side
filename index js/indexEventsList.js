@@ -119,26 +119,6 @@ const eventsData = [
 
 
       {
-        name: "Glacier Gauntlet",
-        date: "8/3/24",
-        location: "Webster, TX, USA",
-        description: "This event features three different tiers of brackets after pools, so each tier of player will have a chance to compete against other players around their skill level. That means there's a trophy for the winner of each bracket!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F681727%2Fimage-d59c9aef0d5d77939939dbd970ef6c7d-optimized.png&ehk=AUUIFLk0Oiq1d3WhjesVORgtOMv3%2FhrahPeTbelbXa8%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tmgg",
-        rankImg: false,
-        trailer: ""
-      },
-      {
-        name: "Carnival Clash 2",
-        date: "8/3/24",
-        location: "Portland, OR, USA",
-        description: "We're So Back! 🎡 August 3rd, 2024 Oregon's Ride-Filled Summer Regional Returns for another lap on the roller coaster! Why Oaks Amusement Park? Smash & Ride! Rides and attractions will be OPEN.",
-        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/carnivalclash2.png?raw=true",
-        link: "https://www.start.gg/tournament/carnival-clash-2/details",
-        rankImg: true,
-        trailer: ""
-      },
-      {
         name: "Storm IX",
         date: "8/17/24",
         location: "Newcastle, Northumberland, UK",
