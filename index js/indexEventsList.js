@@ -129,6 +129,16 @@ const eventsData = [
         trailer: ""
       },
       {
+        name: "Final Warning: The Golden Age",
+        date: "8/17/24",
+        location: "South Portland, ME, USA",
+        description: "Registration closes at 11:59pm on Wednesday, 8/14! Get your pre-reg's in and secure your spot!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F682493%2Fimage-3f77ea1166a44f5bb47bd76086aca4f0-optimized.png&ehk=Ihr%2FiITlMPIj3eGoJ8rx7jp8LU9d0zM47PLNNfo3S3E%3D&w=280&h=280&r=0",
+        link: "https://start.gg/fw",
+        rankImg: false,
+        trailer: ""
+      },
+      {
         name: "Garden Brawl",
         date: "8/24/24",
         location: "Ridgewood, NJ, USA",
@@ -137,6 +147,16 @@ const eventsData = [
         link: "https://www.start.gg/tournament/garden-brawl/details",
         rankImg: true,
         trailer: "https://twitter.com/i/status/1797729780219224249"
+      },
+      {
+        name: "Condo of Blood",
+        date: "8/24/24",
+        location: "Mississauga, ON, Canada",
+        description: "Introducing Condo of Blood, an Ontario Project Plus and HDR regional hosted directly beside the Port Credit GO station. This accessible recurring tournament series will feature top Ontario talent and is designed fully around our shared love of these modded smash games.",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F695366%2Fimage-69b08d9c6872b4db4d2ffa1374652983-optimized.png&ehk=4bF4qUThMtweHMe%2ByEqvxnBepEhxvTi95m0CU5Lh5Q0%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/condo-of-blood/details",
+        rankImg: false,
+        trailer: ""
       },
       {
         name: "Tech Zone 3",
