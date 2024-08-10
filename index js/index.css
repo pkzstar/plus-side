@@ -129,6 +129,37 @@
         padding: 0 5px 0 5px;
         margin: 5px 0 5px 0;
     }
+    input.inputNews {
+        font-size: 15px !important;
+        width: 20% !important;
+        margin: 15% 0 0 1% !important;
+
+        }
+        input.inputNews {
+            width: 10%;
+            font-size: 20px;
+            border-radius: 15px 15px 15px 15px;
+                border-color: rgb(225, 145, 245);
+                border-inline-color: rgb(113, 36, 255);
+                border-width: 3px;
+                position: absolute;
+                top: 0;
+                margin-top: 15%;
+        
+        }
+        button.submit-btnNews {
+            position: absolute;
+            margin: 21.5% 0 0% 1%;
+                font-size: 20px;
+                background: rgb(50,185,152);
+                background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+                background: -webkit-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+                background: linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+                filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#ffffff",GradientType=1);
+                border-radius: 15px 15px 15px 15px;
+                box-shadow: 0 0 3px 0 rgb(0, 196, 16);
+                    transition: .3s;    
+            }
 }
 img.events-banners:hover {
     cursor: pointer;
@@ -165,6 +196,12 @@ p.event-date {
     p.event-date {
         font-size: 29px;
     }
+    .newsText {
+         margin-top: 30px; 
+            max-width: 20%; 
+            font-size: 15px !important;
+            margin-left: 4% !important;
+        }
 }
 .events-banners-trans {
     flex: 0px;
@@ -400,4 +437,64 @@ background: rgba(0, 0, 0, 0.322);
 transition: .5s ease-in-out; 
 background: linear-gradient(30deg, rgba(50,185,152,1) 15%, rgba(147,255,214,1) 35%, rgba(50,185,152,1) 55%, rgba(147,255,214,1) 75%, rgba(50,185,152,1) 95%);
 box-shadow: inset 0px 0px 0px 0px  rgba(0, 0, 0, 0.521);
+}
+.newsLBody {
+
+    display: grid;
+
+}
+input.inputNews {
+    width: 7%;
+    font-size: 20px;
+    border-radius: 15px 15px 15px 15px;
+        border-color: rgb(225, 145, 245);
+        border-inline-color: rgb(113, 36, 255);
+        border-width: 3px;
+        position: absolute;
+        top: 0;
+        margin-top: 8.5%;
+        text-align: center;
+        margin-left: 5%;
+
+}
+.submit-btnNews {
+position: absolute;
+    font-size: 25px;
+    background: rgb(50,185,152);
+    background: -moz-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(0deg, rgba(50,185,152,1) 35%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#32b998",endColorstr="#ffffff",GradientType=1);
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: 0 0 3px 0 rgb(0, 196, 16);
+    top: 0;
+        transition: .3s;     
+        margin-top: 10.5%;   
+        margin-left: 5.5%;
+}
+.submit-btnNews:hover {
+    color: rgb(167, 83, 247);
+    border-style: double;
+    border-block-style: groove;
+   box-shadow: 0 0 20px 0  rgb(167, 83, 247);
+   border-inline-color: rgb(113, 36, 255);
+   border-block-color: green;    
+    cursor: pointer;
+}
+.submit-btnNews:active {
+color: rgb(27, 0, 199);
+}
+
+#root {
+    display: inline-block;
+    left: 0;
+    top: 0;
+}
+.newsText {
+top: 0; 
+position: absolute;
+ margin-top: 6.1%; 
+    max-width: 20%; 
+    font-size: 30px;
+    margin-left: 1%;
 }
