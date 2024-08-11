@@ -203,6 +203,17 @@ const eventsData = [
         stream: "https://www.twitch.tv/game5projectplus"
       },
       {
+        name: "Mock the Hill",
+        date: "9/28/24",
+        location: "Rock Hill, SC, USA",
+        description: "Mock the Hill A p+ shadow regional held @ Rock the Hill 3. If you're already signed up on the main start gg you won't have to pay venue for p+",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F697791%2Fimage-39545909a658026a858498ec68a98ebb-optimized.jpg&ehk=ptFX7jG0LIcnP8be9NZVzkVsjHxCT4RTEsPKL%2BloJbw%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/mock-the-hill/details",
+        rankImg: false,
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Infrared 2024",
         date: "10/6/24",
         location: "Westford, MA, USA",

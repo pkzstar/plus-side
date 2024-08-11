@@ -159,7 +159,7 @@ const eventData = [
     first: "Rongunshu",
     second: "Anther",
     third: "Dirtboy",
-    vodsUrl: "https://www.youtube.com/@Game5ProjectPlus",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLp0mqricKIh1HlPwJrTSU2jiVt3qD0w0j",
     hideRankImage: false
   },
   {
