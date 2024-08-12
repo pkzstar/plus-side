@@ -135,7 +135,7 @@ const eventsData = [
         description: "Registration closes at 11:59pm on Wednesday, 8/14! Get your pre-reg's in and secure your spot!",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F682493%2Fimage-3f77ea1166a44f5bb47bd76086aca4f0-optimized.png&ehk=Ihr%2FiITlMPIj3eGoJ8rx7jp8LU9d0zM47PLNNfo3S3E%3D&w=280&h=280&r=0",
         link: "https://start.gg/fw",
-        rankImg: false,
+        rankImg: true,
         trailer: ""
       },
       {
