@@ -192,6 +192,17 @@ const eventsData = [
         stream: "https://www.twitch.tv/projectmnexus"
       },
       {
+        name: "Rising Rumble",
+        date: "9/14/24",
+        location: "Waco, TX, USA",
+        description: "Welcome to the eighth and final Best in Texas 2024 League event before the finale! This event features three different tiers of brackets after pools, so each tier of player will have a chance to compete against other players around their skill level. That means there's a trophy for the winner of each bracket!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F696391%2Fimage-7685a90fa93f882994733553bd877bdb-optimized.png&ehk=J4kX1Hmj1QYyaSM6lqGDfNRXKJsBVr%2BD0j7R%2ByW%2B1aY%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/rising-rumble-a-best-in-texas-league-event/details",
+        rankImg: false,
+        trailer: "",
+        stream: "https://www.twitch.tv/projectmnexus"
+      },
+      {
         name: "Game 5 in the D #5: The Big One!",
         date: "9/21/24 - 9/22/24",
         location: "Detroit, MI, USA",
@@ -235,12 +246,34 @@ const eventsData = [
         trailer: ""
       },
       {
+        name: "Smash of the Titans 9",
+        date: "10/12/24",
+        location: "Bloomington, IL, USA",
+        description: "Illinois Wesleyan University is back with our semesterly Smash regional! The tournament will be held in the Young Main Lounge in the Memorial center on campus (there will be signage posted too). If you have any questions, message @roguecora or any of the other TO's in the Discord!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F694496%2Fimage-b405f84572aec93db03ff18f1390501d-optimized.jpg&ehk=oZVIfG8%2BqWSv47vhSJS3IF2MsZ%2FQ91A%2FGHI%2F4tT6UGg%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/smash-of-the-titans-9-1/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Five Nights at Fingy's 2",
         date: "10/12/24 - 10/13/24",
         location: "Mesa, AZ, USA",
         description: "AZPM is back! Five Nights at Fingy's 2 is a FNAF themed Project+ Tournament in Mesa, Arizona",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/fnaf2.png?raw=true",
         link: "https://www.start.gg/tournament/five-nights-at-fingy-s-2/details",
+        rankImg: false, 
+        trailer: "https://www.youtube.com/watch?v=mEsQ1_rF7gM&feature=youtu.be",
+        stream: "https://www.twitch.tv/AZPM"
+      },
+      {
+        name: "Tussleopolis",
+        date: "10/26/24",
+        location: "Normal, IL, USA",
+        description: "It's a new era. The game has changed, but the tussle remains...The Tussle Saga is BACK. Return to the Midwest grassroots Project M experience. From the team that brought you Warp Zone 2, Undertow, and Bird House XII, we are thrilled to revitalize this Midwest PM series.",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F694928%2Fimage-d570f648aa26ccea66517f31a2dccda5-optimized.png&ehk=wQJOmHo9Afn6nRwa%2FwDShMfftHg7tIqqjo%2BnGCznW8s%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/tussleopolis/details",
         rankImg: false, 
         trailer: "https://www.youtube.com/watch?v=mEsQ1_rF7gM&feature=youtu.be",
         stream: "https://www.twitch.tv/AZPM"
