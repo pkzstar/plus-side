@@ -275,8 +275,8 @@ const eventsData = [
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F694928%2Fimage-d570f648aa26ccea66517f31a2dccda5-optimized.png&ehk=wQJOmHo9Afn6nRwa%2FwDShMfftHg7tIqqjo%2BnGCznW8s%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/tussleopolis/details",
         rankImg: false, 
-        trailer: "https://www.youtube.com/watch?v=mEsQ1_rF7gM&feature=youtu.be",
-        stream: "https://www.twitch.tv/AZPM"
+        trailer: "https://youtu.be/VY6JO0mD0po",
+        stream: ""
       },
       {
         name: "Blacklisted 9",
