@@ -111,6 +111,32 @@ function createPastEventElement(eventData) {
 const eventData = [
 
   {
+    eventTitle: "Final Warning: The Golden Age",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F682493%2Fimage-3f77ea1166a44f5bb47bd76086aca4f0-optimized.png&ehk=Ihr%2FiITlMPIj3eGoJ8rx7jp8LU9d0zM47PLNNfo3S3E%3D&w=280&h=280&r=0",
+    eventUrl: "https://start.gg/fw",
+    date: "August 17 2024",
+    location: "Maine",
+    entrants: 37,
+    first: "Flarp",
+    second: "Thalia",
+    third: "Serb",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "Storm IX",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F685889%2Fimage-93aa902db1980d230e1408e73e570b32-optimized.png&ehk=k0xKVQvVRrSRjoIXPf4YN4aPmQXvWKjwYTpH2OKTo0E%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/storm-ix/details",
+    date: "August 17 2024",
+    location: "Newcastle",
+    entrants: 12,
+    first: "Eon",
+    second: "Jacob <3",
+    third: "The Notorious H.R.T.",
+    vodsUrl: "https://www.twitch.tv/videos/2226605677",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Glacier Gauntlet",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F681727%2Fimage-d59c9aef0d5d77939939dbd970ef6c7d-optimized.png&ehk=AUUIFLk0Oiq1d3WhjesVORgtOMv3%2FhrahPeTbelbXa8%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/glacier-gauntlet-a-best-in-texas-league-event/details",
@@ -557,7 +583,7 @@ const eventData = [
   imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/storm.png?raw=true",
   eventUrl: "https://www.start.gg/tournament/storm-viii-1/event/pm-singles",
   date: "March 16 2024",
-  location: "Newcastle upon Tyne",
+  location: "Newcastle",
   entrants: "24",
   first: "Eon",
   second: "maXy",
