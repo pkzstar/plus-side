@@ -240,3 +240,46 @@ document.addEventListener('DOMContentLoaded', () => {
     pastEvents2024Link.innerHTML = "2024";
     pastEventsList.appendChild(pastEvents2024Wrapper);
     pastEvents2024Link.classList.add("past-year");
+
+
+
+
+      
+// Get the bulb element
+const bulb = document.getElementById("bulb");
+
+// Function to set mode
+function setMode(isDark) {
+    if (isDark) {
+        bulb.src = 'https://raw.githubusercontent.com/pkzstar/plus-side/8492b4fa5d68b55899473283879884976a77f904/images/bulbDark.png';
+        document.body.style.backgroundColor = '#333'; // Dark mode background color
+        updateBackgroundImages('https://raw.githubusercontent.com/pkzstar/plus-side/96e3c064c37da4290e7c24a7c7b6c1cc8ea2c8cb/images/imageLight.png'); // Dark mode image
+    } else {
+        bulb.src = 'https://www.emphysys.com/wp-content/uploads/2015/04/iconmonstr-light-bulb-17-icon-256.png';
+        document.body.style.backgroundColor = '#fff'; // Light mode background color
+        updateBackgroundImages('https://github.com/pkzstar/plus-side/blob/main/images/bg100.png?raw=true'); // Light mode image
+    }
+}
+
+// Toggle mode when bulb is clicked
+bulb.onclick = function() {
+    const isDarkMode = bulb.src.includes('bulbDark');
+    setMode(!isDarkMode);
+}
+
+// Initialize mode based on the current bulb image
+setMode(bulb.src.includes('bulbDark'));
+
+// Update background images for wallpapers
+function updateBackgroundImages(imageUrl) {
+    const wallPapers = document.getElementsByClassName("wallpaper");
+    const wallPapers2 = document.getElementsByClassName("wallpaper2");
+
+    for (let i = 0; i < wallPapers.length; i++) {
+        wallPapers[i].style.backgroundImage = `url('${imageUrl}')`;
+    }
+
+    for (let i = 0; i < wallPapers2.length; i++) {
+        wallPapers2[i].style.backgroundImage = `url('${imageUrl}')`;
+    }
+}
