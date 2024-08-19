@@ -119,26 +119,6 @@ const eventsData = [
 
 
       {
-        name: "Storm IX",
-        date: "8/17/24",
-        location: "Newcastle, Northumberland, UK",
-        description: "THERE BE A STORM BREWIN' We return with Storm. Hosted at the Bridge Inn - Castle Garth venue. Opposite the Newcastle Castle. 48 PLAYER ENTRY CAP",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F685889%2Fimage-93aa902db1980d230e1408e73e570b32-optimized.png&ehk=k0xKVQvVRrSRjoIXPf4YN4aPmQXvWKjwYTpH2OKTo0E%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/storm-ix/details",
-        rankImg: false,
-        trailer: ""
-      },
-      {
-        name: "Final Warning: The Golden Age",
-        date: "8/17/24",
-        location: "South Portland, ME, USA",
-        description: "Registration closes at 11:59pm on Wednesday, 8/14! Get your pre-reg's in and secure your spot!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F682493%2Fimage-3f77ea1166a44f5bb47bd76086aca4f0-optimized.png&ehk=Ihr%2FiITlMPIj3eGoJ8rx7jp8LU9d0zM47PLNNfo3S3E%3D&w=280&h=280&r=0",
-        link: "https://start.gg/fw",
-        rankImg: true,
-        trailer: ""
-      },
-      {
         name: "Garden Brawl",
         date: "8/24/24",
         location: "Ridgewood, NJ, USA",
