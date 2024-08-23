@@ -252,12 +252,49 @@ const bulb = document.getElementById("bulb");
 function setMode(isDark) {
     if (isDark) {
         bulb.src = 'https://raw.githubusercontent.com/pkzstar/plus-side/8492b4fa5d68b55899473283879884976a77f904/images/bulbDark.png';
-        document.body.style.backgroundColor = '#333'; // Dark mode background color
         updateBackgroundImages('https://raw.githubusercontent.com/pkzstar/plus-side/96e3c064c37da4290e7c24a7c7b6c1cc8ea2c8cb/images/imageLight.png'); // Dark mode image
+
+        const pastEventsHeader = document.getElementsByClassName('pastEventsHeader');
+        for (let i = 0; i < pastEventsHeader.length; i++) {
+            pastEventsHeader[i].style.color = 'black';
+        }
+        
+        const patronsLink = document.getElementsByClassName('patrons');
+        for (let i = 0; i < patronsLink.length; i++) {
+            patronsLink[i].style.color = 'black';
+        }
+
+        const donorName = document.getElementsByClassName('donorName');
+        for (let i = 0; i < donorName.length; i++) {
+            donorName[i].style.color = 'black';
+        }
+        console.log("light mode enabled")
+
+        // Save the dark mode setting
+        localStorage.setItem('theme', 'dark');
     } else {
         bulb.src = 'https://www.emphysys.com/wp-content/uploads/2015/04/iconmonstr-light-bulb-17-icon-256.png';
-        document.body.style.backgroundColor = '#fff'; // Light mode background color
         updateBackgroundImages('https://github.com/pkzstar/plus-side/blob/main/images/bg100.png?raw=true'); // Light mode image
+
+        const pastEventsHeader = document.getElementsByClassName('pastEventsHeader');
+        for (let i = 0; i < pastEventsHeader.length; i++) {
+            pastEventsHeader[i].style.color = 'white';
+        }
+
+        const patronsLink = document.getElementsByClassName('patrons');
+        for (let i = 0; i < patronsLink.length; i++) {
+            patronsLink[i].style.color = 'white';
+        }
+
+        const donorName = document.getElementsByClassName('donorName');
+        for (let i = 0; i < donorName.length; i++) {
+            donorName[i].style.color = 'white';
+        }
+        console.log("dark mode enabled")
+
+
+        // Save the light mode setting
+        localStorage.setItem('theme', 'light');
     }
 }
 
@@ -267,8 +304,13 @@ bulb.onclick = function() {
     setMode(!isDarkMode);
 }
 
-// Initialize mode based on the current bulb image
-setMode(bulb.src.includes('bulbDark'));
+// Initialize mode based on saved preference or default to dark mode
+const savedTheme = localStorage.getItem('theme');
+if (savedTheme) {
+    setMode(savedTheme === 'dark');
+} else {
+    setMode(true); // Default to dark mode if no preference is saved
+}
 
 // Update background images for wallpapers
 function updateBackgroundImages(imageUrl) {
@@ -283,3 +325,4 @@ function updateBackgroundImages(imageUrl) {
         wallPapers2[i].style.backgroundImage = `url('${imageUrl}')`;
     }
 }
+console.log("dark mode enabled")

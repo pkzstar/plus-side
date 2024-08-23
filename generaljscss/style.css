@@ -382,9 +382,6 @@ input.inputPressure {
 }
 .textGradient {
     background: rgb(255,255,255);
-    background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 29%, rgba(255,255,255,1) 31%, rgba(255,255,255,1) 45%, rgba(128,128,128,1) 60%, rgba(255,255,255,1) 75%, rgba(255,255,255,1) 100%);
-    background: -webkit-linear-gradient(180deg, rgba(255,255,255,1) 29%, rgba(255,255,255,1) 31%, rgba(255,255,255,1) 45%, rgba(128,128,128,1) 60%, rgba(255,255,255,1) 75%, rgba(255,255,255,1) 100%);
-    background: linear-gradient(180deg, rgba(255,255,255,1) 29%, rgba(255,255,255,1) 31%, rgba(255,255,255,1) 45%, rgba(128,128,128,1) 60%, rgba(255,255,255,1) 75%, rgba(255,255,255,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#ffffff",GradientType=1);
     text-shadow:
     0px 0px 0px #ffffff, /* Outer shadow */

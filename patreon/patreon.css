@@ -3,7 +3,6 @@ a.patrons {
     font-weight: bold;
     font-size: 50px;
     display: inline-block;
-    text-shadow: 7px 7px 7px #000000;
         align-items: center;
 }
 a.patrons:link {

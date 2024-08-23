@@ -1468,19 +1468,62 @@ function showCalendar(month, year) {
                 //G5itD #5
                 } else if (month === 8 && (date === 21 || date === 22) && year === 2024) {
 
-
+                    const events = [
+                        {   
+                            link: "https://www.start.gg/tournament/game-5-in-the-d-5-the-big-one/details",
+                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/game5In.png?raw=true"
+                            
+                        },
+                        {
+                            link: "https://www.start.gg/tournament/baseline-2024/details",
+                            imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F696951%2Fimage-774bc33fc7d897565f38748cc29f7e83-optimized.png&ehk=fy1oedzzzd2gQFlAnQqL8YbDk8cGiuxWg2oGGup6CJc%3D&w=280&h=280&r=0"
+                        }
+                    ];
+                    let currentIndex = 0; // Initialize current index
+                
                     let link = document.createElement("a");
-                    link.href = "https://www.start.gg/tournament/game-5-in-the-d-5-the-big-one/details";
                     link.target = "_blank";
-
+                
                     let image = document.createElement("img");
-                    image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F691070%2Fimage-20c7e0ee687afcac9b01ac503fbdc8c3-optimized.jpg&ehk=RA9HKOI4f5SFLA5BA6Eogqbd89fxlbUvo52xfFEc1Mg%3D&w=280&h=280&r=0";
-
+                
                     image.classList.add("calendarImg");
-
-
+                
                     link.appendChild(image);
                     cell.appendChild(link);
+                
+                    // Function to fade in/out the image and link
+                    function fadeInOut(element) {
+                        let opacity = 0;
+                        let increasing = true;
+                        let interval = setInterval(function() {
+                            if (increasing) {
+                                opacity += 0.05;
+                            } else {
+                                opacity -= 0.05;
+                            }
+                            element.style.opacity = opacity;
+                            if (opacity >= 1) {
+                                increasing = false;
+                                setTimeout(() => {
+                                    increasing = true;
+                                    updateLinkAndImage(); // Update link and image after fully visible
+                                }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                            } else if (opacity <= 0) {
+                                clearInterval(interval);
+                                fadeInOut(element); // Restart the fading animation
+                            }
+                        }, 100); // Adjust the timing as needed
+                    }
+                
+                    // Function to update the link and image
+                    function updateLinkAndImage() {
+                        link.href = events[currentIndex].link;
+                        image.src = events[currentIndex].imageSrc;
+                        currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+                    }
+                
+                    updateLinkAndImage(); // Initially update link and image
+                    fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
                       //Mock the Hill
                 } else if (month === 8 && (date === 28) && year === 2024) {
