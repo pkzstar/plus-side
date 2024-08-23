@@ -259,13 +259,13 @@ function setMode(isDark) {
             pastEventsHeader[i].style.color = 'black';
         }
 
-        const bgColor = document.body;
-        bgColor.style.backgroundColor = `black`;
-        
         const patronsLink = document.getElementsByClassName('patrons');
         for (let i = 0; i < patronsLink.length; i++) {
             patronsLink[i].style.color = 'black';
         }
+
+        const bgColor = document.body;
+        bgColor.style.backgroundColor = `white`;
 
         const donorName = document.getElementsByClassName('donorName');
         for (let i = 0; i < donorName.length; i++) {
@@ -290,7 +290,8 @@ function setMode(isDark) {
         }
 
         const bgColor = document.body;
-        bgColor.style.backgroundColor = `white`;
+        bgColor.style.backgroundColor = `black`;
+        
 
         const donorName = document.getElementsByClassName('donorName');
         for (let i = 0; i < donorName.length; i++) {

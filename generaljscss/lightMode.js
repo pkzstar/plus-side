@@ -15,7 +15,7 @@ function setMode(isDark) {
         }
 
         const bgColor = document.body;
-        bgColor.style.backgroundColor = `black`;
+        bgColor.style.backgroundColor = `white`;
         
         const patronsLink = document.getElementsByClassName('patrons');
         for (let i = 0; i < patronsLink.length; i++) {
@@ -40,7 +40,7 @@ function setMode(isDark) {
         }
 
         const bgColor = document.body;
-        bgColor.style.backgroundColor = `white`;
+        bgColor.style.backgroundColor = `black`;
 
         const patronsLink = document.getElementsByClassName('patrons');
         for (let i = 0; i < patronsLink.length; i++) {
