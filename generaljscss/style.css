@@ -539,11 +539,15 @@ font-size: 20px !important;
         text-align: right;
         position: relative;
         margin: 0 5px 0 0;
+        font-size: 25%;
         }
         p.pastYearWrapper {
             position: relative;
-            left: 44px;
+            left: 48px;
             bottom: 10px;
+        }
+        a.past-year {
+            font-size: 90%;
         }
         div.calViewListContainer {
             margin: 0 0px 0 30px;
@@ -634,6 +638,12 @@ cursor: pointer;
   padding: 0;
   display: flex;
   flex-wrap: wrap;
+}
+.lightBulb {
+    width: 4%;
+    height: auto;
+    margin: 1%;
+    position: absolute;
 }
 p {
 margin: 2px 0 2px 0;
