@@ -13,6 +13,9 @@ function setMode(isDark) {
         for (let i = 0; i < pastEventsHeader.length; i++) {
             pastEventsHeader[i].style.color = 'black';
         }
+
+        const bgColor = document.body;
+        bgColor.style.backgroundColor = `black`;
         
         const patronsLink = document.getElementsByClassName('patrons');
         for (let i = 0; i < patronsLink.length; i++) {
@@ -35,6 +38,9 @@ function setMode(isDark) {
         for (let i = 0; i < pastEventsHeader.length; i++) {
             pastEventsHeader[i].style.color = 'white';
         }
+
+        const bgColor = document.body;
+        bgColor.style.backgroundColor = `white`;
 
         const patronsLink = document.getElementsByClassName('patrons');
         for (let i = 0; i < patronsLink.length; i++) {
