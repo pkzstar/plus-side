@@ -321,7 +321,7 @@ const eventData = [
   {
     eventTitle: "Smash Camp: New Lands",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F610441%2Fimage-19ea60088cabdbbf7b59e5246a8b4d3b-optimized.png&ehk=bouxfCgSG1JM%2F3sYvFxB%2BikGULDOP1%2Fvha2JwqNuSdo%3D&w=280&h=280&r=0",
-    eventUrl: "https://www.start.gg/tournament/tripoint-smash-presents-super-tps-iii/event/project-singles",
+    eventUrl: "https://www.start.gg/tournament/smash-camp-new-lands-2024/event/brawl-singles",
     date: "May 31 - June 2 2024",
     location: "Oregon",
     entrants: 62,
