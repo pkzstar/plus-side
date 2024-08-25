@@ -205,6 +205,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Final Warning: The Golden Age ",
+        date: "9/21/24",
+        location: "Portland, ME, USA",
+        description: "Early Bird Venue Fee! - Register by the end of August to save a few bucks! (Online payment required for discount!) Note: We're in a different room in the same venue this time! Pictures/details for getting in coming soon!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F701424%2Fimage-d681bf47d0ca7e37daf9b88631bea7c6-optimized.png&ehk=4%2FtFRi5qoGZRp6z7gv14YZMIgr%2BD171SAeuCN7Zxs90%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/final-warning-the-golden-age-chapter-ii/details",
+        rankImg: false,
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Mock the Hill",
         date: "9/28/24",
         location: "Rock Hill, SC, USA",

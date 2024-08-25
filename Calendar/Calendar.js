@@ -1465,8 +1465,73 @@ function showCalendar(month, year) {
                     cell.appendChild(link);
 
 
-                //G5itD #5
-                } else if (month === 8 && (date === 21 || date === 22) && year === 2024) {
+                //G5itD #5 & baseline & finalwarning
+                } else if (month === 8 && (date === 21) && year === 2024) {
+
+                    const events = [
+                        {   
+                            link: "https://www.start.gg/tournament/game-5-in-the-d-5-the-big-one/details",
+                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/past-events/game5In.png?raw=true"
+                            
+                        },
+                        {
+                            link: "https://www.start.gg/tournament/baseline-2024/details",
+                            imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F696951%2Fimage-774bc33fc7d897565f38748cc29f7e83-optimized.png&ehk=fy1oedzzzd2gQFlAnQqL8YbDk8cGiuxWg2oGGup6CJc%3D&w=280&h=280&r=0"
+                        },
+                        {
+                            link: "https://www.start.gg/tournament/final-warning-the-golden-age-chapter-ii/details",
+                            imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F701424%2Fimage-d681bf47d0ca7e37daf9b88631bea7c6-optimized.png&ehk=4%2FtFRi5qoGZRp6z7gv14YZMIgr%2BD171SAeuCN7Zxs90%3D&w=280&h=280&r=0"
+                        }
+                    ];
+                    let currentIndex = 0; // Initialize current index
+                
+                    let link = document.createElement("a");
+                    link.target = "_blank";
+                
+                    let image = document.createElement("img");
+                
+                    image.classList.add("calendarImg");
+                
+                    link.appendChild(image);
+                    cell.appendChild(link);
+                
+                    // Function to fade in/out the image and link
+                    function fadeInOut(element) {
+                        let opacity = 0;
+                        let increasing = true;
+                        let interval = setInterval(function() {
+                            if (increasing) {
+                                opacity += 0.05;
+                            } else {
+                                opacity -= 0.05;
+                            }
+                            element.style.opacity = opacity;
+                            if (opacity >= 1) {
+                                increasing = false;
+                                setTimeout(() => {
+                                    increasing = true;
+                                    updateLinkAndImage(); // Update link and image after fully visible
+                                }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                            } else if (opacity <= 0) {
+                                clearInterval(interval);
+                                fadeInOut(element); // Restart the fading animation
+                            }
+                        }, 100); // Adjust the timing as needed
+                    }
+                
+                    // Function to update the link and image
+                    function updateLinkAndImage() {
+                        link.href = events[currentIndex].link;
+                        image.src = events[currentIndex].imageSrc;
+                        currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+                    }
+                
+                    updateLinkAndImage(); // Initially update link and image
+                    fadeInOut(image); // Start fade-in/out animation // Start cycling events
+
+
+                //G5itD #5 & baseline
+                } else if (month === 8 && (date === 22) && year === 2024) {
 
                     const events = [
                         {   
