@@ -119,26 +119,6 @@ const eventsData = [
 
 
       {
-        name: "Garden Brawl",
-        date: "8/24/24",
-        location: "Ridgewood, NJ, USA",
-        description: "On August 24th, it's time to return to the garden. Over 4 years later, our namesake event is back! 🌼 Melee, Ultimate, P+, and HDR 🌼 256 Event Cap 🌼 Ridgewood, New Jersey",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F673156%2Fimage-0a6f4b065a1ae1c4d91d5756129d7bb8-optimized.png&ehk=ba6JikL4X%2Frf5t3o54c5h95%2BdgVUtm66bGi3H2jzZV8%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/garden-brawl/details",
-        rankImg: true,
-        trailer: "https://twitter.com/i/status/1797729780219224249"
-      },
-      {
-        name: "Condo of Blood",
-        date: "8/24/24",
-        location: "Mississauga, ON, Canada",
-        description: "Introducing Condo of Blood, an Ontario Project Plus and HDR regional hosted directly beside the Port Credit GO station. This accessible recurring tournament series will feature top Ontario talent and is designed fully around our shared love of these modded smash games.",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F695366%2Fimage-69b08d9c6872b4db4d2ffa1374652983-optimized.png&ehk=4bF4qUThMtweHMe%2ByEqvxnBepEhxvTi95m0CU5Lh5Q0%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/condo-of-blood/details",
-        rankImg: false,
-        trailer: ""
-      },
-      {
         name: "Tech Zone 3",
         date: "8/31/24",
         location: "Lisle, IL, USA",
@@ -189,7 +169,7 @@ const eventsData = [
         description: "We welcome all valiant competitors to our local P+ scene's return-to-form! Featuring a professional stream, custom tournament badges, your favorite players, and much, much more, this will be an event you won't want to miss!",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F691070%2Fimage-20c7e0ee687afcac9b01ac503fbdc8c3-optimized.jpg&ehk=RA9HKOI4f5SFLA5BA6Eogqbd89fxlbUvo52xfFEc1Mg%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/game-5-in-the-d-5-the-big-one/details",
-        rankImg: false,
+        rankImg: true,
         trailer: "",
         stream: "https://www.twitch.tv/game5projectplus"
       },
@@ -205,7 +185,7 @@ const eventsData = [
         stream: ""
       },
       {
-        name: "Final Warning: The Golden Age ",
+        name: "Final Warning: The Golden Age Chapter II",
         date: "9/21/24",
         location: "Portland, ME, USA",
         description: "Early Bird Venue Fee! - Register by the end of August to save a few bucks! (Online payment required for discount!) Note: We're in a different room in the same venue this time! Pictures/details for getting in coming soon!",
@@ -287,7 +267,7 @@ const eventsData = [
         description: "Blacklisted has moved venues for the first time in five years! Join us in Springfield, Massachusetts for the biggest and best Blacklisted yet! Blacklisted 9 will be returning with Doubles and Singles pools which will send players into double elimination Pro and Amateur brackets - now for both Project+ and HDR!",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F681909%2Fimage-7d4e0ff8435ebeb4a6ceb3cd129b1705-optimized.png&ehk=sQBjT2ATBqcPGXSXEzLSl2H8PYlq6I79X7ucG2mT4hU%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/blacklisted-9-a-project-and-hdr-major/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "https://twitter.com/BlacklistedSSB/status/1817403907984761246",
         stream: "https://www.twitch.tv/projectmnexus"
       }
