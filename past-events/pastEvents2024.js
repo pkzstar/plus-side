@@ -111,6 +111,32 @@ function createPastEventElement(eventData) {
 const eventData = [
 
   {
+    eventTitle: "Condo of Blood",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F695366%2Fimage-69b08d9c6872b4db4d2ffa1374652983-optimized.png&ehk=4bF4qUThMtweHMe%2ByEqvxnBepEhxvTi95m0CU5Lh5Q0%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/condo-of-blood/details",
+    date: "August 24 2024",
+    location: "Ontario",
+    entrants: 26,
+    first: "Blitz",
+    second: "Krumpberry",
+    third: "The clencher",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Garden Brawl",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F673156%2Fimage-0a6f4b065a1ae1c4d91d5756129d7bb8-optimized.png&ehk=ba6JikL4X%2Frf5t3o54c5h95%2BdgVUtm66bGi3H2jzZV8%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/garden-brawl/details",
+    date: "August 24 2024",
+    location: "New Jersey",
+    entrants: 53,
+    first: "Shiny Zubat",
+    second: "Switch",
+    third: "Aklo",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
     eventTitle: "Final Warning: The Golden Age",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F682493%2Fimage-3f77ea1166a44f5bb47bd76086aca4f0-optimized.png&ehk=Ihr%2FiITlMPIj3eGoJ8rx7jp8LU9d0zM47PLNNfo3S3E%3D&w=280&h=280&r=0",
     eventUrl: "https://start.gg/fw",
