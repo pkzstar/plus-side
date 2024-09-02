@@ -111,6 +111,32 @@ function createPastEventElement(eventData) {
 const eventData = [
 
   {
+    eventTitle: "Tech Zone 3",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F685674%2Fimage-c4721066d975473bbb300c0cb9c6fba3-optimized.png&ehk=8hPucP15HYK%2BadyuKPEp36gjy6N9HFnZm5UZKxcINS8%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/tech-zone-3/details",
+    date: "August 31 2024",
+    location: "Illinois",
+    entrants: 31,
+    first: "Chaloopy",
+    second: "ORLY",
+    third: "Comb",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "DFW Fest FINALE",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F694863%2Fimage-566e5e5f63a5f87f94a87375509f61c9-optimized.png&ehk=CaWmVw9oqVniui2UvyVvvcfkhfGIJ9rEMmwP9AdBz9A%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/dfw-fest-finale/event/p-singles",
+    date: "August 31 2024",
+    location: "Texas",
+    entrants: 59,
+    first: "Apathy",
+    second: "Pug",
+    third: "Captain Birdman",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
     eventTitle: "Condo of Blood",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F695366%2Fimage-69b08d9c6872b4db4d2ffa1374652983-optimized.png&ehk=4bF4qUThMtweHMe%2ByEqvxnBepEhxvTi95m0CU5Lh5Q0%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/condo-of-blood/details",

@@ -118,28 +118,7 @@ eventName.appendChild(location);
 const eventsData = [
 
 
-      {
-        name: "Tech Zone 3",
-        date: "8/31/24",
-        location: "Lisle, IL, USA",
-        description: "Competitor Registration (7/12 - 8/30) $15. Day-Of Competitor Registration (8/31) $20. Spectator Registration $10. Online Day-Of registration will be available from 12:00am-02:00pm. If you would like to register at the venue, you will have to be there at least 1 hour before your bracket of choice is set to start.",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F685674%2Fimage-c4721066d975473bbb300c0cb9c6fba3-optimized.png&ehk=8hPucP15HYK%2BadyuKPEp36gjy6N9HFnZm5UZKxcINS8%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/tech-zone-3/details",
-        rankImg: true,
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "DFW Fest FINALE :(",
-        date: "8/31/24",
-        location: "Plano, TX, USA",
-        description: "The final DFW Fest! Doors at 12PM CT, Dubs at 1PM CT, Singles at 3PM CT",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F694863%2Fimage-566e5e5f63a5f87f94a87375509f61c9-optimized.png&ehk=CaWmVw9oqVniui2UvyVvvcfkhfGIJ9rEMmwP9AdBz9A%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/dfw-fest-finale/details",
-        rankImg: true,
-        trailer: "https://youtu.be/plhYgcCJwtA",
-        stream: "https://www.twitch.tv/projectmnexus"
-      },
+
       {
         name: "Undertow 2024",
         date: "9/6/24 - 9/9/24",
