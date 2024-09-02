@@ -1750,6 +1750,24 @@ function showCalendar(month, year) {
                     fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
 
+
+                //Bustered Out
+            } else if (month === 9 && (date === 19) && year === 2024) {
+
+
+                let link = document.createElement("a");
+                link.href = "https://www.start.gg/tournament/bustered-out/details";
+                link.target = "_blank";
+
+                let image = document.createElement("img");
+                image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F703739%2Fimage-37259456efe40fdef53a88c108f61736-optimized.png&ehk=BeB8DjJp5ZmXStsCqSKmFtIEfHIqDl7UUDZv2fdRuU4%3D&w=280&h=280&r=0";
+
+                image.classList.add("calendarImg");
+
+
+                link.appendChild(image);
+                cell.appendChild(link);
+
                 //Tussleopolis
                 } else if (month === 9 && (date === 26) && year === 2024) {
 
@@ -1767,8 +1785,27 @@ function showCalendar(month, year) {
                 link.appendChild(image);
                 cell.appendChild(link);
 
+
+                 //Homecoming
+} else if (month === 10 && (date === 9) && year === 2024) {
+
+
+    let link = document.createElement("a");
+    link.href = "https://smashboards.com/threads/homecoming-p-hdr-nov-9th-2024.523550/";
+    link.target = "_blank";
+
+    let image = document.createElement("img");
+    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/homecominglogo.png?raw=true";
+
+    image.classList.add("calendarImg");
+
+
+    link.appendChild(image);
+    cell.appendChild(link);
+} 
+
                 //BL9
-                } else if (month === 10 && (date === 16 || date === 17) && year === 2024) {
+                 else if (month === 10 && (date === 16 || date === 17) && year === 2024) {
 
 
                     let link = document.createElement("a");

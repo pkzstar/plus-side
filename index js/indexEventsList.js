@@ -229,6 +229,17 @@ const eventsData = [
         stream: "https://www.twitch.tv/AZPM"
       },
       {
+        name: "Bustered Out",
+        date: "10/19/24",
+        location: "Nashville, TN, USA",
+        description: "Welcome to Bustered Out! This is a Melee/P+ Regional event located in the Opry Mills Mall Dave & Busters. All registration will include entry to the event as well as an all-you-can-eat catered buffet.",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F703739%2Fimage-37259456efe40fdef53a88c108f61736-optimized.png&ehk=BeB8DjJp5ZmXStsCqSKmFtIEfHIqDl7UUDZv2fdRuU4%3D&w=280&h=280&r=00",
+        link: "https://www.start.gg/tournament/bustered-out/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Tussleopolis",
         date: "10/26/24",
         location: "Normal, IL, USA",
@@ -237,6 +248,17 @@ const eventsData = [
         link: "https://www.start.gg/tournament/tussleopolis/details",
         rankImg: true, 
         trailer: "https://youtu.be/VY6JO0mD0po",
+        stream: ""
+      },
+      {
+        name: "Homecoming",
+        date: "11/9/24",
+        location: "Cincinnati, OH, USA",
+        description: "A reunion tournament celebrating the 10 Year Anniversary of Project M's heyday in Southwest Ohio! Now featuring HDR Singles and a Cobalt X side bracket, with P+ characters banned",
+        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/homecominglogo.png?raw=true",
+        link: "https://smashboards.com/threads/homecoming-p-hdr-nov-9th-2024.523550/",
+        rankImg: false, 
+        trailer: "",
         stream: ""
       },
       {
