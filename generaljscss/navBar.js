@@ -62,7 +62,6 @@ function createNavBar() {
   eventsText.id = 'navText';
   eventsText.textContent = 'Events';
   eventsLink.appendChild(eventsText);
-
   navTextSection.appendChild(eventsLink);
 
   const articlesLink = document.createElement('a');

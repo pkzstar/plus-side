@@ -39,6 +39,11 @@ function setMode(isDark) {
             p[i].style.color = 'black';
         }
 
+        const navText = document.getElementsByClassName('navText');
+        for (let i = 0; i < navText.length; i++) {
+            navText[i].style.color = 'white';
+        }
+
         const articleLink = document.getElementsByClassName('articleLink');
         for (let i = 0; i < articleLink.length; i++) {
             articleLink[i].style.color = '';
@@ -82,6 +87,10 @@ function setMode(isDark) {
             p[i].style.color = 'white';
         }
 
+        const navText = document.getElementsByClassName('navText');
+        for (let i = 0; i < navText.length; i++) {
+            navText[i].style.color = 'white';
+        }
         
         const articleLink = document.getElementsByClassName('articleLink');
         for (let i = 0; i < articleLink.length; i++) {
@@ -113,8 +122,8 @@ if (savedTheme) {
 
 // Update background images for wallpapers
 function updateBackgroundImages(imageUrl) {
-    const wallPapers = document.getElementsByClassName("wallpaper");
-    const wallPapers2 = document.getElementsByClassName("wallpaper2");
+    const wallPapers = document.getElementsByClassName("wallpaperStatic");
+    const wallPapers2 = document.getElementsByClassName("wallpaperLightStatic");
 
     for (let i = 0; i < wallPapers.length; i++) {
         wallPapers[i].style.backgroundImage = `url('${imageUrl}')`;
