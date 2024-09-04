@@ -39,9 +39,10 @@ function setMode(isDark) {
             p[i].style.color = 'black';
         }
 
-        const navText = document.getElementsByClassName('navText');
-        for (let i = 0; i < navText.length; i++) {
-            navText[i].style.color = 'white';
+
+        const navTextContent = document.getElementsByClassName('navTextContent');
+        for (let i = 0; i < navTextContent.length; i++) {
+            navTextContent[i].style.color = 'white'; // Ensure navbar text is white
         }
 
         const articleLink = document.getElementsByClassName('articleLink');
@@ -87,9 +88,10 @@ function setMode(isDark) {
             p[i].style.color = 'white';
         }
 
-        const navText = document.getElementsByClassName('navText');
-        for (let i = 0; i < navText.length; i++) {
-            navText[i].style.color = 'white';
+
+        const navTextContent = document.getElementsByClassName('navTextContent');
+        for (let i = 0; i < navTextContent.length; i++) {
+            navTextContent[i].style.color = 'white'; // Ensure navbar text is white
         }
         
         const articleLink = document.getElementsByClassName('articleLink');

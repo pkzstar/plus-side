@@ -22,6 +22,9 @@
    border-block-color: green;
    writing-mode: horizontal-tb;
 }
+.navTextContent {
+    color: white;
+}
 .articleStyle:hover {
     font-family: 'Nunito';
     border-style: double;
