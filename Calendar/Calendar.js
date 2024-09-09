@@ -1820,7 +1820,28 @@ function showCalendar(month, year) {
 
                     link.appendChild(image);
                     cell.appendChild(link);
-                }         
+                }  
+                // CoB 2
+                else if (month === 11 && (date === 14) && year === 2024) {
+
+
+                    let link = document.createElement("a");
+                    link.href = "https://www.start.gg/tournament/condo-of-blood-2-2/details";
+                    link.target = "_blank";
+    
+                    let image = document.createElement("img");
+                    image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F702378%2Fimage-8d2b7a057fea4990d7c65f0a9029ce55-optimized.png&ehk=IdU531WdJ2NzjRvsKva8PJUtCeLIIHB6Di%2BJqFU80bU%3D&w=280&h=280&r=0";
+    
+                    image.classList.add("calendarImg");
+    
+    
+                    link.appendChild(image);
+                    cell.appendChild(link);
+    
+                }
+                
+                // end
+
                 else {
                     // Create and append the date text only if there is no image
                     cellText = document.createTextNode(date);
