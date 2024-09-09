@@ -111,6 +111,19 @@ function createPastEventElement(eventData) {
 const eventData = [
 
   {
+    eventTitle: "Undertow 2024",
+    imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/undertow2024.png?raw=true",
+    eventUrl: "https://www.start.gg/tournament/undertow-2024/details",
+    date: "September 6-8 2024",
+    location: "Illinois",
+    entrants: 120,
+    first: "Ellipsis",
+    second: "Shiny Zubat",
+    third: "ORLY",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLXuSSlxxWDDqkAM66euQKkMjRIrYICQFV",
+    hideRankImage: false
+  },
+  {
     eventTitle: "Tech Zone 3",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F685674%2Fimage-c4721066d975473bbb300c0cb9c6fba3-optimized.png&ehk=8hPucP15HYK%2BadyuKPEp36gjy6N9HFnZm5UZKxcINS8%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/tech-zone-3/details",
