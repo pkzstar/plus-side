@@ -120,17 +120,6 @@ const eventsData = [
 
 
       {
-        name: "Undertow 2024",
-        date: "9/6/24 - 9/9/24",
-        location: "Sandusky, OH, USA",
-        description: "Thanks to the dedication of the Midwest Project+ and HDR communities, we're proud to continue the water park shadow major tradition in 2024!",
-        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/undertow2024.png?raw=true",
-        link: "https://www.start.gg/tournament/undertow-2024/details",
-        rankImg: true,
-        trailer: "https://drive.google.com/file/d/1vimHNr_rDTmjhH1vFLUpQZjQPFIsG7xR/view",
-        stream: "https://www.twitch.tv/projectmnexus"
-      },
-      {
         name: "Rising Rumble",
         date: "9/14/24",
         location: "Waco, TX, USA",
@@ -224,7 +213,7 @@ const eventsData = [
         description: "AZPM is back! Five Nights at Fingy's 2 is a FNAF themed Project+ Tournament in Mesa, Arizona",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/fnaf2.png?raw=true",
         link: "https://www.start.gg/tournament/five-nights-at-fingy-s-2/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "https://www.youtube.com/watch?v=mEsQ1_rF7gM&feature=youtu.be",
         stream: "https://www.twitch.tv/AZPM"
       },
@@ -271,6 +260,17 @@ const eventsData = [
         rankImg: true, 
         trailer: "https://twitter.com/BlacklistedSSB/status/1817403907984761246",
         stream: "https://www.twitch.tv/projectmnexus"
+      },
+      {
+        name: "Condo of Blood 2",
+        date: "12/14/24",
+        location: "Mississauga, Ontario, Canada",
+        description: "Condo of Blood is an Ontario Project Plus and HDR regional hosted directly beside the Port Credit GO station. This accessible recurring tournament series will feature top Ontario talent and is designed fully around our shared love of these modded smash games.",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F702378%2Fimage-8d2b7a057fea4990d7c65f0a9029ce55-optimized.png&ehk=IdU531WdJ2NzjRvsKva8PJUtCeLIIHB6Di%2BJqFU80bU%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/condo-of-blood-2-2/details",
+        rankImg: true, 
+        trailer: "",
+        stream: ""
       }
     ];
 
