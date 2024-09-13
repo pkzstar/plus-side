@@ -175,6 +175,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Who's On Ledge? 8",
+        date: "9/28/24",
+        location: "Des Moines, IA, USA",
+        description: "DMGC presents Who's on Ledge? Our monthly tournament series featuring Super Smash Bros. Melee and Project+ at RezBlue Arena!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F705574%2Fimage-001e0bb9ef6814d5ad9d0da9d15e20cc-optimized.png&ehk=nFigS1l1Ei6eXaxoKzSl2OM2Zxrzdl2PooqbqigXQ%2BE%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/who-s-on-ledge-8/details",
+        rankImg: false,
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Infrared 2024",
         date: "10/6/24",
         location: "Westford, MA, USA",

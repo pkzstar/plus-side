@@ -211,7 +211,7 @@ const eventData = [
     first: "Apathy",
     second: "~CP9~",
     third: "Phorcys",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLjsXbJ48MWJXTDjYZ5r3Dmk40Itt8E-Z9",
     hideRankImage: true
   },
   {
