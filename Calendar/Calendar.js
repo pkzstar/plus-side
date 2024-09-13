@@ -1590,25 +1590,67 @@ function showCalendar(month, year) {
                     updateLinkAndImage(); // Initially update link and image
                     fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-                      //Mock the Hill
+                      //Mock the Hill & Who's on Ledge 8
                 } else if (month === 8 && (date === 28) && year === 2024) {
 
-
+                    const events = [
+                        {   
+                            link: "https://www.start.gg/tournament/mock-the-hill/details",
+                            imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F697791%2Fimage-39545909a658026a858498ec68a98ebb-optimized.jpg&ehk=ptFX7jG0LIcnP8be9NZVzkVsjHxCT4RTEsPKL%2BloJbw%3D&w=280&h=280&r=0"
+                            
+                        },
+                        {
+                            link: "https://www.start.gg/tournament/who-s-on-ledge-8/details",
+                            imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F705574%2Fimage-001e0bb9ef6814d5ad9d0da9d15e20cc-optimized.png&ehk=nFigS1l1Ei6eXaxoKzSl2OM2Zxrzdl2PooqbqigXQ%2BE%3D&w=280&h=280&r=0"
+                        }
+                    ];
+                    let currentIndex = 0; // Initialize current index
+                
                     let link = document.createElement("a");
-                    link.href = "https://www.start.gg/tournament/mock-the-hill/details";
                     link.target = "_blank";
-
+                
                     let image = document.createElement("img");
-                    image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F697791%2Fimage-39545909a658026a858498ec68a98ebb-optimized.jpg&ehk=ptFX7jG0LIcnP8be9NZVzkVsjHxCT4RTEsPKL%2BloJbw%3D&w=280&h=280&r=0";
-
+                
                     image.classList.add("calendarImg");
-
-
+                
                     link.appendChild(image);
                     cell.appendChild(link);
+                
+                    // Function to fade in/out the image and link
+                    function fadeInOut(element) {
+                        let opacity = 0;
+                        let increasing = true;
+                        let interval = setInterval(function() {
+                            if (increasing) {
+                                opacity += 0.05;
+                            } else {
+                                opacity -= 0.05;
+                            }
+                            element.style.opacity = opacity;
+                            if (opacity >= 1) {
+                                increasing = false;
+                                setTimeout(() => {
+                                    increasing = true;
+                                    updateLinkAndImage(); // Update link and image after fully visible
+                                }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                            } else if (opacity <= 0) {
+                                clearInterval(interval);
+                                fadeInOut(element); // Restart the fading animation
+                            }
+                        }, 100); // Adjust the timing as needed
+                    }
+                
+                    // Function to update the link and image
+                    function updateLinkAndImage() {
+                        link.href = events[currentIndex].link;
+                        image.src = events[currentIndex].imageSrc;
+                        currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+                    }
+                
+                    updateLinkAndImage(); // Initially update link and image
+                    fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-
-                //Big Cheese
+                      //Big Cheese 5
                 } else if (month === 9 && (date === 11) && year === 2024) {
 
 
