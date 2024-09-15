@@ -120,17 +120,6 @@ const eventsData = [
 
 
       {
-        name: "Rising Rumble",
-        date: "9/14/24",
-        location: "Waco, TX, USA",
-        description: "Welcome to the eighth and final Best in Texas 2024 League event before the finale! This event features three different tiers of brackets after pools, so each tier of player will have a chance to compete against other players around their skill level. That means there's a trophy for the winner of each bracket!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F696391%2Fimage-7685a90fa93f882994733553bd877bdb-optimized.png&ehk=J4kX1Hmj1QYyaSM6lqGDfNRXKJsBVr%2BD0j7R%2ByW%2B1aY%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/rising-rumble-a-best-in-texas-league-event/details",
-        rankImg: false,
-        trailer: "",
-        stream: "https://www.twitch.tv/projectmnexus"
-      },
-      {
         name: "Game 5 in the D #5",
         date: "9/21/24 - 9/22/24",
         location: "Detroit, MI, USA",
@@ -192,7 +181,7 @@ const eventsData = [
         description: "This event will take place on Saturday, October 6th inside of the Wavelength 2024 Venue. You MUST be registered for Wavelength 2024 as a competitor or spectator in order to attend this event!",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F689857%2Fimage-beb293c506128370f03dbac8b3301b61-optimized.jpg&ehk=USndSOdl8bTgh1izawrAwxr2nxvNn%2FTpocJgAGqoDY0%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/infrared-2024/details",
-        rankImg: false,
+        rankImg: true,
         trailer: "",
         stream: ""
       },
@@ -222,10 +211,10 @@ const eventsData = [
         date: "10/12/24 - 10/13/24",
         location: "Mesa, AZ, USA",
         description: "AZPM is back! Five Nights at Fingy's 2 is a FNAF themed Project+ Tournament in Mesa, Arizona",
-        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/fnaf2.png?raw=true",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F668397%2Fimage-1e18220f83e877c6da334764a00977b5-optimized.png&ehk=JOwH0wB0RoMNi3UjTkR5NNXjF%2BtlvlE2aTwSJdeazF4%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/five-nights-at-fingy-s-2/details",
         rankImg: true, 
-        trailer: "https://www.youtube.com/watch?v=mEsQ1_rF7gM&feature=youtu.be",
+        trailer: "https://www.youtube.com/watch?v=JtRzfVC07wk",
         stream: "https://www.twitch.tv/AZPM"
       },
       {
@@ -240,6 +229,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "LA Super Nexus XVI",
+        date: "10/19/24",
+        location: "Baton Rouge, LA, USA",
+        description: "BATON ROUGE SMASH IS BACK, THIS TIME AT THE NEXUS LOUISIANA TECH PARK! Baton Rouge Smash is proud to present: LA Super Nexus XVI",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F702923%2Fimage-63104f6428f87cba5cc7db5a34d7e9a9-optimized.png&ehk=Gd2KsBZ6MpIu%2BN%2BtSrYDgTfvc6anIk%2B%2FNF72y1tiwVE%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/la-super-nexus-xvi/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Tussleopolis",
         date: "10/26/24",
         location: "Normal, IL, USA",
@@ -249,6 +249,17 @@ const eventsData = [
         rankImg: true, 
         trailer: "https://youtu.be/VY6JO0mD0po",
         stream: ""
+      },
+      {
+        name: "Beachin",
+        date: "11/1/24 - 11/3/24",
+        location: "Sunny Isles Beach, FL, USA",
+        description: "Huge vibes going down on Saturday Night in the friendlies room of a certain major event down in Florida",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F686090%2Fimage-684569cc3ea9311290b0ea4112e96952-optimized.png&ehk=QzjLADSfuKgzgjCzafkZLcvUzaGH%2Fu69WSLcT4QYIMo%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/beachin/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.twitch.tv/rome0_ssb"
       },
       {
         name: "Homecoming",

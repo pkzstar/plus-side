@@ -1678,7 +1678,7 @@ function showCalendar(month, year) {
                     },
                     {
                         link: "https://www.start.gg/tournament/five-nights-at-fingy-s-2/details",
-                        imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/fnaf2.png?raw=true"
+                        imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F668397%2Fimage-1e18220f83e877c6da334764a00977b5-optimized.png&ehk=JOwH0wB0RoMNi3UjTkR5NNXjF%2BtlvlE2aTwSJdeazF4%3D&w=280&h=280&r=0"
                     },
                     {
                         link: "https://www.start.gg/tournament/smash-of-the-titans-9-1/details",
@@ -1742,7 +1742,7 @@ function showCalendar(month, year) {
                         },
                         {
                             link: "https://www.start.gg/tournament/five-nights-at-fingy-s-2/details",
-                            imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/fnaf2.png?raw=true"
+                            imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F668397%2Fimage-1e18220f83e877c6da334764a00977b5-optimized.png&ehk=JOwH0wB0RoMNi3UjTkR5NNXjF%2BtlvlE2aTwSJdeazF4%3D&w=280&h=280&r=0"
                         }
                     ];
                     let currentIndex = 0; // Initialize current index
@@ -1793,61 +1793,104 @@ function showCalendar(month, year) {
 
 
 
-                //Bustered Out
+                //Bustered Out + LA Super Nexus
             } else if (month === 9 && (date === 19) && year === 2024) {
 
+                const events = [
+                    {   
+                        link: "https://www.start.gg/tournament/bustered-out/details",
+                        imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F703739%2Fimage-37259456efe40fdef53a88c108f61736-optimized.png&ehk=BeB8DjJp5ZmXStsCqSKmFtIEfHIqDl7UUDZv2fdRuU4%3D&w=280&h=280&r=00"
+                        
+                    },
+                    {
+                        link: "https://www.start.gg/tournament/la-super-nexus-xvi/details",
+                        imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F702923%2Fimage-63104f6428f87cba5cc7db5a34d7e9a9-optimized.png&ehk=Gd2KsBZ6MpIu%2BN%2BtSrYDgTfvc6anIk%2B%2FNF72y1tiwVE%3D&w=280&h=280&r=0"
+                    }
+                ];
+                let currentIndex = 0; // Initialize current index
+            
+                let link = document.createElement("a");
+                link.target = "_blank";
+            
+                let image = document.createElement("img");
+            
+                image.classList.add("calendarImg");
+            
+                link.appendChild(image);
+                cell.appendChild(link);
+            
+                // Function to fade in/out the image and link
+                function fadeInOut(element) {
+                    let opacity = 0;
+                    let increasing = true;
+                    let interval = setInterval(function() {
+                        if (increasing) {
+                            opacity += 0.05;
+                        } else {
+                            opacity -= 0.05;
+                        }
+                        element.style.opacity = opacity;
+                        if (opacity >= 1) {
+                            increasing = false;
+                            setTimeout(() => {
+                                increasing = true;
+                                updateLinkAndImage(); // Update link and image after fully visible
+                            }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                        } else if (opacity <= 0) {
+                            clearInterval(interval);
+                            fadeInOut(element); // Restart the fading animation
+                        }
+                    }, 100); // Adjust the timing as needed
+                }
+            
+                // Function to update the link and image
+                function updateLinkAndImage() {
+                    link.href = events[currentIndex].link;
+                    image.src = events[currentIndex].imageSrc;
+                    currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+                }
+            
+                updateLinkAndImage(); // Initially update link and image
+                fadeInOut(image); // Start fade-in/out animation // Start cycling events
+
+
+
+            // Beachin
+            } else if (month === 10 && (date === 9) && year === 2024) {
+
+
+            let link = document.createElement("a");
+            link.href = "https://www.start.gg/tournament/beachin/details";
+            link.target = "_blank";
+
+            let image = document.createElement("img");
+            image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F686090%2Fimage-684569cc3ea9311290b0ea4112e96952-optimized.png&ehk=QzjLADSfuKgzgjCzafkZLcvUzaGH%2Fu69WSLcT4QYIMo%3D&w=280&h=280&r=0";
+
+            image.classList.add("calendarImg");
+
+
+            link.appendChild(image);
+            cell.appendChild(link);
+
+            //Homecoming
+            } else if (month === 10 && (date === 9) && year === 2024) {
+
 
                 let link = document.createElement("a");
-                link.href = "https://www.start.gg/tournament/bustered-out/details";
+                link.href = "https://smashboards.com/threads/homecoming-p-hdr-nov-9th-2024.523550/";
                 link.target = "_blank";
 
                 let image = document.createElement("img");
-                image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F703739%2Fimage-37259456efe40fdef53a88c108f61736-optimized.png&ehk=BeB8DjJp5ZmXStsCqSKmFtIEfHIqDl7UUDZv2fdRuU4%3D&w=280&h=280&r=0";
+                image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/homecominglogo.png?raw=true";
 
                 image.classList.add("calendarImg");
 
 
                 link.appendChild(image);
                 cell.appendChild(link);
-
-                //Tussleopolis
-                } else if (month === 9 && (date === 26) && year === 2024) {
-
-
-                let link = document.createElement("a");
-                link.href = "https://www.start.gg/tournament/tussleopolis/details";
-                link.target = "_blank";
-
-                let image = document.createElement("img");
-                image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F694928%2Fimage-d570f648aa26ccea66517f31a2dccda5-optimized.png&ehk=wQJOmHo9Afn6nRwa%2FwDShMfftHg7tIqqjo%2BnGCznW8s%3D&w=280&h=280&r=0";
-
-                image.classList.add("calendarImg");
-
-
-                link.appendChild(image);
-                cell.appendChild(link);
-
-
-                 //Homecoming
-} else if (month === 10 && (date === 9) && year === 2024) {
-
-
-    let link = document.createElement("a");
-    link.href = "https://smashboards.com/threads/homecoming-p-hdr-nov-9th-2024.523550/";
-    link.target = "_blank";
-
-    let image = document.createElement("img");
-    image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/homecominglogo.png?raw=true";
-
-    image.classList.add("calendarImg");
-
-
-    link.appendChild(image);
-    cell.appendChild(link);
-} 
-
+            } 
                 //BL9
-                 else if (month === 10 && (date === 16 || date === 17) && year === 2024) {
+               else if (month === 10 && (date === 16 || date === 17) && year === 2024) {
 
 
                     let link = document.createElement("a");
@@ -1862,7 +1905,7 @@ function showCalendar(month, year) {
 
                     link.appendChild(image);
                     cell.appendChild(link);
-                }  
+                } 
                 // CoB 2
                 else if (month === 11 && (date === 14) && year === 2024) {
 
