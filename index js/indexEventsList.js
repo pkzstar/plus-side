@@ -251,6 +251,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "EUGG's: Now Slaying!",
+        date: "10/26/24",
+        location: "Edinboro, PA, USA",
+        description: "EUGG's Super Smash Boro is held at Butterfield Hall, Room 134, at Edinboro University's Campus in Edinboro, PA. Our venue features ample seating and power, multiple projectors. POSTERS AVAILABLE FOR PREORDER!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F707279%2Fimage-c671e5249610d692af2e9390a5bd39b6-optimized.png&ehk=%2FfxMt4ldJJRdMBSJ2rkkrUGI06gxa%2FUO8cw2J2cGfHU%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/eugg-s-the-monthly-grindhouse-now-slaying/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Beachin",
         date: "11/1/24 - 11/3/24",
         location: "Sunny Isles Beach, FL, USA",
