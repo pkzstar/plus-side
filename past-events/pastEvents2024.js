@@ -111,19 +111,19 @@ function createPastEventElement(eventData) {
 const eventData = [
 
 
-  {
-    eventTitle: "Rising Rumble",
-    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F696391%2Fimage-7685a90fa93f882994733553bd877bdb-optimized.png&ehk=J4kX1Hmj1QYyaSM6lqGDfNRXKJsBVr%2BD0j7R%2ByW%2B1aY%3D&w=280&h=280&r=0",
-    eventUrl: "https://www.start.gg/tournament/rising-rumble-a-best-in-texas-league-event/details",
-    date: "September 14 2024",
-    location: "Texas",
-    entrants: 25,
-    first: "Apathy",
-    second: "Salt",
-    third: "Studebacher Hoch",
-    vodsUrl: "",
-    hideRankImage: true
-  },
+  // {
+  //   eventTitle: "Rising Rumble",
+  //   imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F696391%2Fimage-7685a90fa93f882994733553bd877bdb-optimized.png&ehk=J4kX1Hmj1QYyaSM6lqGDfNRXKJsBVr%2BD0j7R%2ByW%2B1aY%3D&w=280&h=280&r=0",
+  //   eventUrl: "https://www.start.gg/tournament/rising-rumble-a-best-in-texas-league-event/details",
+  //   date: "September 14 2024",
+  //   location: "Texas",
+  //   entrants: 25,
+  //   first: "Apathy",
+  //   second: "Salt",
+  //   third: "Studebacher Hoch",
+  //   vodsUrl: "",
+  //   hideRankImage: true
+  // },
   {
     eventTitle: "Rising Rumble",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F696391%2Fimage-7685a90fa93f882994733553bd877bdb-optimized.png&ehk=J4kX1Hmj1QYyaSM6lqGDfNRXKJsBVr%2BD0j7R%2ByW%2B1aY%3D&w=280&h=280&r=0",
