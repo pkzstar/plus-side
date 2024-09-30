@@ -251,6 +251,17 @@ const eventsData = [
         stream: "https://www.twitch.tv/projectmnexus"
       },
       {
+        name: "Pissmas 5",
+        date: "11/29/24 - 12/1/24",
+        location: "Southport, QLD, Australia",
+        description: "A Christmas Smash Major in collaboration with Queensland Ultimate, Tournameta and Piss Gang. Pissmas 5 will run over three days, feature 7 brackets and the one and only Pissbet!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F711199%2Fimage-13f747fdf4949ee152c280b5ad6213dc-optimized.png&ehk=B4KLu7um2O7wIzURoDP%2F1L8VLvwVop4KB47typTJpaQ%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/pissmas-5/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Condo of Blood 2",
         date: "12/14/24",
         location: "Mississauga, Ontario, Canada",

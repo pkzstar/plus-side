@@ -2014,6 +2014,27 @@ function showCalendar(month, year) {
                     link.appendChild(image);
                     cell.appendChild(link);
                 } 
+
+
+                               //Pissmas
+               else if ((month === 10 && (date === 29 || date === 30) && year === 2024) || 
+               (month === 11 && date === 1 && year === 2024)) {
+
+
+                let link = document.createElement("a");
+                link.href = "https://www.start.gg/tournament/pissmas-5/details";
+                link.target = "_blank";
+
+                let image = document.createElement("img");
+                image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F711199%2Fimage-13f747fdf4949ee152c280b5ad6213dc-optimized.png&ehk=B4KLu7um2O7wIzURoDP%2F1L8VLvwVop4KB47typTJpaQ%3D&w=280&h=280&r=0";
+
+                image.classList.add("calendarImg");
+
+
+                link.appendChild(image);
+                cell.appendChild(link);
+            } 
+
                 // CoB 2
                 else if (month === 11 && (date === 14) && year === 2024) {
 
