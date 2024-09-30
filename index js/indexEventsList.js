@@ -120,61 +120,6 @@ const eventsData = [
 
 
       {
-        name: "Game 5 in the D #5",
-        date: "9/21/24 - 9/22/24",
-        location: "Detroit, MI, USA",
-        description: "We welcome all valiant competitors to our local P+ scene's return-to-form! Featuring a professional stream, custom tournament badges, your favorite players, and much, much more, this will be an event you won't want to miss!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F691070%2Fimage-20c7e0ee687afcac9b01ac503fbdc8c3-optimized.jpg&ehk=RA9HKOI4f5SFLA5BA6Eogqbd89fxlbUvo52xfFEc1Mg%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/game-5-in-the-d-5-the-big-one/details",
-        rankImg: true,
-        trailer: "",
-        stream: "https://www.twitch.tv/game5projectplus"
-      },
-      {
-        name: "Baseline 2024",
-        date: "9/21/24 - 9/22/24",
-        location: "Mesa, AZ, USA",
-        description: "Arizona's Newest Melee and P+ Regional in the same venue as ECLIPSE! This event is completely community ran, and is not affiliated with any company, sponsor, or group. If we can secure 100 entrants total, we should be able to continue this series in coming years!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F696951%2Fimage-774bc33fc7d897565f38748cc29f7e83-optimized.png&ehk=fy1oedzzzd2gQFlAnQqL8YbDk8cGiuxWg2oGGup6CJc%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/baseline-2024/details",
-        rankImg: false,
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Final Warning: The Golden Age Chapter II",
-        date: "9/21/24",
-        location: "Portland, ME, USA",
-        description: "Early Bird Venue Fee! - Register by the end of August to save a few bucks! (Online payment required for discount!) Note: We're in a different room in the same venue this time! Pictures/details for getting in coming soon!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F701424%2Fimage-d681bf47d0ca7e37daf9b88631bea7c6-optimized.png&ehk=4%2FtFRi5qoGZRp6z7gv14YZMIgr%2BD171SAeuCN7Zxs90%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/final-warning-the-golden-age-chapter-ii/details",
-        rankImg: false,
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Mock the Hill",
-        date: "9/28/24",
-        location: "Rock Hill, SC, USA",
-        description: "Mock the Hill A p+ shadow regional held @ Rock the Hill 3. If you're already signed up on the main start gg you won't have to pay venue for p+",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F697791%2Fimage-39545909a658026a858498ec68a98ebb-optimized.jpg&ehk=ptFX7jG0LIcnP8be9NZVzkVsjHxCT4RTEsPKL%2BloJbw%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/mock-the-hill/details",
-        rankImg: false,
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Who's On Ledge? 8",
-        date: "9/28/24",
-        location: "Des Moines, IA, USA",
-        description: "DMGC presents Who's on Ledge? Our monthly tournament series featuring Super Smash Bros. Melee and Project+ at RezBlue Arena!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F705574%2Fimage-001e0bb9ef6814d5ad9d0da9d15e20cc-optimized.png&ehk=nFigS1l1Ei6eXaxoKzSl2OM2Zxrzdl2PooqbqigXQ%2BE%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/who-s-on-ledge-8/details",
-        rankImg: false,
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Infrared 2024",
         date: "10/6/24",
         location: "Westford, MA, USA",
