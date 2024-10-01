@@ -1293,7 +1293,7 @@ function showCalendar(month, year) {
                         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
 
-                    // Garden Brawl + Condo of Blood
+                    // Garden Brawl + Condo of Blood 1+1/2
                     } else if (month === 7 && (date === 24) && year === 2024) {
 
                         const events = [
@@ -1795,7 +1795,7 @@ function showCalendar(month, year) {
 
 
 
-                //Bustered Out + LA Super Nexus
+                //Bustered Out + LA Super Nexus + condo of blood
             } else if (month === 9 && (date === 19) && year === 2024) {
 
                 const events = [
@@ -1807,6 +1807,10 @@ function showCalendar(month, year) {
                     {
                         link: "https://www.start.gg/tournament/la-super-nexus-xvi/details",
                         imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F702923%2Fimage-63104f6428f87cba5cc7db5a34d7e9a9-optimized.png&ehk=Gd2KsBZ6MpIu%2BN%2BtSrYDgTfvc6anIk%2B%2FNF72y1tiwVE%3D&w=280&h=280&r=0"
+                    },
+                    {
+                        link: "https://www.start.gg/tournament/condo-of-blood-1-1-2-rumble-arena-of-lovers/details",
+                        imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F715099%2Fimage-663dbb431d19589ada53ac7ac9231f4f-optimized.png&ehk=DYbYVTiK0yQLi3ZT1kpljn6S%2FWG7iiBSd8fPVaa6%2B%2Bc%3D&w=280&h=280&r=0"
                     }
                 ];
                 let currentIndex = 0; // Initialize current index
@@ -2052,11 +2056,25 @@ function showCalendar(month, year) {
                     link.appendChild(image);
                     cell.appendChild(link);
     
-                }
-                
-                // end
+                    // TECH 2025
+                } else if (month === 0 && date === 11 && year === 2025) {
 
-                else {
+                    let link = document.createElement("a");
+                    link.href = "https://www.start.gg/tournament/tech-2025/details";
+                    link.target = "_blank";
+    
+                    let image = document.createElement("img");
+                    image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F703812%2Fimage-621a3df3388b485f1c17bc39ef5043b4-optimized.png&ehk=fmJ2bU7fSCoK6ta%2FoMgERgnFVVH1449V1iaXyonXZPQ%3D&w=280&h=280&r=0";
+    
+                    image.classList.add("calendarImg");
+    
+    
+                    link.appendChild(image);
+                    cell.appendChild(link);
+                
+                
+
+                 } else {
                     // Create and append the date text only if there is no image
                     cellText = document.createTextNode(date);
                     cell.appendChild(cellText);
