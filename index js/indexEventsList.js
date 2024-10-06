@@ -219,7 +219,7 @@ const eventsData = [
       },
       {
         name: "Homecoming",
-        date: "11/9/24",
+        date: "11/2/24",
         location: "Cincinnati, OH, USA",
         description: "A reunion tournament celebrating the 10 Year Anniversary of Project M's heyday in Southwest Ohio! Now featuring HDR Singles and a Cobalt X side bracket, with P+ characters banned",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/homecominglogo.png?raw=true",
