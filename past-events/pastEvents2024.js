@@ -113,6 +113,19 @@ const eventData = [
 
 
   {
+    eventTitle: "Infared 2024",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F689857%2Fimage-beb293c506128370f03dbac8b3301b61-optimized.jpg&ehk=USndSOdl8bTgh1izawrAwxr2nxvNn%2FTpocJgAGqoDY0%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/infrared-2024/details",
+    date: "October 6 2024",
+    location: "Iowa",
+    entrants: 25,
+    first: "Flarp",
+    second: "Switch",
+    third: "sfy bees",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
     eventTitle: "Who's On Ledge? 8",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F705574%2Fimage-001e0bb9ef6814d5ad9d0da9d15e20cc-optimized.png&ehk=nFigS1l1Ei6eXaxoKzSl2OM2Zxrzdl2PooqbqigXQ%2BE%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/who-s-on-ledge-8/event/project-singles",

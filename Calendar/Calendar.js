@@ -1795,7 +1795,7 @@ function showCalendar(month, year) {
 
 
 
-                //Bustered Out + LA Super Nexus + condo of blood
+                //Bustered Out + LA Super Nexus + condo of blood + Masters Eight
             } else if (month === 9 && (date === 19) && year === 2024) {
 
                 const events = [
@@ -1811,6 +1811,10 @@ function showCalendar(month, year) {
                     {
                         link: "https://www.start.gg/tournament/condo-of-blood-1-1-2-rumble-arena-of-lovers/details",
                         imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F715099%2Fimage-663dbb431d19589ada53ac7ac9231f4f-optimized.png&ehk=DYbYVTiK0yQLi3ZT1kpljn6S%2FWG7iiBSd8fPVaa6%2B%2Bc%3D&w=280&h=280&r=0"
+                    },
+                    {
+                        link: "https://www.start.gg/tournament/the-masters-eight-the-best-in-texas-finale/details",
+                        imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F710846%2Fimage-a280ba6e5ebd674f8e4cf5792f03daa6-optimized.png&ehk=AbKKao2cGi%2Fv2vHt%2FR%2FfCJOi1mLF45pFFOKlaL73Cl4%3D&w=280&h=280&r=0"
                     }
                 ];
                 let currentIndex = 0; // Initialize current index
@@ -1940,7 +1944,7 @@ function showCalendar(month, year) {
             updateLinkAndImage(); // Initially update link and image
             fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-                           //tussleopolis & eugg
+                           //tussleopolis & eugg + CPM: The Horror
                         } else if(month === 9 &&  date === 26 && year === 2024) {
 
                             const events = [
@@ -1953,7 +1957,10 @@ function showCalendar(month, year) {
                                     link: "https://www.start.gg/tournament/eugg-s-the-monthly-grindhouse-now-slaying/details",
                                     imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F707279%2Fimage-c671e5249610d692af2e9390a5bd39b6-optimized.png&ehk=%2FfxMt4ldJJRdMBSJ2rkkrUGI06gxa%2FUO8cw2J2cGfHU%3D&w=280&h=280&r=0"
                                 },
-             
+                                {
+                                    link: "https://www.start.gg/tournament/college-park-mutiny-the-horror/details",
+                                    imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F718217%2Fimage-909fd918014a0f14666628f9d2dacb2c-optimized.png&ehk=StdABTKuhDnUDTEa7oRlh7V3y9EXS0xzJLBubh84ZaU%3D&w=280&h=280&r=0"
+                                }
             
                             ];
                             let currentIndex = 0; // Initialize current index
@@ -2002,25 +2009,69 @@ function showCalendar(month, year) {
                             updateLinkAndImage(); // Initially update link and image
                             fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-            //show me your moves       
-        } else if (month === 10 && (date === 9) && year === 2024) {
+            //show me your moves & cardd's basement
+        } else if(month === 10 &&  date === 9 && year === 2024) {
 
+            const events = [
+                {   
+                    link: "https://www.start.gg/tournament/show-me-your-moves-24-1/details",
+                    imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F698361%2Fimage-d2e2c3e64de1dc9428c9460ea5c42180-optimized.jpg&ehk=i1VdSzAZQGuklEvHYhFum3SBQvSjxHcoDLlRYbWuOKA%3D&w=280&h=280&r=0"
+                    
+                },
+                {
+                    link: "https://www.start.gg/tournament/cardd-s-basement/details",
+                    imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F700328%2Fimage-23f218e8ddb0bde41f1f0de22c998782-optimized.png&ehk=OVSnkj%2BgETglWhmNzEkT0oB%2FjTi%2FIxbzMQcjrXSGnR4%3D&w=280&h=280&r=0"
+                }
 
-                                        let link = document.createElement("a");
-                                        link.href = "ttps://www.start.gg/tournament/show-me-your-moves-24-1/details";
-                                        link.target = "_blank";
-                        
-                                        let image = document.createElement("img");
-                                        image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F698361%2Fimage-d2e2c3e64de1dc9428c9460ea5c42180-optimized.jpg&ehk=i1VdSzAZQGuklEvHYhFum3SBQvSjxHcoDLlRYbWuOKA%3D&w=280&h=280&r=0";
-                        
-                                        image.classList.add("calendarImg");
-                        
-                        
-                                        link.appendChild(image);
-                                        cell.appendChild(link);
-                                    }
+            ];
+            let currentIndex = 0; // Initialize current index
+
+            let link = document.createElement("a");
+            link.target = "_blank";
+
+            let image = document.createElement("img");
+
+            image.classList.add("calendarImg");
+
+            link.appendChild(image);
+            cell.appendChild(link);
+
+            // Function to fade in/out the image and link
+            function fadeInOut(element) {
+                let opacity = 0;
+                let increasing = true;
+                let interval = setInterval(function() {
+                    if (increasing) {
+                        opacity += 0.05;
+                    } else {
+                        opacity -= 0.05;
+                    }
+                    element.style.opacity = opacity;
+                    if (opacity >= 1) {
+                        increasing = false;
+                        setTimeout(() => {
+                            increasing = true;
+                            updateLinkAndImage(); // Update link and image after fully visible
+                        }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                    } else if (opacity <= 0) {
+                        clearInterval(interval);
+                        fadeInOut(element); // Restart the fading animation
+                    }
+                }, 100); // Adjust the timing as needed
+            }
+        
+            // Function to update the link and image
+            function updateLinkAndImage() {
+                link.href = events[currentIndex].link;
+                image.src = events[currentIndex].imageSrc;
+                currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+            }
+        
+            updateLinkAndImage(); // Initially update link and image
+            fadeInOut(image); // Start fade-in/out animation // Start cycling events
+
                 //BL9
-               else if (month === 10 && (date === 16 || date === 17) && year === 2024) {
+            } else if (month === 10 && (date === 16 || date === 17) && year === 2024) {
 
 
                     let link = document.createElement("a");
