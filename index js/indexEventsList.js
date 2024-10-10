@@ -120,17 +120,6 @@ const eventsData = [
 
 
       {
-        name: "Infrared 2024",
-        date: "10/6/24",
-        location: "Westford, MA, USA",
-        description: "This event will take place on Saturday, October 6th inside of the Wavelength 2024 Venue. You MUST be registered for Wavelength 2024 as a competitor or spectator in order to attend this event!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F689857%2Fimage-beb293c506128370f03dbac8b3301b61-optimized.jpg&ehk=USndSOdl8bTgh1izawrAwxr2nxvNn%2FTpocJgAGqoDY0%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/infrared-2024/details",
-        rankImg: true,
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Big Cheese 5",
         date: "10/11/24 - 10/13/24",
         location: "Woodville South SA, Australia",
@@ -185,6 +174,28 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Condo of Blood 1+1/2",
+        date: "10/19/24",
+        location: "Mississauga, Ontario, Canada",
+        description: "Condo of Blood 1+1/2 is an Ontario Project Plus and Rivals of Aether 2 regional hosted directly beside the Port Credit GO station. This accessible recurring tournament series will feature top Ontario talent and is designed fully around our shared love of these alternate smash games.",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F715099%2Fimage-663dbb431d19589ada53ac7ac9231f4f-optimized.png&ehk=DYbYVTiK0yQLi3ZT1kpljn6S%2FWG7iiBSd8fPVaa6%2B%2Bc%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/condo-of-blood-1-1-2-rumble-arena-of-lovers/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "The Masters Eight: The Best in Texas Finale",
+        date: "10/19/24",
+        location: "Austin, TX, USA",
+        description: "Welcome to the season finale for the 2024 Best in Texas Season! All Project Plus events will take place on Saturday Oct. 19th!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F710846%2Fimage-a280ba6e5ebd674f8e4cf5792f03daa6-optimized.png&ehk=AbKKao2cGi%2Fv2vHt%2FR%2FfCJOi1mLF45pFFOKlaL73Cl4%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/the-masters-eight-the-best-in-texas-finale/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://twitch.tv/projectmnexus"
+      },
+      {
         name: "Tussleopolis",
         date: "10/26/24",
         location: "Normal, IL, USA",
@@ -202,6 +213,17 @@ const eventsData = [
         description: "EUGG's Super Smash Boro is held at Butterfield Hall, Room 134, at Edinboro University's Campus in Edinboro, PA. Our venue features ample seating and power, multiple projectors. POSTERS AVAILABLE FOR PREORDER!",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F707279%2Fimage-c671e5249610d692af2e9390a5bd39b6-optimized.png&ehk=%2FfxMt4ldJJRdMBSJ2rkkrUGI06gxa%2FUO8cw2J2cGfHU%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/eugg-s-the-monthly-grindhouse-now-slaying/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "College Park Mutiny: THE HORROR!",
+        date: "10/26/24",
+        location: "College Park, MD, USA",
+        description: "Welcome to the first iteration of Mutiny this semester! Mutiny is a regional tournament hosted and ran by a team of UMD college students led by Arden and Stutter Step Steven.",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F718217%2Fimage-909fd918014a0f14666628f9d2dacb2c-optimized.png&ehk=StdABTKuhDnUDTEa7oRlh7V3y9EXS0xzJLBubh84ZaU%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/college-park-mutiny-the-horror/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -240,12 +262,12 @@ const eventsData = [
         stream: ""
       },
       {
-        name: "Condo of Blood 1+1/2",
-        date: "10/19/24",
-        location: "Mississauga, Ontario, Canada",
-        description: "Condo of Blood 1+1/2 is an Ontario Project Plus and Rivals of Aether 2 regional hosted directly beside the Port Credit GO station. This accessible recurring tournament series will feature top Ontario talent and is designed fully around our shared love of these alternate smash games.",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F715099%2Fimage-663dbb431d19589ada53ac7ac9231f4f-optimized.png&ehk=DYbYVTiK0yQLi3ZT1kpljn6S%2FWG7iiBSd8fPVaa6%2B%2Bc%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/condo-of-blood-1-1-2-rumble-arena-of-lovers/details",
+        name: "cardd's basement",
+        date: "11/9/24",
+        location: "Atlanta, GA, USA",
+        description: "spiritual successor to georgia's most densely stacked tournament series. this is not in cardd's basement. only in their metaphorical basement.",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F700328%2Fimage-23f218e8ddb0bde41f1f0de22c998782-optimized.png&ehk=OVSnkj%2BgETglWhmNzEkT0oB%2FjTi%2FIxbzMQcjrXSGnR4%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/cardd-s-basement/details",
         rankImg: false, 
         trailer: "",
         stream: ""
