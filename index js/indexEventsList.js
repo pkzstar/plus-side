@@ -120,38 +120,6 @@ const eventsData = [
 
 
       {
-        name: "Big Cheese 5",
-        date: "10/11/24 - 10/13/24",
-        location: "Woodville South SA, Australia",
-        description: "The South Australian Smash & Fighting Game Community are proud to announce the return of Adelaide's local competitive gaming community Major - The Big Cheese ",
-        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/bigcheese5.png?raw=true",
-        link: "https://www.start.gg/tournament/big-cheese-5-south-australia-smash-fgc-major/details",
-        rankImg: false,
-        trailer: ""
-      },
-      {
-        name: "Smash of the Titans 9",
-        date: "10/12/24",
-        location: "Bloomington, IL, USA",
-        description: "Illinois Wesleyan University is back with our semesterly Smash regional! The tournament will be held in the Young Main Lounge in the Memorial center on campus (there will be signage posted too). If you have any questions, message @roguecora or any of the other TO's in the Discord!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F694496%2Fimage-e7a587d3d9781f79439701caf9dfbdf0-optimized.jpg&ehk=kO51zDMS2lR0O%2F%2BqgHqs6PjfeA8k0H%2BD3Kd%2BfPrNMuY%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/smash-of-the-titans-9-1/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Five Nights at Fingy's 2",
-        date: "10/12/24 - 10/13/24",
-        location: "Mesa, AZ, USA",
-        description: "AZPM is back! Five Nights at Fingy's 2 is a FNAF themed Project+ Tournament in Mesa, Arizona",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F668397%2Fimage-1e18220f83e877c6da334764a00977b5-optimized.png&ehk=JOwH0wB0RoMNi3UjTkR5NNXjF%2BtlvlE2aTwSJdeazF4%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/five-nights-at-fingy-s-2/details",
-        rankImg: true, 
-        trailer: "https://www.youtube.com/watch?v=JtRzfVC07wk",
-        stream: "https://www.twitch.tv/AZPM"
-      },
-      {
         name: "Bustered Out",
         date: "10/19/24",
         location: "Nashville, TN, USA",

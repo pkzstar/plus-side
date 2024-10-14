@@ -110,8 +110,45 @@ function createPastEventElement(eventData) {
 // Sample data for past event
 const eventData = [
 
-
-
+  {
+    eventTitle: "Five Nights at Fingy's 2",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F668397%2Fimage-1e18220f83e877c6da334764a00977b5-optimized.png&ehk=JOwH0wB0RoMNi3UjTkR5NNXjF%2BtlvlE2aTwSJdeazF4%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/five-nights-at-fingy-s-2/details",
+    date: "October 12 2024",
+    location: "Arizona",
+    entrants: 42,
+    first: "Ivayne",
+    second: "Av",
+    third: "Evil Lesbian",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "Smash of the Titans 9",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F694496%2Fimage-e7a587d3d9781f79439701caf9dfbdf0-optimized.jpg&ehk=kO51zDMS2lR0O%2F%2BqgHqs6PjfeA8k0H%2BD3Kd%2BfPrNMuY%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/smash-of-the-titans-9-1/details",
+    date: "October 12 2024",
+    location: "Illinois",
+    entrants: 18,
+    first: "Chaloopy",
+    second: "metroid",
+    third: "ORLY",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Big Cheese 5",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F637501%2Fimage-2708827684ec529e1343e69c39386b91-optimized.png&ehk=tPVuCtDZ6xZ%2BgkLv1T8Q89Nq305EySqiPbdS9UcAvyk%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/big-cheese-5-south-australia-smash-fgc-major/details",
+    date: "October 11 2024",
+    location: "Australia",
+    entrants: 14,
+    first: "Ryzuul",
+    second: "Goodie",
+    third: "Microsoft J",
+    vodsUrl: "",
+    hideRankImage: true
+  },
   {
     eventTitle: "Infared 2024",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F689857%2Fimage-beb293c506128370f03dbac8b3301b61-optimized.jpg&ehk=USndSOdl8bTgh1izawrAwxr2nxvNn%2FTpocJgAGqoDY0%3D&w=280&h=280&r=0",
