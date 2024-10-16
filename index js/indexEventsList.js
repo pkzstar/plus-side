@@ -157,7 +157,7 @@ const eventsData = [
         date: "10/19/24",
         location: "Austin, TX, USA",
         description: "Welcome to the season finale for the 2024 Best in Texas Season! All Project Plus events will take place on Saturday Oct. 19th!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F710846%2Fimage-a280ba6e5ebd674f8e4cf5792f03daa6-optimized.png&ehk=AbKKao2cGi%2Fv2vHt%2FR%2FfCJOi1mLF45pFFOKlaL73Cl4%3D&w=280&h=280&r=0",
+        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/Masters8Logo.png?raw=true",
         link: "https://www.start.gg/tournament/the-masters-eight-the-best-in-texas-finale/details",
         rankImg: false, 
         trailer: "",
