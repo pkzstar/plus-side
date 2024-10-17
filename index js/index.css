@@ -243,17 +243,16 @@ p.event-date {
     padding: 0 30px 0 30px;
     padding-inline-start: unset;
 }
-#EventDateUpcoming, #EventLocationUpcoming, #EventTitleUpcoming, #EventUrlUpcoming, #EventImageUpcoming, #EventDescriptionUpcoming, #EventPassUpcoming {
+#EventDateUpcoming, #EventLocationUpcoming, #EventTitleUpcoming, #EventUrlUpcoming, #EventImageUpcoming, #EventDescriptionUpcoming, #EventPassUpcoming, #EventLocationUpcomingg {
     display: inline;
 }
 #textInputUpcomingTitle, #textInputUpcomingDate, #textInputUpcomingLocation, #textInputUpcomingUrl, #textInputUpcomingImage, #textInputUpcomingDescription, #textPassUpcoming {
     margin: 10px;
 }
 .Upcoming-event-form {
+
     font-size: 25px;
     border-radius: 15px 15px 15px 15px;
-    padding-left: 8px;
-    padding-right: 8px;
     box-shadow: 0 0 3px 0 rgb(0, 196, 16);
         transition: .3s;
         border-inline-color: rgb(113, 36, 255);
@@ -269,11 +268,11 @@ p.event-date {
        box-shadow: 0 0 9px 0  rgb(113, 36, 255);
        border-inline-color: rgb(113, 36, 255);
        border-block-color: green;
-       font-family: 'Nunito';
        height: fit-content; 
-       width: 30%;
-       margin: 10px 0 0 34%;
-
+       width: 10%;
+margin-right: auto;
+margin-left: auto;
+margin-top: 10px;
 }
 .Upcoming-event-form:hover {
     border-style: double;
