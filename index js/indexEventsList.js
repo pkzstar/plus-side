@@ -153,7 +153,7 @@ const eventsData = [
         stream: ""
       },
       {
-        name: "The Masters Eight: The Best in Texas Finale",
+        name: "The Best in Texas Finale",
         date: "10/19/24",
         location: "Austin, TX, USA",
         description: "Welcome to the season finale for the 2024 Best in Texas Season! All Project Plus events will take place on Saturday Oct. 19th!",
@@ -241,17 +241,6 @@ const eventsData = [
         stream: ""
       },
       {
-        name: "Blacklisted 9",
-        date: "11/16/24 - 11/17/24",
-        location: "Springfield, MA, USA",
-        description: "Blacklisted has moved venues for the first time in five years! Join us in Springfield, Massachusetts for the biggest and best Blacklisted yet! Blacklisted 9 will be returning with Doubles and Singles pools which will send players into double elimination Pro and Amateur brackets - now for both Project+ and HDR!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F681909%2Fimage-7d4e0ff8435ebeb4a6ceb3cd129b1705-optimized.png&ehk=sQBjT2ATBqcPGXSXEzLSl2H8PYlq6I79X7ucG2mT4hU%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/blacklisted-9-a-project-and-hdr-major/details",
-        rankImg: true, 
-        trailer: "https://twitter.com/BlacklistedSSB/status/1817403907984761246",
-        stream: "https://www.twitch.tv/projectmnexus"
-      },
-      {
         name: "Pissmas 5",
         date: "11/29/24 - 12/1/24",
         location: "Southport, QLD, Australia",
@@ -274,6 +263,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Tennessee P+ Summit 2025",
+        date: "1/10/25 - 1/12/25",
+        location: "Knoxville, TN, USA",
+        description: "The Tennessee P+ Summit is back! 20 of the best P+ players from Tennessee will compete for fame and bragging rights in everyone's favorite smash mod.",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F714654%2Fimage-9fcdb8b8b1acc8a88280304e3b010b63-optimized.jpg&ehk=8mBzXSK23mbPNHjSmTQkpgvRRF9qYsJ5PfgQ4qo4BJw%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/tennessee-p-summit-2025/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "TECH 2025",
         date: "1/11/25",
         location: "Mt Pleasant, SC, USA",
@@ -283,7 +283,18 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: ""
-      }
+      },
+      {
+        name: "Blacklisted 9",
+        date: "TBA",
+        location: "Springfield, MA, USA",
+        description: "Blacklisted has moved venues for the first time in five years! Join us in Springfield, Massachusetts for the biggest and best Blacklisted yet! Blacklisted 9 will be returning with Doubles and Singles pools which will send players into double elimination Pro and Amateur brackets - now for both Project+ and HDR!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F681909%2Fimage-7d4e0ff8435ebeb4a6ceb3cd129b1705-optimized.png&ehk=sQBjT2ATBqcPGXSXEzLSl2H8PYlq6I79X7ucG2mT4hU%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/blacklisted-9-a-project-and-hdr-major/details",
+        rankImg: true, 
+        trailer: "https://twitter.com/BlacklistedSSB/status/1817403907984761246",
+        stream: "https://www.twitch.tv/projectmnexus"
+      },
     ];
 
 // Create a single div element to contain all the lists
