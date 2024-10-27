@@ -111,6 +111,58 @@ function createPastEventElement(eventData) {
 const eventData = [
 
   {
+    eventTitle: "The Masters Eight: The Best in Texas Finale ",
+    imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/Masters8Logo.png?raw=true",
+    eventUrl: "https://www.start.gg/tournament/the-masters-eight-the-best-in-texas-finale/details",
+    date: "October 19 2024",
+    location: "Austin",
+    entrants: 16,
+    first: "Salt",
+    second: "Apathy",
+    third: "Fury",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Condo of Blood 1+1/2",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F715099%2Fimage-663dbb431d19589ada53ac7ac9231f4f-optimized.png&ehk=DYbYVTiK0yQLi3ZT1kpljn6S%2FWG7iiBSd8fPVaa6%2B%2Bc%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/condo-of-blood-1-1-2-rumble-arena-of-lovers/details",
+    date: "October 19 2024",
+    location: "Ontario",
+    entrants: 15,
+    first: "Blitz",
+    second: "Titanium",
+    third: "AA",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "LA Super Nexus XVI",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F702923%2Fimage-63104f6428f87cba5cc7db5a34d7e9a9-optimized.png&ehk=Gd2KsBZ6MpIu%2BN%2BtSrYDgTfvc6anIk%2B%2FNF72y1tiwVE%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/la-super-nexus-xvi/details",
+    date: "October 19 2024",
+    location: "Louisiana",
+    entrants: 20,
+    first: "JSalt",
+    second: "DrinkingFood",
+    third: "SDJ",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Bustered Out",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F703739%2Fimage-37259456efe40fdef53a88c108f61736-optimized.png&ehk=BeB8DjJp5ZmXStsCqSKmFtIEfHIqDl7UUDZv2fdRuU4%3D&w=280&h=280&r=00",
+    eventUrl: "https://www.start.gg/tournament/bustered-out/details",
+    date: "October 19 2024",
+    location: "Tennessee",
+    entrants: 23,
+    first: "Xtreme",
+    second: "Moist",
+    third: "Shenanigans",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Five Nights at Fingy's 2",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F668397%2Fimage-1e18220f83e877c6da334764a00977b5-optimized.png&ehk=JOwH0wB0RoMNi3UjTkR5NNXjF%2BtlvlE2aTwSJdeazF4%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/five-nights-at-fingy-s-2/details",

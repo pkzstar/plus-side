@@ -118,51 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
 
-
-      {
-        name: "Bustered Out",
-        date: "10/19/24",
-        location: "Nashville, TN, USA",
-        description: "Welcome to Bustered Out! This is a Melee/P+ Regional event located in the Opry Mills Mall Dave & Busters. All registration will include entry to the event as well as an all-you-can-eat catered buffet.",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F703739%2Fimage-37259456efe40fdef53a88c108f61736-optimized.png&ehk=BeB8DjJp5ZmXStsCqSKmFtIEfHIqDl7UUDZv2fdRuU4%3D&w=280&h=280&r=00",
-        link: "https://www.start.gg/tournament/bustered-out/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "LA Super Nexus XVI",
-        date: "10/19/24",
-        location: "Baton Rouge, LA, USA",
-        description: "BATON ROUGE SMASH IS BACK, THIS TIME AT THE NEXUS LOUISIANA TECH PARK! Baton Rouge Smash is proud to present: LA Super Nexus XVI",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F702923%2Fimage-63104f6428f87cba5cc7db5a34d7e9a9-optimized.png&ehk=Gd2KsBZ6MpIu%2BN%2BtSrYDgTfvc6anIk%2B%2FNF72y1tiwVE%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/la-super-nexus-xvi/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Condo of Blood 1+1/2",
-        date: "10/19/24",
-        location: "Mississauga, Ontario, Canada",
-        description: "Condo of Blood 1+1/2 is an Ontario Project Plus and Rivals of Aether 2 regional hosted directly beside the Port Credit GO station. This accessible recurring tournament series will feature top Ontario talent and is designed fully around our shared love of these alternate smash games.",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F715099%2Fimage-663dbb431d19589ada53ac7ac9231f4f-optimized.png&ehk=DYbYVTiK0yQLi3ZT1kpljn6S%2FWG7iiBSd8fPVaa6%2B%2Bc%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/condo-of-blood-1-1-2-rumble-arena-of-lovers/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "The Best in Texas Finale",
-        date: "10/19/24",
-        location: "Austin, TX, USA",
-        description: "Welcome to the season finale for the 2024 Best in Texas Season! All Project Plus events will take place on Saturday Oct. 19th!",
-        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/Masters8Logo.png?raw=true",
-        link: "https://www.start.gg/tournament/the-masters-eight-the-best-in-texas-finale/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://twitch.tv/projectmnexus"
-      },
       {
         name: "Tussleopolis",
         date: "10/26/24",
@@ -214,7 +169,7 @@ const eventsData = [
         description: "A reunion tournament celebrating the 10 Year Anniversary of Project M's heyday in Southwest Ohio! Now featuring HDR Singles and a Cobalt X side bracket, with P+ characters banned",
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/homecominglogo.png?raw=true",
         link: "https://smashboards.com/threads/homecoming-p-hdr-nov-9th-2024.523550/",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: ""
       },
@@ -236,6 +191,17 @@ const eventsData = [
         description: "spiritual successor to georgia's most densely stacked tournament series. this is not in cardd's basement. only in their metaphorical basement.",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F700328%2Fimage-23f218e8ddb0bde41f1f0de22c998782-optimized.png&ehk=OVSnkj%2BgETglWhmNzEkT0oB%2FjTi%2FIxbzMQcjrXSGnR4%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/cardd-s-basement/details",
+        rankImg: true, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Mass Madness Deluxe",
+        date: "11/16/24",
+        location: "Waltham, MA, USA",
+        description: "New England Melee and Massachusetts Project+ have come together to run a large regional! Pre-registration is MANDATORY, and closes at 4:00 PM on Friday, November 15th, or once we hit our entry caps.",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F722151%2Fimage-868aa56131de1627a08419780bb84420-optimized.png&ehk=axLCB38xhnZMiXM%2F4Uz1Bme%2BwrhpVNO27PDEWVKyY1I%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/mass-madness-deluxe-a-project-melee-and-hdr-regional/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -258,7 +224,7 @@ const eventsData = [
         description: "Condo of Blood is an Ontario Project Plus and HDR regional hosted directly beside the Port Credit GO station. This accessible recurring tournament series will feature top Ontario talent and is designed fully around our shared love of these modded smash games.",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F702378%2Fimage-8d2b7a057fea4990d7c65f0a9029ce55-optimized.png&ehk=IdU531WdJ2NzjRvsKva8PJUtCeLIIHB6Di%2BJqFU80bU%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/condo-of-blood-2-2/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: ""
       },
@@ -291,7 +257,7 @@ const eventsData = [
         description: "Blacklisted has moved venues for the first time in five years! Join us in Springfield, Massachusetts for the biggest and best Blacklisted yet! Blacklisted 9 will be returning with Doubles and Singles pools which will send players into double elimination Pro and Amateur brackets - now for both Project+ and HDR!",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F681909%2Fimage-7d4e0ff8435ebeb4a6ceb3cd129b1705-optimized.png&ehk=sQBjT2ATBqcPGXSXEzLSl2H8PYlq6I79X7ucG2mT4hU%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/blacklisted-9-a-project-and-hdr-major/details",
-        rankImg: true, 
+        rankImg: false, 
         trailer: "https://twitter.com/BlacklistedSSB/status/1817403907984761246",
         stream: "https://www.twitch.tv/projectmnexus"
       },
