@@ -119,39 +119,6 @@ const eventsData = [
 
 
       {
-        name: "Tussleopolis",
-        date: "10/26/24",
-        location: "Normal, IL, USA",
-        description: "It's a new era. The game has changed, but the tussle remains...The Tussle Saga is BACK. Return to the Midwest grassroots Project M experience. From the team that brought you Warp Zone 2, Undertow, and Bird House XII, we are thrilled to revitalize this Midwest PM series.",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F694928%2Fimage-d570f648aa26ccea66517f31a2dccda5-optimized.png&ehk=wQJOmHo9Afn6nRwa%2FwDShMfftHg7tIqqjo%2BnGCznW8s%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/tussleopolis/details",
-        rankImg: true, 
-        trailer: "https://youtu.be/VY6JO0mD0po",
-        stream: ""
-      },
-      {
-        name: "EUGG's: Now Slaying!",
-        date: "10/26/24",
-        location: "Edinboro, PA, USA",
-        description: "EUGG's Super Smash Boro is held at Butterfield Hall, Room 134, at Edinboro University's Campus in Edinboro, PA. Our venue features ample seating and power, multiple projectors. POSTERS AVAILABLE FOR PREORDER!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F707279%2Fimage-c671e5249610d692af2e9390a5bd39b6-optimized.png&ehk=%2FfxMt4ldJJRdMBSJ2rkkrUGI06gxa%2FUO8cw2J2cGfHU%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/eugg-s-the-monthly-grindhouse-now-slaying/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "College Park Mutiny: THE HORROR!",
-        date: "10/26/24",
-        location: "College Park, MD, USA",
-        description: "Welcome to the first iteration of Mutiny this semester! Mutiny is a regional tournament hosted and ran by a team of UMD college students led by Arden and Stutter Step Steven.",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F718217%2Fimage-909fd918014a0f14666628f9d2dacb2c-optimized.png&ehk=StdABTKuhDnUDTEa7oRlh7V3y9EXS0xzJLBubh84ZaU%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/college-park-mutiny-the-horror/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Beachin",
         date: "11/1/24 - 11/3/24",
         location: "Sunny Isles Beach, FL, USA",
@@ -170,6 +137,17 @@ const eventsData = [
         imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/homecominglogo.png?raw=true",
         link: "https://smashboards.com/threads/homecoming-p-hdr-nov-9th-2024.523550/",
         rankImg: true, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Cougar Smash: HAUNTED",
+        date: "11/2/24",
+        location: "Charleston, SC, USA",
+        description: "Presented By Cougar Smash & the CofC Esports Club",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F716061%2Fimage-3c7c7a6766ea7269c9284590b58b5656-optimized.png&ehk=mwUw41n4GIi6x3pDGKRLiGS2RCga8XU%2Be1HXVvyAg30%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/cougar-smash-haunted/details",
+        rankImg: false, 
         trailer: "",
         stream: ""
       },
@@ -246,6 +224,17 @@ const eventsData = [
         description: "Nobody goes 0-2! Based on how each player places in pools, the will be sent into either the bronze, silver, or gold bracket and will play against other players who placed similarly!",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F703812%2Fimage-621a3df3388b485f1c17bc39ef5043b4-optimized.png&ehk=fmJ2bU7fSCoK6ta%2FoMgERgnFVVH1449V1iaXyonXZPQ%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/tech-2025/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "LUST 50",
+        date: "2/1/25 - 2/2/25",
+        location: "Baton Rouge, LA, USA",
+        description: "RETURNING ON FEBRUARY 1ST AND 2ND...LUST IS BACK FOR IT'S 50TH INSTALLMENT!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F718205%2Fimage-f7bc746a62b66f66d8604eb85d04ac49-optimized.png&ehk=OyS2etB7Qrzc6H8qxwJupdTt3jIBpdqYTeu6kN9QyJI%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/lust-50-a-louisiana-regional/details",
         rankImg: false, 
         trailer: "",
         stream: ""
