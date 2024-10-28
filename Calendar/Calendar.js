@@ -1882,7 +1882,7 @@ function showCalendar(month, year) {
             link.appendChild(image);
             cell.appendChild(link);
 
-            // Beachin & homecoming
+            // Beachin & homecoming + Cougar Smash: HAUNTED
         } else if(month === 10 &&  date === 2 && year === 2024) {
 
             const events = [
@@ -1895,6 +1895,10 @@ function showCalendar(month, year) {
                     link: "https://smashboards.com/threads/homecoming-p-hdr-nov-9th-2024.523550/",
                     imageSrc: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/homecominglogo.png?raw=true"
                 },
+                {
+                    link: "https://www.start.gg/tournament/cougar-smash-haunted/details",
+                    imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F716061%2Fimage-3c7c7a6766ea7269c9284590b58b5656-optimized.png&ehk=mwUw41n4GIi6x3pDGKRLiGS2RCga8XU%2Be1HXVvyAg30%3D&w=280&h=280&r=0"
+                }
 
 
             ];
@@ -1944,7 +1948,7 @@ function showCalendar(month, year) {
             updateLinkAndImage(); // Initially update link and image
             fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-                           //tussleopolis & eugg + CPM: The Horror
+                           //tussleopolis & eugg + CPM: The Horror + Candle HoG
                         } else if(month === 9 &&  date === 26 && year === 2024) {
 
                             const events = [
@@ -1960,6 +1964,10 @@ function showCalendar(month, year) {
                                 {
                                     link: "https://www.start.gg/tournament/college-park-mutiny-the-horror/details",
                                     imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F718217%2Fimage-909fd918014a0f14666628f9d2dacb2c-optimized.png&ehk=StdABTKuhDnUDTEa7oRlh7V3y9EXS0xzJLBubh84ZaU%3D&w=280&h=280&r=0"
+                                },
+                                {
+                                    link: "https://www.start.gg/tournament/candlehog-4/details",
+                                    imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F714806%2Fimage-4b2bd45378c5b445ed7f2f3f4e86c090-optimized.png&ehk=r%2BlFLh3znnbmPo1yNdvCPZhzHggYSdFVi5t4wfk8s5Q%3D&w=280&h=280&r=0"
                                 }
             
                             ];
@@ -2204,7 +2212,25 @@ function showCalendar(month, year) {
             updateLinkAndImage(); // Initially update link and image
             fadeInOut(image); // Start fade-in/out animation // Start cycling events
                 
-                 } else {
+        } else if (month === 1 && (date === 1 || date === 2) && year === 2025) {
+            // Example link with image
+            let link = document.createElement("a");
+            link.href = "https://www.start.gg/tournament/lust-50-a-louisiana-regional/details";
+            link.target = "_blank";
+    
+            let image = document.createElement("img");
+            image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F718205%2Fimage-f7bc746a62b66f66d8604eb85d04ac49-optimized.png&ehk=OyS2etB7Qrzc6H8qxwJupdTt3jIBpdqYTeu6kN9QyJI%3D&w=280&h=280&r=0";
+    
+            image.classList.add("calendarImg");
+    
+    
+            link.appendChild(image);
+            cell.appendChild(link);
+            
+    
+                        // TECH 2025 & tennessee summit
+                    } 
+        else {
                     // Create and append the date text only if there is no image
                     cellText = document.createTextNode(date);
                     cell.appendChild(cellText);

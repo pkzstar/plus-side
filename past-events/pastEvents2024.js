@@ -111,6 +111,58 @@ function createPastEventElement(eventData) {
 const eventData = [
 
   {
+    eventTitle: "College Park Mutiny: THE HORROR!",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F718217%2Fimage-909fd918014a0f14666628f9d2dacb2c-optimized.png&ehk=StdABTKuhDnUDTEa7oRlh7V3y9EXS0xzJLBubh84ZaU%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/college-park-mutiny-the-horror/details",
+    date: "October 19 2024",
+    location: "College Park",
+    entrants: 7,
+    first: "Counterpicker Kevin",
+    second: "8va",
+    third: "Douglas.J.gov",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "EUGG's: Now Slaying!",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F707279%2Fimage-c671e5249610d692af2e9390a5bd39b6-optimized.png&ehk=%2FfxMt4ldJJRdMBSJ2rkkrUGI06gxa%2FUO8cw2J2cGfHU%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/eugg-s-the-monthly-grindhouse-now-slaying/details",
+    date: "October 19 2024",
+    location: "Edinboro",
+    entrants: 9,
+    first: "Vaporeon",
+    second: "Aluminis",
+    third: "FortniteCrankinNineTeens",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "CandleHoG 4",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F714806%2Fimage-4b2bd45378c5b445ed7f2f3f4e86c090-optimized.png&ehk=r%2BlFLh3znnbmPo1yNdvCPZhzHggYSdFVi5t4wfk8s5Q%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/candlehog-4/details",
+    date: "October 19 2024",
+    location: "Wallingford",
+    entrants: 21,
+    first: "Flarp",
+    second: "Imogen Heat",
+    third: "Wombat",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "Tussleopolis",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F694928%2Fimage-d570f648aa26ccea66517f31a2dccda5-optimized.png&ehk=wQJOmHo9Afn6nRwa%2FwDShMfftHg7tIqqjo%2BnGCznW8s%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/tussleopolis/details",
+    date: "October 19 2024",
+    location: "Normal",
+    entrants: 60,
+    first: "Shiny Zubat",
+    second: "SipMastah",
+    third: "Dirtboy",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLXuSSlxxWDDqMWNUPO4_WaLVeUaR62xFx",
+    hideRankImage: false
+  },
+  {
     eventTitle: "The Masters Eight: The Best in Texas Finale ",
     imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/Masters8Logo.png?raw=true",
     eventUrl: "https://www.start.gg/tournament/the-masters-eight-the-best-in-texas-finale/details",
@@ -172,7 +224,7 @@ const eventData = [
     first: "Ivayne",
     second: "Av",
     third: "Evil Lesbian",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLXuSSlxxWDDqwCPc4eJ5OVFe31SH7gZT0",
     hideRankImage: false
   },
   {
@@ -250,7 +302,7 @@ const eventData = [
     first: "Dumshiny",
     second: "Ford$",
     third: "Scion",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLXuSSlxxWDDq1h-QbOP0tIRFeYKw_iH40",
     hideRankImage: true
   },
   {
@@ -263,7 +315,7 @@ const eventData = [
     first: "Dirtboy",
     second: "Morsecode762",
     third: "Rise",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLp0mqricKIh2cawSQ-10VodXmnp72Carc",
     hideRankImage: false
   },
   {
