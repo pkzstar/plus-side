@@ -2078,45 +2078,69 @@ function showCalendar(month, year) {
             updateLinkAndImage(); // Initially update link and image
             fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-                //MMDX
-            } else if (month === 10 && (date === 16) && year === 2024) {
+                //MMDX + Birdhouse 13
+            } else if(month === 10 &&  date === 16 && year === 2024) {
 
-
-                    let link = document.createElement("a");
-                    link.href = "https://www.start.gg/tournament/mass-madness-deluxe-a-project-melee-and-hdr-regional/details";
-                    link.target = "_blank";
-
-                    let image = document.createElement("img");
-                    image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F722151%2Fimage-868aa56131de1627a08419780bb84420-optimized.png&ehk=axLCB38xhnZMiXM%2F4Uz1Bme%2BwrhpVNO27PDEWVKyY1I%3D&w=280&h=280&r=0";
-
-                    image.classList.add("calendarImg");
-
-
-                    link.appendChild(image);
-                    cell.appendChild(link);
-                } 
-
-
-                               //Pissmas
-               else if ((month === 10 && (date === 29 || date === 30) && year === 2024) || 
-               (month === 11 && date === 1 && year === 2024)) {
-
-
+                const events = [
+                    {   
+                        link: "https://www.start.gg/tournament/mass-madness-deluxe-a-project-melee-and-hdr-regional/details",
+                        imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F722151%2Fimage-868aa56131de1627a08419780bb84420-optimized.png&ehk=axLCB38xhnZMiXM%2F4Uz1Bme%2BwrhpVNO27PDEWVKyY1I%3D&w=280&h=280&r=0"
+                        
+                    },
+                    {
+                        link: "https://www.start.gg/tournament/birdhouse-13-charity-for-the-foodbank/details",
+                        imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F723673%2Fimage-1aeb7b34779d59e9909f10cf735714c3-optimized.jpg&ehk=e2h9y%2FCTF7Aw7%2FGVtqZinnCqeudWtq%2FxFsTFRF0ZZg8%3D&w=280&h=280&r=0"
+                    }
+    
+                ];
+                let currentIndex = 0; // Initialize current index
+    
                 let link = document.createElement("a");
-                link.href = "https://www.start.gg/tournament/pissmas-5/details";
                 link.target = "_blank";
-
+    
                 let image = document.createElement("img");
-                image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F711199%2Fimage-13f747fdf4949ee152c280b5ad6213dc-optimized.png&ehk=B4KLu7um2O7wIzURoDP%2F1L8VLvwVop4KB47typTJpaQ%3D&w=280&h=280&r=0";
-
+    
                 image.classList.add("calendarImg");
-
-
+    
                 link.appendChild(image);
                 cell.appendChild(link);
-            } 
+    
+                // Function to fade in/out the image and link
+                function fadeInOut(element) {
+                    let opacity = 0;
+                    let increasing = true;
+                    let interval = setInterval(function() {
+                        if (increasing) {
+                            opacity += 0.05;
+                        } else {
+                            opacity -= 0.05;
+                        }
+                        element.style.opacity = opacity;
+                        if (opacity >= 1) {
+                            increasing = false;
+                            setTimeout(() => {
+                                increasing = true;
+                                updateLinkAndImage(); // Update link and image after fully visible
+                            }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                        } else if (opacity <= 0) {
+                            clearInterval(interval);
+                            fadeInOut(element); // Restart the fading animation
+                        }
+                    }, 100); // Adjust the timing as needed
+                }
+            
+                // Function to update the link and image
+                function updateLinkAndImage() {
+                    link.href = events[currentIndex].link;
+                    image.src = events[currentIndex].imageSrc;
+                    currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+                }
+            
+                updateLinkAndImage(); // Initially update link and image
+                fadeInOut(image); // Start fade-in/out animation // Start cycling events
+                
                 // CoB 2
-                else if (month === 11 && (date === 14) && year === 2024) {
+            } else if (month === 11 && (date === 14) && year === 2024) {
 
 
                     let link = document.createElement("a");

@@ -146,7 +146,7 @@ const eventData = [
     first: "Flarp",
     second: "Imogen Heat",
     third: "Wombat",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/watch?v=jkqz1D472zo",
     hideRankImage: false
   },
   {
@@ -250,7 +250,7 @@ const eventData = [
     first: "Ryzuul",
     second: "Goodie",
     third: "Microsoft J",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLXuSSlxxWDDpJ73ysx0uIYJgx-ZvZH8KH",
     hideRankImage: true
   },
   {
@@ -263,7 +263,7 @@ const eventData = [
     first: "Flarp",
     second: "Switch",
     third: "sfy bees",
-    vodsUrl: "",
+    vodsUrl: "https://youtu.be/e5dDKP2AvZk",
     hideRankImage: false
   },
   {
@@ -306,7 +306,7 @@ const eventData = [
     hideRankImage: true
   },
   {
-    eventTitle: "Game 5: The Big One!",
+    eventTitle: "Game 5 in the D #5: The Big One!",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F691070%2Fimage-20c7e0ee687afcac9b01ac503fbdc8c3-optimized.jpg&ehk=RA9HKOI4f5SFLA5BA6Eogqbd89fxlbUvo52xfFEc1Mg%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/game-5-in-the-d-5-the-big-one/event/project-singles/standings",
     date: "September 21-22 2024",
@@ -354,7 +354,7 @@ const eventData = [
     first: "Chaloopy",
     second: "ORLY",
     third: "Comb",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLJIkd-7ajnoXD8jJpfyMtLVJ0TTp84P50",
     hideRankImage: false
   },
   {
@@ -367,7 +367,7 @@ const eventData = [
     first: "Apathy",
     second: "Pug",
     third: "Captain Birdman",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLv67ityPWGAU_kPG_pR9zeRpM2g5wZ2n-",
     hideRankImage: false
   },
   {
@@ -379,8 +379,8 @@ const eventData = [
     entrants: 26,
     first: "Blitz",
     second: "Krumpberry",
-    third: "The clencher",
-    vodsUrl: "",
+    third: "The Clencher",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLdxdm5Mb0WctMPVYlHsiy9jPPbGCzpoPE",
     hideRankImage: true
   },
   {
@@ -445,7 +445,7 @@ const eventData = [
     first: "Kycse",
     second: "Flarp",
     third: "Pikmon",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLXuSSlxxWDDpwh_gHxj7BCnT_TYCo4NBZ",
     hideRankImage: false
   },
   {
