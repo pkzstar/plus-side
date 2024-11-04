@@ -119,39 +119,6 @@ const eventsData = [
 
 
       {
-        name: "Beachin",
-        date: "11/1/24 - 11/3/24",
-        location: "Sunny Isles Beach, FL, USA",
-        description: "Huge vibes going down on Saturday Night in the friendlies room of a certain major event down in Florida",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F686090%2Fimage-684569cc3ea9311290b0ea4112e96952-optimized.png&ehk=QzjLADSfuKgzgjCzafkZLcvUzaGH%2Fu69WSLcT4QYIMo%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/beachin/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/rome0_ssb"
-      },
-      {
-        name: "Homecoming",
-        date: "11/2/24",
-        location: "Cincinnati, OH, USA",
-        description: "A reunion tournament celebrating the 10 Year Anniversary of Project M's heyday in Southwest Ohio! Now featuring HDR Singles and a Cobalt X side bracket, with P+ characters banned",
-        imageUrl: "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/homecominglogo.png?raw=true",
-        link: "https://smashboards.com/threads/homecoming-p-hdr-nov-9th-2024.523550/",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Cougar Smash: HAUNTED",
-        date: "11/2/24",
-        location: "Charleston, SC, USA",
-        description: "Presented By Cougar Smash & the CofC Esports Club",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F716061%2Fimage-3c7c7a6766ea7269c9284590b58b5656-optimized.png&ehk=mwUw41n4GIi6x3pDGKRLiGS2RCga8XU%2Be1HXVvyAg30%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/cougar-smash-haunted/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Show Me Your Moves 24",
         date: "11/9/24",
         location: "Urbana, IL, USA",
@@ -180,6 +147,28 @@ const eventsData = [
         description: "New England Melee and Massachusetts Project+ have come together to run a large regional! Pre-registration is MANDATORY, and closes at 4:00 PM on Friday, November 15th, or once we hit our entry caps.",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F722151%2Fimage-868aa56131de1627a08419780bb84420-optimized.png&ehk=axLCB38xhnZMiXM%2F4Uz1Bme%2BwrhpVNO27PDEWVKyY1I%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/mass-madness-deluxe-a-project-melee-and-hdr-regional/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Birdhouse 13 Charity for the Foodbank",
+        date: "11/16/24",
+        location: "Normal, IL, USA",
+        description: "Bloomington-Normal's Premiere Smash Regional Returns! The ISU Smash team is happy to announce the 13th iteration of Bird House!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F723673%2Fimage-1aeb7b34779d59e9909f10cf735714c3-optimized.jpg&ehk=e2h9y%2FCTF7Aw7%2FGVtqZinnCqeudWtq%2FxFsTFRF0ZZg8%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/birdhouse-13-charity-for-the-foodbank/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "LA NEXUS XVII",
+        date: "11/16/24",
+        location: "Baton Rouge, LA, USA",
+        description: "BATON ROUGE SMASH IS BACK, THIS TIME AT THE NEXUS LOUISIANA TECH PARK!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F727138%2Fimage-7ab76bac26ade3b8758f0670081a4209-optimized.png&ehk=Qg64TBf4HmR69ichFld9TAFau9v9T1v9kY%2Bo7n6Cthw%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/la-nexus-xvii/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -224,6 +213,17 @@ const eventsData = [
         description: "Nobody goes 0-2! Based on how each player places in pools, the will be sent into either the bronze, silver, or gold bracket and will play against other players who placed similarly!",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F703812%2Fimage-621a3df3388b485f1c17bc39ef5043b4-optimized.png&ehk=fmJ2bU7fSCoK6ta%2FoMgERgnFVVH1449V1iaXyonXZPQ%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/tech-2025/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Somnio 6",
+        date: "1/25/25",
+        location: "Eindhoven, Netherlands",
+        description: "FROM THE PEOPLE THAT BROUGHT YOU DREAMHACK ROTTERDAM 2019 & 2022, SECTOR Z, NL ARCADIAN AND MORE!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F704301%2Fimage-7860f2d53c5c19158a1af5bb595b62f2-optimized.png&ehk=Lvf0cBp42V7xFlwNJ8bxtOnyYKPG5AFv3lZxf8Pd1LQ%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/somnio-6/details",
         rankImg: false, 
         trailer: "",
         stream: ""

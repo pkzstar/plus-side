@@ -2078,7 +2078,7 @@ function showCalendar(month, year) {
             updateLinkAndImage(); // Initially update link and image
             fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-                //MMDX + Birdhouse 13
+                //MMDX + Birdhouse 13 + LA NEXUS XVII
             } else if(month === 10 &&  date === 16 && year === 2024) {
 
                 const events = [
@@ -2090,6 +2090,10 @@ function showCalendar(month, year) {
                     {
                         link: "https://www.start.gg/tournament/birdhouse-13-charity-for-the-foodbank/details",
                         imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F723673%2Fimage-1aeb7b34779d59e9909f10cf735714c3-optimized.jpg&ehk=e2h9y%2FCTF7Aw7%2FGVtqZinnCqeudWtq%2FxFsTFRF0ZZg8%3D&w=280&h=280&r=0"
+                    },
+                    {
+                        link: "https://www.start.gg/tournament/la-nexus-xvii/details",
+                        imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F727138%2Fimage-7ab76bac26ade3b8758f0670081a4209-optimized.png&ehk=Qg64TBf4HmR69ichFld9TAFau9v9T1v9kY%2Bo7n6Cthw%3D&w=280&h=280&r=0"
                     }
     
                 ];
@@ -2235,7 +2239,25 @@ function showCalendar(month, year) {
         
             updateLinkAndImage(); // Initially update link and image
             fadeInOut(image); // Start fade-in/out animation // Start cycling events
-                
+        
+            //Somino 6
+        } else if (month === 0 && (date === 25) && year === 2025) {
+            // Example link with image
+            let link = document.createElement("a");
+            link.href = "https://www.start.gg/tournament/somnio-6/details";
+            link.target = "_blank";
+    
+            let image = document.createElement("img");
+            image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F704301%2Fimage-7860f2d53c5c19158a1af5bb595b62f2-optimized.png&ehk=Lvf0cBp42V7xFlwNJ8bxtOnyYKPG5AFv3lZxf8Pd1LQ%3D&w=280&h=280&r=0";
+    
+            image.classList.add("calendarImg");
+    
+    
+            link.appendChild(image);
+            cell.appendChild(link);
+                    
+
+        // LUST 50
         } else if (month === 1 && (date === 1 || date === 2) && year === 2025) {
             // Example link with image
             let link = document.createElement("a");
