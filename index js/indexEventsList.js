@@ -152,6 +152,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Rage Against the CRT",
+        date: "11/16/24",
+        location: "Chattanooga, TN, USA",
+        description: "This month will be our first ever STREAMED tournament! In addition, we are bring back doubles!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F712613%2Fimage-e04444fd05867f4207020d6da948a147-optimized.jpg&ehk=MvKIkvnSe5Wtv24w%2BIoyNjg8Ere7fgr53c8xUpy%2BZ9Y%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/rage-against-the-crt/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Birdhouse 13 Charity for the Foodbank",
         date: "11/16/24",
         location: "Normal, IL, USA",
@@ -235,7 +246,7 @@ const eventsData = [
         description: "RETURNING ON FEBRUARY 1ST AND 2ND...LUST IS BACK FOR IT'S 50TH INSTALLMENT!",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F718205%2Fimage-f7bc746a62b66f66d8604eb85d04ac49-optimized.png&ehk=OyS2etB7Qrzc6H8qxwJupdTt3jIBpdqYTeu6kN9QyJI%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/lust-50-a-louisiana-regional/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: ""
       },
