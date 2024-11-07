@@ -293,7 +293,7 @@ const eventData = [
     hideRankImage: true
   },
   {
-    eventTitle: "Infared 2024",
+    eventTitle: "Infrared  2024",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F689857%2Fimage-beb293c506128370f03dbac8b3301b61-optimized.jpg&ehk=USndSOdl8bTgh1izawrAwxr2nxvNn%2FTpocJgAGqoDY0%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/infrared-2024/details",
     date: "October 6 2024",
