@@ -164,6 +164,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "CYBERSPACE",
+        date: "11/17/24",
+        location: "Seattle, WA, USA",
+        description: "you've been staring at the screen for hours now. your eyes frost over as your mind wanders on the potential of the digital world. just as you try to start interrogating one possibility, your mind becomes rapidly lost in the next. the gentle hum of the computer now comforts you like the voice of a friend. the physical world crumbles behind you, yet your attention cannot be drawn enough for you to acknowledge its disappearance. you are now a part of cyberspace.",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F728384%2Fimage-d4170301e00b22b265f653acb7ca56bc-optimized.png&ehk=zfmxmiR6oSlhYnUgnPXKVjv5Zn9LgOI7tUwTwES8QU8%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/cyberspace-3/details",
+        rankImg: true, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Pissmas 5",
         date: "11/29/24 - 12/1/24",
         location: "Southport, QLD, Australia",

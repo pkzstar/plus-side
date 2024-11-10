@@ -2147,6 +2147,23 @@ function showCalendar(month, year) {
                 updateLinkAndImage(); // Initially update link and image
                 fadeInOut(image); // Start fade-in/out animation // Start cycling events
                 
+                     // CYBERSPACE
+            } else if (month === 10 && (date === 17) && year === 2024) {
+
+
+                let link = document.createElement("a");
+                link.href = "https://www.start.gg/tournament/cyberspace-3/details";
+                link.target = "_blank";
+
+                let image = document.createElement("img");
+                image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F728384%2Fimage-d4170301e00b22b265f653acb7ca56bc-optimized.png&ehk=zfmxmiR6oSlhYnUgnPXKVjv5Zn9LgOI7tUwTwES8QU8%3D&w=280&h=280&r=0";
+
+                image.classList.add("calendarImg");
+
+
+                link.appendChild(image);
+                cell.appendChild(link);
+
                 // CoB 2
             } else if (month === 11 && (date === 14) && year === 2024) {
 
