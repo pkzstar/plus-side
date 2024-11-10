@@ -111,6 +111,32 @@ function createPastEventElement(eventData) {
 const eventData = [
 
   {
+    eventTitle: "cardd's basement",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F700328%2Fimage-23f218e8ddb0bde41f1f0de22c998782-optimized.png&ehk=OVSnkj%2BgETglWhmNzEkT0oB%2FjTi%2FIxbzMQcjrXSGnR4%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/cardd-s-basement/details",
+    date: "November 9 2024",
+    location: "Georgia",
+    entrants: 34,
+    first: "Dingo",
+    second: "Moist",
+    third: "Av",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "Show Me Your Moves 24",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F698361%2Fimage-d2e2c3e64de1dc9428c9460ea5c42180-optimized.jpg&ehk=i1VdSzAZQGuklEvHYhFum3SBQvSjxHcoDLlRYbWuOKA%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/show-me-your-moves-24-1/event/project-singles/standings",
+    date: "November 9 2024",
+    location: "Illinois",
+    entrants: 25,
+    first: "Chaloopy",
+    second: "Star",
+    third: "ORLY",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
     eventTitle: "Cougar Smash: HAUNTED",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F716061%2Fimage-3c7c7a6766ea7269c9284590b58b5656-optimized.png&ehk=mwUw41n4GIi6x3pDGKRLiGS2RCga8XU%2Be1HXVvyAg30%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/cougar-smash-haunted/details",

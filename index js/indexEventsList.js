@@ -118,28 +118,7 @@ eventName.appendChild(location);
 const eventsData = [
 
 
-      {
-        name: "Show Me Your Moves 24",
-        date: "11/9/24",
-        location: "Urbana, IL, USA",
-        description: "Show Me Your Moves features Super Smash Bros. Melee and Super Smash Bros. Ultimate as always, and we're thrilled to be bringing you Project+ once more!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F698361%2Fimage-d2e2c3e64de1dc9428c9460ea5c42180-optimized.jpg&ehk=i1VdSzAZQGuklEvHYhFum3SBQvSjxHcoDLlRYbWuOKA%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/show-me-your-moves-24-1/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "cardd's basement",
-        date: "11/9/24",
-        location: "Atlanta, GA, USA",
-        description: "spiritual successor to georgia's most densely stacked tournament series. this is not in cardd's basement. only in their metaphorical basement.",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F700328%2Fimage-23f218e8ddb0bde41f1f0de22c998782-optimized.png&ehk=OVSnkj%2BgETglWhmNzEkT0oB%2FjTi%2FIxbzMQcjrXSGnR4%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/cardd-s-basement/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
+
       {
         name: "Mass Madness Deluxe",
         date: "11/16/24",
