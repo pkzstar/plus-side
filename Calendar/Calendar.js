@@ -2147,39 +2147,148 @@ function showCalendar(month, year) {
                 updateLinkAndImage(); // Initially update link and image
                 fadeInOut(image); // Start fade-in/out animation // Start cycling events
                 
-                     // CYBERSPACE
-            } else if (month === 10 && (date === 17) && year === 2024) {
+                     // CYBERSPACE + RedShift
+                    } else if(month === 10 &&  date === 17 && year === 2024) {
+
+                        const events = [
+                            {   
+                                link: "https://www.start.gg/tournament/cyberspace-3/details",
+                                imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F728384%2Fimage-d4170301e00b22b265f653acb7ca56bc-optimized.png&ehk=zfmxmiR6oSlhYnUgnPXKVjv5Zn9LgOI7tUwTwES8QU8%3D&w=280&h=280&r=0"
+                                
+                            },
+                            {
+                                link: "https://www.start.gg/tournament/redshift-platform-fighters-ft-rivals-2/details",
+                                imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F726304%2Fimage-07003ba43c367249a31602ce55a88ccb-optimized.jpg&ehk=jaMs3W38dNgpNmkdxtrThqcqDQ4HCQEPUGo3RZ2duEU%3D&w=280&h=280&r=0"
+                            }
+            
+                        ];
+                        let currentIndex = 0; // Initialize current index
+            
+                        let link = document.createElement("a");
+                        link.target = "_blank";
+            
+                        let image = document.createElement("img");
+            
+                        image.classList.add("calendarImg");
+            
+                        link.appendChild(image);
+                        cell.appendChild(link);
+            
+                        // Function to fade in/out the image and link
+                        function fadeInOut(element) {
+                            let opacity = 0;
+                            let increasing = true;
+                            let interval = setInterval(function() {
+                                if (increasing) {
+                                    opacity += 0.05;
+                                } else {
+                                    opacity -= 0.05;
+                                }
+                                element.style.opacity = opacity;
+                                if (opacity >= 1) {
+                                    increasing = false;
+                                    setTimeout(() => {
+                                        increasing = true;
+                                        updateLinkAndImage(); // Update link and image after fully visible
+                                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                                } else if (opacity <= 0) {
+                                    clearInterval(interval);
+                                    fadeInOut(element); // Restart the fading animation
+                                }
+                            }, 100); // Adjust the timing as needed
+                        }
+                    
+                        // Function to update the link and image
+                        function updateLinkAndImage() {
+                            link.href = events[currentIndex].link;
+                            image.src = events[currentIndex].imageSrc;
+                            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+                        }
+                    
+                        updateLinkAndImage(); // Initially update link and image
+                        fadeInOut(image); // Start fade-in/out animation // Start cycling events
+                        
+
+                        // We Tech Those 23
+                    } else if (month === 10 && (date === 23) && year === 2024) {
 
 
+                        let link = document.createElement("a");
+                        link.href = "https://www.start.gg/tournament/we-tech-those-23-3/details";
+                        link.target = "_blank";
+        
+                        let image = document.createElement("img");
+                        image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F730468%2Fimage-5042759ed1e0c6396e950c941292325f-optimized.png&ehk=t8cxrvEXSD%2BitLwqYlhgv%2BM5cAeHzhKRUPQbBQRF7AQ%3D&w=280&h=280&r=0";
+        
+                        image.classList.add("calendarImg");
+        
+        
+                        link.appendChild(image);
+                        cell.appendChild(link);
+
+
+
+                // CoB 2 + LL's HS
+            } else if(month === 11 &&  date === 14 && year === 2024) {
+
+                const events = [
+                    {   
+                        link: "https://www.start.gg/tournament/condo-of-blood-2-2/details",
+                        imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F702378%2Fimage-8d2b7a057fea4990d7c65f0a9029ce55-optimized.png&ehk=IdU531WdJ2NzjRvsKva8PJUtCeLIIHB6Di%2BJqFU80bU%3D&w=280&h=280&r=0"
+                        
+                    },
+                    {
+                        link: "https://www.start.gg/tournament/lexyloo-s-holiday-special/details",
+                        imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F729400%2Fimage-a51ee329476a3535bce01532c7bbdde5-optimized.png&ehk=kCVMsgzq6I6yWzQWkHp%2BxLUp5%2FIdtr2Van9ixAciDm8%3D&w=280&h=280&r=0"
+                    }
+    
+                ];
+                let currentIndex = 0; // Initialize current index
+    
                 let link = document.createElement("a");
-                link.href = "https://www.start.gg/tournament/cyberspace-3/details";
                 link.target = "_blank";
-
+    
                 let image = document.createElement("img");
-                image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F728384%2Fimage-d4170301e00b22b265f653acb7ca56bc-optimized.png&ehk=zfmxmiR6oSlhYnUgnPXKVjv5Zn9LgOI7tUwTwES8QU8%3D&w=280&h=280&r=0";
-
+    
                 image.classList.add("calendarImg");
-
-
+    
                 link.appendChild(image);
                 cell.appendChild(link);
-
-                // CoB 2
-            } else if (month === 11 && (date === 14) && year === 2024) {
-
-
-                    let link = document.createElement("a");
-                    link.href = "https://www.start.gg/tournament/condo-of-blood-2-2/details";
-                    link.target = "_blank";
     
-                    let image = document.createElement("img");
-                    image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F702378%2Fimage-8d2b7a057fea4990d7c65f0a9029ce55-optimized.png&ehk=IdU531WdJ2NzjRvsKva8PJUtCeLIIHB6Di%2BJqFU80bU%3D&w=280&h=280&r=0";
-    
-                    image.classList.add("calendarImg");
-    
-    
-                    link.appendChild(image);
-                    cell.appendChild(link);
+                // Function to fade in/out the image and link
+                function fadeInOut(element) {
+                    let opacity = 0;
+                    let increasing = true;
+                    let interval = setInterval(function() {
+                        if (increasing) {
+                            opacity += 0.05;
+                        } else {
+                            opacity -= 0.05;
+                        }
+                        element.style.opacity = opacity;
+                        if (opacity >= 1) {
+                            increasing = false;
+                            setTimeout(() => {
+                                increasing = true;
+                                updateLinkAndImage(); // Update link and image after fully visible
+                            }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                        } else if (opacity <= 0) {
+                            clearInterval(interval);
+                            fadeInOut(element); // Restart the fading animation
+                        }
+                    }, 100); // Adjust the timing as needed
+                }
+            
+                // Function to update the link and image
+                function updateLinkAndImage() {
+                    link.href = events[currentIndex].link;
+                    image.src = events[currentIndex].imageSrc;
+                    currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+                }
+            
+                updateLinkAndImage(); // Initially update link and image
+                fadeInOut(image); // Start fade-in/out animation // Start cycling events
+                
     
         //Tennessee Summit
     } else if (month === 0 && (date === 10 || date === 12) && year === 2025) {
