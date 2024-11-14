@@ -120,7 +120,7 @@ const eventData = [
     first: "Dingo",
     second: "Moist",
     third: "Av",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLL2RqAT-Fg9Z1y6JQBEzsU_6y94IBeVqC",
     hideRankImage: false
   },
   {
@@ -133,7 +133,7 @@ const eventData = [
     first: "Chaloopy",
     second: "Star",
     third: "ORLY",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLJIkd-7ajnoWFq2lubcL58dyTZ04M3xuf",
     hideRankImage: false
   },
   {
@@ -198,7 +198,7 @@ const eventData = [
     first: "Vaporeon",
     second: "Aluminis",
     third: "FortniteCrankinNineTeens",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLY1mOqf-h8kT6Rsm-M3zgrkNAxj26gIFD",
     hideRankImage: true
   },
   {

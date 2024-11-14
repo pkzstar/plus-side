@@ -126,7 +126,7 @@ const eventsData = [
         description: "New England Melee and Massachusetts Project+ have come together to run a large regional! Pre-registration is MANDATORY, and closes at 4:00 PM on Friday, November 15th, or once we hit our entry caps.",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F722151%2Fimage-868aa56131de1627a08419780bb84420-optimized.png&ehk=axLCB38xhnZMiXM%2F4Uz1Bme%2BwrhpVNO27PDEWVKyY1I%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/mass-madness-deluxe-a-project-melee-and-hdr-regional/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: ""
       },
@@ -175,6 +175,28 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "RedShift: Platform Fighters! (ft. Rivals 2)",
+        date: "11/17/24",
+        location: "Raleigh, NC, USA",
+        description: "RedShift is back for a one off Fall event, featuring Rivals 2, P+, and HDR!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F726304%2Fimage-07003ba43c367249a31602ce55a88ccb-optimized.jpg&ehk=jaMs3W38dNgpNmkdxtrThqcqDQ4HCQEPUGo3RZ2duEU%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/redshift-platform-fighters-ft-rivals-2/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "We Tech Those 23",
+        date: "11/23/24",
+        location: "Atlanta, GA, USA",
+        description: "Doors open @ 12pm $200 Pot Bonus for Melee Singles $100 Pot Bonus for Melee Doubles $50 Pot Bonus for P+ Bring a WORKING set up to get venue fee waived",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F730468%2Fimage-5042759ed1e0c6396e950c941292325f-optimized.png&ehk=t8cxrvEXSD%2BitLwqYlhgv%2BM5cAeHzhKRUPQbBQRF7AQ%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/we-tech-those-23-3/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Pissmas 5",
         date: "11/29/24 - 12/1/24",
         location: "Southport, QLD, Australia",
@@ -193,6 +215,17 @@ const eventsData = [
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F702378%2Fimage-8d2b7a057fea4990d7c65f0a9029ce55-optimized.png&ehk=IdU531WdJ2NzjRvsKva8PJUtCeLIIHB6Di%2BJqFU80bU%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/condo-of-blood-2-2/details",
         rankImg: true, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Lexyloo's Holiday Special",
+        date: "12/14/24",
+        location: "Plano, Texas, USA",
+        description: "Come ring in the holidays with Lexyloo's Holiday Special! Join us at GGEZ Gaming Cafe as we celebrate the holidays with Rivals of Aether II, P+, and HDR!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F729400%2Fimage-a51ee329476a3535bce01532c7bbdde5-optimized.png&ehk=kCVMsgzq6I6yWzQWkHp%2BxLUp5%2FIdtr2Van9ixAciDm8%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/lexyloo-s-holiday-special/details",
+        rankImg: false, 
         trailer: "",
         stream: ""
       },
