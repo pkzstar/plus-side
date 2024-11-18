@@ -197,6 +197,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Game 5 In The D #6",
+        date: "11/23/24",
+        location: "Detroit, MI, USA",
+        description: "We welcome all valiant competitors to our local P+ scene's return-to-form! Featuring a professional stream, custom tournament badges, your favorite players, and much, much more, this will be an event you won't want to miss!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F724520%2Fimage-4669a409e8ba16bc8416de03e4131603-optimized.jpg&ehk=Xw944yGxRrU5OozpQQLIyIMXO%2FrpdwImxM1DKXrGLak%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/game-5-in-the-d-6/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Pissmas 5",
         date: "11/29/24 - 12/1/24",
         location: "Southport, QLD, Australia",
@@ -283,6 +294,17 @@ const eventsData = [
         rankImg: false, 
         trailer: "https://twitter.com/BlacklistedSSB/status/1817403907984761246",
         stream: "https://www.twitch.tv/projectmnexus"
+      },
+      {
+        name: "Full Bloom 2025",
+        date: "4/5/25 - 4/6/25",
+        location: "Bloomington, IN, USA",
+        description: "Full Bloom 2025 is a 2-day, super smash bros, Project+ and Rivals of Aether 2 tournament held at the Indiana Memorial Union in Bloomington, Indiana",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F715134%2Fimage-35f8b3298b2d53d5d028afc8f3d63422-optimized.png&ehk=QGeDTX8I9NdN%2FFIsuMr%2B4GVjU80B69p8KQOXMGqK0n8%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/full-bloom-2025/details",
+        rankImg: true, 
+        trailer: "https://www.youtube.com/watch?v=oCO0FoZf6VU",
+        stream: ""
       },
     ];
 

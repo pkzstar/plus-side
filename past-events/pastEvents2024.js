@@ -159,7 +159,7 @@ const eventData = [
     first: "essy",
     second: "moxi",
     third: "Peppy",
-    vodsUrl: "",
+    vodsUrl: "https://youtu.be/uYIVACPpzR4",
     hideRankImage: true
   },
   {

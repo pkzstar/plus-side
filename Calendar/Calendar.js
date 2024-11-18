@@ -2212,19 +2212,63 @@ function showCalendar(month, year) {
                         // We Tech Those 23
                     } else if (month === 10 && (date === 23) && year === 2024) {
 
-
+                        const events = [
+                            {   
+                                link: "https://www.start.gg/tournament/we-tech-those-23-3/details",
+                                imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F730468%2Fimage-5042759ed1e0c6396e950c941292325f-optimized.png&ehk=t8cxrvEXSD%2BitLwqYlhgv%2BM5cAeHzhKRUPQbBQRF7AQ%3D&w=280&h=280&r=0"
+                                
+                            },
+                            {
+                                link: "https://www.start.gg/tournament/game-5-in-the-d-6/details",
+                                imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F724520%2Fimage-4669a409e8ba16bc8416de03e4131603-optimized.jpg&ehk=Xw944yGxRrU5OozpQQLIyIMXO%2FrpdwImxM1DKXrGLak%3D&w=280&h=280&r=0"
+                            }
+            
+                        ];
+                        let currentIndex = 0; // Initialize current index
+            
                         let link = document.createElement("a");
-                        link.href = "https://www.start.gg/tournament/we-tech-those-23-3/details";
                         link.target = "_blank";
-        
+            
                         let image = document.createElement("img");
-                        image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F730468%2Fimage-5042759ed1e0c6396e950c941292325f-optimized.png&ehk=t8cxrvEXSD%2BitLwqYlhgv%2BM5cAeHzhKRUPQbBQRF7AQ%3D&w=280&h=280&r=0";
-        
+            
                         image.classList.add("calendarImg");
-        
-        
+            
                         link.appendChild(image);
                         cell.appendChild(link);
+            
+                        // Function to fade in/out the image and link
+                        function fadeInOut(element) {
+                            let opacity = 0;
+                            let increasing = true;
+                            let interval = setInterval(function() {
+                                if (increasing) {
+                                    opacity += 0.05;
+                                } else {
+                                    opacity -= 0.05;
+                                }
+                                element.style.opacity = opacity;
+                                if (opacity >= 1) {
+                                    increasing = false;
+                                    setTimeout(() => {
+                                        increasing = true;
+                                        updateLinkAndImage(); // Update link and image after fully visible
+                                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                                } else if (opacity <= 0) {
+                                    clearInterval(interval);
+                                    fadeInOut(element); // Restart the fading animation
+                                }
+                            }, 100); // Adjust the timing as needed
+                        }
+                    
+                        // Function to update the link and image
+                        function updateLinkAndImage() {
+                            link.href = events[currentIndex].link;
+                            image.src = events[currentIndex].imageSrc;
+                            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+                        }
+                    
+                        updateLinkAndImage(); // Initially update link and image
+                        fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
 
 
@@ -2404,7 +2448,22 @@ function showCalendar(month, year) {
             cell.appendChild(link);
             
     
-                        // TECH 2025 & tennessee summit
+ // Full Bloom
+} else if (month === 3 && (date === 5 || date === 6) && year === 2025) {
+    // Example link with image
+    let link = document.createElement("a");
+    link.href = "https://www.start.gg/tournament/full-bloom-2025/details";
+    link.target = "_blank";
+
+    let image = document.createElement("img");
+    image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F715134%2Fimage-35f8b3298b2d53d5d028afc8f3d63422-optimized.png&ehk=QGeDTX8I9NdN%2FFIsuMr%2B4GVjU80B69p8KQOXMGqK0n8%3D&w=280&h=280&r=0";
+
+    image.classList.add("calendarImg");
+
+
+    link.appendChild(image);
+    cell.appendChild(link);
+    
                     } 
         else {
                     // Create and append the date text only if there is no image
