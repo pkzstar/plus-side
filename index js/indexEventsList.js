@@ -118,73 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
 
-
-      {
-        name: "Mass Madness Deluxe",
-        date: "11/16/24",
-        location: "Waltham, MA, USA",
-        description: "New England Melee and Massachusetts Project+ have come together to run a large regional! Pre-registration is MANDATORY, and closes at 4:00 PM on Friday, November 15th, or once we hit our entry caps.",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F722151%2Fimage-868aa56131de1627a08419780bb84420-optimized.png&ehk=axLCB38xhnZMiXM%2F4Uz1Bme%2BwrhpVNO27PDEWVKyY1I%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/mass-madness-deluxe-a-project-melee-and-hdr-regional/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Rage Against the CRT",
-        date: "11/16/24",
-        location: "Chattanooga, TN, USA",
-        description: "This month will be our first ever STREAMED tournament! In addition, we are bring back doubles!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F712613%2Fimage-e04444fd05867f4207020d6da948a147-optimized.jpg&ehk=MvKIkvnSe5Wtv24w%2BIoyNjg8Ere7fgr53c8xUpy%2BZ9Y%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/rage-against-the-crt/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Birdhouse 13 Charity for the Foodbank",
-        date: "11/16/24",
-        location: "Normal, IL, USA",
-        description: "Bloomington-Normal's Premiere Smash Regional Returns! The ISU Smash team is happy to announce the 13th iteration of Bird House!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F723673%2Fimage-1aeb7b34779d59e9909f10cf735714c3-optimized.jpg&ehk=e2h9y%2FCTF7Aw7%2FGVtqZinnCqeudWtq%2FxFsTFRF0ZZg8%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/birdhouse-13-charity-for-the-foodbank/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "LA NEXUS XVII",
-        date: "11/16/24",
-        location: "Baton Rouge, LA, USA",
-        description: "BATON ROUGE SMASH IS BACK, THIS TIME AT THE NEXUS LOUISIANA TECH PARK!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F727138%2Fimage-7ab76bac26ade3b8758f0670081a4209-optimized.png&ehk=Qg64TBf4HmR69ichFld9TAFau9v9T1v9kY%2Bo7n6Cthw%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/la-nexus-xvii/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "CYBERSPACE",
-        date: "11/17/24",
-        location: "Seattle, WA, USA",
-        description: "you've been staring at the screen for hours now. your eyes frost over as your mind wanders on the potential of the digital world. just as you try to start interrogating one possibility, your mind becomes rapidly lost in the next. the gentle hum of the computer now comforts you like the voice of a friend. the physical world crumbles behind you, yet your attention cannot be drawn enough for you to acknowledge its disappearance. you are now a part of cyberspace.",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F728384%2Fimage-d4170301e00b22b265f653acb7ca56bc-optimized.png&ehk=zfmxmiR6oSlhYnUgnPXKVjv5Zn9LgOI7tUwTwES8QU8%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/cyberspace-3/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "RedShift: Platform Fighters! (ft. Rivals 2)",
-        date: "11/17/24",
-        location: "Raleigh, NC, USA",
-        description: "RedShift is back for a one off Fall event, featuring Rivals 2, P+, and HDR!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F726304%2Fimage-07003ba43c367249a31602ce55a88ccb-optimized.jpg&ehk=jaMs3W38dNgpNmkdxtrThqcqDQ4HCQEPUGo3RZ2duEU%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/redshift-platform-fighters-ft-rivals-2/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
       {
         name: "We Tech Those 23",
         date: "11/23/24",
@@ -283,6 +216,17 @@ const eventsData = [
         rankImg: true, 
         trailer: "",
         stream: ""
+      },      
+      {
+        name: "Full Bloom 2025",
+        date: "4/5/25 - 4/6/25",
+        location: "Bloomington, IN, USA",
+        description: "Full Bloom 2025 is a 2-day, super smash bros, Project+ and Rivals of Aether 2 tournament held at the Indiana Memorial Union in Bloomington, Indiana",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F715134%2Fimage-35f8b3298b2d53d5d028afc8f3d63422-optimized.png&ehk=QGeDTX8I9NdN%2FFIsuMr%2B4GVjU80B69p8KQOXMGqK0n8%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/full-bloom-2025/details",
+        rankImg: true, 
+        trailer: "https://www.youtube.com/watch?v=oCO0FoZf6VU",
+        stream: ""
       },
       {
         name: "Blacklisted 9",
@@ -294,17 +238,6 @@ const eventsData = [
         rankImg: false, 
         trailer: "https://twitter.com/BlacklistedSSB/status/1817403907984761246",
         stream: "https://www.twitch.tv/projectmnexus"
-      },
-      {
-        name: "Full Bloom 2025",
-        date: "4/5/25 - 4/6/25",
-        location: "Bloomington, IN, USA",
-        description: "Full Bloom 2025 is a 2-day, super smash bros, Project+ and Rivals of Aether 2 tournament held at the Indiana Memorial Union in Bloomington, Indiana",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F715134%2Fimage-35f8b3298b2d53d5d028afc8f3d63422-optimized.png&ehk=QGeDTX8I9NdN%2FFIsuMr%2B4GVjU80B69p8KQOXMGqK0n8%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/full-bloom-2025/details",
-        rankImg: true, 
-        trailer: "https://www.youtube.com/watch?v=oCO0FoZf6VU",
-        stream: ""
       },
     ];
 
