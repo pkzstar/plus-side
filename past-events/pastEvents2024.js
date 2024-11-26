@@ -111,6 +111,32 @@ function createPastEventElement(eventData) {
 const eventData = [
 
   {
+    eventTitle: "Game 5 In The D #6",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F724520%2Fimage-4669a409e8ba16bc8416de03e4131603-optimized.jpg&ehk=Xw944yGxRrU5OozpQQLIyIMXO%2FrpdwImxM1DKXrGLak%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/game-5-in-the-d-6/details",
+    date: "November 23 2024",
+    location: "Michigan",
+    entrants: 14,
+    first: "Dirtboy",
+    second: "Lordy",
+    third: "Lord Wavy",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "We Tech Those 23",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F730468%2Fimage-5042759ed1e0c6396e950c941292325f-optimized.png&ehk=t8cxrvEXSD%2BitLwqYlhgv%2BM5cAeHzhKRUPQbBQRF7AQ%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/we-tech-those-23-3/details",
+    date: "November 23 2024",
+    location: "Georgia",
+    entrants: 7,
+    first: "moxi",
+    second: "natebug01",
+    third: "C$",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "CYBERSPACE",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F728384%2Fimage-d4170301e00b22b265f653acb7ca56bc-optimized.png&ehk=zfmxmiR6oSlhYnUgnPXKVjv5Zn9LgOI7tUwTwES8QU8%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/cyberspace-3/details",

@@ -2225,7 +2225,84 @@ function showCalendar(month, year) {
                         updateLinkAndImage(); // Initially update link and image
                         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
+                // Pissmas 5 Day 1, 3
+                } else if ((month === 10 && date === 29) ||(month === 11 && date === 1) && year === 2024) {
 
+
+                    let link = document.createElement("a");
+                    link.href = "https://www.start.gg/tournament/pissmas-5/details";
+                    link.target = "_blank";
+
+                    let image = document.createElement("img");
+                    image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F711199%2Fimage-13f747fdf4949ee152c280b5ad6213dc-optimized.png&ehk=B4KLu7um2O7wIzURoDP%2F1L8VLvwVop4KB47typTJpaQ%3D&w=280&h=280&r=0";
+
+                    image.classList.add("calendarImg");
+
+
+                    link.appendChild(image);
+                    cell.appendChild(link);
+
+                    // Pissmas Day 2 + WOL 9
+            }  else if(month === 10 &&  date === 30 && year === 2024) {
+
+            const events = [
+                {   
+                    link: "https://www.start.gg/tournament/pissmas-5/details",
+                    imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F711199%2Fimage-13f747fdf4949ee152c280b5ad6213dc-optimized.png&ehk=B4KLu7um2O7wIzURoDP%2F1L8VLvwVop4KB47typTJpaQ%3D&w=280&h=280&r=0"
+                    
+                },
+                {
+                    link: "hhttps://www.start.gg/tournament/who-s-on-ledge-9/details",
+                    imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F724863%2Fimage-1e4b69c6abcfa56933f95f14b99a699d-optimized.png&ehk=1uODmbXgfa8XVKQ1Pb%2Be4ot%2Bz2sAYA0RCua9wWZcflI%3D&w=280&h=280&r=0"
+                }
+    
+            ];
+            let currentIndex = 0; // Initialize current index
+    
+            let link = document.createElement("a");
+            link.target = "_blank";
+    
+            let image = document.createElement("img");
+    
+            image.classList.add("calendarImg");
+    
+            link.appendChild(image);
+            cell.appendChild(link);
+    
+            // Function to fade in/out the image and link
+            function fadeInOut(element) {
+                let opacity = 0;
+                let increasing = true;
+                let interval = setInterval(function() {
+                    if (increasing) {
+                        opacity += 0.05;
+                    } else {
+                        opacity -= 0.05;
+                    }
+                    element.style.opacity = opacity;
+                    if (opacity >= 1) {
+                        increasing = false;
+                        setTimeout(() => {
+                            increasing = true;
+                            updateLinkAndImage(); // Update link and image after fully visible
+                        }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                    } else if (opacity <= 0) {
+                        clearInterval(interval);
+                        fadeInOut(element); // Restart the fading animation
+                    }
+                }, 100); // Adjust the timing as needed
+            }
+        
+            // Function to update the link and image
+            function updateLinkAndImage() {
+                link.href = events[currentIndex].link;
+                image.src = events[currentIndex].imageSrc;
+                currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+            }
+        
+            updateLinkAndImage(); // Initially update link and image
+            fadeInOut(image); // Start fade-in/out animation // Start cycling events
+        
 
                 // CoB 2 + LL's HS
             } else if(month === 11 &&  date === 14 && year === 2024) {
@@ -2287,10 +2364,25 @@ function showCalendar(month, year) {
             
                 updateLinkAndImage(); // Initially update link and image
                 fadeInOut(image); // Start fade-in/out animation // Start cycling events
-                
+
+                // BTBBC2: LA
+            } else if (month === 11 && (date === 22) && year === 2024) {
+            // Example link with image
+            let link = document.createElement("a");
+            link.href = "https://www.start.gg/tournament/bristol-s-the-basement-before-christmas-2-love-actually/details";
+            link.target = "_blank";
     
-        //Tennessee Summit
-    } else if (month === 0 && (date === 10 || date === 12) && year === 2025) {
+            let image = document.createElement("img");
+            image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F734148%2Fimage-00d0282df9b5c493f4821289575651f5-optimized.png&ehk=M88s%2F4c%2FFI%2FoB6PWsQc4Mht2x1PACX6g6dJpnaoHlc4%3D&w=280&h=280&r=0";
+    
+            image.classList.add("calendarImg");
+    
+    
+            link.appendChild(image);
+            cell.appendChild(link);
+                
+        // TN Summit 2025
+        } else if (month === 0 && (date === 10 || date === 12) && year === 2025) {
         // Example link with image
         let link = document.createElement("a");
         link.href = "https://www.start.gg/tournament/tennessee-p-summit-2025/details";
@@ -2401,10 +2493,27 @@ function showCalendar(month, year) {
     
             link.appendChild(image);
             cell.appendChild(link);
+
+            
+        // Winter is Crouching
+        } else if (month === 2 && (date === 1 || date === 2) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/lust-50-a-louisiana-regional/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F687306%2Fimage-5618485cca829ee70b7125791593c3e2-optimized.png&ehk=qQc4jLdbvBzwuFG7iw%2BIaofHMDeQPOdtUyGDqI7HPDE%3D&w=280&h=280&r=0";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
             
     
- // Full Bloom
-} else if (month === 3 && (date === 5 || date === 6) && year === 2025) {
+    // Full Bloom 2025
+    } else if (month === 3 && (date === 5 || date === 6) && year === 2025) {
     // Example link with image
     let link = document.createElement("a");
     link.href = "https://www.start.gg/tournament/full-bloom-2025/details";
@@ -2412,6 +2521,22 @@ function showCalendar(month, year) {
 
     let image = document.createElement("img");
     image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F715134%2Fimage-35f8b3298b2d53d5d028afc8f3d63422-optimized.png&ehk=QGeDTX8I9NdN%2FFIsuMr%2B4GVjU80B69p8KQOXMGqK0n8%3D&w=280&h=280&r=0";
+
+    image.classList.add("calendarImg");
+
+
+    link.appendChild(image);
+    cell.appendChild(link);
+
+    // Project D
+    } else if (month === 4 && (date === 17) && year === 2025) {
+    // Example link with image
+    let link = document.createElement("a");
+    link.href = "https://www.start.gg/tournament/project-d/details";
+    link.target = "_blank";
+
+    let image = document.createElement("img");
+    image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F734216%2Fimage-ee3ee05c35dba007a95866d0be0d48da-optimized.png&ehk=yWRBbth3w%2BRzWsSxGEGuUudXJ15ui28vMkBOBEMevio%3D&w=280&h=280&r=0";
 
     image.classList.add("calendarImg");
 
