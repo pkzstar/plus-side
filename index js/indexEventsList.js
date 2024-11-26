@@ -119,34 +119,23 @@ const eventsData = [
 
 
       {
-        name: "We Tech Those 23",
-        date: "11/23/24",
-        location: "Atlanta, GA, USA",
-        description: "Doors open @ 12pm $200 Pot Bonus for Melee Singles $100 Pot Bonus for Melee Doubles $50 Pot Bonus for P+ Bring a WORKING set up to get venue fee waived",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F730468%2Fimage-5042759ed1e0c6396e950c941292325f-optimized.png&ehk=t8cxrvEXSD%2BitLwqYlhgv%2BM5cAeHzhKRUPQbBQRF7AQ%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/we-tech-those-23-3/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Game 5 In The D #6",
-        date: "11/23/24",
-        location: "Detroit, MI, USA",
-        description: "We welcome all valiant competitors to our local P+ scene's return-to-form! Featuring a professional stream, custom tournament badges, your favorite players, and much, much more, this will be an event you won't want to miss!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F724520%2Fimage-4669a409e8ba16bc8416de03e4131603-optimized.jpg&ehk=Xw944yGxRrU5OozpQQLIyIMXO%2FrpdwImxM1DKXrGLak%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/game-5-in-the-d-6/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Pissmas 5",
         date: "11/29/24 - 12/1/24",
         location: "Southport, QLD, Australia",
         description: "A Christmas Smash Major in collaboration with Queensland Ultimate, Tournameta and Piss Gang. Pissmas 5 will run over three days, feature 7 brackets and the one and only Pissbet!",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F711199%2Fimage-13f747fdf4949ee152c280b5ad6213dc-optimized.png&ehk=B4KLu7um2O7wIzURoDP%2F1L8VLvwVop4KB47typTJpaQ%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/pissmas-5/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Who's On Ledge? 9",
+        date: "11/30/24",
+        location: "Des Moines, IA, USA",
+        description: "DMGC presents Who's on Ledge? Our monthly tournament series featuring Super Smash Bros. Melee, Ultimate, Project+, and Rivals of Aether II at RezBlue Arena!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F724863%2Fimage-1e4b69c6abcfa56933f95f14b99a699d-optimized.png&ehk=1uODmbXgfa8XVKQ1Pb%2Be4ot%2Bz2sAYA0RCua9wWZcflI%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/who-s-on-ledge-9/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -169,6 +158,17 @@ const eventsData = [
         description: "Come ring in the holidays with Lexyloo's Holiday Special! Join us at GGEZ Gaming Cafe as we celebrate the holidays with Rivals of Aether II, P+, and HDR!",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F729400%2Fimage-a51ee329476a3535bce01532c7bbdde5-optimized.png&ehk=kCVMsgzq6I6yWzQWkHp%2BxLUp5%2FIdtr2Van9ixAciDm8%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/lexyloo-s-holiday-special/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Bristol's The Basement Before Christmas 2: love actually",
+        date: "12/22/24",
+        location: "Bristol, UK",
+        description: "Bristol's premier Melee monthly is back for another very special event! We decided the last Sunday of this month would be inconvenient for most people, as it falls between Christmas and New Years and we know most people will be with family, so we're running a more laid back, side-event focused tournament.",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F734148%2Fimage-00d0282df9b5c493f4821289575651f5-optimized.png&ehk=M88s%2F4c%2FFI%2FoB6PWsQc4Mht2x1PACX6g6dJpnaoHlc4%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/bristol-s-the-basement-before-christmas-2-love-actually/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -216,6 +216,17 @@ const eventsData = [
         rankImg: true, 
         trailer: "",
         stream: ""
+      },
+      {
+        name: "Winter is Crouching",
+        date: "3/1/25 - 3/2/25",
+        location: "Le Kremlin-Bicêtre, Paris, France",
+        description: "Muahahaha! Are you ready for winter? Winter is crouching ❄️❄️❄️ On the program: Project+ of course, we love illegal games 😈, but also Melee and Rivals of Aether 2 hehe",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F687306%2Fimage-5618485cca829ee70b7125791593c3e2-optimized.png&ehk=qQc4jLdbvBzwuFG7iw%2BIaofHMDeQPOdtUyGDqI7HPDE%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/lust-50-a-louisiana-regional/details",
+        rankImg: true, 
+        trailer: "",
+        stream: ""
       },      
       {
         name: "Full Bloom 2025",
@@ -226,6 +237,17 @@ const eventsData = [
         link: "https://www.start.gg/tournament/full-bloom-2025/details",
         rankImg: true, 
         trailer: "https://www.youtube.com/watch?v=oCO0FoZf6VU",
+        stream: ""
+      },
+      {
+        name: "Project D",
+        date: "5/17/25",
+        location: "Birmingham, UK",
+        description: "It's time for the biggest P+ tournament in the UK since Not Fête back in 2023! This is an 18+ event",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F734216%2Fimage-ee3ee05c35dba007a95866d0be0d48da-optimized.png&ehk=yWRBbth3w%2BRzWsSxGEGuUudXJ15ui28vMkBOBEMevio%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/project-d/details",
+        rankImg: false, 
+        trailer: "",
         stream: ""
       },
       {
