@@ -172,7 +172,7 @@ const eventData = [
     first: "essy",
     second: "PartyGhoul",
     third: "Shadows",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/watch?v=nYGJfJKUgOM",
     hideRankImage: false
   },
   {

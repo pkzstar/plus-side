@@ -2494,6 +2494,22 @@ function showCalendar(month, year) {
             link.appendChild(image);
             cell.appendChild(link);
 
+                    // Journey to the West
+        } else if (month === 1 && (date === 21 || date === 22 || date === 23) && year === 2025) {
+            // Example link with image
+            let link = document.createElement("a");
+            link.href = "https://www.start.gg/tournament/journey-to-the-west/details";
+            link.target = "_blank";
+    
+            let image = document.createElement("img");
+            image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F731623%2Fimage-120c39ca0b9e548595ff1c4f88a45860-optimized.jpg&ehk=lsIwpkupKikujRh8VEMGEvMyMCytWXbF%2BCAGiF3N4ZQ%3D&w=280&h=280&r=0";
+    
+            image.classList.add("calendarImg");
+    
+    
+            link.appendChild(image);
+            cell.appendChild(link);
+
             
         // Winter is Crouching
         } else if (month === 2 && (date === 1 || date === 2) && year === 2025) {
