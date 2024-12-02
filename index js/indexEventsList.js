@@ -117,29 +117,6 @@ eventName.appendChild(location);
 // Sample event data (replace this with actual event data)
 const eventsData = [
 
-
-      {
-        name: "Pissmas 5",
-        date: "11/29/24 - 12/1/24",
-        location: "Southport, QLD, Australia",
-        description: "A Christmas Smash Major in collaboration with Queensland Ultimate, Tournameta and Piss Gang. Pissmas 5 will run over three days, feature 7 brackets and the one and only Pissbet!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F711199%2Fimage-13f747fdf4949ee152c280b5ad6213dc-optimized.png&ehk=B4KLu7um2O7wIzURoDP%2F1L8VLvwVop4KB47typTJpaQ%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/pissmas-5/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Who's On Ledge? 9",
-        date: "11/30/24",
-        location: "Des Moines, IA, USA",
-        description: "DMGC presents Who's on Ledge? Our monthly tournament series featuring Super Smash Bros. Melee, Ultimate, Project+, and Rivals of Aether II at RezBlue Arena!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F724863%2Fimage-1e4b69c6abcfa56933f95f14b99a699d-optimized.png&ehk=1uODmbXgfa8XVKQ1Pb%2Be4ot%2Bz2sAYA0RCua9wWZcflI%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/who-s-on-ledge-9/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
       {
         name: "Condo of Blood 2",
         date: "12/14/24",

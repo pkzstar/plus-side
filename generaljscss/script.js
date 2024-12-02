@@ -241,7 +241,18 @@ document.addEventListener('DOMContentLoaded', () => {
     pastEventsList.appendChild(pastEvents2024Wrapper);
     pastEvents2024Link.classList.add("past-year");
 
-
+  //2025
+  // let pastEvents2025 = document.getElementById("pastEvents")
+  // pastEventsList.classList.add("pastEventsList")
+  // pastEvents.appendChild(pastEventsList);
+  // let pastEvents2025Wrapper = document.createElement("p");
+  // pastEvents2025Wrapper.classList.add("pastYearWrapper")
+  // let pastEvents2025Link = document.createElement("a");
+  // pastEvents2025Link.href = "../past-events/2025.html";
+  // pastEvents2025Wrapper.appendChild(pastEvents2025Link);
+  // pastEvents2025Link.innerHTML = "2025";
+  // pastEventsList.appendChild(pastEvents2025Wrapper);
+  // pastEvents2025Link.classList.add("past-year");
 
 
       
