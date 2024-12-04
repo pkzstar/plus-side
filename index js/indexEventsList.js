@@ -117,18 +117,6 @@ eventName.appendChild(location);
 // Sample event data (replace this with actual event data)
 const eventsData = [
 
-
-  {
-    name: "Journey to the West",
-    date: "2/21/25 - 2/23/25",
-    location: "Bentley, WA, Australia",
-    description: "Smash Majors make a triumphant return to Perth after a 5 year wait over at The Hub, Bentley Technology Park. I encourage old and new faces alike to make an effort to come as this will most likely be the last major run for Ultimate in Perth.",
-    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F731623%2Fimage-120c39ca0b9e548595ff1c4f88a45860-optimized.jpg&ehk=lsIwpkupKikujRh8VEMGEvMyMCytWXbF%2BCAGiF3N4ZQ%3D&w=280&h=280&r=0",
-    link: "https://www.start.gg/tournament/journey-to-the-west/details",
-    rankImg: false, 
-    trailer: "",
-    stream: ""
-  },
       {
         name: "Condo of Blood 2",
         date: "12/14/24",
@@ -206,14 +194,26 @@ const eventsData = [
         trailer: "",
         stream: ""
       },
+      
+      {
+        name: "Journey to the West",
+        date: "2/21/25 - 2/23/25",
+        location: "Bentley, WA, Australia",
+        description: "Smash Majors make a triumphant return to Perth after a 5 year wait over at The Hub, Bentley Technology Park. I encourage old and new faces alike to make an effort to come as this will most likely be the last major run for Ultimate in Perth.",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F731623%2Fimage-120c39ca0b9e548595ff1c4f88a45860-optimized.jpg&ehk=lsIwpkupKikujRh8VEMGEvMyMCytWXbF%2BCAGiF3N4ZQ%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/journey-to-the-west/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
       {
         name: "Winter is Crouching",
         date: "3/1/25 - 3/2/25",
         location: "Le Kremlin-Bicêtre, Paris, France",
         description: "Muahahaha! Are you ready for winter? Winter is crouching ❄️❄️❄️ On the program: Project+ of course, we love illegal games 😈, but also Melee and Rivals of Aether 2 hehe",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F687306%2Fimage-5618485cca829ee70b7125791593c3e2-optimized.png&ehk=qQc4jLdbvBzwuFG7iw%2BIaofHMDeQPOdtUyGDqI7HPDE%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/lust-50-a-louisiana-regional/details",
-        rankImg: true, 
+        link: "https://www.start.gg/tournament/winter-is-crouching/details",
+        rankImg: false, 
         trailer: "",
         stream: ""
       },      
