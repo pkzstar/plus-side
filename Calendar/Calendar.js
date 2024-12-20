@@ -2365,7 +2365,23 @@ function showCalendar(month, year) {
                 updateLinkAndImage(); // Initially update link and image
                 fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-                // BTBBC2: LA
+                // GC8
+            } else if (month === 11 && (date === 21) && year === 2024) {
+                // Example link with image
+                let link = document.createElement("a");
+                link.href = "https://www.start.gg/tournament/gecko-cavern-8-the-holiday-special/details";
+                link.target = "_blank";
+        
+                let image = document.createElement("img");
+                image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F738073%2Fimage-420abd763db6b7810c89ef2065605ff1-optimized.png&ehk=MBjOzveFlZdIUDxVuNGUBFEAHrLZfXPCBfF%2BBWQWTeA%3D&w=280&h=280&r=0";
+        
+                image.classList.add("calendarImg");
+        
+        
+                link.appendChild(image);
+                cell.appendChild(link);
+                    
+            // BTBBC2: LA
             } else if (month === 11 && (date === 22) && year === 2024) {
             // Example link with image
             let link = document.createElement("a");
@@ -2461,8 +2477,25 @@ function showCalendar(month, year) {
             updateLinkAndImage(); // Initially update link and image
             fadeInOut(image); // Start fade-in/out animation // Start cycling events
         
-            //Somino 6
-        } else if (month === 0 && (date === 25) && year === 2025) {
+            //G5itD7
+        } else if (month === 0 && (date === 18) && year === 2025) {
+            // Example link with image
+            let link = document.createElement("a");
+            link.href = "https://www.start.gg/tournament/game-5-in-the-d-7/details";
+            link.target = "_blank";
+    
+            let image = document.createElement("img");
+            image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F741982%2Fimage-06d3c983cce808794b6e3357614d9716-optimized.jpg&ehk=Mm%2BdADFo6UiO6w63CtfQqvkLv1qT%2BVUH3vGCQimwKA4%3D&w=280&h=280&r=0";
+    
+            image.classList.add("calendarImg");
+    
+    
+            link.appendChild(image);
+            cell.appendChild(link);
+            
+    
+             //Somino 6
+            } else if (month === 0 && (date === 25) && year === 2025) {
             // Example link with image
             let link = document.createElement("a");
             link.href = "https://www.start.gg/tournament/somnio-6/details";
@@ -2482,11 +2515,11 @@ function showCalendar(month, year) {
         } else if (month === 1 && (date === 1 || date === 2) && year === 2025) {
             // Example link with image
             let link = document.createElement("a");
-            link.href = "https://www.start.gg/tournament/lust-50-a-louisiana-regional/details";
+            link.href = "https://www.start.gg/tournament/wrath-2025/details";
             link.target = "_blank";
     
             let image = document.createElement("img");
-            image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F718205%2Fimage-f7bc746a62b66f66d8604eb85d04ac49-optimized.png&ehk=OyS2etB7Qrzc6H8qxwJupdTt3jIBpdqYTeu6kN9QyJI%3D&w=280&h=280&r=0";
+            image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F733428%2Fimage-186746c11909b2a0b5c3fc0b2010014e-optimized.png&ehk=KP599AJILaMiQGI97%2Fljy8k4%2BEkXb3LyjQav3TVjH3s%3D&w=280&h=280&r=0";
     
             image.classList.add("calendarImg");
     
@@ -2526,8 +2559,24 @@ function showCalendar(month, year) {
     
         link.appendChild(image);
         cell.appendChild(link);
-            
-    
+
+    // SoTT10
+    } else if (month === 2 && (date === 22) && year === 2025) {
+    // Example link with image
+    let link = document.createElement("a");
+    link.href = "https://www.start.gg/tournament/smash-of-the-titans-10-1/details";
+    link.target = "_blank";
+
+    let image = document.createElement("img");
+    image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F733623%2Fimage-6a2f830b3ed2448c8cd4fdc5df2927dc-optimized.jpg&ehk=P6xRQjtL7NCBckUUb%2FvT03FR%2BA%2Bxwgf0XzQ8baE09kk%3D&w=280&h=280&r=0";
+
+    image.classList.add("calendarImg");
+
+
+    link.appendChild(image);
+    cell.appendChild(link);
+
+           
     // Full Bloom 2025
     } else if (month === 3 && (date === 5 || date === 6) && year === 2025) {
     // Example link with image
@@ -2544,6 +2593,7 @@ function showCalendar(month, year) {
     link.appendChild(image);
     cell.appendChild(link);
 
+    
     // Project D
     } else if (month === 4 && (date === 17) && year === 2025) {
     // Example link with image

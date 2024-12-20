@@ -118,23 +118,12 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Condo of Blood 2",
-        date: "12/14/24",
-        location: "Mississauga, Ontario, Canada",
-        description: "Condo of Blood is an Ontario Project Plus and HDR regional hosted directly beside the Port Credit GO station. This accessible recurring tournament series will feature top Ontario talent and is designed fully around our shared love of these modded smash games.",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F702378%2Fimage-8d2b7a057fea4990d7c65f0a9029ce55-optimized.png&ehk=IdU531WdJ2NzjRvsKva8PJUtCeLIIHB6Di%2BJqFU80bU%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/condo-of-blood-2-2/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Lexyloo's Holiday Special",
-        date: "12/14/24",
-        location: "Plano, Texas, USA",
-        description: "Come ring in the holidays with Lexyloo's Holiday Special! Join us at GGEZ Gaming Cafe as we celebrate the holidays with Rivals of Aether II, P+, and HDR!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F729400%2Fimage-a51ee329476a3535bce01532c7bbdde5-optimized.png&ehk=kCVMsgzq6I6yWzQWkHp%2BxLUp5%2FIdtr2Van9ixAciDm8%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/lexyloo-s-holiday-special/details",
+        name: "Gecko Cavern 8 - The Holiday Special",
+        date: "12/21/24",
+        location: "Burwood, NSW, Australia",
+        description: "Happy Holidays everyone! Gecko Cavern 8 is on its way! Hosted at Club Burwood along Burwood Road on the top floor of the venue, Gecko Cavern is the tournament series for Project Plus in Sydney! We also feature other games such as Melee, Rivals, and more! ",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F738073%2Fimage-420abd763db6b7810c89ef2065605ff1-optimized.png&ehk=MBjOzveFlZdIUDxVuNGUBFEAHrLZfXPCBfF%2BBWQWTeA%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/gecko-cavern-8-the-holiday-special/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -173,6 +162,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Game 5 in the D #7",
+        date: "1/18/25",
+        location: "Detroit, MI, USA",
+        description: "Introducing Game 5 In The D, East Michigan's Premier P+ Bi-Monthly Located In Detroit! We welcome all valiant competitors to our local P+ scene's return-to-form! Featuring a professional stream, custom tournament badges, your favorite players, and much, much more, this will be an event you won't want to miss!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F741982%2Fimage-06d3c983cce808794b6e3357614d9716-optimized.jpg&ehk=Mm%2BdADFo6UiO6w63CtfQqvkLv1qT%2BVUH3vGCQimwKA4%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/game-5-in-the-d-7/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Somnio 6",
         date: "1/25/25",
         location: "Eindhoven, Netherlands",
@@ -184,12 +184,12 @@ const eventsData = [
         stream: ""
       },
       {
-        name: "LUST 50",
+        name: "Wrath 2025",
         date: "2/1/25 - 2/2/25",
         location: "Baton Rouge, LA, USA",
-        description: "RETURNING ON FEBRUARY 1ST AND 2ND...LUST IS BACK FOR IT'S 50TH INSTALLMENT!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F718205%2Fimage-f7bc746a62b66f66d8604eb85d04ac49-optimized.png&ehk=OyS2etB7Qrzc6H8qxwJupdTt3jIBpdqYTeu6kN9QyJI%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/lust-50-a-louisiana-regional/details",
+        description: "You will need a pass for the other event occurring that day in the same venue in order to attend this event! Please message ultradill for clarification",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F733428%2Fimage-186746c11909b2a0b5c3fc0b2010014e-optimized.png&ehk=KP599AJILaMiQGI97%2Fljy8k4%2BEkXb3LyjQav3TVjH3s%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/wrath-2025/details",
         rankImg: true, 
         trailer: "",
         stream: ""
@@ -216,7 +216,18 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: ""
-      },      
+      },  
+      {
+        name: "Smash of the Titans 10",
+        date: "3/22/25",
+        location: "Bloomington, Illinois, USA",
+        description: "Welcome to Smash of the Titans 10! Illinois Wesleyan University is back with our semesterly Smash regional! The tournament will be held in the Young Main Lounge in the Memorial center on campus (there will be signage posted too). ",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F733623%2Fimage-6a2f830b3ed2448c8cd4fdc5df2927dc-optimized.jpg&ehk=P6xRQjtL7NCBckUUb%2FvT03FR%2BA%2Bxwgf0XzQ8baE09kk%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/smash-of-the-titans-10-1/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },     
       {
         name: "Full Bloom 2025",
         date: "4/5/25 - 4/6/25",

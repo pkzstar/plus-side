@@ -111,6 +111,32 @@ function createPastEventElement(eventData) {
 const eventData = [
 
   {
+    eventTitle: "Lexyloo's Holiday Special",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F729400%2Fimage-a51ee329476a3535bce01532c7bbdde5-optimized.png&ehk=kCVMsgzq6I6yWzQWkHp%2BxLUp5%2FIdtr2Van9ixAciDm8%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/lexyloo-s-holiday-special/details",
+    date: "December 15 2024",
+    location: "Texas",
+    entrants: 17,
+    first: "Fury",
+    second: "Apathy",
+    third: "Atari",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Condo of Blood 2",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F702378%2Fimage-8d2b7a057fea4990d7c65f0a9029ce55-optimized.png&ehk=IdU531WdJ2NzjRvsKva8PJUtCeLIIHB6Di%2BJqFU80bU%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/condo-of-blood-2-2/details",
+    date: "December 14 2024",
+    location: "Ontario",
+    entrants: 32,
+    first: "Dirtboy",
+    second: "Blitz",
+    third: "Krumpberry",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
     eventTitle: "Who's On Ledge? 9",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F724863%2Fimage-1e4b69c6abcfa56933f95f14b99a699d-optimized.png&ehk=1uODmbXgfa8XVKQ1Pb%2Be4ot%2Bz2sAYA0RCua9wWZcflI%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/who-s-on-ledge-9/details",
@@ -167,7 +193,7 @@ const eventData = [
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F728384%2Fimage-d4170301e00b22b265f653acb7ca56bc-optimized.png&ehk=zfmxmiR6oSlhYnUgnPXKVjv5Zn9LgOI7tUwTwES8QU8%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/cyberspace-3/details",
     date: "November 17 2024",
-    location: "Illinois",
+    location: "Washington",
     entrants: 28,
     first: "essy",
     second: "PartyGhoul",
