@@ -2396,6 +2396,22 @@ function showCalendar(month, year) {
     
             link.appendChild(image);
             cell.appendChild(link);
+
+            //SC invitational 
+        } else if (month === 11 && (date === 28) && year === 2024) {
+            // Example link with image
+            let link = document.createElement("a");
+            link.href = "https://www.start.gg/tournament/sc-p-2024-invitational/details";
+            link.target = "_blank";
+    
+            let image = document.createElement("img");
+            image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F736576%2Fimage-599c24fd151b15cdce529dab4230ea4c-optimized.jpg&ehk=oRZ8IldqhidgsE7yWmkb4%2BHk8zw1SxjNiS4fSA4dWqI%3D&w=280&h=280&r=0";
+    
+            image.classList.add("calendarImg");
+    
+    
+            link.appendChild(image);
+            cell.appendChild(link);
                 
         // TN Summit 2025
         } else if (month === 0 && (date === 10 || date === 12) && year === 2025) {

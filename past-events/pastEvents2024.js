@@ -111,6 +111,32 @@ function createPastEventElement(eventData) {
 const eventData = [
 
   {
+    eventTitle: "SC P+ 2024 Invitational",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F736576%2Fimage-599c24fd151b15cdce529dab4230ea4c-optimized.jpg&ehk=oRZ8IldqhidgsE7yWmkb4%2BHk8zw1SxjNiS4fSA4dWqI%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/sc-p-2024-invitational/details",
+    date: "December 28 2024",
+    location: "South Carolina",
+    entrants: 16,
+    first: "",
+    second: "",
+    third: "",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Gecko Cavern 8",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F738073%2Fimage-420abd763db6b7810c89ef2065605ff1-optimized.png&ehk=MBjOzveFlZdIUDxVuNGUBFEAHrLZfXPCBfF%2BBWQWTeA%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/gecko-cavern-8-the-holiday-special/details",
+    date: "December 21 2024",
+    location: "Australia",
+    entrants: 21,
+    first: "RNGReallyNotGood",
+    second: "Michael",
+    third: "Goodie",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Lexyloo's Holiday Special",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F729400%2Fimage-a51ee329476a3535bce01532c7bbdde5-optimized.png&ehk=kCVMsgzq6I6yWzQWkHp%2BxLUp5%2FIdtr2Van9ixAciDm8%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/lexyloo-s-holiday-special/details",
@@ -133,7 +159,7 @@ const eventData = [
     first: "Dirtboy",
     second: "Blitz",
     third: "Krumpberry",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLdxdm5Mb0WctwDLsN49Z6SpeZnOWZqSAo",
     hideRankImage: false
   },
   {

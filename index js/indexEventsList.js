@@ -117,28 +117,18 @@ eventName.appendChild(location);
 // Sample event data (replace this with actual event data)
 const eventsData = [
 
-      {
-        name: "Gecko Cavern 8 - The Holiday Special",
-        date: "12/21/24",
-        location: "Burwood, NSW, Australia",
-        description: "Happy Holidays everyone! Gecko Cavern 8 is on its way! Hosted at Club Burwood along Burwood Road on the top floor of the venue, Gecko Cavern is the tournament series for Project Plus in Sydney! We also feature other games such as Melee, Rivals, and more! ",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F738073%2Fimage-420abd763db6b7810c89ef2065605ff1-optimized.png&ehk=MBjOzveFlZdIUDxVuNGUBFEAHrLZfXPCBfF%2BBWQWTeA%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/gecko-cavern-8-the-holiday-special/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Bristol's The Basement Before Christmas 2: love actually",
-        date: "12/22/24",
-        location: "Bristol, UK",
-        description: "Bristol's premier Melee monthly is back for another very special event! We decided the last Sunday of this month would be inconvenient for most people, as it falls between Christmas and New Years and we know most people will be with family, so we're running a more laid back, side-event focused tournament.",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F734148%2Fimage-00d0282df9b5c493f4821289575651f5-optimized.png&ehk=M88s%2F4c%2FFI%2FoB6PWsQc4Mht2x1PACX6g6dJpnaoHlc4%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/bristol-s-the-basement-before-christmas-2-love-actually/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
+    //needs moving
+      // {
+      //   name: "Bristol's The Basement Before Christmas 2: love actually",
+      //   date: "12/22/24",
+      //   location: "Bristol, UK",
+      //   description: "Bristol's premier Melee monthly is back for another very special event! We decided the last Sunday of this month would be inconvenient for most people, as it falls between Christmas and New Years and we know most people will be with family, so we're running a more laid back, side-event focused tournament.",
+      //   imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F734148%2Fimage-00d0282df9b5c493f4821289575651f5-optimized.png&ehk=M88s%2F4c%2FFI%2FoB6PWsQc4Mht2x1PACX6g6dJpnaoHlc4%3D&w=280&h=280&r=0",
+      //   link: "https://www.start.gg/tournament/bristol-s-the-basement-before-christmas-2-love-actually/details",
+      //   rankImg: false, 
+      //   trailer: "",
+      //   stream: ""
+      // },
       {
         name: "Tennessee P+ Summit 2025",
         date: "1/10/25 - 1/12/25",
