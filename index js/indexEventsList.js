@@ -117,18 +117,6 @@ eventName.appendChild(location);
 // Sample event data (replace this with actual event data)
 const eventsData = [
 
-    //needs moving
-      // {
-      //   name: "Bristol's The Basement Before Christmas 2: love actually",
-      //   date: "12/22/24",
-      //   location: "Bristol, UK",
-      //   description: "Bristol's premier Melee monthly is back for another very special event! We decided the last Sunday of this month would be inconvenient for most people, as it falls between Christmas and New Years and we know most people will be with family, so we're running a more laid back, side-event focused tournament.",
-      //   imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F734148%2Fimage-00d0282df9b5c493f4821289575651f5-optimized.png&ehk=M88s%2F4c%2FFI%2FoB6PWsQc4Mht2x1PACX6g6dJpnaoHlc4%3D&w=280&h=280&r=0",
-      //   link: "https://www.start.gg/tournament/bristol-s-the-basement-before-christmas-2-love-actually/details",
-      //   rankImg: false, 
-      //   trailer: "",
-      //   stream: ""
-      // },
       {
         name: "Tennessee P+ Summit 2025",
         date: "1/10/25 - 1/12/25",
@@ -163,6 +151,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Who's On Ledge? 10",
+        date: "1/18/25",
+        location: "Des Moines, IA, USA",
+        description: "DMGC presents Who's on Ledge? Our monthly tournament series featuring Super Smash Bros. Melee, Ultimate, Project+, and Rivals of Aether II at RezBlue Arena!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F743740%2Fimage-3211f88c3d7eb4905079314b2df30240-optimized.png&ehk=JE%2FaG0hLO3Bii2Rq%2FmzIRCCssIvGhwbNE%2FpjnqBQJ4s%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/who-s-on-ledge-10/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Somnio 6",
         date: "1/25/25",
         location: "Eindhoven, Netherlands",
@@ -184,7 +183,17 @@ const eventsData = [
         trailer: "",
         stream: ""
       },
-      
+      {
+        name: "Unc Frozen's Icebox 1",
+        date: "2/8/25",
+        location: "Plano, TX, USA",
+        description: "Announcing the brand new monthly tournament series Icebox, presented by your friendly neighborhood Unc Frozen! Come hang out with us at FX Games and play! Also featuring several player bounties! Ask a TO for details.",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F744542%2Fimage-9321c3b6d146a4780c08620a2fcc3083-optimized.png&ehk=b9wlAWG902rk6vyS5dsMkPPBhm%2BZuf20wzPO8aZX%2BMM%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/unc-frozen-s-icebox-1/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
       {
         name: "Journey to the West",
         date: "2/21/25 - 2/23/25",
@@ -205,6 +214,17 @@ const eventsData = [
         link: "https://www.start.gg/tournament/winter-is-crouching/details",
         rankImg: false, 
         trailer: "",
+        stream: ""
+      },  
+      {
+        name: "Kame House: The Dark Tournament",
+        date: "3/15/25",
+        location: "Atlanta, GA, USA",
+        description: "Inspired by Yu Yu Hakusho's Dark Tournament arc we're excited to bring you a Project+ ONLY Kame House event. Singles Capped at 64 entrants with a very exciting waterfall format for singles, and a 3v3 crew battle tournament capped at 8 teams (Its a Dark Tournament themed event, how could we not do crews...)",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F740096%2Fimage-cb200c9d81bd09bf0a66d6994fe89bc5-optimized.png&ehk=0EWnOEIzKjh6VS8gO%2B7Tr4NtfojUQwjBahF%2BasiKOic%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/kame-house-the-dark-tournament/details",
+        rankImg: false, 
+        trailer: "https://www.youtube.com/watch?v=GYqh0lz3vPs",
         stream: ""
       },  
       {

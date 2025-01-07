@@ -241,7 +241,7 @@ document.addEventListener('DOMContentLoaded', () => {
     pastEventsList.appendChild(pastEvents2024Wrapper);
     pastEvents2024Link.classList.add("past-year");
 
-  //2025
+  // 2025
   // let pastEvents2025 = document.getElementById("pastEvents")
   // pastEventsList.classList.add("pastEventsList")
   // pastEvents.appendChild(pastEventsList);

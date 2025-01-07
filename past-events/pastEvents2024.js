@@ -110,6 +110,7 @@ function createPastEventElement(eventData) {
 // Sample data for past event
 const eventData = [
 
+
   {
     eventTitle: "SC P+ 2024 Invitational",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F736576%2Fimage-599c24fd151b15cdce529dab4230ea4c-optimized.jpg&ehk=oRZ8IldqhidgsE7yWmkb4%2BHk8zw1SxjNiS4fSA4dWqI%3D&w=280&h=280&r=0",
@@ -120,6 +121,19 @@ const eventData = [
     first: "",
     second: "",
     third: "",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Bristol's The Basement Before Christmas 2",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F734148%2Fimage-00d0282df9b5c493f4821289575651f5-optimized.png&ehk=M88s%2F4c%2FFI%2FoB6PWsQc4Mht2x1PACX6g6dJpnaoHlc4%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/bristol-s-the-basement-before-christmas-2-love-actually/details",
+    date: "December 22 2024",
+    location: "Bristol, UK",
+    entrants: 13,
+    first: "Frenzy",
+    second: "Luke",
+    third: "EuO",
     vodsUrl: "",
     hideRankImage: true
   },

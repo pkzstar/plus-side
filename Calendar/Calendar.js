@@ -2493,22 +2493,66 @@ function showCalendar(month, year) {
             updateLinkAndImage(); // Initially update link and image
             fadeInOut(image); // Start fade-in/out animation // Start cycling events
         
-            //G5itD7
+            //G5itD7 & WoL10
         } else if (month === 0 && (date === 18) && year === 2025) {
-            // Example link with image
+
+            const events = [
+                {   
+                    link: "https://www.start.gg/tournament/game-5-in-the-d-7/details",
+                    imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F741982%2Fimage-06d3c983cce808794b6e3357614d9716-optimized.jpg&ehk=Mm%2BdADFo6UiO6w63CtfQqvkLv1qT%2BVUH3vGCQimwKA4%3D&w=280&h=280&r=0"
+                    
+                },
+                {
+                    link: "https://www.start.gg/tournament/who-s-on-ledge-10/details",
+                    imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F743740%2Fimage-3211f88c3d7eb4905079314b2df30240-optimized.png&ehk=JE%2FaG0hLO3Bii2Rq%2FmzIRCCssIvGhwbNE%2FpjnqBQJ4s%3D&w=280&h=280&r=0"
+                }
+
+            ];
+            let currentIndex = 0; // Initialize current index
+
             let link = document.createElement("a");
-            link.href = "https://www.start.gg/tournament/game-5-in-the-d-7/details";
             link.target = "_blank";
-    
+
             let image = document.createElement("img");
-            image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F741982%2Fimage-06d3c983cce808794b6e3357614d9716-optimized.jpg&ehk=Mm%2BdADFo6UiO6w63CtfQqvkLv1qT%2BVUH3vGCQimwKA4%3D&w=280&h=280&r=0";
-    
+
             image.classList.add("calendarImg");
-    
-    
+
             link.appendChild(image);
             cell.appendChild(link);
-            
+
+            // Function to fade in/out the image and link
+            function fadeInOut(element) {
+                let opacity = 0;
+                let increasing = true;
+                let interval = setInterval(function() {
+                    if (increasing) {
+                        opacity += 0.05;
+                    } else {
+                        opacity -= 0.05;
+                    }
+                    element.style.opacity = opacity;
+                    if (opacity >= 1) {
+                        increasing = false;
+                        setTimeout(() => {
+                            increasing = true;
+                            updateLinkAndImage(); // Update link and image after fully visible
+                        }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                    } else if (opacity <= 0) {
+                        clearInterval(interval);
+                        fadeInOut(element); // Restart the fading animation
+                    }
+                }, 100); // Adjust the timing as needed
+            }
+        
+            // Function to update the link and image
+            function updateLinkAndImage() {
+                link.href = events[currentIndex].link;
+                image.src = events[currentIndex].imageSrc;
+                currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+            }
+        
+            updateLinkAndImage(); // Initially update link and image
+            fadeInOut(image); // Start fade-in/out animation // Start cycling events
     
              //Somino 6
             } else if (month === 0 && (date === 25) && year === 2025) {
@@ -2536,6 +2580,22 @@ function showCalendar(month, year) {
     
             let image = document.createElement("img");
             image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F733428%2Fimage-186746c11909b2a0b5c3fc0b2010014e-optimized.png&ehk=KP599AJILaMiQGI97%2Fljy8k4%2BEkXb3LyjQav3TVjH3s%3D&w=280&h=280&r=0";
+    
+            image.classList.add("calendarImg");
+    
+    
+            link.appendChild(image);
+            cell.appendChild(link);
+
+            //Unc Frozen's Icebox 1
+        } else if (month === 1 && (date === 8) && year === 2025) {
+            // Example link with image
+            let link = document.createElement("a");
+            link.href = "https://www.start.gg/tournament/unc-frozen-s-icebox-1/details";
+            link.target = "_blank";
+    
+            let image = document.createElement("img");
+            image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F744542%2Fimage-9321c3b6d146a4780c08620a2fcc3083-optimized.png&ehk=b9wlAWG902rk6vyS5dsMkPPBhm%2BZuf20wzPO8aZX%2BMM%3D&w=280&h=280&r=0";
     
             image.classList.add("calendarImg");
     
@@ -2575,6 +2635,23 @@ function showCalendar(month, year) {
     
         link.appendChild(image);
         cell.appendChild(link);
+
+                // Kame House: The Dark Tournament
+            } else if (month === 2 && (date === 15) && year === 2025) {
+                // Example link with image
+                let link = document.createElement("a");
+                link.href = "https://www.start.gg/tournament/kame-house-the-dark-tournament/details";
+                link.target = "_blank";
+            
+                let image = document.createElement("img");
+                image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F740096%2Fimage-cb200c9d81bd09bf0a66d6994fe89bc5-optimized.png&ehk=0EWnOEIzKjh6VS8gO%2B7Tr4NtfojUQwjBahF%2BasiKOic%3D&w=280&h=280&r=0";
+            
+                image.classList.add("calendarImg");
+            
+            
+                link.appendChild(image);
+                cell.appendChild(link);
+        
 
     // SoTT10
     } else if (month === 2 && (date === 22) && year === 2025) {
