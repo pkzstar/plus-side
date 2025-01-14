@@ -118,28 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Tennessee P+ Summit 2025",
-        date: "1/10/25 - 1/12/25",
-        location: "Knoxville, TN, USA",
-        description: "The Tennessee P+ Summit is back! 20 of the best P+ players from Tennessee will compete for fame and bragging rights in everyone's favorite smash mod.",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F714654%2Fimage-9fcdb8b8b1acc8a88280304e3b010b63-optimized.jpg&ehk=8mBzXSK23mbPNHjSmTQkpgvRRF9qYsJ5PfgQ4qo4BJw%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/tennessee-p-summit-2025/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "TECH 2025",
-        date: "1/11/25",
-        location: "Mt Pleasant, SC, USA",
-        description: "Nobody goes 0-2! Based on how each player places in pools, the will be sent into either the bronze, silver, or gold bracket and will play against other players who placed similarly!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F703812%2Fimage-621a3df3388b485f1c17bc39ef5043b4-optimized.png&ehk=fmJ2bU7fSCoK6ta%2FoMgERgnFVVH1449V1iaXyonXZPQ%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/tech-2025/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Game 5 in the D #7",
         date: "1/18/25",
         location: "Detroit, MI, USA",
@@ -173,6 +151,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Moonshine Monthly #1",
+        date: "1/26/25",
+        location: "Greenville, South Carolina",
+        description: "South Carolina's Premier P+ ONLY Monthly Series. 24 entrant cap",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F744903%2Fimage-3377d302353799ca777fc9b7f741c464-optimized.png&ehk=XwIn6Z28Q4Iro1UcNE7Yd2DsfLCZ1rChK9J0eSGEgV8%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/moonshine-monthly-1/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Wrath 2025",
         date: "2/1/25 - 2/2/25",
         location: "Baton Rouge, LA, USA",
@@ -188,7 +177,7 @@ const eventsData = [
         date: "2/8/25",
         location: "Plano, TX, USA",
         description: "Announcing the brand new monthly tournament series Icebox, presented by your friendly neighborhood Unc Frozen! Come hang out with us at FX Games and play! Also featuring several player bounties! Ask a TO for details.",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F744542%2Fimage-9321c3b6d146a4780c08620a2fcc3083-optimized.png&ehk=b9wlAWG902rk6vyS5dsMkPPBhm%2BZuf20wzPO8aZX%2BMM%3D&w=280&h=280&r=0",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F744542%2Fimage-4ea708dcb4e53c99a762359bb323cbcb-optimized.jpg&ehk=hMjL84EyvgKtS9QTg1n7e3ldsuZWs8Az2D4RPeb4p1Q%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/unc-frozen-s-icebox-1/details",
         rankImg: false, 
         trailer: "",
@@ -206,6 +195,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Condo of Blood 3",
+        date: "2/22/25",
+        location: "Mississauga, ON, Canada",
+        description: "Condo of Blood is an Ontario Project Plus and Rivals of Aether 2 regional hosted directly beside the Port Credit GO station. This accessible recurring tournament series will feature top Ontario talent and is designed fully around our shared love of these platform fighters.",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F743233%2Fimage-6bcba47e76de47e7d7fca4ef74828624-optimized.png&ehk=9Q00a1ghM%2B07wEiqLP9Oj6uhVKpvVIBiZ8a89NJ%2BMcY%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/condo-of-blood-3/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Winter is Crouching",
         date: "3/1/25 - 3/2/25",
         location: "Le Kremlin-Bicêtre, Paris, France",
@@ -215,7 +215,18 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: ""
-      },  
+      },
+      {
+        name: "Tennessee P+ Summit 2025",
+        date: "3/7/25 - 3/9/25",
+        location: "Knoxville, TN, USA",
+        description: "The Tennessee P+ Summit is back! 20 of the best P+ players from Tennessee will compete for fame and bragging rights in everyone's favorite smash mod.",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F714654%2Fimage-9fcdb8b8b1acc8a88280304e3b010b63-optimized.jpg&ehk=8mBzXSK23mbPNHjSmTQkpgvRRF9qYsJ5PfgQ4qo4BJw%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/tennessee-p-summit-2025/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      }, 
       {
         name: "Kame House: The Dark Tournament",
         date: "3/15/25",
@@ -223,7 +234,7 @@ const eventsData = [
         description: "Inspired by Yu Yu Hakusho's Dark Tournament arc we're excited to bring you a Project+ ONLY Kame House event. Singles Capped at 64 entrants with a very exciting waterfall format for singles, and a 3v3 crew battle tournament capped at 8 teams (Its a Dark Tournament themed event, how could we not do crews...)",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F740096%2Fimage-cb200c9d81bd09bf0a66d6994fe89bc5-optimized.png&ehk=0EWnOEIzKjh6VS8gO%2B7Tr4NtfojUQwjBahF%2BasiKOic%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/kame-house-the-dark-tournament/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "https://www.youtube.com/watch?v=GYqh0lz3vPs",
         stream: ""
       },  

@@ -118,9 +118,9 @@ const eventData = [
     date: "December 28 2024",
     location: "South Carolina",
     entrants: 16,
-    first: "",
-    second: "",
-    third: "",
+    first: "knight",
+    second: "Cybil",
+    third: "Nera",
     vodsUrl: "",
     hideRankImage: true
   },

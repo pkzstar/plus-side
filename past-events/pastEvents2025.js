@@ -108,7 +108,22 @@ function createPastEventElement(eventData) {
   return eventList;
 }
 // Sample data for past event
-const eventData = [];
+const eventData = [
+
+  {
+    eventTitle: "TECH 2025",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F703812%2Fimage-621a3df3388b485f1c17bc39ef5043b4-optimized.png&ehk=fmJ2bU7fSCoK6ta%2FoMgERgnFVVH1449V1iaXyonXZPQ%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/tech-2025/event/p-singles",
+    date: "January 11 2024",
+    location: "South Carolina",
+    entrants: 11,
+    first: "Cybil",
+    second: "knight",
+    third: "Travy",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+];
 
 // Create past event element
 const pastEventElement = createPastEventElement(eventData);
