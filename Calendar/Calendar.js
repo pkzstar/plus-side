@@ -2413,15 +2413,15 @@ function showCalendar(month, year) {
             link.appendChild(image);
             cell.appendChild(link);
                 
-        // TN Summit 2025
-        } else if (month === 0 && (date === 10 || date === 12) && year === 2025) {
+        // TECH 2025
+        } else if (month === 0 && (date === 11) && year === 2025) {
         // Example link with image
         let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/tennessee-p-summit-2025/details";
+        link.href = "https://www.start.gg/tournament/tech-2025/details";
         link.target = "_blank";
 
         let image = document.createElement("img");
-        image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F714654%2Fimage-9fcdb8b8b1acc8a88280304e3b010b63-optimized.jpg&ehk=8mBzXSK23mbPNHjSmTQkpgvRRF9qYsJ5PfgQ4qo4BJw%3D&w=280&h=280&r=0";
+        image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F703812%2Fimage-621a3df3388b485f1c17bc39ef5043b4-optimized.png&ehk=fmJ2bU7fSCoK6ta%2FoMgERgnFVVH1449V1iaXyonXZPQ%3D&w=280&h=280&r=0";
 
         image.classList.add("calendarImg");
 
@@ -2429,69 +2429,6 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
         
-
-                    // TECH 2025 & tennessee summit
-                } else if (month === 0 && date === 11 && year === 2025) {
-
-
-                    
-            const events = [
-                {   
-                    link: "https://www.start.gg/tournament/tech-2025/details",
-                    imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F703812%2Fimage-621a3df3388b485f1c17bc39ef5043b4-optimized.png&ehk=fmJ2bU7fSCoK6ta%2FoMgERgnFVVH1449V1iaXyonXZPQ%3D&w=280&h=280&r=0"
-                    
-                },
-                {
-                    link: "https://www.start.gg/tournament/tennessee-p-summit-2025/details",
-                    imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F714654%2Fimage-9fcdb8b8b1acc8a88280304e3b010b63-optimized.jpg&ehk=8mBzXSK23mbPNHjSmTQkpgvRRF9qYsJ5PfgQ4qo4BJw%3D&w=280&h=280&r=0"
-                }
-
-            ];
-            let currentIndex = 0; // Initialize current index
-
-            let link = document.createElement("a");
-            link.target = "_blank";
-
-            let image = document.createElement("img");
-
-            image.classList.add("calendarImg");
-
-            link.appendChild(image);
-            cell.appendChild(link);
-
-            // Function to fade in/out the image and link
-            function fadeInOut(element) {
-                let opacity = 0;
-                let increasing = true;
-                let interval = setInterval(function() {
-                    if (increasing) {
-                        opacity += 0.05;
-                    } else {
-                        opacity -= 0.05;
-                    }
-                    element.style.opacity = opacity;
-                    if (opacity >= 1) {
-                        increasing = false;
-                        setTimeout(() => {
-                            increasing = true;
-                            updateLinkAndImage(); // Update link and image after fully visible
-                        }, 2000); // Image and link will be fully visible for 2 seconds before fading out
-                    } else if (opacity <= 0) {
-                        clearInterval(interval);
-                        fadeInOut(element); // Restart the fading animation
-                    }
-                }, 100); // Adjust the timing as needed
-            }
-        
-            // Function to update the link and image
-            function updateLinkAndImage() {
-                link.href = events[currentIndex].link;
-                image.src = events[currentIndex].imageSrc;
-                currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
-            }
-        
-            updateLinkAndImage(); // Initially update link and image
-            fadeInOut(image); // Start fade-in/out animation // Start cycling events
         
             //G5itD7 & WoL10
         } else if (month === 0 && (date === 18) && year === 2025) {
@@ -2569,6 +2506,22 @@ function showCalendar(month, year) {
     
             link.appendChild(image);
             cell.appendChild(link);
+
+             //Moonshine Monthly 1
+            } else if (month === 0 && (date === 26) && year === 2025) {
+            // Example link with image
+            let link = document.createElement("a");
+            link.href = "https://www.start.gg/tournament/moonshine-monthly-1/details";
+            link.target = "_blank";
+        
+            let image = document.createElement("img");
+            image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F744903%2Fimage-3377d302353799ca777fc9b7f741c464-optimized.png&ehk=XwIn6Z28Q4Iro1UcNE7Yd2DsfLCZ1rChK9J0eSGEgV8%3D&w=280&h=280&r=0";
+        
+            image.classList.add("calendarImg");
+        
+        
+            link.appendChild(image);
+            cell.appendChild(link);
                     
 
         // LUST 50
@@ -2595,7 +2548,7 @@ function showCalendar(month, year) {
             link.target = "_blank";
     
             let image = document.createElement("img");
-            image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F744542%2Fimage-9321c3b6d146a4780c08620a2fcc3083-optimized.png&ehk=b9wlAWG902rk6vyS5dsMkPPBhm%2BZuf20wzPO8aZX%2BMM%3D&w=280&h=280&r=0";
+            image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F744542%2Fimage-4ea708dcb4e53c99a762359bb323cbcb-optimized.jpg&ehk=hMjL84EyvgKtS9QTg1n7e3ldsuZWs8Az2D4RPeb4p1Q%3D&w=280&h=280&r=0";
     
             image.classList.add("calendarImg");
     
@@ -2604,7 +2557,7 @@ function showCalendar(month, year) {
             cell.appendChild(link);
 
                     // Journey to the West
-        } else if (month === 1 && (date === 21 || date === 22 || date === 23) && year === 2025) {
+        } else if (month === 1 && (date === 21 || date === 23) && year === 2025) {
             // Example link with image
             let link = document.createElement("a");
             link.href = "https://www.start.gg/tournament/journey-to-the-west/details";
@@ -2619,6 +2572,68 @@ function showCalendar(month, year) {
             link.appendChild(image);
             cell.appendChild(link);
 
+
+        //JttW + CoB 3
+        } else if (month === 1 && (date === 22) && year === 2025) {
+
+            const events = [
+                {   
+                    link: "https://www.start.gg/tournament/journey-to-the-west/details",
+                    imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F731623%2Fimage-120c39ca0b9e548595ff1c4f88a45860-optimized.jpg&ehk=lsIwpkupKikujRh8VEMGEvMyMCytWXbF%2BCAGiF3N4ZQ%3D&w=280&h=280&r=0"
+                    
+                },
+                {
+                    link: "https://www.start.gg/tournament/condo-of-blood-3/details",
+                    imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F743233%2Fimage-6bcba47e76de47e7d7fca4ef74828624-optimized.png&ehk=9Q00a1ghM%2B07wEiqLP9Oj6uhVKpvVIBiZ8a89NJ%2BMcY%3D&w=280&h=280&r=0"
+                }
+
+            ];
+            let currentIndex = 0; // Initialize current index
+
+            let link = document.createElement("a");
+            link.target = "_blank";
+
+            let image = document.createElement("img");
+
+            image.classList.add("calendarImg");
+
+            link.appendChild(image);
+            cell.appendChild(link);
+
+            // Function to fade in/out the image and link
+            function fadeInOut(element) {
+                let opacity = 0;
+                let increasing = true;
+                let interval = setInterval(function() {
+                    if (increasing) {
+                        opacity += 0.05;
+                    } else {
+                        opacity -= 0.05;
+                    }
+                    element.style.opacity = opacity;
+                    if (opacity >= 1) {
+                        increasing = false;
+                        setTimeout(() => {
+                            increasing = true;
+                            updateLinkAndImage(); // Update link and image after fully visible
+                        }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                    } else if (opacity <= 0) {
+                        clearInterval(interval);
+                        fadeInOut(element); // Restart the fading animation
+                    }
+                }, 100); // Adjust the timing as needed
+            }
+        
+            // Function to update the link and image
+            function updateLinkAndImage() {
+                link.href = events[currentIndex].link;
+                image.src = events[currentIndex].imageSrc;
+                currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+            }
+        
+            updateLinkAndImage(); // Initially update link and image
+            fadeInOut(image); // Start fade-in/out animation // Start cycling events
+
             
         // Winter is Crouching
         } else if (month === 2 && (date === 1 || date === 2) && year === 2025) {
@@ -2629,6 +2644,22 @@ function showCalendar(month, year) {
     
         let image = document.createElement("img");
         image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F687306%2Fimage-5618485cca829ee70b7125791593c3e2-optimized.png&ehk=qQc4jLdbvBzwuFG7iw%2BIaofHMDeQPOdtUyGDqI7HPDE%3D&w=280&h=280&r=0";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // TN P+ Summit 2025
+        } else if (month === 2 && (date === 7 || date === 8 || date === 9) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/tennessee-p-summit-2025/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F714654%2Fimage-9fcdb8b8b1acc8a88280304e3b010b63-optimized.jpg&ehk=8mBzXSK23mbPNHjSmTQkpgvRRF9qYsJ5PfgQ4qo4BJw%3D&w=280&h=280&r=0";
     
         image.classList.add("calendarImg");
     
