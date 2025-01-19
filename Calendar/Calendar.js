@@ -2556,6 +2556,21 @@ function showCalendar(month, year) {
             link.appendChild(image);
             cell.appendChild(link);
 
+                        //Exodus 2025
+        } else if (month === 1 && (date === 15) && year === 2025) {
+            // Example link with image
+            let link = document.createElement("a");
+            link.href = "https://www.start.gg/tournament/exodus-2025/details";
+            link.target = "_blank";
+    
+            let image = document.createElement("img");
+            image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F749811%2Fimage-c4c1170601043bc749596397e0ce48d4-optimized.png&ehk=3amV9R1wU9Gdp328M%2FmCzXfqfY%2FeutcFXYaHS%2BT%2BVXQ%3D&w=280&h=280&r=0";
+    
+            image.classList.add("calendarImg");
+    
+    
+            link.appendChild(image);
+            cell.appendChild(link);
                     // Journey to the West
         } else if (month === 1 && (date === 21 || date === 23) && year === 2025) {
             // Example link with image
