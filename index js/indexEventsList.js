@@ -117,28 +117,7 @@ eventName.appendChild(location);
 // Sample event data (replace this with actual event data)
 const eventsData = [
 
-      {
-        name: "Game 5 in the D #7",
-        date: "1/18/25",
-        location: "Detroit, MI, USA",
-        description: "Introducing Game 5 In The D, East Michigan's Premier P+ Bi-Monthly Located In Detroit! We welcome all valiant competitors to our local P+ scene's return-to-form! Featuring a professional stream, custom tournament badges, your favorite players, and much, much more, this will be an event you won't want to miss!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F741982%2Fimage-06d3c983cce808794b6e3357614d9716-optimized.jpg&ehk=Mm%2BdADFo6UiO6w63CtfQqvkLv1qT%2BVUH3vGCQimwKA4%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/game-5-in-the-d-7/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Who's On Ledge? 10",
-        date: "1/18/25",
-        location: "Des Moines, IA, USA",
-        description: "DMGC presents Who's on Ledge? Our monthly tournament series featuring Super Smash Bros. Melee, Ultimate, Project+, and Rivals of Aether II at RezBlue Arena!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F743740%2Fimage-3211f88c3d7eb4905079314b2df30240-optimized.png&ehk=JE%2FaG0hLO3Bii2Rq%2FmzIRCCssIvGhwbNE%2FpjnqBQJ4s%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/who-s-on-ledge-10/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
+
       {
         name: "Somnio 6",
         date: "1/25/25",

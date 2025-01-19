@@ -110,6 +110,33 @@ function createPastEventElement(eventData) {
 // Sample data for past event
 const eventData = [
 
+
+  {
+    eventTitle: "Game 5 in the D #7",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F741982%2Fimage-06d3c983cce808794b6e3357614d9716-optimized.jpg&ehk=Mm%2BdADFo6UiO6w63CtfQqvkLv1qT%2BVUH3vGCQimwKA4%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/game-5-in-the-d-7/details",
+    date: "January 18 2024",
+    location: "Michigan",
+    entrants: 15,
+    first: "Dirtboy",
+    second: "Lordy",
+    third: "Yuko",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Who's On Ledge? 10",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F743740%2Fimage-3211f88c3d7eb4905079314b2df30240-optimized.png&ehk=JE%2FaG0hLO3Bii2Rq%2FmzIRCCssIvGhwbNE%2FpjnqBQJ4s%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/who-s-on-ledge-10/details",
+    date: "January 18 2024",
+    location: "Iowa",
+    entrants: 7,
+    first: "Sothe",
+    second: "Landon",
+    third: "Hannah",
+    vodsUrl: "",
+    hideRankImage: true
+  },
   {
     eventTitle: "TECH 2025",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F703812%2Fimage-621a3df3388b485f1c17bc39ef5043b4-optimized.png&ehk=fmJ2bU7fSCoK6ta%2FoMgERgnFVVH1449V1iaXyonXZPQ%3D&w=280&h=280&r=0",
