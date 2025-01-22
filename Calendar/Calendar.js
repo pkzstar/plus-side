@@ -2491,6 +2491,23 @@ function showCalendar(month, year) {
             updateLinkAndImage(); // Initially update link and image
             fadeInOut(image); // Start fade-in/out animation // Start cycling events
     
+            //Super TPS IV
+            } else if (month === 0 && (date === 24) && year === 2025) {
+            // Example link with image
+            let link = document.createElement("a");
+            link.href = "https://www.start.gg/tournament/super-tps-iv/details";
+            link.target = "_blank";
+    
+            let image = document.createElement("img");
+            image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F729703%2Fimage-d446cc3ef2159967910369de4402faf2-optimized.png&ehk=2YmplV5dlaWOKoDKyTlPru50pwmweY6TWaxwtj7M0Fc%3D&w=280&h=280&r=0";
+    
+            image.classList.add("calendarImg");
+    
+    
+            link.appendChild(image);
+            cell.appendChild(link);
+
+
              //Somino 6
             } else if (month === 0 && (date === 25) && year === 2025) {
             // Example link with image
@@ -2725,6 +2742,22 @@ function showCalendar(month, year) {
 
     let image = document.createElement("img");
     image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F715134%2Fimage-35f8b3298b2d53d5d028afc8f3d63422-optimized.png&ehk=QGeDTX8I9NdN%2FFIsuMr%2B4GVjU80B69p8KQOXMGqK0n8%3D&w=280&h=280&r=0";
+
+    image.classList.add("calendarImg");
+
+
+    link.appendChild(image);
+    cell.appendChild(link);
+
+    // Smash Camp 2025
+    } else if (month === 3 && (date === 19 || date === 20) && year === 2025) {
+    // Example link with image
+    let link = document.createElement("a");
+    link.href = "https://www.start.gg/tournament/smash-camp-2025/details";
+    link.target = "_blank";
+
+    let image = document.createElement("img");
+    image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F745405%2Fimage-6327114b0866259802cb7cc27961a65e-optimized.png&ehk=ePMjyKUnayBCiQbvVO%2BLL54RPPXoPK6Xr6USxXDQcXc%3D&w=280&h=280&r=0";
 
     image.classList.add("calendarImg");
 
