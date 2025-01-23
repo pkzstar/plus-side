@@ -119,6 +119,17 @@ const eventsData = [
 
 
       {
+        name: "Super TPS IV",
+        date: "1/25/25",
+        location: "Romeoville, IL, USA",
+        description: "Taking place Frosty Faustings weekend, ILPM and UGS are once again bringing you a premier P+ event, featuring our massive venue, top quality livestream production with MULTIPLE streams, and plenty of setups!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F729703%2Fimage-d446cc3ef2159967910369de4402faf2-optimized.png&ehk=2YmplV5dlaWOKoDKyTlPru50pwmweY6TWaxwtj7M0Fc%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/super-tps-iv/details",
+        rankImg: true, 
+        trailer: "",
+        stream: "https://twitch.tv/projectmnexus"
+      },
+      {
         name: "Somnio 6",
         date: "1/25/25",
         location: "Eindhoven, Netherlands",
@@ -132,7 +143,7 @@ const eventsData = [
       {
         name: "Moonshine Monthly #1",
         date: "1/26/25",
-        location: "Greenville, South Carolina",
+        location: "Greenville, SC. USA",
         description: "South Carolina's Premier P+ ONLY Monthly Series. 24 entrant cap",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F744903%2Fimage-3377d302353799ca777fc9b7f741c464-optimized.png&ehk=XwIn6Z28Q4Iro1UcNE7Yd2DsfLCZ1rChK9J0eSGEgV8%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/moonshine-monthly-1/details",
@@ -248,6 +259,17 @@ const eventsData = [
         link: "https://www.start.gg/tournament/full-bloom-2025/details",
         rankImg: true, 
         trailer: "https://www.youtube.com/watch?v=oCO0FoZf6VU",
+        stream: ""
+      },
+      {
+        name: "Smash Camp 2025",
+        date: "4/19/25 - 4/20/25",
+        location: "Prescott, AZ, USA",
+        description: "After two years away we're back at Friendly Pines Camp in Prescott, Arizona. Come experience on eof th emost unique venues the community has to offer.",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F745405%2Fimage-6327114b0866259802cb7cc27961a65e-optimized.png&ehk=ePMjyKUnayBCiQbvVO%2BLL54RPPXoPK6Xr6USxXDQcXc%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/smash-camp-2025/details",
+        rankImg: true, 
+        trailer: "https://www.youtube.com/watch?v=ls81XhcCZXA",
         stream: ""
       },
       {
