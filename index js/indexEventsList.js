@@ -119,39 +119,6 @@ const eventsData = [
 
 
       {
-        name: "Super TPS IV",
-        date: "1/25/25",
-        location: "Romeoville, IL, USA",
-        description: "Taking place Frosty Faustings weekend, ILPM and UGS are once again bringing you a premier P+ event, featuring our massive venue, top quality livestream production with MULTIPLE streams, and plenty of setups!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F729703%2Fimage-d446cc3ef2159967910369de4402faf2-optimized.png&ehk=2YmplV5dlaWOKoDKyTlPru50pwmweY6TWaxwtj7M0Fc%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/super-tps-iv/details",
-        rankImg: true, 
-        trailer: "",
-        stream: "https://twitch.tv/projectmnexus"
-      },
-      {
-        name: "Somnio 6",
-        date: "1/25/25",
-        location: "Eindhoven, Netherlands",
-        description: "FROM THE PEOPLE THAT BROUGHT YOU DREAMHACK ROTTERDAM 2019 & 2022, SECTOR Z, NL ARCADIAN AND MORE!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F704301%2Fimage-7860f2d53c5c19158a1af5bb595b62f2-optimized.png&ehk=Lvf0cBp42V7xFlwNJ8bxtOnyYKPG5AFv3lZxf8Pd1LQ%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/somnio-6/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Moonshine Monthly #1",
-        date: "1/26/25",
-        location: "Greenville, SC. USA",
-        description: "South Carolina's Premier P+ ONLY Monthly Series. 24 entrant cap",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F744903%2Fimage-3377d302353799ca777fc9b7f741c464-optimized.png&ehk=XwIn6Z28Q4Iro1UcNE7Yd2DsfLCZ1rChK9J0eSGEgV8%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/moonshine-monthly-1/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Wrath 2025",
         date: "2/1/25 - 2/2/25",
         location: "Baton Rouge, LA, USA",
@@ -172,7 +139,18 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: ""
-      },      
+      },
+      {
+        name: "Mass Madness 49",
+        date: "2/8/25",
+        location: "Waltham, MA, USA",
+        description: "Mass Madness IS BACK after a 3-month break! Masks are recommended to be worn while in the venue. For this event, we'll be running Melee doubles and singles, along with Project+ singles. Every match both Melee and Project+ singles is best of 5.",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F742227%2Fimage-fe9a3c15d98a4b0d6d4b6735c938e250-optimized.png&ehk=9aDHEGWPs7LQslYPnbvbHzvdyAErzYs7GmSF4hp6UT0%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/mass-madness-49-a-new-england-melee-and-project-event/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.youtube.com/@GameUndergroundStore/streams"
+      },     
       {
         name: "Exodus 2025",
         date: "2/15/25",
@@ -207,6 +185,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "KREWE - Melee Mardi Gras Ball",
+        date: "2/22/25",
+        location: "Mobile, AL, USA",
+        description: "Welcome to KREWE: A Melee Mardi Gras Ball! Join us February 22nd for a tournament unlike any you've seen before!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F694915%2Fimage-4e2e751a32f9d8e2c9ed852592dff5c7-optimized.png&ehk=Sf%2FUMLvFp%2ByxB9yjxlljQV7vDCCXSm7q%2FykOBfT6aU8%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/krewe-melee-mardi-gras-ball/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Winter is Crouching",
         date: "3/1/25 - 3/2/25",
         location: "Le Kremlin-Bicêtre, Paris, France",
@@ -225,9 +214,20 @@ const eventsData = [
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F714654%2Fimage-9fcdb8b8b1acc8a88280304e3b010b63-optimized.jpg&ehk=8mBzXSK23mbPNHjSmTQkpgvRRF9qYsJ5PfgQ4qo4BJw%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/tennessee-p-summit-2025/details",
         rankImg: false, 
+        trailer: "https://www.youtube.com/watch?v=qC1IEzQkPZ8",
+        stream: ""
+      },
+      {
+        name: "Take Flight 2025",
+        date: "3/8/25",
+        location: "Dayton, OH, USA",
+        description: "Take Flight is Southwest Ohio’s new annual regional platform fighter tournament! This event is 21+!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F745417%2Fimage-22e93b2763bc5ea28149c5b1943cc48c-optimized.jpg&ehk=QEWGcGNnjIx84ORNjbf%2BZdtBdueQemhfLhofbYKzTRM%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/take-flight-2025/details",
+        rankImg: false, 
         trailer: "",
         stream: ""
-      }, 
+      },
       {
         name: "Kame House: The Dark Tournament",
         date: "3/15/25",
@@ -242,14 +242,25 @@ const eventsData = [
       {
         name: "Smash of the Titans 10",
         date: "3/22/25",
-        location: "Bloomington, Illinois, USA",
-        description: "Welcome to Smash of the Titans 10! Illinois Wesleyan University is back with our semesterly Smash regional! The tournament will be held in the Young Main Lounge in the Memorial center on campus (there will be signage posted too). ",
+        location: "Bloomington, IL, USA",
+        description: "Welcome to Smash of the Titans 10! Illinois Wesleyan University is back with our semesterly Smash regional! The tournament will be held in the Young Main Lounge in the Memorial center on campus (there will be signage posted too).",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F733623%2Fimage-6a2f830b3ed2448c8cd4fdc5df2927dc-optimized.jpg&ehk=P6xRQjtL7NCBckUUb%2FvT03FR%2BA%2Bxwgf0XzQ8baE09kk%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/smash-of-the-titans-10-1/details",
         rankImg: false, 
         trailer: "",
         stream: ""
-      },     
+      },  
+      {
+        name: "ETSU-Con 2025",
+        date: "3/29/25",
+        location: "Johnson City, TN, USA",
+        description: "ETSU-Con is back! East Tennessee State University will welcome artists, vendors, voice actors, ETSU faculty & alumni, current & prospective students, and anyone interested in pop-culture, comics, anime, digital media, computer science, science fiction, fantasy, Japanese language & culture, digital & conventional art, theatre, storytelling, and more from around the region to the amazing, multi-genre convention at ETSU in beautiful Johnson City, TN known as ETSU-Con. To Enter Tournaments You Must Have An ETSU-Con Pass",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F748686%2Fimage-1d923a682a2d077b81710449795913f1-optimized.png&ehk=dABwyUsN%2BoM%2BswuB0v9Nx7OuT2AMwb5ZXRqHF1Jp8oQ%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/etsu-con-2025-1/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },   
       {
         name: "Full Bloom 2025",
         date: "4/5/25 - 4/6/25",

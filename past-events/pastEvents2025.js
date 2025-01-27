@@ -112,6 +112,45 @@ const eventData = [
 
 
   {
+    eventTitle: "Moonshine Monthly #1",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F744903%2Fimage-3377d302353799ca777fc9b7f741c464-optimized.png&ehk=XwIn6Z28Q4Iro1UcNE7Yd2DsfLCZ1rChK9J0eSGEgV8%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/moonshine-monthly-1/details",
+    date: "January 25 2024",
+    location: "South Carolina",
+    entrants: 31,
+    first: "AngryPiratehat",
+    second: "Smash_Falco3",
+    third: "Amida",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Somnio 6",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F704301%2Fimage-7860f2d53c5c19158a1af5bb595b62f2-optimized.png&ehk=Lvf0cBp42V7xFlwNJ8bxtOnyYKPG5AFv3lZxf8Pd1LQ%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/somnio-6/details",
+    date: "January 25 2024",
+    location: "Netherlands",
+    entrants: 32,
+    first: "max",
+    second: "Smash_Falco3",
+    third: "Amida",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Super TPS IV",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F729703%2Fimage-d446cc3ef2159967910369de4402faf2-optimized.png&ehk=2YmplV5dlaWOKoDKyTlPru50pwmweY6TWaxwtj7M0Fc%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/super-tps-iv/details",
+    date: "January 25 2024",
+    location: "Illinois",
+    entrants: 29,
+    first: "Dirtboy",
+    second: "metroid",
+    third: "ORLY",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
     eventTitle: "Game 5 in the D #7",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F741982%2Fimage-06d3c983cce808794b6e3357614d9716-optimized.jpg&ehk=Mm%2BdADFo6UiO6w63CtfQqvkLv1qT%2BVUH3vGCQimwKA4%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/game-5-in-the-d-7/details",
