@@ -2824,21 +2824,66 @@ function showCalendar(month, year) {
                 cell.appendChild(link);
         
 
-    // SoTT10
-    } else if (month === 2 && (date === 22) && year === 2025) {
-    // Example link with image
-    let link = document.createElement("a");
-    link.href = "https://www.start.gg/tournament/smash-of-the-titans-10-1/details";
-    link.target = "_blank";
+        //    SoTT10 + game 5 in the D
+        } else if (month === 2 && (date === 22) && year === 2025) {    
+            const events = [
+                {   
+                    link: "https://www.start.gg/tournament/smash-of-the-titans-10-1/details",
+                    imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F733623%2Fimage-6a2f830b3ed2448c8cd4fdc5df2927dc-optimized.jpg&ehk=P6xRQjtL7NCBckUUb%2FvT03FR%2BA%2Bxwgf0XzQ8baE09kk%3D&w=280&h=280&r=0"
+                    
+                },
+                {
+                    link: "https://www.start.gg/tournament/game-5-in-the-d-8-yuko-s-bday-edition/details",
+                    imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F753458%2Fimage-682f23c7c6853c9f14a932032d05ead0-optimized.jpg&ehk=A8Q7W63tKoq8g098URhncVeF0MzGbkVlA7hknPHAYZ0%3D&w=280&h=280&r=0"
+                }
+    
+            ];
+            let currentIndex = 0; // Initialize current index
+    
+            let link = document.createElement("a");
+            link.target = "_blank";
+    
+            let image = document.createElement("img");
+    
+            image.classList.add("calendarImg");
+    
+            link.appendChild(image);
+            cell.appendChild(link);
+    
+            // Function to fade in/out the image and link
+            function fadeInOut(element) {
+                let opacity = 0;
+                let increasing = true;
+                let interval = setInterval(function() {
+                    if (increasing) {
+                        opacity += 0.05;
+                    } else {
+                        opacity -= 0.05;
+                    }
+                    element.style.opacity = opacity;
+                    if (opacity >= 1) {
+                        increasing = false;
+                        setTimeout(() => {
+                            increasing = true;
+                            updateLinkAndImage(); // Update link and image after fully visible
+                        }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                    } else if (opacity <= 0) {
+                        clearInterval(interval);
+                        fadeInOut(element); // Restart the fading animation
+                    }
+                }, 100); // Adjust the timing as needed
+            }
+        
+            // Function to update the link and image
+            function updateLinkAndImage() {
+                link.href = events[currentIndex].link;
+                image.src = events[currentIndex].imageSrc;
+                currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+            }
+        
+            updateLinkAndImage(); // Initially update link and image
+            fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-    let image = document.createElement("img");
-    image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F733623%2Fimage-6a2f830b3ed2448c8cd4fdc5df2927dc-optimized.jpg&ehk=P6xRQjtL7NCBckUUb%2FvT03FR%2BA%2Bxwgf0XzQ8baE09kk%3D&w=280&h=280&r=0";
-
-    image.classList.add("calendarImg");
-
-
-    link.appendChild(image);
-    cell.appendChild(link);
 
     // ETSU-Con 2025
     } else if (month === 2 && (date === 29) && year === 2025) {

@@ -240,6 +240,17 @@ const eventsData = [
         stream: ""
       },  
       {
+        name: "Game 5 In The D #8",
+        date: "3/22/25",
+        location: "Detroit, MI, USA",
+        description: "We welcome all valiant competitors to our local P+ scene's return-to-form! Featuring a professional stream, custom tournament badges, your favorite players, and much, much more, this will be an event you won't want to miss!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F753458%2Fimage-682f23c7c6853c9f14a932032d05ead0-optimized.jpg&ehk=A8Q7W63tKoq8g098URhncVeF0MzGbkVlA7hknPHAYZ0%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/game-5-in-the-d-8-yuko-s-bday-edition/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },  
+      {
         name: "Smash of the Titans 10",
         date: "3/22/25",
         location: "Bloomington, IL, USA",
@@ -317,6 +328,21 @@ const eventsData = [
         stream: "https://www.twitch.tv/projectmnexus"
       },
     ];
+
+
+    // game 5 template...
+    
+    //  {
+    //   name: "Game 5 In The D #8",
+    //   date: "3/22/25",
+    //   location: "Detroit, MI, USA",
+    //   description: "We welcome all valiant competitors to our local P+ scene's return-to-form! Featuring a professional stream, custom tournament badges, your favorite players, and much, much more, this will be an event you won't want to miss!",
+    //   imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F753458%2Fimage-682f23c7c6853c9f14a932032d05ead0-optimized.jpg&ehk=A8Q7W63tKoq8g098URhncVeF0MzGbkVlA7hknPHAYZ0%3D&w=280&h=280&r=0",
+    //   link: "https://www.start.gg/tournament/game-5-in-the-d-8-yuko-s-bday-edition/details",
+    //   rankImg: false, 
+    //   trailer: "",
+    //   stream: ""
+    // }, 
 
 // Create a single div element to contain all the lists
 const eventsContainer = document.createElement('div');
