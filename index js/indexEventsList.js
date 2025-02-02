@@ -240,6 +240,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Northstar III",
+        date: "3/8/25",
+        location: "St Cloud, MN, USA",
+        description: "Melee, Ultimate, Project +, Street Fighter 6, Rocket League, Tekken 8, Guilty Gear Strive, Rivals of Aether 2, Valorant",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F726126%2Fimage-f943b48b4354f5f0aaab13ec7ebcb5e8-optimized.png&ehk=IZXQ%2Fh9W6UxS9mmlIX9aSENB1OiCrxPSyf%2FiKMIvKqo%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/northstar-iii-at-st-cloud-state/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Kame House: The Dark Tournament",
         date: "3/15/25",
         location: "Atlanta, GA, USA",
