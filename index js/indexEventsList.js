@@ -284,6 +284,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Outrivaled",
+        date: "5/3/25",
+        location: "Lisle, IL, USA",
+        description: "A Rivals centric event! Singles and Doubles for Official and Amateur Bracket! Free to enter crew battle! P+ Singles and Doubles! Free to enter Pokemon TCG Pocket bracket! Food and drinks available at venue!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F753093%2Fimage-9b2bf5f982e081df3b24026678ec7647-optimized.jpg&ehk=XXsx6z6UOd7LkTqWzFfC8v87P6TNOfPQzq6hE7hxd%2BU%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/outrivaled-max-s-birthday-bash/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Project D",
         date: "5/17/25",
         location: "Birmingham, UK",

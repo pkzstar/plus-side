@@ -2890,6 +2890,23 @@ function showCalendar(month, year) {
     cell.appendChild(link);
 
     
+        // Outrivaled
+    } else if (month === 4 && date === 3 && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/outrivaled-max-s-birthday-bash/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F753093%2Fimage-9b2bf5f982e081df3b24026678ec7647-optimized.jpg&ehk=XXsx6z6UOd7LkTqWzFfC8v87P6TNOfPQzq6hE7hxd%2BU%3D&w=280&h=280&r=0";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        
     // Project D
     } else if (month === 4 && (date === 17) && year === 2025) {
     // Example link with image
