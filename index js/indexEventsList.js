@@ -196,6 +196,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Moonshine Monthly #2",
+        date: "2/23/25",
+        location: "Greenville, SC 29601, USA",
+        description: "South Carolina's P+ ONLY Monthly Series. Venue $5: 32 singles cap (pls bring setups). Singles $5: 4 person RR pools",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F753025%2Fimage-d1d570002d763332029ed8cafa5d584a-optimized.png&ehk=8aMjwzJmP%2F0DXXICOPCB1u8gm8hs9O8Rv7Y7AbfGnRo%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/moonshine-monthly-2/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://twitch.tv/kn19h7"
+      },
+      {
         name: "Winter is Crouching",
         date: "3/1/25 - 3/2/25",
         location: "Le Kremlin-Bicêtre, Paris, France",
@@ -330,7 +341,7 @@ const eventsData = [
     ];
 
 
-    // game 5 template...
+    // game 5 + moonshine monthly template
     
     //  {
     //   name: "Game 5 In The D #8",
@@ -342,7 +353,18 @@ const eventsData = [
     //   rankImg: false, 
     //   trailer: "",
     //   stream: ""
-    // }, 
+    // },
+    // {
+    //   name: "Moonshine Monthly #2",
+    //   date: "2/23/25",
+    //   location: "Greenville, SC 29601, USA",
+    //   description: "South Carolina's P+ ONLY Monthly Series. Venue $5: 32 singles cap (pls bring setups). Singles $5: 4 person RR pools",
+    //   imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F753025%2Fimage-d1d570002d763332029ed8cafa5d584a-optimized.png&ehk=8aMjwzJmP%2F0DXXICOPCB1u8gm8hs9O8Rv7Y7AbfGnRo%3D&w=280&h=280&r=0",
+    //   link: "https://www.start.gg/tournament/moonshine-monthly-2/details",
+    //   rankImg: false, 
+    //   trailer: "",
+    //   stream: "https://twitch.tv/kn19h7"
+    // },
 
 // Create a single div element to contain all the lists
 const eventsContainer = document.createElement('div');
