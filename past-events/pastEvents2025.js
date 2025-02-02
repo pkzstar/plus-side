@@ -134,7 +134,7 @@ const eventData = [
     first: "max",
     second: "Smash_Falco3",
     third: "Amida",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/live/RzkkrZSu7Ko",
     hideRankImage: true
   },
   {
