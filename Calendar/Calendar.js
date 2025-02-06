@@ -2541,15 +2541,15 @@ function showCalendar(month, year) {
             cell.appendChild(link);
                     
 
-        // LUST 50
+        // BLT
         } else if (month === 1 && (date === 1 || date === 2) && year === 2025) {
             // Example link with image
             let link = document.createElement("a");
-            link.href = "https://www.start.gg/tournament/wrath-2025/details";
+            link.href = "https://www.start.gg/tournament/big-louisiana-tournament/details";
             link.target = "_blank";
     
             let image = document.createElement("img");
-            image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F733428%2Fimage-186746c11909b2a0b5c3fc0b2010014e-optimized.png&ehk=KP599AJILaMiQGI97%2Fljy8k4%2BEkXb3LyjQav3TVjH3s%3D&w=280&h=280&r=0";
+            image.src = "../images/past-events/blt_logo_2.png";
     
             image.classList.add("calendarImg");
     
@@ -2776,9 +2776,68 @@ function showCalendar(month, year) {
             updateLinkAndImage(); // Initially update link and image
             fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
+            //Winter is Crouching + Allston Allstars
+            } else if (month === 2 && (date === 1) && year === 2025) {    
+            const events = [
+                {   
+                    link: "https://www.start.gg/tournament/winter-is-crouching/details",
+                    imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F687306%2Fimage-5618485cca829ee70b7125791593c3e2-optimized.png&ehk=qQc4jLdbvBzwuFG7iw%2BIaofHMDeQPOdtUyGDqI7HPDE%3D&w=280&h=280&r=0"
+                    
+                },
+                {
+                    link: "https://www.start.gg/tournament/allston-allstars-iii/details",
+                    imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F753089%2Fimage-6a3b85b79d910f06723b6e35b06563d7-optimized.png&ehk=EtvpTPcT3cPMb7ppUd9n%2BNKnUkhFeEBOUc5v3dc9Rko%3D&w=280&h=280&r=0"
+                }
+    
+            ];
+            let currentIndex = 0; // Initialize current index
+    
+            let link = document.createElement("a");
+            link.target = "_blank";
+    
+            let image = document.createElement("img");
+    
+            image.classList.add("calendarImg");
+    
+            link.appendChild(image);
+            cell.appendChild(link);
+    
+            // Function to fade in/out the image and link
+            function fadeInOut(element) {
+                let opacity = 0;
+                let increasing = true;
+                let interval = setInterval(function() {
+                    if (increasing) {
+                        opacity += 0.05;
+                    } else {
+                        opacity -= 0.05;
+                    }
+                    element.style.opacity = opacity;
+                    if (opacity >= 1) {
+                        increasing = false;
+                        setTimeout(() => {
+                            increasing = true;
+                            updateLinkAndImage(); // Update link and image after fully visible
+                        }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                    } else if (opacity <= 0) {
+                        clearInterval(interval);
+                        fadeInOut(element); // Restart the fading animation
+                    }
+                }, 100); // Adjust the timing as needed
+            }
+        
+            // Function to update the link and image
+            function updateLinkAndImage() {
+                link.href = events[currentIndex].link;
+                image.src = events[currentIndex].imageSrc;
+                currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+            }
+        
+            updateLinkAndImage(); // Initially update link and image
+            fadeInOut(image); // Start fade-in/out animation // Start cycling events
             
         // Winter is Crouching
-        } else if (month === 2 && (date === 1 || date === 2) && year === 2025) {
+        } else if (month === 2 && (date === 2) && year === 2025) {
         // Example link with image
         let link = document.createElement("a");
         link.href = "https://www.start.gg/tournament/lust-50-a-louisiana-regional/details";
@@ -2951,21 +3010,65 @@ function showCalendar(month, year) {
             fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
 
-    // ETSU-Con 2025
-    } else if (month === 2 && (date === 29) && year === 2025) {
-    // Example link with image
+    // ETSU-Con 2025 + Paign: Automata
+    } else if (month === 2 && (date === 29) && year === 2025) {    
+    const events = [
+        {   
+            link: "https://www.start.gg/tournament/etsu-con-2025-1/details",
+            imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F748686%2Fimage-1d923a682a2d077b81710449795913f1-optimized.png&ehk=dABwyUsN%2BoM%2BswuB0v9Nx7OuT2AMwb5ZXRqHF1Jp8oQ%3D&w=280&h=280&r=0"
+            
+        },
+        {
+            link: "https://www.start.gg/tournament/paign-automata/details",
+            imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F750935%2Fimage-79efb03362dae6723a35a52cfe445e5f-optimized.png&ehk=66DgVrHs4eO3r92urF8FAIA0MAuF9imW4e9RYmun2uc%3D&w=280&h=280&r=0"
+        }
+
+    ];
+    let currentIndex = 0; // Initialize current index
+
     let link = document.createElement("a");
-    link.href = "https://www.start.gg/tournament/etsu-con-2025-1/details";
     link.target = "_blank";
 
     let image = document.createElement("img");
-    image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F748686%2Fimage-1d923a682a2d077b81710449795913f1-optimized.png&ehk=dABwyUsN%2BoM%2BswuB0v9Nx7OuT2AMwb5ZXRqHF1Jp8oQ%3D&w=280&h=280&r=0";
 
     image.classList.add("calendarImg");
 
-
     link.appendChild(image);
     cell.appendChild(link);
+
+    // Function to fade in/out the image and link
+    function fadeInOut(element) {
+        let opacity = 0;
+        let increasing = true;
+        let interval = setInterval(function() {
+            if (increasing) {
+                opacity += 0.05;
+            } else {
+                opacity -= 0.05;
+            }
+            element.style.opacity = opacity;
+            if (opacity >= 1) {
+                increasing = false;
+                setTimeout(() => {
+                    increasing = true;
+                    updateLinkAndImage(); // Update link and image after fully visible
+                }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+            } else if (opacity <= 0) {
+                clearInterval(interval);
+                fadeInOut(element); // Restart the fading animation
+            }
+        }, 100); // Adjust the timing as needed
+    }
+
+    // Function to update the link and image
+    function updateLinkAndImage() {
+        link.href = events[currentIndex].link;
+        image.src = events[currentIndex].imageSrc;
+        currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+    }
+
+    updateLinkAndImage(); // Initially update link and image
+    fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
            
     // Full Bloom 2025
@@ -3033,6 +3136,22 @@ function showCalendar(month, year) {
 
     link.appendChild(image);
     cell.appendChild(link);
+
+     // Fight at the Museum
+    } else if (month === 4 && (date === 31) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/fight-at-the-museum/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F742717%2Fimage-2444e0547ec209b104c997fb05a82292-optimized.png&ehk=f8KGbI3l8GNjIe3d9S5hzXS2esnzIeI4n%2BLesCb%2F9p0%3D&w=280&h=280&r=0";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
     
                     } 
         else {

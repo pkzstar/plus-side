@@ -112,6 +112,19 @@ const eventData = [
 
 
   {
+    eventTitle: "Big Louisiana Tournament",
+    imageUrl: "../images/past-events/blt_logo_2.png",
+    eventUrl: "https://www.start.gg/tournament/big-louisiana-tournament/details",
+    date: "Feburary 1-2 2024",
+    location: "Louisiana",
+    entrants: 55,
+    first: "metroid",
+    second: "Jagz$",
+    third: "Fury",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLSM8VDvyf2kM2XFnOda0Ehl5BtvtOaMOH",
+    hideRankImage: false
+  },
+  {
     eventTitle: "Moonshine Monthly #1",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F744903%2Fimage-3377d302353799ca777fc9b7f741c464-optimized.png&ehk=XwIn6Z28Q4Iro1UcNE7Yd2DsfLCZ1rChK9J0eSGEgV8%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/moonshine-monthly-1/details",
@@ -119,8 +132,8 @@ const eventData = [
     location: "South Carolina",
     entrants: 31,
     first: "AngryPiratehat",
-    second: "Smash_Falco3",
-    third: "Amida",
+    second: "Phteven",
+    third: "Supersponge",
     vodsUrl: "",
     hideRankImage: true
   },

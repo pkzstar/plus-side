@@ -119,17 +119,6 @@ const eventsData = [
 
 
       {
-        name: "Wrath 2025",
-        date: "2/1/25 - 2/2/25",
-        location: "Baton Rouge, LA, USA",
-        description: "You will need a pass for the other event occurring that day in the same venue in order to attend this event! Please message ultradill for clarification",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F733428%2Fimage-186746c11909b2a0b5c3fc0b2010014e-optimized.png&ehk=KP599AJILaMiQGI97%2Fljy8k4%2BEkXb3LyjQav3TVjH3s%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/wrath-2025/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Unc Frozen's Icebox 1",
         date: "2/8/25",
         location: "Plano, TX, USA",
@@ -218,6 +207,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Allston Allstars III",
+        date: "3/1/25",
+        location: "Boston, MA, USA",
+        description: "Boston's new monthly! Allston Allstars is Boston's premiere monthly Super Smash Bros Melee , Project +, and Rivals 2 tournament!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F753089%2Fimage-6a3b85b79d910f06723b6e35b06563d7-optimized.png&ehk=EtvpTPcT3cPMb7ppUd9n%2BNKnUkhFeEBOUc5v3dc9Rko%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/allston-allstars-iii/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Tennessee P+ Summit 2025",
         date: "3/7/25 - 3/9/25",
         location: "Knoxville, TN, USA",
@@ -293,7 +293,18 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: ""
-      },   
+      }, 
+      {
+        name: "Paign: Automata",
+        date: "3/29/25",
+        location: "Champaign, IL, USA",
+        description: "From the organizers of Show Me Your Moves and House of Paign comes a new event, Paign Automata!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F750935%2Fimage-79efb03362dae6723a35a52cfe445e5f-optimized.png&ehk=66DgVrHs4eO3r92urF8FAIA0MAuF9imW4e9RYmun2uc%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/paign-automata/details",
+        rankImg: true, 
+        trailer: "",
+        stream: "https://twitch.tv/pplusside"
+      },  
       {
         name: "Full Bloom 2025",
         date: "4/5/25 - 4/6/25",
@@ -317,7 +328,7 @@ const eventsData = [
         stream: ""
       },
       {
-        name: "Outrivaled",
+        name: "Outrivaled: Max's Birthday Bash!",
         date: "5/3/25",
         location: "Lisle, IL, USA",
         description: "A Rivals centric event! Singles and Doubles for Official and Amateur Bracket! Free to enter crew battle! P+ Singles and Doubles! Free to enter Pokemon TCG Pocket bracket! Food and drinks available at venue!",
@@ -334,6 +345,17 @@ const eventsData = [
         description: "It's time for the biggest P+ tournament in the UK since Not Fête back in 2023! This is an 18+ event",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F734216%2Fimage-ee3ee05c35dba007a95866d0be0d48da-optimized.png&ehk=yWRBbth3w%2BRzWsSxGEGuUudXJ15ui28vMkBOBEMevio%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/project-d/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Fight at the Museum",
+        date: "5/31/25",
+        location: "Portland, OR, USA",
+        description: "Super Smash at a Museum 🚀 May 31st, 2025! Oregon Melee proudly presents: Fight At The Museum!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F742717%2Fimage-2444e0547ec209b104c997fb05a82292-optimized.png&ehk=f8KGbI3l8GNjIe3d9S5hzXS2esnzIeI4n%2BLesCb%2F9p0%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/fight-at-the-museum/details",
         rankImg: false, 
         trailer: "",
         stream: ""
