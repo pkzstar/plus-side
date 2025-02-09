@@ -325,9 +325,9 @@ bulb.onclick = function() {
 // Initialize mode based on saved preference or default to dark mode
 const savedTheme = localStorage.getItem('theme');
 if (savedTheme) {
-    setMode(savedTheme === 'light');
+    setMode(savedTheme === 'dark');
 } else {
-    setMode(false); // Default to dark mode
+    setMode(true); // Default to dark mode if no preference is saved
 }
 
 // Update background images for wallpapers
