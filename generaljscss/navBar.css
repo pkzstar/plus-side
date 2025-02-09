@@ -57,10 +57,32 @@ img.plus-side-net-nav:hover {
 .twitterLink {
     margin: -2px -2px 0px -2px;
     float: right;
-    height: 55px;
+    height: 60px;
     width: auto;
 }
+img.socialImage {
+    margin: 6px -2px 0px 2px;
+    float: right;
+    max-width: 45px;
+    max-height: 45px;
+    cursor: pointer;
+}
+.socialImage:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: 0.3s ease;
+    cursor: pointer;
+}
 .twitterLink:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: 0.3s ease
+}
+.blueSkyLink {
+    margin: -2px -2px 0px -2px;
+    float: right;
+    height: 60px;
+    width: auto;
+}
+.blueSkyLink:hover {
     transform: scale3d(1.1, 1.1, 1.1);
     transition: 0.3s ease
 }
@@ -87,6 +109,9 @@ img.youtubeLink:hover {
 img.twitterLink:hover {
     cursor: pointer;
 }
+img.blueSkyLink:hover {
+    cursor: pointer;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -111,15 +136,36 @@ img.twitterLink:hover {
              a.youtubeLink {
                 max-height: 20px;
              }
-             img.twitterLink {
+             a.twitterLink {
                 margin: 1px 0 0 0;
             display: flex;
             min-height: 20px;
-            height: 10%;
+            height: 15%;
             max-height: 30px;
+            max-width: 15px;
              }
+             a.socialLink {
+                min-width: 15px;
+                max-width: 15px;
+             }
+        img.socialImage {
+            margin: 2px 0 0 0;
+            min-height: 10px ;
+            max-height: 15px;
+            max-width: 15px;
+        }
              a.twitterLink {
-                max-height: 20px;
+                margin: 0px 0 0 0;
+                min-height: 10px;
+                max-height: 30px;
+                max-width: 15px;
+             }
+             a.blueSkyLink {
+                margin: 0px 0 0 0;
+                display: flex;
+                min-height: 10px;
+                max-height: 30px;
+                max-width: 15px;
              }
              img.plus-side-net-nav {
                 display: flex;

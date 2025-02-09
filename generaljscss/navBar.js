@@ -11,16 +11,46 @@ function createNavBar() {
   plusSideLink.appendChild(plusSideImage);
   navBar.appendChild(plusSideLink);
 
-  const twitterLink = document.createElement('a');
-  twitterLink.className = 'twitterLink';
-  twitterLink.href = 'https://twitter.com/pplusside';
-  twitterLink.target = '_blank';
-  const twitterImage = document.createElement('img');
-  twitterImage.className = 'twitterLink';
-  twitterImage.src = 'https://github.com/pkzstar/plus-side/blob/main/images/twitterlogo.png?raw=true';
-  twitterLink.appendChild(twitterImage);
-  navBar.appendChild(twitterLink);
+   // Twitter & Bluesky cycling section
+   const socialLink = document.createElement('a');
+   socialLink.className = 'socialLink';
+   socialLink.href = 'https://twitter.com/pplusside';
+   socialLink.target = '_blank';
+   
+   const socialImage = document.createElement('img');
+   socialImage.className = 'socialImage';
+   socialImage.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/2491px-Logo_of_Twitter.svg.png';
+   socialImage.alt = 'Twitter';
+ 
+   socialLink.appendChild(socialImage);
+   navBar.appendChild(socialLink);
+ 
+   // Start cycling images
+   // Start cycling images
+const socialImages = [
+  { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/2491px-Logo_of_Twitter.svg.png', link: 'https://twitter.com/pplusside', alt: 'Twitter', className: 'twitterLink' },
+  { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bluesky_Logo.svg/1200px-Bluesky_Logo.svg.png', link: 'https://bsky.app/profile/plusside.net', alt: 'Bluesky', className: 'blueSkyLink' }
+];
 
+let index = 0;
+setInterval(() => {
+  index = (index + 1) % socialImages.length;
+  socialImage.style.opacity = 0; // Fade out
+
+  setTimeout(() => {
+    socialImage.src = socialImages[index].src;
+    socialImage.alt = socialImages[index].alt;
+    socialLink.href = socialImages[index].link;
+
+    // Remove old class and add new one
+    socialLink.classList.remove('twitterLink', 'blueSkyLink');
+    socialLink.classList.add(socialImages[index].className);
+    socialImage.style.opacity = 1; // Fade in
+  }, 500);
+}, 3000);
+
+   
+ 
   const twitchLink = document.createElement('a');
   twitchLink.className = 'youtubeLink';
   twitchLink.href = 'https://www.twitch.tv/pplusside';
@@ -92,3 +122,12 @@ const navBarElement = document.getElementById('navBar');
 // Create the navbar and append it to the 'navBar' div
 const navbarElement = createNavBar();
 navBarElement.appendChild(navbarElement);
+
+
+const style = document.createElement('style');
+style.textContent = `
+  .socialImage {
+    transition: opacity 1s;
+  }
+`;
+document.head.appendChild(style);
