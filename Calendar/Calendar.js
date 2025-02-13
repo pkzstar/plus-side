@@ -2776,7 +2776,7 @@ function showCalendar(month, year) {
             updateLinkAndImage(); // Initially update link and image
             fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-            //Winter is Crouching + Allston Allstars
+            //Winter is Crouching + Allston Allstars + UFI2
             } else if (month === 2 && (date === 1) && year === 2025) {    
             const events = [
                 {   
@@ -2787,6 +2787,10 @@ function showCalendar(month, year) {
                 {
                     link: "https://www.start.gg/tournament/allston-allstars-iii/details",
                     imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F753089%2Fimage-6a3b85b79d910f06723b6e35b06563d7-optimized.png&ehk=EtvpTPcT3cPMb7ppUd9n%2BNKnUkhFeEBOUc5v3dc9Rko%3D&w=280&h=280&r=0"
+                },
+                {
+                    link: "https://www.start.gg/tournament/unc-frozen-s-icebox-2/details",
+                    imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F757359%2Fimage-35b90170d69f07be24728b6f2def8830-optimized.jpg&ehk=XcsD59Kqh2AotjXpsr0pI0uu%2BuQX4zPCMzmjTnUPwf0%3D&w=280&h=280&r=0"
                 }
     
             ];

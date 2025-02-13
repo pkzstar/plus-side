@@ -196,6 +196,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Unc's Frozen Icebox 2",
+        date: "3/1/25",
+        location: "Plano, TX, USA",
+        description: "Announcing the second entry in the Icebox tournament series, presented by your friendly neighborhood Unc Frozen!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F757359%2Fimage-35b90170d69f07be24728b6f2def8830-optimized.jpg&ehk=XcsD59Kqh2AotjXpsr0pI0uu%2BuQX4zPCMzmjTnUPwf0%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/unc-frozen-s-icebox-2/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Tennessee P+ Summit 2025",
         date: "3/7/25 - 3/9/25",
         location: "Knoxville, TN, USA",
