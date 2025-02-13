@@ -3072,7 +3072,7 @@ function showCalendar(month, year) {
 
            
     // Placeholder
-    } else if (month === 3 && (date === 5 || date === 6) && year === 2025) {
+    /*} else if (month === 3 && (date === 5 || date === 6) && year === 2025) {
     // Example link with image
     let link = document.createElement("a");
     link.href = "";
@@ -3085,7 +3085,7 @@ function showCalendar(month, year) {
 
 
     link.appendChild(image);
-    cell.appendChild(link);
+    cell.appendChild(link);*/
 
     // Smash Camp 2025
     } else if (month === 3 && (date === 19 || date === 20) && year === 2025) {
