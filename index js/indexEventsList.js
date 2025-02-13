@@ -284,17 +284,6 @@ const eventsData = [
         stream: "https://twitch.tv/pplusside"
       },  
       {
-        name: "Full Bloom 2025",
-        date: "4/5/25 - 4/6/25",
-        location: "Bloomington, IN, USA",
-        description: "Full Bloom 2025 is a 2-day, super smash bros, Project+ and Rivals of Aether 2 tournament held at the Indiana Memorial Union in Bloomington, Indiana",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F715134%2Fimage-35f8b3298b2d53d5d028afc8f3d63422-optimized.png&ehk=QGeDTX8I9NdN%2FFIsuMr%2B4GVjU80B69p8KQOXMGqK0n8%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/full-bloom-2025/details",
-        rankImg: true, 
-        trailer: "https://www.youtube.com/watch?v=oCO0FoZf6VU",
-        stream: ""
-      },
-      {
         name: "Smash Camp 2025",
         date: "4/19/25 - 4/20/25",
         location: "Prescott, AZ, USA",
