@@ -117,29 +117,7 @@ eventName.appendChild(location);
 // Sample event data (replace this with actual event data)
 const eventsData = [
 
-
-      {
-        name: "Unc Frozen's Icebox 1",
-        date: "2/8/25",
-        location: "Plano, TX, USA",
-        description: "Announcing the brand new monthly tournament series Icebox, presented by your friendly neighborhood Unc Frozen! Come hang out with us at FX Games and play! Also featuring several player bounties! Ask a TO for details.",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F744542%2Fimage-4ea708dcb4e53c99a762359bb323cbcb-optimized.jpg&ehk=hMjL84EyvgKtS9QTg1n7e3ldsuZWs8Az2D4RPeb4p1Q%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/unc-frozen-s-icebox-1/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Mass Madness 49",
-        date: "2/8/25",
-        location: "Waltham, MA, USA",
-        description: "Mass Madness IS BACK after a 3-month break! Masks are recommended to be worn while in the venue. For this event, we'll be running Melee doubles and singles, along with Project+ singles. Every match both Melee and Project+ singles is best of 5.",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F742227%2Fimage-fe9a3c15d98a4b0d6d4b6735c938e250-optimized.png&ehk=9aDHEGWPs7LQslYPnbvbHzvdyAErzYs7GmSF4hp6UT0%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/mass-madness-49-a-new-england-melee-and-project-event/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.youtube.com/@GameUndergroundStore/streams"
-      },     
+     
       {
         name: "Exodus 2025",
         date: "2/15/25",
@@ -147,7 +125,7 @@ const eventsData = [
         description: "NorCal PM returns with Exodus 2025! We're the Project M tournament across the street.",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F749811%2Fimage-c4c1170601043bc749596397e0ce48d4-optimized.png&ehk=3amV9R1wU9Gdp328M%2FmCzXfqfY%2FeutcFXYaHS%2BT%2BVXQ%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/exodus-2025/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: ""
       },
@@ -169,7 +147,7 @@ const eventsData = [
         description: "Condo of Blood is an Ontario Project Plus and Rivals of Aether 2 regional hosted directly beside the Port Credit GO station. This accessible recurring tournament series will feature top Ontario talent and is designed fully around our shared love of these platform fighters.",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F743233%2Fimage-6bcba47e76de47e7d7fca4ef74828624-optimized.png&ehk=9Q00a1ghM%2B07wEiqLP9Oj6uhVKpvVIBiZ8a89NJ%2BMcY%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/condo-of-blood-3/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: ""
       },
