@@ -2776,7 +2776,7 @@ function showCalendar(month, year) {
             updateLinkAndImage(); // Initially update link and image
             fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-            //Winter is Crouching + Allston Allstars
+            //Winter is Crouching + Allston Allstars + UFI2
             } else if (month === 2 && (date === 1) && year === 2025) {    
             const events = [
                 {   
@@ -2787,6 +2787,10 @@ function showCalendar(month, year) {
                 {
                     link: "https://www.start.gg/tournament/allston-allstars-iii/details",
                     imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F753089%2Fimage-6a3b85b79d910f06723b6e35b06563d7-optimized.png&ehk=EtvpTPcT3cPMb7ppUd9n%2BNKnUkhFeEBOUc5v3dc9Rko%3D&w=280&h=280&r=0"
+                },
+                {
+                    link: "https://www.start.gg/tournament/unc-frozen-s-icebox-2/details",
+                    imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F757359%2Fimage-35b90170d69f07be24728b6f2def8830-optimized.jpg&ehk=XcsD59Kqh2AotjXpsr0pI0uu%2BuQX4zPCMzmjTnUPwf0%3D&w=280&h=280&r=0"
                 }
     
             ];
@@ -3071,21 +3075,21 @@ function showCalendar(month, year) {
     fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
            
-    // Full Bloom 2025
-    } else if (month === 3 && (date === 5 || date === 6) && year === 2025) {
+    // Placeholder
+    /*} else if (month === 3 && (date === 5 || date === 6) && year === 2025) {
     // Example link with image
     let link = document.createElement("a");
-    link.href = "https://www.start.gg/tournament/full-bloom-2025/details";
+    link.href = "";
     link.target = "_blank";
 
     let image = document.createElement("img");
-    image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F715134%2Fimage-35f8b3298b2d53d5d028afc8f3d63422-optimized.png&ehk=QGeDTX8I9NdN%2FFIsuMr%2B4GVjU80B69p8KQOXMGqK0n8%3D&w=280&h=280&r=0";
+    image.src = "";
 
     image.classList.add("calendarImg");
 
 
     link.appendChild(image);
-    cell.appendChild(link);
+    cell.appendChild(link);*/
 
     // Smash Camp 2025
     } else if (month === 3 && (date === 19 || date === 20) && year === 2025) {

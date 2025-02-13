@@ -112,6 +112,32 @@ const eventData = [
 
 
   {
+    eventTitle: "Mass Madness 49",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F742227%2Fimage-fe9a3c15d98a4b0d6d4b6735c938e250-optimized.png&ehk=9aDHEGWPs7LQslYPnbvbHzvdyAErzYs7GmSF4hp6UT0%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/mass-madness-49-a-new-england-melee-and-project-event/details",
+    date: "Feburary 8 2024",
+    location: "Massachusetts",
+    entrants: 10,
+    first: "Flarp",
+    second: "Motobug",
+    third: "sfy bees",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Unc Frozen's Icebox 1",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F744542%2Fimage-4ea708dcb4e53c99a762359bb323cbcb-optimized.jpg&ehk=hMjL84EyvgKtS9QTg1n7e3ldsuZWs8Az2D4RPeb4p1Q%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/unc-frozen-s-icebox-1/details",
+    date: "Feburary 8 2024",
+    location: "Texas",
+    entrants: 12,
+    first: "Apathy",
+    second: "Bananas",
+    third: "J-am",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Big Louisiana Tournament",
     imageUrl: "../images/past-events/blt_logo_2.png",
     eventUrl: "https://www.start.gg/tournament/big-louisiana-tournament/details",
