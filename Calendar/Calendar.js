@@ -3071,15 +3071,15 @@ function showCalendar(month, year) {
     fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
            
-    // Full Bloom 2025
+    // Placeholder
     } else if (month === 3 && (date === 5 || date === 6) && year === 2025) {
     // Example link with image
     let link = document.createElement("a");
-    link.href = "https://www.start.gg/tournament/full-bloom-2025/details";
+    link.href = "";
     link.target = "_blank";
 
     let image = document.createElement("img");
-    image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F715134%2Fimage-35f8b3298b2d53d5d028afc8f3d63422-optimized.png&ehk=QGeDTX8I9NdN%2FFIsuMr%2B4GVjU80B69p8KQOXMGqK0n8%3D&w=280&h=280&r=0";
+    image.src = "";
 
     image.classList.add("calendarImg");
 
