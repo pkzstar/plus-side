@@ -112,6 +112,19 @@ const eventData = [
 
 
   {
+    eventTitle: "Exodus 2025",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F749811%2Fimage-c4c1170601043bc749596397e0ce48d4-optimized.png&ehk=3amV9R1wU9Gdp328M%2FmCzXfqfY%2FeutcFXYaHS%2BT%2BVXQ%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/exodus-2025/details",
+    date: "Feburary 15 2024",
+    location: "California",
+    entrants: 43,
+    first: "The Doctor",
+    second: "Fury",
+    third: "Ryzuul",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLK6QY5XQ-uu08g9VBmZnNgnNkaTkVTY3d",
+    hideRankImage: false
+  },
+  {
     eventTitle: "Mass Madness 49",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F742227%2Fimage-fe9a3c15d98a4b0d6d4b6735c938e250-optimized.png&ehk=9aDHEGWPs7LQslYPnbvbHzvdyAErzYs7GmSF4hp6UT0%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/mass-madness-49-a-new-england-melee-and-project-event/details",
