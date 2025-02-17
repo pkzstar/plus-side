@@ -117,18 +117,7 @@ eventName.appendChild(location);
 // Sample event data (replace this with actual event data)
 const eventsData = [
 
-     
-      {
-        name: "Exodus 2025",
-        date: "2/15/25",
-        location: "San Jose, CA, USA",
-        description: "NorCal PM returns with Exodus 2025! We're the Project M tournament across the street.",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F749811%2Fimage-c4c1170601043bc749596397e0ce48d4-optimized.png&ehk=3amV9R1wU9Gdp328M%2FmCzXfqfY%2FeutcFXYaHS%2BT%2BVXQ%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/exodus-2025/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
+
       {
         name: "Journey to the West",
         date: "2/21/25 - 2/23/25",
