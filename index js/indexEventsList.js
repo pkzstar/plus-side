@@ -119,50 +119,6 @@ const eventsData = [
 
 
       {
-        name: "Journey to the West",
-        date: "2/21/25 - 2/23/25",
-        location: "Bentley, WA, Australia",
-        description: "Smash Majors make a triumphant return to Perth after a 5 year wait over at The Hub, Bentley Technology Park. I encourage old and new faces alike to make an effort to come as this will most likely be the last major run for Ultimate in Perth.",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F731623%2Fimage-120c39ca0b9e548595ff1c4f88a45860-optimized.jpg&ehk=lsIwpkupKikujRh8VEMGEvMyMCytWXbF%2BCAGiF3N4ZQ%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/journey-to-the-west/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Condo of Blood 3",
-        date: "2/22/25",
-        location: "Mississauga, ON, Canada",
-        description: "Condo of Blood is an Ontario Project Plus and Rivals of Aether 2 regional hosted directly beside the Port Credit GO station. This accessible recurring tournament series will feature top Ontario talent and is designed fully around our shared love of these platform fighters.",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F743233%2Fimage-6bcba47e76de47e7d7fca4ef74828624-optimized.png&ehk=9Q00a1ghM%2B07wEiqLP9Oj6uhVKpvVIBiZ8a89NJ%2BMcY%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/condo-of-blood-3/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "KREWE - Melee Mardi Gras Ball",
-        date: "2/22/25",
-        location: "Mobile, AL, USA",
-        description: "Welcome to KREWE: A Melee Mardi Gras Ball! Join us February 22nd for a tournament unlike any you've seen before!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F694915%2Fimage-4e2e751a32f9d8e2c9ed852592dff5c7-optimized.png&ehk=Sf%2FUMLvFp%2ByxB9yjxlljQV7vDCCXSm7q%2FykOBfT6aU8%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/krewe-melee-mardi-gras-ball/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Moonshine Monthly #2",
-        date: "2/23/25",
-        location: "Greenville, SC 29601, USA",
-        description: "South Carolina's P+ ONLY Monthly Series. Venue $5: 32 singles cap (pls bring setups). Singles $5: 4 person RR pools",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F753025%2Fimage-d1d570002d763332029ed8cafa5d584a-optimized.png&ehk=8aMjwzJmP%2F0DXXICOPCB1u8gm8hs9O8Rv7Y7AbfGnRo%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/moonshine-monthly-2/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://twitch.tv/kn19h7"
-      },
-      {
         name: "Winter is Crouching",
         date: "3/1/25 - 3/2/25",
         location: "Le Kremlin-Bicêtre, Paris, France",
@@ -191,6 +147,17 @@ const eventsData = [
         description: "Announcing the second entry in the Icebox tournament series, presented by your friendly neighborhood Unc Frozen!",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F757359%2Fimage-35b90170d69f07be24728b6f2def8830-optimized.jpg&ehk=XcsD59Kqh2AotjXpsr0pI0uu%2BuQX4zPCMzmjTnUPwf0%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/unc-frozen-s-icebox-2/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Who's On Ledge? 11",
+        date: "3/1/25",
+        location: "Des Moines, IA, USA",
+        description: "DMGC presents Who's on Ledge? Our monthly tournament series featuring Super Smash Bros. Melee, Ultimate, Project+, and Rivals of Aether II at RezBlue Arena!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F760327%2Fimage-745ad5720dee6036abacf9a3286f76dc-optimized.png&ehk=BbimywF8jx4MKur88JheZMXqOKkl4jXKl3YXouqfsDE%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/who-s-on-ledge-11/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -229,6 +196,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Gecko Cavern 9",
+        date: "3/8/25",
+        location: "Burwood, NSW, Australia",
+        description: "Gecko Cavern 9 is here! Hosted at Club Burwood along Burwood Road on the top floor of the venue, Gecko Cavern is the tournament series for Project Plus in Sydney! We also feature other games such as Melee, Rivals, and more! ",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F760612%2Fimage-a1871aaef05623d677238d8acd7ae91a-optimized.png&ehk=JGiHp1mQKM6Qvb052wzJQ1E2xwLpfryzRQrixQyc6vo%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/gecko-cavern-9-1/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Kame House: The Dark Tournament",
         date: "3/15/25",
         location: "Atlanta, GA, USA",
@@ -237,6 +215,17 @@ const eventsData = [
         link: "https://www.start.gg/tournament/kame-house-the-dark-tournament/details",
         rankImg: true, 
         trailer: "https://www.youtube.com/watch?v=GYqh0lz3vPs",
+        stream: ""
+      }, 
+      {
+        name: "Soul Read",
+        date: "3/15/25",
+        location: "Edmond, OK, USA",
+        description: "Soul Read will be the first Melee and P+ tournament at local brewery: American Solera! Join us for some drinks, games, and of course, reads, Saturday March 15th, at 129 W 2nd St, Edmond, OK 73003",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F760471%2Fimage-b0e173b66e73da389313bc1b3723e3a6-optimized.png&ehk=bdGnfFXasnoj5BeHQk0qtAZGs44IKNvsPJqYR5xVMDc%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/soul-read/details",
+        rankImg: false, 
+        trailer: "",
         stream: ""
       },  
       {

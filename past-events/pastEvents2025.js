@@ -112,6 +112,58 @@ const eventData = [
 
 
   {
+    eventTitle: "Moonshine Monthly #2",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F753025%2Fimage-d1d570002d763332029ed8cafa5d584a-optimized.png&ehk=8aMjwzJmP%2F0DXXICOPCB1u8gm8hs9O8Rv7Y7AbfGnRo%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/moonshine-monthly-2/details",
+    date: "Feburary 32 2024",
+    location: "South Carolina",
+    entrants: 19,
+    first: "bass",
+    second: "AngryPiratehat",
+    third: "fries",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "KREWE",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F694915%2Fimage-4e2e751a32f9d8e2c9ed852592dff5c7-optimized.png&ehk=Sf%2FUMLvFp%2ByxB9yjxlljQV7vDCCXSm7q%2FykOBfT6aU8%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/krewe-melee-mardi-gras-ball/details",
+    date: "Feburary 22 2024",
+    location: "Alabama",
+    entrants: 28,
+    first: "SDJ",
+    second: "Sneakh",
+    third: "Rooster",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Condo of Blood 3",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F743233%2Fimage-6bcba47e76de47e7d7fca4ef74828624-optimized.png&ehk=9Q00a1ghM%2B07wEiqLP9Oj6uhVKpvVIBiZ8a89NJ%2BMcY%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/condo-of-blood-3/details",
+    date: "Feburary 22 2024",
+    location: "Ontario",
+    entrants: 27,
+    first: "Zaza",
+    second: "Krumpberry",
+    third: "Erg",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "Journey to the West",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F731623%2Fimage-120c39ca0b9e548595ff1c4f88a45860-optimized.jpg&ehk=lsIwpkupKikujRh8VEMGEvMyMCytWXbF%2BCAGiF3N4ZQ%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/journey-to-the-west/details",
+    date: "Feburary 21-23 2024",
+    location: "Western Australia",
+    entrants: 27,
+    first: "Tyler",
+    second: "Luma",
+    third: "Star",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Exodus 2025",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F749811%2Fimage-c4c1170601043bc749596397e0ce48d4-optimized.png&ehk=3amV9R1wU9Gdp328M%2FmCzXfqfY%2FeutcFXYaHS%2BT%2BVXQ%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/exodus-2025/details",
