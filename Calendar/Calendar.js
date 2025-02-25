@@ -2776,7 +2776,7 @@ function showCalendar(month, year) {
             updateLinkAndImage(); // Initially update link and image
             fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-            //Winter is Crouching + Allston Allstars + UFI2
+            //Winter is Crouching + Allston Allstars + UFI2 + WOL11
             } else if (month === 2 && (date === 1) && year === 2025) {    
             const events = [
                 {   
@@ -2791,6 +2791,10 @@ function showCalendar(month, year) {
                 {
                     link: "https://www.start.gg/tournament/unc-frozen-s-icebox-2/details",
                     imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F757359%2Fimage-35b90170d69f07be24728b6f2def8830-optimized.jpg&ehk=XcsD59Kqh2AotjXpsr0pI0uu%2BuQX4zPCMzmjTnUPwf0%3D&w=280&h=280&r=0"
+                },
+                {
+                    link: "https://www.start.gg/tournament/who-s-on-ledge-11/details",
+                    imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F760327%2Fimage-745ad5720dee6036abacf9a3286f76dc-optimized.png&ehk=BbimywF8jx4MKur88JheZMXqOKkl4jXKl3YXouqfsDE%3D&w=280&h=280&r=0"
                 }
     
             ];
@@ -2872,7 +2876,7 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // TN P+ Summit + Take Flight
+        // TN P+ Summit + Take Flight + Northstar + GC9
         } else if (month === 2 && (date === 8) && year === 2025) {    
         const events = [
             {   
@@ -2887,6 +2891,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/northstar-iii-at-st-cloud-state/details",
                 imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F726126%2Fimage-f943b48b4354f5f0aaab13ec7ebcb5e8-optimized.png&ehk=IZXQ%2Fh9W6UxS9mmlIX9aSENB1OiCrxPSyf%2FiKMIvKqo%3D&w=280&h=280&r=0"
+            },
+            {
+                link: "https://www.start.gg/tournament/gecko-cavern-9-1/details",
+                imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F760612%2Fimage-a1871aaef05623d677238d8acd7ae91a-optimized.png&ehk=JGiHp1mQKM6Qvb052wzJQ1E2xwLpfryzRQrixQyc6vo%3D&w=280&h=280&r=0"
             }
 
         ];
@@ -2936,22 +2944,64 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-                // Kame House: The Dark Tournament
+                // Kame House: The Dark Tournament + Soul Read
             } else if (month === 2 && (date === 15) && year === 2025) {
-                // Example link with image
+                const events = [
+                    {   
+                        link: "https://www.start.gg/tournament/kame-house-the-dark-tournament/details",
+                        imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F740096%2Fimage-cb200c9d81bd09bf0a66d6994fe89bc5-optimized.png&ehk=0EWnOEIzKjh6VS8gO%2B7Tr4NtfojUQwjBahF%2BasiKOic%3D&w=280&h=280&r=0"
+                        
+                    },
+                    {
+                        link: "https://www.start.gg/tournament/soul-read/details",
+                        imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F760471%2Fimage-b0e173b66e73da389313bc1b3723e3a6-optimized.png&ehk=bdGnfFXasnoj5BeHQk0qtAZGs44IKNvsPJqYR5xVMDc%3D&w=280&h=280&r=0"
+                    }        
+                ];
+                let currentIndex = 0; // Initialize current index
+        
                 let link = document.createElement("a");
-                link.href = "https://www.start.gg/tournament/kame-house-the-dark-tournament/details";
                 link.target = "_blank";
-            
+        
                 let image = document.createElement("img");
-                image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F740096%2Fimage-cb200c9d81bd09bf0a66d6994fe89bc5-optimized.png&ehk=0EWnOEIzKjh6VS8gO%2B7Tr4NtfojUQwjBahF%2BasiKOic%3D&w=280&h=280&r=0";
-            
+        
                 image.classList.add("calendarImg");
-            
-            
+        
                 link.appendChild(image);
                 cell.appendChild(link);
         
+                // Function to fade in/out the image and link
+                function fadeInOut(element) {
+                    let opacity = 0;
+                    let increasing = true;
+                    let interval = setInterval(function() {
+                        if (increasing) {
+                            opacity += 0.05;
+                        } else {
+                            opacity -= 0.05;
+                        }
+                        element.style.opacity = opacity;
+                        if (opacity >= 1) {
+                            increasing = false;
+                            setTimeout(() => {
+                                increasing = true;
+                                updateLinkAndImage(); // Update link and image after fully visible
+                            }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                        } else if (opacity <= 0) {
+                            clearInterval(interval);
+                            fadeInOut(element); // Restart the fading animation
+                        }
+                    }, 100); // Adjust the timing as needed
+                }
+            
+                // Function to update the link and image
+                function updateLinkAndImage() {
+                    link.href = events[currentIndex].link;
+                    image.src = events[currentIndex].imageSrc;
+                    currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+                }
+            
+                updateLinkAndImage(); // Initially update link and image
+                fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
         //    SoTT10 + game 5 in the D
         } else if (month === 2 && (date === 22) && year === 2025) {    
