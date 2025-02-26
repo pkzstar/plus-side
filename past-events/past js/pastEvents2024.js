@@ -212,7 +212,7 @@ const eventData = [
     first: "Dirtboy",
     second: "Lordy",
     third: "Lord Wavy",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLp0mqricKIh2MMMKUDOqR8ji54fT-WyZp",
     hideRankImage: true
   },
   {
