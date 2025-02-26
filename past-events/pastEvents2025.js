@@ -134,7 +134,7 @@ const eventData = [
     first: "SDJ",
     second: "Sneakh",
     third: "Rooster",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLSM8VDvyf2kM25zc9_37NS35mXux-QXNN",
     hideRankImage: true
   },
   {
@@ -251,7 +251,7 @@ const eventData = [
     first: "Dirtboy",
     second: "metroid",
     third: "ORLY",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLXuSSlxxWDDpQ7MFjdKTsUzRAaUx56bFf",
     hideRankImage: false
   },
   {
@@ -264,7 +264,7 @@ const eventData = [
     first: "Dirtboy",
     second: "Lordy",
     third: "Yuko",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLp0mqricKIh2KcY-IztlDuDoxFh_ClY27",
     hideRankImage: true
   },
   {
