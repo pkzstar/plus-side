@@ -119,50 +119,6 @@ const eventsData = [
 
 
       {
-        name: "Winter is Crouching",
-        date: "3/1/25 - 3/2/25",
-        location: "Le Kremlin-Bicêtre, Paris, France",
-        description: "Muahahaha! Are you ready for winter? Winter is crouching ❄️❄️❄️ On the program: Project+ of course, we love illegal games 😈, but also Melee and Rivals of Aether 2 hehe",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F687306%2Fimage-5618485cca829ee70b7125791593c3e2-optimized.png&ehk=qQc4jLdbvBzwuFG7iw%2BIaofHMDeQPOdtUyGDqI7HPDE%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/winter-is-crouching/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Allston Allstars III",
-        date: "3/1/25",
-        location: "Boston, MA, USA",
-        description: "Boston's new monthly! Allston Allstars is Boston's premiere monthly Super Smash Bros Melee , Project +, and Rivals 2 tournament!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F753089%2Fimage-6a3b85b79d910f06723b6e35b06563d7-optimized.png&ehk=EtvpTPcT3cPMb7ppUd9n%2BNKnUkhFeEBOUc5v3dc9Rko%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/allston-allstars-iii/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Unc's Frozen Icebox 2",
-        date: "3/1/25",
-        location: "Plano, TX, USA",
-        description: "Announcing the second entry in the Icebox tournament series, presented by your friendly neighborhood Unc Frozen!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F757359%2Fimage-35b90170d69f07be24728b6f2def8830-optimized.jpg&ehk=XcsD59Kqh2AotjXpsr0pI0uu%2BuQX4zPCMzmjTnUPwf0%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/unc-frozen-s-icebox-2/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Who's On Ledge? 11",
-        date: "3/1/25",
-        location: "Des Moines, IA, USA",
-        description: "DMGC presents Who's on Ledge? Our monthly tournament series featuring Super Smash Bros. Melee, Ultimate, Project+, and Rivals of Aether II at RezBlue Arena!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F760327%2Fimage-745ad5720dee6036abacf9a3286f76dc-optimized.png&ehk=BbimywF8jx4MKur88JheZMXqOKkl4jXKl3YXouqfsDE%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/who-s-on-ledge-11/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Tennessee P+ Summit 2025",
         date: "3/7/25 - 3/9/25",
         location: "Knoxville, TN, USA",
@@ -295,6 +251,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Untitled Colorado Project Plus Tournament",
+        date: "5/16/25",
+        location: "Lone Tree, CO, USA",
+        description: "Welcome to the first Untitled Colorado Project Plus Tournament. This one day event takes place at the wonderful Lone Tree Hub",
+        imageUrl: "https://images.start.gg/images/tournament/757771/image-8310886c0466b603a684f568a135a115.png?ehk=20Doph1xkV9g6apsC%2BYIyLvlSIDaAR1CWumo4HsGOOI%3D&ehkOptimized=9HUJfmE%2FUw%2BFO4OKnGpRkl1ElZEx5E0ocEAPk8FV3Fk%3D",
+        link: "https://www.start.gg/tournament/untitled-colorado-project-plus-tournament/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Project D",
         date: "5/17/25",
         location: "Birmingham, UK",
@@ -312,6 +279,17 @@ const eventsData = [
         description: "Super Smash at a Museum 🚀 May 31st, 2025! Oregon Melee proudly presents: Fight At The Museum!",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F742717%2Fimage-2444e0547ec209b104c997fb05a82292-optimized.png&ehk=f8KGbI3l8GNjIe3d9S5hzXS2esnzIeI4n%2BLesCb%2F9p0%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/fight-at-the-museum/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Evergreen 2025",
+        date: "6/14/25",
+        location: "Ridgewood, NJ, USA",
+        description: "A competitor pass for the other event on the same day is required. If you are only entering games on this page (Side Event games), a competitor pass is still required. Spectator passes will not allow you to compete in Evergreen events",
+        imageUrl: "https://images.start.gg/images/tournament/750366/image-eafe71c5eb426044109a764ff4e509e6.png?ehk=9K7Fu4sI1p1c%2B46PJC1aUGNOkQMLidsxRtyFnmzPcDo%3D&ehkOptimized=RokVDvc%2FvsAXu1Ql9wytiQWCuVBQ7%2BqG018F1DGCfvQ%3D",
+        link: "https://www.start.gg/tournament/evergreen-2025/details",
         rankImg: false, 
         trailer: "",
         stream: ""
