@@ -119,50 +119,6 @@ const eventsData = [
 
 
       {
-        name: "Tennessee P+ Summit 2025",
-        date: "3/7/25 - 3/9/25",
-        location: "Knoxville, TN, USA",
-        description: "The Tennessee P+ Summit is back! 20 of the best P+ players from Tennessee will compete for fame and bragging rights in everyone's favorite smash mod.",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F714654%2Fimage-9fcdb8b8b1acc8a88280304e3b010b63-optimized.jpg&ehk=8mBzXSK23mbPNHjSmTQkpgvRRF9qYsJ5PfgQ4qo4BJw%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/tennessee-p-summit-2025/details",
-        rankImg: false, 
-        trailer: "https://www.youtube.com/watch?v=qC1IEzQkPZ8",
-        stream: ""
-      },
-      {
-        name: "Take Flight 2025",
-        date: "3/8/25",
-        location: "Dayton, OH, USA",
-        description: "Take Flight is Southwest Ohio’s new annual regional platform fighter tournament! This event is 21+!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F745417%2Fimage-22e93b2763bc5ea28149c5b1943cc48c-optimized.jpg&ehk=QEWGcGNnjIx84ORNjbf%2BZdtBdueQemhfLhofbYKzTRM%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/take-flight-2025/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Northstar III",
-        date: "3/8/25",
-        location: "St Cloud, MN, USA",
-        description: "Melee, Ultimate, Project +, Street Fighter 6, Rocket League, Tekken 8, Guilty Gear Strive, Rivals of Aether 2, Valorant",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F726126%2Fimage-f943b48b4354f5f0aaab13ec7ebcb5e8-optimized.png&ehk=IZXQ%2Fh9W6UxS9mmlIX9aSENB1OiCrxPSyf%2FiKMIvKqo%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/northstar-iii-at-st-cloud-state/details",
-        rankImg: false, 
-        trailer: "https://www.youtube.com/watch?v=pJUsiCOC_mk",
-        stream: ""
-      },
-      {
-        name: "Gecko Cavern 9",
-        date: "3/8/25",
-        location: "Burwood, NSW, Australia",
-        description: "Gecko Cavern 9 is here! Hosted at Club Burwood along Burwood Road on the top floor of the venue, Gecko Cavern is the tournament series for Project Plus in Sydney! We also feature other games such as Melee, Rivals, and more! ",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F760612%2Fimage-a1871aaef05623d677238d8acd7ae91a-optimized.png&ehk=JGiHp1mQKM6Qvb052wzJQ1E2xwLpfryzRQrixQyc6vo%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/gecko-cavern-9-1/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Kame House: The Dark Tournament",
         date: "3/15/25",
         location: "Atlanta, GA, USA",
