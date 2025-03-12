@@ -380,6 +380,7 @@ input.inputPressure {
     -webkit-text-stroke-width: unset;
     font-size: x-large;
     margin: unset;
+    justify-self: center;
    }
    #authorPageHeader {
     font-family: 'Nunito';
