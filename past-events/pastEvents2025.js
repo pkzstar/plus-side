@@ -112,6 +112,32 @@ const eventData = [
 
 
   {
+    eventTitle: "Soul Read",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F760471%2Fimage-b0e173b66e73da389313bc1b3723e3a6-optimized.png&ehk=bdGnfFXasnoj5BeHQk0qtAZGs44IKNvsPJqYR5xVMDc%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/soul-read/details",
+    date: "March 15 2025",
+    location: "Oklahoma",
+    entrants: 39,
+    first: "J-am",
+    second: "cadenville",
+    third: "FlashingFire",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Kame House: The Dark Tournament",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F740096%2Fimage-cb200c9d81bd09bf0a66d6994fe89bc5-optimized.png&ehk=0EWnOEIzKjh6VS8gO%2B7Tr4NtfojUQwjBahF%2BasiKOic%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/kame-house-the-dark-tournament/details",
+    date: "March 15 2025",
+    location: "Georgia",
+    entrants: 59,
+    first: "Ryzuul",
+    second: "Jagz$",
+    third: "SoulOfficer",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
     eventTitle: "Gecko Cavern 9",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F760612%2Fimage-a1871aaef05623d677238d8acd7ae91a-optimized.png&ehk=JGiHp1mQKM6Qvb052wzJQ1E2xwLpfryzRQrixQyc6vo%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/gecko-cavern-9-1/details",

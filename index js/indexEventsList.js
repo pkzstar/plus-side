@@ -119,28 +119,6 @@ const eventsData = [
 
 
       {
-        name: "Kame House: The Dark Tournament",
-        date: "3/15/25",
-        location: "Atlanta, GA, USA",
-        description: "Inspired by Yu Yu Hakusho's Dark Tournament arc we're excited to bring you a Project+ ONLY Kame House event. Singles Capped at 64 entrants with a very exciting waterfall format for singles, and a 3v3 crew battle tournament capped at 8 teams (Its a Dark Tournament themed event, how could we not do crews...)",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F740096%2Fimage-cb200c9d81bd09bf0a66d6994fe89bc5-optimized.png&ehk=0EWnOEIzKjh6VS8gO%2B7Tr4NtfojUQwjBahF%2BasiKOic%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/kame-house-the-dark-tournament/details",
-        rankImg: true, 
-        trailer: "https://www.youtube.com/watch?v=GYqh0lz3vPs",
-        stream: ""
-      }, 
-      {
-        name: "Soul Read",
-        date: "3/15/25",
-        location: "Edmond, OK, USA",
-        description: "Soul Read will be the first Melee and P+ tournament at local brewery: American Solera! Join us for some drinks, games, and of course, reads, Saturday March 15th, at 129 W 2nd St, Edmond, OK 73003",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F760471%2Fimage-b0e173b66e73da389313bc1b3723e3a6-optimized.png&ehk=bdGnfFXasnoj5BeHQk0qtAZGs44IKNvsPJqYR5xVMDc%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/soul-read/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },  
-      {
         name: "Game 5 In The D #8",
         date: "3/22/25",
         location: "Detroit, MI, USA",
@@ -183,16 +161,49 @@ const eventsData = [
         rankImg: true, 
         trailer: "",
         stream: "https://twitch.tv/pplusside"
+      },
+      {
+        name: "Moonshine Monthly #3",
+        date: "3/30/25",
+        location: "Greenville, SC, USA",
+        description: "South Carolina's P+ ONLY Monthly Series",
+        imageUrl: "https://images.start.gg/images/tournament/763623/image-ea708fffd7f70c4333e088f67d12385f.png",
+        link: "https://www.start.gg/tournament/moonshine-monthly-3/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
       },  
       {
         name: "Smash Camp 2025",
         date: "4/19/25 - 4/20/25",
         location: "Prescott, AZ, USA",
-        description: "After two years away we're back at Friendly Pines Camp in Prescott, Arizona. Come experience on eof th emost unique venues the community has to offer.",
+        description: "After two years away we're back at Friendly Pines Camp in Prescott, Arizona. Come experience one of the most unique venues the community has to offer.",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F745405%2Fimage-6327114b0866259802cb7cc27961a65e-optimized.png&ehk=ePMjyKUnayBCiQbvVO%2BLL54RPPXoPK6Xr6USxXDQcXc%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/smash-camp-2025/details",
         rankImg: true, 
         trailer: "https://www.youtube.com/watch?v=ls81XhcCZXA",
+        stream: ""
+      },
+      {
+        name: "Condo of Blood 4",
+        date: "4/26/25",
+        location: "Mississauga, ON, Canada",
+        description: "Condo of Blood is an Ontario Project Plus and Rivals of Aether 2 regional hosted directly beside the Port Credit GO station. This accessible recurring tournament series will feature top Ontario talent and is designed fully around our shared love of these non-official smash games. Thanks to the continued support from our community, a $500 pot bonus is being added to the prize pool of Condo of Blood 4.",
+        imageUrl: "https://images.start.gg/images/tournament/764336/image-1d3813665a5f0e259657983a49f1d8cd.png",
+        link: "https://www.start.gg/tournament/condo-of-blood-4-500-pot-bonus/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Unc Frozen's Icebox 3",
+        date: "4/26/25",
+        location: "Plano, TX, USA",
+        description: "Third time's the charm in the Icebox tournament series, presented by your friendly neighborhood Unc Frozen!",
+        imageUrl: "https://images.start.gg/images/tournament/767296/image-3ac7d583902781432c42ac79bb3afd7d.jpg",
+        link: "https://www.start.gg/tournament/unc-frozen-s-icebox-3/details",
+        rankImg: false, 
+        trailer: "",
         stream: ""
       },
       {
@@ -246,6 +257,17 @@ const eventsData = [
         description: "A competitor pass for the other event on the same day is required. If you are only entering games on this page (Side Event games), a competitor pass is still required. Spectator passes will not allow you to compete in Evergreen events",
         imageUrl: "https://images.start.gg/images/tournament/750366/image-eafe71c5eb426044109a764ff4e509e6.png?ehk=9K7Fu4sI1p1c%2B46PJC1aUGNOkQMLidsxRtyFnmzPcDo%3D&ehkOptimized=RokVDvc%2FvsAXu1Ql9wytiQWCuVBQ7%2BqG018F1DGCfvQ%3D",
         link: "https://www.start.gg/tournament/evergreen-2025/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Phantom 2025",
+        date: "7/18/25 - 7/20/25",
+        location: "Coburg, VIC, Australia",
+        description: "Welcome back. Phantom continues for another year, in Melbourne.",
+        imageUrl: "https://images.start.gg/images/tournament/762524/image-bd71887f81c5ae41ec8ad09ad0c4cda5.png",
+        link: "https://www.start.gg/tournament/phantom-2025/details",
         rankImg: false, 
         trailer: "",
         stream: ""
