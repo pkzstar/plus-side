@@ -112,6 +112,32 @@ const eventData = [
 
 
   {
+    eventTitle: "Smash of the Titans 10",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F733623%2Fimage-6a2f830b3ed2448c8cd4fdc5df2927dc-optimized.jpg&ehk=P6xRQjtL7NCBckUUb%2FvT03FR%2BA%2Bxwgf0XzQ8baE09kk%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/smash-of-the-titans-10-1/details",
+    date: "March 22 2025",
+    location: "Illinois",
+    entrants: 11,
+    first: "ilikepizza107",
+    second: "shad",
+    third: "Scal",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Game 5 In The D #8",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F753458%2Fimage-682f23c7c6853c9f14a932032d05ead0-optimized.jpg&ehk=A8Q7W63tKoq8g098URhncVeF0MzGbkVlA7hknPHAYZ0%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/game-5-in-the-d-8-yuko-s-bday-edition/details",
+    date: "March 22 2025",
+    location: "Michigan",
+    entrants: 33,
+    first: "Dirtboy",
+    second: "Yuko",
+    third: "Lordy",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Soul Read",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F760471%2Fimage-b0e173b66e73da389313bc1b3723e3a6-optimized.png&ehk=bdGnfFXasnoj5BeHQk0qtAZGs44IKNvsPJqYR5xVMDc%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/soul-read/details",
@@ -186,7 +212,7 @@ const eventData = [
     first: "Moist",
     second: "Shenanigans",
     third: "Mr. Brandandorf",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLL2RqAT-Fg9aCmfXxiFqCd1C4OIZaq0u_",
     hideRankImage: true
   },
   {
@@ -290,7 +316,7 @@ const eventData = [
     first: "Tyler",
     second: "Luma",
     third: "Star",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PL4cUURZHmnRho26wHuYNL0rad6Scu_5DZ",
     hideRankImage: true
   },
   {
