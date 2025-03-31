@@ -112,6 +112,45 @@ const eventData = [
 
 
   {
+    eventTitle: "Moonshine Monthly #3",
+    imageUrl: "https://images.start.gg/images/tournament/763623/image-ea708fffd7f70c4333e088f67d12385f.png",
+    eventUrl: "https://www.start.gg/tournament/moonshine-monthly-3/details",
+    date: "March 30 2025",
+    location: "South Carolina",
+    entrants: 15,
+    first: "Supersponge",
+    second: "knight",
+    third: "Bus",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "PaigN: Automata",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F750935%2Fimage-79efb03362dae6723a35a52cfe445e5f-optimized.png&ehk=66DgVrHs4eO3r92urF8FAIA0MAuF9imW4e9RYmun2uc%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/paign-automata/details",
+    date: "March 29 2025",
+    location: "Illinois",
+    entrants: 41,
+    first: "essy",
+    second: "Dirtboy",
+    third: "SoulOfficer",
+    vodsUrl: "https://www.twitch.tv/videos/2418569586",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "ETSU-Con 2025",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F748686%2Fimage-1d923a682a2d077b81710449795913f1-optimized.png&ehk=dABwyUsN%2BoM%2BswuB0v9Nx7OuT2AMwb5ZXRqHF1Jp8oQ%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/etsu-con-2025-1/details",
+    date: "March 29 2025",
+    location: "Tennessee",
+    entrants: 36,
+    first: "Salt",
+    second: "Shenanigans",
+    third: "Moist",
+    vodsUrl: "https://www.twitch.tv/jaysonmoistrice/v/2418664726?sr=a&t=0s",
+    hideRankImage: false
+  },
+  {
     eventTitle: "Smash of the Titans 10",
     imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F733623%2Fimage-6a2f830b3ed2448c8cd4fdc5df2927dc-optimized.jpg&ehk=P6xRQjtL7NCBckUUb%2FvT03FR%2BA%2Bxwgf0XzQ8baE09kk%3D&w=280&h=280&r=0",
     eventUrl: "https://www.start.gg/tournament/smash-of-the-titans-10-1/details",
@@ -134,7 +173,7 @@ const eventData = [
     first: "Dirtboy",
     second: "Yuko",
     third: "Lordy",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLAT5TuRwHTCJhi9YJY5lbsOJvpIzQrn3a",
     hideRankImage: true
   },
   {

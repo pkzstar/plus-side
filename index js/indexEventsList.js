@@ -119,39 +119,6 @@ const eventsData = [
 
 
       {
-        name: "ETSU-Con 2025",
-        date: "3/29/25",
-        location: "Johnson City, TN, USA",
-        description: "ETSU-Con is back! East Tennessee State University will welcome artists, vendors, voice actors, ETSU faculty & alumni, current & prospective students, and anyone interested in pop-culture, comics, anime, digital media, computer science, science fiction, fantasy, Japanese language & culture, digital & conventional art, theatre, storytelling, and more from around the region to the amazing, multi-genre convention at ETSU in beautiful Johnson City, TN known as ETSU-Con. To Enter Tournaments You Must Have An ETSU-Con Pass",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F748686%2Fimage-1d923a682a2d077b81710449795913f1-optimized.png&ehk=dABwyUsN%2BoM%2BswuB0v9Nx7OuT2AMwb5ZXRqHF1Jp8oQ%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/etsu-con-2025-1/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      }, 
-      {
-        name: "Paign: Automata",
-        date: "3/29/25",
-        location: "Champaign, IL, USA",
-        description: "From the organizers of Show Me Your Moves and House of Paign comes a new event, Paign Automata!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F750935%2Fimage-79efb03362dae6723a35a52cfe445e5f-optimized.png&ehk=66DgVrHs4eO3r92urF8FAIA0MAuF9imW4e9RYmun2uc%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/paign-automata/details",
-        rankImg: true, 
-        trailer: "",
-        stream: "https://twitch.tv/pplusside"
-      },
-      {
-        name: "Moonshine Monthly #3",
-        date: "3/30/25",
-        location: "Greenville, SC, USA",
-        description: "South Carolina's P+ ONLY Monthly Series",
-        imageUrl: "https://images.start.gg/images/tournament/763623/image-ea708fffd7f70c4333e088f67d12385f.png",
-        link: "https://www.start.gg/tournament/moonshine-monthly-3/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },  
-      {
         name: "Smash Camp 2025",
         date: "4/19/25 - 4/20/25",
         location: "Prescott, AZ, USA",
@@ -218,6 +185,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Somnio 7",
+        date: "5/17/25 - 5/18/25",
+        location: "Eindhoven, Netherlands",
+        description: "SOMNIO VII - May 17th & 18th, 2025. FROM THE PEOPLE THAT BROUGHT YOU DREAMHACK ROTTERDAM 2019 & 2022, SECTOR Z, NL ARCADIAN AND MORE!",
+        imageUrl: "https://images.start.gg/images/tournament/751000/image-ed26f48afad2877aba57f1490bb6f714.png?ehk=6y%2FyE%2BucwtxN5FHMui%2FrMuvo4VgUICio6mgUEdCk4eE%3D&ehkOptimized=0sZkKNeR5pDkTDdlWAu53aBCDIMVsLokiPOWWWvzLJI%3D",
+        link: "https://www.start.gg/tournament/somnio-7/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Fight at the Museum",
         date: "5/31/25",
         location: "Portland, OR, USA",
@@ -235,6 +213,17 @@ const eventsData = [
         description: "A competitor pass for the other event on the same day is required. If you are only entering games on this page (Side Event games), a competitor pass is still required. Spectator passes will not allow you to compete in Evergreen events",
         imageUrl: "https://images.start.gg/images/tournament/750366/image-eafe71c5eb426044109a764ff4e509e6.png?ehk=9K7Fu4sI1p1c%2B46PJC1aUGNOkQMLidsxRtyFnmzPcDo%3D&ehkOptimized=RokVDvc%2FvsAXu1Ql9wytiQWCuVBQ7%2BqG018F1DGCfvQ%3D",
         link: "https://www.start.gg/tournament/evergreen-2025/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "The Truce 2:¡No Pasarán!",
+        date: "6/21/25 - 6/22/25",
+        location: "Le Kremlin-Bicêtre, France",
+        description: "Welcome to the second French Project M 3.6 major since the release of Project +: The Truce 2:¡No Pasarán! On the program: Project M, of course, Singles and Doubles, but also Melee, in case you haven't figured it out - we like illegal games here, hehe!",
+        imageUrl: "https://images.start.gg/images/tournament/769345/image-3b234072f79221c181e6d499ef1f6daa.jpg",
+        link: "https://www.start.gg/tournament/the-truce-2-no-pasar-n/details",
         rankImg: false, 
         trailer: "",
         stream: ""
