@@ -147,7 +147,7 @@ const eventData = [
     first: "Salt",
     second: "Shenanigans",
     third: "Moist",
-    vodsUrl: "https://www.twitch.tv/jaysonmoistrice/v/2418664726?sr=a&t=0s",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLL2RqAT-Fg9b29wi4rx-U0JMCZgCnWufR",
     hideRankImage: false
   },
   {
@@ -160,7 +160,7 @@ const eventData = [
     first: "ilikepizza107",
     second: "shad",
     third: "Scal",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLJIkd-7ajnoUV_sQuZw0MUBPhzHZWcgPp",
     hideRankImage: true
   },
   {
@@ -186,7 +186,7 @@ const eventData = [
     first: "J-am",
     second: "cadenville",
     third: "FlashingFire",
-    vodsUrl: "",
+    vodsUrl: "https://youtube.com/playlist?list=PLu8vDmkIWeMXimpsuU_eBwpeYEWSes0UL&si=AFW5KlcAf1bUJB7l",
     hideRankImage: true
   },
   {
@@ -199,7 +199,7 @@ const eventData = [
     first: "Ryzuul",
     second: "Jagz$",
     third: "SoulOfficer",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLMO4jXfLteTd89_QA8cLEkQpzIkoN7OfJ",
     hideRankImage: false
   },
   {
@@ -303,7 +303,7 @@ const eventData = [
     first: "Dirtboy",
     second: "Smash_Falco3",
     third: "Trif",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLKRfQKsyLmMazeUzqOqXinC9DZndGrrF-",
     hideRankImage: true
   },
   {

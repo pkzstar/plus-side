@@ -163,6 +163,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "swaggerbeebumbler spring-fling bash #shoutoutmoms",
+        date: "5/11/25",
+        location: "Cary, NC, USA",
+        description: "Come Celebrate Spring! At Lochmere Clubhouse in Cary. This is a community event. This tournament is Pre- Registration only. You must Pre-register before May 10th at 11:59pm. If you do not pre-reg I cannot even let you in the clubhouse due to rules from Lochmere.",
+        imageUrl: "https://images.start.gg/images/tournament/774539/image-cdaad655ab58537f66fb9d518480b359.png",
+        link: "https://www.start.gg/tournament/swaggerbeebumbler-spring-fling-bash-shoutoutmoms/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Untitled Colorado Project Plus Tournament",
         date: "5/16/25",
         location: "Lone Tree, CO, USA",

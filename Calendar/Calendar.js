@@ -3234,6 +3234,22 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
+        //swaggerbeebumbler
+    } else if (month === 4 && date === 11 && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/swaggerbeebumbler-spring-fling-bash-shoutoutmoms/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/774539/image-cdaad655ab58537f66fb9d518480b359.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
         // UCPPT
     } else if (month === 4 && (date === 16) && year === 2025) {
         // Example link with image
