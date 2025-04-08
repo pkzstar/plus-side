@@ -112,6 +112,19 @@ const eventData = [
 
 
   {
+    eventTitle: "Uprooted 2025",
+    imageUrl: "https://images.start.gg/images/tournament/753942/image-d812f4ac06a850b6359539ba42745ac3.png?ehk=QQrS5oYsBj5eUvzhuNpGdmst4d5iOChvCwNGcd%2B0XNU%3D&ehkOptimized=d31bUmnIMX0jB1K26xIVl67Z8OIs1i5bus%2FDQ8%2FtSd8%3D",
+    eventUrl: "https://www.start.gg/tournament/uprooted-2025/details",
+    date: "April 5-6 2025",
+    location: "Indiana",
+    entrants: 91,
+    first: "SipMastah",
+    second: "Ryzuul",
+    third: "Morsecode762",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLXuSSlxxWDDq4SaFfP4nyhC6wMTHli17F",
+    hideRankImage: false
+  },
+  {
     eventTitle: "Moonshine Monthly #3",
     imageUrl: "https://images.start.gg/images/tournament/763623/image-ea708fffd7f70c4333e088f67d12385f.png",
     eventUrl: "https://www.start.gg/tournament/moonshine-monthly-3/details",

@@ -327,7 +327,7 @@ const savedTheme = localStorage.getItem('theme');
 if (savedTheme) {
     setMode(savedTheme === 'dark');
 } else {
-    setMode(true); // Default to dark mode if no preference is saved
+    setMode(false); // Default to dark mode if no preference is saved
 }
 
 // Update background images for wallpapers
