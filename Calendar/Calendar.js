@@ -3391,6 +3391,22 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
+         // Second Wind 2025
+        } else if (month === 6 && (date === 11 || date === 12 || date === 13) && year === 2025) {
+            // Example link with image
+            let link = document.createElement("a");
+            link.href = "https://www.start.gg/tournament/second-wind-2025/details";
+            link.target = "_blank";
+        
+            let image = document.createElement("img");
+            image.src = "https://images.start.gg/images/tournament/773119/image-9058a675285a63cee2e7853e567464bc.png";
+        
+            image.classList.add("calendarImg");
+        
+        
+            link.appendChild(image);
+            cell.appendChild(link);
+
         // Phantom 2025
         } else if (month === 6 && (date === 18 || date === 19 || date === 20) && year === 2025) {
         // Example link with image
@@ -3400,6 +3416,22 @@ function showCalendar(month, year) {
     
         let image = document.createElement("img");
         image.src = "https://images.start.gg/images/tournament/762524/image-bd71887f81c5ae41ec8ad09ad0c4cda5.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // Undertow 2025
+        } else if (month === 8 && (date === 7) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/undertow-2025/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/775856/image-07898797f4d6bbc657f7349d0c14201d.png";
     
         image.classList.add("calendarImg");
     

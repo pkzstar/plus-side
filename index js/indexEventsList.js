@@ -138,7 +138,7 @@ const eventsData = [
         link: "https://www.start.gg/tournament/condo-of-blood-4-500-pot-bonus/details",
         rankImg: false, 
         trailer: "",
-        stream: ""
+        stream: "https://www.youtube.com/@ontarioprojectm8374/streams"
       },
       {
         name: "Unc Frozen's Icebox 3",
@@ -160,7 +160,7 @@ const eventsData = [
         link: "https://www.start.gg/tournament/outrivaled-max-s-birthday-bash/details",
         rankImg: false, 
         trailer: "",
-        stream: ""
+        stream: "https://twitch.tv/pplusside"
       },
       {
         name: "swaggerbeebumbler spring-fling bash #shoutoutmoms",
@@ -182,7 +182,7 @@ const eventsData = [
         link: "https://www.start.gg/tournament/untitled-colorado-project-plus-tournament/details",
         rankImg: false, 
         trailer: "",
-        stream: ""
+        stream: "https://www.twitch.tv/coloradoprojectplus"
       },
       {
         name: "Project D",
@@ -224,7 +224,7 @@ const eventsData = [
         description: "A competitor pass for the other event on the same day is required. If you are only entering games on this page (Side Event games), a competitor pass is still required. Spectator passes will not allow you to compete in Evergreen events",
         imageUrl: "https://images.start.gg/images/tournament/750366/image-eafe71c5eb426044109a764ff4e509e6.png?ehk=9K7Fu4sI1p1c%2B46PJC1aUGNOkQMLidsxRtyFnmzPcDo%3D&ehkOptimized=RokVDvc%2FvsAXu1Ql9wytiQWCuVBQ7%2BqG018F1DGCfvQ%3D",
         link: "https://www.start.gg/tournament/evergreen-2025/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: ""
       },
@@ -240,6 +240,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Second Wind 2025",
+        date: "7/11/25 - 7/13/25",
+        location: "Te Aro, Wellington, New Zealand",
+        description: "Wellington's Favourite Gaming Event. Second Wind returns for 2025 running from Friday 11th to Sunday 13th, a huge range of fighting games all held in one tight venue for a unique experience!",
+        imageUrl: "https://images.start.gg/images/tournament/773119/image-9058a675285a63cee2e7853e567464bc.png",
+        link: "https://www.start.gg/tournament/second-wind-2025/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Phantom 2025",
         date: "7/18/25 - 7/20/25",
         location: "Coburg, VIC, Australia",
@@ -247,6 +258,17 @@ const eventsData = [
         imageUrl: "https://images.start.gg/images/tournament/762524/image-bd71887f81c5ae41ec8ad09ad0c4cda5.png",
         link: "https://www.start.gg/tournament/phantom-2025/details",
         rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Undertow 2025",
+        date: "9/7/25",
+        location: "Sandusky, Ohio, United States",
+        description: "Undertow returns to the Sandusky Best Western in 2025. We may be displaced, but we'll never go hollow. This will be a one-day event with a 96 entrant cap.",
+        imageUrl: "https://images.start.gg/images/tournament/775856/image-07898797f4d6bbc657f7349d0c14201d.png",
+        link: "https://www.start.gg/tournament/undertow-2025/details",
+        rankImg: true, 
         trailer: "",
         stream: ""
       },
