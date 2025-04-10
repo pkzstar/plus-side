@@ -3141,8 +3141,68 @@ function showCalendar(month, year) {
     link.appendChild(image);
     cell.appendChild(link);
 
+    // Smash Camp Day 1 + FW:TGA III
+    } else if (month === 3 && (date === 19) && year === 2025) {    
+    const events = [
+        {   
+            link: "https://www.start.gg/tournament/smash-camp-2025/details",
+            imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F745405%2Fimage-6327114b0866259802cb7cc27961a65e-optimized.png&ehk=ePMjyKUnayBCiQbvVO%2BLL54RPPXoPK6Xr6USxXDQcXc%3D&w=280&h=280&r=0"
+            
+        },
+        {
+            link: "https://www.start.gg/tournament/final-warning-the-golden-age-chapter-iii/details",
+            imageSrc: "https://images.start.gg/images/tournament/751437/image-5784957f37c78c1820e470a902bd4a89.jpg?ehk=2wlwYFMVBPyM6EcDOyCubl0iMeXnkQm7IjDDcZMuBS4%3D&ehkOptimized=AagQXEguoKOW8fn0fs43%2FUWXuBm9wg3hBgj%2B9nCrpkE%3D"
+        }
+
+    ];
+    let currentIndex = 0; // Initialize current index
+
+    let link = document.createElement("a");
+    link.target = "_blank";
+
+    let image = document.createElement("img");
+
+    image.classList.add("calendarImg");
+
+    link.appendChild(image);
+    cell.appendChild(link);
+
+    // Function to fade in/out the image and link
+    function fadeInOut(element) {
+        let opacity = 0;
+        let increasing = true;
+        let interval = setInterval(function() {
+            if (increasing) {
+                opacity += 0.05;
+            } else {
+                opacity -= 0.05;
+            }
+            element.style.opacity = opacity;
+            if (opacity >= 1) {
+                increasing = false;
+                setTimeout(() => {
+                    increasing = true;
+                    updateLinkAndImage(); // Update link and image after fully visible
+                }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+            } else if (opacity <= 0) {
+                clearInterval(interval);
+                fadeInOut(element); // Restart the fading animation
+            }
+        }, 100); // Adjust the timing as needed
+    }
+
+    // Function to update the link and image
+    function updateLinkAndImage() {
+        link.href = events[currentIndex].link;
+        image.src = events[currentIndex].imageSrc;
+        currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+    }
+
+    updateLinkAndImage(); // Initially update link and image
+    fadeInOut(image); // Start fade-in/out animation // Start cycling events
+
     // Smash Camp 2025
-    } else if (month === 3 && (date === 19 || date === 20) && year === 2025) {
+    } else if (month === 3 && (date === 20) && year === 2025) {
     // Example link with image
     let link = document.createElement("a");
     link.href = "https://www.start.gg/tournament/smash-camp-2025/details";
@@ -3218,21 +3278,65 @@ function showCalendar(month, year) {
     fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
     
-        // Outrivaled
-    } else if (month === 4 && date === 3 && year === 2025) {
-        // Example link with image
+        // Outrivaled & MM50
+    } else if (month === 4 && (date === 3) && year === 2025) {    
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/outrivaled-max-s-birthday-bash/details",
+                imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F753093%2Fimage-9b2bf5f982e081df3b24026678ec7647-optimized.jpg&ehk=XXsx6z6UOd7LkTqWzFfC8v87P6TNOfPQzq6hE7hxd%2BU%3D&w=280&h=280&r=0"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/mass-madness-50-10th-anniversary-edition-250-pot-bonus/details",
+                imageSrc: "https://images.start.gg/images/tournament/771392/image-0484d0a23129cae08d0baad5257c7d5f.png"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
         let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/outrivaled-max-s-birthday-bash/details";
         link.target = "_blank";
     
         let image = document.createElement("img");
-        image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F753093%2Fimage-9b2bf5f982e081df3b24026678ec7647-optimized.jpg&ehk=XXsx6z6UOd7LkTqWzFfC8v87P6TNOfPQzq6hE7hxd%2BU%3D&w=280&h=280&r=0";
     
         image.classList.add("calendarImg");
     
-    
         link.appendChild(image);
         cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
         //swaggerbeebumbler
     } else if (month === 4 && date === 11 && year === 2025) {
