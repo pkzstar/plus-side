@@ -147,7 +147,7 @@ const eventData = [
     first: "essy",
     second: "Dirtboy",
     third: "SoulOfficer",
-    vodsUrl: "https://www.twitch.tv/videos/2418569586",
+    vodsUrl: "https://www.youtube.com/playlist?list=PL_OBsvMFKQ5TZDHJ5OqQ48d6CB4FmR3zK",
     hideRankImage: false
   },
   {

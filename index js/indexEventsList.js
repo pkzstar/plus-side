@@ -130,6 +130,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Final Warning: The Golden Age - Chapter III",
+        date: "4/19/25",
+        location: "South Portland, ME, USA",
+        description: "Get preregistered and secure your spot! Note: We're back in the larger room from August this month! Pictures below!",
+        imageUrl: "https://images.start.gg/images/tournament/751437/image-5784957f37c78c1820e470a902bd4a89.jpg?ehk=2wlwYFMVBPyM6EcDOyCubl0iMeXnkQm7IjDDcZMuBS4%3D&ehkOptimized=AagQXEguoKOW8fn0fs43%2FUWXuBm9wg3hBgj%2B9nCrpkE%3D",
+        link: "https://www.start.gg/tournament/final-warning-the-golden-age-chapter-iii/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Condo of Blood 4",
         date: "4/26/25",
         location: "Mississauga, ON, Canada",
@@ -161,6 +172,17 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: "https://twitch.tv/pplusside"
+      },
+      {
+        name: "Mass Madness 50 - 10th Anniversary Edition! $250 Pot Bonus!",
+        date: "5/3/25",
+        location: "Waltham, MA, USA",
+        description: "Mass Madness IS BACK for its 50th edition since Game Underground moved out of the Framingham venue in May 2015, 10 years ago! As this is a special occasion, we'll also be adding a $250 pot bonus for Melee Singles at this event!",
+        imageUrl: "https://images.start.gg/images/tournament/771392/image-0484d0a23129cae08d0baad5257c7d5f.png",
+        link: "https://www.start.gg/tournament/mass-madness-50-10th-anniversary-edition-250-pot-bonus/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
       },
       {
         name: "swaggerbeebumbler spring-fling bash #shoutoutmoms",
