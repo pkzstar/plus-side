@@ -136,7 +136,7 @@ const eventsData = [
         description: "Get preregistered and secure your spot! Note: We're back in the larger room from August this month! Pictures below!",
         imageUrl: "https://images.start.gg/images/tournament/751437/image-5784957f37c78c1820e470a902bd4a89.jpg?ehk=2wlwYFMVBPyM6EcDOyCubl0iMeXnkQm7IjDDcZMuBS4%3D&ehkOptimized=AagQXEguoKOW8fn0fs43%2FUWXuBm9wg3hBgj%2B9nCrpkE%3D",
         link: "https://www.start.gg/tournament/final-warning-the-golden-age-chapter-iii/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: ""
       },
@@ -147,7 +147,7 @@ const eventsData = [
         description: "Condo of Blood is an Ontario Project Plus and Rivals of Aether 2 regional hosted directly beside the Port Credit GO station. This accessible recurring tournament series will feature top Ontario talent and is designed fully around our shared love of these non-official smash games. Thanks to the continued support from our community, a $500 pot bonus is being added to the prize pool of Condo of Blood 4.",
         imageUrl: "https://images.start.gg/images/tournament/764336/image-1d3813665a5f0e259657983a49f1d8cd.png",
         link: "https://www.start.gg/tournament/condo-of-blood-4-500-pot-bonus/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: "https://www.youtube.com/@ontarioprojectm8374/streams"
       },
@@ -247,6 +247,17 @@ const eventsData = [
         imageUrl: "https://images.start.gg/images/tournament/750366/image-eafe71c5eb426044109a764ff4e509e6.png?ehk=9K7Fu4sI1p1c%2B46PJC1aUGNOkQMLidsxRtyFnmzPcDo%3D&ehkOptimized=RokVDvc%2FvsAXu1Ql9wytiQWCuVBQ7%2BqG018F1DGCfvQ%3D",
         link: "https://www.start.gg/tournament/evergreen-2025/details",
         rankImg: true, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "King's Ransom",
+        date: "6/14/25",
+        location: "Kingsport, TN, USA",
+        description: "64 entrant cap. Doors open at 12, Melee at 1, P+ at 2. All bo3 till top 8. $50 pot bonus for both Melee and P+",
+        imageUrl: "https://images.start.gg/images/tournament/769414/image-e69ffb0c62ba05fd003d5d5c00e88218.png",
+        link: "https://www.start.gg/tournament/king-s-ransom/details",
+        rankImg: false, 
         trailer: "",
         stream: ""
       },
