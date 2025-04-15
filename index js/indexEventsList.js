@@ -127,7 +127,7 @@ const eventsData = [
         link: "https://www.start.gg/tournament/smash-camp-2025/details",
         rankImg: true, 
         trailer: "https://www.youtube.com/watch?v=ls81XhcCZXA",
-        stream: ""
+        stream: "https://www.twitch.tv/azpm"
       },
       {
         name: "Final Warning: The Golden Age - Chapter III",
@@ -160,7 +160,7 @@ const eventsData = [
         link: "https://www.start.gg/tournament/unc-frozen-s-icebox-3/details",
         rankImg: false, 
         trailer: "",
-        stream: ""
+        stream: "https://www.twitch.tv/fxgames_gg"
       },
       {
         name: "Outrivaled: Max's Birthday Bash!",
@@ -182,7 +182,7 @@ const eventsData = [
         link: "https://www.start.gg/tournament/mass-madness-50-10th-anniversary-edition-250-pot-bonus/details",
         rankImg: false, 
         trailer: "",
-        stream: ""
+        stream: "https://www.youtube.com/@GameUndergroundStore/streams"
       },
       {
         name: "swaggerbeebumbler spring-fling bash #shoutoutmoms",
@@ -235,7 +235,7 @@ const eventsData = [
         description: "Super Smash at a Museum 🚀 May 31st, 2025! Oregon Melee proudly presents: Fight At The Museum!",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F742717%2Fimage-2444e0547ec209b104c997fb05a82292-optimized.png&ehk=f8KGbI3l8GNjIe3d9S5hzXS2esnzIeI4n%2BLesCb%2F9p0%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/fight-at-the-museum/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: ""
       },
