@@ -112,6 +112,32 @@ const eventData = [
 
 
   {
+    eventTitle: "Smash Camp 2025",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F745405%2Fimage-6327114b0866259802cb7cc27961a65e-optimized.png&ehk=ePMjyKUnayBCiQbvVO%2BLL54RPPXoPK6Xr6USxXDQcXc%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/smash-camp-2025/details",
+    date: "April 19-20 2025",
+    location: "Arizona",
+    entrants: 56,
+    first: "Nezergy",
+    second: "Kendrick",
+    third: "Dirtboy",
+    vodsUrl: "https://www.twitch.tv/videos/2438138061",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "Final Warning: The Golden Age - Chapter III",
+    imageUrl: "https://images.start.gg/images/tournament/751437/image-5784957f37c78c1820e470a902bd4a89.jpg?ehk=2wlwYFMVBPyM6EcDOyCubl0iMeXnkQm7IjDDcZMuBS4%3D&ehkOptimized=AagQXEguoKOW8fn0fs43%2FUWXuBm9wg3hBgj%2B9nCrpkE%3D",
+    eventUrl: "https://www.start.gg/tournament/final-warning-the-golden-age-chapter-iii/details",
+    date: "April 19 2025",
+    location: "Maine",
+    entrants: 23,
+    first: "essy",
+    second: "Kumatora",
+    third: "Motobug",
+    vodsUrl: "https://www.twitch.tv/videos/2437308219",
+    hideRankImage: false
+  },
+  {
     eventTitle: "Uprooted 2025",
     imageUrl: "https://images.start.gg/images/tournament/753942/image-d812f4ac06a850b6359539ba42745ac3.png?ehk=QQrS5oYsBj5eUvzhuNpGdmst4d5iOChvCwNGcd%2B0XNU%3D&ehkOptimized=d31bUmnIMX0jB1K26xIVl67Z8OIs1i5bus%2FDQ8%2FtSd8%3D",
     eventUrl: "https://www.start.gg/tournament/uprooted-2025/details",

@@ -3447,6 +3447,21 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
+    // Super TPS V
+    } else if (month === 4 && (date === 23) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/super-tps-v/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/759108/image-a789036f8d8bd8b3f9d3d4f64691be2f.png";
+    
+        image.classList.add("calendarImg");    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
      // Fight at the Museum
     } else if (month === 4 && (date === 31) && year === 2025) {
         // Example link with image

@@ -31,7 +31,7 @@ function setMode(isDark) {
         // Save the dark mode setting
         localStorage.setItem('theme', 'dark');
     } else {
-        bulb.src = 'https://www.emphysys.com/wp-content/uploads/2015/04/iconmonstr-light-bulb-17-icon-256.png';
+        bulb.src = '../images/bulbLight.png';
         updateBackgroundImages('https://github.com/pkzstar/plus-side/blob/main/images/bg100.png?raw=true'); // Light mode image
 
         const pastEventsHeader = document.getElementsByClassName('pastEventsHeader');
