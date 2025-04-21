@@ -119,28 +119,6 @@ const eventsData = [
 
 
       {
-        name: "Smash Camp 2025",
-        date: "4/19/25 - 4/20/25",
-        location: "Prescott, AZ, USA",
-        description: "After two years away we're back at Friendly Pines Camp in Prescott, Arizona. Come experience one of the most unique venues the community has to offer.",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F745405%2Fimage-6327114b0866259802cb7cc27961a65e-optimized.png&ehk=ePMjyKUnayBCiQbvVO%2BLL54RPPXoPK6Xr6USxXDQcXc%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/smash-camp-2025/details",
-        rankImg: true, 
-        trailer: "https://www.youtube.com/watch?v=ls81XhcCZXA",
-        stream: "https://www.twitch.tv/azpm"
-      },
-      {
-        name: "Final Warning: The Golden Age - Chapter III",
-        date: "4/19/25",
-        location: "South Portland, ME, USA",
-        description: "Get preregistered and secure your spot! Note: We're back in the larger room from August this month! Pictures below!",
-        imageUrl: "https://images.start.gg/images/tournament/751437/image-5784957f37c78c1820e470a902bd4a89.jpg?ehk=2wlwYFMVBPyM6EcDOyCubl0iMeXnkQm7IjDDcZMuBS4%3D&ehkOptimized=AagQXEguoKOW8fn0fs43%2FUWXuBm9wg3hBgj%2B9nCrpkE%3D",
-        link: "https://www.start.gg/tournament/final-warning-the-golden-age-chapter-iii/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Condo of Blood 4",
         date: "4/26/25",
         location: "Mississauga, ON, Canada",
@@ -158,7 +136,7 @@ const eventsData = [
         description: "Third time's the charm in the Icebox tournament series, presented by your friendly neighborhood Unc Frozen!",
         imageUrl: "https://images.start.gg/images/tournament/767296/image-3ac7d583902781432c42ac79bb3afd7d.jpg",
         link: "https://www.start.gg/tournament/unc-frozen-s-icebox-3/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: "https://www.twitch.tv/fxgames_gg"
       },
@@ -227,6 +205,17 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: ""
+      },
+      {
+        name: "Super TPS V",
+        date: "5/23/25",
+        location: "Romeoville, IL, USA",
+        description: "The Romeoville Project+ Tournament Returns! Taking place Combo Breaker weekend, ILPM and UGS are once again bringing you a premier P+ event, now with the help of Plus Side! featuring our massive venue, top quality livestream production with MULTIPLE streams, and plenty of setups!",
+        imageUrl: "https://images.start.gg/images/tournament/759108/image-a789036f8d8bd8b3f9d3d4f64691be2f.png",
+        link: "https://www.start.gg/tournament/super-tps-v/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://twitch.tv/pplusside"
       },
       {
         name: "Fight at the Museum",
