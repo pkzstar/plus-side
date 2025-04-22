@@ -121,7 +121,7 @@ const eventData = [
     first: "Nezergy",
     second: "Kendrick",
     third: "Dirtboy",
-    vodsUrl: "https://www.twitch.tv/videos/2438138061",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLXuSSlxxWDDqyN7Ite4szukuedBBCZSF6",
     hideRankImage: false
   },
   {
@@ -134,7 +134,7 @@ const eventData = [
     first: "essy",
     second: "Kumatora",
     third: "Motobug",
-    vodsUrl: "https://www.twitch.tv/videos/2437308219",
+    vodsUrl: "https://youtu.be/7u45Uz7qNPc?si=atd-HmaRFNd64PTq",
     hideRankImage: false
   },
   {

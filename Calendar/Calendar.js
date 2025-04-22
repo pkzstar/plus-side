@@ -3278,7 +3278,7 @@ function showCalendar(month, year) {
     fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
     
-        // Outrivaled & MM50
+        // Outrivaled & MM50 & PP7
     } else if (month === 4 && (date === 3) && year === 2025) {    
         const events = [
             {   
@@ -3289,6 +3289,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/mass-madness-50-10th-anniversary-edition-250-pot-bonus/details",
                 imageSrc: "https://images.start.gg/images/tournament/771392/image-0484d0a23129cae08d0baad5257c7d5f.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/pico-plus-7/details",
+                imageSrc: "https://images.start.gg/images/tournament/781584/image-ee03eac14f648dbe120789cc990369fc.png"
             }
     
         ];
