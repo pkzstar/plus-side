@@ -163,6 +163,17 @@ const eventsData = [
         stream: "https://www.youtube.com/@GameUndergroundStore/streams"
       },
       {
+        name: "Pico Plus 7",
+        date: "5/3/25",
+        location: "Pico Rivera, CA, USA",
+        description: "Introducing Pico Plus, a brand new Project+ local in the heart of Pico Rivera, CA",
+        imageUrl: "https://images.start.gg/images/tournament/781584/image-ee03eac14f648dbe120789cc990369fc.png",
+        link: "https://www.start.gg/tournament/pico-plus-7/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.twitch.tv/socalpm"
+      },
+      {
         name: "swaggerbeebumbler spring-fling bash #shoutoutmoms",
         date: "5/11/25",
         location: "Cary, NC, USA",
