@@ -204,7 +204,7 @@ const eventsData = [
         link: "https://www.start.gg/tournament/project-d/details",
         rankImg: false, 
         trailer: "",
-        stream: ""
+        stream: "https://www.twitch.tv/gouxoxo"
       },
       {
         name: "Somnio 7",
@@ -215,7 +215,7 @@ const eventsData = [
         link: "https://www.start.gg/tournament/somnio-7/details",
         rankImg: false, 
         trailer: "",
-        stream: ""
+        stream: "https://www.youtube.com/@SmashWageningen/streams"
       },
       {
         name: "Super TPS V",
@@ -237,7 +237,7 @@ const eventsData = [
         link: "https://www.start.gg/tournament/fight-at-the-museum/details",
         rankImg: true, 
         trailer: "",
-        stream: ""
+        stream: "https://twitch.tv/projectmnexus"
       },
       {
         name: "Evergreen 2025",
