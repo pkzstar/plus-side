@@ -141,6 +141,17 @@ const eventsData = [
         stream: "https://www.twitch.tv/fxgames_gg"
       },
       {
+        name: "Moonshine Monthly #4",
+        date: "4/27/25",
+        location: "Greenville, SC, USA",
+        description: "South Carolina's P+ ONLY Monthly Series",
+        imageUrl: "https://images.start.gg/images/tournament/775552/image-dedd62c0b4e9387b14fce91ac01228fd.png",
+        link: "https://www.start.gg/tournament/moonshine-monthly-4/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.twitch.tv/kn19h7"
+      },
+      {
         name: "Outrivaled: Max's Birthday Bash!",
         date: "5/3/25",
         location: "Lisle, IL, USA",

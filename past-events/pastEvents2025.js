@@ -160,7 +160,7 @@ const eventData = [
     first: "Supersponge",
     second: "knight",
     third: "Bus",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLyvGfCZHbqHXDVow9dhLW2ajuuYSGF19p",
     hideRankImage: true
   },
   {

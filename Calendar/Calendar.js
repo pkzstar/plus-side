@@ -3277,6 +3277,22 @@ function showCalendar(month, year) {
     updateLinkAndImage(); // Initially update link and image
     fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
+        //Moonshine 4
+    } else if (month === 3 && date === 27 && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/moonshine-monthly-4/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/775552/image-dedd62c0b4e9387b14fce91ac01228fd.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
     
         // Outrivaled & MM50 & PP7
     } else if (month === 4 && (date === 3) && year === 2025) {    
