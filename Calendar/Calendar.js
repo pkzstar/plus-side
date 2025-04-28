@@ -3358,6 +3358,22 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
+        //GC10
+    } else if (month === 4 && date === 10 && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/gecko-cavern-10/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/784340/image-dbadece0f8a6841bbb93fe5c2f7d569f.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
         //swaggerbeebumbler
     } else if (month === 4 && date === 11 && year === 2025) {
         // Example link with image
@@ -3498,7 +3514,7 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-     // Evergreen 2025 + King's Ransom
+     // Evergreen 2025 + King's Ransom + Schlocal Arcadian
     } else if (month === 5 && (date === 14) && year === 2025) {
         const events = [
             {   
@@ -3509,6 +3525,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/king-s-ransom/details",
                 imageSrc: "https://images.start.gg/images/tournament/769414/image-e69ffb0c62ba05fd003d5d5c00e88218.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/schlocal-arcadian-2025/details",
+                imageSrc: "https://images.start.gg/images/tournament/781625/image-28dde452f2dbbaf547c84bd62a25e8bf.png"
             }
     
         ];

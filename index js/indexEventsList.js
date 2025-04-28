@@ -119,39 +119,6 @@ const eventsData = [
 
 
       {
-        name: "Condo of Blood 4",
-        date: "4/26/25",
-        location: "Mississauga, ON, Canada",
-        description: "Condo of Blood is an Ontario Project Plus and Rivals of Aether 2 regional hosted directly beside the Port Credit GO station. This accessible recurring tournament series will feature top Ontario talent and is designed fully around our shared love of these non-official smash games. Thanks to the continued support from our community, a $500 pot bonus is being added to the prize pool of Condo of Blood 4.",
-        imageUrl: "https://images.start.gg/images/tournament/764336/image-1d3813665a5f0e259657983a49f1d8cd.png",
-        link: "https://www.start.gg/tournament/condo-of-blood-4-500-pot-bonus/details",
-        rankImg: true, 
-        trailer: "",
-        stream: "https://www.youtube.com/@ontarioprojectm8374/streams"
-      },
-      {
-        name: "Unc Frozen's Icebox 3",
-        date: "4/26/25",
-        location: "Plano, TX, USA",
-        description: "Third time's the charm in the Icebox tournament series, presented by your friendly neighborhood Unc Frozen!",
-        imageUrl: "https://images.start.gg/images/tournament/767296/image-3ac7d583902781432c42ac79bb3afd7d.jpg",
-        link: "https://www.start.gg/tournament/unc-frozen-s-icebox-3/details",
-        rankImg: true, 
-        trailer: "",
-        stream: "https://www.twitch.tv/fxgames_gg"
-      },
-      {
-        name: "Moonshine Monthly #4",
-        date: "4/27/25",
-        location: "Greenville, SC, USA",
-        description: "South Carolina's P+ ONLY Monthly Series",
-        imageUrl: "https://images.start.gg/images/tournament/775552/image-dedd62c0b4e9387b14fce91ac01228fd.png",
-        link: "https://www.start.gg/tournament/moonshine-monthly-4/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/kn19h7"
-      },
-      {
         name: "Outrivaled: Max's Birthday Bash!",
         date: "5/3/25",
         location: "Lisle, IL, USA",
@@ -183,6 +150,17 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: "https://www.twitch.tv/socalpm"
+      },
+      {
+        name: "Gecko Cavern 10",
+        date: "5/10/25",
+        location: "Burwood, NSW, Australia",
+        description: "ecko Cavern 10 is Here! Hosted at Club Burwood along Burwood Road on the top floor of the venue, Gecko Cavern is the tournament series for Project Plus in Sydney! We also feature other games such as Melee, Rivals, and more! ",
+        imageUrl: "https://images.start.gg/images/tournament/784340/image-dbadece0f8a6841bbb93fe5c2f7d569f.png",
+        link: "https://www.start.gg/tournament/gecko-cavern-10/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
       },
       {
         name: "swaggerbeebumbler spring-fling bash #shoutoutmoms",
@@ -268,6 +246,17 @@ const eventsData = [
         description: "64 entrant cap. Doors open at 12, Melee at 1, P+ at 2. All bo3 till top 8. $50 pot bonus for both Melee and P+",
         imageUrl: "https://images.start.gg/images/tournament/769414/image-e69ffb0c62ba05fd003d5d5c00e88218.png",
         link: "https://www.start.gg/tournament/king-s-ransom/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Schlocal Arcadian 2025",
+        date: "6/14/25",
+        location: "Brunswick, VIC, Australia",
+        description: "This is an Arcadian event, meaning Power Ranked Melee players are not allowed to enter!",
+        imageUrl: "https://images.start.gg/images/tournament/781625/image-28dde452f2dbbaf547c84bd62a25e8bf.png",
+        link: "https://www.start.gg/tournament/schlocal-arcadian-2025/details",
         rankImg: false, 
         trailer: "",
         stream: ""
