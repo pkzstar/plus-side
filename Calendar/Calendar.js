@@ -3594,6 +3594,22 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
+        // Rat Kings
+        } else if (month === 5 && (date === 28) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/rat-kings/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/784324/image-935d6151259b9029a58dae06ac476c49.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
          // Second Wind 2025
         } else if (month === 6 && (date === 11 || date === 12 || date === 13) && year === 2025) {
             // Example link with image

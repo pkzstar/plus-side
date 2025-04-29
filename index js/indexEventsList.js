@@ -125,7 +125,7 @@ const eventsData = [
         description: "A Rivals centric event! Singles and Doubles for Official and Amateur Bracket! Free to enter crew battle! P+ Singles and Doubles! Free to enter Pokemon TCG Pocket bracket! Food and drinks available at venue!",
         imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F753093%2Fimage-9b2bf5f982e081df3b24026678ec7647-optimized.jpg&ehk=XXsx6z6UOd7LkTqWzFfC8v87P6TNOfPQzq6hE7hxd%2BU%3D&w=280&h=280&r=0",
         link: "https://www.start.gg/tournament/outrivaled-max-s-birthday-bash/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: "https://twitch.tv/pplusside"
       },
@@ -136,7 +136,7 @@ const eventsData = [
         description: "Mass Madness IS BACK for its 50th edition since Game Underground moved out of the Framingham venue in May 2015, 10 years ago! As this is a special occasion, we'll also be adding a $250 pot bonus for Melee Singles at this event!",
         imageUrl: "https://images.start.gg/images/tournament/771392/image-0484d0a23129cae08d0baad5257c7d5f.png",
         link: "https://www.start.gg/tournament/mass-madness-50-10th-anniversary-edition-250-pot-bonus/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: "https://www.youtube.com/@GameUndergroundStore/streams"
       },
@@ -268,6 +268,17 @@ const eventsData = [
         description: "Welcome to the second French Project M 3.6 major since the release of Project +: The Truce 2:¡No Pasarán! On the program: Project M, of course, Singles and Doubles, but also Melee, in case you haven't figured it out - we like illegal games here, hehe!",
         imageUrl: "https://images.start.gg/images/tournament/769345/image-3b234072f79221c181e6d499ef1f6daa.jpg",
         link: "https://www.start.gg/tournament/the-truce-2-no-pasar-n/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Rat Kings",
+        date: "6/28/25",
+        location: "Goodlettsville, TN, USA",
+        description: "doin a thing @ tnlg. Melee/P+. it's at the mall",
+        imageUrl: "https://images.start.gg/images/tournament/784324/image-935d6151259b9029a58dae06ac476c49.png",
+        link: "https://www.start.gg/tournament/rat-kings/details",
         rankImg: false, 
         trailer: "",
         stream: ""

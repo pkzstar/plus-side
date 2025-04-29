@@ -116,7 +116,7 @@ const eventData = [
     imageUrl: "https://images.start.gg/images/tournament/775552/image-dedd62c0b4e9387b14fce91ac01228fd.png",
     eventUrl: "https://www.start.gg/tournament/moonshine-monthly-4/details",
     date: "April 27 2025",
-    location: "Ontario",
+    location: "South Carolina",
     entrants: 12,
     first: "fries",
     second: "Supersponge",
@@ -129,12 +129,12 @@ const eventData = [
     imageUrl: "https://images.start.gg/images/tournament/767296/image-3ac7d583902781432c42ac79bb3afd7d.jpg",
     eventUrl: "https://www.start.gg/tournament/unc-frozen-s-icebox-3/details",
     date: "April 26 2025",
-    location: "Ontario",
+    location: "Texas",
     entrants: 29,
     first: "Salt",
     second: "Fury",
     third: "J-am",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PL4kFPlSUbi30LhrHarPXiBR_n3Xm4ZbIh",
     hideRankImage: false
   },
   {
