@@ -119,45 +119,23 @@ const eventsData = [
 
 
       {
-        name: "Outrivaled: Max's Birthday Bash!",
-        date: "5/3/25",
-        location: "Lisle, IL, USA",
-        description: "A Rivals centric event! Singles and Doubles for Official and Amateur Bracket! Free to enter crew battle! P+ Singles and Doubles! Free to enter Pokemon TCG Pocket bracket! Food and drinks available at venue!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F753093%2Fimage-9b2bf5f982e081df3b24026678ec7647-optimized.jpg&ehk=XXsx6z6UOd7LkTqWzFfC8v87P6TNOfPQzq6hE7hxd%2BU%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/outrivaled-max-s-birthday-bash/details",
-        rankImg: true, 
-        trailer: "",
-        stream: "https://twitch.tv/pplusside"
-      },
-      {
-        name: "Mass Madness 50 - 10th Anniversary Edition! $250 Pot Bonus!",
-        date: "5/3/25",
-        location: "Waltham, MA, USA",
-        description: "Mass Madness IS BACK for its 50th edition since Game Underground moved out of the Framingham venue in May 2015, 10 years ago! As this is a special occasion, we'll also be adding a $250 pot bonus for Melee Singles at this event!",
-        imageUrl: "https://images.start.gg/images/tournament/771392/image-0484d0a23129cae08d0baad5257c7d5f.png",
-        link: "https://www.start.gg/tournament/mass-madness-50-10th-anniversary-edition-250-pot-bonus/details",
-        rankImg: true, 
-        trailer: "",
-        stream: "https://www.youtube.com/@GameUndergroundStore/streams"
-      },
-      {
-        name: "Pico Plus 7",
-        date: "5/3/25",
-        location: "Pico Rivera, CA, USA",
-        description: "Introducing Pico Plus, a brand new Project+ local in the heart of Pico Rivera, CA",
-        imageUrl: "https://images.start.gg/images/tournament/781584/image-ee03eac14f648dbe120789cc990369fc.png",
-        link: "https://www.start.gg/tournament/pico-plus-7/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/socalpm"
-      },
-      {
         name: "Gecko Cavern 10",
         date: "5/10/25",
         location: "Burwood, NSW, Australia",
-        description: "ecko Cavern 10 is Here! Hosted at Club Burwood along Burwood Road on the top floor of the venue, Gecko Cavern is the tournament series for Project Plus in Sydney! We also feature other games such as Melee, Rivals, and more! ",
+        description: "Gecko Cavern 10 is Here! Hosted at Club Burwood along Burwood Road on the top floor of the venue, Gecko Cavern is the tournament series for Project Plus in Sydney! We also feature other games such as Melee, Rivals, and more! ",
         imageUrl: "https://images.start.gg/images/tournament/784340/image-dbadece0f8a6841bbb93fe5c2f7d569f.png",
         link: "https://www.start.gg/tournament/gecko-cavern-10/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Trading Stocks #14: Summer Tour",
+        date: "5/10/25",
+        location: "Greer, SC, USA",
+        description: "A Melee and P+ Tournament. Please no outside food or drinks unless bought locally from Downtown Greer! Drinks (including alcoholic drinks) and snacks are sold at the venue. Players may not enter two events that start at the same time.",
+        imageUrl: "https://images.start.gg/images/tournament/786320/image-28defc849a03e7c455154e7c517441a1.png",
+        link: "https://www.start.gg/tournament/trading-stocks-14-summer-tour/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -216,6 +194,28 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: "https://twitch.tv/pplusside"
+      },
+      {
+        name: "Who's on Ledge? 12",
+        date: "5/24/25",
+        location: "Des Moines, IA, USA",
+        description: "DMGC presents Who's on Ledge? Our monthly tournament series featuring Super Smash Bros. Melee, Ultimate, Project+, and Rivals of Aether II at RezBlue Arena!",
+        imageUrl: "https://images.start.gg/images/tournament/786126/image-a1d57cc11cc587883ff617c3d5450671.png",
+        link: "https://www.start.gg/tournament/who-s-on-ledge-12/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Game 5 in the D #9",
+        date: "5/24/25",
+        location: "Detroit, MI, USA",
+        description: "Introducing Game 5 In The D, East Michigan's Premier P+ Bi-Monthly Located In Detroit! We welcome all valiant competitors to our local P+ scene's return-to-form! Featuring a professional stream, custom tournament badges, your favorite players, and much, much more, this will be an event you won't want to miss!",
+        imageUrl: "https://images.start.gg/images/tournament/786534/image-5587e14194f46331fd2a5c0919905cac.jpg",
+        link: "https://www.start.gg/tournament/game-5-in-the-d-9/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
       },
       {
         name: "Fight at the Museum",
@@ -279,6 +279,17 @@ const eventsData = [
         description: "doin a thing @ tnlg. Melee/P+. it's at the mall",
         imageUrl: "https://images.start.gg/images/tournament/784324/image-935d6151259b9029a58dae06ac476c49.png",
         link: "https://www.start.gg/tournament/rat-kings/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Pope's Sunday Mass: Conclave",
+        date: "6/29/25",
+        location: "Carlton, VIC, Australia",
+        description: "It is with great pleasure that I am announcing the highly anticipated sequel... Pope's Sunday Mass: Conclave! I am so happy to have the chance to invite all of you to The Clyde Hotel in Carlton to enjoy their Lounge (with attached bar) on Sunday 29th of June, 2025",
+        imageUrl: "https://images.start.gg/images/tournament/784333/image-dea410335ee8f381ae4e74b977bcddf5.png",
+        link: "https://www.start.gg/tournament/pope-s-sunday-mass-conclave/details",
         rankImg: false, 
         trailer: "",
         stream: ""

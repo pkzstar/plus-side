@@ -112,6 +112,45 @@ const eventData = [
 
 
   {
+    eventTitle: "Pico Plus 7",
+    imageUrl: "https://images.start.gg/images/tournament/781584/image-ee03eac14f648dbe120789cc990369fc.png",
+    eventUrl: "https://www.start.gg/tournament/pico-plus-7/details",
+    date: "May 3 2025",
+    location: "California",
+    entrants: 22,
+    first: "Nezergy",
+    second: "Sneez",
+    third: "Aion",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Mass Madness 50 - 10th Anniversary Edition! $250 Pot Bonus!",
+    imageUrl: "https://images.start.gg/images/tournament/753093/image-9b2bf5f982e081df3b24026678ec7647.jpg?ehk=TgYJr37NhsI44adFcBcfkbT7iXgebyVmgGAz8dutibg%3D&ehkOptimized=XXsx6z6UOd7LkTqWzFfC8v87P6TNOfPQzq6hE7hxd%2BU%3D",
+    eventUrl: "https://www.start.gg/tournament/outrivaled-max-s-birthday-bash/details",
+    date: "May 3 2025",
+    location: "Massachussetts",
+    entrants: 20,
+    first: "Flarp",
+    second: "Kumatora",
+    third: "Twisty",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Outrivaled: Max's Birthday Bash!",
+    imageUrl: "https://images.start.gg/images/tournament/753093/image-9b2bf5f982e081df3b24026678ec7647.jpg?ehk=TgYJr37NhsI44adFcBcfkbT7iXgebyVmgGAz8dutibg%3D&ehkOptimized=XXsx6z6UOd7LkTqWzFfC8v87P6TNOfPQzq6hE7hxd%2BU%3D",
+    eventUrl: "https://www.start.gg/tournament/outrivaled-max-s-birthday-bash/details",
+    date: "May 3 2025",
+    location: "Illinois",
+    entrants: 24,
+    first: "Not Chris",
+    second: "metroid",
+    third: "SoulOfficer",
+    vodsUrl: "https://www.youtube.com/playlist?list=PL_OBsvMFKQ5ThaNl9g6S9JnTZLL9aIzJU",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Moonshine Monthly #4",
     imageUrl: "https://images.start.gg/images/tournament/775552/image-dedd62c0b4e9387b14fce91ac01228fd.png",
     eventUrl: "https://www.start.gg/tournament/moonshine-monthly-4/details",
