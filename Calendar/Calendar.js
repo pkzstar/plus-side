@@ -3451,12 +3451,17 @@ function showCalendar(month, year) {
         cell.appendChild(link);
 
         
-    // Project D + Somino 7
+    // Project D + Mudug Melee 25 + Somino 7
     } else if (month === 4 && (date === 17) && year === 2025) {
         const events = [
             {   
                 link: "https://www.start.gg/tournament/project-d/details",
                 imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F734216%2Fimage-ee3ee05c35dba007a95866d0be0d48da-optimized.png&ehk=yWRBbth3w%2BRzWsSxGEGuUudXJ15ui28vMkBOBEMevio%3D&w=280&h=280&r=0"
+                
+            },
+            {   
+                link: "https://www.start.gg/tournament/mudbug-melee-25/details",
+                imageSrc: "https://images.start.gg/images/tournament/783023/image-f8f7c20c5de6f86d7abb494e727f11aa.png"
                 
             },
             {
@@ -3542,7 +3547,7 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // WoL 12 + G5itD 9
+        // WoL 12 + G5itD 9 + DR1 + GC11
     } else if (month === 4 && (date === 24) && year === 2025) {
         const events = [
             {   
@@ -3553,6 +3558,14 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/game-5-in-the-d-9/details",
                 imageSrc: "https://images.start.gg/images/tournament/786534/image-5587e14194f46331fd2a5c0919905cac.jpg"
+            },
+            {
+                link: "https://www.start.gg/tournament/dream-rotation-1-pass-the-controller/details",
+                imageSrc: "https://images.start.gg/images/tournament/788255/image-eb1760b243e2d58e33dba82b860a5e9a.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/gecko-cavern11/details",
+                imageSrc: "https://images.start.gg/images/tournament/790632/image-6b06a2f054f1b49b92915dfe682b4f2a.png"
             }
     
         ];
@@ -3602,21 +3615,66 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-     // Fight at the Museum
+     // Fight at the Museum + MSM 5
     } else if (month === 4 && (date === 31) && year === 2025) {
-        // Example link with image
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/fight-at-the-museum/details",
+                imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F742717%2Fimage-2444e0547ec209b104c997fb05a82292-optimized.png&ehk=f8KGbI3l8GNjIe3d9S5hzXS2esnzIeI4n%2BLesCb%2F9p0%3D&w=280&h=280&r=0"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/moonshine-monthly-5/details",
+                imageSrc: "https://images.start.gg/images/tournament/788909/image-81e9bf8b23004bd63a1d9693d9881351.png"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
         let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/fight-at-the-museum/details";
         link.target = "_blank";
     
         let image = document.createElement("img");
-        image.src = "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F742717%2Fimage-2444e0547ec209b104c997fb05a82292-optimized.png&ehk=f8KGbI3l8GNjIe3d9S5hzXS2esnzIeI4n%2BLesCb%2F9p0%3D&w=280&h=280&r=0";
     
         image.classList.add("calendarImg");
     
-    
         link.appendChild(image);
         cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
+
 
      // Evergreen 2025 + King's Ransom + Schlocal Arcadian
     } else if (month === 5 && (date === 14) && year === 2025) {
@@ -3738,7 +3796,7 @@ function showCalendar(month, year) {
             link.target = "_blank";
         
             let image = document.createElement("img");
-            image.src = "https://images.start.gg/images/tournament/773119/image-9058a675285a63cee2e7853e567464bc.png";
+            image.src = "https://images.start.gg/images/tournament/773119/image-97ff7dec6fd4919e6095a828419d0fd9.png";
         
             image.classList.add("calendarImg");
         
@@ -3762,21 +3820,22 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // Undertow 2025
-        } else if (month === 8 && (date === 7) && year === 2025) {
+        // Filler Fest
+        } else if (month === 6 && (date === 26) && year === 2025) {
         // Example link with image
         let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/undertow-2025/details";
+        link.href = "https://www.start.gg/tournament/filler-fest/details";
         link.target = "_blank";
     
         let image = document.createElement("img");
-        image.src = "https://images.start.gg/images/tournament/775856/image-07898797f4d6bbc657f7349d0c14201d.png";
+        image.src = "https://images.start.gg/images/tournament/782711/image-0b6b921cf69f427ea3807f0696b1105f.png";
     
         image.classList.add("calendarImg");
     
     
         link.appendChild(image);
         cell.appendChild(link);
+
     
                     } 
         else {

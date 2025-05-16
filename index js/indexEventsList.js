@@ -119,39 +119,6 @@ const eventsData = [
 
 
       {
-        name: "Gecko Cavern 10",
-        date: "5/10/25",
-        location: "Burwood, NSW, Australia",
-        description: "Gecko Cavern 10 is Here! Hosted at Club Burwood along Burwood Road on the top floor of the venue, Gecko Cavern is the tournament series for Project Plus in Sydney! We also feature other games such as Melee, Rivals, and more! ",
-        imageUrl: "https://images.start.gg/images/tournament/784340/image-dbadece0f8a6841bbb93fe5c2f7d569f.png",
-        link: "https://www.start.gg/tournament/gecko-cavern-10/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Trading Stocks #14: Summer Tour",
-        date: "5/10/25",
-        location: "Greer, SC, USA",
-        description: "A Melee and P+ Tournament. Please no outside food or drinks unless bought locally from Downtown Greer! Drinks (including alcoholic drinks) and snacks are sold at the venue. Players may not enter two events that start at the same time.",
-        imageUrl: "https://images.start.gg/images/tournament/786320/image-28defc849a03e7c455154e7c517441a1.png",
-        link: "https://www.start.gg/tournament/trading-stocks-14-summer-tour/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "swaggerbeebumbler spring-fling bash #shoutoutmoms",
-        date: "5/11/25",
-        location: "Cary, NC, USA",
-        description: "Come Celebrate Spring! At Lochmere Clubhouse in Cary. This is a community event. This tournament is Pre- Registration only. You must Pre-register before May 10th at 11:59pm. If you do not pre-reg I cannot even let you in the clubhouse due to rules from Lochmere.",
-        imageUrl: "https://images.start.gg/images/tournament/774539/image-cdaad655ab58537f66fb9d518480b359.png",
-        link: "https://www.start.gg/tournament/swaggerbeebumbler-spring-fling-bash-shoutoutmoms/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Untitled Colorado Project Plus Tournament",
         date: "5/16/25",
         location: "Lone Tree, CO, USA",
@@ -174,6 +141,17 @@ const eventsData = [
         stream: "https://www.twitch.tv/gouxoxo"
       },
       {
+        name: "Mudbug Melee '25",
+        date: "5/17/25",
+        location: "Jackson, MS, USA",
+        description: "Mississippi’s First Annual Mudbug Melee. House tournament. Crawfish boil all day. 24-Hour Venue. Surprise side events/brackets. Carpool/housing reimbursements available for oor entrants.",
+        imageUrl: "https://images.start.gg/images/tournament/783023/image-f8f7c20c5de6f86d7abb494e727f11aa.png",
+        link: "https://www.start.gg/tournament/mudbug-melee-25/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Somnio 7",
         date: "5/17/25 - 5/18/25",
         location: "Eindhoven, Netherlands",
@@ -191,7 +169,7 @@ const eventsData = [
         description: "The Romeoville Project+ Tournament Returns! Taking place Combo Breaker weekend, ILPM and UGS are once again bringing you a premier P+ event, now with the help of Plus Side! featuring our massive venue, top quality livestream production with MULTIPLE streams, and plenty of setups!",
         imageUrl: "https://images.start.gg/images/tournament/759108/image-a789036f8d8bd8b3f9d3d4f64691be2f.png",
         link: "https://www.start.gg/tournament/super-tps-v/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: "https://twitch.tv/pplusside"
       },
@@ -215,6 +193,28 @@ const eventsData = [
         link: "https://www.start.gg/tournament/game-5-in-the-d-9/details",
         rankImg: false, 
         trailer: "",
+        stream: "https://www.twitch.tv/game5projectplus"
+      },
+      {
+        name: "Dream Rotation #1 - Pass the Controller!",
+        date: "5/24/25",
+        location: "Pittsburgh, PA, USA",
+        description: "-> zzz... Welcome to Dream Rotation! ...zzz <- Dream Rotation is Pittsburgh's dreamiest monthly tournament series for alternative platform fighters! This series features an exciting venue filled with fun activities, plenty of time for friendlies, a rotating late-night bracket, a safe competitive environment for all attendees, and high-stakes competition!",
+        imageUrl: "https://images.start.gg/images/tournament/788255/image-eb1760b243e2d58e33dba82b860a5e9a.png",
+        link: "https://www.start.gg/tournament/dream-rotation-1-pass-the-controller/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.twitch.tv/pghprojectm"
+      },
+      {
+        name: "Gecko Cavern 11",
+        date: "5/24/25",
+        location: "Burwood, NSW, Australia",
+        description: "Gecko Cavern 11 Has Arrived! Hosted at Club Burwood along Burwood Road on the top floor of the venue, Gecko Cavern is the tournament series for Project Plus in Sydney! We also feature other games such as Melee, Rivals, and more! ",
+        imageUrl: "https://images.start.gg/images/tournament/790632/image-6b06a2f054f1b49b92915dfe682b4f2a.png",
+        link: "https://www.start.gg/tournament/gecko-cavern11/details",
+        rankImg: false, 
+        trailer: "",
         stream: ""
       },
       {
@@ -227,6 +227,17 @@ const eventsData = [
         rankImg: true, 
         trailer: "",
         stream: "https://twitch.tv/projectmnexus"
+      },
+      {
+        name: "Moonshine Monthly #5",
+        date: "5/31/25",
+        location: "Greenville, SC, USA",
+        description: "South Carolina's P+ ONLY Monthly Series",
+        imageUrl: "https://images.start.gg/images/tournament/788909/image-81e9bf8b23004bd63a1d9693d9881351.png",
+        link: "https://www.start.gg/tournament/moonshine-monthly-5/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.twitch.tv/kn19h7"
       },
       {
         name: "Evergreen 2025",
@@ -246,7 +257,7 @@ const eventsData = [
         description: "64 entrant cap. Doors open at 12, Melee at 1, P+ at 2. All bo3 till top 8. $50 pot bonus for both Melee and P+",
         imageUrl: "https://images.start.gg/images/tournament/769414/image-e69ffb0c62ba05fd003d5d5c00e88218.png",
         link: "https://www.start.gg/tournament/king-s-ransom/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: ""
       },
@@ -299,7 +310,7 @@ const eventsData = [
         date: "7/11/25 - 7/13/25",
         location: "Te Aro, Wellington, New Zealand",
         description: "Wellington's Favourite Gaming Event. Second Wind returns for 2025 running from Friday 11th to Sunday 13th, a huge range of fighting games all held in one tight venue for a unique experience!",
-        imageUrl: "https://images.start.gg/images/tournament/773119/image-9058a675285a63cee2e7853e567464bc.png",
+        imageUrl: "https://images.start.gg/images/tournament/773119/image-97ff7dec6fd4919e6095a828419d0fd9.png",
         link: "https://www.start.gg/tournament/second-wind-2025/details",
         rankImg: false, 
         trailer: "",
@@ -317,12 +328,12 @@ const eventsData = [
         stream: ""
       },
       {
-        name: "Undertow 2025",
-        date: "9/7/25",
-        location: "Sandusky, Ohio, United States",
-        description: "Undertow returns to the Sandusky Best Western in 2025. We may be displaced, but we'll never go hollow. This will be a one-day event with a 96 entrant cap.",
-        imageUrl: "https://images.start.gg/images/tournament/775856/image-07898797f4d6bbc657f7349d0c14201d.png",
-        link: "https://www.start.gg/tournament/undertow-2025/details",
+        name: "Filler Fest",
+        date: "7/26/25",
+        location: "Lawrence, KS, USA",
+        description: "Filler Fest is a celebration of KC Melee, live music, and local artists held in Lawrence Kansas at the wonderful ECM Community Center!",
+        imageUrl: "https://images.start.gg/images/tournament/782711/image-0b6b921cf69f427ea3807f0696b1105f.png",
+        link: "https://www.start.gg/tournament/filler-fest/details",
         rankImg: true, 
         trailer: "",
         stream: ""
