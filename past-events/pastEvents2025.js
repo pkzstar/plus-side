@@ -112,6 +112,45 @@ const eventData = [
 
 
   {
+    eventTitle: "swaggerbeebumbler spring-fling bash #shoutoutmoms",
+    imageUrl: "https://images.start.gg/images/tournament/774539/image-cdaad655ab58537f66fb9d518480b359.png",
+    eventUrl: "https://www.start.gg/tournament/swaggerbeebumbler-spring-fling-bash-shoutoutmoms/details",
+    date: "May 11 2025",
+    location: "North Carolina",
+    entrants: 23,
+    first: "grealy",
+    second: "knight",
+    third: "Karma",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Trading Stocks #14: Summer Tour",
+    imageUrl: "https://images.start.gg/images/tournament/786320/image-28defc849a03e7c455154e7c517441a1.png",
+    eventUrl: "https://www.start.gg/tournament/trading-stocks-14-summer-tour/details",
+    date: "May 10 2025",
+    location: "South Carolina",
+    entrants: 7,
+    first: "Supersponge",
+    second: "Nera",
+    third: "knight",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Gecko Cavern 10",
+    imageUrl: "https://images.start.gg/images/tournament/784340/image-dbadece0f8a6841bbb93fe5c2f7d569f.png",
+    eventUrl: "https://www.start.gg/tournament/gecko-cavern-10/details",
+    date: "May 10 2025",
+    location: "NSW",
+    entrants: 23,
+    first: "RNGReallyNotGood",
+    second: "Michael",
+    third: "Star",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Pico Plus 7",
     imageUrl: "https://images.start.gg/images/tournament/781584/image-ee03eac14f648dbe120789cc990369fc.png",
     eventUrl: "https://www.start.gg/tournament/pico-plus-7/details",
@@ -126,8 +165,8 @@ const eventData = [
   },
   {
     eventTitle: "Mass Madness 50 - 10th Anniversary Edition! $250 Pot Bonus!",
-    imageUrl: "https://images.start.gg/images/tournament/753093/image-9b2bf5f982e081df3b24026678ec7647.jpg?ehk=TgYJr37NhsI44adFcBcfkbT7iXgebyVmgGAz8dutibg%3D&ehkOptimized=XXsx6z6UOd7LkTqWzFfC8v87P6TNOfPQzq6hE7hxd%2BU%3D",
-    eventUrl: "https://www.start.gg/tournament/outrivaled-max-s-birthday-bash/details",
+    imageUrl: "https://images.start.gg/images/tournament/771392/image-0484d0a23129cae08d0baad5257c7d5f.png",
+    eventUrl: "https://www.start.gg/tournament/mass-madness-50-10th-anniversary-edition-250-pot-bonus/details",
     date: "May 3 2025",
     location: "Massachussetts",
     entrants: 20,
