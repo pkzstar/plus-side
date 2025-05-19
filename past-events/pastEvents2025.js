@@ -112,6 +112,58 @@ const eventData = [
 
 
   {
+    eventTitle: "Somnio 7",
+    imageUrl: "https://images.start.gg/images/tournament/751000/image-ed26f48afad2877aba57f1490bb6f714.png?ehk=6y%2FyE%2BucwtxN5FHMui%2FrMuvo4VgUICio6mgUEdCk4eE%3D&ehkOptimized=0sZkKNeR5pDkTDdlWAu53aBCDIMVsLokiPOWWWvzLJI%3D",
+    eventUrl: "https://www.start.gg/tournament/somnio-7/details",
+    date: "May 17-18 2025",
+    location: "Netherlands",
+    entrants: 26,
+    first: "Freekleef",
+    second: "Commander Koen",
+    third: "Jules",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Mudbug Melee '25",
+    imageUrl: "https://images.start.gg/images/tournament/783023/image-f8f7c20c5de6f86d7abb494e727f11aa.png",
+    eventUrl: "https://www.start.gg/tournament/mudbug-melee-25/details",
+    date: "May 17 2025",
+    location: "Mississippi",
+    entrants: 21,
+    first: "Spark",
+    second: "rabit!",
+    third: "Magi",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Project D",
+    imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F734216%2Fimage-ee3ee05c35dba007a95866d0be0d48da-optimized.png&ehk=yWRBbth3w%2BRzWsSxGEGuUudXJ15ui28vMkBOBEMevio%3D&w=280&h=280&r=0",
+    eventUrl: "https://www.start.gg/tournament/project-d/details",
+    date: "May 17 2025",
+    location: "Birmingham",
+    entrants: 37,
+    first: "Smash_Falco3",
+    second: "Frenzy",
+    third: "Kine.",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Untitled Colorado Project Plus Tournament",
+    imageUrl: "https://images.start.gg/images/tournament/757771/image-8310886c0466b603a684f568a135a115.png?ehk=20Doph1xkV9g6apsC%2BYIyLvlSIDaAR1CWumo4HsGOOI%3D&ehkOptimized=9HUJfmE%2FUw%2BFO4OKnGpRkl1ElZEx5E0ocEAPk8FV3Fk%3D",
+    eventUrl: "https://www.start.gg/tournament/untitled-colorado-project-plus-tournament/details",
+    date: "May 16 2025",
+    location: "Colorado",
+    entrants: 36,
+    first: "polear",
+    second: "Strat",
+    third: "Triforce Trampstamp",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "swaggerbeebumbler spring-fling bash #shoutoutmoms",
     imageUrl: "https://images.start.gg/images/tournament/774539/image-cdaad655ab58537f66fb9d518480b359.png",
     eventUrl: "https://www.start.gg/tournament/swaggerbeebumbler-spring-fling-bash-shoutoutmoms/details",

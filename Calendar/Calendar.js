@@ -3788,6 +3788,22 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
+         // GOOMV 2025
+        } else if (month === 6 && (date === 4 || date === 5 || date === 6) && year === 2025) {
+            // Example link with image
+            let link = document.createElement("a");
+            link.href = "https://www.start.gg/tournament/get-out-of-my-venue-certificate-of-disapproval-1/details";
+            link.target = "_blank";
+        
+            let image = document.createElement("img");
+            image.src = "https://images.start.gg/images/tournament/791339/image-b07eff3cbe0f9470ff1a8dbcd88eae32.png";
+        
+            image.classList.add("calendarImg");
+        
+        
+            link.appendChild(image);
+            cell.appendChild(link);
+
          // Second Wind 2025
         } else if (month === 6 && (date === 11 || date === 12 || date === 13) && year === 2025) {
             // Example link with image
