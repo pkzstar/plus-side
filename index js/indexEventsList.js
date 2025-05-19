@@ -117,51 +117,6 @@ eventName.appendChild(location);
 // Sample event data (replace this with actual event data)
 const eventsData = [
 
-
-      {
-        name: "Untitled Colorado Project Plus Tournament",
-        date: "5/16/25",
-        location: "Lone Tree, CO, USA",
-        description: "Welcome to the first Untitled Colorado Project Plus Tournament. This one day event takes place at the wonderful Lone Tree Hub",
-        imageUrl: "https://images.start.gg/images/tournament/757771/image-8310886c0466b603a684f568a135a115.png?ehk=20Doph1xkV9g6apsC%2BYIyLvlSIDaAR1CWumo4HsGOOI%3D&ehkOptimized=9HUJfmE%2FUw%2BFO4OKnGpRkl1ElZEx5E0ocEAPk8FV3Fk%3D",
-        link: "https://www.start.gg/tournament/untitled-colorado-project-plus-tournament/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/coloradoprojectplus"
-      },
-      {
-        name: "Project D",
-        date: "5/17/25",
-        location: "Birmingham, UK",
-        description: "It's time for the biggest P+ tournament in the UK since Not Fête back in 2023! This is an 18+ event",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F734216%2Fimage-ee3ee05c35dba007a95866d0be0d48da-optimized.png&ehk=yWRBbth3w%2BRzWsSxGEGuUudXJ15ui28vMkBOBEMevio%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/project-d/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/gouxoxo"
-      },
-      {
-        name: "Mudbug Melee '25",
-        date: "5/17/25",
-        location: "Jackson, MS, USA",
-        description: "Mississippi’s First Annual Mudbug Melee. House tournament. Crawfish boil all day. 24-Hour Venue. Surprise side events/brackets. Carpool/housing reimbursements available for oor entrants.",
-        imageUrl: "https://images.start.gg/images/tournament/783023/image-f8f7c20c5de6f86d7abb494e727f11aa.png",
-        link: "https://www.start.gg/tournament/mudbug-melee-25/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Somnio 7",
-        date: "5/17/25 - 5/18/25",
-        location: "Eindhoven, Netherlands",
-        description: "SOMNIO VII - May 17th & 18th, 2025. FROM THE PEOPLE THAT BROUGHT YOU DREAMHACK ROTTERDAM 2019 & 2022, SECTOR Z, NL ARCADIAN AND MORE!",
-        imageUrl: "https://images.start.gg/images/tournament/751000/image-ed26f48afad2877aba57f1490bb6f714.png?ehk=6y%2FyE%2BucwtxN5FHMui%2FrMuvo4VgUICio6mgUEdCk4eE%3D&ehkOptimized=0sZkKNeR5pDkTDdlWAu53aBCDIMVsLokiPOWWWvzLJI%3D",
-        link: "https://www.start.gg/tournament/somnio-7/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.youtube.com/@SmashWageningen/streams"
-      },
       {
         name: "Super TPS V",
         date: "5/23/25",
@@ -301,6 +256,17 @@ const eventsData = [
         description: "It is with great pleasure that I am announcing the highly anticipated sequel... Pope's Sunday Mass: Conclave! I am so happy to have the chance to invite all of you to The Clyde Hotel in Carlton to enjoy their Lounge (with attached bar) on Sunday 29th of June, 2025",
         imageUrl: "https://images.start.gg/images/tournament/784333/image-dea410335ee8f381ae4e74b977bcddf5.png",
         link: "https://www.start.gg/tournament/pope-s-sunday-mass-conclave/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Get Out Of My Venue: Certificate of Disapproval",
+        date: "7/4/25 - 7/6/25",
+        location: "Toronto, ON, Canada",
+        description: "Top 8 for both games will be on SUNDAY time will adjust depending on competitors other brackets",
+        imageUrl: "https://images.start.gg/images/tournament/791339/image-b07eff3cbe0f9470ff1a8dbcd88eae32.png",
+        link: "https://www.start.gg/tournament/get-out-of-my-venue-certificate-of-disapproval-1/details",
         rankImg: false, 
         trailer: "",
         stream: ""
