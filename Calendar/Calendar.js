@@ -3547,7 +3547,7 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // WoL 12 + G5itD 9 + DR1 + GC11
+        // WoL 12 + G5itD 9 + DR1 + GC11 + Allston Allstars IV
     } else if (month === 4 && (date === 24) && year === 2025) {
         const events = [
             {   
@@ -3566,6 +3566,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/gecko-cavern11/details",
                 imageSrc: "https://images.start.gg/images/tournament/790632/image-6b06a2f054f1b49b92915dfe682b4f2a.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/allston-allstars-iv/details",
+                imageSrc: "https://images.start.gg/images/tournament/778092/image-95dcee666f43c5665d9559d1be5c6dfc.png"
             }
     
         ];
@@ -3821,7 +3825,7 @@ function showCalendar(month, year) {
             cell.appendChild(link);
 
         // Phantom 2025
-        } else if (month === 6 && (date === 18 || date === 19 || date === 20) && year === 2025) {
+        } else if (month === 6 && (date === 18 || date === 20) && year === 2025) {
         // Example link with image
         let link = document.createElement("a");
         link.href = "https://www.start.gg/tournament/phantom-2025/details";
@@ -3835,6 +3839,66 @@ function showCalendar(month, year) {
     
         link.appendChild(image);
         cell.appendChild(link);
+
+         // Phantom 2025 + CoB5
+    } else if (month === 6 && (date === 19) && year === 2025) {
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/phantom-2025/details",
+                imageSrc: "https://images.start.gg/images/tournament/762524/image-bd71887f81c5ae41ec8ad09ad0c4cda5.png"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/condo-of-blood-5-the-summer-saga/details",
+                imageSrc: "https://images.start.gg/images/tournament/792555/image-a2e915e0817da6f4b65571630446c010.png"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
+        let link = document.createElement("a");
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+    
+        image.classList.add("calendarImg");
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
         // Filler Fest
         } else if (month === 6 && (date === 26) && year === 2025) {
