@@ -118,61 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Super TPS V",
-        date: "5/23/25",
-        location: "Romeoville, IL, USA",
-        description: "The Romeoville Project+ Tournament Returns! Taking place Combo Breaker weekend, ILPM and UGS are once again bringing you a premier P+ event, now with the help of Plus Side! featuring our massive venue, top quality livestream production with MULTIPLE streams, and plenty of setups!",
-        imageUrl: "https://images.start.gg/images/tournament/759108/image-a789036f8d8bd8b3f9d3d4f64691be2f.png",
-        link: "https://www.start.gg/tournament/super-tps-v/details",
-        rankImg: true, 
-        trailer: "",
-        stream: "https://twitch.tv/pplusside"
-      },
-      {
-        name: "Who's on Ledge? 12",
-        date: "5/24/25",
-        location: "Des Moines, IA, USA",
-        description: "DMGC presents Who's on Ledge? Our monthly tournament series featuring Super Smash Bros. Melee, Ultimate, Project+, and Rivals of Aether II at RezBlue Arena!",
-        imageUrl: "https://images.start.gg/images/tournament/786126/image-a1d57cc11cc587883ff617c3d5450671.png",
-        link: "https://www.start.gg/tournament/who-s-on-ledge-12/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Game 5 in the D #9",
-        date: "5/24/25",
-        location: "Detroit, MI, USA",
-        description: "Introducing Game 5 In The D, East Michigan's Premier P+ Bi-Monthly Located In Detroit! We welcome all valiant competitors to our local P+ scene's return-to-form! Featuring a professional stream, custom tournament badges, your favorite players, and much, much more, this will be an event you won't want to miss!",
-        imageUrl: "https://images.start.gg/images/tournament/786534/image-5587e14194f46331fd2a5c0919905cac.jpg",
-        link: "https://www.start.gg/tournament/game-5-in-the-d-9/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/game5projectplus"
-      },
-      {
-        name: "Dream Rotation #1 - Pass the Controller!",
-        date: "5/24/25",
-        location: "Pittsburgh, PA, USA",
-        description: "-> zzz... Welcome to Dream Rotation! ...zzz <- Dream Rotation is Pittsburgh's dreamiest monthly tournament series for alternative platform fighters! This series features an exciting venue filled with fun activities, plenty of time for friendlies, a rotating late-night bracket, a safe competitive environment for all attendees, and high-stakes competition!",
-        imageUrl: "https://images.start.gg/images/tournament/788255/image-eb1760b243e2d58e33dba82b860a5e9a.png",
-        link: "https://www.start.gg/tournament/dream-rotation-1-pass-the-controller/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/pghprojectm"
-      },
-      {
-        name: "Gecko Cavern 11",
-        date: "5/24/25",
-        location: "Burwood, NSW, Australia",
-        description: "Gecko Cavern 11 Has Arrived! Hosted at Club Burwood along Burwood Road on the top floor of the venue, Gecko Cavern is the tournament series for Project Plus in Sydney! We also feature other games such as Melee, Rivals, and more! ",
-        imageUrl: "https://images.start.gg/images/tournament/790632/image-6b06a2f054f1b49b92915dfe682b4f2a.png",
-        link: "https://www.start.gg/tournament/gecko-cavern11/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Fight at the Museum",
         date: "5/31/25",
         location: "Portland, OR, USA",
@@ -289,6 +234,17 @@ const eventsData = [
         description: "Welcome back. Phantom continues for another year, in Melbourne.",
         imageUrl: "https://images.start.gg/images/tournament/762524/image-bd71887f81c5ae41ec8ad09ad0c4cda5.png",
         link: "https://www.start.gg/tournament/phantom-2025/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Condo of Blood 5: The Summer Saga",
+        date: "7/19/25",
+        location: "Mississauga, ON, Canada",
+        description: "Condo of Blood is an Ontario Project Plus and Rivals of Aether 2 regional hosted directly beside the Port Credit GO station. This accessible recurring tournament series will feature top Ontario talent and is designed fully around our shared love of these platform fighters.",
+        imageUrl: "https://images.start.gg/images/tournament/792555/image-a2e915e0817da6f4b65571630446c010.png",
+        link: "https://www.start.gg/tournament/condo-of-blood-5-the-summer-saga/details",
         rankImg: false, 
         trailer: "",
         stream: ""
