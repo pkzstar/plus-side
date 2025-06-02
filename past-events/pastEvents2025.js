@@ -112,6 +112,32 @@ const eventData = [
 
 
   {
+    eventTitle: "Moonshine Monthly #5",
+    imageUrl: "https://images.start.gg/images/tournament/788909/image-81e9bf8b23004bd63a1d9693d9881351.png",
+    eventUrl: "https://www.start.gg/tournament/moonshine-monthly-5/details",
+    date: "June 1 2025",
+    location: "South Carolina",
+    entrants: 9,
+    first: "knight",
+    second: "fries",
+    third: "Cybil",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Fight at the Museum",
+    imageUrl: "https://images.start.gg/images/tournament/742717/image-03e5cfa0072bf8a26da43d845c6cfd05.png",
+    eventUrl: "https://www.start.gg/tournament/fight-at-the-museum/details",
+    date: "May 31 2025",
+    location: "Oregon",
+    entrants: 47,
+    first: "Av",
+    second: "Sneez",
+    third: "PartyGhoul",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Allston Allstars IV",
     imageUrl: "https://images.start.gg/images/tournament/778092/image-95dcee666f43c5665d9559d1be5c6dfc.png",
     eventUrl: "https://www.start.gg/tournament/allston-allstars-iv/details",
@@ -147,7 +173,7 @@ const eventData = [
     first: "Vv",
     second: "Vaporeon",
     third: "Laska",
-    vodsUrl: "",
+    vodsUrl: "https://youtube.com/playlist?list=PLc8hdARsZiMlfY4AetKeIXQwzau-NuWdN&si=reKQwg89bJwtwPHt",
     hideRankImage: true
   },
   {
