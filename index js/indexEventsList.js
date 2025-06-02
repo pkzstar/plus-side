@@ -118,28 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Fight at the Museum",
-        date: "5/31/25",
-        location: "Portland, OR, USA",
-        description: "Super Smash at a Museum 🚀 May 31st, 2025! Oregon Melee proudly presents: Fight At The Museum!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F742717%2Fimage-2444e0547ec209b104c997fb05a82292-optimized.png&ehk=f8KGbI3l8GNjIe3d9S5hzXS2esnzIeI4n%2BLesCb%2F9p0%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/fight-at-the-museum/details",
-        rankImg: true, 
-        trailer: "",
-        stream: "https://twitch.tv/projectmnexus"
-      },
-      {
-        name: "Moonshine Monthly #5",
-        date: "5/31/25",
-        location: "Greenville, SC, USA",
-        description: "South Carolina's P+ ONLY Monthly Series",
-        imageUrl: "https://images.start.gg/images/tournament/788909/image-81e9bf8b23004bd63a1d9693d9881351.png",
-        link: "https://www.start.gg/tournament/moonshine-monthly-5/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/kn19h7"
-      },
-      {
         name: "Evergreen 2025",
         date: "6/14/25",
         location: "Ridgewood, NJ, USA",
@@ -168,6 +146,17 @@ const eventsData = [
         description: "This is an Arcadian event, meaning Power Ranked Melee players are not allowed to enter!",
         imageUrl: "https://images.start.gg/images/tournament/781625/image-28dde452f2dbbaf547c84bd62a25e8bf.png",
         link: "https://www.start.gg/tournament/schlocal-arcadian-2025/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Pico Plus #8",
+        date: "6/14/25",
+        location: "Pico Rivera, CA, USA",
+        description: "SOCAL P+ IS BACK! Introducing Pico Plus, a brand new Project+ local in the heart of Pico Rivera, CA.",
+        imageUrl: "https://images.start.gg/images/tournament/790582/image-16441ad7703911ed90f6f7a6191abf12.png",
+        link: "https://www.start.gg/tournament/pico-plus-8/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -259,6 +248,17 @@ const eventsData = [
         rankImg: true, 
         trailer: "",
         stream: ""
+      },
+      {
+        name: "Construct X: 2025",
+        date: "8/10/25",
+        location: "Milwaukee, WI, USA",
+        description: "A tool for the Resistance, void of dimension, yet so powerful it presents a danger to the senses. initiate simulation overload.",
+        imageUrl: "https://images.start.gg/images/tournament/794501/image-8794fe27cd441ebf73297992d28f01b8.png",
+        link: "https://www.start.gg/tournament/construct-x-2025/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://twitch.tv/wisconsinsmash2"
       },
       {
         name: "Blacklisted 9",

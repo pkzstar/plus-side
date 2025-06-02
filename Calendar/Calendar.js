@@ -3624,7 +3624,7 @@ function showCalendar(month, year) {
         const events = [
             {   
                 link: "https://www.start.gg/tournament/fight-at-the-museum/details",
-                imageSrc: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F742717%2Fimage-2444e0547ec209b104c997fb05a82292-optimized.png&ehk=f8KGbI3l8GNjIe3d9S5hzXS2esnzIeI4n%2BLesCb%2F9p0%3D&w=280&h=280&r=0"
+                imageSrc: "https://images.start.gg/images/tournament/742717/image-03e5cfa0072bf8a26da43d845c6cfd05.png"
                 
             },
             {
@@ -3680,7 +3680,7 @@ function showCalendar(month, year) {
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
 
-     // Evergreen 2025 + King's Ransom + Schlocal Arcadian
+     // Evergreen 2025 + King's Ransom + Schlocal Arcadian + Pico Plus
     } else if (month === 5 && (date === 14) && year === 2025) {
         const events = [
             {   
@@ -3695,6 +3695,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/schlocal-arcadian-2025/details",
                 imageSrc: "https://images.start.gg/images/tournament/781625/image-28dde452f2dbbaf547c84bd62a25e8bf.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/pico-plus-8/details",
+                imageSrc: "https://images.start.gg/images/tournament/790582/image-16441ad7703911ed90f6f7a6191abf12.png"
             }
     
         ];
@@ -3917,7 +3921,24 @@ function showCalendar(month, year) {
         cell.appendChild(link);
 
     
-                    } 
+        // Construct X
+        } else if (month === 7 && (date === 10) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/construct-x-2025/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/794501/image-8794fe27cd441ebf73297992d28f01b8.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+    
+        } 
         else {
                     // Create and append the date text only if there is no image
                     cellText = document.createTextNode(date);
