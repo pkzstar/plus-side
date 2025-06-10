@@ -162,6 +162,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Gecko Cavern 12",
+        date: "6/14/25",
+        location: "Burwood, NSW, Australia",
+        description: "Gecko Cavern 12 Has arrived! Hosted at Club Burwood along Burwood Road on the top floor of the venue, Gecko Cavern is the tournament series for Project Plus in Sydney! We also feature other games such as Melee, Rivals, and more!",
+        imageUrl: "https://images.start.gg/images/tournament/796229/image-3407b6e466875bc7b4d0979895d021c2.png",
+        link: "https://www.start.gg/tournament/gecko-cavern-12/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "The Truce 2:¡No Pasarán!",
         date: "6/21/25 - 6/22/25",
         location: "Le Kremlin-Bicêtre, France",
@@ -173,12 +184,45 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Trading Stocks #15: Summer Tour",
+        date: "6/21/25",
+        location: "Greer, SC, USA",
+        description: "Trading Stocks. A Melee and P+ Tournament",
+        imageUrl: "https://images.start.gg/images/tournament/789151/image-c190cbe3ee6d9671442b6052d71c0803.png",
+        link: "https://www.start.gg/tournament/trading-stocks-15-summer-tour/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Unc Frozen's Icebox 5: Melee Edition",
+        date: "6/21/25",
+        location: "Plano, TX, USA",
+        description: "Welcome to the fifth entry in the Icebox tournament series, special Melee edition!",
+        imageUrl: "https://images.start.gg/images/tournament/794197/image-2363f4f700d4126a4b5a105a6d4ab208.jpg",
+        link: "https://www.start.gg/tournament/unc-frozen-s-icebox-5-melee-edition/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Rat Kings",
         date: "6/28/25",
         location: "Goodlettsville, TN, USA",
         description: "doin a thing @ tnlg. Melee/P+. it's at the mall",
         imageUrl: "https://images.start.gg/images/tournament/784324/image-935d6151259b9029a58dae06ac476c49.png",
         link: "https://www.start.gg/tournament/rat-kings/details",
+        rankImg: true, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Scrapyard 2025: P+ & HDR",
+        date: "6/28/25",
+        location: "Raleigh, NC, USA",
+        description: "Scrapyard 2025 - Project+ & HewDraw Remix. Saturday June 28th - Talley Student Union Room 3285",
+        imageUrl: "https://images.start.gg/images/tournament/790722/image-8d41b2e5b384a247217d427b2a940b39.png",
+        link: "https://www.start.gg/tournament/scrapyard-2025-p-hdr/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -206,6 +250,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Star Spangled Shine Spike",
+        date: "7/5/25",
+        location: "Jackson, MS, USA",
+        description: "We, The People, do hereby declare July 5th, 2025 to be the day of the first Star Spangled Shine Spike",
+        imageUrl: "https://images.start.gg/images/tournament/794977/image-60e10ad56569de5337bfe807879178fa.png",
+        link: "https://www.start.gg/tournament/star-spangled-shine-spike/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Second Wind 2025",
         date: "7/11/25 - 7/13/25",
         location: "Te Aro, Wellington, New Zealand",
@@ -213,6 +268,17 @@ const eventsData = [
         imageUrl: "https://images.start.gg/images/tournament/773119/image-97ff7dec6fd4919e6095a828419d0fd9.png",
         link: "https://www.start.gg/tournament/second-wind-2025/details",
         rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Game 5 In The D #10: Take Me Out To The Ball Game!",
+        date: "7/12/25",
+        location: "Detroit, MI, USA",
+        description: "Introducing Game 5 In The D, East Michigan's Premier P+ Bi-Monthly Located In Detroit! We welcome all valiant competitors to our local P+ scene's return-to-form! Featuring a professional stream, custom tournament badges, your favorite players, and much, much more, this will be an event you won't want to miss!",
+        imageUrl: "https://images.start.gg/images/tournament/797472/image-6120b0c3f5bd518470ae9f3d3a1f6957.jpg",
+        link: "https://www.start.gg/tournament/game-5-in-the-d-10-take-me-out-to/details",
+        rankImg: true, 
         trailer: "",
         stream: ""
       },
@@ -259,6 +325,17 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: "https://twitch.tv/wisconsinsmash2"
+      },
+      {
+        name: "Ruffled Feathers",
+        date: "10/11/25",
+        location: "Florissant, MO, USA",
+        description: "Venue Fee - FREE IF YOU BRING A SETUP",
+        imageUrl: "",
+        link: "https://www.start.gg/tournament/ruffled-feathers/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
       },
       {
         name: "Blacklisted 9",

@@ -126,7 +126,7 @@ const eventData = [
   },
   {
     eventTitle: "Fight at the Museum",
-    imageUrl: "https://images.start.gg/images/tournament/742717/image-03e5cfa0072bf8a26da43d845c6cfd05.png",
+    imageUrl: "https://images.start.gg/images/tournament/742717/image-03e5cfa0072bf8a26da43d845c6cfd05.pngs",
     eventUrl: "https://www.start.gg/tournament/fight-at-the-museum/details",
     date: "May 31 2025",
     location: "Oregon",
@@ -134,6 +134,19 @@ const eventData = [
     first: "Av",
     second: "Sneez",
     third: "PartyGhoul",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "House of Nimbus 2",
+    imageUrl: "https://images.start.gg/images/tournament/788261/image-846f651e218eaf6f4fcda9b23f070246.jpg",
+    eventUrl: "https://www.start.gg/tournament/house-of-nimbus-2/details",
+    date: "May 24 2025",
+    location: "California",
+    entrants: 14,
+    first: "The Doctor",
+    second: "Ivayne",
+    third: "Av",
     vodsUrl: "",
     hideRankImage: true
   },
