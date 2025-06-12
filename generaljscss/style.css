@@ -694,3 +694,12 @@ flex-wrap: wrap;
 justify-content: space-between;
 }
   }
+  .digits {
+  background-color: #0000008f;
+  color: rgb(131, 252, 238);
+  font-size: 16px;
+  position: fixed;
+  margin: 0;
+  left: 0;
+  top: 0;
+}

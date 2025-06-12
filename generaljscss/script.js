@@ -47,7 +47,7 @@ function ToggleZoom(imageId) {
 
 document.addEventListener('DOMContentLoaded', () => {
   const images = document.querySelectorAll('.pm-rank');
-  console.log(images); // Check if images are selected correctly
+  // console.log(images); // Check if images are selected correctly
   images.forEach(image => {
     let rotation = 0;
     image.addEventListener('mouseenter', () => {
@@ -64,7 +64,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 document.addEventListener('DOMContentLoaded', () => {
   const imagesCentered = document.querySelectorAll('.pm-rank-centered');
-  console.log(imagesCentered); // Check if images are selected correctly
+  // console.log(imagesCentered); // Check if images are selected correctly
   imagesCentered.forEach(imagesCentered => {
     let rotation = 0;
     imagesCentered.addEventListener('mouseenter', () => {
@@ -108,17 +108,17 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
 // startgg inset
-document.addEventListener('DOMContentLoaded', () => {
+// document.addEventListener('DOMContentLoaded', () => {
 
-  const startggElements = document.querySelectorAll('.startgg');
+//   const startggElements = document.querySelectorAll('.startgg');
   
-  Array.from(startggElements).forEach(eventElement => {
-      startggElement.addEventListener('mouseleave', () => {
-          startggElementElement.classList.remove('startgg:hover');
-          void startggElement.offsetWidth;
-          startggElement.classList.add('startggAfter');
-      });
-  })});
+//   Array.from(startggElements).forEach(eventElement => {
+//       startggElement.addEventListener('mouseleave', () => {
+//           startggElementElement.classList.remove('startgg:hover');
+//           void startggElement.offsetWidth;
+//           startggElement.classList.add('startggAfter');
+//       });
+//   })});
 
   // vods inset
 document.addEventListener('DOMContentLoaded', () => {
@@ -212,7 +212,6 @@ document.addEventListener('DOMContentLoaded', () => {
   pastEventsText.innerHTML = "Past Events";
   pastEventsText.classList.add("pastEventsHeader");
   pastEvents.appendChild(pastEventsText);
-  console.log(pastEventsText);
 
   //2023
   let pastEvents2023 = document.getElementById("pastEvents")
@@ -308,7 +307,6 @@ function setMode(isDark) {
         for (let i = 0; i < donorName.length; i++) {
             donorName[i].style.color = 'white';
         }
-        console.log("dark mode enabled")
 
 
         // Save the light mode setting

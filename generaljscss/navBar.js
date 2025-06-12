@@ -1,6 +1,9 @@
+
+
 function createNavBar() {
   const navBar = document.createElement('div');
   navBar.className = 'headerNav';
+
 
   const plusSideLink = document.createElement('a');
   plusSideLink.href = '/';
@@ -131,3 +134,7 @@ style.textContent = `
   }
 `;
 document.head.appendChild(style);
+
+//   //clock 
+//   const hour = date.prototype.getMinutes()
+// console.log(hour)
