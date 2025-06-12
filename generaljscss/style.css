@@ -86,15 +86,19 @@ a:active { color: rgb(27, 0, 199);}
         font-size: medium;
     }
 }
-img:focus {
+/* img:focus {
     image-rendering:optimizeQuality;
     transform: scale3d(1.3, 1.3, 1.3);
     cursor:pointer;
     transition: .25s ease;
-}
-img.zoomed {
-    transform: scale3d(1, 1, 1);
-}
+} */
+  .zoomed {
+    transform: scale3d(1.3, 1.3, 1.3);
+    transition: transform 0.3s ease;
+  }
+  .zoomed:hover {
+       cursor: zoom-out;
+  }
 img:hover {
     cursor:zoom-in;
 }

@@ -24,25 +24,6 @@ function hideDropdownOnClickOutside(event) {
   }
 }
 
-
-//image zoom in and out
-function ToggleZoom(imageId) {
-    let isZoomed = false;
-    let zoomIn = document.getElementById(imageId);
-    let zoomInStyle = window.getComputedStyle(zoomIn);
-
-    if (zoomInStyle.cursor === "zoom-out") {
-        zoomIn.classList.add("zoomed");
-        zoomIn.style.cursor = "zoom-in";
-
-    } else {
-        zoomIn.style.cursor = "zoom-out";
-        zoomIn.classList.remove("zoomed");
-
-    }
-}
-
-
 // pm rank spin
 
 document.addEventListener('DOMContentLoaded', () => {

@@ -168,7 +168,9 @@ font-size: large;
     border-width: 2px;
     border-color: white;
     border-style: outset;
-    box-shadow: 0 0 15px 0  rgb(167, 83, 247);
+    box-shadow: 0 0 15px 0  rgb(167, 83, 247);    
+    transition: transform 0.3s ease;
+    cursor: zoom-in;
 }
 
 .article-body-image-bigger {
