@@ -15,6 +15,7 @@ if (minutes < 10) minutes = `0` + minutes
 let ampm = hours >= 12 ? `PM` : `AM`
 const timeValue = `${displayHour}:${minutes} ${ampm}`
 const timeContainer = document.createElement('div')
+timeContainer.classList.add(`timeContainer`)
 const timeDisplay = document.createElement('p')
 timeDisplay.classList.add('digits');
 timeContainer.appendChild(timeDisplay)

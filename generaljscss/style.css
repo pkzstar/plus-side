@@ -693,6 +693,9 @@ display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 }
+.timeContainer {
+    display: none;
+}
   }
   .digits {
   background-color: #0000008f;
