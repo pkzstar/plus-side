@@ -135,4 +135,3 @@ function updateBackgroundImages(imageUrl) {
         wallPapers2[i].style.backgroundImage = `url('${imageUrl}')`;
     }
 }
-console.log("dark mode enabled")

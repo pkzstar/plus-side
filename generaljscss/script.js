@@ -307,6 +307,7 @@ function setMode(isDark) {
         for (let i = 0; i < donorName.length; i++) {
             donorName[i].style.color = 'white';
         }
+console.log("dark mode enabled")
 
 
         // Save the light mode setting
@@ -341,4 +342,3 @@ function updateBackgroundImages(imageUrl) {
         wallPapers2[i].style.backgroundImage = `url('${imageUrl}')`;
     }
 }
-console.log("dark mode enabled")
