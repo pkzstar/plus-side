@@ -245,7 +245,7 @@ const eventsData = [
         description: "Top 8 for both games will be on SUNDAY time will adjust depending on competitors other brackets",
         imageUrl: "https://images.start.gg/images/tournament/791339/image-b07eff3cbe0f9470ff1a8dbcd88eae32.png",
         link: "https://www.start.gg/tournament/get-out-of-my-venue-certificate-of-disapproval-1/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: ""
       },
