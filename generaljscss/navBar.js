@@ -5,22 +5,33 @@ function createNavBar() {
   navBar.className = 'headerNav';
 
    //clock 
-const now = new Date()
-const hours = now.getHours()
-let displayHour = hours % 12;
-if (displayHour === 0) displayHour = 12
-let minutes = now.getMinutes()
-if (minutes < 10) minutes = `0` + minutes
+const timeContainer = document.createElement('div');
+timeContainer.classList.add('timeContainer');
 
-let ampm = hours >= 12 ? `PM` : `AM`
-const timeValue = `${displayHour}:${minutes} ${ampm}`
-const timeContainer = document.createElement('div')
-timeContainer.classList.add(`timeContainer`)
-const timeDisplay = document.createElement('p')
+const timeDisplay = document.createElement('p');
 timeDisplay.classList.add('digits');
-timeContainer.appendChild(timeDisplay)
-navBar.appendChild(timeContainer)
-timeDisplay.innerHTML = timeValue
+
+timeContainer.appendChild(timeDisplay);
+navBar.appendChild(timeContainer);
+
+function updateTime() {
+  const now = new Date();
+  let hours = now.getHours();
+  let displayHour = hours % 12 || 12;
+  let minutes = now.getMinutes();
+  if (minutes < 10) minutes = `0` + minutes;
+
+  let ampm = hours >= 12 ? 'PM' : 'AM';
+  const timeValue = `${displayHour}:${minutes} ${ampm}`;
+  timeDisplay.innerHTML = timeValue;
+}
+
+// Run once immediately
+updateTime();
+
+// Update every second
+setInterval(updateTime, 1000);
+
 
 
   const plusSideLink = document.createElement('a');
