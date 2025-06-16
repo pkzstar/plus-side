@@ -860,3 +860,31 @@ pastListContainer.appendChild(pastEventElement);
 // const pastListContainer = document.getElementById('pastListContainer');
 // pastListContainer.appendChild(pastEventElement);
 
+
+
+// filter
+// document.addEventListener('DOMContentLoaded', () => {
+//   let calPosition = document.querySelector('.calPosition');
+//   console.log(calPosition); // should now show the element correctly
+
+//   let pmrFilter = document.createElement('a');
+//   calPosition.appendChild(pmrFilter);
+//   pmrFilter.classList.add('navCalPast');
+
+//   let pmrFilterBtn = document.createElement('button');
+//   pmrFilter.appendChild(pmrFilterBtn);
+//   pmrFilterBtn.classList.add('calView');
+//   pmrFilterBtn.innerHTML = 'PM Rank';
+
+
+//   pmrFilterBtn.addEventListener('click', function () {
+//     console.log('Button clicked!');
+//     if (eventData.hideRankImage === true) {
+//       let hidePmr = document.querySelector('.past-events');
+//       if (hidePmr) {
+//         hidePmr.classList.add('hidden');
+//         console.log('hidden');
+//       }
+//     }
+//   });
+// });
