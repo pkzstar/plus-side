@@ -118,61 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Evergreen 2025",
-        date: "6/14/25",
-        location: "Ridgewood, NJ, USA",
-        description: "A competitor pass for the other event on the same day is required. If you are only entering games on this page (Side Event games), a competitor pass is still required. Spectator passes will not allow you to compete in Evergreen events",
-        imageUrl: "https://images.start.gg/images/tournament/750366/image-eafe71c5eb426044109a764ff4e509e6.png?ehk=9K7Fu4sI1p1c%2B46PJC1aUGNOkQMLidsxRtyFnmzPcDo%3D&ehkOptimized=RokVDvc%2FvsAXu1Ql9wytiQWCuVBQ7%2BqG018F1DGCfvQ%3D",
-        link: "https://www.start.gg/tournament/evergreen-2025/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "King's Ransom",
-        date: "6/14/25",
-        location: "Kingsport, TN, USA",
-        description: "64 entrant cap. Doors open at 12, Melee at 1, P+ at 2. All bo3 till top 8. $50 pot bonus for both Melee and P+",
-        imageUrl: "https://images.start.gg/images/tournament/769414/image-e69ffb0c62ba05fd003d5d5c00e88218.png",
-        link: "https://www.start.gg/tournament/king-s-ransom/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Schlocal Arcadian 2025",
-        date: "6/14/25",
-        location: "Brunswick, VIC, Australia",
-        description: "This is an Arcadian event, meaning Power Ranked Melee players are not allowed to enter!",
-        imageUrl: "https://images.start.gg/images/tournament/781625/image-28dde452f2dbbaf547c84bd62a25e8bf.png",
-        link: "https://www.start.gg/tournament/schlocal-arcadian-2025/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Pico Plus #8",
-        date: "6/14/25",
-        location: "Pico Rivera, CA, USA",
-        description: "SOCAL P+ IS BACK! Introducing Pico Plus, a brand new Project+ local in the heart of Pico Rivera, CA.",
-        imageUrl: "https://images.start.gg/images/tournament/790582/image-16441ad7703911ed90f6f7a6191abf12.png",
-        link: "https://www.start.gg/tournament/pico-plus-8/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Gecko Cavern 12",
-        date: "6/14/25",
-        location: "Burwood, NSW, Australia",
-        description: "Gecko Cavern 12 Has arrived! Hosted at Club Burwood along Burwood Road on the top floor of the venue, Gecko Cavern is the tournament series for Project Plus in Sydney! We also feature other games such as Melee, Rivals, and more!",
-        imageUrl: "https://images.start.gg/images/tournament/796229/image-3407b6e466875bc7b4d0979895d021c2.png",
-        link: "https://www.start.gg/tournament/gecko-cavern-12/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "The Truce 2:¡No Pasarán!",
         date: "6/21/25 - 6/22/25",
         location: "Le Kremlin-Bicêtre, France",
@@ -201,6 +146,17 @@ const eventsData = [
         description: "Welcome to the fifth entry in the Icebox tournament series, special Melee edition!",
         imageUrl: "https://images.start.gg/images/tournament/794197/image-2363f4f700d4126a4b5a105a6d4ab208.jpg",
         link: "https://www.start.gg/tournament/unc-frozen-s-icebox-5-melee-edition/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "House of Nimbus 3",
+        date: "6/21/25",
+        location: "Citrus Heights, CA, USA",
+        description: "Welcome to the third iteration of House of Nimbus, a (hopefully) monthly series that starts something up again in NorCal.",
+        imageUrl: "https://images.start.gg/images/tournament/797254/image-269f8df508ef2e1df0862bef405f16fc.jpg",
+        link: "https://www.start.gg/tournament/house-of-nimbus-3/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -331,7 +287,7 @@ const eventsData = [
         date: "10/11/25",
         location: "Florissant, MO, USA",
         description: "Venue Fee - FREE IF YOU BRING A SETUP",
-        imageUrl: "",
+        imageUrl: "https://images.start.gg/images/tournament/796666/image-8f001c9be7d679a22099e1332e3aae1b.jpg",
         link: "https://www.start.gg/tournament/ruffled-feathers/details",
         rankImg: false, 
         trailer: "",

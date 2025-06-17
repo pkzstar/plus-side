@@ -3756,7 +3756,7 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-            // The Truce 2 Day 1 + Trading Stocks 15 + UFI5
+            // The Truce 2 Day 1 + Trading Stocks 15 + UFI5 + HoN3
         } else if (month === 5 && (date === 21) && year === 2025) {
         const events = [
             {   
@@ -3771,6 +3771,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/unc-frozen-s-icebox-5-melee-edition/details",
                 imageSrc: "https://images.start.gg/images/tournament/794197/image-2363f4f700d4126a4b5a105a6d4ab208.jpg"
+            },
+            {
+                link: "https://www.start.gg/tournament/house-of-nimbus-3/details",
+                imageSrc: "https://images.start.gg/images/tournament/797254/image-269f8df508ef2e1df0862bef405f16fc.jpg"
             }
     
         ];
@@ -4181,7 +4185,7 @@ function showCalendar(month, year) {
         link.target = "_blank";
     
         let image = document.createElement("img");
-        image.src = "";
+        image.src = "https://images.start.gg/images/tournament/796666/image-8f001c9be7d679a22099e1332e3aae1b.jpg";
     
         image.classList.add("calendarImg");
     
