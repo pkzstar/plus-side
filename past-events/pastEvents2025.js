@@ -928,28 +928,45 @@ pastListContainer.appendChild(pastEventElement);
 
 
 // filter
-// document.addEventListener('DOMContentLoaded', () => {
-//   let calPosition = document.querySelector('.calPosition');
-//   console.log(calPosition); // should now show the element correctly
+document.addEventListener('DOMContentLoaded', () => {
+  let calPosition = document.querySelector('.calPosition');
 
-//   let pmrFilter = document.createElement('a');
-//   calPosition.appendChild(pmrFilter);
-//   pmrFilter.classList.add('navCalPast');
+  let pmrFilter = document.createElement('a');
+  calPosition.appendChild(pmrFilter);
+  pmrFilter.classList.add('navCalPast');
 
-//   let pmrFilterBtn = document.createElement('button');
-//   pmrFilter.appendChild(pmrFilterBtn);
-//   pmrFilterBtn.classList.add('calView');
-//   pmrFilterBtn.innerHTML = 'PM Rank';
+  let pmrFilterBtn = document.createElement('button');
+  pmrFilter.appendChild(pmrFilterBtn);
+  pmrFilterBtn.classList.add('calView');
+  pmrFilterBtn.innerHTML = 'PM Rank';
 
+  let pmrHidden = false; // toggle flag
 
-//   pmrFilterBtn.addEventListener('click', function () {
-//     console.log('Button clicked!');
-//     if (eventData.hideRankImage === true) {
-//       let hidePmr = document.querySelector('.past-events');
-//       if (hidePmr) {
-//         hidePmr.classList.add('hidden');
-//         console.log('hidden');
-//       }
-//     }
-//   });
-// });
+  pmrFilterBtn.addEventListener('click', function () {
+    console.log('Button clicked!');
+
+    if (Array.isArray(eventData)) {
+      const allPastEvents = document.querySelectorAll('.past-events');
+
+      eventData.forEach((event, index) => {
+        if (event.hideRankImage === true) {
+          const targetEvent = allPastEvents[index];
+          if (targetEvent) {
+            if (!pmrHidden) {
+              targetEvent.classList.add('hidden');
+              console.log(`Hid past-event at index ${index}`);
+            } else {
+              targetEvent.classList.remove('hidden');
+              console.log(`Re-shown past-event at index ${index}`);
+            }
+          }
+        }
+      });
+
+      pmrHidden = !pmrHidden;
+
+    } else {
+      console.error('eventData is not an array');
+    }
+  });
+});

@@ -1328,3 +1328,45 @@ pastListContainer.appendChild(pastEventElement);
 // const pastListContainer = document.getElementById('pastListContainer');
 // pastListContainer.appendChild(pastEventElement);
 
+document.addEventListener('DOMContentLoaded', () => {
+  let calPosition = document.querySelector('.calPosition');
+
+  let pmrFilter = document.createElement('a');
+  calPosition.appendChild(pmrFilter);
+  pmrFilter.classList.add('navCalPast');
+
+  let pmrFilterBtn = document.createElement('button');
+  pmrFilter.appendChild(pmrFilterBtn);
+  pmrFilterBtn.classList.add('calView');
+  pmrFilterBtn.innerHTML = 'PM Rank';
+
+  let pmrHidden = false; // toggle flag
+
+  pmrFilterBtn.addEventListener('click', function () {
+    console.log('Button clicked!');
+
+    if (Array.isArray(eventData)) {
+      const allPastEvents = document.querySelectorAll('.past-events');
+
+      eventData.forEach((event, index) => {
+        if (event.hideRankImage === true) {
+          const targetEvent = allPastEvents[index];
+          if (targetEvent) {
+            if (!pmrHidden) {
+              targetEvent.classList.add('hidden');
+              console.log(`Hid past-event at index ${index}`);
+            } else {
+              targetEvent.classList.remove('hidden');
+              console.log(`Re-shown past-event at index ${index}`);
+            }
+          }
+        }
+      });
+
+      pmrHidden = !pmrHidden;
+
+    } else {
+      console.error('eventData is not an array');
+    }
+  });
+});
