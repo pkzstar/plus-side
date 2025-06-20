@@ -3756,7 +3756,7 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-            // The Truce 2 Day 1 + Trading Stocks 15 + UFI5 + HoN3
+            // The Truce 2 Day 1 + Trading Stocks 15 + UFI5 + HoN3 + MM51
         } else if (month === 5 && (date === 21) && year === 2025) {
         const events = [
             {   
@@ -3775,6 +3775,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/house-of-nimbus-3/details",
                 imageSrc: "https://images.start.gg/images/tournament/797254/image-269f8df508ef2e1df0862bef405f16fc.jpg"
+            },
+            {
+                link: "https://www.start.gg/tournament/mass-madness-51-the-fine-art-of-interaction/details",
+                imageSrc: "https://images.start.gg/images/tournament/789104/image-4e2ac504b6084d500c64c434c9776892.png"
             }
     
         ];
@@ -3840,7 +3844,7 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-            // Rat Kings + Scrapyard 2025
+            // Rat Kings + Scrapyard 2025 + Good Ol' Days
         } else if (month === 5 && (date === 28) && year === 2025) {
         const events = [
             {   
@@ -3851,6 +3855,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/scrapyard-2025-p-hdr/details",
                 imageSrc: "https://images.start.gg/images/tournament/790722/image-8d41b2e5b384a247217d427b2a940b39.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/the-good-ol-days/details",
+                imageSrc: "https://images.start.gg/images/tournament/798041/image-84ddb6856b036519959d9a664f9ceef8.jpg"
             }
     
         ];
@@ -4008,7 +4016,7 @@ function showCalendar(month, year) {
             link.appendChild(image);
             cell.appendChild(link);
 
-        // Second Wind 2025 Day 2 + G5itD10
+        // Second Wind 2025 Day 2 + G5itD10 + Plat Par
         } else if (month === 6 && (date === 12) && year === 2025) {
         const events = [
             {   
@@ -4019,6 +4027,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/game-5-in-the-d-10-take-me-out-to/details",
                 imageSrc: "https://images.start.gg/images/tournament/797472/image-6120b0c3f5bd518470ae9f3d3a1f6957.jpg"
+            },
+            {
+                link: "https://www.start.gg/tournament/platform-paradise/details",
+                imageSrc: "https://images.start.gg/images/tournament/797484/image-4180a11dbf066a5132c9a87b992dd6a1.png"
             }
     
         ];
@@ -4170,6 +4182,22 @@ function showCalendar(month, year) {
     
         let image = document.createElement("img");
         image.src = "https://images.start.gg/images/tournament/794501/image-8794fe27cd441ebf73297992d28f01b8.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // Gold Rush
+        } else if (month === 7 && (date === 16) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/gold-rush-10/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/800623/image-8b92e2a8e28481295ea4e27c9def6993.png";
     
         image.classList.add("calendarImg");
     
