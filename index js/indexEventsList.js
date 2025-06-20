@@ -146,7 +146,7 @@ const eventsData = [
         description: "Welcome to the fifth entry in the Icebox tournament series, special Melee edition!",
         imageUrl: "https://images.start.gg/images/tournament/794197/image-2363f4f700d4126a4b5a105a6d4ab208.jpg",
         link: "https://www.start.gg/tournament/unc-frozen-s-icebox-5-melee-edition/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: ""
       },
@@ -157,6 +157,17 @@ const eventsData = [
         description: "Welcome to the third iteration of House of Nimbus, a (hopefully) monthly series that starts something up again in NorCal.",
         imageUrl: "https://images.start.gg/images/tournament/797254/image-269f8df508ef2e1df0862bef405f16fc.jpg",
         link: "https://www.start.gg/tournament/house-of-nimbus-3/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Mass Madness 51",
+        date: "6/21/25",
+        location: "Waltham, MA, USA",
+        description: "Mass Madness returns for another edition! Masks are recommended to be worn while in the venue.",
+        imageUrl: "https://images.start.gg/images/tournament/789104/image-4e2ac504b6084d500c64c434c9776892.png",
+        link: "https://www.start.gg/tournament/mass-madness-51-the-fine-art-of-interaction/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -179,6 +190,17 @@ const eventsData = [
         description: "Scrapyard 2025 - Project+ & HewDraw Remix. Saturday June 28th - Talley Student Union Room 3285",
         imageUrl: "https://images.start.gg/images/tournament/790722/image-8d41b2e5b384a247217d427b2a940b39.png",
         link: "https://www.start.gg/tournament/scrapyard-2025-p-hdr/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "The Good Ol' Days",
+        date: "6/28/25",
+        location: "Ionia, MI, USA",
+        description: "Located on Ionia’s historic Main Street, Dirtboy presents… The Good Ol’ Days, a west Michigan event bringing back old school vibes at a local card shop - CCGPrime. Come on out to my stomping grounds and get your practice in before our major Game 5 in the upcoming weeks.",
+        imageUrl: "https://images.start.gg/images/tournament/798041/image-84ddb6856b036519959d9a664f9ceef8.jpg",
+        link: "https://www.start.gg/tournament/the-good-ol-days/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -236,6 +258,17 @@ const eventsData = [
         link: "https://www.start.gg/tournament/game-5-in-the-d-10-take-me-out-to/details",
         rankImg: true, 
         trailer: "",
+        stream: "https://www.twitch.tv/game5projectplus"
+      },
+      {
+        name: "Platform Paradise",
+        date: "7/12/25",
+        location: "Durham, NC, USA",
+        description: "Oak City Esports is introducing a new tournament series aimed at highlighting and promoting platform fighters at Xepher Arcade!",
+        imageUrl: "https://images.start.gg/images/tournament/797484/image-4180a11dbf066a5132c9a87b992dd6a1.png",
+        link: "https://www.start.gg/tournament/platform-paradise/details",
+        rankImg: false, 
+        trailer: "",
         stream: ""
       },
       {
@@ -283,10 +316,21 @@ const eventsData = [
         stream: "https://twitch.tv/wisconsinsmash2"
       },
       {
+        name: "Gold Rush",
+        date: "8/16/25",
+        location: "Lakewood, CO, USA",
+        description: "Welcome to Gold Rush! Join us at Localhost Denver for another Colorado P+ classic",
+        imageUrl: "https://images.start.gg/images/tournament/800623/image-8b92e2a8e28481295ea4e27c9def6993.png",
+        link: "https://www.start.gg/tournament/gold-rush-10/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.twitch.tv/coloradoprojectplus"
+      },
+      {
         name: "Ruffled Feathers",
         date: "10/11/25",
         location: "Florissant, MO, USA",
-        description: "Venue Fee - FREE IF YOU BRING A SETUP",
+        description: "A regional in MO",
         imageUrl: "https://images.start.gg/images/tournament/796666/image-8f001c9be7d679a22099e1332e3aae1b.jpg",
         link: "https://www.start.gg/tournament/ruffled-feathers/details",
         rankImg: false, 

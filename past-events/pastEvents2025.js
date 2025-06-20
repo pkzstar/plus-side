@@ -355,7 +355,7 @@ const eventData = [
     first: "grealy",
     second: "knight",
     third: "Karma",
-    vodsUrl: "",
+    vodsUrl: "https://www.twitch.tv/videos/2475910732",
     hideRankImage: true
   },
   {
