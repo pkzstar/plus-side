@@ -4016,7 +4016,7 @@ function showCalendar(month, year) {
             link.appendChild(image);
             cell.appendChild(link);
 
-        // Second Wind 2025 Day 2 + G5itD10 + Plat Par
+        // Second Wind 2025 Day 2 + G5itD10 + Plat Par + PPlusUltra2
         } else if (month === 6 && (date === 12) && year === 2025) {
         const events = [
             {   
@@ -4031,6 +4031,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/platform-paradise/details",
                 imageSrc: "https://images.start.gg/images/tournament/797484/image-4180a11dbf066a5132c9a87b992dd6a1.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/project-plus-ultra-2/details",
+                imageSrc: "https://images.start.gg/images/tournament/802444/image-3298b950de63d750209fd9754c084884.jpg"
             }
     
         ];
@@ -4096,7 +4100,7 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-         // Phantom 2025 + CoB5
+         // Phantom 2025 + CoB5 + NotlD4 + UFI6
     } else if (month === 6 && (date === 19) && year === 2025) {
         const events = [
             {   
@@ -4107,6 +4111,14 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/condo-of-blood-5-the-summer-saga/details",
                 imageSrc: "https://images.start.gg/images/tournament/792555/image-a2e915e0817da6f4b65571630446c010.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/night-of-the-living-ded-4-melee-p-with-potbonuses/details",
+                imageSrc: "https://images.start.gg/images/tournament/800374/image-82123d4127a93546884f1e01693b3629.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/unc-frozen-s-icebox-6/details",
+                imageSrc: "https://images.start.gg/images/tournament/804218/image-b2c42efd0acb16f9626cddf51101c977.jpg"
             }
     
         ];
@@ -4156,6 +4168,24 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
+
+        // Don't Mind The Cats
+        } else if (month === 6 && (date === 20) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/don-t-mind-the-cats/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/804035/image-a58166aff500f5a101bde542a65b8832.jpg";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+
         // Filler Fest
         } else if (month === 6 && (date === 26) && year === 2025) {
         // Example link with image
@@ -4165,6 +4195,56 @@ function showCalendar(month, year) {
     
         let image = document.createElement("img");
         image.src = "https://images.start.gg/images/tournament/782711/image-0b6b921cf69f427ea3807f0696b1105f.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+
+        // Bristol's Basement
+        } else if (month === 6 && (date === 27) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/bristol-s-basement-wrath-of-the-lich-king-classic/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/804165/image-5a87cbe427ec6c49c4065b5702d6d4e0.jpg";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // Monty's Olympic Games
+        } else if (month === 7 && (date === 2) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/monty-s-olympic-games/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/803977/image-f92bb8393df4fc6c2bd459e12e6f1768.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+
+        // Rev It Up For Charity
+        } else if (month === 7 && (date === 6) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/rev-it-up-for-charity/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/799668/image-02c7c381abb660e94bdfd60ff9265070.png";
     
         image.classList.add("calendarImg");
     
@@ -4214,6 +4294,22 @@ function showCalendar(month, year) {
     
         let image = document.createElement("img");
         image.src = "https://images.start.gg/images/tournament/796666/image-8f001c9be7d679a22099e1332e3aae1b.jpg";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // One More Game
+        } else if (month === 10 && (date === 22) || (date === 23) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/one-more-game-2/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/795071/image-177b8c8cdfe8c8e9c9cc3e6a939f3568.png";
     
         image.classList.add("calendarImg");
     

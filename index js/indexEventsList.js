@@ -118,100 +118,12 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "The Truce 2:¡No Pasarán!",
-        date: "6/21/25 - 6/22/25",
-        location: "Le Kremlin-Bicêtre, France",
-        description: "Welcome to the second French Project M 3.6 major since the release of Project +: The Truce 2:¡No Pasarán! On the program: Project M, of course, Singles and Doubles, but also Melee, in case you haven't figured it out - we like illegal games here, hehe!",
-        imageUrl: "https://images.start.gg/images/tournament/769345/image-3b234072f79221c181e6d499ef1f6daa.jpg",
-        link: "https://www.start.gg/tournament/the-truce-2-no-pasar-n/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Trading Stocks #15: Summer Tour",
-        date: "6/21/25",
-        location: "Greer, SC, USA",
-        description: "Trading Stocks. A Melee and P+ Tournament",
-        imageUrl: "https://images.start.gg/images/tournament/789151/image-c190cbe3ee6d9671442b6052d71c0803.png",
-        link: "https://www.start.gg/tournament/trading-stocks-15-summer-tour/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Unc Frozen's Icebox 5: Melee Edition",
-        date: "6/21/25",
-        location: "Plano, TX, USA",
-        description: "Welcome to the fifth entry in the Icebox tournament series, special Melee edition!",
-        imageUrl: "https://images.start.gg/images/tournament/794197/image-2363f4f700d4126a4b5a105a6d4ab208.jpg",
-        link: "https://www.start.gg/tournament/unc-frozen-s-icebox-5-melee-edition/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "House of Nimbus 3",
-        date: "6/21/25",
-        location: "Citrus Heights, CA, USA",
-        description: "Welcome to the third iteration of House of Nimbus, a (hopefully) monthly series that starts something up again in NorCal.",
-        imageUrl: "https://images.start.gg/images/tournament/797254/image-269f8df508ef2e1df0862bef405f16fc.jpg",
-        link: "https://www.start.gg/tournament/house-of-nimbus-3/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Mass Madness 51",
-        date: "6/21/25",
-        location: "Waltham, MA, USA",
-        description: "Mass Madness returns for another edition! Masks are recommended to be worn while in the venue.",
-        imageUrl: "https://images.start.gg/images/tournament/789104/image-4e2ac504b6084d500c64c434c9776892.png",
-        link: "https://www.start.gg/tournament/mass-madness-51-the-fine-art-of-interaction/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Rat Kings",
-        date: "6/28/25",
-        location: "Goodlettsville, TN, USA",
-        description: "doin a thing @ tnlg. Melee/P+. it's at the mall",
-        imageUrl: "https://images.start.gg/images/tournament/784324/image-935d6151259b9029a58dae06ac476c49.png",
-        link: "https://www.start.gg/tournament/rat-kings/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Scrapyard 2025: P+ & HDR",
-        date: "6/28/25",
-        location: "Raleigh, NC, USA",
-        description: "Scrapyard 2025 - Project+ & HewDraw Remix. Saturday June 28th - Talley Student Union Room 3285",
-        imageUrl: "https://images.start.gg/images/tournament/790722/image-8d41b2e5b384a247217d427b2a940b39.png",
-        link: "https://www.start.gg/tournament/scrapyard-2025-p-hdr/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "The Good Ol' Days",
         date: "6/28/25",
         location: "Ionia, MI, USA",
         description: "Located on Ionia’s historic Main Street, Dirtboy presents… The Good Ol’ Days, a west Michigan event bringing back old school vibes at a local card shop - CCGPrime. Come on out to my stomping grounds and get your practice in before our major Game 5 in the upcoming weeks.",
         imageUrl: "https://images.start.gg/images/tournament/798041/image-84ddb6856b036519959d9a664f9ceef8.jpg",
         link: "https://www.start.gg/tournament/the-good-ol-days/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Pope's Sunday Mass: Conclave",
-        date: "6/29/25",
-        location: "Carlton, VIC, Australia",
-        description: "It is with great pleasure that I am announcing the highly anticipated sequel... Pope's Sunday Mass: Conclave! I am so happy to have the chance to invite all of you to The Clyde Hotel in Carlton to enjoy their Lounge (with attached bar) on Sunday 29th of June, 2025",
-        imageUrl: "https://images.start.gg/images/tournament/784333/image-dea410335ee8f381ae4e74b977bcddf5.png",
-        link: "https://www.start.gg/tournament/pope-s-sunday-mass-conclave/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -225,7 +137,7 @@ const eventsData = [
         link: "https://www.start.gg/tournament/get-out-of-my-venue-certificate-of-disapproval-1/details",
         rankImg: true, 
         trailer: "",
-        stream: ""
+        stream: "https://www.youtube.com/@ontarioprojectm8374/streams"
       },
       {
         name: "Star Spangled Shine Spike",
@@ -272,6 +184,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "PROJECT PLUS ULTRA 2",
+        date: "7/12/25",
+        location: "Baton Rouge, LA, USA",
+        description: "Welcome to Project PLUS ULTRA! Louisiana's Premier P+ Only Tournament is Back!",
+        imageUrl: "https://images.start.gg/images/tournament/802444/image-3298b950de63d750209fd9754c084884.jpg",
+        link: "https://www.start.gg/tournament/project-plus-ultra-2/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Phantom 2025",
         date: "7/18/25 - 7/20/25",
         location: "Coburg, VIC, Australia",
@@ -291,6 +214,39 @@ const eventsData = [
         link: "https://www.start.gg/tournament/condo-of-blood-5-the-summer-saga/details",
         rankImg: false, 
         trailer: "",
+        stream: "https://www.youtube.com/@ontarioprojectm8374/streams"
+      },
+      {
+        name: "Night of the living DED #4",
+        date: "7/19/25",
+        location: "Port Chester, NY, USA",
+        description: "We have free parking in the Waterfront Parking Lot behind the venue, or paid parking on the street in the surrounding area. We have dedicated per player CRTs and Wiis available for all Contenstants. However extra setups are always welcome, and space will be allocated for extra setups for friendlies + Side Games such as P+",
+        imageUrl: "https://images.start.gg/images/tournament/800374/image-82123d4127a93546884f1e01693b3629.png",
+        link: "https://www.start.gg/tournament/night-of-the-living-ded-4-melee-p-with-potbonuses/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Unc Frozen's Icebox 6",
+        date: "7/19/25",
+        location: "Plano, TX, USA",
+        description: "Welcome to the sixth entry in the Icebox tournament series, presented by your friendly neighborhood Unc Frozen!",
+        imageUrl: "https://images.start.gg/images/tournament/804218/image-b2c42efd0acb16f9626cddf51101c977.jpg",
+        link: "https://www.start.gg/tournament/unc-frozen-s-icebox-6/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.twitch.tv/fxgames_gg"
+      },
+      {
+        name: "Don't Mind The Cats!",
+        date: "7/20/25",
+        location: "Philadelphia, PA, USA",
+        description: "The cat's names are Abra and Juno",
+        imageUrl: "https://images.start.gg/images/tournament/804035/image-a58166aff500f5a101bde542a65b8832.jpg",
+        link: "https://www.start.gg/tournament/don-t-mind-the-cats/details",
+        rankImg: false, 
+        trailer: "",
         stream: ""
       },
       {
@@ -301,6 +257,39 @@ const eventsData = [
         imageUrl: "https://images.start.gg/images/tournament/782711/image-0b6b921cf69f427ea3807f0696b1105f.png",
         link: "https://www.start.gg/tournament/filler-fest/details",
         rankImg: true, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Bristol's Basement: Wrath of the Lich King Classic",
+        date: "7/27/25",
+        location: "Bristol, UK",
+        description: "Bristol's premier melee monthly is back for it's twenty-ninth event!",
+        imageUrl: "https://images.start.gg/images/tournament/804165/image-5a87cbe427ec6c49c4065b5702d6d4e0.jpg",
+        link: "https://www.start.gg/tournament/bristol-s-basement-wrath-of-the-lich-king-classic/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Monty's Olympic Games",
+        date: "8/2/25",
+        location: "Baton Rouge, LA, USA",
+        description: "Presenting Monty's Olympic Games. A fun community building event with 8 brackets where players compete for bronze, silver & gold. The top overall performer will win a one-of-a-kind trophy! Who will take home the gold?? Find out Aug 2nd at the LSU Student Union.",
+        imageUrl: "https://images.start.gg/images/tournament/803977/image-f92bb8393df4fc6c2bd459e12e6f1768.png",
+        link: "https://www.start.gg/tournament/monty-s-olympic-games/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Rev It Up for Charity!",
+        date: "8/6/25",
+        location: "Oak Park, IL, USA",
+        description: "CALLING ALL MELEE AND 'BRAWL' PLAYERS! Have you ever wanted to contribute to your community and the well-being of those around you while playing your favorite games? For the first time ever, Revy eSports and the Chicago Transgender Association are partnering to bring you a charity event harkening back to the events that made our grassroots community as popular as it is today! ",
+        imageUrl: "https://images.start.gg/images/tournament/799668/image-02c7c381abb660e94bdfd60ff9265070.png",
+        link: "https://www.start.gg/tournament/rev-it-up-for-charity/details",
+        rankImg: false, 
         trailer: "",
         stream: ""
       },
@@ -335,6 +324,17 @@ const eventsData = [
         link: "https://www.start.gg/tournament/ruffled-feathers/details",
         rankImg: false, 
         trailer: "",
+        stream: ""
+      },
+      {
+        name: "One More Game",
+        date: "11/22/25 - 11/23/25",
+        location: "Seattle, WA, USA",
+        description: "Registration closes November 18th TUESDAY at 11:59pm!",
+        imageUrl: "https://images.start.gg/images/tournament/795071/image-177b8c8cdfe8c8e9c9cc3e6a939f3568.png",
+        link: "https://www.start.gg/tournament/one-more-game-2/details",
+        rankImg: false, 
+        trailer: "https://www.youtube.com/watch?v=hs4mSJYlaFA",
         stream: ""
       },
       {
