@@ -4186,21 +4186,65 @@ function showCalendar(month, year) {
         cell.appendChild(link);
 
 
-        // Filler Fest
+        // Filler Fest + Pico Plus
         } else if (month === 6 && (date === 26) && year === 2025) {
-        // Example link with image
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/filler-fest/details",
+                imageSrc: "https://images.start.gg/images/tournament/782711/image-0b6b921cf69f427ea3807f0696b1105f.png"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/pico-plus-9/details",
+                imageSrc: "https://images.start.gg/images/tournament/805139/image-89fda7ff1d4e6aeebd759d5f2a55c5e5.png"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
         let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/filler-fest/details";
         link.target = "_blank";
     
         let image = document.createElement("img");
-        image.src = "https://images.start.gg/images/tournament/782711/image-0b6b921cf69f427ea3807f0696b1105f.png";
     
         image.classList.add("calendarImg");
     
-    
         link.appendChild(image);
         cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
 
         // Bristol's Basement
@@ -4252,22 +4296,82 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-    
-        // Construct X
-        } else if (month === 7 && (date === 10) && year === 2025) {
+        // St. No John's 11
+        } else if (month === 7 && (date === 8 || date === 9) && year === 2025) {
         // Example link with image
         let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/construct-x-2025/details";
+        link.href = "https://www.start.gg/tournament/st-no-john-s-11/details";
         link.target = "_blank";
     
         let image = document.createElement("img");
-        image.src = "https://images.start.gg/images/tournament/794501/image-8794fe27cd441ebf73297992d28f01b8.png";
+        image.src = "https://images.start.gg/images/tournament/762867/image-5186c03397ad9db4b9df2f145a778d81.png";
     
         image.classList.add("calendarImg");
     
     
         link.appendChild(image);
         cell.appendChild(link);
+
+    
+        // Construct X + St. No John's 11
+        } else if (month === 7 && (date === 10) && year === 2025) {
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/construct-x-2025/details",
+                imageSrc: "https://images.start.gg/images/tournament/794501/image-8794fe27cd441ebf73297992d28f01b8.png"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/st-no-john-s-11/details",
+                imageSrc: "https://images.start.gg/images/tournament/762867/image-5186c03397ad9db4b9df2f145a778d81.png"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
+        let link = document.createElement("a");
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+    
+        image.classList.add("calendarImg");
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
         // Gold Rush
         } else if (month === 7 && (date === 16) && year === 2025) {
@@ -4302,7 +4406,7 @@ function showCalendar(month, year) {
         cell.appendChild(link);
 
         // One More Game
-        } else if (month === 10 && (date === 22) || (date === 23) && year === 2025) {
+        } else if (month === 10 && (date === 22 || date === 23) && year === 2025) {
         // Example link with image
         let link = document.createElement("a");
         link.href = "https://www.start.gg/tournament/one-more-game-2/details";

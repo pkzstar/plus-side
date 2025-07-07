@@ -112,6 +112,32 @@ const eventData = [
 
 
   {
+    eventTitle: "Star Spangled Shine Spike",
+    imageUrl: "https://images.start.gg/images/tournament/794977/image-60e10ad56569de5337bfe807879178fa.png",
+    eventUrl: "https://www.start.gg/tournament/star-spangled-shine-spike/details",
+    date: "July 5 2025",
+    location: "Mississippi",
+    entrants: 9,
+    first: "rabit!",
+    second: "GARY NEVER GARY AGAIN",
+    third: "Luch",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Get Out Of My Venue: Certificate of Disapproval",
+    imageUrl: "https://images.start.gg/images/tournament/791339/image-b07eff3cbe0f9470ff1a8dbcd88eae32.png",
+    eventUrl: "https://www.start.gg/tournament/get-out-of-my-venue-certificate-of-disapproval-1/details",
+    date: "July 4-6 2025",
+    location: "Ontario",
+    entrants: 63,
+    first: "Morsecode762",
+    second: "Blitz",
+    third: "RapMonster",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
     eventTitle: "Pope's Sunday Mass: Conclave",
     imageUrl: "https://images.start.gg/images/tournament/784333/image-dea410335ee8f381ae4e74b977bcddf5.png",
     eventUrl: "https://www.start.gg/tournament/pope-s-sunday-mass-conclave/details",
@@ -121,6 +147,19 @@ const eventData = [
     first: "Ryzuul",
     second: "Tyler",
     third: "Goodie",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "The Good Ol' Days",
+    imageUrl: "https://images.start.gg/images/tournament/798041/image-84ddb6856b036519959d9a664f9ceef8.jpg",
+    eventUrl: "https://www.start.gg/tournament/the-good-ol-days/details",
+    date: "June 28 2025",
+    location: "Michigan",
+    entrants: 14,
+    first: "Dirtboy",
+    second: "Lordy",
+    third: "Yuko",
     vodsUrl: "",
     hideRankImage: true
   },
@@ -147,7 +186,7 @@ const eventData = [
     first: "Chaloopy",
     second: "Xtreme",
     third: "Shenanigans",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLL2RqAT-Fg9ZTvirLWU8bPUYOrtqmIort",
     hideRankImage: false
   },
   {
@@ -164,7 +203,7 @@ const eventData = [
     hideRankImage: true
   },
   {
-    eventTitle: "House of Numbus 3",
+    eventTitle: "House of Nimbus 3",
     imageUrl: "https://images.start.gg/images/tournament/797254/image-269f8df508ef2e1df0862bef405f16fc.jpg",
     eventUrl: "https://www.start.gg/tournament/house-of-nimbus-3/details",
     date: "June 21 2025",

@@ -118,39 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "The Good Ol' Days",
-        date: "6/28/25",
-        location: "Ionia, MI, USA",
-        description: "Located on Ionia’s historic Main Street, Dirtboy presents… The Good Ol’ Days, a west Michigan event bringing back old school vibes at a local card shop - CCGPrime. Come on out to my stomping grounds and get your practice in before our major Game 5 in the upcoming weeks.",
-        imageUrl: "https://images.start.gg/images/tournament/798041/image-84ddb6856b036519959d9a664f9ceef8.jpg",
-        link: "https://www.start.gg/tournament/the-good-ol-days/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Get Out Of My Venue: Certificate of Disapproval",
-        date: "7/4/25 - 7/6/25",
-        location: "Toronto, ON, Canada",
-        description: "Top 8 for both games will be on SUNDAY time will adjust depending on competitors other brackets",
-        imageUrl: "https://images.start.gg/images/tournament/791339/image-b07eff3cbe0f9470ff1a8dbcd88eae32.png",
-        link: "https://www.start.gg/tournament/get-out-of-my-venue-certificate-of-disapproval-1/details",
-        rankImg: true, 
-        trailer: "",
-        stream: "https://www.youtube.com/@ontarioprojectm8374/streams"
-      },
-      {
-        name: "Star Spangled Shine Spike",
-        date: "7/5/25",
-        location: "Jackson, MS, USA",
-        description: "We, The People, do hereby declare July 5th, 2025 to be the day of the first Star Spangled Shine Spike",
-        imageUrl: "https://images.start.gg/images/tournament/794977/image-60e10ad56569de5337bfe807879178fa.png",
-        link: "https://www.start.gg/tournament/star-spangled-shine-spike/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Second Wind 2025",
         date: "7/11/25 - 7/13/25",
         location: "Te Aro, Wellington, New Zealand",
@@ -261,6 +228,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Pico Plus #9",
+        date: "7/26/25",
+        location: "Pico Rivera, CA, USA",
+        description: "SoCal P+ is back! Introducing Pico Plus, a brand new Project+ local in the heart of Pico Rivera, CA",
+        imageUrl: "https://images.start.gg/images/tournament/805139/image-89fda7ff1d4e6aeebd759d5f2a55c5e5.png",
+        link: "https://www.start.gg/tournament/pico-plus-9/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Bristol's Basement: Wrath of the Lich King Classic",
         date: "7/27/25",
         location: "Bristol, UK",
@@ -286,9 +264,20 @@ const eventsData = [
         name: "Rev It Up for Charity!",
         date: "8/6/25",
         location: "Oak Park, IL, USA",
-        description: "CALLING ALL MELEE AND 'BRAWL' PLAYERS! Have you ever wanted to contribute to your community and the well-being of those around you while playing your favorite games? For the first time ever, Revy eSports and the Chicago Transgender Association are partnering to bring you a charity event harkening back to the events that made our grassroots community as popular as it is today! ",
+        description: "CALLING ALL MELEE AND 'BRAWL' PLAYERS! Have you ever wanted to contribute to your community and the well-being of those around you while playing your favorite games? For the first time ever, Revy eSports and the Chicago Transgender Association are partnering to bring you a charity event harkening back to the events that made our grassroots community as popular as it is today!",
         imageUrl: "https://images.start.gg/images/tournament/799668/image-02c7c381abb660e94bdfd60ff9265070.png",
         link: "https://www.start.gg/tournament/rev-it-up-for-charity/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "St. No John's 11",
+        date: "8/8/25 - 8/10/25",
+        location: "St. John's, NL, Canada",
+        description: "SmashNL is excited to continue with St. No John's, one of our biggest tournament series that started back in 2014! We are hoping to continue on the momentum gained with SNJX last year, pushing upwards of 200 total attendees throughout the weekend and an increased attendance from out-of-region competitors!",
+        imageUrl: "https://images.start.gg/images/tournament/762867/image-5186c03397ad9db4b9df2f145a778d81.png",
+        link: "https://www.start.gg/tournament/st-no-john-s-11/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -311,7 +300,7 @@ const eventsData = [
         description: "Welcome to Gold Rush! Join us at Localhost Denver for another Colorado P+ classic",
         imageUrl: "https://images.start.gg/images/tournament/800623/image-8b92e2a8e28481295ea4e27c9def6993.png",
         link: "https://www.start.gg/tournament/gold-rush-10/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: "https://www.twitch.tv/coloradoprojectplus"
       },
