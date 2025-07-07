@@ -182,6 +182,27 @@ font-size: large;
     box-shadow: 0 0 15px 0  rgb(167, 83, 247);
 
 }
+
+.article-body-image-smaller {
+    width: 40%;
+    height: 40%;
+    border-width: 2px;
+    border-color: white;
+    border-style: outset;
+    box-shadow: 0 0 15px 0  rgb(167, 83, 247);
+
+}
+
+.article-body-image-smallest {
+    width: 20%;
+    height: 20%;
+    border-width: 2px;
+    border-color: white;
+    border-style: outset;
+    box-shadow: 0 0 15px 0  rgb(167, 83, 247);
+
+}
+
 .article-player-side {
     text-align: left;
 }
