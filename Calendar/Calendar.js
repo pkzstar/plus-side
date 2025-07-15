@@ -4247,37 +4247,65 @@ function showCalendar(month, year) {
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
 
-        // Bristol's Basement
+        // Bristol's Basement + Droto2
         } else if (month === 6 && (date === 27) && year === 2025) {
-        // Example link with image
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/bristol-s-basement-wrath-of-the-lich-king-classic/details",
+                imageSrc: "https://images.start.gg/images/tournament/804165/image-5a87cbe427ec6c49c4065b5702d6d4e0.jpg"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/dream-rotation-2-winner-stays/details",
+                imageSrc: "https://images.start.gg/images/tournament/801105/image-99439f35d3d1c5d1bc6c7a2bd7904487.png"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
         let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/bristol-s-basement-wrath-of-the-lich-king-classic/details";
         link.target = "_blank";
     
         let image = document.createElement("img");
-        image.src = "https://images.start.gg/images/tournament/804165/image-5a87cbe427ec6c49c4065b5702d6d4e0.jpg";
     
         image.classList.add("calendarImg");
     
-    
         link.appendChild(image);
         cell.appendChild(link);
-
-        // Monty's Olympic Games
-        } else if (month === 7 && (date === 2) && year === 2025) {
-        // Example link with image
-        let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/monty-s-olympic-games/details";
-        link.target = "_blank";
     
-        let image = document.createElement("img");
-        image.src = "https://images.start.gg/images/tournament/803977/image-f92bb8393df4fc6c2bd459e12e6f1768.png";
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
     
-        image.classList.add("calendarImg");
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
     
-    
-        link.appendChild(image);
-        cell.appendChild(link);
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
 
         // Rev It Up For Charity
@@ -4297,7 +4325,7 @@ function showCalendar(month, year) {
         cell.appendChild(link);
 
         // St. No John's 11
-        } else if (month === 7 && (date === 8 || date === 9) && year === 2025) {
+        } else if (month === 7 && (date === 8) && year === 2025) {
         // Example link with image
         let link = document.createElement("a");
         link.href = "https://www.start.gg/tournament/st-no-john-s-11/details";
@@ -4311,6 +4339,66 @@ function showCalendar(month, year) {
     
         link.appendChild(image);
         cell.appendChild(link);
+
+        // St. No John's 11 + Void Nebula 2
+        } else if (month === 7 && (date === 9) && year === 2025) {
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/st-no-john-s-11/details",
+                imageSrc: "https://images.start.gg/images/tournament/762867/image-5186c03397ad9db4b9df2f145a778d81.png"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/2-eternity/details",
+                imageSrc: "https://images.start.gg/images/tournament/808583/image-57f90de8d46034f1db69dac305f20b3a.jpg"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
+        let link = document.createElement("a");
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+    
+        image.classList.add("calendarImg");
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
     
         // Construct X + St. No John's 11
@@ -4389,6 +4477,38 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
+        // BMM2
+        } else if (month === 8 && (date === 6) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/the-big-money-monthly-2-400-pot-bonus/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/807108/image-0595a918d6b8ca84ec4b24e944867117.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // QBC 2025
+        } else if (month === 9 && (date === 4) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/qu-becup-2025/attendees";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/798250/image-9559b71c9580d8937051eddb2aaa0917.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
         // Ruffled Feathers
         } else if (month === 9 && (date === 11) && year === 2025) {
         // Example link with image
@@ -4398,6 +4518,38 @@ function showCalendar(month, year) {
     
         let image = document.createElement("img");
         image.src = "https://images.start.gg/images/tournament/796666/image-8f001c9be7d679a22099e1332e3aae1b.jpg";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // Somino Noctem
+        } else if ((month === 9 && date === 31 && year === 2025) || (month === 10 && (date === 1 || date === 2) && year === 2025)){
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/somnio-noctem/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/799120/image-95004b80bfa048142c0f77fde12a5868.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // SMYM 25
+        } else if (month === 10 && (date === 15) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/show-me-your-moves-25/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/784887/image-19e0f4dffa7bc1c0d7a0579be64d4879.jpg";
     
         image.classList.add("calendarImg");
     
