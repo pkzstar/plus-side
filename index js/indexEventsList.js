@@ -118,50 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Second Wind 2025",
-        date: "7/11/25 - 7/13/25",
-        location: "Te Aro, Wellington, New Zealand",
-        description: "Wellington's Favourite Gaming Event. Second Wind returns for 2025 running from Friday 11th to Sunday 13th, a huge range of fighting games all held in one tight venue for a unique experience!",
-        imageUrl: "https://images.start.gg/images/tournament/773119/image-97ff7dec6fd4919e6095a828419d0fd9.png",
-        link: "https://www.start.gg/tournament/second-wind-2025/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Game 5 In The D #10: Take Me Out To The Ball Game!",
-        date: "7/12/25",
-        location: "Detroit, MI, USA",
-        description: "Introducing Game 5 In The D, East Michigan's Premier P+ Bi-Monthly Located In Detroit! We welcome all valiant competitors to our local P+ scene's return-to-form! Featuring a professional stream, custom tournament badges, your favorite players, and much, much more, this will be an event you won't want to miss!",
-        imageUrl: "https://images.start.gg/images/tournament/797472/image-6120b0c3f5bd518470ae9f3d3a1f6957.jpg",
-        link: "https://www.start.gg/tournament/game-5-in-the-d-10-take-me-out-to/details",
-        rankImg: true, 
-        trailer: "",
-        stream: "https://www.twitch.tv/game5projectplus"
-      },
-      {
-        name: "Platform Paradise",
-        date: "7/12/25",
-        location: "Durham, NC, USA",
-        description: "Oak City Esports is introducing a new tournament series aimed at highlighting and promoting platform fighters at Xepher Arcade!",
-        imageUrl: "https://images.start.gg/images/tournament/797484/image-4180a11dbf066a5132c9a87b992dd6a1.png",
-        link: "https://www.start.gg/tournament/platform-paradise/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "PROJECT PLUS ULTRA 2",
-        date: "7/12/25",
-        location: "Baton Rouge, LA, USA",
-        description: "Welcome to Project PLUS ULTRA! Louisiana's Premier P+ Only Tournament is Back!",
-        imageUrl: "https://images.start.gg/images/tournament/802444/image-3298b950de63d750209fd9754c084884.jpg",
-        link: "https://www.start.gg/tournament/project-plus-ultra-2/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Phantom 2025",
         date: "7/18/25 - 7/20/25",
         location: "Coburg, VIC, Australia",
@@ -236,7 +192,7 @@ const eventsData = [
         link: "https://www.start.gg/tournament/pico-plus-9/details",
         rankImg: false, 
         trailer: "",
-        stream: ""
+        stream: "https://www.twitch.tv/socalpm"
       },
       {
         name: "Bristol's Basement: Wrath of the Lich King Classic",
@@ -245,6 +201,17 @@ const eventsData = [
         description: "Bristol's premier melee monthly is back for it's twenty-ninth event!",
         imageUrl: "https://images.start.gg/images/tournament/804165/image-5a87cbe427ec6c49c4065b5702d6d4e0.jpg",
         link: "https://www.start.gg/tournament/bristol-s-basement-wrath-of-the-lich-king-classic/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Dream Rotation #2 - Winner Stays",
+        date: "7/27/25",
+        location: "Pittsburgh, PA, USA",
+        description: "Dream Rotation is Pittsburgh's dreamiest monthly tournament series for alternative platform fighters! This series features an exciting venue filled with fun activities, plenty of time for friendlies, a rotating late-night bracket, a safe competitive environment for all attendees, and high-stakes competition!",
+        imageUrl: "https://images.start.gg/images/tournament/801105/image-99439f35d3d1c5d1bc6c7a2bd7904487.png",
+        link: "https://www.start.gg/tournament/dream-rotation-2-winner-stays/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -269,7 +236,7 @@ const eventsData = [
         link: "https://www.start.gg/tournament/rev-it-up-for-charity/details",
         rankImg: false, 
         trailer: "",
-        stream: ""
+        stream: "https://www.twitch.tv/soulofficer"
       },
       {
         name: "St. No John's 11",
@@ -281,6 +248,17 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: ""
+      },
+      {
+        name: " ˅⁰𝚒Ꮷ 𝘕𝖊Ⱃʯ𝗹𝜶 2: Eternity ",
+        date: "8/9/25",
+        location: "Chantilly, VA, USA",
+        description: "you can't find a way to kill us. find what you're looking for in the back of the brickmania capital store, a mere 1 minute walk from the dulles exposition center. last year, it was difficult. we had to put our knuckles to the grindstone to accomplish a PROJECT so Magnificent, PLUS, we were working on short notice. this time, it will be different. join us.",
+        imageUrl: "https://images.start.gg/images/tournament/808583/image-57f90de8d46034f1db69dac305f20b3a.jpg",
+        link: "https://www.start.gg/tournament/2-eternity/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.twitch.tv/essy531"
       },
       {
         name: "Construct X: 2025",
@@ -305,6 +283,28 @@ const eventsData = [
         stream: "https://www.twitch.tv/coloradoprojectplus"
       },
       {
+        name: "The Big Money Monthly #2 ($400 pot bonus!)",
+        date: "9/6/25",
+        location: "San Antonio, TX, USA",
+        description: "A Monthly in San Antonio, TX",
+        imageUrl: "https://images.start.gg/images/tournament/807108/image-0595a918d6b8ca84ec4b24e944867117.png",
+        link: "https://www.start.gg/tournament/the-big-money-monthly-2-400-pot-bonus/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.twitch.tv/sapplus"
+      },
+      {
+        name: "Québecup 2025",
+        date: "10/4/25",
+        location: "Montréal, QC, Canada",
+        description: "TOKÉBAKICITTE! Welcome to Montréal! Québecup 2025 is a one day major with Melee, Ultimate, P+",
+        imageUrl: "https://images.start.gg/images/tournament/798250/image-9559b71c9580d8937051eddb2aaa0917.png",
+        link: "https://www.start.gg/tournament/qu-becup-2025/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Ruffled Feathers",
         date: "10/11/25",
         location: "Florissant, MO, USA",
@@ -313,6 +313,28 @@ const eventsData = [
         link: "https://www.start.gg/tournament/ruffled-feathers/details",
         rankImg: false, 
         trailer: "",
+        stream: "https://www.twitch.tv/stl_projectplus"
+      },
+      {
+        name: "Somino Noctem",
+        date: "10/31/25 - 11/2/25",
+        location: "Purmerend, Netherlands",
+        description: " SOMNIO NOCTEM - EU Major - October 31st, November 1st & 2nd 2025. FROM THE PEOPLE THAT BROUGHT YOU DREAMHACK ROTTERDAM 2019 & 2022, SECTOR Z, SOMNIO SERIES AND MORE!",
+        imageUrl: "https://images.start.gg/images/tournament/799120/image-95004b80bfa048142c0f77fde12a5868.png",
+        link: "https://www.start.gg/tournament/somnio-noctem/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Show Me Your Moves '25",
+        date: "11/15/25",
+        location: "Champaign, IL, USA",
+        description: "Show Me Your Moves turns 21! The longest running smash tournament returns for its 21st birthday and 24th iteration! Show Me Your Moves features Super Smash Bros. Melee and Super Smash Bros. Ultimate as always, and we're thrilled to be bringing you 'Brawl' once more!",
+        imageUrl: "https://images.start.gg/images/tournament/784887/image-19e0f4dffa7bc1c0d7a0579be64d4879.jpg",
+        link: "https://www.start.gg/tournament/show-me-your-moves-25/details",
+        rankImg: false, 
+        trailer: "https://www.twitch.tv/pplusside",
         stream: ""
       },
       {

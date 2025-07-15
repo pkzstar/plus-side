@@ -112,6 +112,58 @@ const eventData = [
 
 
   {
+    eventTitle: "PROJECT PLUS ULTRA 2",
+    imageUrl: "https://images.start.gg/images/tournament/802444/image-3298b950de63d750209fd9754c084884.jpg",
+    eventUrl: "https://www.start.gg/tournament/project-plus-ultra-2/details",
+    date: "July 12 2025",
+    location: "Louisiana",
+    entrants: 14,
+    first: "rabit!",
+    second: "SeariousScar",
+    third: "Sneakh",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Platform Paradise",
+    imageUrl: "https://images.start.gg/images/tournament/797484/image-4180a11dbf066a5132c9a87b992dd6a1.png",
+    eventUrl: "https://www.start.gg/tournament/platform-paradise/details",
+    date: "July 12 2025",
+    location: "North Carolina",
+    entrants: 9,
+    first: "Mr. Watch & Learn",
+    second: "Pure",
+    third: "Milky Way",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Game 5 In The D #10: Take Me Out To The Ball Game!",
+    imageUrl: "https://images.start.gg/images/tournament/797472/image-6120b0c3f5bd518470ae9f3d3a1f6957.jpg",
+    eventUrl: "https://www.start.gg/tournament/game-5-in-the-d-10-take-me-out-to/details",
+    date: "July 12 2025",
+    location: "Michigan",
+    entrants: 39,
+    first: "Dirtboy",
+    second: "SoulOfficer",
+    third: "Ellipsis",
+    vodsUrl: "https://youtu.be/EW15FyiWwls",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "Second Wind 2025",
+    imageUrl: "https://images.start.gg/images/tournament/773119/image-97ff7dec6fd4919e6095a828419d0fd9.png",
+    eventUrl: "https://www.start.gg/tournament/second-wind-2025/details",
+    date: "July 11-13 2025",
+    location: "Wellington",
+    entrants: 24,
+    first: "Ryzuul",
+    second: "Goodie",
+    third: "IcyK",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Star Spangled Shine Spike",
     imageUrl: "https://images.start.gg/images/tournament/794977/image-60e10ad56569de5337bfe807879178fa.png",
     eventUrl: "https://www.start.gg/tournament/star-spangled-shine-spike/details",
