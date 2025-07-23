@@ -118,61 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Phantom 2025",
-        date: "7/18/25 - 7/20/25",
-        location: "Coburg, VIC, Australia",
-        description: "Welcome back. Phantom continues for another year, in Melbourne.",
-        imageUrl: "https://images.start.gg/images/tournament/762524/image-bd71887f81c5ae41ec8ad09ad0c4cda5.png",
-        link: "https://www.start.gg/tournament/phantom-2025/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Condo of Blood 5: The Summer Saga",
-        date: "7/19/25",
-        location: "Mississauga, ON, Canada",
-        description: "Condo of Blood is an Ontario Project Plus and Rivals of Aether 2 regional hosted directly beside the Port Credit GO station. This accessible recurring tournament series will feature top Ontario talent and is designed fully around our shared love of these platform fighters.",
-        imageUrl: "https://images.start.gg/images/tournament/792555/image-a2e915e0817da6f4b65571630446c010.png",
-        link: "https://www.start.gg/tournament/condo-of-blood-5-the-summer-saga/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.youtube.com/@ontarioprojectm8374/streams"
-      },
-      {
-        name: "Night of the living DED #4",
-        date: "7/19/25",
-        location: "Port Chester, NY, USA",
-        description: "We have free parking in the Waterfront Parking Lot behind the venue, or paid parking on the street in the surrounding area. We have dedicated per player CRTs and Wiis available for all Contenstants. However extra setups are always welcome, and space will be allocated for extra setups for friendlies + Side Games such as P+",
-        imageUrl: "https://images.start.gg/images/tournament/800374/image-82123d4127a93546884f1e01693b3629.png",
-        link: "https://www.start.gg/tournament/night-of-the-living-ded-4-melee-p-with-potbonuses/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Unc Frozen's Icebox 6",
-        date: "7/19/25",
-        location: "Plano, TX, USA",
-        description: "Welcome to the sixth entry in the Icebox tournament series, presented by your friendly neighborhood Unc Frozen!",
-        imageUrl: "https://images.start.gg/images/tournament/804218/image-b2c42efd0acb16f9626cddf51101c977.jpg",
-        link: "https://www.start.gg/tournament/unc-frozen-s-icebox-6/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/fxgames_gg"
-      },
-      {
-        name: "Don't Mind The Cats!",
-        date: "7/20/25",
-        location: "Philadelphia, PA, USA",
-        description: "The cat's names are Abra and Juno",
-        imageUrl: "https://images.start.gg/images/tournament/804035/image-a58166aff500f5a101bde542a65b8832.jpg",
-        link: "https://www.start.gg/tournament/don-t-mind-the-cats/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Filler Fest",
         date: "7/26/25",
         location: "Lawrence, KS, USA",
@@ -283,15 +228,15 @@ const eventsData = [
         stream: "https://www.twitch.tv/coloradoprojectplus"
       },
       {
-        name: "The Big Money Monthly #2 ($400 pot bonus!)",
-        date: "9/6/25",
-        location: "San Antonio, TX, USA",
-        description: "A Monthly in San Antonio, TX",
-        imageUrl: "https://images.start.gg/images/tournament/807108/image-0595a918d6b8ca84ec4b24e944867117.png",
-        link: "https://www.start.gg/tournament/the-big-money-monthly-2-400-pot-bonus/details",
+        name: "Night of the living DED #5",
+        date: "8/16/25",
+        location: "Port Chester, NY, USA",
+        description: "We have free parking in the Waterfront Parking Lot behind the venue, or paid parking on the street in the surrounding area. We have dedicated per player CRTs and Wiis available for all Contenstants. However extra setups are always welcome, and space will be allocated for extra setups for friendlies + Side Games such as P+",
+        imageUrl: "https://images.start.gg/images/tournament/810567/image-57519baa7115494776be96b98e3da25a.png",
+        link: "https://www.start.gg/tournament/night-of-the-living-ded-5-melee-p/details",
         rankImg: false, 
         trailer: "",
-        stream: "https://www.twitch.tv/sapplus"
+        stream: ""
       },
       {
         name: "Québecup 2025",
@@ -303,6 +248,17 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: ""
+      },
+      {
+        name: "The Big Money Monthly #2 ($400 pot bonus!)",
+        date: "10/4/25",
+        location: "San Antonio, TX, USA",
+        description: "A Monthly in San Antonio, TX",
+        imageUrl: "https://images.start.gg/images/tournament/807108/image-0595a918d6b8ca84ec4b24e944867117.png",
+        link: "https://www.start.gg/tournament/the-big-money-monthly-2-400-pot-bonus/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.twitch.tv/sapplus"
       },
       {
         name: "Ruffled Feathers",
@@ -344,7 +300,7 @@ const eventsData = [
         description: "Registration closes November 18th TUESDAY at 11:59pm!",
         imageUrl: "https://images.start.gg/images/tournament/795071/image-177b8c8cdfe8c8e9c9cc3e6a939f3568.png",
         link: "https://www.start.gg/tournament/one-more-game-2/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "https://www.youtube.com/watch?v=hs4mSJYlaFA",
         stream: ""
       },
