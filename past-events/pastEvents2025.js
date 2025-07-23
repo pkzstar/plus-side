@@ -112,6 +112,71 @@ const eventData = [
 
 
   {
+    eventTitle: "Don't Mind The Cats!",
+    imageUrl: "https://images.start.gg/images/tournament/804035/image-a58166aff500f5a101bde542a65b8832.jpg",
+    eventUrl: "https://www.start.gg/tournament/don-t-mind-the-cats/details",
+    date: "July 19 2025",
+    location: "Pennsylvania",
+    entrants: 3,
+    first: "Travy",
+    second: "Phoenix",
+    third: "CBD Shawarma",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Unc Frozen's Icebox 6",
+    imageUrl: "https://images.start.gg/images/tournament/804218/image-b2c42efd0acb16f9626cddf51101c977.jpg",
+    eventUrl: "https://www.start.gg/tournament/unc-frozen-s-icebox-6/details",
+    date: "July 19 2025",
+    location: "Texas",
+    entrants: 9,
+    first: "Apathy",
+    second: "J-am",
+    third: "fang",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Night of the living DED #4",
+    imageUrl: "https://images.start.gg/images/tournament/800374/image-82123d4127a93546884f1e01693b3629.png",
+    eventUrl: "https://www.start.gg/tournament/night-of-the-living-ded-4-melee-p-with-potbonuses/details",
+    date: "July 19 2025",
+    location: "New York",
+    entrants: 11,
+    first: "Aklo",
+    second: "SDJ",
+    third: "Mulldrifter",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Condo of Blood 5: The Summer Saga",
+    imageUrl: "https://images.start.gg/images/tournament/792555/image-a2e915e0817da6f4b65571630446c010.png",
+    eventUrl: "https://www.start.gg/tournament/condo-of-blood-5-the-summer-saga/details",
+    date: "July 19 2025",
+    location: "Ontario",
+    entrants: 35,
+    first: "Blitz",
+    second: "Krumpberry",
+    third: "Titanium",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "Phantom 2025",
+    imageUrl: "https://images.start.gg/images/tournament/762524/image-bd71887f81c5ae41ec8ad09ad0c4cda5.png",
+    eventUrl: "https://www.start.gg/tournament/phantom-2025/details",
+    date: "July 18-20 2025",
+    location: "VIC",
+    entrants: 52,
+    first: "Joshman",
+    second: "Tyler",
+    third: "Rayquazaman812",
+    vodsUrl: "https://www.twitch.tv/videos/2517228518",
+    hideRankImage: true
+  },
+  {
     eventTitle: "PROJECT PLUS ULTRA 2",
     imageUrl: "https://images.start.gg/images/tournament/802444/image-3298b950de63d750209fd9754c084884.jpg",
     eventUrl: "https://www.start.gg/tournament/project-plus-ultra-2/details",
@@ -160,7 +225,7 @@ const eventData = [
     first: "Ryzuul",
     second: "Goodie",
     third: "IcyK",
-    vodsUrl: "",
+    vodsUrl: "https://youtu.be/OmrFMKG42wI",
     hideRankImage: true
   },
   {
