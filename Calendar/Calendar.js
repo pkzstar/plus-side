@@ -4247,17 +4247,33 @@ function showCalendar(month, year) {
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
 
-        // Bristol's Basement + Droto2
+        // Bristol's Basement
         } else if (month === 6 && (date === 27) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/bristol-s-basement-wrath-of-the-lich-king-classic/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/804165/image-5a87cbe427ec6c49c4065b5702d6d4e0.jpg";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // Monty's + AAV
+        } else if (month === 7 && (date === 2) && year === 2025) {
         const events = [
             {   
-                link: "https://www.start.gg/tournament/bristol-s-basement-wrath-of-the-lich-king-classic/details",
-                imageSrc: "https://images.start.gg/images/tournament/804165/image-5a87cbe427ec6c49c4065b5702d6d4e0.jpg"
+                link: "https://www.start.gg/tournament/monty-s-olympic-games/details",
+                imageSrc: "https://images.start.gg/images/tournament/803977/image-f92bb8393df4fc6c2bd459e12e6f1768.png"
                 
             },
             {
-                link: "https://www.start.gg/tournament/dream-rotation-2-winner-stays/details",
-                imageSrc: "https://images.start.gg/images/tournament/801105/image-99439f35d3d1c5d1bc6c7a2bd7904487.png"
+                link: "https://www.start.gg/tournament/allston-allstars-v-tom-s-birthday-bash/details",
+                imageSrc: "https://images.start.gg/images/tournament/804685/image-95c4ad4dc1960e3d8efe1666db6a042a.png"
             }
     
         ];
@@ -4521,7 +4537,39 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-        // QBC 2025 + BMM2
+        // UFI7
+        } else if (month === 7 && (date === 23) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/unc-frozen-s-icebox-7/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/812447/image-9223a0a2f72e5eaef276653f179af67f.jpg";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // droto2
+        } else if (month === 8 && (date === 13) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/dream-rotation-2-winner-stays/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/801105/image-99439f35d3d1c5d1bc6c7a2bd7904487.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // QBC 2025 + BMM2 + Ascension 2
         } else if (month === 9 && (date === 4) && year === 2025) {
         const events = [
             {   
@@ -4532,6 +4580,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/the-big-money-monthly-2-400-pot-bonus/details",
                 imageSrc: "https://images.start.gg/images/tournament/807108/image-0595a918d6b8ca84ec4b24e944867117.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/ascension-2-5/details",
+                imageSrc: "https://images.start.gg/images/tournament/792031/image-2bddf06722439de540d13b140bdb235e.jpg"
             }
     
         ];
@@ -4590,6 +4642,22 @@ function showCalendar(month, year) {
     
         let image = document.createElement("img");
         image.src = "https://images.start.gg/images/tournament/796666/image-8f001c9be7d679a22099e1332e3aae1b.jpg";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // UFI9
+        } else if (month === 9 && (date === 18) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/unc-frozen-s-icebox-9-extra-spooky-edition/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/812447/image-9223a0a2f72e5eaef276653f179af67f.jpg";
     
         image.classList.add("calendarImg");
     

@@ -112,6 +112,45 @@ const eventData = [
 
 
   {
+    eventTitle: "Bristol's Basement: Wrath of the Lich King Classic",
+    imageUrl: "https://images.start.gg/images/tournament/804165/image-5a87cbe427ec6c49c4065b5702d6d4e0.jpg",
+    eventUrl: "https://www.start.gg/tournament/bristol-s-basement-wrath-of-the-lich-king-classic/details",
+    date: "July 27 2025",
+    location: "Bristol",
+    entrants: 16,
+    first: "CanD",
+    second: "Pi",
+    third: "Frenzy",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Pico Plus #9",
+    imageUrl: "https://images.start.gg/images/tournament/805139/image-89fda7ff1d4e6aeebd759d5f2a55c5e5.png",
+    eventUrl: "https://www.start.gg/tournament/pico-plus-9/details",
+    date: "July 26 2025",
+    location: "California",
+    entrants: 14,
+    first: "Nezergy",
+    second: "Dumshiny",
+    third: "Ducky",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Filler Fest",
+    imageUrl: "https://images.start.gg/images/tournament/782711/image-0b6b921cf69f427ea3807f0696b1105f.png",
+    eventUrl: "https://www.start.gg/tournament/filler-fest/details",
+    date: "July 26 2025",
+    location: "Kansas",
+    entrants: 66,
+    first: "SoulOfficer",
+    second: "Chaloopy",
+    third: "essy",
+    vodsUrl: "https://youtube.com/watch?v=t8XPe-U_siE",
+    hideRankImage: false
+  },
+  {
     eventTitle: "Don't Mind The Cats!",
     imageUrl: "https://images.start.gg/images/tournament/804035/image-a58166aff500f5a101bde542a65b8832.jpg",
     eventUrl: "https://www.start.gg/tournament/don-t-mind-the-cats/details",
