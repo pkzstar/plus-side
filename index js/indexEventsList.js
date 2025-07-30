@@ -118,56 +118,23 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Filler Fest",
-        date: "7/26/25",
-        location: "Lawrence, KS, USA",
-        description: "Filler Fest is a celebration of KC Melee, live music, and local artists held in Lawrence Kansas at the wonderful ECM Community Center!",
-        imageUrl: "https://images.start.gg/images/tournament/782711/image-0b6b921cf69f427ea3807f0696b1105f.png",
-        link: "https://www.start.gg/tournament/filler-fest/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Pico Plus #9",
-        date: "7/26/25",
-        location: "Pico Rivera, CA, USA",
-        description: "SoCal P+ is back! Introducing Pico Plus, a brand new Project+ local in the heart of Pico Rivera, CA",
-        imageUrl: "https://images.start.gg/images/tournament/805139/image-89fda7ff1d4e6aeebd759d5f2a55c5e5.png",
-        link: "https://www.start.gg/tournament/pico-plus-9/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/socalpm"
-      },
-      {
-        name: "Bristol's Basement: Wrath of the Lich King Classic",
-        date: "7/27/25",
-        location: "Bristol, UK",
-        description: "Bristol's premier melee monthly is back for it's twenty-ninth event!",
-        imageUrl: "https://images.start.gg/images/tournament/804165/image-5a87cbe427ec6c49c4065b5702d6d4e0.jpg",
-        link: "https://www.start.gg/tournament/bristol-s-basement-wrath-of-the-lich-king-classic/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Dream Rotation #2 - Winner Stays",
-        date: "7/27/25",
-        location: "Pittsburgh, PA, USA",
-        description: "Dream Rotation is Pittsburgh's dreamiest monthly tournament series for alternative platform fighters! This series features an exciting venue filled with fun activities, plenty of time for friendlies, a rotating late-night bracket, a safe competitive environment for all attendees, and high-stakes competition!",
-        imageUrl: "https://images.start.gg/images/tournament/801105/image-99439f35d3d1c5d1bc6c7a2bd7904487.png",
-        link: "https://www.start.gg/tournament/dream-rotation-2-winner-stays/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Monty's Olympic Games",
         date: "8/2/25",
         location: "Baton Rouge, LA, USA",
         description: "Presenting Monty's Olympic Games. A fun community building event with 8 brackets where players compete for bronze, silver & gold. The top overall performer will win a one-of-a-kind trophy! Who will take home the gold?? Find out Aug 2nd at the LSU Student Union.",
         imageUrl: "https://images.start.gg/images/tournament/803977/image-f92bb8393df4fc6c2bd459e12e6f1768.png",
         link: "https://www.start.gg/tournament/monty-s-olympic-games/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Allston Allstars V - Tom's Birthday Bash!",
+        date: "8/2/25",
+        location: "Boston, MA, USA",
+        description: "Allston Allstars is Boston's premiere seasonal Super Smash Bros Melee and Project+ tournament! This time we're also celebrating Gtown_Tom's 33rd birthday and we're expecting a large turnout for this!",
+        imageUrl: "https://images.start.gg/images/tournament/804685/image-95c4ad4dc1960e3d8efe1666db6a042a.png",
+        link: "https://www.start.gg/tournament/allston-allstars-v-tom-s-birthday-bash/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -201,7 +168,7 @@ const eventsData = [
         description: "you can't find a way to kill us. find what you're looking for in the back of the brickmania capital store, a mere 1 minute walk from the dulles exposition center. last year, it was difficult. we had to put our knuckles to the grindstone to accomplish a PROJECT so Magnificent, PLUS, we were working on short notice. this time, it will be different. join us.",
         imageUrl: "https://images.start.gg/images/tournament/808583/image-57f90de8d46034f1db69dac305f20b3a.jpg",
         link: "https://www.start.gg/tournament/2-eternity/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: "https://www.twitch.tv/essy531"
       },
@@ -239,6 +206,28 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Unc Frozen's Icebox 7",
+        date: "8/23/25",
+        location: "Plano, TX, USA",
+        description: "Welcome to the seventh entry in the Icebox tournament series, presented by your friendly neighborhood Unc Frozen!",
+        imageUrl: "https://images.start.gg/images/tournament/812447/image-9223a0a2f72e5eaef276653f179af67f.jpg",
+        link: "https://www.start.gg/tournament/unc-frozen-s-icebox-7/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://twitch.tv/fxgames_gg"
+      },
+      {
+        name: "Dream Rotation #2 - Winner Stays",
+        date: "9/13/25",
+        location: "Pittsburgh, PA, USA",
+        description: "Dream Rotation is Pittsburgh's dreamiest monthly tournament series for alternative platform fighters! This series features an exciting venue filled with fun activities, plenty of time for friendlies, a rotating late-night bracket, a safe competitive environment for all attendees, and high-stakes competition!",
+        imageUrl: "https://images.start.gg/images/tournament/801105/image-99439f35d3d1c5d1bc6c7a2bd7904487.png",
+        link: "https://www.start.gg/tournament/dream-rotation-2-winner-stays/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Québecup 2025",
         date: "10/4/25",
         location: "Montréal, QC, Canada",
@@ -261,6 +250,17 @@ const eventsData = [
         stream: "https://www.twitch.tv/sapplus"
       },
       {
+        name: "ASCENSION 2",
+        date: "10/4/25",
+        location: "Baton Rouge, LA, USA",
+        description: "ASCENSION IS BACK AND BIGGER THAN EVER!'BRAWL', ULTIMATE, AND MELEE WITH A BRAND NEW BRACKET FORMAT",
+        imageUrl: "https://images.start.gg/images/tournament/792031/image-2bddf06722439de540d13b140bdb235e.jpg",
+        link: "https://www.start.gg/tournament/ascension-2-5/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Ruffled Feathers",
         date: "10/11/25",
         location: "Florissant, MO, USA",
@@ -270,6 +270,17 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: "https://www.twitch.tv/stl_projectplus"
+      },
+      {
+        name: "Unc Frozen's Icebox 9: Extra Spooky Edition",
+        date: "10/18/25",
+        location: "Plano, TX, USA",
+        description: "Welcome to an ExTrA SpOoKy entry in the Icebox tournament series, presented by your friendly neighborhood Unc Frozen!",
+        imageUrl: "https://images.start.gg/images/tournament/812447/image-9223a0a2f72e5eaef276653f179af67f.jpg",
+        link: "https://www.start.gg/tournament/unc-frozen-s-icebox-9-extra-spooky-edition/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://twitch.tv/fxgames_gg"
       },
       {
         name: "Somino Noctem",
@@ -289,7 +300,7 @@ const eventsData = [
         description: "Show Me Your Moves turns 21! The longest running smash tournament returns for its 21st birthday and 24th iteration! Show Me Your Moves features Super Smash Bros. Melee and Super Smash Bros. Ultimate as always, and we're thrilled to be bringing you 'Brawl' once more!",
         imageUrl: "https://images.start.gg/images/tournament/784887/image-19e0f4dffa7bc1c0d7a0579be64d4879.jpg",
         link: "https://www.start.gg/tournament/show-me-your-moves-25/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "https://www.twitch.tv/pplusside",
         stream: ""
       },
