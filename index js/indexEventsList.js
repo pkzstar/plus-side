@@ -118,35 +118,13 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Monty's Olympic Games",
-        date: "8/2/25",
-        location: "Baton Rouge, LA, USA",
-        description: "Presenting Monty's Olympic Games. A fun community building event with 8 brackets where players compete for bronze, silver & gold. The top overall performer will win a one-of-a-kind trophy! Who will take home the gold?? Find out Aug 2nd at the LSU Student Union.",
-        imageUrl: "https://images.start.gg/images/tournament/803977/image-f92bb8393df4fc6c2bd459e12e6f1768.png",
-        link: "https://www.start.gg/tournament/monty-s-olympic-games/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Allston Allstars V - Tom's Birthday Bash!",
-        date: "8/2/25",
-        location: "Boston, MA, USA",
-        description: "Allston Allstars is Boston's premiere seasonal Super Smash Bros Melee and Project+ tournament! This time we're also celebrating Gtown_Tom's 33rd birthday and we're expecting a large turnout for this!",
-        imageUrl: "https://images.start.gg/images/tournament/804685/image-95c4ad4dc1960e3d8efe1666db6a042a.png",
-        link: "https://www.start.gg/tournament/allston-allstars-v-tom-s-birthday-bash/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Rev It Up for Charity!",
         date: "8/6/25",
         location: "Oak Park, IL, USA",
         description: "CALLING ALL MELEE AND 'BRAWL' PLAYERS! Have you ever wanted to contribute to your community and the well-being of those around you while playing your favorite games? For the first time ever, Revy eSports and the Chicago Transgender Association are partnering to bring you a charity event harkening back to the events that made our grassroots community as popular as it is today!",
         imageUrl: "https://images.start.gg/images/tournament/799668/image-02c7c381abb660e94bdfd60ff9265070.png",
         link: "https://www.start.gg/tournament/rev-it-up-for-charity/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: "https://www.twitch.tv/soulofficer"
       },
@@ -179,7 +157,7 @@ const eventsData = [
         description: "A tool for the Resistance, void of dimension, yet so powerful it presents a danger to the senses. initiate simulation overload.",
         imageUrl: "https://images.start.gg/images/tournament/794501/image-8794fe27cd441ebf73297992d28f01b8.png",
         link: "https://www.start.gg/tournament/construct-x-2025/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: "https://twitch.tv/wisconsinsmash2"
       },
@@ -215,6 +193,17 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: "https://twitch.tv/fxgames_gg"
+      },
+      {
+        name: "Pico Plus #10 - Super Pico or something",
+        date: "8/23/25",
+        location: "Pico Rivera, CA, USA",
+        description: "SOCAL P+ IS BACK! Introducing Pico Plus, a brand new Project+ local in the heart of Pico Rivera, CA",
+        imageUrl: "https://images.start.gg/images/tournament/812842/image-42847d3266ce122c517df1e71c1dd7e0.png",
+        link: "https://www.start.gg/tournament/pico-plus-10-super-pico-or-something/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.twitch.tv/socalpm"
       },
       {
         name: "Dream Rotation #2 - Winner Stays",
@@ -254,7 +243,7 @@ const eventsData = [
         date: "10/4/25",
         location: "Baton Rouge, LA, USA",
         description: "ASCENSION IS BACK AND BIGGER THAN EVER!'BRAWL', ULTIMATE, AND MELEE WITH A BRAND NEW BRACKET FORMAT",
-        imageUrl: "https://images.start.gg/images/tournament/792031/image-2bddf06722439de540d13b140bdb235e.jpg",
+        imageUrl: "https://images.start.gg/images/tournament/812007/image-c129195c1c32f585af14b10d0ecd3dcc.png",
         link: "https://www.start.gg/tournament/ascension-2-5/details",
         rankImg: false, 
         trailer: "",
