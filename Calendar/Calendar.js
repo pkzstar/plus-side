@@ -4537,21 +4537,65 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-        // UFI7
+        // UFI7 + PicoP10
         } else if (month === 7 && (date === 23) && year === 2025) {
-        // Example link with image
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/unc-frozen-s-icebox-7/details",
+                imageSrc: "https://images.start.gg/images/tournament/812447/image-9223a0a2f72e5eaef276653f179af67f.jpg"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/pico-plus-10-super-pico-or-something/details",
+                imageSrc: "https://images.start.gg/images/tournament/812842/image-42847d3266ce122c517df1e71c1dd7e0.png"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
         let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/unc-frozen-s-icebox-7/details";
         link.target = "_blank";
     
         let image = document.createElement("img");
-        image.src = "https://images.start.gg/images/tournament/812447/image-9223a0a2f72e5eaef276653f179af67f.jpg";
     
         image.classList.add("calendarImg");
     
-    
         link.appendChild(image);
         cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
         // droto2
         } else if (month === 8 && (date === 13) && year === 2025) {
@@ -4562,6 +4606,22 @@ function showCalendar(month, year) {
     
         let image = document.createElement("img");
         image.src = "https://images.start.gg/images/tournament/801105/image-99439f35d3d1c5d1bc6c7a2bd7904487.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // go8
+        } else if (month === 8 && (date === 27) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/get-outplayed-8/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/793044/image-4ba9fc219c496585c775ea3edc9d0ed5.png";
     
         image.classList.add("calendarImg");
     
@@ -4583,7 +4643,7 @@ function showCalendar(month, year) {
             },
             {
                 link: "https://www.start.gg/tournament/ascension-2-5/details",
-                imageSrc: "https://images.start.gg/images/tournament/792031/image-2bddf06722439de540d13b140bdb235e.jpg"
+                imageSrc: "https://images.start.gg/images/tournament/812007/image-c129195c1c32f585af14b10d0ecd3dcc.png"
             }
     
         ];
@@ -4651,19 +4711,63 @@ function showCalendar(month, year) {
 
         // UFI9
         } else if (month === 9 && (date === 18) && year === 2025) {
-        // Example link with image
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/unc-frozen-s-icebox-9-extra-spooky-edition/details",
+                imageSrc: "https://images.start.gg/images/tournament/812447/image-9223a0a2f72e5eaef276653f179af67f.jpg"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/chase-the-crown-knox-esports-5/details",
+                imageSrc: "https://images.start.gg/images/tournament/811395/image-864709aea60a570f3f39302a39f7b83b.png"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
         let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/unc-frozen-s-icebox-9-extra-spooky-edition/details";
         link.target = "_blank";
     
         let image = document.createElement("img");
-        image.src = "https://images.start.gg/images/tournament/812447/image-9223a0a2f72e5eaef276653f179af67f.jpg";
     
         image.classList.add("calendarImg");
     
-    
         link.appendChild(image);
         cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
         // Somino Noctem
         } else if ((month === 9 && date === 31 && year === 2025) || (month === 10 && (date === 1 || date === 2) && year === 2025)){

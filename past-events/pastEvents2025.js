@@ -112,6 +112,19 @@ const eventData = [
 
 
   {
+    eventTitle: "Allston Allstars V - Tom's Birthday Bash!",
+    imageUrl: "https://images.start.gg/images/tournament/804685/image-95c4ad4dc1960e3d8efe1666db6a042a.png",
+    eventUrl: "https://www.start.gg/tournament/allston-allstars-v-tom-s-birthday-bash/details",
+    date: "August 2 2025",
+    location: "Massachussets",
+    entrants: 25,
+    first: "Twisty",
+    second: "EduPorp",
+    third: "Kumatora",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
     eventTitle: "Bristol's Basement: Wrath of the Lich King Classic",
     imageUrl: "https://images.start.gg/images/tournament/804165/image-5a87cbe427ec6c49c4065b5702d6d4e0.jpg",
     eventUrl: "https://www.start.gg/tournament/bristol-s-basement-wrath-of-the-lich-king-classic/details",
