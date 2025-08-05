@@ -217,6 +217,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Get Outplayed 8",
+        date: "9/27/25",
+        location: "Peoria, IL, USA",
+        description: "Get Outplayed 8 is here. On September 27, your favorite GRV regional returns for its eighth installment at Bradley University.",
+        imageUrl: "https://images.start.gg/images/tournament/793044/image-4ba9fc219c496585c775ea3edc9d0ed5.png",
+        link: "https://www.start.gg/tournament/get-outplayed-8/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Québecup 2025",
         date: "10/4/25",
         location: "Montréal, QC, Canada",
@@ -272,6 +283,17 @@ const eventsData = [
         stream: "https://twitch.tv/fxgames_gg"
       },
       {
+        name: "Chase the Crown! @ Knox eSports",
+        date: "10/18/25",
+        location: "Knoxville, TN, USA",
+        description: "KNOX ESPORTS SMASH IS GOING BIG! In collaboration between the Melee and Ult scene from Knoxville we present to you... Chase the Crown! at Knox eSports. Also featuring P+ and HDR! Knox Esports offers a sweet gaming space for you to get some games in, enjoy some concessions, and maybe even walk home with some extra cash in your pocket. This tournament is open to players of all skill levels! Whether its your first or your two-hundred-first, we would love to have you!",
+        imageUrl: "https://images.start.gg/images/tournament/811395/image-864709aea60a570f3f39302a39f7b83b.png",
+        link: "https://www.start.gg/tournament/chase-the-crown-knox-esports-5/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Somino Noctem",
         date: "10/31/25 - 11/2/25",
         location: "Purmerend, Netherlands",
@@ -318,7 +340,7 @@ const eventsData = [
     ];
 
 
-    // game 5 + moonshine monthly template
+    // game 5 + moonshine monthly + Unc Frozen's template
     
     //  {
     //   name: "Game 5 In The D #8",
@@ -342,6 +364,17 @@ const eventsData = [
     //   trailer: "",
     //   stream: "https://twitch.tv/kn19h7"
     // },
+    /* {
+        name: "Unc Frozen's Icebox 7",
+        date: "8/23/25",
+        location: "Plano, TX, USA",
+        description: "Welcome to the seventh entry in the Icebox tournament series, presented by your friendly neighborhood Unc Frozen!",
+        imageUrl: "https://images.start.gg/images/tournament/812447/image-9223a0a2f72e5eaef276653f179af67f.jpg",
+        link: "https://www.start.gg/tournament/unc-frozen-s-icebox-7/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://twitch.tv/fxgames_gg"
+      }, */
 
 // Create a single div element to contain all the lists
 const eventsContainer = document.createElement('div');
