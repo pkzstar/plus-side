@@ -118,17 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Rev It Up for Charity!",
-        date: "8/6/25",
-        location: "Oak Park, IL, USA",
-        description: "CALLING ALL MELEE AND 'BRAWL' PLAYERS! Have you ever wanted to contribute to your community and the well-being of those around you while playing your favorite games? For the first time ever, Revy eSports and the Chicago Transgender Association are partnering to bring you a charity event harkening back to the events that made our grassroots community as popular as it is today!",
-        imageUrl: "https://images.start.gg/images/tournament/799668/image-02c7c381abb660e94bdfd60ff9265070.png",
-        link: "https://www.start.gg/tournament/rev-it-up-for-charity/details",
-        rankImg: true, 
-        trailer: "",
-        stream: "https://www.twitch.tv/soulofficer"
-      },
-      {
         name: "St. No John's 11",
         date: "8/8/25 - 8/10/25",
         location: "St. John's, NL, Canada",
@@ -184,6 +173,28 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Mass Madness 52 - Endless Summer",
+        date: "8/16/25",
+        location: "Waltham, MA, USA",
+        description: "Mass Madness returns for another edition! Masks are recommended to be worn while in the venue.",
+        imageUrl: "https://images.start.gg/images/tournament/809255/image-fbc5cb39766a17395349c4e8834c4d34.png",
+        link: "https://www.start.gg/tournament/mass-madness-52-endless-summer/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.youtube.com/@GameUndergroundStore/streams"
+      },
+      {
+        name: "Gecko Cavern 13",
+        date: "8/16/25",
+        location: "Burwood, NSW, Australia",
+        description: "Gecko Cavern 13 is Here! Hosted at Club Burwood along Burwood Road on the top floor of the venue, Gecko Cavern is the tournament series for Project Plus in Sydney! We also feature other games such as Melee, Rivals, and more! ",
+        imageUrl: "https://images.start.gg/images/tournament/814443/image-5e8666e13c4e2f79edf2bd6768b9a689.png",
+        link: "https://www.start.gg/tournament/gecko-cavern-13/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Unc Frozen's Icebox 7",
         date: "8/23/25",
         location: "Plano, TX, USA",
@@ -223,7 +234,7 @@ const eventsData = [
         description: "Get Outplayed 8 is here. On September 27, your favorite GRV regional returns for its eighth installment at Bradley University.",
         imageUrl: "https://images.start.gg/images/tournament/793044/image-4ba9fc219c496585c775ea3edc9d0ed5.png",
         link: "https://www.start.gg/tournament/get-outplayed-8/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: ""
       },

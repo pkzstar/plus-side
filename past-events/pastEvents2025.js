@@ -112,6 +112,19 @@ const eventData = [
 
 
   {
+    eventTitle: "Rev It Up for Charity!",
+    imageUrl: "https://images.start.gg/images/tournament/799668/image-02c7c381abb660e94bdfd60ff9265070.png",
+    eventUrl: "https://www.start.gg/tournament/rev-it-up-for-charity/details",
+    date: "August 6 2025",
+    location: "Illinois",
+    entrants: 32,
+    first: "Chaloopy",
+    second: "Comb",
+    third: "ORLY",
+    vodsUrl: "https://youtube.com/watch?v=3Z_L3yh_bec",
+    hideRankImage: false
+  },
+  {
     eventTitle: "Allston Allstars V - Tom's Birthday Bash!",
     imageUrl: "https://images.start.gg/images/tournament/804685/image-95c4ad4dc1960e3d8efe1666db6a042a.png",
     eventUrl: "https://www.start.gg/tournament/allston-allstars-v-tom-s-birthday-bash/details",
@@ -225,7 +238,7 @@ const eventData = [
     first: "Joshman",
     second: "Tyler",
     third: "Rayquazaman812",
-    vodsUrl: "https://www.twitch.tv/videos/2517228518",
+    vodsUrl: "https://www.twitch.tv/videos/2523606926",
     hideRankImage: true
   },
   {

@@ -4488,6 +4488,14 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/night-of-the-living-ded-5-melee-p/details",
                 imageSrc: "https://images.start.gg/images/tournament/810567/image-57519baa7115494776be96b98e3da25a.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/mass-madness-52-endless-summer/details",
+                imageSrc: "https://images.start.gg/images/tournament/809255/image-fbc5cb39766a17395349c4e8834c4d34.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/gecko-cavern-13/details",
+                imageSrc: "https://images.start.gg/images/tournament/814443/image-5e8666e13c4e2f79edf2bd6768b9a689.png"
             }
     
         ];
