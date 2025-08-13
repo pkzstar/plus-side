@@ -4545,7 +4545,7 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-        // UFI7 + PicoP10
+        // UFI7 + PicoP10 + DoNotSkate
         } else if (month === 7 && (date === 23) && year === 2025) {
         const events = [
             {   
@@ -4556,6 +4556,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/pico-plus-10-super-pico-or-something/details",
                 imageSrc: "https://images.start.gg/images/tournament/812842/image-42847d3266ce122c517df1e71c1dd7e0.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/do-not-skate/details",
+                imageSrc: "https://images.start.gg/images/tournament/811431/image-b3ede5aed6cf5f1de165d90bc5b5c78e.png"
             }
     
         ];
@@ -4637,7 +4641,23 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // QBC 2025 + BMM2 + Ascension 2
+        // G5itW Day 1
+        } else if (month === 9 && (date === 3) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/game-5-in-the-woods-1/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/812714/image-100a76ebb3235581eb4147e4b1af4ffe.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // QBC 2025 + BMM2 + Ascension 2 + G5itW
         } else if (month === 9 && (date === 4) && year === 2025) {
         const events = [
             {   
@@ -4652,6 +4672,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/ascension-2-5/details",
                 imageSrc: "https://images.start.gg/images/tournament/812007/image-c129195c1c32f585af14b10d0ecd3dcc.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/game-5-in-the-woods-1/details",
+                imageSrc: "https://images.start.gg/images/tournament/812714/image-100a76ebb3235581eb4147e4b1af4ffe.png"
             }
     
         ];
@@ -4700,6 +4724,22 @@ function showCalendar(month, year) {
     
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
+
+        // G5itW Day 3
+        } else if (month === 9 && (date === 5) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/game-5-in-the-woods-1/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/812714/image-100a76ebb3235581eb4147e4b1af4ffe.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
 
         // Ruffled Feathers
         } else if (month === 9 && (date === 11) && year === 2025) {
@@ -4777,6 +4817,22 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
+        // RK2
+        } else if (month === 9 && date === 25 && year === 2025){
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/rat-kings-2/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/817217/image-c97bbc06a38a79c032e6369d519f565c.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+        
         // Somino Noctem
         } else if ((month === 9 && date === 31 && year === 2025) || (month === 10 && (date === 1 || date === 2) && year === 2025)){
         // Example link with image
