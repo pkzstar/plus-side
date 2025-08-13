@@ -112,6 +112,45 @@ const eventData = [
 
 
   {
+    eventTitle: "Construct X: 2025",
+    imageUrl: "https://images.start.gg/images/tournament/794501/image-8794fe27cd441ebf73297992d28f01b8.png",
+    eventUrl: "https://www.start.gg/tournament/construct-x-2025/details",
+    date: "August 10 2025",
+    location: "Wisconsin",
+    entrants: 25,
+    first: "SoulOfficer",
+    second: "Kendrick",
+    third: "Jackie",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "˅⁰𝚒Ꮷ 𝘕𝖊Ⱃʯ𝗹𝜶 2: Eternity",
+    imageUrl: "https://images.start.gg/images/tournament/808583/image-57f90de8d46034f1db69dac305f20b3a.jpg",
+    eventUrl: "https://www.start.gg/tournament/2-eternity/details",
+    date: "August 9 2025",
+    location: "Virginia",
+    entrants: 49,
+    first: "Morsecode762",
+    second: "essy",
+    third: "reslived",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "St. No John's 11",
+    imageUrl: "https://images.start.gg/images/tournament/762867/image-5186c03397ad9db4b9df2f145a778d81.png",
+    eventUrl: "https://www.start.gg/tournament/st-no-john-s-11/details",
+    date: "August 8-10 2025",
+    location: "Newfoundland",
+    entrants: 34,
+    first: "slickNL",
+    second: "nunavut kaiju",
+    third: "Josh MagBrag",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Rev It Up for Charity!",
     imageUrl: "https://images.start.gg/images/tournament/799668/image-02c7c381abb660e94bdfd60ff9265070.png",
     eventUrl: "https://www.start.gg/tournament/rev-it-up-for-charity/details",

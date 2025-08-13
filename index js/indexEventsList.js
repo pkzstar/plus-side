@@ -118,39 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "St. No John's 11",
-        date: "8/8/25 - 8/10/25",
-        location: "St. John's, NL, Canada",
-        description: "SmashNL is excited to continue with St. No John's, one of our biggest tournament series that started back in 2014! We are hoping to continue on the momentum gained with SNJX last year, pushing upwards of 200 total attendees throughout the weekend and an increased attendance from out-of-region competitors!",
-        imageUrl: "https://images.start.gg/images/tournament/762867/image-5186c03397ad9db4b9df2f145a778d81.png",
-        link: "https://www.start.gg/tournament/st-no-john-s-11/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: " ˅⁰𝚒Ꮷ 𝘕𝖊Ⱃʯ𝗹𝜶 2: Eternity ",
-        date: "8/9/25",
-        location: "Chantilly, VA, USA",
-        description: "you can't find a way to kill us. find what you're looking for in the back of the brickmania capital store, a mere 1 minute walk from the dulles exposition center. last year, it was difficult. we had to put our knuckles to the grindstone to accomplish a PROJECT so Magnificent, PLUS, we were working on short notice. this time, it will be different. join us.",
-        imageUrl: "https://images.start.gg/images/tournament/808583/image-57f90de8d46034f1db69dac305f20b3a.jpg",
-        link: "https://www.start.gg/tournament/2-eternity/details",
-        rankImg: true, 
-        trailer: "",
-        stream: "https://www.twitch.tv/essy531"
-      },
-      {
-        name: "Construct X: 2025",
-        date: "8/10/25",
-        location: "Milwaukee, WI, USA",
-        description: "A tool for the Resistance, void of dimension, yet so powerful it presents a danger to the senses. initiate simulation overload.",
-        imageUrl: "https://images.start.gg/images/tournament/794501/image-8794fe27cd441ebf73297992d28f01b8.png",
-        link: "https://www.start.gg/tournament/construct-x-2025/details",
-        rankImg: true, 
-        trailer: "",
-        stream: "https://twitch.tv/wisconsinsmash2"
-      },
-      {
         name: "Gold Rush",
         date: "8/16/25",
         location: "Lakewood, CO, USA",
@@ -192,7 +159,7 @@ const eventsData = [
         link: "https://www.start.gg/tournament/gecko-cavern-13/details",
         rankImg: false, 
         trailer: "",
-        stream: ""
+        stream: "https://www.twitch.tv/ultimentm"
       },
       {
         name: "Unc Frozen's Icebox 7",
@@ -212,6 +179,17 @@ const eventsData = [
         description: "SOCAL P+ IS BACK! Introducing Pico Plus, a brand new Project+ local in the heart of Pico Rivera, CA",
         imageUrl: "https://images.start.gg/images/tournament/812842/image-42847d3266ce122c517df1e71c1dd7e0.png",
         link: "https://www.start.gg/tournament/pico-plus-10-super-pico-or-something/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.twitch.tv/socalpm"
+      },
+      {
+        name: "DO NOT SKATE",
+        date: "8/23/25",
+        location: "North Bergen, NJ, USA",
+        description: "Skating is not permitted inside of the venue! We're gonna do it anyway, because it's just a video game. This tournament is a dream Project of Mine. Live at The Boulevard in North Bergen, NJ, this venue has ample parking, and concessions sold inside.",
+        imageUrl: "https://images.start.gg/images/tournament/811431/image-b3ede5aed6cf5f1de165d90bc5b5c78e.png",
+        link: "https://www.start.gg/tournament/do-not-skate/details",
         rankImg: false, 
         trailer: "",
         stream: "https://www.twitch.tv/socalpm"
@@ -239,13 +217,24 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Game 5 In The Woods!",
+        date: "10/3/25 - 10/5/25",
+        location: "Pentwater, MI, USA",
+        description: "Introducing Game 5 In The Woods! Michigan's Newest Retreat Tournament located at Lake Michigan Family Campground! We welcome all valiant competitors to our local P+ scene's first retreat tournament! Featuring a field trip like bus ride to the venue, plenty of outdoor amenities, your favorite players, and much, much more, this will be a historic event you won't want to miss!",
+        imageUrl: "https://images.start.gg/images/tournament/812714/image-100a76ebb3235581eb4147e4b1af4ffe.png",
+        link: "https://www.start.gg/tournament/game-5-in-the-woods-1/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.twitch.tv/game5projectplus"
+      },
+      {
         name: "Québecup 2025",
         date: "10/4/25",
         location: "Montréal, QC, Canada",
         description: "TOKÉBAKICITTE! Welcome to Montréal! Québecup 2025 is a one day major with Melee, Ultimate, P+",
         imageUrl: "https://images.start.gg/images/tournament/798250/image-9559b71c9580d8937051eddb2aaa0917.png",
         link: "https://www.start.gg/tournament/qu-becup-2025/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: ""
       },
@@ -302,7 +291,18 @@ const eventsData = [
         link: "https://www.start.gg/tournament/chase-the-crown-knox-esports-5/details",
         rankImg: false, 
         trailer: "",
-        stream: ""
+        stream: "https://www.twitch.tv/jaysonmoistrice"
+      },
+      {
+        name: "Rat Kings 2",
+        date: "10/25/25",
+        location: "Goodlettsville, TN, USA",
+        description: "doin a thing @ tnlg. Melee/P+ and ult now woah! it's at the mall",
+        imageUrl: "https://images.start.gg/images/tournament/817217/image-c97bbc06a38a79c032e6369d519f565c.png",
+        link: "https://www.start.gg/tournament/rat-kings-2/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.twitch.tv/jaysonmoistrice"
       },
       {
         name: "Somino Noctem",
@@ -323,8 +323,8 @@ const eventsData = [
         imageUrl: "https://images.start.gg/images/tournament/784887/image-19e0f4dffa7bc1c0d7a0579be64d4879.jpg",
         link: "https://www.start.gg/tournament/show-me-your-moves-25/details",
         rankImg: true, 
-        trailer: "https://www.twitch.tv/pplusside",
-        stream: ""
+        trailer: "https://x.com/UIUCSmash/status/1943138575794733460",
+        stream: "https://www.twitch.tv/pplusside"
       },
       {
         name: "One More Game",
