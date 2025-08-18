@@ -4817,21 +4817,85 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-        // RK2
-        } else if (month === 9 && date === 25 && year === 2025){
+        // Into the Depths day 1/3
+        } else if (month === 9 && (date === 24 || date === 26) && year === 2025){
         // Example link with image
         let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/rat-kings-2/details";
+        link.href = "https://www.start.gg/tournament/into-the-depths-1/details";
         link.target = "_blank";
     
         let image = document.createElement("img");
-        image.src = "https://images.start.gg/images/tournament/817217/image-c97bbc06a38a79c032e6369d519f565c.png";
+        image.src = "https://images.start.gg/images/tournament/804286/image-4ec5e7679af683144500ead153e819a8.png";
     
         image.classList.add("calendarImg");
     
     
         link.appendChild(image);
         cell.appendChild(link);
+
+        // DST + RK2 + Into the depths day 2
+        } else if (month === 9 && date === 25 && year === 2025){
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/deep-space-tussle/details",
+                imageSrc: "https://images.start.gg/images/tournament/815936/image-74bb73b4a4d073d523a64f21b062b769.png"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/rat-kings-2/details",
+                imageSrc: "https://images.start.gg/images/tournament/817217/image-c97bbc06a38a79c032e6369d519f565c.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/into-the-depths-1/details",
+                imageSrc: "https://images.start.gg/images/tournament/804286/image-4ec5e7679af683144500ead153e819a8.png"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
+        let link = document.createElement("a");
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+    
+        image.classList.add("calendarImg");
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
         
         // Somino Noctem
         } else if ((month === 9 && date === 31 && year === 2025) || (month === 10 && (date === 1 || date === 2) && year === 2025)){

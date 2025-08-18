@@ -112,6 +112,58 @@ const eventData = [
 
 
   {
+    eventTitle: "Gecko Cavern 13",
+    imageUrl: "https://images.start.gg/images/tournament/814443/image-5e8666e13c4e2f79edf2bd6768b9a689.png",
+    eventUrl: "https://www.start.gg/tournament/gecko-cavern-13/details",
+    date: "August 16 2025",
+    location: "Massachussets",
+    entrants: 23,
+    first: "Ryzuul",
+    second: "Star",
+    third: "RNGReallyNotGood",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Mass Madness 52 - Endless Summer",
+    imageUrl: "https://images.start.gg/images/tournament/809255/image-fbc5cb39766a17395349c4e8834c4d34.png",
+    eventUrl: "https://www.start.gg/tournament/mass-madness-52-endless-summer/details",
+    date: "August 16 2025",
+    location: "Massachussets",
+    entrants: 6,
+    first: "Motobug",
+    second: "essy",
+    third: "Golden",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Night of the living DED #5",
+    imageUrl: "https://images.start.gg/images/tournament/810567/image-57519baa7115494776be96b98e3da25a.png",
+    eventUrl: "https://www.start.gg/tournament/night-of-the-living-ded-5-melee-p/details",
+    date: "August 16 2025",
+    location: "New York",
+    entrants: 15,
+    first: "Aklo",
+    second: "Mulldrifter",
+    third: "Epoodle",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Gold Rush",
+    imageUrl: "https://images.start.gg/images/tournament/800623/image-8b92e2a8e28481295ea4e27c9def6993.png",
+    eventUrl: "https://www.start.gg/tournament/gold-rush-10/details",
+    date: "August 16 2025",
+    location: "Colorado",
+    entrants: 34,
+    first: "polear",
+    second: "Triforce Trampstamp",
+    third: "Tuck",
+    vodsUrl: "https://www.youtube.com/playlist?list=PL_OBsvMFKQ5TtrTzhyz76xeCMvIOlODSj",
+    hideRankImage: false
+  },
+  {
     eventTitle: "Construct X: 2025",
     imageUrl: "https://images.start.gg/images/tournament/794501/image-8794fe27cd441ebf73297992d28f01b8.png",
     eventUrl: "https://www.start.gg/tournament/construct-x-2025/details",
