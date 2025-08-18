@@ -118,50 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Gold Rush",
-        date: "8/16/25",
-        location: "Lakewood, CO, USA",
-        description: "Welcome to Gold Rush! Join us at Localhost Denver for another Colorado P+ classic",
-        imageUrl: "https://images.start.gg/images/tournament/800623/image-8b92e2a8e28481295ea4e27c9def6993.png",
-        link: "https://www.start.gg/tournament/gold-rush-10/details",
-        rankImg: true, 
-        trailer: "",
-        stream: "https://www.twitch.tv/coloradoprojectplus"
-      },
-      {
-        name: "Night of the living DED #5",
-        date: "8/16/25",
-        location: "Port Chester, NY, USA",
-        description: "We have free parking in the Waterfront Parking Lot behind the venue, or paid parking on the street in the surrounding area. We have dedicated per player CRTs and Wiis available for all Contenstants. However extra setups are always welcome, and space will be allocated for extra setups for friendlies + Side Games such as P+",
-        imageUrl: "https://images.start.gg/images/tournament/810567/image-57519baa7115494776be96b98e3da25a.png",
-        link: "https://www.start.gg/tournament/night-of-the-living-ded-5-melee-p/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Mass Madness 52 - Endless Summer",
-        date: "8/16/25",
-        location: "Waltham, MA, USA",
-        description: "Mass Madness returns for another edition! Masks are recommended to be worn while in the venue.",
-        imageUrl: "https://images.start.gg/images/tournament/809255/image-fbc5cb39766a17395349c4e8834c4d34.png",
-        link: "https://www.start.gg/tournament/mass-madness-52-endless-summer/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.youtube.com/@GameUndergroundStore/streams"
-      },
-      {
-        name: "Gecko Cavern 13",
-        date: "8/16/25",
-        location: "Burwood, NSW, Australia",
-        description: "Gecko Cavern 13 is Here! Hosted at Club Burwood along Burwood Road on the top floor of the venue, Gecko Cavern is the tournament series for Project Plus in Sydney! We also feature other games such as Melee, Rivals, and more! ",
-        imageUrl: "https://images.start.gg/images/tournament/814443/image-5e8666e13c4e2f79edf2bd6768b9a689.png",
-        link: "https://www.start.gg/tournament/gecko-cavern-13/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/ultimentm"
-      },
-      {
         name: "Unc Frozen's Icebox 7",
         date: "8/23/25",
         location: "Plano, TX, USA",
@@ -179,7 +135,7 @@ const eventsData = [
         description: "SOCAL P+ IS BACK! Introducing Pico Plus, a brand new Project+ local in the heart of Pico Rivera, CA",
         imageUrl: "https://images.start.gg/images/tournament/812842/image-42847d3266ce122c517df1e71c1dd7e0.png",
         link: "https://www.start.gg/tournament/pico-plus-10-super-pico-or-something/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: "https://www.twitch.tv/socalpm"
       },
@@ -292,6 +248,28 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: "https://www.twitch.tv/jaysonmoistrice"
+      },
+      {
+        name: "Into The Depths",
+        date: "10/24/25 - 10/26/25",
+        location: "Midwest City, OK, USA",
+        description: "Metro Plat Vods Presents: Into The Depths!",
+        imageUrl: "https://images.start.gg/images/tournament/804286/image-4ec5e7679af683144500ead153e819a8.png",
+        link: "https://www.start.gg/tournament/into-the-depths-1/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.twitch.tv/metrosmashvods"
+      },
+      {
+        name: "Deep Space Tussle",
+        date: "10/25/25",
+        location: "Normal, IL, USA",
+        description: "WE'RE GOING TO SPACE. New atmosphere, same Tussle. From the team at Plus Side, along with help from Motobug and BloNo Smash, the next tournament in the Tussle series is here.",
+        imageUrl: "https://images.start.gg/images/tournament/815936/image-74bb73b4a4d073d523a64f21b062b769.png",
+        link: "https://www.start.gg/tournament/deep-space-tussle/details",
+        rankImg: true, 
+        trailer: "https://www.youtube.com/watch?v=ZnOkBWQ8Mxo",
+        stream: "https://www.twitch.tv/pplusside"
       },
       {
         name: "Rat Kings 2",
