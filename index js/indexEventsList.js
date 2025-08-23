@@ -148,7 +148,7 @@ const eventsData = [
         link: "https://www.start.gg/tournament/do-not-skate/details",
         rankImg: false, 
         trailer: "",
-        stream: "https://www.twitch.tv/socalpm"
+        stream: "https://www.twitch.tv/essy531"
       },
       {
         name: "Dream Rotation #2 - Winner Stays",
