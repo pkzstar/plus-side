@@ -118,45 +118,23 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Unc Frozen's Icebox 7",
-        date: "8/23/25",
-        location: "Plano, TX, USA",
-        description: "Welcome to the seventh entry in the Icebox tournament series, presented by your friendly neighborhood Unc Frozen!",
-        imageUrl: "https://images.start.gg/images/tournament/812447/image-9223a0a2f72e5eaef276653f179af67f.jpg",
-        link: "https://www.start.gg/tournament/unc-frozen-s-icebox-7/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://twitch.tv/fxgames_gg"
-      },
-      {
-        name: "Pico Plus #10 - Super Pico or something",
-        date: "8/23/25",
-        location: "Pico Rivera, CA, USA",
-        description: "SOCAL P+ IS BACK! Introducing Pico Plus, a brand new Project+ local in the heart of Pico Rivera, CA",
-        imageUrl: "https://images.start.gg/images/tournament/812842/image-42847d3266ce122c517df1e71c1dd7e0.png",
-        link: "https://www.start.gg/tournament/pico-plus-10-super-pico-or-something/details",
-        rankImg: true, 
-        trailer: "",
-        stream: "https://www.twitch.tv/socalpm"
-      },
-      {
-        name: "DO NOT SKATE",
-        date: "8/23/25",
-        location: "North Bergen, NJ, USA",
-        description: "Skating is not permitted inside of the venue! We're gonna do it anyway, because it's just a video game. This tournament is a dream Project of Mine. Live at The Boulevard in North Bergen, NJ, this venue has ample parking, and concessions sold inside.",
-        imageUrl: "https://images.start.gg/images/tournament/811431/image-b3ede5aed6cf5f1de165d90bc5b5c78e.png",
-        link: "https://www.start.gg/tournament/do-not-skate/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/essy531"
-      },
-      {
         name: "Dream Rotation #2 - Winner Stays",
         date: "9/13/25",
         location: "Pittsburgh, PA, USA",
         description: "Dream Rotation is Pittsburgh's dreamiest monthly tournament series for alternative platform fighters! This series features an exciting venue filled with fun activities, plenty of time for friendlies, a rotating late-night bracket, a safe competitive environment for all attendees, and high-stakes competition!",
         imageUrl: "https://images.start.gg/images/tournament/801105/image-99439f35d3d1c5d1bc6c7a2bd7904487.png",
         link: "https://www.start.gg/tournament/dream-rotation-2-winner-stays/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Mahtay Melee - Summer '25 Edition",
+        date: "9/20/25",
+        location: "St. Catharines, ON, Canada",
+        description: "Make the drive to Niagara on Saturday, September 20th for Mahtay Melee, a one-day tournament hosted in an amazing community-focused venue, the Mahtay Café & Lounge in St. Catharines, ON.",
+        imageUrl: "https://images.start.gg/images/tournament/810534/image-b0813696d50fa0323c0c80c5f16b25bf.jpg",
+        link: "https://www.start.gg/tournament/mahtay-melee-summer-25-edition/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -169,6 +147,17 @@ const eventsData = [
         imageUrl: "https://images.start.gg/images/tournament/793044/image-4ba9fc219c496585c775ea3edc9d0ed5.png",
         link: "https://www.start.gg/tournament/get-outplayed-8/details",
         rankImg: true, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Who's on Ledge? 13 (SDIowa 5 Qualifier)",
+        date: "9/27/25",
+        location: "Des Moines, IA, USA",
+        description: "DMGC presents Who's on Ledge? Our monthly tournament series featuring Super Smash Bros. Melee, Ultimate, Project+, and Rivals of Aether II at RezBlue Arena!",
+        imageUrl: "https://images.start.gg/images/tournament/820011/image-c956b372325fc1a9c7521ca1812380d5.png",
+        link: "https://www.start.gg/tournament/who-s-on-ledge-13-sdiowa-5-qualifier/details",
+        rankImg: false, 
         trailer: "",
         stream: ""
       },
@@ -201,7 +190,7 @@ const eventsData = [
         description: "A Monthly in San Antonio, TX",
         imageUrl: "https://images.start.gg/images/tournament/807108/image-0595a918d6b8ca84ec4b24e944867117.png",
         link: "https://www.start.gg/tournament/the-big-money-monthly-2-400-pot-bonus/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: "https://www.twitch.tv/sapplus"
       },
@@ -286,9 +275,20 @@ const eventsData = [
         name: "Somino Noctem",
         date: "10/31/25 - 11/2/25",
         location: "Purmerend, Netherlands",
-        description: " SOMNIO NOCTEM - EU Major - October 31st, November 1st & 2nd 2025. FROM THE PEOPLE THAT BROUGHT YOU DREAMHACK ROTTERDAM 2019 & 2022, SECTOR Z, SOMNIO SERIES AND MORE!",
+        description: "SOMNIO NOCTEM - EU Major - October 31st, November 1st & 2nd 2025. FROM THE PEOPLE THAT BROUGHT YOU DREAMHACK ROTTERDAM 2019 & 2022, SECTOR Z, SOMNIO SERIES AND MORE!",
         imageUrl: "https://images.start.gg/images/tournament/799120/image-95004b80bfa048142c0f77fde12a5868.png",
         link: "https://www.start.gg/tournament/somnio-noctem/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "The Bird House 14: Winter Formal",
+        date: "11/1/25",
+        location: "Normal, IL, USA",
+        description: "The Bird House is back and snazzier than ever! This November 1st, The Bird House is returning to Illinois State University with a bit more bravo! Hosted in the Bone Student Center's Old Main Room, ISU's premiere regional tournament is coming back in style!",
+        imageUrl: "https://images.start.gg/images/tournament/816692/image-3d9f142e14300ece28aff766c1734c25.png",
+        link: "https://www.start.gg/tournament/the-bird-house-14-winter-formal/details",
         rankImg: false, 
         trailer: "",
         stream: ""
