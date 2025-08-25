@@ -112,6 +112,45 @@ const eventData = [
 
 
   {
+    eventTitle: "DO NOT SKATE",
+    imageUrl: "https://images.start.gg/images/tournament/811431/image-b3ede5aed6cf5f1de165d90bc5b5c78e.png",
+    eventUrl: "https://www.start.gg/tournament/do-not-skate/details",
+    date: "August 23 2025",
+    location: "New Jersey",
+    entrants: 21,
+    first: "Shiny Zubat",
+    second: "essy",
+    third: "Shadowhawke",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "Pico Plus #10 - Super Pico or something",
+    imageUrl: "https://images.start.gg/images/tournament/812842/image-42847d3266ce122c517df1e71c1dd7e0.png",
+    eventUrl: "https://www.start.gg/tournament/pico-plus-10-super-pico-or-something/details",
+    date: "August 23 2025",
+    location: "California",
+    entrants: 39,
+    first: "Nezergy",
+    second: "Suvir",
+    third: "Saaxir",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "Unc Frozen's Icebox 7",
+    imageUrl: "https://images.start.gg/images/tournament/812447/image-9223a0a2f72e5eaef276653f179af67f.jpg",
+    eventUrl: "https://www.start.gg/tournament/unc-frozen-s-icebox-7/details",
+    date: "August 23 2025",
+    location: "Texas",
+    entrants: 12,
+    first: "Apathy",
+    second: "J-am",
+    third: "Wish",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Gecko Cavern 13",
     imageUrl: "https://images.start.gg/images/tournament/814443/image-5e8666e13c4e2f79edf2bd6768b9a689.png",
     eventUrl: "https://www.start.gg/tournament/gecko-cavern-13/details",

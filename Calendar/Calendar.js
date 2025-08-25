@@ -4625,21 +4625,81 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // go8
-        } else if (month === 8 && (date === 27) && year === 2025) {
+        // Mahtay Melee Summer 25
+        } else if (month === 8 && (date === 20) && year === 2025) {
         // Example link with image
         let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/get-outplayed-8/details";
+        link.href = "https://www.start.gg/tournament/mahtay-melee-summer-25-edition/details";
         link.target = "_blank";
     
         let image = document.createElement("img");
-        image.src = "https://images.start.gg/images/tournament/793044/image-4ba9fc219c496585c775ea3edc9d0ed5.png";
+        image.src = "https://images.start.gg/images/tournament/810534/image-b0813696d50fa0323c0c80c5f16b25bf.jpg";
     
         image.classList.add("calendarImg");
     
     
         link.appendChild(image);
         cell.appendChild(link);
+
+        // go8 + WoL 13
+        } else if (month === 8 && (date === 27) && year === 2025) {
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/get-outplayed-8/details",
+                imageSrc: "https://images.start.gg/images/tournament/793044/image-4ba9fc219c496585c775ea3edc9d0ed5.png"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/who-s-on-ledge-13-sdiowa-5-qualifier/details",
+                imageSrc: "https://images.start.gg/images/tournament/820011/image-c956b372325fc1a9c7521ca1812380d5.png"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
+        let link = document.createElement("a");
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+    
+        image.classList.add("calendarImg");
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
         // G5itW Day 1
         } else if (month === 9 && (date === 3) && year === 2025) {
@@ -4898,7 +4958,7 @@ function showCalendar(month, year) {
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
         
         // Somino Noctem
-        } else if ((month === 9 && date === 31 && year === 2025) || (month === 10 && (date === 1 || date === 2) && year === 2025)){
+        } else if ((month === 9 && date === 31 && year === 2025) || (month === 10 && (date === 2) && year === 2025)){
         // Example link with image
         let link = document.createElement("a");
         link.href = "https://www.start.gg/tournament/somnio-noctem/details";
@@ -4912,6 +4972,66 @@ function showCalendar(month, year) {
     
         link.appendChild(image);
         cell.appendChild(link);
+
+        // Somino Noctem Day 2 + Bird House 14
+        } else if (month === 10 && (date === 1) && year === 2025) {
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/somnio-noctem/details",
+                imageSrc: "https://images.start.gg/images/tournament/799120/image-95004b80bfa048142c0f77fde12a5868.png"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/the-bird-house-14-winter-formal/details",
+                imageSrc: "https://images.start.gg/images/tournament/816692/image-3d9f142e14300ece28aff766c1734c25.png"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
+        let link = document.createElement("a");
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+    
+        image.classList.add("calendarImg");
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
         // SMYM 25
         } else if (month === 10 && (date === 15) && year === 2025) {
