@@ -162,6 +162,28 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Unc Frozen's Icebox 8",
+        date: "9/27/25",
+        location: "Plano, TX, USA",
+        description: "Welcome to the eighth entry in the Icebox tournament series, Unc Frozen's Birthday Bash, presented by your friendly neighborhood Unc Frozen!",
+        imageUrl: "https://images.start.gg/images/tournament/812456/image-4167347f6a5141a897344ee39c4e94f6.jpg",
+        link: "https://www.start.gg/tournament/unc-frozen-s-icebox-8-1/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.twitch.tv/fxgames_gg"
+      },
+      {
+        name: "Night of the living DED #6",
+        date: "9/27/25",
+        location: "Port Chester, NY, USA",
+        description: "We have free parking in the 'Waterfront Parking Lot' behind the venue, or paid parking on the street in the surrounding area. We have dedicated per player CRTs and wiis available for all contenstants. Extra setups are welcome but space for any extra setups cannot be guaranteed. ",
+        imageUrl: "https://images.start.gg/images/tournament/821585/image-dfa691353747d79e2d4964fdbe2c8182.png",
+        link: "https://www.start.gg/tournament/night-of-the-living-ded-6-melee-p/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.twitch.tv/ded__gaming"
+      },
+      {
         name: "Game 5 In The Woods!",
         date: "10/3/25 - 10/5/25",
         location: "Pentwater, MI, USA",
@@ -204,17 +226,6 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: ""
-      },
-      {
-        name: "Ruffled Feathers",
-        date: "10/11/25",
-        location: "Florissant, MO, USA",
-        description: "A regional in MO",
-        imageUrl: "https://images.start.gg/images/tournament/796666/image-8f001c9be7d679a22099e1332e3aae1b.jpg",
-        link: "https://www.start.gg/tournament/ruffled-feathers/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/stl_projectplus"
       },
       {
         name: "Unc Frozen's Icebox 9: Extra Spooky Edition",
