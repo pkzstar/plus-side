@@ -4609,6 +4609,22 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
+        // HoN4
+        } else if (month === 7 && (date === 31) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/house-of-nimbus-4/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/818519/image-0729d0e2842572c0f2abfbf1782487b2.jpg";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
         // droto2
         } else if (month === 8 && (date === 13) && year === 2025) {
         // Example link with image
@@ -4641,7 +4657,7 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // go8 + WoL 13
+        // go8 + WoL 13 + UFI8 + NotlD6
         } else if (month === 8 && (date === 27) && year === 2025) {
         const events = [
             {   
@@ -4652,6 +4668,14 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/who-s-on-ledge-13-sdiowa-5-qualifier/details",
                 imageSrc: "https://images.start.gg/images/tournament/820011/image-c956b372325fc1a9c7521ca1812380d5.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/unc-frozen-s-icebox-8-1/details",
+                imageSrc: "https://images.start.gg/images/tournament/812456/image-4167347f6a5141a897344ee39c4e94f6.jpg"
+            },
+            {
+                link: "https://www.start.gg/tournament/night-of-the-living-ded-6-melee-p/details",
+                imageSrc: "https://images.start.gg/images/tournament/821585/image-dfa691353747d79e2d4964fdbe2c8182.png"
             }
     
         ];
@@ -4794,22 +4818,6 @@ function showCalendar(month, year) {
     
         let image = document.createElement("img");
         image.src = "https://images.start.gg/images/tournament/812714/image-100a76ebb3235581eb4147e4b1af4ffe.png";
-    
-        image.classList.add("calendarImg");
-    
-    
-        link.appendChild(image);
-        cell.appendChild(link);
-
-        // Ruffled Feathers
-        } else if (month === 9 && (date === 11) && year === 2025) {
-        // Example link with image
-        let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/ruffled-feathers/details";
-        link.target = "_blank";
-    
-        let image = document.createElement("img");
-        image.src = "https://images.start.gg/images/tournament/796666/image-8f001c9be7d679a22099e1332e3aae1b.jpg";
     
         image.classList.add("calendarImg");
     
