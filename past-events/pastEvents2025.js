@@ -112,6 +112,19 @@ const eventData = [
 
 
   {
+    eventTitle: "Big Ohio Tournament",
+    imageUrl: "../images/past-events/BOT.png",
+    eventUrl: "../images/past-events/",
+    date: "September 7 2025",
+    location: "Ohio",
+    entrants: 79,
+    first: "RapMonster",
+    second: "Morsecode762",
+    third: "Not Chris",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
     eventTitle: "House of Numbus 4",
     imageUrl: "https://images.start.gg/images/tournament/818519/image-0729d0e2842572c0f2abfbf1782487b2.jpg",
     eventUrl: "https://www.start.gg/tournament/house-of-nimbus-4/details",
@@ -126,7 +139,7 @@ const eventData = [
   },
   {
     eventTitle: "DO NOT SKATE",
-    imageUrl: "https://images.start.gg/images/tournament/811431/image-b3ede5aed6cf5f1de165d90bc5b5c78e.png",
+    imageUrl: "https://images.start.gg/images/tournament/811431/image-b160a9181846ac1c8d5d7491df46670a.png",
     eventUrl: "https://www.start.gg/tournament/do-not-skate/details",
     date: "August 23 2025",
     location: "New Jersey",
@@ -168,12 +181,12 @@ const eventData = [
     imageUrl: "https://images.start.gg/images/tournament/814443/image-5e8666e13c4e2f79edf2bd6768b9a689.png",
     eventUrl: "https://www.start.gg/tournament/gecko-cavern-13/details",
     date: "August 16 2025",
-    location: "Massachussets",
+    location: "NSW",
     entrants: 23,
     first: "Ryzuul",
     second: "Star",
     third: "RNGReallyNotGood",
-    vodsUrl: "",
+    vodsUrl: "https://youtu.be/TbseUza4ZSg?si=ZztAi-715Om8foGS",
     hideRankImage: true
   },
   {

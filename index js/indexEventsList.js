@@ -140,6 +140,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Gecko Cavern 14",
+        date: "9/20/25",
+        location: "Burwood, NSW, Austrailia",
+        description: "Gecko Cavern 14 is on its way! Hosted at Club Burwood along Burwood Road on the top floor of the venue, Gecko Cavern is the tournament series for Project Plus in Sydney! We also feature other games such as Melee, Rivals of Aether, and more!",
+        imageUrl: "https://images.start.gg/images/tournament/826307/image-a030a32e1e230b7bb79568254756001c.png",
+        link: "https://www.start.gg/tournament/gecko-cavern-14/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Get Outplayed 8",
         date: "9/27/25",
         location: "Peoria, IL, USA",
@@ -182,6 +193,17 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: "https://www.twitch.tv/ded__gaming"
+      },
+      {
+        name: "Pico Plus #11",
+        date: "9/27/25",
+        location: "Pico Rivera, CA, USA",
+        description: "SOCAL P+ IS BACK! Introducing Pico Plus, a brand new Project+ local in the heart of Pico Rivera, CA",
+        imageUrl: "https://images.start.gg/images/tournament/825404/image-85414f173df05dafd8c4f3aabd1f645a.png",
+        link: "https://www.start.gg/tournament/pico-plus-11/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.twitch.tv/socalpm"
       },
       {
         name: "Game 5 In The Woods!",
@@ -265,7 +287,7 @@ const eventsData = [
         date: "10/25/25",
         location: "Normal, IL, USA",
         description: "WE'RE GOING TO SPACE. New atmosphere, same Tussle. From the team at Plus Side, along with help from Motobug and BloNo Smash, the next tournament in the Tussle series is here.",
-        imageUrl: "https://images.start.gg/images/tournament/815936/image-74bb73b4a4d073d523a64f21b062b769.png",
+        imageUrl: "https://images.start.gg/images/tournament/815936/image-ad01466e083a7c957ab5113a42b5d00f.png",
         link: "https://www.start.gg/tournament/deep-space-tussle/details",
         rankImg: true, 
         trailer: "https://www.youtube.com/watch?v=ZnOkBWQ8Mxo",
@@ -305,6 +327,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Condo of Blood 6: The Nintendo Switching Hour",
+        date: "11/1/25",
+        location: "Mississauga, ON, Canada",
+        description: "Condo of Blood is an Ontario Project Plus and Rivals of Aether 2 regional hosted directly beside the Port Credit GO station, but this time read this description in a scary voice. This accessible recurring tournament series will feature top Ontario talent and is designed fully around our shared love of these platform fighters.",
+        imageUrl: "https://images.start.gg/images/tournament/824855/image-baac4749e20688a618512441b58ac0f4.png",
+        link: "https://www.start.gg/tournament/condo-of-blood-6-the-nintendo-switching-hour/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Show Me Your Moves '25",
         date: "11/15/25",
         location: "Champaign, IL, USA",
@@ -324,6 +357,17 @@ const eventsData = [
         link: "https://www.start.gg/tournament/one-more-game-2/details",
         rankImg: true, 
         trailer: "https://www.youtube.com/watch?v=hs4mSJYlaFA",
+        stream: ""
+      },
+      {
+        name: "Pissmas 6",
+        date: "12/5/25 - 12/7/25",
+        location: "Southport, QLD, Australia",
+        description: "Christmas Smash Major in collaboration with Queensland Ultimate, Tournameta and Piss Gang. Pissmas 6 will run over three days, feature four games, seven brackets and the one and only Pissbet!",
+        imageUrl: "https://images.start.gg/images/tournament/825531/image-1121c89e50d3f48692a4aeccafbd882d.png",
+        link: "https://www.start.gg/tournament/pissmas-6/details",
+        rankImg: false, 
+        trailer: "",
         stream: ""
       },
       {
