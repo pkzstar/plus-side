@@ -4559,7 +4559,7 @@ function showCalendar(month, year) {
             },
             {
                 link: "https://www.start.gg/tournament/do-not-skate/details",
-                imageSrc: "https://images.start.gg/images/tournament/811431/image-b3ede5aed6cf5f1de165d90bc5b5c78e.png"
+                imageSrc: "https://images.start.gg/images/tournament/811431/image-b160a9181846ac1c8d5d7491df46670a.png"
             }
     
         ];
@@ -4625,6 +4625,18 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
+        // BOT
+        } else if (month === 8 && (date === 7) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/big-ohio-tournament/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "../images/past-events/BOT.png";
+    
+        image.classList.add("calendarImg");
+
         // droto2
         } else if (month === 8 && (date === 13) && year === 2025) {
         // Example link with image
@@ -4641,23 +4653,67 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // Mahtay Melee Summer 25
+        // Mahtay Melee Summer 25 + GC14
         } else if (month === 8 && (date === 20) && year === 2025) {
-        // Example link with image
+       const events = [
+            {   
+                link: "https://www.start.gg/tournament/mahtay-melee-summer-25-edition/details",
+                imageSrc: "https://images.start.gg/images/tournament/810534/image-b0813696d50fa0323c0c80c5f16b25bf.jpg"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/gecko-cavern-14/details",
+                imageSrc: "https://images.start.gg/images/tournament/826307/image-a030a32e1e230b7bb79568254756001c.png"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
         let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/mahtay-melee-summer-25-edition/details";
         link.target = "_blank";
     
         let image = document.createElement("img");
-        image.src = "https://images.start.gg/images/tournament/810534/image-b0813696d50fa0323c0c80c5f16b25bf.jpg";
     
         image.classList.add("calendarImg");
     
-    
         link.appendChild(image);
         cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-        // go8 + WoL 13 + UFI8 + NotlD6
+        // go8 + WoL 13 + UFI8 + NotlD6 + PP11
         } else if (month === 8 && (date === 27) && year === 2025) {
         const events = [
             {   
@@ -4676,6 +4732,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/night-of-the-living-ded-6-melee-p/details",
                 imageSrc: "https://images.start.gg/images/tournament/821585/image-dfa691353747d79e2d4964fdbe2c8182.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/pico-plus-11/details",
+                imageSrc: "https://images.start.gg/images/tournament/825404/image-85414f173df05dafd8c4f3aabd1f645a.png"
             }
     
         ];
@@ -4906,7 +4966,7 @@ function showCalendar(month, year) {
         const events = [
             {   
                 link: "https://www.start.gg/tournament/deep-space-tussle/details",
-                imageSrc: "https://images.start.gg/images/tournament/815936/image-74bb73b4a4d073d523a64f21b062b769.png"
+                imageSrc: "https://images.start.gg/images/tournament/815936/image-ad01466e083a7c957ab5113a42b5d00f.png"
                 
             },
             {
@@ -4981,7 +5041,7 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // Somino Noctem Day 2 + Bird House 14
+        // Somino Noctem Day 2 + Bird House 14 + CoB6
         } else if (month === 10 && (date === 1) && year === 2025) {
         const events = [
             {   
@@ -4992,6 +5052,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/the-bird-house-14-winter-formal/details",
                 imageSrc: "https://images.start.gg/images/tournament/816692/image-3d9f142e14300ece28aff766c1734c25.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/condo-of-blood-6-the-nintendo-switching-hour/details",
+                imageSrc: "https://images.start.gg/images/tournament/824855/image-baac4749e20688a618512441b58ac0f4.png"
             }
     
         ];
@@ -5066,6 +5130,22 @@ function showCalendar(month, year) {
     
         let image = document.createElement("img");
         image.src = "https://images.start.gg/images/tournament/795071/image-177b8c8cdfe8c8e9c9cc3e6a939f3568.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // Pissmas 6
+        } else if (month === 11 && (date === 5 || date === 6 || date === 7) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/pissmas-6/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/825531/image-1121c89e50d3f48692a4aeccafbd882d.png";
     
         image.classList.add("calendarImg");
     
