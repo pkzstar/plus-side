@@ -118,17 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Dream Rotation #2 - Winner Stays",
-        date: "9/13/25",
-        location: "Pittsburgh, PA, USA",
-        description: "Dream Rotation is Pittsburgh's dreamiest monthly tournament series for alternative platform fighters! This series features an exciting venue filled with fun activities, plenty of time for friendlies, a rotating late-night bracket, a safe competitive environment for all attendees, and high-stakes competition!",
-        imageUrl: "https://images.start.gg/images/tournament/801105/image-99439f35d3d1c5d1bc6c7a2bd7904487.png",
-        link: "https://www.start.gg/tournament/dream-rotation-2-winner-stays/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Mahtay Melee - Summer '25 Edition",
         date: "9/20/25",
         location: "St. Catharines, ON, Canada",
@@ -146,6 +135,28 @@ const eventsData = [
         description: "Gecko Cavern 14 is on its way! Hosted at Club Burwood along Burwood Road on the top floor of the venue, Gecko Cavern is the tournament series for Project Plus in Sydney! We also feature other games such as Melee, Rivals of Aether, and more!",
         imageUrl: "https://images.start.gg/images/tournament/826307/image-a030a32e1e230b7bb79568254756001c.png",
         link: "https://www.start.gg/tournament/gecko-cavern-14/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Mass Madness 53 - Fleeting Joy",
+        date: "9/20/25",
+        location: "Waltham, MA, USA",
+        description: "Mass Madness returns for another edition! Masks are recommended to be worn while in the venue. For this event, we'll be running Melee doubles and singles, along with Project+ singles. Every match both Melee and Project+ singles is best of 5.",
+        imageUrl: "https://images.start.gg/images/tournament/819943/image-46188b97d89ea521645ca2e3d54065e3.png",
+        link: "https://www.start.gg/tournament/mass-madness-53-fleeting-joy/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "UMD Unity: Re-Enrollment",
+        date: "9/20/25",
+        location: "College Park, MD, USA",
+        description: "We are very happy to announce the return of the unity series at UMD! After being kicked out of our old venue we have decided to switch to monthlies full time and to return to the series that built umd smash into what it is today.",
+        imageUrl: "https://images.start.gg/images/tournament/825411/image-4bfbc5a75be6e616f8134f29be56cc09.png",
+        link: "https://www.start.gg/tournament/umd-unity-re-enrollment/details",
         rankImg: false, 
         trailer: "",
         stream: ""

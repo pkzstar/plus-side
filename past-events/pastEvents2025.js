@@ -112,9 +112,22 @@ const eventData = [
 
 
   {
+    eventTitle: "Dream Rotation #2 - Winner Stays",
+    imageUrl: "https://images.start.gg/images/tournament/801105/image-99439f35d3d1c5d1bc6c7a2bd7904487.png",
+    eventUrl: "https://www.start.gg/tournament/dream-rotation-2-winner-stays/details",
+    date: "September 13 2025",
+    location: "Pennsylvania",
+    entrants: 10,
+    first: "Aluminis",
+    second: "Yuko",
+    third: "Vaporeon",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Big Ohio Tournament",
     imageUrl: "../images/past-events/BOT.png",
-    eventUrl: "../images/past-events/",
+    eventUrl: "https://www.start.gg/tournament/big-ohio-tournament/events",
     date: "September 7 2025",
     location: "Ohio",
     entrants: 79,

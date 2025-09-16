@@ -4653,7 +4653,7 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // Mahtay Melee Summer 25 + GC14
+        // Mahtay Melee Summer 25 + GC14 + MM53
         } else if (month === 8 && (date === 20) && year === 2025) {
        const events = [
             {   
@@ -4664,6 +4664,14 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/gecko-cavern-14/details",
                 imageSrc: "https://images.start.gg/images/tournament/826307/image-a030a32e1e230b7bb79568254756001c.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/mass-madness-53-fleeting-joy/details",
+                imageSrc: "https://images.start.gg/images/tournament/819943/image-46188b97d89ea521645ca2e3d54065e3.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/umd-unity-re-enrollment/details",
+                imageSrc: "https://images.start.gg/images/tournament/825411/image-4bfbc5a75be6e616f8134f29be56cc09.png"
             }
     
         ];
