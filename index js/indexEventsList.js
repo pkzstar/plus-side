@@ -349,6 +349,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Portland+",
+        date: "11/2/25",
+        location: "Portland, ME, Canada",
+        description: "Shhhhhh. A VacationLAN venue pass is required for entry! Please register for that event first! Registration for this event will end at 6pm on 11/01! Bracket fee is $10",
+        imageUrl: "https://images.start.gg/images/tournament/829691/image-cf934fa895474d7025ccbf5a5048cfee.jpg",
+        link: "https://www.start.gg/tournament/portland/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Show Me Your Moves '25",
         date: "11/15/25",
         location: "Champaign, IL, USA",
@@ -377,6 +388,17 @@ const eventsData = [
         description: "Christmas Smash Major in collaboration with Queensland Ultimate, Tournameta and Piss Gang. Pissmas 6 will run over three days, feature four games, seven brackets and the one and only Pissbet!",
         imageUrl: "https://images.start.gg/images/tournament/825531/image-1121c89e50d3f48692a4aeccafbd882d.png",
         link: "https://www.start.gg/tournament/pissmas-6/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Get Sliced On! | Fall 2025",
+        date: "12/13/25",
+        location: "Wageningen, Netherlands",
+        description: "This December you can enjoy another 'GSO' event! With doubles for both games and singles formats that ensure plenty of competitive sets at all levels of play there's plenty of gaming for everyone at Get Sliced On!",
+        imageUrl: "https://images.start.gg/images/tournament/782485/image-bd6e5058d3c1c346dd915bf841431aea.png",
+        link: "https://www.start.gg/tournament/get-sliced-on-fall-2025/details",
         rankImg: false, 
         trailer: "",
         stream: ""
