@@ -5113,6 +5113,23 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
+
+        // PortlandPlus
+        } else if (month === 10 && (date === 2) && year === 2025) {
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/portland/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/829691/image-cf934fa895474d7025ccbf5a5048cfee.jpg";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
         // SMYM 25
         } else if (month === 10 && (date === 15) && year === 2025) {
         // Example link with image
@@ -5154,6 +5171,21 @@ function showCalendar(month, year) {
     
         let image = document.createElement("img");
         image.src = "https://images.start.gg/images/tournament/825531/image-1121c89e50d3f48692a4aeccafbd882d.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        } else if (month === 11 && date === 13 && year === 2025) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/get-sliced-on-fall-2025/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/782485/image-bd6e5058d3c1c346dd915bf841431aea.png";
     
         image.classList.add("calendarImg");
     
