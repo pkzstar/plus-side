@@ -118,50 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Mahtay Melee - Summer '25 Edition",
-        date: "9/20/25",
-        location: "St. Catharines, ON, Canada",
-        description: "Make the drive to Niagara on Saturday, September 20th for Mahtay Melee, a one-day tournament hosted in an amazing community-focused venue, the Mahtay Café & Lounge in St. Catharines, ON.",
-        imageUrl: "https://images.start.gg/images/tournament/810534/image-b0813696d50fa0323c0c80c5f16b25bf.jpg",
-        link: "https://www.start.gg/tournament/mahtay-melee-summer-25-edition/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Gecko Cavern 14",
-        date: "9/20/25",
-        location: "Burwood, NSW, Austrailia",
-        description: "Gecko Cavern 14 is on its way! Hosted at Club Burwood along Burwood Road on the top floor of the venue, Gecko Cavern is the tournament series for Project Plus in Sydney! We also feature other games such as Melee, Rivals of Aether, and more!",
-        imageUrl: "https://images.start.gg/images/tournament/826307/image-a030a32e1e230b7bb79568254756001c.png",
-        link: "https://www.start.gg/tournament/gecko-cavern-14/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Mass Madness 53 - Fleeting Joy",
-        date: "9/20/25",
-        location: "Waltham, MA, USA",
-        description: "Mass Madness returns for another edition! Masks are recommended to be worn while in the venue. For this event, we'll be running Melee doubles and singles, along with Project+ singles. Every match both Melee and Project+ singles is best of 5.",
-        imageUrl: "https://images.start.gg/images/tournament/819943/image-46188b97d89ea521645ca2e3d54065e3.png",
-        link: "https://www.start.gg/tournament/mass-madness-53-fleeting-joy/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "UMD Unity: Re-Enrollment",
-        date: "9/20/25",
-        location: "College Park, MD, USA",
-        description: "We are very happy to announce the return of the unity series at UMD! After being kicked out of our old venue we have decided to switch to monthlies full time and to return to the series that built umd smash into what it is today.",
-        imageUrl: "https://images.start.gg/images/tournament/825411/image-4bfbc5a75be6e616f8134f29be56cc09.png",
-        link: "https://www.start.gg/tournament/umd-unity-re-enrollment/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Get Outplayed 8",
         date: "9/27/25",
         location: "Peoria, IL, USA",
@@ -215,6 +171,17 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: "https://www.twitch.tv/socalpm"
+      },
+      {
+        name: "Knockout Series September 2025 Monthly",
+        date: "9/28/25",
+        location: "South Perth, WA, Australia",
+        description: "Welcome to the KNOCKOUT-SERIES Monthly!!",
+        imageUrl: "https://images.start.gg/images/tournament/832586/image-5b2aa7e1a9b8cdb16903edd0bab2221c.png",
+        link: "https://www.start.gg/tournament/knockout-series-september-2025-monthly/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.twitch.tv/gblynkle"
       },
       {
         name: "Game 5 In The Woods!",
@@ -355,6 +322,17 @@ const eventsData = [
         description: "Shhhhhh. A VacationLAN venue pass is required for entry! Please register for that event first! Registration for this event will end at 6pm on 11/01! Bracket fee is $10",
         imageUrl: "https://images.start.gg/images/tournament/829691/image-cf934fa895474d7025ccbf5a5048cfee.jpg",
         link: "https://www.start.gg/tournament/portland/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Pope's Sunday Mass III",
+        date: "11/2/25",
+        location: "Carlton, VIC, Australia",
+        description: "That's right. Back and better than ever it's Pope's Sunday Mass the Third! I am so happy to be able to invite all of you to The Clyde Hotel in Carlton to enjoy their Lounge (with attached bar) on Sunday 2nd of November for your chance to win a share of over $400 in prize money!!! $$$$",
+        imageUrl: "https://images.start.gg/images/tournament/811444/image-98fcf0f97369a7d36df9676a9f5f561f.png",
+        link: "https://www.start.gg/tournament/pope-s-sunday-mass-iii/details",
         rankImg: false, 
         trailer: "",
         stream: ""
