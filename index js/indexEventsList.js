@@ -118,72 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Get Outplayed 8",
-        date: "9/27/25",
-        location: "Peoria, IL, USA",
-        description: "Get Outplayed 8 is here. On September 27, your favorite GRV regional returns for its eighth installment at Bradley University.",
-        imageUrl: "https://images.start.gg/images/tournament/793044/image-4ba9fc219c496585c775ea3edc9d0ed5.png",
-        link: "https://www.start.gg/tournament/get-outplayed-8/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Who's on Ledge? 13 (SDIowa 5 Qualifier)",
-        date: "9/27/25",
-        location: "Des Moines, IA, USA",
-        description: "DMGC presents Who's on Ledge? Our monthly tournament series featuring Super Smash Bros. Melee, Ultimate, Project+, and Rivals of Aether II at RezBlue Arena!",
-        imageUrl: "https://images.start.gg/images/tournament/820011/image-c956b372325fc1a9c7521ca1812380d5.png",
-        link: "https://www.start.gg/tournament/who-s-on-ledge-13-sdiowa-5-qualifier/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Unc Frozen's Icebox 8",
-        date: "9/27/25",
-        location: "Plano, TX, USA",
-        description: "Welcome to the eighth entry in the Icebox tournament series, Unc Frozen's Birthday Bash, presented by your friendly neighborhood Unc Frozen!",
-        imageUrl: "https://images.start.gg/images/tournament/812456/image-4167347f6a5141a897344ee39c4e94f6.jpg",
-        link: "https://www.start.gg/tournament/unc-frozen-s-icebox-8-1/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/fxgames_gg"
-      },
-      {
-        name: "Night of the living DED #6",
-        date: "9/27/25",
-        location: "Port Chester, NY, USA",
-        description: "We have free parking in the 'Waterfront Parking Lot' behind the venue, or paid parking on the street in the surrounding area. We have dedicated per player CRTs and wiis available for all contenstants. Extra setups are welcome but space for any extra setups cannot be guaranteed. ",
-        imageUrl: "https://images.start.gg/images/tournament/821585/image-dfa691353747d79e2d4964fdbe2c8182.png",
-        link: "https://www.start.gg/tournament/night-of-the-living-ded-6-melee-p/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/ded__gaming"
-      },
-      {
-        name: "Pico Plus #11",
-        date: "9/27/25",
-        location: "Pico Rivera, CA, USA",
-        description: "SOCAL P+ IS BACK! Introducing Pico Plus, a brand new Project+ local in the heart of Pico Rivera, CA",
-        imageUrl: "https://images.start.gg/images/tournament/825404/image-85414f173df05dafd8c4f3aabd1f645a.png",
-        link: "https://www.start.gg/tournament/pico-plus-11/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/socalpm"
-      },
-      {
-        name: "Knockout Series September 2025 Monthly",
-        date: "9/28/25",
-        location: "South Perth, WA, Australia",
-        description: "Welcome to the KNOCKOUT-SERIES Monthly!!",
-        imageUrl: "https://images.start.gg/images/tournament/832586/image-5b2aa7e1a9b8cdb16903edd0bab2221c.png",
-        link: "https://www.start.gg/tournament/knockout-series-september-2025-monthly/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/gblynkle"
-      },
-      {
         name: "Game 5 In The Woods!",
         date: "10/3/25 - 10/5/25",
         location: "Pentwater, MI, USA",
@@ -214,7 +148,7 @@ const eventsData = [
         link: "https://www.start.gg/tournament/the-big-money-monthly-2-400-pot-bonus/details",
         rankImg: true, 
         trailer: "",
-        stream: "https://www.twitch.tv/sapplus"
+        stream: "https://www.youtube.com/channel/UC4_NC6k-wF4AB6AjNwHNoHQ"
       },
       {
         name: "ASCENSION 2",
@@ -261,6 +195,17 @@ const eventsData = [
         stream: "https://www.twitch.tv/metrosmashvods"
       },
       {
+        name: "Stock-tober: Melee Edition",
+        date: "10/24/25",
+        location: "Dayton, OH, USA",
+        description: "Dayton's October Super Smash Bros Melee tourney, located downtown at Two Social on 3rd street.",
+        imageUrl: "https://images.start.gg/images/tournament/834350/image-dfb7188d197f8f719d1d07b3e2dea5b3.jpg",
+        link: "https://www.start.gg/tournament/stock-tober-melee-edition/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Deep Space Tussle",
         date: "10/25/25",
         location: "Normal, IL, USA",
@@ -281,6 +226,17 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: "https://www.twitch.tv/jaysonmoistrice"
+      },
+      {
+        name: "FIGHTING GHOSTS: CARRIED",
+        date: "10/25/25",
+        location: "Springfield, MO, USA",
+        description: "Don your most sinister costumes, sharpen your skills, and prepare for screams of excitement as Fighting Ghosts returns this October! Fighting ghosts is a Super Smash Bros. and FGC tournament featuring multiple professional stream setups, tons of different events to enter, a great venue, and an affordable price!",
+        imageUrl: "https://images.start.gg/images/tournament/821399/image-be7efee5a380a0bef6aa896276d88d20.png",
+        link: "https://www.start.gg/tournament/fighting-ghosts-carried/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
       },
       {
         name: "Somino Noctem",
@@ -377,6 +333,17 @@ const eventsData = [
         description: "This December you can enjoy another 'GSO' event! With doubles for both games and singles formats that ensure plenty of competitive sets at all levels of play there's plenty of gaming for everyone at Get Sliced On!",
         imageUrl: "https://images.start.gg/images/tournament/782485/image-bd6e5058d3c1c346dd915bf841431aea.png",
         link: "https://www.start.gg/tournament/get-sliced-on-fall-2025/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Flash Flood",
+        date: "2/28/26",
+        location: "Normal, Illinois, USA",
+        description: "Welcome to Flash Flood, GRV's brand new major event. Featuring singles, doubles, and amateur brackets for Ultimate, Melee, and 'Brawl', we aim to provide an unforgettable experience!",
+        imageUrl: "https://images.start.gg/images/tournament/813787/image-12969cc9155ec8f9247a30aefe8d1120.png",
+        link: "https://www.start.gg/tournament/flash-flood/details",
         rankImg: false, 
         trailer: "",
         stream: ""

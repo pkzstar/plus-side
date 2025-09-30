@@ -112,6 +112,71 @@ const eventData = [
 
 
   {
+    eventTitle: "Knockout Series September 2025 Monthly",
+    imageUrl: "https://images.start.gg/images/tournament/832586/image-5b2aa7e1a9b8cdb16903edd0bab2221c.png",
+    eventUrl: "https://www.start.gg/tournament/knockout-series-september-2025-monthly/details",
+    date: "September 28 2025",
+    location: "Western Australia",
+    entrants: 5,
+    first: "Lynkle",
+    second: "RhysCat",
+    third: "* ari *; x3 ^~^ ",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Pico Plus #11",
+    imageUrl: "https://images.start.gg/images/tournament/825404/image-85414f173df05dafd8c4f3aabd1f645a.png",
+    eventUrl: "https://www.start.gg/tournament/pico-plus-11/details",
+    date: "September 27 2025",
+    location: "California",
+    entrants: 16,
+    first: "Jonny Sosa",
+    second: "Nezergy",
+    third: "Ducky",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Night of the living DED #6",
+    imageUrl: "https://images.start.gg/images/tournament/821585/image-dfa691353747d79e2d4964fdbe2c8182.png",
+    eventUrl: "https://www.start.gg/tournament/night-of-the-living-ded-6-melee-p/details",
+    date: "September 27 2025",
+    location: "New York",
+    entrants: 5,
+    first: "Sebas",
+    second: "Elite_DRIFT",
+    third: "Mrs. Ledge Dash",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Unc Frozen's 8",
+    imageUrl: "https://images.start.gg/images/tournament/812456/image-4167347f6a5141a897344ee39c4e94f6.jpg",
+    eventUrl: "https://www.start.gg/tournament/unc-frozen-s-icebox-8-1/details",
+    date: "September 27 2025",
+    location: "Texas",
+    entrants: 16,
+    first: "Fury",
+    second: "Apathy",
+    third: "J-am",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Get Outplayed 8",
+    imageUrl: "https://images.start.gg/images/tournament/793044/image-4ba9fc219c496585c775ea3edc9d0ed5.png",
+    eventUrl: "https://www.start.gg/tournament/get-outplayed-8/details",
+    date: "September 27 2025",
+    location: "Illinois",
+    entrants: 32,
+    first: "Not Chris",
+    second: "Star",
+    third: "Chaloopy",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
     eventTitle: "UMD Unity: Re-Enrollment",
     imageUrl: "https://images.start.gg/images/tournament/825411/image-4bfbc5a75be6e616f8134f29be56cc09.png",
     eventUrl: "https://www.start.gg/tournament/umd-unity-re-enrollment/details",
@@ -277,7 +342,7 @@ const eventData = [
     first: "Aklo",
     second: "Mulldrifter",
     third: "Epoodle",
-    vodsUrl: "",
+    vodsUrl: "https://www.twitch.tv/videos/2577395547",
     hideRankImage: true
   },
   {

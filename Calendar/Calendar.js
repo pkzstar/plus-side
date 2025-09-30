@@ -4721,17 +4721,13 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-        // go8 + WoL 13 + UFI8 + NotlD6 + PP11
+        // go8 + UFI8 + NotlD6 + PP11
         } else if (month === 8 && (date === 27) && year === 2025) {
         const events = [
             {   
                 link: "https://www.start.gg/tournament/get-outplayed-8/details",
                 imageSrc: "https://images.start.gg/images/tournament/793044/image-4ba9fc219c496585c775ea3edc9d0ed5.png"
                 
-            },
-            {
-                link: "https://www.start.gg/tournament/who-s-on-ledge-13-sdiowa-5-qualifier/details",
-                imageSrc: "https://images.start.gg/images/tournament/820011/image-c956b372325fc1a9c7521ca1812380d5.png"
             },
             {
                 link: "https://www.start.gg/tournament/unc-frozen-s-icebox-8-1/details",
@@ -4970,37 +4966,17 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-        // Into the Depths day 1/3
-        } else if (month === 9 && (date === 24 || date === 26) && year === 2025){
-        // Example link with image
-        let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/into-the-depths-1/details";
-        link.target = "_blank";
-    
-        let image = document.createElement("img");
-        image.src = "https://images.start.gg/images/tournament/804286/image-4ec5e7679af683144500ead153e819a8.png";
-    
-        image.classList.add("calendarImg");
-    
-    
-        link.appendChild(image);
-        cell.appendChild(link);
-
-        // DST + RK2 + Into the depths day 2
-        } else if (month === 9 && date === 25 && year === 2025){
+        // Into the Depths day 1 + Stock-tober
+        } else if (month === 9 && (date === 24) && year === 2025){
         const events = [
             {   
-                link: "https://www.start.gg/tournament/deep-space-tussle/details",
-                imageSrc: "https://images.start.gg/images/tournament/815936/image-ad01466e083a7c957ab5113a42b5d00f.png"
+                link: "https://www.start.gg/tournament/into-the-depths-1/details",
+                imageSrc: "https://images.start.gg/images/tournament/804286/image-4ec5e7679af683144500ead153e819a8.png"
                 
             },
             {
-                link: "https://www.start.gg/tournament/rat-kings-2/details",
-                imageSrc: "https://images.start.gg/images/tournament/817217/image-c97bbc06a38a79c032e6369d519f565c.png"
-            },
-            {
-                link: "https://www.start.gg/tournament/into-the-depths-1/details",
-                imageSrc: "https://images.start.gg/images/tournament/804286/image-4ec5e7679af683144500ead153e819a8.png"
+                link: "https://www.start.gg/tournament/stock-tober-melee-edition/details",
+                imageSrc: "https://images.start.gg/images/tournament/834350/image-dfb7188d197f8f719d1d07b3e2dea5b3.jpg"
             }
     
         ];
@@ -5050,6 +5026,91 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
         
+
+        // DST + RK2 + Into the depths day 2 + FG: C
+        } else if (month === 9 && date === 25 && year === 2025){
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/deep-space-tussle/details",
+                imageSrc: "https://images.start.gg/images/tournament/815936/image-ad01466e083a7c957ab5113a42b5d00f.png"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/rat-kings-2/details",
+                imageSrc: "https://images.start.gg/images/tournament/817217/image-c97bbc06a38a79c032e6369d519f565c.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/into-the-depths-1/details",
+                imageSrc: "https://images.start.gg/images/tournament/804286/image-4ec5e7679af683144500ead153e819a8.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/fighting-ghosts-carried/details",
+                imageSrc: "https://images.start.gg/images/tournament/821399/image-be7efee5a380a0bef6aa896276d88d20.png"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
+        let link = document.createElement("a");
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+    
+        image.classList.add("calendarImg");
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
+        
+        //Into the Depths day 3
+        } else if (month === 9 && (date === 26) && year === 2025){
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/into-the-depths-1/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/804286/image-4ec5e7679af683144500ead153e819a8.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
         // Somino Noctem
         } else if ((month === 9 && date === 31 && year === 2025) || (month === 10 && (date === 2) && year === 2025)){
         // Example link with image
@@ -5247,6 +5308,21 @@ function showCalendar(month, year) {
     
         let image = document.createElement("img");
         image.src = "https://images.start.gg/images/tournament/782485/image-bd6e5058d3c1c346dd915bf841431aea.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        } else if (month === 1 && date === 28 && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/flash-flood/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/813787/image-12969cc9155ec8f9247a30aefe8d1120.png";
     
         image.classList.add("calendarImg");
     
