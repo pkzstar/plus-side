@@ -4906,13 +4906,17 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // UFI9
+        // UFI9 + CTC + PS13
         } else if (month === 9 && (date === 18) && year === 2025) {
         const events = [
             {   
                 link: "https://www.start.gg/tournament/unc-frozen-s-icebox-9-extra-spooky-edition/details",
                 imageSrc: "https://images.start.gg/images/tournament/812447/image-9223a0a2f72e5eaef276653f179af67f.jpg"
                 
+            },
+            {
+                link: "https://www.start.gg/tournament/chase-the-crown-knox-esports-5/details",
+                imageSrc: "https://images.start.gg/images/tournament/811395/image-864709aea60a570f3f39302a39f7b83b.png"
             },
             {
                 link: "https://www.start.gg/tournament/chase-the-crown-knox-esports-5/details",
@@ -5027,7 +5031,7 @@ function showCalendar(month, year) {
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
         
 
-        // DST + RK2 + Into the depths day 2 + FG: C
+        // DST + RK2 + Into the depths day 2 + FG: C + AUA27
         } else if (month === 9 && date === 25 && year === 2025){
         const events = [
             {   
@@ -5046,6 +5050,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/fighting-ghosts-carried/details",
                 imageSrc: "https://images.start.gg/images/tournament/821399/image-be7efee5a380a0bef6aa896276d88d20.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/auburn-altercation-27/details",
+                imageSrc: "https://images.start.gg/images/tournament/835064/image-b0174ecaa7ee618773c5a54a0219a2f4.png"
             }
     
         ];
@@ -5095,24 +5103,72 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
         
-        //Into the Depths day 3
+        //Into the Depths day 3 + Bristol's Basement 
         } else if (month === 9 && (date === 26) && year === 2025){
-        // Example link with image
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/into-the-depths-1/detail",
+                imageSrc: "https://images.start.gg/images/tournament/804286/image-4ec5e7679af683144500ead153e819a8.png"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/bristol-s-basement-night-of-100-frights/details",
+                imageSrc: "https://images.start.gg/images/tournament/833921/image-780221283eff8062caca216c7e8ca4d3.jpg"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
         let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/into-the-depths-1/details";
         link.target = "_blank";
     
         let image = document.createElement("img");
-        image.src = "https://images.start.gg/images/tournament/804286/image-4ec5e7679af683144500ead153e819a8.png";
     
         image.classList.add("calendarImg");
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
     
     
         link.appendChild(image);
         cell.appendChild(link);
 
-        // Somino Noctem
-        } else if ((month === 9 && date === 31 && year === 2025) || (month === 10 && (date === 2) && year === 2025)){
+        // Somino Noctem Day 1
+        } else if ((month === 9 && date === 31 && year === 2025)){
         // Example link with image
         let link = document.createElement("a");
         link.href = "https://www.start.gg/tournament/somnio-noctem/details";
@@ -5127,7 +5183,7 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // Somino Noctem Day 2 + Bird House 14 + CoB6
+        // Somino Noctem Day 2 + Bird House 14 + CoB6 + KSS5 Day 1
         } else if (month === 10 && (date === 1) && year === 2025) {
         const events = [
             {   
@@ -5142,6 +5198,14 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/condo-of-blood-6-the-nintendo-switching-hour/details",
                 imageSrc: "https://images.start.gg/images/tournament/824855/image-baac4749e20688a618512441b58ac0f4.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/kayla-s-spooky-smash-5/details",
+                imageSrc: "https://images.start.gg/images/tournament/788318/image-8f4074cfd856e428f0d6fda2cdc4c828.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/big-baton-rouge-charity-tournament/details",
+                imageSrc: "https://raw.githubusercontent.com/FunctionDJ/project-plus-assets/refs/heads/master/logos/v3/short.png"
             }
     
         ];
@@ -5192,9 +5256,14 @@ function showCalendar(month, year) {
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
 
-        // PortlandPlus, PSMIII
+        // Somino Noctem Day 3 + PortlandPlus, PSMIII + KSS 5 Day 2
         } else if (month === 10 && (date === 2) && year === 2025) {
         const events = [
+            {   
+                link: "https://www.start.gg/tournament/somnio-noctem/details",
+                imageSrc: "https://images.start.gg/images/tournament/799120/image-95004b80bfa048142c0f77fde12a5868.png"
+                
+            },
             {   
                 link: "https://www.start.gg/tournament/portland/details",
                 imageSrc: "https://images.start.gg/images/tournament/829691/image-cf934fa895474d7025ccbf5a5048cfee.jpg"
@@ -5203,6 +5272,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/pope-s-sunday-mass-iii/details",
                 imageSrc: "https://images.start.gg/images/tournament/811444/image-98fcf0f97369a7d36df9676a9f5f561f.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/kayla-s-spooky-smash-5/details",
+                imageSrc: "https://images.start.gg/images/tournament/788318/image-8f4074cfd856e428f0d6fda2cdc4c828.png"
             }
     
         ];
@@ -5300,6 +5373,7 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
+        // GSO 2025
         } else if (month === 11 && date === 13 && year === 2025) {    
         // Example link with image
         let link = document.createElement("a");
@@ -5308,6 +5382,18 @@ function showCalendar(month, year) {
     
         let image = document.createElement("img");
         image.src = "https://images.start.gg/images/tournament/782485/image-bd6e5058d3c1c346dd915bf841431aea.png";
+    
+        image.classList.add("calendarImg");
+
+        // BL9
+        } else if ((month === 0 && date === 10 && year === 2026) || (month === 0 && date === 11 && year === 2026)) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/blacklisted-9-blacklisted-forever/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/681909/image-c043212981c638b1eaf4cef1bb2c5363.png";
     
         image.classList.add("calendarImg");
     

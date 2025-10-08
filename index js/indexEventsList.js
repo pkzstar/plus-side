@@ -118,50 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Game 5 In The Woods!",
-        date: "10/3/25 - 10/5/25",
-        location: "Pentwater, MI, USA",
-        description: "Introducing Game 5 In The Woods! Michigan's Newest Retreat Tournament located at Lake Michigan Family Campground! We welcome all valiant competitors to our local P+ scene's first retreat tournament! Featuring a field trip like bus ride to the venue, plenty of outdoor amenities, your favorite players, and much, much more, this will be a historic event you won't want to miss!",
-        imageUrl: "https://images.start.gg/images/tournament/812714/image-100a76ebb3235581eb4147e4b1af4ffe.png",
-        link: "https://www.start.gg/tournament/game-5-in-the-woods-1/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/game5projectplus"
-      },
-      {
-        name: "Québecup 2025",
-        date: "10/4/25",
-        location: "Montréal, QC, Canada",
-        description: "TOKÉBAKICITTE! Welcome to Montréal! Québecup 2025 is a one day major with Melee, Ultimate, P+",
-        imageUrl: "https://images.start.gg/images/tournament/798250/image-9559b71c9580d8937051eddb2aaa0917.png",
-        link: "https://www.start.gg/tournament/qu-becup-2025/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "The Big Money Monthly #2 ($400 pot bonus!)",
-        date: "10/4/25",
-        location: "San Antonio, TX, USA",
-        description: "A Monthly in San Antonio, TX",
-        imageUrl: "https://images.start.gg/images/tournament/807108/image-0595a918d6b8ca84ec4b24e944867117.png",
-        link: "https://www.start.gg/tournament/the-big-money-monthly-2-400-pot-bonus/details",
-        rankImg: true, 
-        trailer: "",
-        stream: "https://www.youtube.com/channel/UC4_NC6k-wF4AB6AjNwHNoHQ"
-      },
-      {
-        name: "ASCENSION 2",
-        date: "10/4/25",
-        location: "Baton Rouge, LA, USA",
-        description: "ASCENSION IS BACK AND BIGGER THAN EVER!'BRAWL', ULTIMATE, AND MELEE WITH A BRAND NEW BRACKET FORMAT",
-        imageUrl: "https://images.start.gg/images/tournament/812007/image-c129195c1c32f585af14b10d0ecd3dcc.png",
-        link: "https://www.start.gg/tournament/ascension-2-5/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Unc Frozen's Icebox 9: Extra Spooky Edition",
         date: "10/18/25",
         location: "Plano, TX, USA",
@@ -182,6 +138,17 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: "https://www.twitch.tv/jaysonmoistrice"
+      },
+      {
+        name: "Peak Skill 13",
+        date: "10/18/25",
+        location: "Peekskill, NY, USA",
+        description: "Entrance is down the driveway inside of the red door facing the municipal lot",
+        imageUrl: "https://images.start.gg/images/tournament/836375/image-b5112bc0aed40565efd46f675ac2f284.png",
+        link: "https://www.start.gg/tournament/peak-skill-13-1/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
       },
       {
         name: "Into The Depths",
@@ -239,6 +206,28 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Auburn Altercation #27",
+        date: "10/25/25",
+        location: "Auburn, AL, USA",
+        description: "Welcome back to Auburn Altercation, Auburn's premier Melee and Ultimate monthly!",
+        imageUrl: "https://images.start.gg/images/tournament/835064/image-b0174ecaa7ee618773c5a54a0219a2f4.png",
+        link: "https://www.start.gg/tournament/auburn-altercation-27/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Bristol's Basement: Night of 100 Frights",
+        date: "10/26/25",
+        location: "Springfield, MO, USA",
+        description: "Bristol's premier melee monthly is back for it's thirty-second event! This month our side bracket will be P+!",
+        imageUrl: "https://images.start.gg/images/tournament/833921/image-780221283eff8062caca216c7e8ca4d3.jpg",
+        link: "https://www.start.gg/tournament/bristol-s-basement-night-of-100-frights/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Somino Noctem",
         date: "10/31/25 - 11/2/25",
         location: "Purmerend, Netherlands",
@@ -267,6 +256,28 @@ const eventsData = [
         description: "Condo of Blood is an Ontario Project Plus and Rivals of Aether 2 regional hosted directly beside the Port Credit GO station, but this time read this description in a scary voice. This accessible recurring tournament series will feature top Ontario talent and is designed fully around our shared love of these platform fighters.",
         imageUrl: "https://images.start.gg/images/tournament/824855/image-baac4749e20688a618512441b58ac0f4.png",
         link: "https://www.start.gg/tournament/condo-of-blood-6-the-nintendo-switching-hour/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Big Baton Rouge Charity Tournament",
+        date: "11/1/25",
+        location: "Baton Rouge, LA, USA",
+        description: "WELCOME TO THE BIG BATON ROUGE CHARITY TOURNAMENT! BRACKETS FOR ULTIMATE, MELEE, AND 'BRAWL' ALL GOING TOWARDS A GREAT CAUSE! WE WILL BE DONATING MONEY TOWARDS COMPANION ANIMAL ALLIANCE AND GREATER BATON ROUGE FOOD BANK!",
+        imageUrl: "https://raw.githubusercontent.com/FunctionDJ/project-plus-assets/refs/heads/master/logos/v3/short.png",
+        link: "https://www.start.gg/tournament/big-baton-rouge-charity-tournament/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Kayla's Spooky Smash 5",
+        date: "11/1/25 - 11/2/25",
+        location: "Raleigh, NC, USA",
+        description: "Kayla's Spooky Smash 5. Join us Saturday and Sunday Nov. 1st-2nd for one more match!!",
+        imageUrl: "https://images.start.gg/images/tournament/788318/image-8f4074cfd856e428f0d6fda2cdc4c828.png",
+        link: "https://www.start.gg/tournament/kayla-s-spooky-smash-5/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -338,6 +349,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Blacklisted 9: Blacklisted Forever",
+        date: "1/10/26 - 1/11/26",
+        location: "Waltham, MA, USA",
+        description: "As tournaments once again fall into the shadows, it shows that we are truly Blacklisted Forever. Blacklisted 9 will be running both Doubles and Singles brackets with the greatest talent from past and present. This is the final tournament that will be run by Motobug and the final tournament in the Blacklisted series - don't miss out on this historic event!",
+        imageUrl: "https://images.start.gg/images/tournament/681909/image-c043212981c638b1eaf4cef1bb2c5363.png",
+        link: "https://www.start.gg/tournament/blacklisted-9-blacklisted-forever/details",
+        rankImg: true, 
+        trailer: "https://bsky.app/profile/motobug.net/post/3m266caour223",
+        stream: "https://www.twitch.tv/projectmnexus"
+      },
+      {
         name: "Flash Flood",
         date: "2/28/26",
         location: "Normal, Illinois, USA",
@@ -347,18 +369,7 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: ""
-      },
-      {
-        name: "Blacklisted 9",
-        date: "TBA",
-        location: "Springfield, MA, USA",
-        description: "Blacklisted has moved venues for the first time in five years! Join us in Springfield, Massachusetts for the biggest and best Blacklisted yet! Blacklisted 9 will be returning with Doubles and Singles pools which will send players into double elimination Pro and Amateur brackets - now for both Project+ and HDR!",
-        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F681909%2Fimage-7d4e0ff8435ebeb4a6ceb3cd129b1705-optimized.png&ehk=sQBjT2ATBqcPGXSXEzLSl2H8PYlq6I79X7ucG2mT4hU%3D&w=280&h=280&r=0",
-        link: "https://www.start.gg/tournament/blacklisted-9-a-project-and-hdr-major/details",
-        rankImg: false, 
-        trailer: "https://twitter.com/BlacklistedSSB/status/1817403907984761246",
-        stream: "https://www.twitch.tv/projectmnexus"
-      },
+      }
     ];
 
 
