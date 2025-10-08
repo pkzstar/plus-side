@@ -112,6 +112,58 @@ const eventData = [
 
 
   {
+    eventTitle: "ASCENSION 2",
+    imageUrl: "https://images.start.gg/images/tournament/812007/image-c129195c1c32f585af14b10d0ecd3dcc.png",
+    eventUrl: "https://www.start.gg/tournament/ascension-2-5/details",
+    date: "October 4 2025",
+    location: "Louisiana",
+    entrants: 40,
+    first: "JSalt",
+    second: "SeariousScar",
+    third: "Cyphr",
+    vodsUrl: "https://www.twitch.tv/videos/2583194469",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "The Big Money Monthly #2",
+    imageUrl: "https://images.start.gg/images/tournament/807108/image-0595a918d6b8ca84ec4b24e944867117.png",
+    eventUrl: "https://www.start.gg/tournament/the-big-money-monthly-2-400-pot-bonus/details",
+    date: "October 4 2025",
+    location: "Texas",
+    entrants: 26,
+    first: "J-am",
+    second: "Apathy",
+    third: "~CP9~",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Québecup 2025",
+    imageUrl: "https://images.start.gg/images/tournament/798250/image-9559b71c9580d8937051eddb2aaa0917.png",
+    eventUrl: "https://www.start.gg/tournament/qu-becup-2025/details",
+    date: "October 4 2025",
+    location: "Montréal",
+    entrants: 31,
+    first: "Blitz",
+    second: "Krumpberry",
+    third: "MorKs",
+    vodsUrl: "https://www.twitch.tv/videos/2583196632",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "Game 5 In The Woods!",
+    imageUrl: "https://images.start.gg/images/tournament/812714/image-100a76ebb3235581eb4147e4b1af4ffe.png",
+    eventUrl: "https://www.start.gg/tournament/game-5-in-the-woods-1/details",
+    date: "October 3-5 2025",
+    location: "Michigan",
+    entrants: 22,
+    first: "Dirtboy",
+    second: "Lordy",
+    third: "Yuko",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Knockout Series September 2025 Monthly",
     imageUrl: "https://images.start.gg/images/tournament/832586/image-5b2aa7e1a9b8cdb16903edd0bab2221c.png",
     eventUrl: "https://www.start.gg/tournament/knockout-series-september-2025-monthly/details",
@@ -212,7 +264,7 @@ const eventData = [
     first: "Ryzuul",
     second: "RNGReallyNotGood",
     third: "Keenansaur",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/watch?v=A4ApKqj5zGo",
     hideRankImage: true
   },
   {
