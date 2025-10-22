@@ -112,6 +112,45 @@ const eventData = [
 
 
   {
+    eventTitle: "Peak Skill 13",
+    imageUrl: "https://images.start.gg/images/tournament/836375/image-b5112bc0aed40565efd46f675ac2f284.png",
+    eventUrl: "https://www.start.gg/tournament/peak-skill-13-1/details",
+    date: "October 18 2025",
+    location: "New York",
+    entrants: 6,
+    first: "Mrs. Ledge Dash",
+    second: "Flats",
+    third: "Apollo",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Chase the Crown! @ Knox eSports",
+    imageUrl: "https://images.start.gg/images/tournament/811395/image-864709aea60a570f3f39302a39f7b83b.png",
+    eventUrl: "https://www.start.gg/tournament/chase-the-crown-knox-esports-5/details",
+    date: "October 18 2025",
+    location: "Tennessee",
+    entrants: 22,
+    first: "Moist",
+    second: "Den",
+    third: "Shenanigans",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Unc Frozen's Icebox 9: Extra Spooky Edition",
+    imageUrl: "https://images.start.gg/images/tournament/812447/image-9223a0a2f72e5eaef276653f179af67f.jpg",
+    eventUrl: "https://www.start.gg/tournament/unc-frozen-s-icebox-9-extra-spooky-edition/details",
+    date: "October 18 2025",
+    location: "Texas",
+    entrants: 13,
+    first: "Fury",
+    second: "Apathy",
+    third: "J-am",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "ASCENSION 2",
     imageUrl: "https://images.start.gg/images/tournament/812007/image-c129195c1c32f585af14b10d0ecd3dcc.png",
     eventUrl: "https://www.start.gg/tournament/ascension-2-5/details",
@@ -121,7 +160,7 @@ const eventData = [
     first: "JSalt",
     second: "SeariousScar",
     third: "Cyphr",
-    vodsUrl: "https://www.twitch.tv/videos/2583194469",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLSM8VDvyf2kPpWourt8T7lqHAbcJ_JItd",
     hideRankImage: true
   },
   {

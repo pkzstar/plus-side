@@ -118,39 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Unc Frozen's Icebox 9: Extra Spooky Edition",
-        date: "10/18/25",
-        location: "Plano, TX, USA",
-        description: "Welcome to an ExTrA SpOoKy entry in the Icebox tournament series, presented by your friendly neighborhood Unc Frozen!",
-        imageUrl: "https://images.start.gg/images/tournament/812447/image-9223a0a2f72e5eaef276653f179af67f.jpg",
-        link: "https://www.start.gg/tournament/unc-frozen-s-icebox-9-extra-spooky-edition/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://twitch.tv/fxgames_gg"
-      },
-      {
-        name: "Chase the Crown! @ Knox eSports",
-        date: "10/18/25",
-        location: "Knoxville, TN, USA",
-        description: "KNOX ESPORTS SMASH IS GOING BIG! In collaboration between the Melee and Ult scene from Knoxville we present to you... Chase the Crown! at Knox eSports. Also featuring P+ and HDR! Knox Esports offers a sweet gaming space for you to get some games in, enjoy some concessions, and maybe even walk home with some extra cash in your pocket. This tournament is open to players of all skill levels! Whether its your first or your two-hundred-first, we would love to have you!",
-        imageUrl: "https://images.start.gg/images/tournament/811395/image-864709aea60a570f3f39302a39f7b83b.png",
-        link: "https://www.start.gg/tournament/chase-the-crown-knox-esports-5/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/jaysonmoistrice"
-      },
-      {
-        name: "Peak Skill 13",
-        date: "10/18/25",
-        location: "Peekskill, NY, USA",
-        description: "Entrance is down the driveway inside of the red door facing the municipal lot",
-        imageUrl: "https://images.start.gg/images/tournament/836375/image-b5112bc0aed40565efd46f675ac2f284.png",
-        link: "https://www.start.gg/tournament/peak-skill-13-1/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Into The Depths",
         date: "10/24/25 - 10/26/25",
         location: "Midwest City, OK, USA",
@@ -356,7 +323,7 @@ const eventsData = [
         imageUrl: "https://images.start.gg/images/tournament/681909/image-c043212981c638b1eaf4cef1bb2c5363.png",
         link: "https://www.start.gg/tournament/blacklisted-9-blacklisted-forever/details",
         rankImg: true, 
-        trailer: "https://bsky.app/profile/motobug.net/post/3m266caour223",
+        trailer: "https://www.youtube.com/watch?v=q0z5bPfY948",
         stream: "https://www.twitch.tv/projectmnexus"
       },
       {
