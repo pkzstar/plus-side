@@ -118,83 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Into The Depths",
-        date: "10/24/25 - 10/26/25",
-        location: "Midwest City, OK, USA",
-        description: "Metro Plat Vods Presents: Into The Depths!",
-        imageUrl: "https://images.start.gg/images/tournament/804286/image-4ec5e7679af683144500ead153e819a8.png",
-        link: "https://www.start.gg/tournament/into-the-depths-1/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/metrosmashvods"
-      },
-      {
-        name: "Stock-tober: Melee Edition",
-        date: "10/24/25",
-        location: "Dayton, OH, USA",
-        description: "Dayton's October Super Smash Bros Melee tourney, located downtown at Two Social on 3rd street.",
-        imageUrl: "https://images.start.gg/images/tournament/834350/image-dfb7188d197f8f719d1d07b3e2dea5b3.jpg",
-        link: "https://www.start.gg/tournament/stock-tober-melee-edition/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Deep Space Tussle",
-        date: "10/25/25",
-        location: "Normal, IL, USA",
-        description: "WE'RE GOING TO SPACE. New atmosphere, same Tussle. From the team at Plus Side, along with help from Motobug and BloNo Smash, the next tournament in the Tussle series is here.",
-        imageUrl: "https://images.start.gg/images/tournament/815936/image-ad01466e083a7c957ab5113a42b5d00f.png",
-        link: "https://www.start.gg/tournament/deep-space-tussle/details",
-        rankImg: true, 
-        trailer: "https://www.youtube.com/watch?v=ZnOkBWQ8Mxo",
-        stream: "https://www.twitch.tv/pplusside"
-      },
-      {
-        name: "Rat Kings 2",
-        date: "10/25/25",
-        location: "Goodlettsville, TN, USA",
-        description: "doin a thing @ tnlg. Melee/P+ and ult now woah! it's at the mall",
-        imageUrl: "https://images.start.gg/images/tournament/817217/image-c97bbc06a38a79c032e6369d519f565c.png",
-        link: "https://www.start.gg/tournament/rat-kings-2/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/jaysonmoistrice"
-      },
-      {
-        name: "FIGHTING GHOSTS: CARRIED",
-        date: "10/25/25",
-        location: "Springfield, MO, USA",
-        description: "Don your most sinister costumes, sharpen your skills, and prepare for screams of excitement as Fighting Ghosts returns this October! Fighting ghosts is a Super Smash Bros. and FGC tournament featuring multiple professional stream setups, tons of different events to enter, a great venue, and an affordable price!",
-        imageUrl: "https://images.start.gg/images/tournament/821399/image-be7efee5a380a0bef6aa896276d88d20.png",
-        link: "https://www.start.gg/tournament/fighting-ghosts-carried/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Auburn Altercation #27",
-        date: "10/25/25",
-        location: "Auburn, AL, USA",
-        description: "Welcome back to Auburn Altercation, Auburn's premier Melee and Ultimate monthly!",
-        imageUrl: "https://images.start.gg/images/tournament/835064/image-b0174ecaa7ee618773c5a54a0219a2f4.png",
-        link: "https://www.start.gg/tournament/auburn-altercation-27/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Bristol's Basement: Night of 100 Frights",
-        date: "10/26/25",
-        location: "Springfield, MO, USA",
-        description: "Bristol's premier melee monthly is back for it's thirty-second event! This month our side bracket will be P+!",
-        imageUrl: "https://images.start.gg/images/tournament/833921/image-780221283eff8062caca216c7e8ca4d3.jpg",
-        link: "https://www.start.gg/tournament/bristol-s-basement-night-of-100-frights/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Somino Noctem",
         date: "10/31/25 - 11/2/25",
         location: "Purmerend, Netherlands",
@@ -250,6 +173,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Smash Cafe Plus: The November Monthly #21",
+        date: "11/1/25",
+        location: "San Antonio, TX, USA",
+        description: "Otaku Cafe opens at 12 pm CST. P+ singles starts around 3:30 PM CST (Time may start slightly later). P+ Doubles with start around 2:30 PM CST (Time may strat slightly later). If we have at least 16 entrants, we will run a P+ Redemption Bracket and it will begin at around 4 pm or whenever there is a good break from the main bracket.",
+        imageUrl: "https://images.start.gg/images/tournament/845928/image-0c97ad0250afdc7155c07de667cfe144.png",
+        link: "https://www.start.gg/tournament/smash-cafe-plus-the-november-monthly-21/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Portland+",
         date: "11/2/25",
         location: "Portland, ME, Canada",
@@ -272,6 +206,28 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Night of the living DED #7 (Melee & P+)",
+        date: "11/8/25",
+        location: "Port Chester, NY, USA",
+        description: "We have free parking in the 'Waterfront Parking Lot' behind the venue, or paid parking on the street in the surrounding area.We have dedicated per player CRTs and wiis available for all contenstants. Extra setups are welcome but space for any extra setups cannot be guaranteed. ",
+        imageUrl: "https://images.start.gg/images/tournament/834279/image-60b5f58c889ef1904f09961eb67e83aa.png",
+        link: "https://www.start.gg/tournament/night-of-the-living-ded-7-melee-p/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Triple Tactics Talent 2025",
+        date: "11/8/25",
+        location: "Waltham, MA, USA",
+        description: "This is New England Melee's first attempt at a large triples tournament! We're also running Project+ and Melee Doubles as well. PLEASE NOTE THAT DUE TO TECHNICAL LIMITATIONS, THERE IS A MAXIMUM OF TWO DIFFERENT CHARACTERS PER TRIPLES TEAM. Ports 1 and 5 along with Ports 2 and 6 are linked and MUST have the same character selected due to the limitations in question.",
+        imageUrl: "https://images.start.gg/images/tournament/839343/image-4d4e9c8aa4d0c31a02a946881882bf28.png",
+        link: "https://www.start.gg/tournament/triple-tactics-talent-2025/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Show Me Your Moves '25",
         date: "11/15/25",
         location: "Champaign, IL, USA",
@@ -281,6 +237,17 @@ const eventsData = [
         rankImg: true, 
         trailer: "https://x.com/UIUCSmash/status/1943138575794733460",
         stream: "https://www.twitch.tv/pplusside"
+      },
+      {
+        name: "SOAR 2",
+        date: "11/15/25",
+        location: "Jacksonville, FL, USA",
+        description: "GOOGLE MAPS TO THE THOMAS G. CARPENTER LIBRARY IS THE EASIEST WAY TO GET TO THE BUILDING. The optimal Parking location is in front of the Thomas G. Carpenter library. Parking is free anywhere in the lot. If the lot is full, park in the Fine Arts Garage.",
+        imageUrl: "https://images.start.gg/images/tournament/814277/image-e3d84f3e973a9d0868bd2e56e5265815.png",
+        link: "https://www.start.gg/tournament/soar-2-1/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
       },
       {
         name: "One More Game",
@@ -311,6 +278,17 @@ const eventsData = [
         description: "This December you can enjoy another 'GSO' event! With doubles for both games and singles formats that ensure plenty of competitive sets at all levels of play there's plenty of gaming for everyone at Get Sliced On!",
         imageUrl: "https://images.start.gg/images/tournament/782485/image-bd6e5058d3c1c346dd915bf841431aea.png",
         link: "https://www.start.gg/tournament/get-sliced-on-fall-2025/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Unc Frozen's Icebox 10: Holiday Edition",
+        date: "12/13/25",
+        location: "Plano, TX, USA",
+        description: "Welcome to an extra festive entry in the Icebox tournament series, presented by your friendly neighborhood Unc Frozen!",
+        imageUrl: "https://images.start.gg/images/tournament/846003/image-08d7caac8751cec6c714feea250e063c.jpg",
+        link: "https://www.start.gg/tournament/unc-frozen-s-icebox-10-holiday-edition/details",
         rankImg: false, 
         trailer: "",
         stream: ""
