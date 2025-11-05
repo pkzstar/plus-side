@@ -4906,7 +4906,7 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // UFI9 + CTC + PS13
+        // UFI9 + CTC + PS13 + GC15
         } else if (month === 9 && (date === 18) && year === 2025) {
         const events = [
             {   
@@ -4921,6 +4921,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/chase-the-crown-knox-esports-5/details",
                 imageSrc: "https://images.start.gg/images/tournament/811395/image-864709aea60a570f3f39302a39f7b83b.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/gecko-cavern-15/details",
+                imageSrc: "https://images.start.gg/images/tournament/838740/image-87024be78df9a0eba675e69eb08089e8.png"
             }
     
         ];
@@ -5329,7 +5333,7 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-        // NotLD7 + TTT2025
+        // NotLD7 + TTT2025 + 20MD
         } else if (month === 9 && date === 8 && year === 2025){
         const events = [
             {   
@@ -5340,6 +5344,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/triple-tactics-talent-2025/details",
                 imageSrc: "https://images.start.gg/images/tournament/839343/image-4d4e9c8aa4d0c31a02a946881882bf28.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/20md/details",
+                imageSrc: "https://images.start.gg/images/tournament/847187/image-17329736fb66bc71a6471bd1f710172a.png"
             }
     
         ];
