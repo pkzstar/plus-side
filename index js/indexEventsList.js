@@ -118,94 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Somino Noctem",
-        date: "10/31/25 - 11/2/25",
-        location: "Purmerend, Netherlands",
-        description: "SOMNIO NOCTEM - EU Major - October 31st, November 1st & 2nd 2025. FROM THE PEOPLE THAT BROUGHT YOU DREAMHACK ROTTERDAM 2019 & 2022, SECTOR Z, SOMNIO SERIES AND MORE!",
-        imageUrl: "https://images.start.gg/images/tournament/799120/image-95004b80bfa048142c0f77fde12a5868.png",
-        link: "https://www.start.gg/tournament/somnio-noctem/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "The Bird House 14: Winter Formal",
-        date: "11/1/25",
-        location: "Normal, IL, USA",
-        description: "The Bird House is back and snazzier than ever! This November 1st, The Bird House is returning to Illinois State University with a bit more bravo! Hosted in the Bone Student Center's Old Main Room, ISU's premiere regional tournament is coming back in style!",
-        imageUrl: "https://images.start.gg/images/tournament/816692/image-3d9f142e14300ece28aff766c1734c25.png",
-        link: "https://www.start.gg/tournament/the-bird-house-14-winter-formal/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Condo of Blood 6: The Nintendo Switching Hour",
-        date: "11/1/25",
-        location: "Mississauga, ON, Canada",
-        description: "Condo of Blood is an Ontario Project Plus and Rivals of Aether 2 regional hosted directly beside the Port Credit GO station, but this time read this description in a scary voice. This accessible recurring tournament series will feature top Ontario talent and is designed fully around our shared love of these platform fighters.",
-        imageUrl: "https://images.start.gg/images/tournament/824855/image-baac4749e20688a618512441b58ac0f4.png",
-        link: "https://www.start.gg/tournament/condo-of-blood-6-the-nintendo-switching-hour/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Big Baton Rouge Charity Tournament",
-        date: "11/1/25",
-        location: "Baton Rouge, LA, USA",
-        description: "WELCOME TO THE BIG BATON ROUGE CHARITY TOURNAMENT! BRACKETS FOR ULTIMATE, MELEE, AND 'BRAWL' ALL GOING TOWARDS A GREAT CAUSE! WE WILL BE DONATING MONEY TOWARDS COMPANION ANIMAL ALLIANCE AND GREATER BATON ROUGE FOOD BANK!",
-        imageUrl: "https://raw.githubusercontent.com/FunctionDJ/project-plus-assets/refs/heads/master/logos/v3/short.png",
-        link: "https://www.start.gg/tournament/big-baton-rouge-charity-tournament/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Kayla's Spooky Smash 5",
-        date: "11/1/25 - 11/2/25",
-        location: "Raleigh, NC, USA",
-        description: "Kayla's Spooky Smash 5. Join us Saturday and Sunday Nov. 1st-2nd for one more match!!",
-        imageUrl: "https://images.start.gg/images/tournament/788318/image-8f4074cfd856e428f0d6fda2cdc4c828.png",
-        link: "https://www.start.gg/tournament/kayla-s-spooky-smash-5/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Smash Cafe Plus: The November Monthly #21",
-        date: "11/1/25",
-        location: "San Antonio, TX, USA",
-        description: "Otaku Cafe opens at 12 pm CST. P+ singles starts around 3:30 PM CST (Time may start slightly later). P+ Doubles with start around 2:30 PM CST (Time may strat slightly later). If we have at least 16 entrants, we will run a P+ Redemption Bracket and it will begin at around 4 pm or whenever there is a good break from the main bracket.",
-        imageUrl: "https://images.start.gg/images/tournament/845928/image-0c97ad0250afdc7155c07de667cfe144.png",
-        link: "https://www.start.gg/tournament/smash-cafe-plus-the-november-monthly-21/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Portland+",
-        date: "11/2/25",
-        location: "Portland, ME, Canada",
-        description: "Shhhhhh. A VacationLAN venue pass is required for entry! Please register for that event first! Registration for this event will end at 6pm on 11/01! Bracket fee is $10",
-        imageUrl: "https://images.start.gg/images/tournament/829691/image-cf934fa895474d7025ccbf5a5048cfee.jpg",
-        link: "https://www.start.gg/tournament/portland/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Pope's Sunday Mass III",
-        date: "11/2/25",
-        location: "Carlton, VIC, Australia",
-        description: "That's right. Back and better than ever it's Pope's Sunday Mass the Third! I am so happy to be able to invite all of you to The Clyde Hotel in Carlton to enjoy their Lounge (with attached bar) on Sunday 2nd of November for your chance to win a share of over $400 in prize money!!! $$$$",
-        imageUrl: "https://images.start.gg/images/tournament/811444/image-98fcf0f97369a7d36df9676a9f5f561f.png",
-        link: "https://www.start.gg/tournament/pope-s-sunday-mass-iii/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Night of the living DED #7 (Melee & P+)",
         date: "11/8/25",
         location: "Port Chester, NY, USA",
@@ -223,6 +135,17 @@ const eventsData = [
         description: "This is New England Melee's first attempt at a large triples tournament! We're also running Project+ and Melee Doubles as well. PLEASE NOTE THAT DUE TO TECHNICAL LIMITATIONS, THERE IS A MAXIMUM OF TWO DIFFERENT CHARACTERS PER TRIPLES TEAM. Ports 1 and 5 along with Ports 2 and 6 are linked and MUST have the same character selected due to the limitations in question.",
         imageUrl: "https://images.start.gg/images/tournament/839343/image-4d4e9c8aa4d0c31a02a946881882bf28.png",
         link: "https://www.start.gg/tournament/triple-tactics-talent-2025/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "20MD",
+        date: "11/8/25",
+        location: "College Park, MD, USA",
+        description: "Parking: Park in either lot 1 or lot z. If those are full you can try Mowatt Lane Garage, Union Lane Garage, Stadium Drive Garage or Regents Drive Garage (though you may have to pay). the tournament itself will be held at STAMP",
+        imageUrl: "https://images.start.gg/images/tournament/847187/image-17329736fb66bc71a6471bd1f710172a.png",
+        link: "https://www.start.gg/tournament/20md/details",
         rankImg: false, 
         trailer: "",
         stream: ""
