@@ -112,6 +112,58 @@ const eventData = [
 
 
   {
+    eventTitle: "House of Nimbus 6",
+    imageUrl: "https://images.start.gg/images/tournament/846150/image-c52bd200fd54312928e2252d59dbb7d9.jpg",
+    eventUrl: "https://www.start.gg/tournament/house-of-nimbus-6/details",
+    date: "November 8 2025",
+    location: "California",
+    entrants: 11,
+    first: "SipMastah",
+    second: "The Doctor",
+    third: "Av",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "20MD",
+    imageUrl: "https://images.start.gg/images/tournament/847187/image-17329736fb66bc71a6471bd1f710172a.png",
+    eventUrl: "https://www.start.gg/tournament/20md/details",
+    date: "November 8 2025",
+    location: "Maryland",
+    entrants: 14,
+    first: "malk",
+    second: "EddieTheKid",
+    third: "8va",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Triple Tactics Talent 2025",
+    imageUrl: "https://images.start.gg/images/tournament/839343/image-4d4e9c8aa4d0c31a02a946881882bf28.png",
+    eventUrl: "https://www.start.gg/tournament/triple-tactics-talent-2025/details",
+    date: "November 8 2025",
+    location: "Massachussetts",
+    entrants: 12,
+    first: "Flarp",
+    second: "Motobug",
+    third: "sfy bees",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Night of the living DED #7 (Melee & P+)",
+    imageUrl: "https://images.start.gg/images/tournament/834279/image-60b5f58c889ef1904f09961eb67e83aa.png",
+    eventUrl: "https://www.start.gg/tournament/night-of-the-living-ded-7-melee-p/details",
+    date: "November 8 2025",
+    location: "New York",
+    entrants: 6,
+    first: "Mulldrifter",
+    second: "Elite_DRIFT",
+    third: "Mrs. Ledge Dash",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Pope's Sunday Mass III",
     imageUrl: "https://images.start.gg/images/tournament/811444/image-98fcf0f97369a7d36df9676a9f5f561f.png",
     eventUrl: "https://www.start.gg/tournament/pope-s-sunday-mass-iii/details",
@@ -424,6 +476,19 @@ const eventData = [
     hideRankImage: true
   },
   {
+    eventTitle: "House of Nimbus 5",
+    imageUrl: "https://images.start.gg/images/tournament/846150/image-c52bd200fd54312928e2252d59dbb7d9.jpg",
+    eventUrl: "https://www.start.gg/tournament/house-of-nimbus-5-1/details",
+    date: "September 27 2025",
+    location: "California",
+    entrants: 7,
+    first: "The Doctor",
+    second: "I0N",
+    third: "britipino",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Pico Plus #11",
     imageUrl: "https://images.start.gg/images/tournament/825404/image-85414f173df05dafd8c4f3aabd1f645a.png",
     eventUrl: "https://www.start.gg/tournament/pico-plus-11/details",
@@ -554,7 +619,7 @@ const eventData = [
     hideRankImage: false
   },
   {
-    eventTitle: "House of Numbus 4",
+    eventTitle: "House of Nimbus 4",
     imageUrl: "https://images.start.gg/images/tournament/818519/image-0729d0e2842572c0f2abfbf1782487b2.jpg",
     eventUrl: "https://www.start.gg/tournament/house-of-nimbus-4/details",
     date: "August 31 2025",

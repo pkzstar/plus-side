@@ -116,40 +116,6 @@ eventName.appendChild(location);
 
 // Sample event data (replace this with actual event data)
 const eventsData = [
-
-      {
-        name: "Night of the living DED #7 (Melee & P+)",
-        date: "11/8/25",
-        location: "Port Chester, NY, USA",
-        description: "We have free parking in the 'Waterfront Parking Lot' behind the venue, or paid parking on the street in the surrounding area.We have dedicated per player CRTs and wiis available for all contenstants. Extra setups are welcome but space for any extra setups cannot be guaranteed. ",
-        imageUrl: "https://images.start.gg/images/tournament/834279/image-60b5f58c889ef1904f09961eb67e83aa.png",
-        link: "https://www.start.gg/tournament/night-of-the-living-ded-7-melee-p/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Triple Tactics Talent 2025",
-        date: "11/8/25",
-        location: "Waltham, MA, USA",
-        description: "This is New England Melee's first attempt at a large triples tournament! We're also running Project+ and Melee Doubles as well. PLEASE NOTE THAT DUE TO TECHNICAL LIMITATIONS, THERE IS A MAXIMUM OF TWO DIFFERENT CHARACTERS PER TRIPLES TEAM. Ports 1 and 5 along with Ports 2 and 6 are linked and MUST have the same character selected due to the limitations in question.",
-        imageUrl: "https://images.start.gg/images/tournament/839343/image-4d4e9c8aa4d0c31a02a946881882bf28.png",
-        link: "https://www.start.gg/tournament/triple-tactics-talent-2025/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "20MD",
-        date: "11/8/25",
-        location: "College Park, MD, USA",
-        description: "Parking: Park in either lot 1 or lot z. If those are full you can try Mowatt Lane Garage, Union Lane Garage, Stadium Drive Garage or Regents Drive Garage (though you may have to pay). the tournament itself will be held at STAMP",
-        imageUrl: "https://images.start.gg/images/tournament/847187/image-17329736fb66bc71a6471bd1f710172a.png",
-        link: "https://www.start.gg/tournament/20md/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
       {
         name: "Show Me Your Moves '25",
         date: "11/15/25",
@@ -181,6 +147,17 @@ const eventsData = [
         link: "https://www.start.gg/tournament/one-more-game-2/details",
         rankImg: true, 
         trailer: "https://www.youtube.com/watch?v=hs4mSJYlaFA",
+        stream: ""
+      },
+      {
+        name: "Gecko Cavern 16",
+        date: "11/22/25",
+        location: "Burwood, NSW, Australia",
+        description: "Gecko Cavern 16 is incoming! Hosted at Club Burwood along Burwood Road on the top floor of the venue, Gecko Cavern is the tournament series for Project Plus in Sydney! We also feature other games such as Melee, Rivals of Aether, and more!",
+        imageUrl: "https://images.start.gg/images/tournament/849765/image-58355caaa5d49290f5f3ec754e55b461.png",
+        link: "https://www.start.gg/tournament/gecko-cavern-16/details",
+        rankImg: false, 
+        trailer: "",
         stream: ""
       },
       {
@@ -226,6 +203,17 @@ const eventsData = [
         rankImg: true, 
         trailer: "https://www.youtube.com/watch?v=q0z5bPfY948",
         stream: "https://www.twitch.tv/projectmnexus"
+      },
+      {
+        name: "Pope's Sunday Mass IV",
+        date: "2/1/26",
+        location: "Carlton, VIC, Australia",
+        description: "That's right. Back and better than ever it's Pope's Sunday Mass IV !! I am so happy to be able to invite all of you to The Clyde Hotel in Carlton to enjoy their Lounge (with attached bar) on Sunday 1st of February for your chance to win a share of over $500 in prize money across Singles and Doubles!!",
+        imageUrl: "https://images.start.gg/images/tournament/847360/image-d9bf248b1dbeca6ecc7cca0a8ac107b3.png",
+        link: "https://www.start.gg/tournament/pope-s-sunday-mass-iv/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
       },
       {
         name: "Flash Flood",
