@@ -4721,7 +4721,7 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-        // go8 + UFI8 + NotlD6 + PP11
+        // go8 + UFI8 + NotlD6 + PP11 + HoN5
         } else if (month === 8 && (date === 27) && year === 2025) {
         const events = [
             {   
@@ -4740,6 +4740,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/pico-plus-11/details",
                 imageSrc: "https://images.start.gg/images/tournament/825404/image-85414f173df05dafd8c4f3aabd1f645a.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/house-of-nimbus-5-1/details",
+                imageSrc: "https://images.start.gg/images/tournament/846150/image-c52bd200fd54312928e2252d59dbb7d9.jpg"
             }
     
         ];
@@ -5333,7 +5337,7 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-        // NotLD7 + TTT2025 + 20MD
+        // NotLD7 + TTT2025 + 20MD + HoN6
         } else if (month === 9 && date === 8 && year === 2025){
         const events = [
             {   
@@ -5348,6 +5352,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/20md/details",
                 imageSrc: "https://images.start.gg/images/tournament/847187/image-17329736fb66bc71a6471bd1f710172a.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/house-of-nimbus-6/details",
+                imageSrc: "https://images.start.gg/images/tournament/846150/image-c52bd200fd54312928e2252d59dbb7d9.jpg"
             }
     
         ];
@@ -5457,8 +5465,68 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-        // One More Game
-        } else if (month === 10 && (date === 22 || date === 23) && year === 2025) {
+        // One More Game Day 1 + GC16
+        } else if (month === 10 && (date === 22) && year === 2025) {
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/one-more-game-2/details",
+                imageSrc: "https://images.start.gg/images/tournament/795071/image-177b8c8cdfe8c8e9c9cc3e6a939f3568.png"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/gecko-cavern-16/details",
+                imageSrc: "https://images.start.gg/images/tournament/849765/image-58355caaa5d49290f5f3ec754e55b461.png"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
+        let link = document.createElement("a");
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+    
+        image.classList.add("calendarImg");
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
+
+        // One More Game day 2
+        } else if (month === 10 && (date === 23) && year === 2025) {
         // Example link with image
         let link = document.createElement("a");
         link.href = "https://www.start.gg/tournament/one-more-game-2/details";
@@ -5565,6 +5633,24 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
+        //PSM IV
+        } else if (month === 1 && date === 1 && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/pope-s-sunday-mass-iv/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/847360/image-d9bf248b1dbeca6ecc7cca0a8ac107b3.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+
+        // Flash Flood
         } else if (month === 1 && date === 28 && year === 2026) {    
         // Example link with image
         let link = document.createElement("a");
