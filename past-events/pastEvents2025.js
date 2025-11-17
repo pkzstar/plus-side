@@ -112,6 +112,32 @@ const eventData = [
 
 
   {
+    eventTitle: "SOAR 2",
+    imageUrl: "https://images.start.gg/images/tournament/814277/image-e3d84f3e973a9d0868bd2e56e5265815.png",
+    eventUrl: "https://www.start.gg/tournament/soar-2-1/details",
+    date: "November 15 2025",
+    location: "Florida",
+    entrants: 26,
+    first: "Jagz$",
+    second: "Up Smash & Pray",
+    third: "Tealz",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "Show Me Your Moves '25",
+    imageUrl: "https://images.start.gg/images/tournament/784887/image-19e0f4dffa7bc1c0d7a0579be64d4879.jpg",
+    eventUrl: "https://www.start.gg/tournament/show-me-your-moves-25/details",
+    date: "November 15 2025",
+    location: "Illinois",
+    entrants: 105,
+    first: "Blitz",
+    second: "RapMonster",
+    third: "Sebas",
+    vodsUrl: "https://www.youtube.com/playlist?list=PL_OBsvMFKQ5TVIH7gy-_tp0Zum_D9xD2r",
+    hideRankImage: false
+  },
+  {
     eventTitle: "House of Nimbus 6",
     imageUrl: "https://images.start.gg/images/tournament/846150/image-c52bd200fd54312928e2252d59dbb7d9.jpg",
     eventUrl: "https://www.start.gg/tournament/house-of-nimbus-6/details",
