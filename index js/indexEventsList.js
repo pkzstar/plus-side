@@ -116,28 +116,7 @@ eventName.appendChild(location);
 
 // Sample event data (replace this with actual event data)
 const eventsData = [
-      {
-        name: "Show Me Your Moves '25",
-        date: "11/15/25",
-        location: "Champaign, IL, USA",
-        description: "Show Me Your Moves turns 21! The longest running smash tournament returns for its 21st birthday and 24th iteration! Show Me Your Moves features Super Smash Bros. Melee and Super Smash Bros. Ultimate as always, and we're thrilled to be bringing you 'Brawl' once more!",
-        imageUrl: "https://images.start.gg/images/tournament/784887/image-19e0f4dffa7bc1c0d7a0579be64d4879.jpg",
-        link: "https://www.start.gg/tournament/show-me-your-moves-25/details",
-        rankImg: true, 
-        trailer: "https://x.com/UIUCSmash/status/1943138575794733460",
-        stream: "https://www.twitch.tv/pplusside"
-      },
-      {
-        name: "SOAR 2",
-        date: "11/15/25",
-        location: "Jacksonville, FL, USA",
-        description: "GOOGLE MAPS TO THE THOMAS G. CARPENTER LIBRARY IS THE EASIEST WAY TO GET TO THE BUILDING. The optimal Parking location is in front of the Thomas G. Carpenter library. Parking is free anywhere in the lot. If the lot is full, park in the Fine Arts Garage.",
-        imageUrl: "https://images.start.gg/images/tournament/814277/image-e3d84f3e973a9d0868bd2e56e5265815.png",
-        link: "https://www.start.gg/tournament/soar-2-1/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
+
       {
         name: "One More Game",
         date: "11/22/25 - 11/23/25",
@@ -194,6 +173,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Tripoint Smash: The Finale",
+        date: "12/19/25",
+        location: "Romeoville, IL, USA",
+        description: "The Sendoff for Chicagoland's Premier Multi-Game Event! After 8 years of Tripoint, the Community Arts Center has declined to renew our venue lease. Come join us to commemorate the end of one of the longest running locals in Illinois history. This may be the end of this chapter for UGS, but stay tuned for future announcements regarding Chicago locals.",
+        imageUrl: "https://images.start.gg/images/tournament/850279/image-11a290228f126497d1ee4b5d1ec42cd3.png",
+        link: "https://www.start.gg/tournament/tripoint-smash-the-finale/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Blacklisted 9: Blacklisted Forever",
         date: "1/10/26 - 1/11/26",
         location: "Waltham, MA, USA",
@@ -216,12 +206,34 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Smash of the Titans 11",
+        date: "2/21/26",
+        location: "Bloomington, Illinois, USA",
+        description: "Welcome to Smash of the Titans 11! Illinois Wesleyan University is back with our 11th edition of Smash regional featuring Dabuz, Deliboid, Shadowhawke, and many more!! ",
+        imageUrl: "https://images.start.gg/images/tournament/841162/image-725756f044cd841d6402cb75cff7c2c3.jpg",
+        link: "https://www.start.gg/tournament/smash-of-the-titans-11-1/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Flash Flood",
         date: "2/28/26",
         location: "Normal, Illinois, USA",
         description: "Welcome to Flash Flood, GRV's brand new major event. Featuring singles, doubles, and amateur brackets for Ultimate, Melee, and 'Brawl', we aim to provide an unforgettable experience!",
         imageUrl: "https://images.start.gg/images/tournament/813787/image-12969cc9155ec8f9247a30aefe8d1120.png",
         link: "https://www.start.gg/tournament/flash-flood/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Element",
+        date: "4/18/26 - 4/19/26",
+        location: "Minneapolis, Minnesota, USA",
+        description: "I'm in my Element",
+        imageUrl: "https://images.start.gg/images/tournament/839045/image-231e7c9fdd38b22d6e77688c8836cd22.jpg",
+        link: "https://www.start.gg/tournament/element-1/details",
         rankImg: false, 
         trailer: "",
         stream: ""

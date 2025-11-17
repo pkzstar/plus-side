@@ -5617,6 +5617,23 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
+
+        // TPS Finale :(
+        } else if (month === 11 && date === 19 && year === 2025) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/tripoint-smash-the-finale/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/850279/image-11a290228f126497d1ee4b5d1ec42cd3.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
         // BL9
         } else if ((month === 0 && date === 10 && year === 2026) || (month === 0 && date === 11 && year === 2026)) {    
         // Example link with image
@@ -5649,6 +5666,22 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
+        // SOTT 11
+        } else if (month === 1 && date === 21 && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/smash-of-the-titans-11-1/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/841162/image-725756f044cd841d6402cb75cff7c2c3.jpg";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
 
         // Flash Flood
         } else if (month === 1 && date === 28 && year === 2026) {    
@@ -5659,6 +5692,22 @@ function showCalendar(month, year) {
     
         let image = document.createElement("img");
         image.src = "https://images.start.gg/images/tournament/813787/image-12969cc9155ec8f9247a30aefe8d1120.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // Element
+        } else if (month === 3 && (date === 18 || date ===19) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/element-1/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/839045/image-231e7c9fdd38b22d6e77688c8836cd22.jpg";
     
         image.classList.add("calendarImg");
     
