@@ -485,7 +485,7 @@ const eventData = [
     first: "Dirtboy",
     second: "Lordy",
     third: "Yuko",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLAT5TuRwHTCIta77h8S4Ra3zTkGHuctZi",
     hideRankImage: true
   },
   {
@@ -953,7 +953,7 @@ const eventData = [
     first: "Dirtboy",
     second: "SoulOfficer",
     third: "Ellipsis",
-    vodsUrl: "https://youtu.be/EW15FyiWwls",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLAT5TuRwHTCIvppMcVXG62KZ1SgM1q5Xg",
     hideRankImage: false
   },
   {
@@ -1265,7 +1265,7 @@ const eventData = [
     first: "Yuko",
     second: "Daddiest",
     third: "Lord Wavy",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLAT5TuRwHTCJ6UmZtAdnWpS1x1IUz8eHT",
     hideRankImage: true
   },
   {

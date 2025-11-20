@@ -126,7 +126,7 @@ const eventsData = [
         link: "https://www.start.gg/tournament/one-more-game-2/details",
         rankImg: true, 
         trailer: "https://www.youtube.com/watch?v=hs4mSJYlaFA",
-        stream: ""
+        stream: "https://www.twitch.tv/projectmnexus"
       },
       {
         name: "Gecko Cavern 16",
@@ -138,6 +138,17 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: ""
+      },
+      {
+        name: "Pico Plus #13",
+        date: "11/22/25",
+        location: "Pico Rivera, CA, USA",
+        description: "SoCal P+ is back! Introducing Pico Plus, a brand new Project+ local in the heart of Pico Rivera, CA",
+        imageUrl: "https://images.start.gg/images/tournament/849645/image-d77fccdb1e86eb7bb98bc751e70326ba.png",
+        link: "https://www.start.gg/tournament/pico-plus-13/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.twitch.tv/socalpm"
       },
       {
         name: "Pissmas 6",
@@ -170,7 +181,7 @@ const eventsData = [
         link: "https://www.start.gg/tournament/unc-frozen-s-icebox-10-holiday-edition/details",
         rankImg: false, 
         trailer: "",
-        stream: ""
+        stream: "https://www.twitch.tv/fxgames_gg"
       },
       {
         name: "Tripoint Smash: The Finale",
@@ -181,7 +192,7 @@ const eventsData = [
         link: "https://www.start.gg/tournament/tripoint-smash-the-finale/details",
         rankImg: false, 
         trailer: "",
-        stream: ""
+        stream: "https://twitch.tv/projectmnexus"
       },
       {
         name: "Blacklisted 9: Blacklisted Forever",
@@ -234,7 +245,7 @@ const eventsData = [
         description: "I'm in my Element",
         imageUrl: "https://images.start.gg/images/tournament/839045/image-231e7c9fdd38b22d6e77688c8836cd22.jpg",
         link: "https://www.start.gg/tournament/element-1/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: ""
       }

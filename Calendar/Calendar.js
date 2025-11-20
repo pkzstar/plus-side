@@ -5465,7 +5465,7 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-        // One More Game Day 1 + GC16
+        // One More Game Day 1 + GC16 + PP13
         } else if (month === 10 && (date === 22) && year === 2025) {
         const events = [
             {   
@@ -5476,6 +5476,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/gecko-cavern-16/details",
                 imageSrc: "https://images.start.gg/images/tournament/849765/image-58355caaa5d49290f5f3ec754e55b461.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/pico-plus-13/details",
+                imageSrc: "https://images.start.gg/images/tournament/849645/image-d77fccdb1e86eb7bb98bc751e70326ba.png"
             }
     
         ];
