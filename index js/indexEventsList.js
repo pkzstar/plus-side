@@ -118,50 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "One More Game",
-        date: "11/22/25 - 11/23/25",
-        location: "Seattle, WA, USA",
-        description: "Registration closes November 18th TUESDAY at 11:59pm!",
-        imageUrl: "https://images.start.gg/images/tournament/795071/image-177b8c8cdfe8c8e9c9cc3e6a939f3568.png",
-        link: "https://www.start.gg/tournament/one-more-game-2/details",
-        rankImg: true, 
-        trailer: "https://www.youtube.com/watch?v=hs4mSJYlaFA",
-        stream: "https://www.twitch.tv/projectmnexus"
-      },
-      {
-        name: "Gecko Cavern 16",
-        date: "11/22/25",
-        location: "Burwood, NSW, Australia",
-        description: "Gecko Cavern 16 is incoming! Hosted at Club Burwood along Burwood Road on the top floor of the venue, Gecko Cavern is the tournament series for Project Plus in Sydney! We also feature other games such as Melee, Rivals of Aether, and more!",
-        imageUrl: "https://images.start.gg/images/tournament/849765/image-58355caaa5d49290f5f3ec754e55b461.png",
-        link: "https://www.start.gg/tournament/gecko-cavern-16/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Pico Plus #13",
-        date: "11/22/25",
-        location: "Pico Rivera, CA, USA",
-        description: "SoCal P+ is back! Introducing Pico Plus, a brand new Project+ local in the heart of Pico Rivera, CA",
-        imageUrl: "https://images.start.gg/images/tournament/849645/image-d77fccdb1e86eb7bb98bc751e70326ba.png",
-        link: "https://www.start.gg/tournament/pico-plus-13/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/socalpm"
-      },
-      {
-        name: "Pissmas 6",
-        date: "12/5/25 - 12/7/25",
-        location: "Southport, QLD, Australia",
-        description: "Christmas Smash Major in collaboration with Queensland Ultimate, Tournameta and Piss Gang. Pissmas 6 will run over three days, feature four games, seven brackets and the one and only Pissbet!",
-        imageUrl: "https://images.start.gg/images/tournament/825531/image-1121c89e50d3f48692a4aeccafbd882d.png",
-        link: "https://www.start.gg/tournament/pissmas-6/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Get Sliced On! | Fall 2025",
         date: "12/13/25",
         location: "Wageningen, Netherlands",
@@ -193,6 +149,17 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: "https://twitch.tv/projectmnexus"
+      },
+      {
+        name: "The Night before Blitzmas",
+        date: "12/27/25",
+        location: "Mississauga, ON, Canada",
+        description: "'Twas the night before Blitzmas, when all throughout Brampton, Not a player was gaming, not even an 0-2er. The CRTs were placed by the venue with care, In hopes that St. Blitz soon would be there...",
+        imageUrl: "https://images.start.gg/images/tournament/853984/image-d40a2eb4efd830f1825e62c6391506be.jpg",
+        link: "https://www.start.gg/tournament/the-night-before-blitzmas/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "s"
       },
       {
         name: "Blacklisted 9: Blacklisted Forever",
@@ -234,6 +201,17 @@ const eventsData = [
         description: "Welcome to Flash Flood, GRV's brand new major event. Featuring singles, doubles, and amateur brackets for Ultimate, Melee, and 'Brawl', we aim to provide an unforgettable experience!",
         imageUrl: "https://images.start.gg/images/tournament/813787/image-12969cc9155ec8f9247a30aefe8d1120.png",
         link: "https://www.start.gg/tournament/flash-flood/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Bustered Out 2",
+        date: "4/4/26",
+        location: "Nashville, Tennessee, USA",
+        description: "Welcome to Bustered Out 2! This is a Melee/'BRAWL' Regional event located in the Opry Mills Mall Dave & Busters. All registration will include entry to the event as well as a catered dinner. ",
+        imageUrl: "https://images.start.gg/images/tournament/859269/image-4c4804477550479932e7df06bcd73fbb.png",
+        link: "https://www.start.gg/tournament/bustered-out-2/details",
         rankImg: false, 
         trailer: "",
         stream: ""

@@ -5546,7 +5546,7 @@ function showCalendar(month, year) {
         cell.appendChild(link);
 
         // Pissmas 6
-        } else if (month === 11 && (date === 5 || date === 6 || date === 7) && year === 2025) {
+        } else if (month === 11 && (date === 5 || date === 7) && year === 2025) {
         // Example link with image
         let link = document.createElement("a");
         link.href = "https://www.start.gg/tournament/pissmas-6/details";
@@ -5560,6 +5560,71 @@ function showCalendar(month, year) {
     
         link.appendChild(image);
         cell.appendChild(link);
+
+        // Pissmas 6 day 2 + PP14 + GOD2
+        } else if (month === 11 && date === 6 && year === 2025) {    
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/pissmas-6/details",
+                imageSrc: "https://images.start.gg/images/tournament/825531/image-1121c89e50d3f48692a4aeccafbd882d.png"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/pico-plus-14-1/details",
+                imageSrc: "https://images.start.gg/images/tournament/856070/image-44ac759c304c4e20d87b06a91e44f251.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/the-good-ol-days-2-a-dirtboy-christmas-special/details",
+                imageSrc: "https://images.start.gg/images/tournament/852046/image-326481f986ae50a8bf3426e999ff1a53.png"
+            }
+    
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
+        let link = document.createElement("a");
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+    
+        image.classList.add("calendarImg");
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
         // GSO 2025 + UFI10
         } else if (month === 11 && date === 13 && year === 2025) {    
@@ -5638,6 +5703,22 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
+        // Blitzmas
+        } else if (month === 11 && date === 27 && year === 2025) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/the-night-before-blitzmas/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/853984/image-d40a2eb4efd830f1825e62c6391506be.jpg";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
         // BL9
         } else if ((month === 0 && date === 10 && year === 2026) || (month === 0 && date === 11 && year === 2026)) {    
         // Example link with image
@@ -5702,6 +5783,23 @@ function showCalendar(month, year) {
     
         link.appendChild(image);
         cell.appendChild(link);
+
+        // BO2
+        } else if (month === 3 && (date === 4) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/bustered-out-2/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/859269/image-4c4804477550479932e7df06bcd73fbb.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
 
         // Element
         } else if (month === 3 && (date === 18 || date ===19) && year === 2026) {    
