@@ -118,50 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Get Sliced On! | Fall 2025",
-        date: "12/13/25",
-        location: "Wageningen, Netherlands",
-        description: "This December you can enjoy another 'GSO' event! With doubles for both games and singles formats that ensure plenty of competitive sets at all levels of play there's plenty of gaming for everyone at Get Sliced On!",
-        imageUrl: "https://images.start.gg/images/tournament/782485/image-bd6e5058d3c1c346dd915bf841431aea.png",
-        link: "https://www.start.gg/tournament/get-sliced-on-fall-2025/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Unc Frozen's Icebox 10: Holiday Edition",
-        date: "12/13/25",
-        location: "Plano, TX, USA",
-        description: "Welcome to an extra festive entry in the Icebox tournament series, presented by your friendly neighborhood Unc Frozen!",
-        imageUrl: "https://images.start.gg/images/tournament/846003/image-08d7caac8751cec6c714feea250e063c.jpg",
-        link: "https://www.start.gg/tournament/unc-frozen-s-icebox-10-holiday-edition/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/fxgames_gg"
-      },
-      {
-        name: "Tripoint Smash: The Finale",
-        date: "12/19/25",
-        location: "Romeoville, IL, USA",
-        description: "The Sendoff for Chicagoland's Premier Multi-Game Event! After 8 years of Tripoint, the Community Arts Center has declined to renew our venue lease. Come join us to commemorate the end of one of the longest running locals in Illinois history. This may be the end of this chapter for UGS, but stay tuned for future announcements regarding Chicago locals.",
-        imageUrl: "https://images.start.gg/images/tournament/850279/image-11a290228f126497d1ee4b5d1ec42cd3.png",
-        link: "https://www.start.gg/tournament/tripoint-smash-the-finale/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://twitch.tv/projectmnexus"
-      },
-      {
-        name: "The Night before Blitzmas",
-        date: "12/27/25",
-        location: "Mississauga, ON, Canada",
-        description: "'Twas the night before Blitzmas, when all throughout Brampton, Not a player was gaming, not even an 0-2er. The CRTs were placed by the venue with care, In hopes that St. Blitz soon would be there...",
-        imageUrl: "https://images.start.gg/images/tournament/853984/image-d40a2eb4efd830f1825e62c6391506be.jpg",
-        link: "https://www.start.gg/tournament/the-night-before-blitzmas/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "s"
-      },
-      {
         name: "Blacklisted 9: Blacklisted Forever",
         date: "1/10/26 - 1/11/26",
         location: "Waltham, MA, USA",
@@ -171,6 +127,28 @@ const eventsData = [
         rankImg: true, 
         trailer: "https://www.youtube.com/watch?v=q0z5bPfY948",
         stream: "https://www.twitch.tv/projectmnexus"
+      },
+      {
+        name: "SOLARPOWERED: BLACKOUT",
+        date: "1/17/26",
+        location: "Plano, TX, USA",
+        description: "Welcome to SOLARPOWERED: BLACKOUT",
+        imageUrl: "https://images.start.gg/images/tournament/863219/image-d4257a618b9f740a0407de02fea07eb9.jpg",
+        link: "https://www.start.gg/tournament/solarpowered-blackout/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Get Outplayed 9",
+        date: "1/31/26",
+        location: "Peoria, IL, USA",
+        description: "Get Outplayed 9 is here. On January 31st, your favorite GRV regional returns for its NINTH installment at Bradley University.",
+        imageUrl: "https://images.start.gg/images/tournament/864902/image-68b7df2019e573705b541192fad00a3b.png",
+        link: "https://www.start.gg/tournament/get-outplayed-9/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
       },
       {
         name: "Pope's Sunday Mass IV",
