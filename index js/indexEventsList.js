@@ -129,6 +129,28 @@ const eventsData = [
         stream: "https://www.twitch.tv/projectmnexus"
       },
       {
+        name: "SOLARPOWERED: BLACKOUT",
+        date: "1/17/26",
+        location: "Plano, TX, USA",
+        description: "Welcome to SOLARPOWERED: BLACKOUT",
+        imageUrl: "https://images.start.gg/images/tournament/863219/image-d4257a618b9f740a0407de02fea07eb9.jpg",
+        link: "https://www.start.gg/tournament/solarpowered-blackout/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Get Outplayed 9",
+        date: "1/31/26",
+        location: "Peoria, IL, USA",
+        description: "Get Outplayed 9 is here. On January 31st, your favorite GRV regional returns for its NINTH installment at Bradley University.",
+        imageUrl: "https://images.start.gg/images/tournament/864902/image-68b7df2019e573705b541192fad00a3b.png",
+        link: "https://www.start.gg/tournament/get-outplayed-9/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Pope's Sunday Mass IV",
         date: "2/1/26",
         location: "Carlton, VIC, Australia",

@@ -122,7 +122,7 @@ const eventData = [
     second: "Blitz",
     third: "Eggnogdog",
     vodsUrl: "https://www.youtube.com/watch?v=MLL4bL_z92c",
-    hideRankImage: false
+    hideRankImage: true
   },
   {
     eventTitle: "Mass Madness 55 - And The Truth Will Set You Free",
@@ -135,7 +135,7 @@ const eventData = [
     second: "sfy bees",
     third: "Serb",
     vodsUrl: "",
-    hideRankImage: true
+    hideRankImage: false
   },
   {
     eventTitle: "Gecko Cavern 17",
