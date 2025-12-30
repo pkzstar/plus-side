@@ -112,6 +112,58 @@ const eventData = [
 
 
   {
+    eventTitle: "The Night before Blitzmas",
+    imageUrl: "https://images.start.gg/images/tournament/853984/image-d40a2eb4efd830f1825e62c6391506be.jpg",
+    eventUrl: "https://www.start.gg/tournament/the-night-before-blitzmas/details",
+    date: "December 13 2025",
+    location: "Ontario",
+    entrants: 16,
+    first: "Erg",
+    second: "Blitz",
+    third: "Eggnogdog",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "Tripoint Smash: The Finale",
+    imageUrl: "https://images.start.gg/images/tournament/850279/image-11a290228f126497d1ee4b5d1ec42cd3.png",
+    eventUrl: "https://www.start.gg/tournament/tripoint-smash-the-finale/details",
+    date: "December 13 2025",
+    location: "Illinois",
+    entrants: 75,
+    first: "Comb",
+    second: "LIVE",
+    third: "metroid",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "Unc Frozen's Icebox 10: Holiday Edition",
+    imageUrl: "https://images.start.gg/images/tournament/846003/image-08d7caac8751cec6c714feea250e063c.jpg",
+    eventUrl: "https://www.start.gg/tournament/unc-frozen-s-icebox-10-holiday-edition/details",
+    date: "December 13 2025",
+    location: "Texas",
+    entrants: 19,
+    first: "Fury",
+    second: "Apathy",
+    third: "J-am",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Get Sliced On! | Fall 2025",
+    imageUrl: "https://images.start.gg/images/tournament/782485/image-bd6e5058d3c1c346dd915bf841431aea.png",
+    eventUrl: "https://www.start.gg/tournament/get-sliced-on-fall-2025/details",
+    date: "December 13 2025",
+    location: "Netherlands",
+    entrants: 23,
+    first: "Ace",
+    second: "skullbro",
+    third: "Xin",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "The Good Ol' Days 2 - a Dirtboy Christmas Special",
     imageUrl: "https://images.start.gg/images/tournament/852046/image-326481f986ae50a8bf3426e999ff1a53.png",
     eventUrl: "https://www.start.gg/tournament/the-good-ol-days-2-a-dirtboy-christmas-special/details",
