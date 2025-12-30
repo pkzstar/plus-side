@@ -115,14 +115,40 @@ const eventData = [
     eventTitle: "The Night before Blitzmas",
     imageUrl: "https://images.start.gg/images/tournament/853984/image-d40a2eb4efd830f1825e62c6391506be.jpg",
     eventUrl: "https://www.start.gg/tournament/the-night-before-blitzmas/details",
-    date: "December 13 2025",
+    date: "December 27 2025",
     location: "Ontario",
     entrants: 16,
     first: "Erg",
     second: "Blitz",
     third: "Eggnogdog",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/watch?v=MLL4bL_z92c",
     hideRankImage: false
+  },
+  {
+    eventTitle: "Mass Madness 55 - And The Truth Will Set You Free",
+    imageUrl: "https://images.start.gg/images/tournament/836818/image-4c4350376f95fae2c170a91413f63f14.jpg",
+    eventUrl: "https://www.start.gg/tournament/mass-madness-55-and-the-truth-will-set-you-free/details",
+    date: "December 20 2025",
+    location: "Massachussetts",
+    entrants: 20,
+    first: "Kumatora",
+    second: "sfy bees",
+    third: "Serb",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Gecko Cavern 17",
+    imageUrl: "https://images.start.gg/images/tournament/859955/image-722c29883df14a3034c593f28fc02521.png",
+    eventUrl: "https://www.start.gg/tournament/gecko-cavern-17-the-icebreaker/details",
+    date: "December 20 2025",
+    location: "New South Wales",
+    entrants: 18,
+    first: "RNGReallyNotGood",
+    second: "RoyinoZ",
+    third: "Michael",
+    vodsUrl: "",
+    hideRankImage: true
   },
   {
     eventTitle: "Tripoint Smash: The Finale",
@@ -238,7 +264,7 @@ const eventData = [
     first: "SipMastah",
     second: "Salt",
     third: "Shiny Zubat",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLFNycRHvwRfJfuKFfjQBddjiuyzeFxHx0",
     hideRankImage: false
   },
   {
