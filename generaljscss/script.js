@@ -234,6 +234,19 @@ document.addEventListener('DOMContentLoaded', () => {
     pastEventsList.appendChild(pastEvents2025Wrapper);
     pastEvents2025Link.classList.add("past-year");
 
+    //2026
+    let pastEvents2026 = document.getElementById("pastEvents")
+    pastEventsList.classList.add("pastEventsList")
+    pastEvents.appendChild(pastEventsList);
+    let pastEvents2026Wrapper = document.createElement("p");
+    pastEvents2026Wrapper.classList.add("pastYearWrapper")
+    let pastEvents2026Link = document.createElement("a");
+    pastEvents2026Link.href = "../past-events/2026.html";
+    pastEvents2026Wrapper.appendChild(pastEvents2026Link);
+    pastEvents2026Link.innerHTML = "2026";
+    pastEventsList.appendChild(pastEvents2026Wrapper);
+    pastEvents2026Link.classList.add("past-year");
+
 
       
 // Get the bulb element
