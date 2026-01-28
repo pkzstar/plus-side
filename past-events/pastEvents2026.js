@@ -112,8 +112,44 @@ const eventData = [
 
 
   {
-
-},
+    eventTitle: "Pico Plus #15",
+    imageUrl: "https://images.start.gg/images/tournament/860989/image-d18a4bd977c91b9e83aab35faed2226b.png",
+    eventUrl: "https://www.start.gg/tournament/pico-plus-15/details",
+    date: "January 24 2026",
+    location: "California",
+    entrants: 38,
+    first: "Jonny Sosa",
+    second: "Blank",
+    third: "Sneez",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "SOLARPOWERED: BLACKOUT",
+    imageUrl: "https://images.start.gg/images/tournament/863219/image-d4257a618b9f740a0407de02fea07eb9.jpg",
+    eventUrl: "https://www.start.gg/tournament/solarpowered-blackout/details",
+    date: "January 17 2026",
+    location: "Texas",
+    entrants: 4,
+    first: "J-am",
+    second: "Mason?",
+    third: "Peston",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Blacklisted 9: Blacklisted Forever",
+    imageUrl: "https://images.start.gg/images/tournament/681909/image-c043212981c638b1eaf4cef1bb2c5363.png",
+    eventUrl: "https://www.start.gg/tournament/blacklisted-9-blacklisted-forever/details",
+    date: "January 10-11 2026",
+    location: "Massachussetts",
+    entrants: 111,
+    first: "RapMonster",
+    second: "Comb",
+    third: "Sebas",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLov8ro2MZrJL2n1puraMz0NdojK-MB2aG",
+    hideRankImage: false
+  },
 ];
 
 // Create past event element

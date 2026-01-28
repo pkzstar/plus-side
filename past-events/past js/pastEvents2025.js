@@ -190,6 +190,19 @@ const eventData = [
     hideRankImage: true
   },
   {
+    eventTitle: "Smash Cafe Plus: The December Monthly #22",
+    imageUrl: "https://images.start.gg/images/tournament/857860/image-3a47ae56f0572834cadeeb56270a14df.png",
+    eventUrl: "https://www.start.gg/tournament/smash-cafe-plus-the-december-monthly-22/details",
+    date: "December 6 2025",
+    location: "Texas",
+    entrants: 7,
+    first: "~CP9~",
+    second: "Ntire",
+    third: "Plate",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "The Good Ol' Days 2 - a Dirtboy Christmas Special",
     imageUrl: "https://images.start.gg/images/tournament/852046/image-326481f986ae50a8bf3426e999ff1a53.png",
     eventUrl: "https://www.start.gg/tournament/the-good-ol-days-2-a-dirtboy-christmas-special/details",
