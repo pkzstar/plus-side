@@ -118,34 +118,23 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Blacklisted 9: Blacklisted Forever",
-        date: "1/10/26 - 1/11/26",
-        location: "Waltham, MA, USA",
-        description: "As tournaments once again fall into the shadows, it shows that we are truly Blacklisted Forever. Blacklisted 9 will be running both Doubles and Singles brackets with the greatest talent from past and present. This is the final tournament that will be run by Motobug and the final tournament in the Blacklisted series - don't miss out on this historic event!",
-        imageUrl: "https://images.start.gg/images/tournament/681909/image-c043212981c638b1eaf4cef1bb2c5363.png",
-        link: "https://www.start.gg/tournament/blacklisted-9-blacklisted-forever/details",
-        rankImg: true, 
-        trailer: "https://www.youtube.com/watch?v=q0z5bPfY948",
-        stream: "https://www.twitch.tv/projectmnexus"
-      },
-      {
-        name: "SOLARPOWERED: BLACKOUT",
-        date: "1/17/26",
-        location: "Plano, TX, USA",
-        description: "Welcome to SOLARPOWERED: BLACKOUT",
-        imageUrl: "https://images.start.gg/images/tournament/863219/image-d4257a618b9f740a0407de02fea07eb9.jpg",
-        link: "https://www.start.gg/tournament/solarpowered-blackout/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Get Outplayed 9",
         date: "1/31/26",
         location: "Peoria, IL, USA",
         description: "Get Outplayed 9 is here. On January 31st, your favorite GRV regional returns for its NINTH installment at Bradley University.",
         imageUrl: "https://images.start.gg/images/tournament/864902/image-68b7df2019e573705b541192fad00a3b.png",
         link: "https://www.start.gg/tournament/get-outplayed-9/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Mahtay Melee - Winter '26 Edition",
+        date: "1/31/26",
+        location: "St. Catharines, ON, Canada",
+        description: "Make the drive to Niagara on Saturday, January 31st for the second edition of Mahtay Melee, a one-day tournament hosted in an amazing community-focused venue, the Mahtay Café & Lounge in St. Catharines, ON. Come enjoy a day of melee, coffee, and drinks at the Mahtay!",
+        imageUrl: "https://images.start.gg/images/tournament/863499/image-45acb75418444796356138f20b59b114.png",
+        link: "https://www.start.gg/tournament/mahtay-melee-winter-26-edition/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -162,13 +151,24 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Pico Plus #16",
+        date: "2/7/26",
+        location: "Pico Rivera, California, USA",
+        description: "Introducing Pico Plus, a brand new Project+ local in the heart of Pico Rivera, CA",
+        imageUrl: "https://images.start.gg/images/tournament/874014/image-4b8b29a313fa02abe178bc7edbda0922.png",
+        link: "https://www.start.gg/tournament/pico-plus-16/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Smash of the Titans 11",
         date: "2/21/26",
         location: "Bloomington, Illinois, USA",
         description: "Welcome to Smash of the Titans 11! Illinois Wesleyan University is back with our 11th edition of Smash regional featuring Dabuz, Deliboid, Shadowhawke, and many more!! ",
         imageUrl: "https://images.start.gg/images/tournament/841162/image-725756f044cd841d6402cb75cff7c2c3.jpg",
         link: "https://www.start.gg/tournament/smash-of-the-titans-11-1/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: ""
       },
@@ -179,6 +179,17 @@ const eventsData = [
         description: "Welcome to Flash Flood, GRV's brand new major event. Featuring singles, doubles, and amateur brackets for Ultimate, Melee, and 'Brawl', we aim to provide an unforgettable experience!",
         imageUrl: "https://images.start.gg/images/tournament/813787/image-12969cc9155ec8f9247a30aefe8d1120.png",
         link: "https://www.start.gg/tournament/flash-flood/details",
+        rankImg: true, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Take Flight '26",
+        date: "3/14/26",
+        location: "Dayton, Ohio, USA",
+        description: "Take Flight is Dayton, Ohio’s annual regional platform fighter tournament!",
+        imageUrl: "https://images.start.gg/images/tournament/864665/image-9551083e30bca6b48e9a64d778db43a2.jpg",
+        link: "https://www.start.gg/tournament/take-flight-26/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -195,12 +206,45 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Volan 2026",
+        date: "4/10/26 - 4/12/26",
+        location: "Knoxville, Tennessee, USA",
+        description: "The annual Esports Tournament hosted by the student run Esports Club at the University of Tennessee. The event is focused on providing an in-person LAN experience to college esports teams and clubs in the Southeast. Participating in most events will be college student only, but some will be open to the public (Smash and FGC for example. Please see respective event details for more information).",
+        imageUrl: "https://images.start.gg/images/tournament/841158/image-2cc3597d9d558d105a4406a7ed422903.png",
+        link: "https://www.start.gg/tournament/volan-2026/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Element",
         date: "4/18/26 - 4/19/26",
         location: "Minneapolis, Minnesota, USA",
         description: "I'm in my Element",
         imageUrl: "https://images.start.gg/images/tournament/839045/image-231e7c9fdd38b22d6e77688c8836cd22.jpg",
         link: "https://www.start.gg/tournament/element-1/details",
+        rankImg: true, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "House of Paign 25",
+        date: "4/25/26",
+        location: "Urbana, Illinois, USA",
+        description: "After a year-long hiatus, during which we ran Never Melee and Paign: Automata, the House of Paign series is BACK with its 25th iteration and its 12th year.",
+        imageUrl: "https://images.start.gg/images/tournament/864395/image-d48ee13c8ec71aa4cd3a8b6da0e35c4a.png",
+        link: "https://www.start.gg/tournament/house-of-paign-25/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Smash Camp: Heartlands",
+        date: "5/29/26 - 6/1/26",
+        location: "Wautoma, Wisconsin, USA",
+        description: "Smash Camp Comes To The Midwest! In the ever wonderful state of Wisconsin, it's the Smash Camp you love in a place that's new. At the beautiful Camp Lakotah you can hike, swim, and go 0-2 (in Melee or Beach Volleyball!) at one the of the most unique venues our scene has to offer.",
+        imageUrl: "https://images.start.gg/images/tournament/848016/image-ad81fb6d62d51b7553360cac9de398bd.png",
+        link: "https://www.start.gg/tournament/smash-camp-heartlands/details",
         rankImg: true, 
         trailer: "",
         stream: ""
