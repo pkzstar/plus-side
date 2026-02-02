@@ -112,6 +112,45 @@ const eventData = [
 
 
   {
+    eventTitle: "Pope's Sunday Mass IV",
+    imageUrl: "https://images.start.gg/images/tournament/847360/image-d9bf248b1dbeca6ecc7cca0a8ac107b3.png",
+    eventUrl: "https://www.start.gg/tournament/pope-s-sunday-mass-iv/details",
+    date: "February 1 2026",
+    location: "Victoria",
+    entrants: 16,
+    first: "Ryzuul",
+    second: "Tyler",
+    third: "DD",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Mahtay Melee - Winter '26 Edition",
+    imageUrl: "https://images.start.gg/images/tournament/863499/image-45acb75418444796356138f20b59b114.png",
+    eventUrl: "https://www.start.gg/tournament/mahtay-melee-winter-26-edition/details",
+    date: "January 31 2026",
+    location: "Ontario",
+    entrants: 21,
+    first: "BING",
+    second: "Zaza",
+    third: "Erg",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Get Outplayed 9",
+    imageUrl: "https://images.start.gg/images/tournament/864902/image-68b7df2019e573705b541192fad00a3b.png",
+    eventUrl: "https://www.start.gg/tournament/get-outplayed-9/details",
+    date: "January 31 2026",
+    location: "Illinois",
+    entrants: 7,
+    first: "PokePoke",
+    second: "Kief",
+    third: "Nano",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Pico Plus #15",
     imageUrl: "https://images.start.gg/images/tournament/860989/image-d18a4bd977c91b9e83aab35faed2226b.png",
     eventUrl: "https://www.start.gg/tournament/pico-plus-15/details",
