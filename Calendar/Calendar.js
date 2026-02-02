@@ -5907,21 +5907,65 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // SOTT 11
+        // SOTT 11 + CoL AxB
         } else if (month === 1 && date === 21 && year === 2026) {    
-        // Example link with image
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/smash-of-the-titans-11-1/details",
+                imageSrc: "https://images.start.gg/images/tournament/841162/image-725756f044cd841d6402cb75cff7c2c3.jpg"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/condo-of-love-ares-x-blitz/details",
+                imageSrc: "https://images.start.gg/images/tournament/876164/image-973ccad4af779392912d3820ca7efb14.jpg"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
         let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/smash-of-the-titans-11-1/details";
         link.target = "_blank";
     
         let image = document.createElement("img");
-        image.src = "https://images.start.gg/images/tournament/841162/image-725756f044cd841d6402cb75cff7c2c3.jpg";
     
         image.classList.add("calendarImg");
     
-    
         link.appendChild(image);
         cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
 
         // Flash Flood
@@ -5941,7 +5985,7 @@ function showCalendar(month, year) {
         cell.appendChild(link);
 
         // Take Flight '26
-        } else if (month === 2 && date === 28 && year === 2026) {    
+        } else if (month === 2 && date === 14 && year === 2026) {    
         // Example link with image
         let link = document.createElement("a");
         link.href = "https://www.start.gg/tournament/take-flight-26/details";
@@ -5955,6 +5999,23 @@ function showCalendar(month, year) {
     
         link.appendChild(image);
         cell.appendChild(link);
+
+        // Main Event 2
+        } else if (month === 2 && date === 22 && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/main-event-2/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/860982/image-f7116ff2a6a425b54362412cff28cadc.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
 
         // BO2
         } else if (month === 3 && (date === 4) && year === 2026) {    

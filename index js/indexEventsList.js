@@ -118,39 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Get Outplayed 9",
-        date: "1/31/26",
-        location: "Peoria, IL, USA",
-        description: "Get Outplayed 9 is here. On January 31st, your favorite GRV regional returns for its NINTH installment at Bradley University.",
-        imageUrl: "https://images.start.gg/images/tournament/864902/image-68b7df2019e573705b541192fad00a3b.png",
-        link: "https://www.start.gg/tournament/get-outplayed-9/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Mahtay Melee - Winter '26 Edition",
-        date: "1/31/26",
-        location: "St. Catharines, ON, Canada",
-        description: "Make the drive to Niagara on Saturday, January 31st for the second edition of Mahtay Melee, a one-day tournament hosted in an amazing community-focused venue, the Mahtay Café & Lounge in St. Catharines, ON. Come enjoy a day of melee, coffee, and drinks at the Mahtay!",
-        imageUrl: "https://images.start.gg/images/tournament/863499/image-45acb75418444796356138f20b59b114.png",
-        link: "https://www.start.gg/tournament/mahtay-melee-winter-26-edition/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Pope's Sunday Mass IV",
-        date: "2/1/26",
-        location: "Carlton, VIC, Australia",
-        description: "That's right. Back and better than ever it's Pope's Sunday Mass IV !! I am so happy to be able to invite all of you to The Clyde Hotel in Carlton to enjoy their Lounge (with attached bar) on Sunday 1st of February for your chance to win a share of over $500 in prize money across Singles and Doubles!!",
-        imageUrl: "https://images.start.gg/images/tournament/847360/image-d9bf248b1dbeca6ecc7cca0a8ac107b3.png",
-        link: "https://www.start.gg/tournament/pope-s-sunday-mass-iv/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Pico Plus #16",
         date: "2/7/26",
         location: "Pico Rivera, California, USA",
@@ -173,6 +140,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Condo of Love: Ares x Blitz",
+        date: "2/21/26",
+        location: "Mississauga, Ontario, Canada",
+        description: "Condo of Love is a very special tournament dedicated to a very special Ike main who is near and dear to Death's Door. Ares turned 31 this year and only has so many Project M tournaments left to play before he aethers into the great beyond. Come celebrate the life and times of AresxBlitz95 in Mississauga Ontario.",
+        imageUrl: "https://images.start.gg/images/tournament/876164/image-973ccad4af779392912d3820ca7efb14.jpg",
+        link: "https://www.start.gg/tournament/condo-of-love-ares-x-blitz/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Flash Flood",
         date: "2/28/26",
         location: "Normal, Illinois, USA",
@@ -190,6 +168,17 @@ const eventsData = [
         description: "Take Flight is Dayton, Ohio’s annual regional platform fighter tournament!",
         imageUrl: "https://images.start.gg/images/tournament/864665/image-9551083e30bca6b48e9a64d778db43a2.jpg",
         link: "https://www.start.gg/tournament/take-flight-26/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Main Event - 2",
+        date: "3/22/26",
+        location: "Birmingham, UK",
+        description: "Main Event is back!",
+        imageUrl: "https://images.start.gg/images/tournament/860982/image-f7116ff2a6a425b54362412cff28cadc.png",
+        link: "https://www.start.gg/tournament/main-event-2/details",
         rankImg: false, 
         trailer: "",
         stream: ""
