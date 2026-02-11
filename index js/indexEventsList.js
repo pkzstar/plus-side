@@ -118,15 +118,26 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Pico Plus #16",
-        date: "2/7/26",
-        location: "Pico Rivera, California, USA",
-        description: "Introducing Pico Plus, a brand new Project+ local in the heart of Pico Rivera, CA",
-        imageUrl: "https://images.start.gg/images/tournament/874014/image-4b8b29a313fa02abe178bc7edbda0922.png",
-        link: "https://www.start.gg/tournament/pico-plus-16/details",
+        name: "Unc Frozen's Icebox 11: Lovey Dubby Edition",
+        date: "2/14/26",
+        location: "Plano, Texas, USA",
+        description: "Welcome to the 11th entry in the Icebox tournament series, presented by your friendly neighborhood Unc Frozen!",
+        imageUrl: "https://images.start.gg/images/tournament/872259/image-697d83b9de5bb9f9afd9c4d52d2f48cb.jpg",
+        link: "https://www.start.gg/tournament/unc-frozen-s-icebox-11-lovey-dubby-edition/details",
         rankImg: false, 
         trailer: "",
-        stream: ""
+        stream: "https://www.twitch.tv/fxgames_gg"
+      },
+      {
+        name: "Exodus 2026",
+        date: "2/15/26",
+        location: "San Jose, California, USA",
+        description: "NorCal PM returns with Exodus 2026! We're the Project M tournament across the street, hosted by the generous Guildhouse.",
+        imageUrl: "https://images.start.gg/images/tournament/873548/image-4d1423b87f343c812d7b54bf5b9b62c6.png",
+        link: "https://www.start.gg/tournament/exodus-2026/details",
+        rankImg: true, 
+        trailer: "",
+        stream: "https://www.twitch.tv/norcalpm"
       },
       {
         name: "Smash of the Titans 11",
@@ -148,6 +159,17 @@ const eventsData = [
         link: "https://www.start.gg/tournament/condo-of-love-ares-x-blitz/details",
         rankImg: false, 
         trailer: "",
+        stream: "https://www.youtube.com/@ontarioprojectm8374/streams"
+      },
+      {
+        name: "Chamberi Champions #5: La Enfermedad del Lomo",
+        date: "2/21/26",
+        location: "Madrid, Spain",
+        description: "Torneo de Melee, PM, y Rivals of Aether II en Madrid, en celebración del nacimiento de Public Universal Friend.",
+        imageUrl: "https://images.start.gg/images/tournament/866192/image-3f3e6a563981bd53b7818ef7dd6e9a67.png",
+        link: "https://www.start.gg/tournament/chamberi-champions-5-la-enfermedad-del-lomo/details",
+        rankImg: false, 
+        trailer: "",
         stream: ""
       },
       {
@@ -159,8 +181,19 @@ const eventsData = [
         link: "https://www.start.gg/tournament/flash-flood/details",
         rankImg: true, 
         trailer: "",
-        stream: ""
+        stream: "https://www.twitch.tv/pplusside"
       },
+      {
+        name: "Plus House",
+        date: "2/28/26",
+        location: "Springfield, Missouri, USA",
+        description: "18+ event! Ask a 417 melee player for address!",
+        imageUrl: "https://images.start.gg/images/tournament/874264/image-0269f85a2b42ff0f5fb1afb0df394e6b.png",
+        link: "https://www.start.gg/tournament/plus-house/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },  
       {
         name: "Take Flight '26",
         date: "3/14/26",
@@ -173,6 +206,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Game 5 In The D #11 Yuko's Bday Edition!",
+        date: "3/21/26",
+        location: "Detroit, Michigan, USA",
+        description: "Introducing Game 5 In The D, East Michigan's Premier P+ Bi-Monthly Located In Detroit! We welcome all valiant competitors to our local P+ scene's new home at Kings and Queens Hall! Featuring a professional stream, custom tournament badges, your favorite players, and much, much more, this will be an event you won't want to miss!",
+        imageUrl: "https://images.start.gg/images/tournament/873498/image-7ce940d1c981a6095a431b24fa230713.jpg",
+        link: "https://www.start.gg/tournament/game-5-in-the-d-11-yuko-s-bday-edition/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.twitch.tv/game5projectplus"
+      },
+      {
         name: "Main Event - 2",
         date: "3/22/26",
         location: "Birmingham, UK",
@@ -181,7 +225,7 @@ const eventsData = [
         link: "https://www.start.gg/tournament/main-event-2/details",
         rankImg: false, 
         trailer: "",
-        stream: ""
+        stream: "https://www.twitch.tv/phoenixsmash"
       },
       {
         name: "Bustered Out 2",
@@ -225,9 +269,20 @@ const eventsData = [
         link: "https://www.start.gg/tournament/house-of-paign-25/details",
         rankImg: false, 
         trailer: "",
-        stream: ""
+        stream: "https://www.twitch.tv/pplusside"
       },
       {
+        name: "Chase the Crown! 2",
+        date: "4/25/26",
+        location: "Knoxville, Tennessee, USA",
+        description: "KNOX ESPORTS SMASH IS GOING BIG! In collaboration between the Melee and Ult scene from Knoxville we present to you...Chase the Crown! 2 at Knox eSports.",
+        imageUrl: "https://images.start.gg/images/tournament/872891/image-407782ce47d4bc5e657952315a28ae28.png",
+        link: "https://www.start.gg/tournament/chase-the-crown-2-1/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.youtube.com/@sorenzzz/streams"
+      },
+      /* {
         name: "Smash Camp: Heartlands",
         date: "5/29/26 - 6/1/26",
         location: "Wautoma, Wisconsin, USA",
@@ -237,7 +292,7 @@ const eventsData = [
         rankImg: true, 
         trailer: "",
         stream: ""
-      }
+      } */
     ];
 
 
