@@ -112,6 +112,32 @@ const eventData = [
 
 
   {
+    eventTitle: "King’s Ransom 2",
+    imageUrl: "https://images.start.gg/images/tournament/807112/image-629ebbd7c0afcc7f7993a88b00c12cc0.png",
+    eventUrl: "https://www.start.gg/tournament/king-s-ransom-2/details",
+    date: "February 7 2026",
+    location: "Tennessee",
+    entrants: 27,
+    first: "Moist",
+    second: "knight",
+    third: "jankie",
+    vodsUrl: "https://www.youtube.com/playlist?list=PLL2RqAT-Fg9YeYpwRhPSDm-KAWtPaZG5l",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Pico Plus #16",
+    imageUrl: "https://images.start.gg/images/tournament/874014/image-4b8b29a313fa02abe178bc7edbda0922.png",
+    eventUrl: "https://www.start.gg/tournament/pico-plus-16/details",
+    date: "February 7 2026",
+    location: "California",
+    entrants: 27,
+    first: "Ryzuul",
+    second: "Jonny Sosa",
+    third: "Nezergy",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
     eventTitle: "Pope's Sunday Mass IV",
     imageUrl: "https://images.start.gg/images/tournament/847360/image-d9bf248b1dbeca6ecc7cca0a8ac107b3.png",
     eventUrl: "https://www.start.gg/tournament/pope-s-sunday-mass-iv/details",
