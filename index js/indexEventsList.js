@@ -282,7 +282,7 @@ const eventsData = [
         trailer: "",
         stream: "https://www.youtube.com/@sorenzzz/streams"
       },
-      {
+      /* {
         name: "Smash Camp: Heartlands",
         date: "5/29/26 - 6/1/26",
         location: "Wautoma, Wisconsin, USA",
@@ -292,7 +292,7 @@ const eventsData = [
         rankImg: true, 
         trailer: "",
         stream: ""
-      }
+      } */
     ];
 
 

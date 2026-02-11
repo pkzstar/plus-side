@@ -6267,6 +6267,7 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
+        /*
         // Smash Camp Heartlands
         } else if (((month === 4 && date >= 29 && date <= 31) || (month === 5 && date === 1)) && year === 2026) {    
         // Example link with image
@@ -6283,6 +6284,7 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
+        */
     
         } 
         else {
