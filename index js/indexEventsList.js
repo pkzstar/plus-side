@@ -206,6 +206,72 @@ const eventsData = [
         stream: ""
       },  
       {
+        name: "Allston Allstars VI",
+        date: "2/28/26",
+        location: "Boston, Massachussetts, USA",
+        description: "Boston's seasonal event returns! Allston Allstars is Boston's premiere seasonal Super Smash Bros Melee and Project+ tournament! It's a true New England crossover event when we can all come together on a Saturday in Boston to watch NH win it all. Kalvar isn't gonna do it again, right??",
+        imageUrl: "https://images.start.gg/images/tournament/870470/image-68fc4cb16635b6b20429bbb69a4565a1.png",
+        link: "https://www.start.gg/tournament/allston-allstars-vi-1/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Get Spiked On! Winter 2026",
+        date: "2/28/26",
+        location: "Wageningen, Netherlands",
+        description: "BACK AGAIN WITH MORE SMASHWAGENINGEN @ KSV FRANCISCUS. February 28th you can enjoy another 'GSO' event! With doubles for both games and singles formats that ensure plenty of competitive sets at all levels of play there's plenty of gaming for everyone at Get Spiked On!",
+        imageUrl: "https://images.start.gg/images/tournament/873210/image-b696f37f8da7f1792ac254272affd644.png",
+        link: "https://www.start.gg/tournament/get-spiked-on-winter-2026/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "CG House Tournament",
+        date: "2/28/26",
+        location: "Mexicali, Mexico",
+        description: "",
+        imageUrl: "https://images.start.gg/images/tournament/871850/image-c3f2c9a593794b64de9097c07958510d.png",
+        link: "https://www.start.gg/tournament/cg-house-tournament/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Cheba Hut Masons Bday Bash: P+ Takeover",
+        date: "2/28/26",
+        location: "Bellingham, Washington, USA",
+        description: "THE BIG BLUNT",
+        imageUrl: "https://images.start.gg/images/tournament/877960/image-078d0d2068fbee20f9fefe03f390c99b.png",
+        link: "https://www.start.gg/tournament/cheba-hut-masons-bday-bash-p-takeover/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Get Reel: Take 9",
+        date: "2/28/26",
+        location: "New Westminister, British Columbia, Canada",
+        description: "Event by: Phantom Alley",
+        imageUrl: "https://images.start.gg/images/tournament/875187/image-2f6194fe31105baffc863a3877f3fa07.png",
+        link: "https://www.start.gg/tournament/get-reel-take-9/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Unc Frozen's Icebox 12",
+        date: "3/7/26",
+        location: "Plano, Texas, USA",
+        description: "Welcome to the 12th entry in the Icebox tournament series, presented by your friendly neighborhood Unc Frozen!",
+        imageUrl: "https://images.start.gg/images/tournament/881750/image-b0569faa89f66f8f4ffbd5889d533aaf.jpg",
+        link: "https://www.start.gg/tournament/unc-frozen-s-icebox-12/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Take Flight '26",
         date: "3/14/26",
         location: "Dayton, Ohio, USA",
@@ -228,6 +294,28 @@ const eventsData = [
         stream: "https://www.twitch.tv/game5projectplus"
       },
       {
+        name: "Pico Plus #17",
+        date: "3/21/26",
+        location: "Pico Rivera, California, USA",
+        description: "SoCal P+ is back! Introducing Pico Plus, a brand new Project+ local in the heart of Pico Rivera, CA.",
+        imageUrl: "https://images.start.gg/images/tournament/882103/image-6ec87fd29601aa63ffe308c00a05161b.png",
+        link: "https://www.start.gg/tournament/pico-plus-17/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.twitch.tv/socalpm"
+      },
+      {
+        name: "Minnesota Monthly Melee #31: Arcadian Assembly",
+        date: "3/21/26",
+        location: "Minneapolis, Minnesota, USA",
+        description: "Minnesota's Premier Super Smash Brothers Melee Monthly Series! Now at Inbound Brewing",
+        imageUrl: "https://images.start.gg/images/tournament/873538/image-03e6ca7cf426677a258555fb07d61483.png",
+        link: "https://www.start.gg/tournament/minnesota-monthly-melee-31-arcadian-assembly/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Main Event - 2",
         date: "3/22/26",
         location: "Birmingham, UK",
@@ -239,12 +327,34 @@ const eventsData = [
         stream: "https://www.twitch.tv/phoenixsmash"
       },
       {
+        name: "Knock Out 11",
+        date: "3/28/26",
+        location: "Middlesbrough, UK",
+        description: "Team Knock Out finally with Knock Out 11!",
+        imageUrl: "https://images.start.gg/images/tournament/879647/image-7885175c52adcfd76b131ec1a54230eb.png",
+        link: "https://www.start.gg/tournament/knock-out-11/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.twitch.tv/phoenixsmash"
+      },
+      {
         name: "Bustered Out 2",
         date: "4/4/26",
         location: "Nashville, Tennessee, USA",
         description: "Welcome to Bustered Out 2! This is a Melee/'BRAWL' Regional event located in the Opry Mills Mall Dave & Busters. All registration will include entry to the event as well as a catered dinner. ",
         imageUrl: "https://images.start.gg/images/tournament/859269/image-4c4804477550479932e7df06bcd73fbb.png",
         link: "https://www.start.gg/tournament/bustered-out-2/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "DEAD ZONE #3",
+        date: "4/4/26 - 4/5/26",
+        location: "Le Kremlin-Bicêtre, France",
+        description: "We are Cycom, the esport organisation representing both EPITA and EPITECH schools since 1998. We have hosted several tournaments such as EPITA Smash Arena, Ultimate Wanted, Pixel Perfect, The Truce, and of course Dead Zone 1 and 2.",
+        imageUrl: "https://images.start.gg/images/tournament/862296/image-d781404055a8253cb034cdc35e0d9892.png",
+        link: "https://www.start.gg/tournament/dead-zone-3-1/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -292,6 +402,39 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: "https://www.youtube.com/@sorenzzz/streams"
+      },
+      {
+        name: "Pure Fundies",
+        date: "4/25/26",
+        location: "Rotunda, Dublin, Ireland",
+        description: "",
+        imageUrl: "https://images.start.gg/images/tournament/814734/image-1a3a9e53df7bf2c8f74d2029a2665db7.png",
+        link: "https://www.start.gg/tournament/pure-fundies/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Perfect Pivot 2",
+        date: "5/16/26 - 5/17/26",
+        location: "Winnipeg, Manitoba, Canada",
+        description: "SourSpot Studios is back to bring you Perfect Pivot 2!",
+        imageUrl: "https://images.start.gg/images/tournament/865655/image-96fe290b2295df7a30ff0bdda4732318.png",
+        link: "https://www.start.gg/tournament/perfect-pivot-2-1/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.youtube.com/@TG2Official"
+      },
+      {
+        name: "Project +1: Holy Smashtrimony",
+        date: "6/27/26",
+        location: "Mississauga, Ontario, Canada",
+        description: "You're Cordially Invited",
+        imageUrl: "https://images.start.gg/images/tournament/883226/image-3e72fc26c7d8bc2c68ffad045b822526.png",
+        link: "https://www.start.gg/tournament/project-1-holy-smashtrimony/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.youtube.com/@ontarioprojectm8374/streams"
       },
       /* {
         name: "Smash Camp: Heartlands",
