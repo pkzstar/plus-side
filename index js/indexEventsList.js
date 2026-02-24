@@ -118,61 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Docked And Loaded 4",
-        date: "2/20/26 - 2/22/26",
-        location: "Auckland, New Zealand",
-        description: "Auckland's Flagship Smash Bros. Event! Docked and Loaded is back once again for 2026.",
-        imageUrl: "https://images.start.gg/images/tournament/837439/image-df48365313d01a791dca3b6ed8c9ec17.png",
-        link: "https://www.start.gg/tournament/docked-and-loaded-4/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Smash of the Titans 11",
-        date: "2/21/26",
-        location: "Bloomington, Illinois, USA",
-        description: "Welcome to Smash of the Titans 11! Illinois Wesleyan University is back with our 11th edition of Smash regional featuring Dabuz, Deliboid, Shadowhawke, and many more!! ",
-        imageUrl: "https://images.start.gg/images/tournament/841162/image-725756f044cd841d6402cb75cff7c2c3.jpg",
-        link: "https://www.start.gg/tournament/smash-of-the-titans-11-1/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Condo of Love: Ares x Blitz",
-        date: "2/21/26",
-        location: "Mississauga, Ontario, Canada",
-        description: "Condo of Love is a very special tournament dedicated to a very special Ike main who is near and dear to Death's Door. Ares turned 31 this year and only has so many Project M tournaments left to play before he aethers into the great beyond. Come celebrate the life and times of AresxBlitz95 in Mississauga Ontario.",
-        imageUrl: "https://images.start.gg/images/tournament/876164/image-973ccad4af779392912d3820ca7efb14.jpg",
-        link: "https://www.start.gg/tournament/condo-of-love-ares-x-blitz/details",
-        rankImg: true, 
-        trailer: "",
-        stream: "https://www.youtube.com/@ontarioprojectm8374/streams"
-      },
-      {
-        name: "Chamberi Champions #5: La Enfermedad del Lomo",
-        date: "2/21/26",
-        location: "Madrid, Spain",
-        description: "Torneo de Melee, PM, y Rivals of Aether II en Madrid, en celebración del nacimiento de Public Universal Friend.",
-        imageUrl: "https://images.start.gg/images/tournament/866192/image-3f3e6a563981bd53b7818ef7dd6e9a67.png",
-        link: "https://www.start.gg/tournament/chamberi-champions-5-la-enfermedad-del-lomo/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Northstar IV (4th-Star) at St. Cloud State University",
-        date: "2/21/26 - 2/22/26",
-        location: "St. Cloud, Minnesota, USA",
-        description: "Presented by St. Cloud Esports",
-        imageUrl: "https://images.start.gg/images/tournament/846246/image-a72b87e4ba315c212ba95cab96635833.png",
-        link: "https://www.start.gg/tournament/northstar-iv-4th-star-at-st-cloud-state-university/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Bristol's Basement: Echoes of the Eye",
         date: "2/22/26",
         location: "Bristol, UK",
