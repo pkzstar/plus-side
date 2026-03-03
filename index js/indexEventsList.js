@@ -118,94 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Bristol's Basement: Echoes of the Eye",
-        date: "2/22/26",
-        location: "Bristol, UK",
-        description: "Bristol's premier melee monthly is back for it's thirty-fourth event!",
-        imageUrl: "https://images.start.gg/images/tournament/876302/image-b89cee1fa577271d432f968cdcbd2b10.jpg",
-        link: "https://www.start.gg/tournament/bristol-s-basement-echoes-of-the-eye/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Flash Flood",
-        date: "2/28/26",
-        location: "Normal, Illinois, USA",
-        description: "Welcome to Flash Flood, GRV's brand new major event. Featuring singles, doubles, and amateur brackets for Ultimate, Melee, and 'Brawl', we aim to provide an unforgettable experience!",
-        imageUrl: "https://images.start.gg/images/tournament/813787/image-12969cc9155ec8f9247a30aefe8d1120.png",
-        link: "https://www.start.gg/tournament/flash-flood/details",
-        rankImg: true, 
-        trailer: "",
-        stream: "https://www.twitch.tv/pplusside"
-      },
-      {
-        name: "Plus House",
-        date: "2/28/26",
-        location: "Springfield, Missouri, USA",
-        description: "18+ event! Ask a 417 melee player for address!",
-        imageUrl: "https://images.start.gg/images/tournament/874264/image-0269f85a2b42ff0f5fb1afb0df394e6b.png",
-        link: "https://www.start.gg/tournament/plus-house/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },  
-      {
-        name: "Allston Allstars VI",
-        date: "2/28/26",
-        location: "Boston, Massachussetts, USA",
-        description: "Boston's seasonal event returns! Allston Allstars is Boston's premiere seasonal Super Smash Bros Melee and Project+ tournament! It's a true New England crossover event when we can all come together on a Saturday in Boston to watch NH win it all. Kalvar isn't gonna do it again, right??",
-        imageUrl: "https://images.start.gg/images/tournament/870470/image-68fc4cb16635b6b20429bbb69a4565a1.png",
-        link: "https://www.start.gg/tournament/allston-allstars-vi-1/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Get Spiked On! Winter 2026",
-        date: "2/28/26",
-        location: "Wageningen, Netherlands",
-        description: "BACK AGAIN WITH MORE SMASHWAGENINGEN @ KSV FRANCISCUS. February 28th you can enjoy another 'GSO' event! With doubles for both games and singles formats that ensure plenty of competitive sets at all levels of play there's plenty of gaming for everyone at Get Spiked On!",
-        imageUrl: "https://images.start.gg/images/tournament/873210/image-b696f37f8da7f1792ac254272affd644.png",
-        link: "https://www.start.gg/tournament/get-spiked-on-winter-2026/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "CG House Tournament",
-        date: "2/28/26",
-        location: "Mexicali, Mexico",
-        description: "",
-        imageUrl: "https://images.start.gg/images/tournament/871850/image-c3f2c9a593794b64de9097c07958510d.png",
-        link: "https://www.start.gg/tournament/cg-house-tournament/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Cheba Hut Masons Bday Bash: P+ Takeover",
-        date: "2/28/26",
-        location: "Bellingham, Washington, USA",
-        description: "THE BIG BLUNT",
-        imageUrl: "https://images.start.gg/images/tournament/877960/image-078d0d2068fbee20f9fefe03f390c99b.png",
-        link: "https://www.start.gg/tournament/cheba-hut-masons-bday-bash-p-takeover/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Get Reel: Take 9",
-        date: "2/28/26",
-        location: "New Westminister, British Columbia, Canada",
-        description: "Event by: Phantom Alley",
-        imageUrl: "https://images.start.gg/images/tournament/875187/image-2f6194fe31105baffc863a3877f3fa07.png",
-        link: "https://www.start.gg/tournament/get-reel-take-9/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Unc Frozen's Icebox 12",
         date: "3/7/26",
         location: "Plano, Texas, USA",
@@ -261,6 +173,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Plus House 2",
+        date: "3/21/26",
+        location: "Springfield, Missouri, USA",
+        description: "18+ event! Ask a 417 melee player for address! Do not share address anywhere public, in servers, or in groupchats.",
+        imageUrl: "https://images.start.gg/images/tournament/886460/image-9d7be6905489dd54a2d7bc43056a36d2.png",
+        link: "https://www.start.gg/tournament/plus-house-2/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Main Event - 2",
         date: "3/22/26",
         location: "Birmingham, UK",
@@ -281,6 +204,28 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: "https://www.twitch.tv/phoenixsmash"
+      },
+      {
+        name: "Lumber Smash 9: Tournament of Power",
+        date: "3/28/26",
+        location: "Flagstaff, Arizona, USA",
+        description: "OUR NINTH ITERATION OF LUMBER SMASH IS HERE!!! The NINTH installment of NAU's semester-ly Super Smash Bros. events is back! Held on Saturday, March 28th, 2026. Lumber Smash is a Smash Bros. and FGC event, featuring Smash Bros. Ultimate, Melee, Project+, Guilty Gear Strive, Street Fighter 6, Granblue Fantasy VS, and both Rivals 1 AND 2! Join us for some nice cool weather! Beat the heat for a day, just 2 hours north from Phoenix, or a quick weekend getaway, just 4 hours north of Tucson. ",
+        imageUrl: "https://images.start.gg/images/tournament/884642/image-045068a83a27a9f5435dc2b9030fefba.png",
+        link: "https://www.start.gg/tournament/lumber-smash-9-tournament-of-power/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Night of the living DED #10 (Melee & P+) 1 Year Anniversary Party",
+        date: "3/28/26",
+        location: "Port Chester, New York, USA",
+        description: "We have free parking in the 'Waterfront Parking Lot' behind the venue, or paid parking on the street in the surrounding area. We have dedicated per player CRTs and wiis available for all contenstants. Extra setups are welcome but space for any extra setups cannot be guaranteed. ",
+        imageUrl: "https://images.start.gg/images/tournament/886263/image-f10b026f38ac116f5d2699db3ba926ab.png",
+        link: "https://www.start.gg/tournament/night-of-the-living-ded-10-melee-p-1-year-anniversary-party/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
       },
       {
         name: "Bustered Out 2",
@@ -333,7 +278,7 @@ const eventsData = [
         description: "After a year-long hiatus, during which we ran Never Melee and Paign: Automata, the House of Paign series is BACK with its 25th iteration and its 12th year.",
         imageUrl: "https://images.start.gg/images/tournament/864395/image-d48ee13c8ec71aa4cd3a8b6da0e35c4a.png",
         link: "https://www.start.gg/tournament/house-of-paign-25/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: "https://www.twitch.tv/pplusside"
       },
@@ -377,7 +322,7 @@ const eventsData = [
         description: "You're Cordially Invited",
         imageUrl: "https://images.start.gg/images/tournament/883226/image-3e72fc26c7d8bc2c68ffad045b822526.png",
         link: "https://www.start.gg/tournament/project-1-holy-smashtrimony/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: "https://www.youtube.com/@ontarioprojectm8374/streams"
       },

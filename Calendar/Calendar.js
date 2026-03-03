@@ -6289,7 +6289,7 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // G5itD 11 + PP 17 + MMM 31
+        // G5itD 11 + PP 17 + MMM 31 + Plus House 2
         } else if (month === 2 && date === 21 && year === 2026) {    
         const events = [
             {   
@@ -6298,12 +6298,12 @@ function showCalendar(month, year) {
                 
             },
             {
-                link: "https://www.start.gg/tournament/plus-house/details",
-                imageSrc: "https://images.start.gg/images/tournament/874264/image-0269f85a2b42ff0f5fb1afb0df394e6b.png"
-            },
-            {
                 link: "https://www.start.gg/tournament/minnesota-monthly-melee-31-arcadian-assembly/details",
                 imageSrc: "https://images.start.gg/images/tournament/873538/image-03e6ca7cf426677a258555fb07d61483.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/plus-house-2/details",
+                imageSrc: "https://images.start.gg/images/tournament/886460/image-9d7be6905489dd54a2d7bc43056a36d2.png"
             }
     
         ];
@@ -6369,21 +6369,69 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // KO11
+        // KO11 + LS9 + NotlD#10
         } else if (month === 2 && date === 28 && year === 2026) {    
-        // Example link with image
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/knock-out-11/details",
+                imageSrc: "https://images.start.gg/images/tournament/879647/image-7885175c52adcfd76b131ec1a54230eb.png"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/lumber-smash-9-tournament-of-power/details",
+                imageSrc: "https://images.start.gg/images/tournament/884642/image-045068a83a27a9f5435dc2b9030fefba.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/night-of-the-living-ded-10-melee-p-1-year-anniversary-party/details",
+                imageSrc: "https://images.start.gg/images/tournament/886263/image-f10b026f38ac116f5d2699db3ba926ab.png"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
         let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/knock-out-11/details";
         link.target = "_blank";
     
         let image = document.createElement("img");
-        image.src = "https://images.start.gg/images/tournament/879647/image-7885175c52adcfd76b131ec1a54230eb.png";
     
         image.classList.add("calendarImg");
     
-    
         link.appendChild(image);
         cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
         // BO2 + DZ3 Day 1
         } else if (month === 3 && (date === 4) && year === 2026) {    
