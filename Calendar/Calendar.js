@@ -6273,17 +6273,65 @@ function showCalendar(month, year) {
     
         image.classList.add("calendarImg");
 
-        // Take Flight '26
+        // Take Flight '26 + HoN8
         } else if (month === 2 && date === 14 && year === 2026) {    
-        // Example link with image
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/take-flight-26/details",
+                imageSrc: "https://images.start.gg/images/tournament/864665/image-9551083e30bca6b48e9a64d778db43a2.jpg"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/house-of-nimbus-8/details",
+                imageSrc: "https://images.start.gg/images/tournament/889472/image-e6b010b0981bba8636fc8b3b1e4cef61.jpg"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
         let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/take-flight-26/details";
         link.target = "_blank";
     
         let image = document.createElement("img");
-        image.src = "https://images.start.gg/images/tournament/864665/image-9551083e30bca6b48e9a64d778db43a2.jpg";
     
         image.classList.add("calendarImg");
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
     
     
         link.appendChild(image);
@@ -6433,7 +6481,23 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-        // BO2 + DZ3 Day 1
+        // Lucky Mountain
+        } else if (month === 2 && date === 29 && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/lucky-mountain/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/887983/image-548fe38b47c9e39e3538ab091e725029.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // BO2 + DZ3 Day 1 + BH15
         } else if (month === 3 && (date === 4) && year === 2026) {    
         const events = [
             {   
@@ -6444,6 +6508,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/dead-zone-3-1/details",
                 imageSrc: "https://images.start.gg/images/tournament/862296/image-d781404055a8253cb034cdc35e0d9892.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/the-bird-house-15-graduation/details",
+                imageSrc: "https://images.start.gg/images/tournament/877959/image-7e1a3c3b3bc33d26fb5f4ec0643a9d9d.png"
             }
     
         ];
@@ -6542,7 +6610,7 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // HoP 25 + CtC2 + Pure Fundies
+        // HoP 25 + CtC2 + Pure Fundies + IEL: ANSN
         } else if (month === 3 && (date === 25) && year === 2026) {    
         const events = [
             {   
@@ -6557,6 +6625,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/pure-fundies/details",
                 imageSrc: "https://images.start.gg/images/tournament/814734/image-1a3a9e53df7bf2c8f74d2029a2665db7.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/iel-ansn-edition/details",
+                imageSrc: "https://images.start.gg/images/tournament/877962/image-d0b83de0dedefe0028c2724cb4ee3848.png"
             }
     
         ];
@@ -6606,6 +6678,22 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
+        // The Boil
+        } else if (month === 4 && (date === 9) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/the-boil/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/887556/image-280ceae2b183f4a95d8cb0f68293e7c8.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
         // Perfect Pivot 2
         } else if (month === 4 && (date === 16 || date ===17) && year === 2026) {    
         // Example link with image
@@ -6641,8 +6729,24 @@ function showCalendar(month, year) {
 
         */
 
+        // KREWE 2 
+        } else if (month === 5 && (date === 11) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/krewe-2/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/882658/image-56a1f3782f7809b3c5045175d138d31d.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
         // Project +1: Holy Smashtrimony 
-        } else if (month === 4 && (date === 16 || date ===17) && year === 2026) {    
+        } else if (month === 5 && (date === 27) && year === 2026) {    
         // Example link with image
         let link = document.createElement("a");
         link.href = "https://www.start.gg/tournament/project-1-holy-smashtrimony/details";
@@ -6650,6 +6754,22 @@ function showCalendar(month, year) {
     
         let image = document.createElement("img");
         image.src = "https://images.start.gg/images/tournament/883226/image-3e72fc26c7d8bc2c68ffad045b822526.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // Cabin Fever
+        } else if (month === 9 && (date === 9 || date === 10 || date === 11 || date === 12) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "../images/upcoming events/CabinFever.png";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://parry.gg/cabinfever";
     
         image.classList.add("calendarImg");
     

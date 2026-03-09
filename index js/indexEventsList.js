@@ -118,23 +118,23 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Unc Frozen's Icebox 12",
-        date: "3/7/26",
-        location: "Plano, Texas, USA",
-        description: "Welcome to the 12th entry in the Icebox tournament series, presented by your friendly neighborhood Unc Frozen!",
-        imageUrl: "https://images.start.gg/images/tournament/881750/image-b0569faa89f66f8f4ffbd5889d533aaf.jpg",
-        link: "https://www.start.gg/tournament/unc-frozen-s-icebox-12/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Take Flight '26",
         date: "3/14/26",
         location: "Dayton, Ohio, USA",
         description: "Take Flight is Dayton, Ohio’s annual regional platform fighter tournament!",
         imageUrl: "https://images.start.gg/images/tournament/864665/image-9551083e30bca6b48e9a64d778db43a2.jpg",
         link: "https://www.start.gg/tournament/take-flight-26/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "House of Nimbus 8",
+        date: "3/14/26",
+        location: "Citrus Heights, California, USA",
+        description: "Welcome to the eighth iteration of House of Nimbus, a (hopefully) monthly series that starts something up again in NorCal.",
+        imageUrl: "https://images.start.gg/images/tournament/889472/image-e6b010b0981bba8636fc8b3b1e4cef61.jpg",
+        link: "https://www.start.gg/tournament/house-of-nimbus-8/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -228,6 +228,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Lucky Mountain",
+        date: "3/29/26",
+        location: "Lakewood, Colorado, USA",
+        description: "Lucky Mountain is Colorado's joint Rivals of Aether and Project+ monthly event, ft. Singles and Doubles for both games!!",
+        imageUrl: "https://images.start.gg/images/tournament/887983/image-548fe38b47c9e39e3538ab091e725029.png",
+        link: "https://www.start.gg/tournament/lucky-mountain/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Bustered Out 2",
         date: "4/4/26",
         location: "Nashville, Tennessee, USA",
@@ -245,6 +256,17 @@ const eventsData = [
         description: "We are Cycom, the esport organisation representing both EPITA and EPITECH schools since 1998. We have hosted several tournaments such as EPITA Smash Arena, Ultimate Wanted, Pixel Perfect, The Truce, and of course Dead Zone 1 and 2.",
         imageUrl: "https://images.start.gg/images/tournament/862296/image-d781404055a8253cb034cdc35e0d9892.png",
         link: "https://www.start.gg/tournament/dead-zone-3-1/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "The Bird House 15: Graduation",
+        date: "4/4/26",
+        location: "Normal, Illinois, USA",
+        description: "The next installment in Bloomington-Normal's premiere Super Smash Bros. regional returns once again! This April 4th, The Bird House will back for its 15th installment! This event will be located in the Old Main Room of the Bone Student Center.",
+        imageUrl: "https://images.start.gg/images/tournament/877959/image-7e1a3c3b3bc33d26fb5f4ec0643a9d9d.png",
+        link: "https://www.start.gg/tournament/the-bird-house-15-graduation/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -305,6 +327,28 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "IEL: ANSN Edition",
+        date: "4/25/26",
+        location: "Glenevis, Alberta, Canada",
+        description: "",
+        imageUrl: "https://images.start.gg/images/tournament/877962/image-d0b83de0dedefe0028c2724cb4ee3848.png",
+        link: "https://www.start.gg/tournament/iel-ansn-edition/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "The Boil",
+        date: "5/9/26",
+        location: "Baton Rouge, Louisiana, Canada",
+        description: "Featuring crawfish boil, beer pong, cornhole as well as video games. Be respectful to the hosts or else",
+        imageUrl: "https://images.start.gg/images/tournament/887556/image-280ceae2b183f4a95d8cb0f68293e7c8.png",
+        link: "https://www.start.gg/tournament/the-boil/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Perfect Pivot 2",
         date: "5/16/26 - 5/17/26",
         location: "Winnipeg, Manitoba, Canada",
@@ -316,15 +360,15 @@ const eventsData = [
         stream: "https://www.youtube.com/@TG2Official"
       },
       {
-        name: "Project +1: Holy Smashtrimony",
-        date: "6/27/26",
-        location: "Mississauga, Ontario, Canada",
-        description: "You're Cordially Invited",
-        imageUrl: "https://images.start.gg/images/tournament/883226/image-3e72fc26c7d8bc2c68ffad045b822526.png",
-        link: "https://www.start.gg/tournament/project-1-holy-smashtrimony/details",
-        rankImg: true, 
+        name: "KREWE 2",
+        date: "6/11/26",
+        location: "Mobile, Alabama, USA",
+        description: "Welcome to KREWE: A Melee Mardi Gras Ball! Who says Mardi Gras can't happen in July??",
+        imageUrl: "https://images.start.gg/images/tournament/882658/image-56a1f3782f7809b3c5045175d138d31d.png",
+        link: "https://www.start.gg/tournament/krewe-2/details",
+        rankImg: false, 
         trailer: "",
-        stream: "https://www.youtube.com/@ontarioprojectm8374/streams"
+        stream: ""
       },
       /* {
         name: "Smash Camp: Heartlands",
@@ -337,6 +381,28 @@ const eventsData = [
         trailer: "",
         stream: ""
       } */
+     {
+        name: "Project +1: Holy Smashtrimony",
+        date: "6/27/26",
+        location: "Mississauga, Ontario, Canada",
+        description: "You're Cordially Invited",
+        imageUrl: "https://images.start.gg/images/tournament/883226/image-3e72fc26c7d8bc2c68ffad045b822526.png",
+        link: "https://www.start.gg/tournament/project-1-holy-smashtrimony/details",
+        rankImg: true, 
+        trailer: "",
+        stream: "https://www.youtube.com/@ontarioprojectm8374/streams"
+      },
+      {
+        name: "Cabin Fever",
+        date: "10/9/26 - 10/12/26",
+        location: "Elbert, Colorado, USA",
+        description: "Cabin Fever is a 3 day, Melee and 'Brawl' tournament hosted at the JCC Ranch Camp in Elbert, Colorado, 75 minutes from downtown Denver and the Denver International Airport.",
+        imageUrl: "../images/upcoming events/CabinFever.png",
+        link: "https://parry.gg/cabinfever",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
     ];
 
 
