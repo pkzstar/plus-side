@@ -316,7 +316,7 @@ const eventData = [
     first: "The Doctor",
     second: "SipMastah",
     third: "RapMonster",
-    vodsUrl: "https://www.youtube.com/playlist?list=PLK6QY5XQ-uu08g9VBmZnNgnNkaTkVTY3d",
+    vodsUrl: "https://www.youtube.com/watch?v=l66JFgwh0AM",
     hideRankImage: false
   },
   {
