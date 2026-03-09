@@ -112,6 +112,19 @@ const eventData = [
 
 
   {
+    eventTitle: "Unc Frozen's Icebox 12",
+    imageUrl: "https://images.start.gg/images/tournament/881750/image-b0569faa89f66f8f4ffbd5889d533aaf.jpg",
+    eventUrl: "https://www.start.gg/tournament/unc-frozen-s-icebox-12/details",
+    date: "March 7 2026",
+    location: "Texas",
+    entrants: 15,
+    first: "Apathy",
+    second: "J-am",
+    third: "AshleyAtari",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Get Reel: Take 9",
     imageUrl: "https://images.start.gg/images/tournament/875187/image-2f6194fe31105baffc863a3877f3fa07.png",
     eventUrl: "https://www.start.gg/tournament/get-reel-take-9/details",
@@ -330,7 +343,7 @@ const eventData = [
     second: "knight",
     third: "jankie",
     vodsUrl: "https://www.youtube.com/playlist?list=PLL2RqAT-Fg9YeYpwRhPSDm-KAWtPaZG5l",
-    hideRankImage: true
+    hideRankImage: false
   },
   {
     eventTitle: "Pico Plus #16",
