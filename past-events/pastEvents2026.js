@@ -112,6 +112,32 @@ const eventData = [
 
 
   {
+    eventTitle: "House of Nimbus 8",
+    imageUrl: "https://images.start.gg/images/tournament/889472/image-e6b010b0981bba8636fc8b3b1e4cef61.jpg",
+    eventUrl: "https://www.start.gg/tournament/house-of-nimbus-8/details",
+    date: "March 14 2026",
+    location: "California",
+    entrants: 10,
+    first: "SipMastah",
+    second: "The Doctor",
+    third: "Ivayne",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Take Flight '26",
+    imageUrl: "https://images.start.gg/images/tournament/864665/image-9551083e30bca6b48e9a64d778db43a2.jpg",
+    eventUrl: "https://www.start.gg/tournament/take-flight-26/details",
+    date: "March 14 2026",
+    location: "Ohio",
+    entrants: 15,
+    first: "Peppy",
+    second: "Iceking",
+    third: "UP Sanji Player",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Unc Frozen's Icebox 12",
     imageUrl: "https://images.start.gg/images/tournament/881750/image-b0569faa89f66f8f4ffbd5889d533aaf.jpg",
     eventUrl: "https://www.start.gg/tournament/unc-frozen-s-icebox-12/details",

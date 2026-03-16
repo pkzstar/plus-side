@@ -118,28 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Take Flight '26",
-        date: "3/14/26",
-        location: "Dayton, Ohio, USA",
-        description: "Take Flight is Dayton, Ohio’s annual regional platform fighter tournament!",
-        imageUrl: "https://images.start.gg/images/tournament/864665/image-9551083e30bca6b48e9a64d778db43a2.jpg",
-        link: "https://www.start.gg/tournament/take-flight-26/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "House of Nimbus 8",
-        date: "3/14/26",
-        location: "Citrus Heights, California, USA",
-        description: "Welcome to the eighth iteration of House of Nimbus, a (hopefully) monthly series that starts something up again in NorCal.",
-        imageUrl: "https://images.start.gg/images/tournament/889472/image-e6b010b0981bba8636fc8b3b1e4cef61.jpg",
-        link: "https://www.start.gg/tournament/house-of-nimbus-8/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Game 5 In The D #11 Yuko's Bday Edition!",
         date: "3/21/26",
         location: "Detroit, Michigan, USA",
@@ -223,6 +201,17 @@ const eventsData = [
         description: "We have free parking in the 'Waterfront Parking Lot' behind the venue, or paid parking on the street in the surrounding area. We have dedicated per player CRTs and wiis available for all contenstants. Extra setups are welcome but space for any extra setups cannot be guaranteed. ",
         imageUrl: "https://images.start.gg/images/tournament/886263/image-f10b026f38ac116f5d2699db3ba926ab.png",
         link: "https://www.start.gg/tournament/night-of-the-living-ded-10-melee-p-1-year-anniversary-party/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Gecko Cavern 18 The Return",
+        date: "3/28/26",
+        location: "Burwood, New South Wales, Australia",
+        description: "Gecko Cavern 18 is making the fall! Hosted at Club Burwood along Burwood Road on the top floor of the venue, Gecko Cavern is the tournament series for Project Plus in Sydney! We also feature other games such as Melee, Rivals of Aether, and more! ",
+        imageUrl: "https://images.start.gg/images/tournament/890996/image-69f2acc3529b123f5b470a0fb7f8ac77.png",
+        link: "https://www.start.gg/tournament/gecko-cavern-18-the-return/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -359,17 +348,6 @@ const eventsData = [
         trailer: "",
         stream: "https://www.youtube.com/@TG2Official"
       },
-      {
-        name: "KREWE 2",
-        date: "6/11/26",
-        location: "Mobile, Alabama, USA",
-        description: "Welcome to KREWE: A Melee Mardi Gras Ball! Who says Mardi Gras can't happen in July??",
-        imageUrl: "https://images.start.gg/images/tournament/882658/image-56a1f3782f7809b3c5045175d138d31d.png",
-        link: "https://www.start.gg/tournament/krewe-2/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
       /* {
         name: "Smash Camp: Heartlands",
         date: "5/29/26 - 6/1/26",
@@ -381,7 +359,29 @@ const eventsData = [
         trailer: "",
         stream: ""
       } */
-     {
+      {
+        name: "KREWE 2",
+        date: "6/11/26",
+        location: "Mobile, Alabama, USA",
+        description: "Welcome to KREWE: A Melee Mardi Gras Ball! Who says Mardi Gras can't happen in July??",
+        imageUrl: "https://images.start.gg/images/tournament/882658/image-56a1f3782f7809b3c5045175d138d31d.png",
+        link: "https://www.start.gg/tournament/krewe-2/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "I Agree: Let's Go Surfboarding",
+        date: "6/20/26",
+        location: "Revere, Massachussetts, USA",
+        description: "Surf's Up! Join us at the Beachmont VFW in Revere, Massachusetts for a 1-day 'Brawl' event!",
+        imageUrl: "https://images.start.gg/images/tournament/891386/image-687607c001072ca55cb128d1edb28b7c.png",
+        link: "https://www.start.gg/tournament/i-agree-let-s-go-surfboarding/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Project +1: Holy Smashtrimony",
         date: "6/27/26",
         location: "Mississauga, Ontario, Canada",
@@ -391,6 +391,17 @@ const eventsData = [
         rankImg: true, 
         trailer: "",
         stream: "https://www.youtube.com/@ontarioprojectm8374/streams"
+      },
+      {
+        name: "Melee Prom",
+        date: "7/18/26",
+        location: "Coralville, Iowa, USA",
+        description: "Welcome to Melee Prom, a prom themed Melee and 'Brawl' Doubles tournament! Find a partner, dress up, and join us at the Hyatt Regency Coralville for a marvelous night of doubles, dancing, drinking, and more! ",
+        imageUrl: "https://images.start.gg/images/tournament/823912/image-eff5d227a14f2168da8a7d217aa7e7ac.png",
+        link: "https://www.start.gg/tournament/melee-prom-rise/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
       },
       {
         name: "Cabin Fever",
