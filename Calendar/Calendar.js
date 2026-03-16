@@ -6417,7 +6417,7 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // KO11 + LS9 + NotlD#10
+        // KO11 + LS9 + NotlD#10 + GC18
         } else if (month === 2 && date === 28 && year === 2026) {    
         const events = [
             {   
@@ -6432,6 +6432,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/night-of-the-living-ded-10-melee-p-1-year-anniversary-party/details",
                 imageSrc: "https://images.start.gg/images/tournament/886263/image-f10b026f38ac116f5d2699db3ba926ab.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/gecko-cavern-18-the-return/details",
+                imageSrc: "https://images.start.gg/images/tournament/890996/image-69f2acc3529b123f5b470a0fb7f8ac77.png"
             }
     
         ];
@@ -6745,6 +6749,22 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
+        // IA:LGS
+        } else if (month === 5 && (date === 20) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/i-agree-let-s-go-surfboarding/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/891386/image-687607c001072ca55cb128d1edb28b7c.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
         // Project +1: Holy Smashtrimony 
         } else if (month === 5 && (date === 27) && year === 2026) {    
         // Example link with image
@@ -6761,11 +6781,27 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
+        // Melee Prom 
+        } else if (month === 6 && (date === 18) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/melee-prom-rise/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/823912/image-eff5d227a14f2168da8a7d217aa7e7ac.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
         // Cabin Fever
         } else if (month === 9 && (date === 9 || date === 10 || date === 11 || date === 12) && year === 2026) {    
         // Example link with image
         let link = document.createElement("a");
-        link.href = "../images/upcoming events/CabinFever.png";
+        link.href = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/CabinFever.png";
         link.target = "_blank";
     
         let image = document.createElement("img");
