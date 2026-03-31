@@ -6682,6 +6682,22 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
+        // Plus House 3
+        } else if (month === 3 && (date === 26) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/plus-house-3/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/894621/image-4d9e28e6c73e7a0840321cebd7955a7d.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
         // The Boil
         } else if (month === 4 && (date === 9) && year === 2026) {    
         // Example link with image
@@ -6758,6 +6774,22 @@ function showCalendar(month, year) {
     
         let image = document.createElement("img");
         image.src = "https://images.start.gg/images/tournament/891386/image-687607c001072ca55cb128d1edb28b7c.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // RDW 2026
+        } else if (month === 5 && (date === 26) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/run-don-t-walk-2026/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/892196/image-05d59659fc7aac0199415667f12b01a6.png";
     
         image.classList.add("calendarImg");
     

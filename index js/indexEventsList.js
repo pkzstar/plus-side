@@ -118,116 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Game 5 In The D #11 Yuko's Bday Edition!",
-        date: "3/21/26",
-        location: "Detroit, Michigan, USA",
-        description: "Introducing Game 5 In The D, East Michigan's Premier P+ Bi-Monthly Located In Detroit! We welcome all valiant competitors to our local P+ scene's new home at Kings and Queens Hall! Featuring a professional stream, custom tournament badges, your favorite players, and much, much more, this will be an event you won't want to miss!",
-        imageUrl: "https://images.start.gg/images/tournament/873498/image-7ce940d1c981a6095a431b24fa230713.jpg",
-        link: "https://www.start.gg/tournament/game-5-in-the-d-11-yuko-s-bday-edition/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/game5projectplus"
-      },
-      {
-        name: "Pico Plus #17",
-        date: "3/21/26",
-        location: "Pico Rivera, California, USA",
-        description: "SoCal P+ is back! Introducing Pico Plus, a brand new Project+ local in the heart of Pico Rivera, CA.",
-        imageUrl: "https://images.start.gg/images/tournament/882103/image-6ec87fd29601aa63ffe308c00a05161b.png",
-        link: "https://www.start.gg/tournament/pico-plus-17/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/socalpm"
-      },
-      {
-        name: "Minnesota Monthly Melee #31: Arcadian Assembly",
-        date: "3/21/26",
-        location: "Minneapolis, Minnesota, USA",
-        description: "Minnesota's Premier Super Smash Brothers Melee Monthly Series! Now at Inbound Brewing",
-        imageUrl: "https://images.start.gg/images/tournament/873538/image-03e6ca7cf426677a258555fb07d61483.png",
-        link: "https://www.start.gg/tournament/minnesota-monthly-melee-31-arcadian-assembly/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Plus House 2",
-        date: "3/21/26",
-        location: "Springfield, Missouri, USA",
-        description: "18+ event! Ask a 417 melee player for address! Do not share address anywhere public, in servers, or in groupchats.",
-        imageUrl: "https://images.start.gg/images/tournament/886460/image-9d7be6905489dd54a2d7bc43056a36d2.png",
-        link: "https://www.start.gg/tournament/plus-house-2/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Main Event - 2",
-        date: "3/22/26",
-        location: "Birmingham, UK",
-        description: "Main Event is back!",
-        imageUrl: "https://images.start.gg/images/tournament/860982/image-f7116ff2a6a425b54362412cff28cadc.png",
-        link: "https://www.start.gg/tournament/main-event-2/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/phoenixsmash"
-      },
-      {
-        name: "Knock Out 11",
-        date: "3/28/26",
-        location: "Middlesbrough, UK",
-        description: "Team Knock Out finally with Knock Out 11!",
-        imageUrl: "https://images.start.gg/images/tournament/879647/image-7885175c52adcfd76b131ec1a54230eb.png",
-        link: "https://www.start.gg/tournament/knock-out-11/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/phoenixsmash"
-      },
-      {
-        name: "Lumber Smash 9: Tournament of Power",
-        date: "3/28/26",
-        location: "Flagstaff, Arizona, USA",
-        description: "OUR NINTH ITERATION OF LUMBER SMASH IS HERE!!! The NINTH installment of NAU's semester-ly Super Smash Bros. events is back! Held on Saturday, March 28th, 2026. Lumber Smash is a Smash Bros. and FGC event, featuring Smash Bros. Ultimate, Melee, Project+, Guilty Gear Strive, Street Fighter 6, Granblue Fantasy VS, and both Rivals 1 AND 2! Join us for some nice cool weather! Beat the heat for a day, just 2 hours north from Phoenix, or a quick weekend getaway, just 4 hours north of Tucson. ",
-        imageUrl: "https://images.start.gg/images/tournament/884642/image-045068a83a27a9f5435dc2b9030fefba.png",
-        link: "https://www.start.gg/tournament/lumber-smash-9-tournament-of-power/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Night of the living DED #10 (Melee & P+) 1 Year Anniversary Party",
-        date: "3/28/26",
-        location: "Port Chester, New York, USA",
-        description: "We have free parking in the 'Waterfront Parking Lot' behind the venue, or paid parking on the street in the surrounding area. We have dedicated per player CRTs and wiis available for all contenstants. Extra setups are welcome but space for any extra setups cannot be guaranteed. ",
-        imageUrl: "https://images.start.gg/images/tournament/886263/image-f10b026f38ac116f5d2699db3ba926ab.png",
-        link: "https://www.start.gg/tournament/night-of-the-living-ded-10-melee-p-1-year-anniversary-party/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Gecko Cavern 18 The Return",
-        date: "3/28/26",
-        location: "Burwood, New South Wales, Australia",
-        description: "Gecko Cavern 18 is making the fall! Hosted at Club Burwood along Burwood Road on the top floor of the venue, Gecko Cavern is the tournament series for Project Plus in Sydney! We also feature other games such as Melee, Rivals of Aether, and more! ",
-        imageUrl: "https://images.start.gg/images/tournament/890996/image-69f2acc3529b123f5b470a0fb7f8ac77.png",
-        link: "https://www.start.gg/tournament/gecko-cavern-18-the-return/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Lucky Mountain",
-        date: "3/29/26",
-        location: "Lakewood, Colorado, USA",
-        description: "Lucky Mountain is Colorado's joint Rivals of Aether and Project+ monthly event, ft. Singles and Doubles for both games!!",
-        imageUrl: "https://images.start.gg/images/tournament/887983/image-548fe38b47c9e39e3538ab091e725029.png",
-        link: "https://www.start.gg/tournament/lucky-mountain/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Bustered Out 2",
         date: "4/4/26",
         location: "Nashville, Tennessee, USA",
@@ -327,9 +217,20 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Plus House 3",
+        date: "4/26/26",
+        location: "Springfield, Missouri, USA",
+        description: "",
+        imageUrl: "https://images.start.gg/images/tournament/894621/image-4d9e28e6c73e7a0840321cebd7955a7d.png",
+        link: "https://www.start.gg/tournament/plus-house-3/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "The Boil",
         date: "5/9/26",
-        location: "Baton Rouge, Louisiana, Canada",
+        location: "Baton Rouge, Louisiana, USA",
         description: "Featuring crawfish boil, beer pong, cornhole as well as video games. Be respectful to the hosts or else",
         imageUrl: "https://images.start.gg/images/tournament/887556/image-280ceae2b183f4a95d8cb0f68293e7c8.png",
         link: "https://www.start.gg/tournament/the-boil/details",
@@ -377,6 +278,17 @@ const eventsData = [
         description: "Surf's Up! Join us at the Beachmont VFW in Revere, Massachusetts for a 1-day 'Brawl' event!",
         imageUrl: "https://images.start.gg/images/tournament/891386/image-687607c001072ca55cb128d1edb28b7c.png",
         link: "https://www.start.gg/tournament/i-agree-let-s-go-surfboarding/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Run, Don't Walk 2026",
+        date: "6/26/26",
+        location: "West Des Moines, Iowa, USA",
+        description: " Run, Don't Walk is BACK!! Central Iowa's Regional Super Smash Bros. tournament is back for 2026! This tournament will feature Singles and Doubles brackets for Melee, Ultimate, and 'Brawl'. All players welcome regardless of skill level or experience.",
+        imageUrl: "https://images.start.gg/images/tournament/892196/image-05d59659fc7aac0199415667f12b01a6.png",
+        link: "https://www.start.gg/tournament/run-don-t-walk-2026/details",
         rankImg: false, 
         trailer: "",
         stream: ""
