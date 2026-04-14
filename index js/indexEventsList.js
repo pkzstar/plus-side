@@ -118,50 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Bustered Out 2",
-        date: "4/4/26",
-        location: "Nashville, Tennessee, USA",
-        description: "Welcome to Bustered Out 2! This is a Melee/'BRAWL' Regional event located in the Opry Mills Mall Dave & Busters. All registration will include entry to the event as well as a catered dinner. ",
-        imageUrl: "https://images.start.gg/images/tournament/859269/image-4c4804477550479932e7df06bcd73fbb.png",
-        link: "https://www.start.gg/tournament/bustered-out-2/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "DEAD ZONE #3",
-        date: "4/4/26 - 4/5/26",
-        location: "Le Kremlin-Bicêtre, France",
-        description: "We are Cycom, the esport organisation representing both EPITA and EPITECH schools since 1998. We have hosted several tournaments such as EPITA Smash Arena, Ultimate Wanted, Pixel Perfect, The Truce, and of course Dead Zone 1 and 2.",
-        imageUrl: "https://images.start.gg/images/tournament/862296/image-d781404055a8253cb034cdc35e0d9892.png",
-        link: "https://www.start.gg/tournament/dead-zone-3-1/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "The Bird House 15: Graduation",
-        date: "4/4/26",
-        location: "Normal, Illinois, USA",
-        description: "The next installment in Bloomington-Normal's premiere Super Smash Bros. regional returns once again! This April 4th, The Bird House will back for its 15th installment! This event will be located in the Old Main Room of the Bone Student Center.",
-        imageUrl: "https://images.start.gg/images/tournament/877959/image-7e1a3c3b3bc33d26fb5f4ec0643a9d9d.png",
-        link: "https://www.start.gg/tournament/the-bird-house-15-graduation/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Volan 2026",
-        date: "4/10/26 - 4/12/26",
-        location: "Knoxville, Tennessee, USA",
-        description: "The annual Esports Tournament hosted by the student run Esports Club at the University of Tennessee. The event is focused on providing an in-person LAN experience to college esports teams and clubs in the Southeast. Participating in most events will be college student only, but some will be open to the public (Smash and FGC for example. Please see respective event details for more information).",
-        imageUrl: "https://images.start.gg/images/tournament/841158/image-2cc3597d9d558d105a4406a7ed422903.png",
-        link: "https://www.start.gg/tournament/volan-2026/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Element",
         date: "4/18/26 - 4/19/26",
         location: "Minneapolis, Minnesota, USA",
@@ -169,6 +125,17 @@ const eventsData = [
         imageUrl: "https://images.start.gg/images/tournament/839045/image-231e7c9fdd38b22d6e77688c8836cd22.jpg",
         link: "https://www.start.gg/tournament/element-1/details",
         rankImg: true, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Gecko Cavern 19",
+        date: "4/18/26",
+        location: "Burwood, New South Wales, Australia",
+        description: "Gecko Cavern 19 is falling into place! Hosted at Club Burwood along Burwood Road on the top floor of the venue, Gecko Cavern is the tournament series for Project Plus in Sydney! We also feature other games such as Melee, Rivals of Aether, and more! ",
+        imageUrl: "https://images.start.gg/images/tournament/898713/image-d2f74ae940ec5bc9fa24e2cacf0b25c6.png",
+        link: "https://www.start.gg/tournament/gecko-cavern-19/details",
+        rankImg: false, 
         trailer: "",
         stream: ""
       },
@@ -289,7 +256,7 @@ const eventsData = [
         description: " Run, Don't Walk is BACK!! Central Iowa's Regional Super Smash Bros. tournament is back for 2026! This tournament will feature Singles and Doubles brackets for Melee, Ultimate, and 'Brawl'. All players welcome regardless of skill level or experience.",
         imageUrl: "https://images.start.gg/images/tournament/892196/image-05d59659fc7aac0199415667f12b01a6.png",
         link: "https://www.start.gg/tournament/run-don-t-walk-2026/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: ""
       },
@@ -316,6 +283,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Get Out of My Venue 2026",
+        date: "7/31/26 - 8/2/26",
+        location: "Mississauga, Ontario, Canada",
+        description: "TO FEE $5 - Bring a setup? REFUNDED! Help run bracket? REFUNDED! Recording setup? REFUNDED! Let me (Eggnogdog) know if you're able to provide any of these in discord before the event. Both Top 8s will be on Sunday. Scheduling depends on the brackets the players are in and will be discussed.",
+        imageUrl: "https://images.start.gg/images/tournament/898275/image-f08e456c5c2d48ccf1f29f529dc67bfd.png",
+        link: "https://www.start.gg/tournament/get-out-of-my-venue-2026/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Cabin Fever",
         date: "10/9/26 - 10/12/26",
         location: "Elbert, Colorado, USA",
@@ -329,30 +307,19 @@ const eventsData = [
     ];
 
 
-    // game 5 + moonshine monthly + Unc Frozen's template
+    /* game 5 + Unc Frozen's template
     
-    //  {
-    //   name: "Game 5 In The D #8",
-    //   date: "3/22/25",
-    //   location: "Detroit, MI, USA",
-    //   description: "We welcome all valiant competitors to our local P+ scene's return-to-form! Featuring a professional stream, custom tournament badges, your favorite players, and much, much more, this will be an event you won't want to miss!",
-    //   imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F753458%2Fimage-682f23c7c6853c9f14a932032d05ead0-optimized.jpg&ehk=A8Q7W63tKoq8g098URhncVeF0MzGbkVlA7hknPHAYZ0%3D&w=280&h=280&r=0",
-    //   link: "https://www.start.gg/tournament/game-5-in-the-d-8-yuko-s-bday-edition/details",
-    //   rankImg: false, 
-    //   trailer: "",
-    //   stream: ""
-    // },
-    // {
-    //   name: "Moonshine Monthly #2",
-    //   date: "2/23/25",
-    //   location: "Greenville, SC 29601, USA",
-    //   description: "South Carolina's P+ ONLY Monthly Series. Venue $5: 32 singles cap (pls bring setups). Singles $5: 4 person RR pools",
-    //   imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F753025%2Fimage-d1d570002d763332029ed8cafa5d584a-optimized.png&ehk=8aMjwzJmP%2F0DXXICOPCB1u8gm8hs9O8Rv7Y7AbfGnRo%3D&w=280&h=280&r=0",
-    //   link: "https://www.start.gg/tournament/moonshine-monthly-2/details",
-    //   rankImg: false, 
-    //   trailer: "",
-    //   stream: "https://twitch.tv/kn19h7"
-    // },
+      {
+        name: "Game 5 In The D #8",
+        date: "3/22/25",
+        location: "Detroit, MI, USA",
+        description: "We welcome all valiant competitors to our local P+ scene's return-to-form! Featuring a professional stream, custom tournament badges, your favorite players, and much, much more, this will be an event you won't want to miss!",
+        imageUrl: "https://www.bing.com/th?pid=Sgg&qlt=100&u=https%3A%2F%2Fimages.start.gg%2Fimages%2Ftournament%2F753458%2Fimage-682f23c7c6853c9f14a932032d05ead0-optimized.jpg&ehk=A8Q7W63tKoq8g098URhncVeF0MzGbkVlA7hknPHAYZ0%3D&w=280&h=280&r=0",
+        link: "https://www.start.gg/tournament/game-5-in-the-d-8-yuko-s-bday-edition/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      }, */ 
     /* {
         name: "Unc Frozen's Icebox 7",
         date: "8/23/25",

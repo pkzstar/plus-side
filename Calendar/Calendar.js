@@ -6829,6 +6829,22 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
+        // GOoMV 26 
+        } else if (((month === 6 && date === 31) || (month === 7 && (date === 1 || date === 2))) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/get-out-of-my-venue-2026/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/898275/image-f08e456c5c2d48ccf1f29f529dc67bfd.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
         // Cabin Fever
         } else if (month === 9 && (date === 9 || date === 10 || date === 11 || date === 12) && year === 2026) {    
         // Example link with image
