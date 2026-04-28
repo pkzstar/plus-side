@@ -6782,7 +6782,7 @@ function showCalendar(month, year) {
         cell.appendChild(link);
 
         // RDW 2026
-        } else if (month === 5 && (date === 26) && year === 2026) {    
+        } else if (month === 5 && (date === 20) && year === 2026) {    
         // Example link with image
         let link = document.createElement("a");
         link.href = "https://www.start.gg/tournament/run-don-t-walk-2026/details";

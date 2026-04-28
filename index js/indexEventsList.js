@@ -251,7 +251,7 @@ const eventsData = [
       },
       {
         name: "Run, Don't Walk 2026",
-        date: "6/26/26",
+        date: "6/20/26",
         location: "West Des Moines, Iowa, USA",
         description: " Run, Don't Walk is BACK!! Central Iowa's Regional Super Smash Bros. tournament is back for 2026! This tournament will feature Singles and Doubles brackets for Melee, Ultimate, and 'Brawl'. All players welcome regardless of skill level or experience.",
         imageUrl: "https://images.start.gg/images/tournament/892196/image-05d59659fc7aac0199415667f12b01a6.png",
