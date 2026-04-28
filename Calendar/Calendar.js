@@ -6765,38 +6765,67 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // IA:LGS
-        } else if (month === 5 && (date === 20) && year === 2026) {    
-        // Example link with image
+        // IA:LGS + RDW 2026
+                } else if (month === 5 && (date === 20) && year === 2026) {    
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/i-agree-let-s-go-surfboarding/details",
+                imageSrc: "https://images.start.gg/images/tournament/891386/image-687607c001072ca55cb128d1edb28b7c.png"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/run-don-t-walk-2026/details",
+                imageSrc: "https://images.start.gg/images/tournament/892196/image-05d59659fc7aac0199415667f12b01a6.png"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
         let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/i-agree-let-s-go-surfboarding/details";
         link.target = "_blank";
     
         let image = document.createElement("img");
-        image.src = "https://images.start.gg/images/tournament/891386/image-687607c001072ca55cb128d1edb28b7c.png";
     
         image.classList.add("calendarImg");
     
-    
         link.appendChild(image);
         cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-        // RDW 2026
-        } else if (month === 5 && (date === 20) && year === 2026) {    
-        // Example link with image
-        let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/run-don-t-walk-2026/details";
-        link.target = "_blank";
     
-        let image = document.createElement("img");
-        image.src = "https://images.start.gg/images/tournament/892196/image-05d59659fc7aac0199415667f12b01a6.png";
-    
-        image.classList.add("calendarImg");
-    
-    
-        link.appendChild(image);
-        cell.appendChild(link);
-
         // Project +1: Holy Smashtrimony 
         } else if (month === 5 && (date === 27) && year === 2026) {    
         // Example link with image
