@@ -6614,7 +6614,7 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // HoP 25 + CtC2 + Pure Fundies + IEL: ANSN
+        // HoP 25 + CtC2 + Pure Fundies
         } else if (month === 3 && (date === 25) && year === 2026) {    
         const events = [
             {   
@@ -6629,10 +6629,6 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/pure-fundies/details",
                 imageSrc: "https://images.start.gg/images/tournament/814734/image-1a3a9e53df7bf2c8f74d2029a2665db7.png"
-            },
-            {
-                link: "https://www.start.gg/tournament/iel-ansn-edition/details",
-                imageSrc: "https://images.start.gg/images/tournament/877962/image-d0b83de0dedefe0028c2724cb4ee3848.png"
             }
     
         ];
@@ -6723,6 +6719,38 @@ function showCalendar(month, year) {
     
         let image = document.createElement("img");
         image.src = "https://images.start.gg/images/tournament/865655/image-96fe290b2295df7a30ff0bdda4732318.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // Portland+ 2
+        } else if (month === 4 && (date === 17) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/portland-2/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/887985/image-78599986bcc3d860e82a48a2a37fd325.jpg";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // Plus House 4
+        } else if (month === 4 && (date === 23) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/plus-house-4/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/907023/image-dafb3d2fe26153109670ebc33331de15.png";
     
         image.classList.add("calendarImg");
     

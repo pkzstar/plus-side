@@ -118,83 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Element",
-        date: "4/18/26 - 4/19/26",
-        location: "Minneapolis, Minnesota, USA",
-        description: "I'm in my Element",
-        imageUrl: "https://images.start.gg/images/tournament/839045/image-231e7c9fdd38b22d6e77688c8836cd22.jpg",
-        link: "https://www.start.gg/tournament/element-1/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Gecko Cavern 19",
-        date: "4/18/26",
-        location: "Burwood, New South Wales, Australia",
-        description: "Gecko Cavern 19 is falling into place! Hosted at Club Burwood along Burwood Road on the top floor of the venue, Gecko Cavern is the tournament series for Project Plus in Sydney! We also feature other games such as Melee, Rivals of Aether, and more! ",
-        imageUrl: "https://images.start.gg/images/tournament/898713/image-d2f74ae940ec5bc9fa24e2cacf0b25c6.png",
-        link: "https://www.start.gg/tournament/gecko-cavern-19/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "House of Paign 25",
-        date: "4/25/26",
-        location: "Urbana, Illinois, USA",
-        description: "After a year-long hiatus, during which we ran Never Melee and Paign: Automata, the House of Paign series is BACK with its 25th iteration and its 12th year.",
-        imageUrl: "https://images.start.gg/images/tournament/864395/image-d48ee13c8ec71aa4cd3a8b6da0e35c4a.png",
-        link: "https://www.start.gg/tournament/house-of-paign-25/details",
-        rankImg: true, 
-        trailer: "",
-        stream: "https://www.twitch.tv/pplusside"
-      },
-      {
-        name: "Chase the Crown! 2",
-        date: "4/25/26",
-        location: "Knoxville, Tennessee, USA",
-        description: "KNOX ESPORTS SMASH IS GOING BIG! In collaboration between the Melee and Ult scene from Knoxville we present to you...Chase the Crown! 2 at Knox eSports.",
-        imageUrl: "https://images.start.gg/images/tournament/872891/image-407782ce47d4bc5e657952315a28ae28.png",
-        link: "https://www.start.gg/tournament/chase-the-crown-2-1/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.youtube.com/@sorenzzz/streams"
-      },
-      {
-        name: "Pure Fundies",
-        date: "4/25/26",
-        location: "Rotunda, Dublin, Ireland",
-        description: "",
-        imageUrl: "https://images.start.gg/images/tournament/814734/image-1a3a9e53df7bf2c8f74d2029a2665db7.png",
-        link: "https://www.start.gg/tournament/pure-fundies/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "IEL: ANSN Edition",
-        date: "4/25/26",
-        location: "Glenevis, Alberta, Canada",
-        description: "",
-        imageUrl: "https://images.start.gg/images/tournament/877962/image-d0b83de0dedefe0028c2724cb4ee3848.png",
-        link: "https://www.start.gg/tournament/iel-ansn-edition/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Plus House 3",
-        date: "4/26/26",
-        location: "Springfield, Missouri, USA",
-        description: "",
-        imageUrl: "https://images.start.gg/images/tournament/894621/image-4d9e28e6c73e7a0840321cebd7955a7d.png",
-        link: "https://www.start.gg/tournament/plus-house-3/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "The Boil",
         date: "5/9/26",
         location: "Baton Rouge, Louisiana, USA",
@@ -215,6 +138,28 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: "https://www.youtube.com/@TG2Official"
+      },
+      {
+        name: "Portland+ 2",
+        date: "5/17/26",
+        location: "Portland, Maine, USA",
+        description: "A main event venue pass is required for entry, but any pass type allows you to enter this event!",
+        imageUrl: "https://images.start.gg/images/tournament/887985/image-78599986bcc3d860e82a48a2a37fd325.jpg",
+        link: "https://www.start.gg/tournament/portland-2/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Plus House 4",
+        date: "5/23/26",
+        location: "Springfield, Missouri, USA",
+        description: "18+ event! Alcohol and weed may be present",
+        imageUrl: "https://images.start.gg/images/tournament/907023/image-dafb3d2fe26153109670ebc33331de15.png",
+        link: "https://www.start.gg/tournament/plus-house-4/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
       },
       /* {
         name: "Smash Camp: Heartlands",
@@ -261,6 +206,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Scrapyard 2026",
+        date: "6/20/26 - 6/21/26",
+        location: "Raleigh, North Carolina, USA",
+        description: "Scrapyard 2026 - Project+ & HewDraw Remix",
+        imageUrl: "https://images.start.gg/images/tournament/898791/image-e6e7b4ea6b3aa8dc9abd77dfa055cfec.png",
+        link: "https://www.start.gg/tournament/scrapyard-2026/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Project +1: Holy Smashtrimony",
         date: "6/27/26",
         location: "Mississauga, Ontario, Canada",
@@ -270,6 +226,28 @@ const eventsData = [
         rankImg: true, 
         trailer: "",
         stream: "https://www.youtube.com/@ontarioprojectm8374/streams"
+      },
+      {
+        name: "Second Wind 2026",
+        date: "7/10/26 - 7/12/26",
+        location: "Pipitea, Wellington, New Zealand",
+        description: "The Best Gaming NZ Has to Offer! Second Wind returns for 2026 from Friday 10th to Sunday 12th of July. A huge range of fighting games all held in the heart of Wellington NZ for a weekend you'll never forget!",
+        imageUrl: "https://images.start.gg/images/tournament/887941/image-10a83b8764db886fe5fd3f0c7be1de60.png",
+        link: "https://www.start.gg/tournament/second-wind-2026/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Evergreen 2026",
+        date: "7/11/26",
+        location: "Ridgewood, New Jersey, USA",
+        description: "Evergreen 2026. A competitor pass for the other event on the same day is required",
+        imageUrl: "https://images.start.gg/images/tournament/895362/image-478eeccd61f890c6edd38a4ca4562b8f.png",
+        link: "https://www.start.gg/tournament/evergreen-2026/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
       },
       {
         name: "Melee Prom",
