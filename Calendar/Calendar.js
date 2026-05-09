@@ -6614,7 +6614,7 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // HoP 25 + CtC2 + Pure Fundies + IEL: ANSN
+        // HoP 25 + CtC2 + Pure Fundies
         } else if (month === 3 && (date === 25) && year === 2026) {    
         const events = [
             {   
@@ -6629,10 +6629,6 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/pure-fundies/details",
                 imageSrc: "https://images.start.gg/images/tournament/814734/image-1a3a9e53df7bf2c8f74d2029a2665db7.png"
-            },
-            {
-                link: "https://www.start.gg/tournament/iel-ansn-edition/details",
-                imageSrc: "https://images.start.gg/images/tournament/877962/image-d0b83de0dedefe0028c2724cb4ee3848.png"
             }
     
         ];
