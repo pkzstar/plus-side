@@ -6726,6 +6726,38 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
+        // Portland+ 2
+        } else if (month === 4 && (date === 17) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/portland-2/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/887985/image-78599986bcc3d860e82a48a2a37fd325.jpg";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // Plus House 4
+        } else if (month === 4 && (date === 23) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/plus-house-4/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/907023/image-dafb3d2fe26153109670ebc33331de15.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
         /*
         // Smash Camp Heartlands
         } else if (((month === 4 && date >= 29 && date <= 31) || (month === 5 && date === 1)) && year === 2026) {    
