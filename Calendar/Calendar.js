@@ -6501,7 +6501,7 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // BO2 + DZ3 Day 1 + BH15
+        // BO2 + DZ3 Day 1 + BH15 + PP18
         } else if (month === 3 && (date === 4) && year === 2026) {    
         const events = [
             {   
@@ -6516,6 +6516,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/the-bird-house-15-graduation/details",
                 imageSrc: "https://images.start.gg/images/tournament/877959/image-7e1a3c3b3bc33d26fb5f4ec0643a9d9d.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/pico-plus-18/details",
+                imageSrc: "https://images.start.gg/images/tournament/894890/image-2a841d9b6424a80a9f21184e5409f7a2.png"
             }
     
         ];
@@ -6742,21 +6746,65 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // Plus House 4
+        // Plus House 4 + Pico 19
         } else if (month === 4 && (date === 23) && year === 2026) {    
-        // Example link with image
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/plus-house-4/details",
+                imageSrc: "https://images.start.gg/images/tournament/907023/image-dafb3d2fe26153109670ebc33331de15.png"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/pico-plus-19/details",
+                imageSrc: "https://images.start.gg/images/tournament/904457/image-205051fb624f5735b8799057233d02a8.png"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
         let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/plus-house-4/details";
         link.target = "_blank";
     
         let image = document.createElement("img");
-        image.src = "https://images.start.gg/images/tournament/907023/image-dafb3d2fe26153109670ebc33331de15.png";
     
         image.classList.add("calendarImg");
     
-    
         link.appendChild(image);
         cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
         /*
         // Smash Camp Heartlands
@@ -6776,6 +6824,22 @@ function showCalendar(month, year) {
         cell.appendChild(link);
 
         */
+       
+        // GC20
+        } else if (month === 4 && (date === 30) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/gecko-cavern-20/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/912446/image-172bf771163c9b5d2b31b5a1b20445d3.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
 
         // KREWE 2 
         } else if (month === 5 && (date === 11) && year === 2026) {    
@@ -6786,6 +6850,22 @@ function showCalendar(month, year) {
     
         let image = document.createElement("img");
         image.src = "https://images.start.gg/images/tournament/882658/image-56a1f3782f7809b3c5045175d138d31d.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // Pico Plus #20 
+        } else if (month === 5 && (date === 11) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/pico-plus-20/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/916015/image-fa38eded5089a4ae847fb9130a617c1c.png";
     
         image.classList.add("calendarImg");
     
@@ -6879,6 +6959,22 @@ function showCalendar(month, year) {
     
         let image = document.createElement("img");
         image.src = "https://images.start.gg/images/tournament/823912/image-eff5d227a14f2168da8a7d217aa7e7ac.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // G5 Arena 
+        } else if (month === 6 && (date === 18) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/game-5-in-the-arena/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/907913/image-cfb3aa1f2ec4c493e40a7d7d657da1a3.png";
     
         image.classList.add("calendarImg");
     

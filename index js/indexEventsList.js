@@ -118,67 +118,23 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "The Boil",
-        date: "5/9/26",
-        location: "Baton Rouge, Louisiana, USA",
-        description: "Featuring crawfish boil, beer pong, cornhole as well as video games. Be respectful to the hosts or else",
-        imageUrl: "https://images.start.gg/images/tournament/887556/image-280ceae2b183f4a95d8cb0f68293e7c8.png",
-        link: "https://www.start.gg/tournament/the-boil/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Perfect Pivot 2",
-        date: "5/16/26 - 5/17/26",
-        location: "Winnipeg, Manitoba, Canada",
-        description: "SourSpot Studios is back to bring you Perfect Pivot 2!",
-        imageUrl: "https://images.start.gg/images/tournament/865655/image-96fe290b2295df7a30ff0bdda4732318.png",
-        link: "https://www.start.gg/tournament/perfect-pivot-2-1/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.youtube.com/@TG2Official"
-      },
-      {
-        name: "Portland+ 2",
-        date: "5/17/26",
-        location: "Portland, Maine, USA",
-        description: "A main event venue pass is required for entry, but any pass type allows you to enter this event!",
-        imageUrl: "https://images.start.gg/images/tournament/887985/image-78599986bcc3d860e82a48a2a37fd325.jpg",
-        link: "https://www.start.gg/tournament/portland-2/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Plus House 4",
-        date: "5/23/26",
-        location: "Springfield, Missouri, USA",
-        description: "18+ event! Alcohol and weed may be present",
-        imageUrl: "https://images.start.gg/images/tournament/907023/image-dafb3d2fe26153109670ebc33331de15.png",
-        link: "https://www.start.gg/tournament/plus-house-4/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      /* {
-        name: "Smash Camp: Heartlands",
-        date: "5/29/26 - 6/1/26",
-        location: "Wautoma, Wisconsin, USA",
-        description: "Smash Camp Comes To The Midwest! In the ever wonderful state of Wisconsin, it's the Smash Camp you love in a place that's new. At the beautiful Camp Lakotah you can hike, swim, and go 0-2 (in Melee or Beach Volleyball!) at one the of the most unique venues our scene has to offer.",
-        imageUrl: "https://images.start.gg/images/tournament/848016/image-ad81fb6d62d51b7553360cac9de398bd.png",
-        link: "https://www.start.gg/tournament/smash-camp-heartlands/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      } */
-      {
         name: "KREWE 2",
         date: "6/11/26",
         location: "Mobile, Alabama, USA",
         description: "Welcome to KREWE: A Melee Mardi Gras Ball! Who says Mardi Gras can't happen in July??",
         imageUrl: "https://images.start.gg/images/tournament/882658/image-56a1f3782f7809b3c5045175d138d31d.png",
         link: "https://www.start.gg/tournament/krewe-2/details",
+        rankImg: true, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Pico Plus #20",
+        date: "6/13/26",
+        location: "Pico Rivera, California, USA",
+        description: "SoCal P+ is back! Introducing Pico Plus, a brand new Project+ local in the heart of Pico Rivera, CA",
+        imageUrl: "https://images.start.gg/images/tournament/916015/image-fa38eded5089a4ae847fb9130a617c1c.png",
+        link: "https://www.start.gg/tournament/pico-plus-20/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -190,7 +146,7 @@ const eventsData = [
         description: "Surf's Up! Join us at the Beachmont VFW in Revere, Massachusetts for a 1-day 'Brawl' event!",
         imageUrl: "https://images.start.gg/images/tournament/891386/image-687607c001072ca55cb128d1edb28b7c.png",
         link: "https://www.start.gg/tournament/i-agree-let-s-go-surfboarding/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: ""
       },
@@ -212,7 +168,7 @@ const eventsData = [
         description: "Scrapyard 2026 - Project+ & HewDraw Remix",
         imageUrl: "https://images.start.gg/images/tournament/898791/image-e6e7b4ea6b3aa8dc9abd77dfa055cfec.png",
         link: "https://www.start.gg/tournament/scrapyard-2026/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: ""
       },
@@ -256,6 +212,17 @@ const eventsData = [
         description: "Welcome to Melee Prom, a prom themed Melee and 'Brawl' Doubles tournament! Find a partner, dress up, and join us at the Hyatt Regency Coralville for a marvelous night of doubles, dancing, drinking, and more! ",
         imageUrl: "https://images.start.gg/images/tournament/823912/image-eff5d227a14f2168da8a7d217aa7e7ac.png",
         link: "https://www.start.gg/tournament/melee-prom-rise/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Game 5 In The Arena!",
+        date: "7/25/26",
+        location: "Detroit, Michigan, USA",
+        description: " Introducing Game 5 In The Arena, A Game 5 Project+ Event Focused On Fun, Fitness, And Competition. We welcome all valiant competitors to the newest event in The Game 5 Project+ Tournament Series! Featuring a Bench Press competition, roller skating, and a bar open during Top 8. Alongside The Game 5 Project+ staples like custom tournament badges, a professional stream, your favorite players, and much, much more, this will be an event you won't want to miss! ",
+        imageUrl: "https://images.start.gg/images/tournament/907913/image-cfb3aa1f2ec4c493e40a7d7d657da1a3.png",
+        link: "https://www.start.gg/tournament/game-5-in-the-arena/details",
         rankImg: false, 
         trailer: "",
         stream: ""
