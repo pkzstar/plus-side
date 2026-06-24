@@ -118,17 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Pico Plus #20",
-        date: "6/13/26",
-        location: "Pico Rivera, California, USA",
-        description: "SoCal P+ is back! Introducing Pico Plus, a brand new Project+ local in the heart of Pico Rivera, CA",
-        imageUrl: "https://images.start.gg/images/tournament/916015/image-fa38eded5089a4ae847fb9130a617c1c.png",
-        link: "https://www.start.gg/tournament/pico-plus-20/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "I Agree: Let's Go Surfboarding",
         date: "6/20/26",
         location: "Revere, Massachussetts, USA",
@@ -171,6 +160,17 @@ const eventsData = [
         rankImg: true, 
         trailer: "",
         stream: "https://www.youtube.com/@ontarioprojectm8374/streams"
+      },
+      {
+        name: "Pico Plus #20",
+        date: "6/27/26",
+        location: "Pico Rivera, California, USA",
+        description: "SoCal P+ is back! Introducing Pico Plus, a brand new Project+ local in the heart of Pico Rivera, CA",
+        imageUrl: "https://images.start.gg/images/tournament/916015/image-fa38eded5089a4ae847fb9130a617c1c.png",
+        link: "https://www.start.gg/tournament/pico-plus-20/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
       },
       {
         name: "Plus House 5",

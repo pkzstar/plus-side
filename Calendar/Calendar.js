@@ -6841,23 +6841,6 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-
-        // Pico Plus #20 
-        } else if (month === 5 && (date === 11) && year === 2026) {    
-        // Example link with image
-        let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/pico-plus-20/details";
-        link.target = "_blank";
-    
-        let image = document.createElement("img");
-        image.src = "https://images.start.gg/images/tournament/916015/image-fa38eded5089a4ae847fb9130a617c1c.png";
-    
-        image.classList.add("calendarImg");
-    
-    
-        link.appendChild(image);
-        cell.appendChild(link);
-
         // IA:LGS + RDW 2026
                 } else if (month === 5 && (date === 20) && year === 2026) {    
         const events = [
@@ -6919,12 +6902,17 @@ function showCalendar(month, year) {
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
     
-        // Project +1: Holy Smashtrimony & Plus House 5
+        // Project +1: Holy Smashtrimony & PP#20 & Plus House 5 & GC21
         } else if (month === 5 && (date === 27) && year === 2026) {     
         const events = [
             {   
                 link: "https://www.start.gg/tournament/project-1-holy-smashtrimony/details",
                 imageSrc: "https://images.start.gg/images/tournament/883226/image-3e72fc26c7d8bc2c68ffad045b822526.png"
+                
+            },
+            {   
+                link: "https://www.start.gg/tournament/pico-plus-20/details",
+                imageSrc: "https://images.start.gg/images/tournament/916015/image-fa38eded5089a4ae847fb9130a617c1c.png"
                 
             },
             {
