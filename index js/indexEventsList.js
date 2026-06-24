@@ -173,6 +173,50 @@ const eventsData = [
         stream: "https://www.youtube.com/@ontarioprojectm8374/streams"
       },
       {
+        name: "Plus House 5",
+        date: "6/27/26",
+        location: "Springfield, Missouri, USA",
+        description: "18+ event! Alcohol and weed may be present. Ask a 417 melee player for address! (or me if you don’t know any lol). Do not share address anywhere public, in servers, or in groupchats. 1 on 1 DMs or verbally in private only. Respect the venue, this is a house where people live",
+        imageUrl: "https://images.start.gg/images/tournament/915546/image-8d8c525896bcea9df818bf5d7b57842d.png",
+        link: "https://www.start.gg/tournament/plus-house-5/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Gecko Cavern 21",
+        date: "6/27/26",
+        location: "Burwood, New South Wales, Australia",
+        description: "Gecko Cavern 21 is making it chill! Hosted in the heart of Burwood at Club Burwood's top floor venue, Gecko Cavern is the tournament series for Project Plus in Sydney! We also feature other games such as Melee, Rivals of Aether, and more! ",
+        imageUrl: "https://images.start.gg/images/tournament/921633/image-6baa715c75173114634a753dd468706f.png",
+        link: "https://www.start.gg/tournament/gecko-cavern-21/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Plus World",
+        date: "6/30/26",
+        location: "Minneapolis, Minnesota, USA",
+        description: "pm at new world. Doors at 6 Bracket at 7",
+        imageUrl: "https://images.start.gg/images/tournament/923762/image-5aa27b5a6c46ac0c74eab6382b2944e8.png",
+        link: "https://www.start.gg/tournament/plus-world/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Bark in the Park",
+        date: "7/5/26",
+        location: "Lambertville, New Jersey, USA",
+        description: "All ages are welcome to attend! There is no alcohol allowed in the park! Lunch, snacks, and water will provided to all attendees!",
+        imageUrl: "https://images.start.gg/images/tournament/919629/image-f8badf48461ea380c0298f168e8695ea.png",
+        link: "https://www.start.gg/tournament/bark-in-the-park/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      }, 
+      {
         name: "Second Wind 2026",
         date: "7/10/26 - 7/12/26",
         location: "Pipitea, Wellington, New Zealand",
@@ -181,7 +225,7 @@ const eventsData = [
         link: "https://www.start.gg/tournament/second-wind-2026/details",
         rankImg: false, 
         trailer: "",
-        stream: ""
+        stream: "https://twitch.tv/pplusside"
       },      
       {
         name: "KREWE 2",
