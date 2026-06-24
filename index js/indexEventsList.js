@@ -118,39 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "I Agree: Let's Go Surfboarding",
-        date: "6/20/26",
-        location: "Revere, Massachussetts, USA",
-        description: "Surf's Up! Join us at the Beachmont VFW in Revere, Massachusetts for a 1-day 'Brawl' event!",
-        imageUrl: "https://images.start.gg/images/tournament/891386/image-687607c001072ca55cb128d1edb28b7c.png",
-        link: "https://www.start.gg/tournament/i-agree-let-s-go-surfboarding/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Run, Don't Walk 2026",
-        date: "6/20/26",
-        location: "West Des Moines, Iowa, USA",
-        description: " Run, Don't Walk is BACK!! Central Iowa's Regional Super Smash Bros. tournament is back for 2026! This tournament will feature Singles and Doubles brackets for Melee, Ultimate, and 'Brawl'. All players welcome regardless of skill level or experience.",
-        imageUrl: "https://images.start.gg/images/tournament/892196/image-05d59659fc7aac0199415667f12b01a6.png",
-        link: "https://www.start.gg/tournament/run-don-t-walk-2026/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Scrapyard 2026",
-        date: "6/20/26 - 6/21/26",
-        location: "Raleigh, North Carolina, USA",
-        description: "Scrapyard 2026 - Project+ & HewDraw Remix",
-        imageUrl: "https://images.start.gg/images/tournament/898791/image-e6e7b4ea6b3aa8dc9abd77dfa055cfec.png",
-        link: "https://www.start.gg/tournament/scrapyard-2026/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Project +1: Holy Smashtrimony",
         date: "6/27/26",
         location: "Mississauga, Ontario, Canada",
@@ -245,7 +212,7 @@ const eventsData = [
         description: "Evergreen 2026. A competitor pass for the other event on the same day is required",
         imageUrl: "https://images.start.gg/images/tournament/895362/image-478eeccd61f890c6edd38a4ca4562b8f.png",
         link: "https://www.start.gg/tournament/evergreen-2026/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "",
         stream: ""
       },
@@ -257,6 +224,17 @@ const eventsData = [
         imageUrl: "https://images.start.gg/images/tournament/823912/image-eff5d227a14f2168da8a7d217aa7e7ac.png",
         link: "https://www.start.gg/tournament/melee-prom-rise/details",
         rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "RPM 100",
+        date: "7/21/26",
+        location: "Chicago, Illinois, USA",
+        description: "RPM is a Project+ & Melee tournament held at Replay Lincoln Park, a barcade, on Tuesdays. You must be 21+ to attend RPM.",
+        imageUrl: "https://images.start.gg/images/tournament/910910/image-70aa0dc4bc3a0814da6edb4c1dc33071.png",
+        link: "https://www.start.gg/tournament/rpm-100/details",
+        rankImg: true, 
         trailer: "",
         stream: ""
       },
@@ -278,6 +256,28 @@ const eventsData = [
         description: "TO FEE $5 - Bring a setup? REFUNDED! Help run bracket? REFUNDED! Recording setup? REFUNDED! Let me (Eggnogdog) know if you're able to provide any of these in discord before the event. Both Top 8s will be on Sunday. Scheduling depends on the brackets the players are in and will be discussed.",
         imageUrl: "https://images.start.gg/images/tournament/898275/image-f08e456c5c2d48ccf1f29f529dc67bfd.png",
         link: "https://www.start.gg/tournament/get-out-of-my-venue-2026/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Main Event - 3",
+        date: "8/2/26",
+        location: "Birmingham, United Kingdom, Europe",
+        description: "Main Event is back!",
+        imageUrl: "https://images.start.gg/images/tournament/919808/image-913f14e6d536f5fecd7f090a6f46b906.jpg",
+        link: "https://www.start.gg/tournament/main-event-3/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.twitch.tv/phoenixsmash"
+      },
+      {
+        name: "Enchanted",
+        date: "8/22/26",
+        location: "Herriman, Utah, Europe",
+        description: "Join us for an Enchanted day of Smash! Enchanted Events Center presents a magical day of gaming, whether you're striving for glory or looking for leisure.",
+        imageUrl: "https://images.start.gg/images/tournament/922540/image-074c0205ef617434b71c63bf3f64953f.jpg",
+        link: "https://www.start.gg/tournament/enchanted-100-pot-bonus/details",
         rankImg: false, 
         trailer: "",
         stream: ""
