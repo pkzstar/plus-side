@@ -112,6 +112,45 @@ const eventData = [
 
 
   {
+    eventTitle: "Scrapyard 2026",
+    imageUrl: "https://images.start.gg/images/tournament/898791/image-e6e7b4ea6b3aa8dc9abd77dfa055cfec.png",
+    eventUrl: "https://www.start.gg/tournament/scrapyard-2026/details",
+    date: "June 20 2026 - June 21 2026",
+    location: "North Carolina",
+    entrants: 48,
+    first: "Salt",
+    second: "RapMonster",
+    third: "Dingo",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "Run, Don't Walk 2026",
+    imageUrl: "https://images.start.gg/images/tournament/892196/image-05d59659fc7aac0199415667f12b01a6.png",
+    eventUrl: "https://www.start.gg/tournament/run-don-t-walk-2026/details",
+    date: "June 20 2026",
+    location: "Iowa",
+    entrants: 48,
+    first: "Veka",
+    second: "SoulOfficer",
+    third: "Kendrick",
+    vodsUrl: "https://www.youtube.com/watch?v=6Q0Oh5mxbFo",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "I Agree: Let's Go Surfboarding",
+    imageUrl: "https://images.start.gg/images/tournament/891386/image-687607c001072ca55cb128d1edb28b7c.png",
+    eventUrl: "https://www.start.gg/tournament/i-agree-let-s-go-surfboarding/details",
+    date: "June 20 2026",
+    location: "Massachussetts",
+    entrants: 26,
+    first: "essy",
+    second: "Kumatora",
+    third: "Imogen Heat",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
     eventTitle: "Gecko Cavern 20",
     imageUrl: "https://images.start.gg/images/tournament/912446/image-172bf771163c9b5d2b31b5a1b20445d3.png",
     eventUrl: "https://www.start.gg/tournament/gecko-cavern-20/details",
@@ -122,7 +161,7 @@ const eventData = [
     second: "RNGReallyNotGood",
     third: "RoyinoZ",
     vodsUrl: "https://www.youtube.com/watch?v=znCsBs5pOHA",
-    hideRankImage: false
+    hideRankImage: true
   },
   {
     eventTitle: "Pico Plus 19",
@@ -135,7 +174,7 @@ const eventData = [
     second: "Nezergy",
     third: "Khalid",
     vodsUrl: "",
-    hideRankImage: false
+    hideRankImage: true
   },
   {
     eventTitle: "Plus House 4",
@@ -148,7 +187,7 @@ const eventData = [
     second: "Gaz!",
     third: "ACABrandon",
     vodsUrl: "",
-    hideRankImage: false
+    hideRankImage: true
   },
   {
     eventTitle: "Portland+ 2",
