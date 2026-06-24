@@ -6841,21 +6841,6 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // KREWE 2 
-        } else if (month === 5 && (date === 11) && year === 2026) {    
-        // Example link with image
-        let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/krewe-2/details";
-        link.target = "_blank";
-    
-        let image = document.createElement("img");
-        image.src = "https://images.start.gg/images/tournament/882658/image-56a1f3782f7809b3c5045175d138d31d.png";
-    
-        image.classList.add("calendarImg");
-    
-    
-        link.appendChild(image);
-        cell.appendChild(link);
 
         // Pico Plus #20 
         } else if (month === 5 && (date === 11) && year === 2026) {    
@@ -6949,6 +6934,66 @@ function showCalendar(month, year) {
     
         link.appendChild(image);
         cell.appendChild(link);
+
+        // KREWE + Evergreen 2026
+        } else if (month === 5 && (date === 20) && year === 2026) {    
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/krewe-2/details",
+                imageSrc: "https://images.start.gg/images/tournament/882658/image-56a1f3782f7809b3c5045175d138d31d.png"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/evergreen-2026/details",
+                imageSrc: "https://images.start.gg/images/tournament/895362/image-478eeccd61f890c6edd38a4ca4562b8f.png"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
+        let link = document.createElement("a");
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+    
+        image.classList.add("calendarImg");
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
         // Melee Prom 
         } else if (month === 6 && (date === 18) && year === 2026) {    

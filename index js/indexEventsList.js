@@ -118,17 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "KREWE 2",
-        date: "6/11/26",
-        location: "Mobile, Alabama, USA",
-        description: "Welcome to KREWE: A Melee Mardi Gras Ball! Who says Mardi Gras can't happen in July??",
-        imageUrl: "https://images.start.gg/images/tournament/882658/image-56a1f3782f7809b3c5045175d138d31d.png",
-        link: "https://www.start.gg/tournament/krewe-2/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Pico Plus #20",
         date: "6/13/26",
         location: "Pico Rivera, California, USA",
@@ -191,6 +180,17 @@ const eventsData = [
         imageUrl: "https://images.start.gg/images/tournament/887941/image-10a83b8764db886fe5fd3f0c7be1de60.png",
         link: "https://www.start.gg/tournament/second-wind-2026/details",
         rankImg: false, 
+        trailer: "",
+        stream: ""
+      },      
+      {
+        name: "KREWE 2",
+        date: "7/11/26",
+        location: "Mobile, Alabama, USA",
+        description: "Welcome to KREWE: A Melee Mardi Gras Ball! Who says Mardi Gras can't happen in July??",
+        imageUrl: "https://images.start.gg/images/tournament/882658/image-56a1f3782f7809b3c5045175d138d31d.png",
+        link: "https://www.start.gg/tournament/krewe-2/details",
+        rankImg: true, 
         trailer: "",
         stream: ""
       },
