@@ -109,8 +109,20 @@ function createPastEventElement(eventData) {
 }
 // Sample data for past event
 const eventData = [
-
-
+  
+  {
+    eventTitle: "Project +1: Holy Smashtrimony",
+    imageUrl: "https://images.start.gg/images/tournament/883226/image-3e72fc26c7d8bc2c68ffad045b822526.png",
+    eventUrl: "https://challonge.com/v52sqakos",
+    date: "June 27 2026",
+    location: "Mississauga, Ontario, Canada",
+    entrants: 54,
+    first: "Dirtboy",
+    second: "Blitz",
+    third: "Metroid",
+    vodsUrl: "https://www.youtube.com/watch?v=MAX9jfyScqQ",
+    hideRankImage: false
+  },
   {
     eventTitle: "Scrapyard 2026",
     imageUrl: "https://images.start.gg/images/tournament/898791/image-e6e7b4ea6b3aa8dc9abd77dfa055cfec.png",
