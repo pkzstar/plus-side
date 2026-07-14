@@ -118,17 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Project +1: Holy Smashtrimony",
-        date: "6/27/26",
-        location: "Mississauga, Ontario, Canada",
-        description: "You're Cordially Invited",
-        imageUrl: "https://images.start.gg/images/tournament/883226/image-3e72fc26c7d8bc2c68ffad045b822526.png",
-        link: "https://www.start.gg/tournament/project-1-holy-smashtrimony/details",
-        rankImg: true, 
-        trailer: "",
-        stream: "https://www.youtube.com/@ontarioprojectm8374/streams"
-      },
-      {
         name: "Pico Plus #20",
         date: "6/27/26",
         location: "Pico Rivera, California, USA",
