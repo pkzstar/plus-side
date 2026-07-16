@@ -6971,27 +6971,11 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-         // BitP
-        } else if (month === 6 && (date === 5) && year === 2026) {
-            // Example link with image
-            let link = document.createElement("a");
-            link.href = "https://www.start.gg/tournament/bark-in-the-park/details";
-            link.target = "_blank";
-        
-            let image = document.createElement("img");
-            image.src = "https://images.start.gg/images/tournament/919629/image-f8badf48461ea380c0298f168e8695ea.png";
-        
-            image.classList.add("calendarImg");
-        
-        
-            link.appendChild(image);
-            cell.appendChild(link);
-
          // Second Wind 2026
         } else if (month === 6 && (date === 10 || date === 12) && year === 2026) {
             // Example link with image
             let link = document.createElement("a");
-            link.href = "www.start.gg/tournament/second-wind-2026/details";
+            link.href = "https://www.start.gg/tournament/second-wind-2026/details";
             link.target = "_blank";
         
             let image = document.createElement("img");
@@ -7115,8 +7099,8 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // G5 Arena 
-        } else if (month === 6 && (date === 18) && year === 2026) {    
+        // G5 in Arena!
+        } else if (month === 6 && (date === 25) && year === 2026) {    
         // Example link with image
         let link = document.createElement("a");
         link.href = "https://www.start.gg/tournament/game-5-in-the-arena/details";
@@ -7207,6 +7191,22 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
+        // Construct X 
+        } else if (month === 7 && (date === 9) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/construct-x-2026/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/919185/image-69eb69c6ddd3a664b6c7c3dd6f26b84f.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
         // Enchanted    
         } else if (month === 7 && (date === 22) && year === 2026) {    
         // Example link with image
@@ -7222,6 +7222,22 @@ function showCalendar(month, year) {
     
         link.appendChild(image);
         cell.appendChild(link);
+
+        // Big Cheese 6
+        } else if (month === 8 && (date === 26 || date === 27) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/the-big-cheese-6-south-australian-smash-fgc-major/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/916952/image-af1778120d061a4c3aeb86b9d809d100.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);        
         
         // Cabin Fever
         } else if (month === 9 && (date === 9 || date === 10 || date === 11 || date === 12) && year === 2026) {    
@@ -7231,7 +7247,23 @@ function showCalendar(month, year) {
         link.target = "_blank";
     
         let image = document.createElement("img");
-        image.src = "https://github.com/pkzstar/plus-side/blob/main/images/upcoming%20events/CabinFever.png";
+        image.src = "../images/upcoming events/CabinFever.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // Tussle Thru Time
+        } else if (month === 10 && (date === 7 || date === 8) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/tussle-thru-time/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/900443/image-ec0bb81bd43806b5d548de3a8e25365b.png";
     
         image.classList.add("calendarImg");
     

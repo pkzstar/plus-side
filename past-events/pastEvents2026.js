@@ -109,11 +109,102 @@ function createPastEventElement(eventData) {
 }
 // Sample data for past event
 const eventData = [
-  
+
+  {
+    eventTitle: "Evergreen 2026",
+    imageUrl: "https://images.start.gg/images/tournament/895362/image-478eeccd61f890c6edd38a4ca4562b8f.png",
+    eventUrl: "https://www.start.gg/tournament/evergreen-2026/details",
+    date: "July 11 2026",
+    location: "Ridgewood, New Jersey, USA",
+    entrants: 38,
+    first: "Sebas",
+    second: "Imogen Heat",
+    third: "Soully",
+    vodsUrl: "https://www.youtube.com/watch?v=4EFIkEZGqVQ&list=PLN0mwBtWkZOE",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "KREWE 2",
+    imageUrl: "https://images.start.gg/images/tournament/882658/image-56a1f3782f7809b3c5045175d138d31d.png",
+    eventUrl: "https://www.start.gg/tournament/krewe-2/details",
+    date: "July 11 2026",
+    location: "Mobile, Alabama, USA",
+    entrants: 46,
+    first: "RapMonster",
+    second: "Xtreme",
+    third: "SDJ",
+    vodsUrl: "https://www.youtube.com/watch?v=dvMb0IJRIOw&list=PLcln_COjPKkk",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "Second Wind",
+    imageUrl: "https://images.start.gg/images/tournament/887941/image-10a83b8764db886fe5fd3f0c7be1de60.png",
+    eventUrl: "https://www.start.gg/tournament/second-wind-2026/details",
+    date: "July 11-12 2026",
+    location: "Wellington, New Zealand",
+    entrants: 41,
+    first: "Ryzuul",
+    second: "RNGReallyNotGood",
+    third: "Goodie",
+    vodsUrl: "https://www.youtube.com/watch?v=NWWvfgPS6gs&list=PLCZ5wvtCAIX4",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Plus World",
+    imageUrl: "https://images.start.gg/images/tournament/923762/image-5aa27b5a6c46ac0c74eab6382b2944e8.png",
+    eventUrl: "https://www.start.gg/tournament/plus-world/details",
+    date: "June 30 2026",
+    location: "Minneapolis, Minnesota, USA",
+    entrants: 27,
+    first: "Veka",
+    second: "Preeminent",
+    third: "Kaditrix",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Unc Frozen's Icebox 14",
+    imageUrl: "https://images.start.gg/images/tournament/916279/image-2486a0c6278f0dfd2f1f174a78a3f391.jpg",
+    eventUrl: "https://www.start.gg/tournament/unc-frozen-s-icebox-14/events",
+    date: "June 27 2026",
+    location: "Burwood, NSW, Australia",
+    entrants: 7,
+    first: "Apathy",
+    second: "J-am",
+    third: "AshleyAtari",
+    vodsUrl: "https://www.youtube.com/watch?v=0pOGSmFVsZM",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Plus House 5",
+    imageUrl: "https://images.start.gg/images/tournament/915546/image-8d8c525896bcea9df818bf5d7b57842d.png",
+    eventUrl: "https://www.start.gg/tournament/plus-house-5/details",
+    date: "June 27 2026",
+    location: "Springfield, Missouri, USA",
+    entrants: 12,
+    first: "Montague",
+    second: "Boodabam",
+    third: "iBeTakingEstrogen",
+    vodsUrl: "https://youtu.be/Yjc3u1Q4X_M?si=bWCporvNahEGmxtn",
+    hideRankImage: true
+  },
+  {
+    eventTitle: "Pico Plus #20",
+    imageUrl: "https://images.start.gg/images/tournament/916015/image-fa38eded5089a4ae847fb9130a617c1c.png",
+    eventUrl: "https://www.start.gg/tournament/pico-plus-20/details",
+    date: "June 27 2026",
+    location: "Pico Rivera, California, USA",
+    entrants: 22,
+    first: "Nezergy",
+    second: "Dr.",
+    third: "Zenokids",
+    vodsUrl: "https://www.twitch.tv/videos/2812079063",
+    hideRankImage: true
+  },
   {
     eventTitle: "Project +1: Holy Smashtrimony",
     imageUrl: "https://images.start.gg/images/tournament/883226/image-3e72fc26c7d8bc2c68ffad045b822526.png",
-    eventUrl: "https://challonge.com/v52sqakos",
+    eventUrl: "https://challonge.com/v52sqako",
     date: "June 27 2026",
     location: "Mississauga, Ontario, Canada",
     entrants: 54,
@@ -133,7 +224,7 @@ const eventData = [
     first: "Salt",
     second: "RapMonster",
     third: "Dingo",
-    vodsUrl: "",
+    vodsUrl: "https://youtu.be/tHhef_RjQIY?si=Ux43EvuICDKJm31q",
     hideRankImage: false
   },
   {
@@ -159,7 +250,7 @@ const eventData = [
     first: "essy",
     second: "Kumatora",
     third: "Imogen Heat",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/watch?v=ffl518NFPfk&list=PLu8epBJfYiHsw5zRyV3bT9fKaNaccC1t8",
     hideRankImage: false
   },
   {
@@ -185,7 +276,7 @@ const eventData = [
     first: "Jonny Sosa",
     second: "Nezergy",
     third: "Khalid",
-    vodsUrl: "",
+    vodsUrl: "https://www.twitch.tv/videos/2779663125",
     hideRankImage: true
   },
   {
@@ -198,7 +289,7 @@ const eventData = [
     first: "Dru2",
     second: "Gaz!",
     third: "ACABrandon",
-    vodsUrl: "",
+    vodsUrl: "https://youtu.be/_H4ydtWi9FU?si=9vbwBWh3ifl5TCLb",
     hideRankImage: true
   },
   {
@@ -211,7 +302,7 @@ const eventData = [
     first: "Motobug",
     second: "wren",
     third: "sfy bees",
-    vodsUrl: "",
+    vodsUrl: "https://youtu.be/Y-S0ZnFU1-k?si=IfDjnkW1zNHSo3SH",
     hideRankImage: false
   },
   {
@@ -250,7 +341,7 @@ const eventData = [
     first: "Boodabam",
     second: "LandFish",
     third: "iBeTakingEstrogen",
-    vodsUrl: "",
+    vodsUrl: "https://youtu.be/0U259vUhmxM?si=LHbPHcg7LywG3xE3",
     hideRankImage: true
   },
   {
@@ -289,7 +380,7 @@ const eventData = [
     first: "Dirtboy",
     second: "Rise",
     third: "Comb",
-    vodsUrl: "",
+    vodsUrl: "https://youtu.be/rvOtQ33L2Lw?si=MoqpRPeW1INsygY4",
     hideRankImage: false
   },
   {
@@ -302,7 +393,7 @@ const eventData = [
     first: "RNGReallyNotGood",
     second: "luxingo",
     third: "RoyinoZ",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/watch?v=E4VxCD-ogW0",
     hideRankImage: true
   },
   {
@@ -315,7 +406,7 @@ const eventData = [
     first: "Veka",
     second: "sfy bees",
     third: "Kendrick",
-    vodsUrl: "",
+    vodsUrl: "https://youtu.be/q5CE3_8Qdt8?si=7bniXxOFetsZryXM",
     hideRankImage: false
   },
   {
@@ -341,7 +432,7 @@ const eventData = [
     first: "Nezergy",
     second: "Blub",
     third: "Dumshiny",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/watch?v=JDI1bKZlwbY&list=PL1jiLVSnaIHPGGbUzL9cAlmGBCdmkpcIy",
     hideRankImage: true
   },
   {
@@ -471,7 +562,7 @@ const eventData = [
     first: "Gaz!",
     second: "Dru2",
     third: "ACABrandon",
-    vodsUrl: "",
+    vodsUrl: "https://youtu.be/ILQxURnzX5Q?si=uhPZIi4X-c4ElvLD",
     hideRankImage: true
   },
   {
@@ -497,7 +588,7 @@ const eventData = [
     first: "Jonny Sosa",
     second: "Blank",
     third: "Narq",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/watch?v=kTrUx42WX1Q&list=PL1jiLVSnaIHM5KCJFTZrQFTmGVpxfbTBD",
     hideRankImage: false
   },
   {
@@ -614,7 +705,7 @@ const eventData = [
     first: "Imogen Heat",
     second: "sfy bees",
     third: "Tarchwood",
-    vodsUrl: "",
+    vodsUrl: "https://youtu.be/4hd9CQjFEpM?si=GfdLjwokdnFjuOuf",
     hideRankImage: true
   },
   {
@@ -627,7 +718,7 @@ const eventData = [
     first: "rake",
     second: "Gaz!",
     third: "max",
-    vodsUrl: "",
+    vodsUrl: "https://youtu.be/E_G7G1OHCPs?si=gNNd8KXJ0ighCoPS",
     hideRankImage: true
   },
   {
@@ -705,7 +796,7 @@ const eventData = [
     first: "Ryzuul",
     second: "Comb",
     third: "SoulOfficer",
-    vodsUrl: "",
+    vodsUrl: "https://youtu.be/7q1D-9yAyzs?si=HJi8AbTeGnkZHs3B",
     hideRankImage: false
   },
   {
@@ -783,7 +874,7 @@ const eventData = [
     first: "Ryzuul",
     second: "Jonny Sosa",
     third: "Nezergy",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/watch?v=orT-cUkd7hU&list=PL1jiLVSnaIHMI_7Hn7pYw-ISpAQAazB_M",
     hideRankImage: false
   },
   {
@@ -835,7 +926,7 @@ const eventData = [
     first: "Jonny Sosa",
     second: "Blank",
     third: "Sneez",
-    vodsUrl: "",
+    vodsUrl: "https://www.youtube.com/watch?v=kcVMNdr2Jqs&list=PL1jiLVSnaIHP5Xw2_Z7H1QZ9YeC6i0nNr",
     hideRankImage: false
   },
   {
