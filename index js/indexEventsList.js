@@ -118,94 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Pico Plus #20",
-        date: "6/27/26",
-        location: "Pico Rivera, California, USA",
-        description: "SoCal P+ is back! Introducing Pico Plus, a brand new Project+ local in the heart of Pico Rivera, CA",
-        imageUrl: "https://images.start.gg/images/tournament/916015/image-fa38eded5089a4ae847fb9130a617c1c.png",
-        link: "https://www.start.gg/tournament/pico-plus-20/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Plus House 5",
-        date: "6/27/26",
-        location: "Springfield, Missouri, USA",
-        description: "18+ event! Alcohol and weed may be present. Ask a 417 melee player for address! (or me if you don’t know any lol). Do not share address anywhere public, in servers, or in groupchats. 1 on 1 DMs or verbally in private only. Respect the venue, this is a house where people live",
-        imageUrl: "https://images.start.gg/images/tournament/915546/image-8d8c525896bcea9df818bf5d7b57842d.png",
-        link: "https://www.start.gg/tournament/plus-house-5/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Gecko Cavern 21",
-        date: "6/27/26",
-        location: "Burwood, New South Wales, Australia",
-        description: "Gecko Cavern 21 is making it chill! Hosted in the heart of Burwood at Club Burwood's top floor venue, Gecko Cavern is the tournament series for Project Plus in Sydney! We also feature other games such as Melee, Rivals of Aether, and more! ",
-        imageUrl: "https://images.start.gg/images/tournament/921633/image-6baa715c75173114634a753dd468706f.png",
-        link: "https://www.start.gg/tournament/gecko-cavern-21/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Plus World",
-        date: "6/30/26",
-        location: "Minneapolis, Minnesota, USA",
-        description: "pm at new world. Doors at 6 Bracket at 7",
-        imageUrl: "https://images.start.gg/images/tournament/923762/image-5aa27b5a6c46ac0c74eab6382b2944e8.png",
-        link: "https://www.start.gg/tournament/plus-world/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Bark in the Park",
-        date: "7/5/26",
-        location: "Lambertville, New Jersey, USA",
-        description: "All ages are welcome to attend! There is no alcohol allowed in the park! Lunch, snacks, and water will provided to all attendees!",
-        imageUrl: "https://images.start.gg/images/tournament/919629/image-f8badf48461ea380c0298f168e8695ea.png",
-        link: "https://www.start.gg/tournament/bark-in-the-park/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      }, 
-      {
-        name: "Second Wind 2026",
-        date: "7/10/26 - 7/12/26",
-        location: "Pipitea, Wellington, New Zealand",
-        description: "The Best Gaming NZ Has to Offer! Second Wind returns for 2026 from Friday 10th to Sunday 12th of July. A huge range of fighting games all held in the heart of Wellington NZ for a weekend you'll never forget!",
-        imageUrl: "https://images.start.gg/images/tournament/887941/image-10a83b8764db886fe5fd3f0c7be1de60.png",
-        link: "https://www.start.gg/tournament/second-wind-2026/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://twitch.tv/pplusside"
-      },      
-      {
-        name: "KREWE 2",
-        date: "7/11/26",
-        location: "Mobile, Alabama, USA",
-        description: "Welcome to KREWE: A Melee Mardi Gras Ball! Who says Mardi Gras can't happen in July??",
-        imageUrl: "https://images.start.gg/images/tournament/882658/image-56a1f3782f7809b3c5045175d138d31d.png",
-        link: "https://www.start.gg/tournament/krewe-2/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Evergreen 2026",
-        date: "7/11/26",
-        location: "Ridgewood, New Jersey, USA",
-        description: "Evergreen 2026. A competitor pass for the other event on the same day is required",
-        imageUrl: "https://images.start.gg/images/tournament/895362/image-478eeccd61f890c6edd38a4ca4562b8f.png",
-        link: "https://www.start.gg/tournament/evergreen-2026/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Melee Prom",
         date: "7/18/26",
         location: "Coralville, Iowa, USA",
@@ -261,6 +173,17 @@ const eventsData = [
         stream: "https://www.twitch.tv/phoenixsmash"
       },
       {
+        name: "Construct X: 2026",
+        date: "8/9/26",
+        location: "Milwaukee, Wisconsin, USA",
+        description: "A tool for the Resistance, void of dimension, yet so powerful it presents a danger to the senses. initiate simulation overload.",
+        imageUrl: "https://images.start.gg/images/tournament/919185/image-69eb69c6ddd3a664b6c7c3dd6f26b84f.png",
+        link: "https://www.start.gg/tournament/construct-x-2026/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://twitch.tv/wisconsinsmash2"
+      },
+      {
         name: "Enchanted",
         date: "8/22/26",
         location: "Herriman, Utah, Europe",
@@ -272,6 +195,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "The Big Cheese 6 - South Australian Smash & FGC Major",
+        date: "9/26/26 - 9/27/26",
+        location: "Woodville, South SA, Australia",
+        description: "The South Australian Smash & Fighting Game Community are proud to announce the return of Adelaide's local competitive gaming community Major - The Big Cheese!",
+        imageUrl: "https://images.start.gg/images/tournament/916952/image-af1778120d061a4c3aeb86b9d809d100.png",
+        link: "https://www.start.gg/tournament/the-big-cheese-6-south-australian-smash-fgc-major/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },      
+      {
         name: "Cabin Fever",
         date: "10/9/26 - 10/12/26",
         location: "Elbert, Colorado, USA",
@@ -281,6 +215,17 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: ""
+      },
+      {
+        name: "Tussle Thru Time",
+        date: "11/7/26 - 11/8/26",
+        location: "Normal, Illinois, USA",
+        description: "The Tussle Series Returns, now with TWO DAYS! Singles, Doubles, and more... From the teams at Plus Side, BloNo Smash and CherryNASB, the next installment in the Tussle Series is here...",
+        imageUrl: "https://images.start.gg/images/tournament/900443/image-ec0bb81bd43806b5d548de3a8e25365b.png",
+        link: "https://www.start.gg/tournament/tussle-thru-time/details",
+        rankImg: false, 
+        trailer: "https://fixupx.com/PPlusSide/status/2072465697934905435",
+        stream: "https://twitch.tv/pplusside"
       },
     ];
 
