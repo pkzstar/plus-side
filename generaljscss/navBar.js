@@ -51,7 +51,7 @@ setInterval(updateTime, 1000);
    
    const socialImage = document.createElement('img');
    socialImage.className = 'socialImage';
-   socialImage.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/2491px-Logo_of_Twitter.svg.png';
+   socialImage.src = 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/3840px-Logo_of_Twitter.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail';
    socialImage.alt = 'Twitter';
  
    socialLink.appendChild(socialImage);
@@ -60,8 +60,8 @@ setInterval(updateTime, 1000);
    // Start cycling images
    // Start cycling images
 const socialImages = [
-  { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/2491px-Logo_of_Twitter.svg.png', link: 'https://twitter.com/pplusside', alt: 'Twitter', className: 'twitterLink' },
-  { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bluesky_Logo.svg/1200px-Bluesky_Logo.svg.png', link: 'https://bsky.app/profile/plusside.net', alt: 'Bluesky', className: 'blueSkyLink' }
+  { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Logo_of_Twitter.svg/3840px-Logo_of_Twitter.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail', link: 'https://twitter.com/pplusside', alt: 'Twitter', className: 'twitterLink' },
+  { src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Bluesky_Logo.svg/960px-Bluesky_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail', link: 'https://bsky.app/profile/plusside.net', alt: 'Bluesky', className: 'blueSkyLink' }
 ];
 
 let index = 0;
