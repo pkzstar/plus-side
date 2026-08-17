@@ -7191,6 +7191,22 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
+        // Cherrybomb 26 
+        } else if (month === 7 && (date === 8) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/cherrybomb-2026/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/923248/image-093f4d24229cdd7d3a7a7f287c1b5ec3.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
         // Construct X 
         } else if (month === 7 && (date === 9) && year === 2026) {    
         // Example link with image
@@ -7207,15 +7223,75 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // Enchanted    
+        // Enchanted + Re:Raise
         } else if (month === 7 && (date === 22) && year === 2026) {    
-        // Example link with image
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/enchanted-100-pot-bonus/details",
+                imageSrc: "https://images.start.gg/images/tournament/922540/image-074c0205ef617434b71c63bf3f64953f.jpg"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/re-raise-2026/details",
+                imageSrc: "https://images.start.gg/images/tournament/936991/image-b6bf4bb181d74b57b46d5066d534f520.png"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
         let link = document.createElement("a");
-        link.href = "https://images.start.gg/images/tournament/922540/image-074c0205ef617434b71c63bf3f64953f.jpg";
         link.target = "_blank";
     
         let image = document.createElement("img");
-        image.src = "https://images.start.gg/images/tournament/922540/image-074c0205ef617434b71c63bf3f64953f.jpg";
+    
+        image.classList.add("calendarImg");
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
+
+        // DMtC 3
+        } else if (month === 7 && (date === 9) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/don-t-mind-the-cats-3/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/920555/image-b2bba0c2d528899ea5cdfd42b3519cbf.png";
     
         image.classList.add("calendarImg");
     
@@ -7239,8 +7315,8 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);        
         
-        // Cabin Fever
-        } else if (month === 9 && (date === 9 || date === 10 || date === 11 || date === 12) && year === 2026) {    
+        // Cabin Fever Day 1 + 4
+        } else if (month === 9 && (date === 9 || date === 12) && year === 2026) {    
         // Example link with image
         let link = document.createElement("a");
         link.href = "https://parry.gg/cabinfever";
@@ -7255,15 +7331,231 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // Tussle Thru Time
-        } else if (month === 10 && (date === 7 || date === 8) && year === 2026) {    
-        // Example link with image
+        // Cabin Fever Day 2 + 3 & Smash Warriors 4
+        } else if (month === 9 && (date === 10 || date === 11) && year === 2026) {    
+        const events = [
+            {   
+                link: "https://parry.gg/cabinfever",
+                imageSrc: "../images/upcoming events/CabinFever.png"
+                
+            },
+            {
+                link: "hhttps://www.start.gg/tournament/04-smash-warriors-pm/details",
+                imageSrc: "https://images.start.gg/images/tournament/925173/image-28e4d760c3c5903fd53f21ea99d47f4a.png"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
         let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/tussle-thru-time/details";
         link.target = "_blank";
     
         let image = document.createElement("img");
-        image.src = "https://images.start.gg/images/tournament/900443/image-ec0bb81bd43806b5d548de3a8e25365b.png";
+    
+        image.classList.add("calendarImg");
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
+
+        // SMYM 26 + BMM3 + EGR 14
+        } else if (month === 10 && (date === 3) && year === 2026) {    
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/show-me-your-moves-26/details",
+                imageSrc: "https://images.start.gg/images/tournament/910945/image-5c15c635d3557f148f707970ef639252.jpg"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/the-big-money-monthly-3-500-pot-bonus/details",
+                imageSrc: "https://images.start.gg/images/tournament/934775/image-dc5a1275e925581b48b065582cb826c8.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/evergreen-rising-14/details",
+                imageSrc: "https://images.start.gg/images/tournament/913658/image-289637b8f06e084feb7d19623ebdb2b2.png"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
+        let link = document.createElement("a");
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+    
+        image.classList.add("calendarImg");
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
+
+        // Wave Land 2026 Day 1
+        } else if (month === 10 && (date === 7 || date === 8) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/wave-land-2026/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/905005/image-b92310b9b0599b4067ec868f195266c6.jpg";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // Tussle Thru Time + Wave Land 2026 Day 2/3
+        } else if (month === 10 && (date === 7 || date === 8) && year === 2026) {
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/tussle-thru-time/details",
+                imageSrc: "https://images.start.gg/images/tournament/900443/image-ec0bb81bd43806b5d548de3a8e25365b.png"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/wave-land-2026/details",
+                imageSrc: "https://images.start.gg/images/tournament/905005/image-b92310b9b0599b4067ec868f195266c6.jpg"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
+        let link = document.createElement("a");
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+    
+        image.classList.add("calendarImg");
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
+
+        // Game 5 In The Woods! #2
+        } else if (month === 9 && (date === 16 || date === 17) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/game-5-in-the-woods-2-1/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/941222/image-5b2dd0dd1ed1809cc4ce5be9ef68e83c.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
+        // OMG 2
+        } else if (month === 10 && (date === 21 || date === 22) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/one-more-game-ii-run-it-back/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/891540/image-7c60d7daf97a01a0033384b0c0b5b556.png";
     
         image.classList.add("calendarImg");
     

@@ -124,6 +124,19 @@ const eventData = [
     hideRankImage: false
   },
   {
+    eventTitle: "CHERRYBOMB 2026",
+    imageUrl: "https://images.start.gg/images/tournament/923248/image-093f4d24229cdd7d3a7a7f287c1b5ec3.png",
+    eventUrl: "https://www.start.gg/tournament/cherrybomb-2026/details",
+    date: "August 8 2026",
+    location: "Austin, Texas, USA",
+    entrants: 21,
+    first: "Eon",
+    second: "SkillZ",
+    third: "Aiika",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Main Event - 3",
     imageUrl: "https://images.start.gg/images/tournament/919808/image-913f14e6d536f5fecd7f090a6f46b906.jpg",
     eventUrl: "https://www.start.gg/tournament/main-event-3/details",
