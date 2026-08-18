@@ -118,78 +118,34 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Melee Prom",
-        date: "7/18/26",
-        location: "Coralville, Iowa, USA",
-        description: "Welcome to Melee Prom, a prom themed Melee and 'Brawl' Doubles tournament! Find a partner, dress up, and join us at the Hyatt Regency Coralville for a marvelous night of doubles, dancing, drinking, and more! ",
-        imageUrl: "https://images.start.gg/images/tournament/823912/image-eff5d227a14f2168da8a7d217aa7e7ac.png",
-        link: "https://www.start.gg/tournament/melee-prom-rise/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "RPM 100",
-        date: "7/21/26",
-        location: "Chicago, Illinois, USA",
-        description: "RPM is a Project+ & Melee tournament held at Replay Lincoln Park, a barcade, on Tuesdays. You must be 21+ to attend RPM.",
-        imageUrl: "https://images.start.gg/images/tournament/910910/image-70aa0dc4bc3a0814da6edb4c1dc33071.png",
-        link: "https://www.start.gg/tournament/rpm-100/details",
-        rankImg: true, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Game 5 In The Arena!",
-        date: "7/25/26",
-        location: "Detroit, Michigan, USA",
-        description: " Introducing Game 5 In The Arena, A Game 5 Project+ Event Focused On Fun, Fitness, And Competition. We welcome all valiant competitors to the newest event in The Game 5 Project+ Tournament Series! Featuring a Bench Press competition, roller skating, and a bar open during Top 8. Alongside The Game 5 Project+ staples like custom tournament badges, a professional stream, your favorite players, and much, much more, this will be an event you won't want to miss! ",
-        imageUrl: "https://images.start.gg/images/tournament/907913/image-cfb3aa1f2ec4c493e40a7d7d657da1a3.png",
-        link: "https://www.start.gg/tournament/game-5-in-the-arena/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Get Out of My Venue 2026",
-        date: "7/31/26 - 8/2/26",
-        location: "Mississauga, Ontario, Canada",
-        description: "TO FEE $5 - Bring a setup? REFUNDED! Help run bracket? REFUNDED! Recording setup? REFUNDED! Let me (Eggnogdog) know if you're able to provide any of these in discord before the event. Both Top 8s will be on Sunday. Scheduling depends on the brackets the players are in and will be discussed.",
-        imageUrl: "https://images.start.gg/images/tournament/898275/image-f08e456c5c2d48ccf1f29f529dc67bfd.png",
-        link: "https://www.start.gg/tournament/get-out-of-my-venue-2026/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Main Event - 3",
-        date: "8/2/26",
-        location: "Birmingham, United Kingdom, Europe",
-        description: "Main Event is back!",
-        imageUrl: "https://images.start.gg/images/tournament/919808/image-913f14e6d536f5fecd7f090a6f46b906.jpg",
-        link: "https://www.start.gg/tournament/main-event-3/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://www.twitch.tv/phoenixsmash"
-      },
-      {
-        name: "Construct X: 2026",
-        date: "8/9/26",
-        location: "Milwaukee, Wisconsin, USA",
-        description: "A tool for the Resistance, void of dimension, yet so powerful it presents a danger to the senses. initiate simulation overload.",
-        imageUrl: "https://images.start.gg/images/tournament/919185/image-69eb69c6ddd3a664b6c7c3dd6f26b84f.png",
-        link: "https://www.start.gg/tournament/construct-x-2026/details",
-        rankImg: false, 
-        trailer: "",
-        stream: "https://twitch.tv/wisconsinsmash2"
-      },
-      {
         name: "Enchanted",
         date: "8/22/26",
         location: "Herriman, Utah, Europe",
         description: "Join us for an Enchanted day of Smash! Enchanted Events Center presents a magical day of gaming, whether you're striving for glory or looking for leisure.",
         imageUrl: "https://images.start.gg/images/tournament/922540/image-074c0205ef617434b71c63bf3f64953f.jpg",
         link: "https://www.start.gg/tournament/enchanted-100-pot-bonus/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Re:Raise 2026",
+        date: "8/22/26",
+        location: "Herriman, Utah, Europe",
+        description: "We're back again this year with another event to help raise funds for Re:Cupid’s major scale tournament series, ONE MORE GAME 2: Run it Back!",
+        imageUrl: "https://images.start.gg/images/tournament/936991/image-b6bf4bb181d74b57b46d5066d534f520.png",
+        link: "https://www.start.gg/tournament/re-raise-2026/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Don't Mind The Cats 3",
+        date: "8/29/26",
+        location: "Rittenhouse, Philadelphia, USA",
+        description: "Welcome to Don't Mind The Cats! A monthly Project+ house tournament featuring the best talent Philadelphia has to offer. On top of that, all proceeds raised by the event will be donated to Morris Animal Refuge; Philadelphia's own and one of America's first animal shelter!",
+        imageUrl: "https://images.start.gg/images/tournament/920555/image-b2bba0c2d528899ea5cdfd42b3519cbf.png",
+        link: "https://www.start.gg/tournament/don-t-mind-the-cats-3/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -204,7 +160,40 @@ const eventsData = [
         rankImg: false, 
         trailer: "",
         stream: ""
-      },      
+      }, 
+      {
+        name: "Show Me Your Moves '26",
+        date: "10/3/26",
+        location: "Champaign, Illinois, USA",
+        description: "Show Me Your Moves turns 22! The longest running smash tournament returns for its 22nd birthday and 25th iteration! Show Me Your Moves features Super Smash Bros. Melee and Super Smash Bros. Ultimate as always, and we're thrilled to be bringing you 'Brawl' once more!",
+        imageUrl: "https://images.start.gg/images/tournament/910945/image-5c15c635d3557f148f707970ef639252.jpg",
+        link: "https://www.start.gg/tournament/show-me-your-moves-26/details",
+        rankImg: true, 
+        trailer: "",
+        stream: ""
+      },   
+      {
+        name: "The Big Money Monthly #3",
+        date: "10/3/26",
+        location: "San Antonio, Texas, USA",
+        description: "We will be using HD Monitor set ups as well as CRT set ups. From our testing here in San Antonio, these HD set ups are fine to play on and it will used for stream matches. They are fair game for all tournament matches. If there are any discrepancies, please let a T.O. know. Please go to the T.O. stream room or find ~ CP9 ~, Ntire, or Plate to report your matches.",
+        imageUrl: "https://images.start.gg/images/tournament/934775/image-dc5a1275e925581b48b065582cb826c8.png",
+        link: "https://www.start.gg/tournament/the-big-money-monthly-3-500-pot-bonus/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Evergreen Rising 14",
+        date: "10/3/26",
+        location: "Des Moines, Washington, USA",
+        description: "Evergreen Rising is BACK!! Sign up now for the classic regional’s 14th iteration this October!!",
+        imageUrl: "https://images.start.gg/images/tournament/913658/image-289637b8f06e084feb7d19623ebdb2b2.png",
+        link: "https://www.start.gg/tournament/evergreen-rising-14/details",
+        rankImg: false, 
+        trailer: "https://x.com/FUTURExDREAM/status/2088801163055632650",
+        stream: ""
+      },   
       {
         name: "Cabin Fever",
         date: "10/9/26 - 10/12/26",
@@ -212,6 +201,39 @@ const eventsData = [
         description: "Cabin Fever is a 3 day, Melee and 'Brawl' tournament hosted at the JCC Ranch Camp in Elbert, Colorado, 75 minutes from downtown Denver and the Denver International Airport.",
         imageUrl: "../images/upcoming events/CabinFever.png",
         link: "https://parry.gg/cabinfever",
+        rankImg: true, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "第04回 SMASH WARRIORS 大阪PM大会",
+        date: "10/10/26 - 10/11/26",
+        location: "Fukushima Ward, Osaka, Japan",
+        description: "Smash Warriors（スマウォリ）は大阪福島駅周辺で2日間開催されているスマブラPM + HDR の大会です。\nSmash Warriors is a P+ and HDR tournament held near 'Fukushima' Station on the JR Osaka Loop Line.",
+        imageUrl: "https://images.start.gg/images/tournament/925173/image-28e4d760c3c5903fd53f21ea99d47f4a.png",
+        link: "https://www.start.gg/tournament/04-smash-warriors-pm/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Game 5 In The Woods! #2",
+        date: "10/16/26 - 10/17/26",
+        location: "Pentwater, Michigan, USA",
+        description: "Introducing Game 5 In The Woods! Michigan's Newest Retreat Tournament located at Lake Michigan Family Campground!",
+        imageUrl: "https://images.start.gg/images/tournament/941222/image-5b2dd0dd1ed1809cc4ce5be9ef68e83c.png",
+        link: "https://www.start.gg/tournament/game-5-in-the-woods-2-1/details",
+        rankImg: false, 
+        trailer: "https://www.youtube.com/watch?v=Wj9O-wbV7fE",
+        stream: ""
+      },
+      {
+        name: "Wave Land 2026",
+        date: "11/6/26 - 11/8/26",
+        location: "Preston, VIC, Australia",
+        description: "PLEASE be respectful of the venue as we want to be able to host tournaments again so please show respect to both the staff as well as the public.",
+        imageUrl: "https://images.start.gg/images/tournament/905005/image-b92310b9b0599b4067ec868f195266c6.jpg",
+        link: "https://www.start.gg/tournament/wave-land-2026/details",
         rankImg: false, 
         trailer: "",
         stream: ""
@@ -223,8 +245,19 @@ const eventsData = [
         description: "The Tussle Series Returns, now with TWO DAYS! Singles, Doubles, and more... From the teams at Plus Side, BloNo Smash and CherryNASB, the next installment in the Tussle Series is here...",
         imageUrl: "https://images.start.gg/images/tournament/900443/image-ec0bb81bd43806b5d548de3a8e25365b.png",
         link: "https://www.start.gg/tournament/tussle-thru-time/details",
-        rankImg: false, 
+        rankImg: true, 
         trailer: "https://fixupx.com/PPlusSide/status/2072465697934905435",
+        stream: "https://twitch.tv/pplusside"
+      },
+      {
+        name: "One More Game II: Run it Back",
+        date: "11/21/26 - 11/22/26",
+        location: "Seattle, Washington, USA",
+        description: "ONE MORE GAME IS BACK",
+        imageUrl: "https://images.start.gg/images/tournament/891540/image-7c60d7daf97a01a0033384b0c0b5b556.png",
+        link: "https://www.start.gg/tournament/one-more-game-ii-run-it-back/details",
+        rankImg: true, 
+        trailer: "https://www.youtube.com/watch?v=1SJVYnyYT5A",
         stream: "https://twitch.tv/pplusside"
       },
     ];
