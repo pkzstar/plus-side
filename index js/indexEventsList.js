@@ -120,7 +120,7 @@ const eventsData = [
       {
         name: "Enchanted",
         date: "8/22/26",
-        location: "Herriman, Utah, Europe",
+        location: "Herriman, UT, USA",
         description: "Join us for an Enchanted day of Smash! Enchanted Events Center presents a magical day of gaming, whether you're striving for glory or looking for leisure.",
         imageUrl: "https://images.start.gg/images/tournament/922540/image-074c0205ef617434b71c63bf3f64953f.jpg",
         link: "https://www.start.gg/tournament/enchanted-100-pot-bonus/details",
@@ -131,7 +131,7 @@ const eventsData = [
       {
         name: "Re:Raise 2026",
         date: "8/22/26",
-        location: "Herriman, Utah, Europe",
+        location: "Snohomish, WA, USA",
         description: "We're back again this year with another event to help raise funds for Re:Cupid’s major scale tournament series, ONE MORE GAME 2: Run it Back!",
         imageUrl: "https://images.start.gg/images/tournament/936991/image-b6bf4bb181d74b57b46d5066d534f520.png",
         link: "https://www.start.gg/tournament/re-raise-2026/details",
