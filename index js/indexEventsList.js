@@ -118,38 +118,38 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "Enchanted",
-        date: "8/22/26",
-        location: "Herriman, UT, USA",
-        description: "Join us for an Enchanted day of Smash! Enchanted Events Center presents a magical day of gaming, whether you're striving for glory or looking for leisure.",
-        imageUrl: "https://images.start.gg/images/tournament/922540/image-074c0205ef617434b71c63bf3f64953f.jpg",
-        link: "https://www.start.gg/tournament/enchanted-100-pot-bonus/details",
+        name: "Gecko Cavern 23 ",
+        date: "9/12/26",
+        location: "Burwood, NSW, Australia",
+        description: "It's time for Gecko Cavern 23! Hosted in the heart of Burwood at Club Burwood's top floor venue, Gecko Cavern is the tournament series for Project Plus in Sydney! We also feature other games such as Melee, Rivals of Aether, and more! ",
+        imageUrl: "https://images.start.gg/images/tournament/948896/image-3b26ae958fe5c10b4174b85d848d8341.png",
+        link: "https://www.start.gg/tournament/gecko-cavern-23/details",
         rankImg: false, 
         trailer: "",
         stream: ""
-      },
+      }, 
       {
-        name: "Re:Raise 2026",
-        date: "8/22/26",
-        location: "Snohomish, WA, USA",
-        description: "We're back again this year with another event to help raise funds for Re:Cupid’s major scale tournament series, ONE MORE GAME 2: Run it Back!",
-        imageUrl: "https://images.start.gg/images/tournament/936991/image-b6bf4bb181d74b57b46d5066d534f520.png",
-        link: "https://www.start.gg/tournament/re-raise-2026/details",
+        name: "Plus House 6 2",
+        date: "9/19/26",
+        location: "Springfield, Missouri, USA",
+        description: "18+ event! Alcohol and weed may be present. 417's Project+ house venue monthly! July's edition featuring Akaneia casual stage side brackets for singles and doubles, all of which is just a singular $5 fee, or free if you bring a full updated Project+ setup!",
+        imageUrl: "https://images.start.gg/images/tournament/948851/image-12e996c7caed0ddc53de339d486f4a3f.png",
+        link: "https://www.start.gg/tournament/plus-house-6-2/details",
         rankImg: false, 
         trailer: "",
         stream: ""
-      },
+      }, 
       {
-        name: "Don't Mind The Cats 3",
-        date: "8/29/26",
-        location: "Rittenhouse, Philadelphia, USA",
-        description: "Welcome to Don't Mind The Cats! A monthly Project+ house tournament featuring the best talent Philadelphia has to offer. On top of that, all proceeds raised by the event will be donated to Morris Animal Refuge; Philadelphia's own and one of America's first animal shelter!",
-        imageUrl: "https://images.start.gg/images/tournament/920555/image-b2bba0c2d528899ea5cdfd42b3519cbf.png",
-        link: "https://www.start.gg/tournament/don-t-mind-the-cats-3/details",
+        name: "Pico Plus #24 - Pico Plus X Tussle Thru Time",
+        date: "9/19/26",
+        location: "Pico Rivera, California, USA",
+        description: "SoCal P+ Survives! Thanks to +Side, the winner of this Pico+ will be flown out to Tussle Thru Time, a P+ Major in the Midwest!",
+        imageUrl: "https://images.start.gg/images/tournament/950699/image-e68e64cc8868e8091e579467f27c2e54.png",
+        link: "https://www.start.gg/tournament/pico-plus-24-pico-plus-x-tussle-thru-time/details",
         rankImg: false, 
         trailer: "",
         stream: ""
-      },
+      }, 
       {
         name: "The Big Cheese 6 - South Australian Smash & FGC Major",
         date: "9/26/26 - 9/27/26",
@@ -206,6 +206,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Smash of the Titans 12",
+        date: "10/10/26",
+        location: "Bloomington, Illinois, USA",
+        description: "Welcome to Smash of the Titans 12! Illinois Wesleyan University is back with our 12th edition of our Smash regional!",
+        imageUrl: "https://images.start.gg/images/tournament/889737/image-e74e278444338c429cb409e1527715c1.png",
+        link: "https://www.start.gg/tournament/smash-of-the-titans-12-1/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      }, 
+      {
         name: "第04回 SMASH WARRIORS 大阪PM大会",
         date: "10/10/26 - 10/11/26",
         location: "Fukushima Ward, Osaka, Japan",
@@ -225,6 +236,17 @@ const eventsData = [
         link: "https://www.start.gg/tournament/game-5-in-the-woods-2-1/details",
         rankImg: false, 
         trailer: "https://www.youtube.com/watch?v=Wj9O-wbV7fE",
+        stream: ""
+      },
+      {
+        name: "The Crypt 2026",
+        date: "10/24/26",
+        location: "Toronto, Ontario, Canada",
+        description: "Come Celebrate Halloween at The Crypt 2026 on October 24th Featuring P+ Singles and Doubles",
+        imageUrl: "https://images.start.gg/images/tournament/944467/image-575cfd39fe7bec254124bd4135f84419.png",
+        link: "https://www.start.gg/tournament/the-crypt-2026/details",
+        rankImg: false, 
+        trailer: "",
         stream: ""
       },
       {
