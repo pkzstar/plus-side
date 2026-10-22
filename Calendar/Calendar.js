@@ -7555,7 +7555,7 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // Cabin Fever Day 2 + 3 & Smash Warriors 4 day 1 + SoTT12
+        // Cabin Fever Day 2 + 3 & Smash Warriors 4 day 1 + SoTT12 + NotlD14
         } else if (month === 9 && (date === 10) && year === 2026) {    
         const events = [
             {   
@@ -7570,6 +7570,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/smash-of-the-titans-12-1/details",
                 imageSrc: "https://images.start.gg/images/tournament/889737/image-e74e278444338c429cb409e1527715c1.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/night-of-the-living-ded-14-roots-regional/details",
+                imageSrc: "https://images.start.gg/images/tournament/942353/image-d987269970b0cd9b0a0bdce72af6fbdd-optimized.png"
             }
     
         ];
@@ -7682,21 +7686,65 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-        // Crypt
+        // Crypt + Best of XII the VIth 
         } else if (month === 9 && (date === 24) && year === 2026) {    
-        // Example link with image
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/the-crypt-2026/details",
+                imageSrc: "https://images.start.gg/images/tournament/944467/image-575cfd39fe7bec254124bd4135f84419.png"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/best-of-xii-the-vith/details",
+                imageSrc: "https://images.start.gg/images/tournament/956764/image-6e182475f1cb680dc4f2a2491f394b4b-optimized.png"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
         let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/the-crypt-2026/details";
         link.target = "_blank";
     
         let image = document.createElement("img");
-        image.src = "https://images.start.gg/images/tournament/944467/image-575cfd39fe7bec254124bd4135f84419.png";
     
         image.classList.add("calendarImg");
     
-    
         link.appendChild(image);
         cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
         // SMYM 26 + BMM3 + EGR 14
         } else if (month === 9 && (date === 3) && year === 2026) {    
@@ -7762,6 +7810,82 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
+         // Deplatformed + Bronco Brawl Fall 2026 Day 1
+        } else if (month === 9 && (date === 17) && year === 2026) {    
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/deplatformed/details",
+                imageSrc: "https://images.start.gg/images/tournament/939420/image-05aff82edf6a4d282d6e410517b6ec89-optimized.png"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/bronco-brawl-fall-2026/details",
+                imageSrc: "https://images.start.gg/images/tournament/950247/image-decfeb46c39c8917111aac24aa9fd7af-optimized.png"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
+        let link = document.createElement("a");
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+    
+        image.classList.add("calendarImg");
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
+
+        // Bronco Brawl Fall Day 2
+        } else if (month === 9 && (date === 18) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/bronco-brawl-fall-2026/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/950247/image-decfeb46c39c8917111aac24aa9fd7af-optimized.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
         // Wave Land 2026 Day 1
         } else if (month === 10 && (date === 7 || date === 8) && year === 2026) {    
         // Example link with image
@@ -7777,6 +7901,8 @@ function showCalendar(month, year) {
     
         link.appendChild(image);
         cell.appendChild(link);
+
+        
 
         // Tussle Thru Time + Wave Land 2026 Day 2/3
         } else if (month === 10 && (date === 7 || date === 8) && year === 2026) {
