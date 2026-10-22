@@ -129,6 +129,17 @@ const eventsData = [
         stream: ""
       },
       {
+        name: "Best Of XII The VIth",
+        date: "10/24/26",
+        location: "Lynnwood, Washington, USA",
+        description: "Welcome to The Lynnwood Bowl and Skate the home of The Super SmashBowl, Split Neutral, and CRT Legacy!",
+        imageUrl: "https://images.start.gg/images/tournament/956764/image-6e182475f1cb680dc4f2a2491f394b4b-optimized.png",
+        link: "https://www.start.gg/tournament/best-of-xii-the-vith/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
         name: "Wave Land 2026",
         date: "11/6/26 - 11/8/26",
         location: "Preston, VIC, Australia",

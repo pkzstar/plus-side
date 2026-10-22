@@ -7686,21 +7686,65 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
-        // Crypt
+        // Crypt + Best of XII the VIth 
         } else if (month === 9 && (date === 24) && year === 2026) {    
-        // Example link with image
+        const events = [
+            {   
+                link: "https://www.start.gg/tournament/the-crypt-2026/details",
+                imageSrc: "https://images.start.gg/images/tournament/944467/image-575cfd39fe7bec254124bd4135f84419.png"
+                
+            },
+            {
+                link: "https://www.start.gg/tournament/best-of-xii-the-vith/details",
+                imageSrc: "https://images.start.gg/images/tournament/956764/image-6e182475f1cb680dc4f2a2491f394b4b-optimized.png"
+            }
+    
+        ];
+        let currentIndex = 0; // Initialize current index
+    
         let link = document.createElement("a");
-        link.href = "https://www.start.gg/tournament/the-crypt-2026/details";
         link.target = "_blank";
     
         let image = document.createElement("img");
-        image.src = "https://images.start.gg/images/tournament/944467/image-575cfd39fe7bec254124bd4135f84419.png";
     
         image.classList.add("calendarImg");
     
-    
         link.appendChild(image);
         cell.appendChild(link);
+    
+        // Function to fade in/out the image and link
+        function fadeInOut(element) {
+            let opacity = 0;
+            let increasing = true;
+            let interval = setInterval(function() {
+                if (increasing) {
+                    opacity += 0.05;
+                } else {
+                    opacity -= 0.05;
+                }
+                element.style.opacity = opacity;
+                if (opacity >= 1) {
+                    increasing = false;
+                    setTimeout(() => {
+                        increasing = true;
+                        updateLinkAndImage(); // Update link and image after fully visible
+                    }, 2000); // Image and link will be fully visible for 2 seconds before fading out
+                } else if (opacity <= 0) {
+                    clearInterval(interval);
+                    fadeInOut(element); // Restart the fading animation
+                }
+            }, 100); // Adjust the timing as needed
+        }
+    
+        // Function to update the link and image
+        function updateLinkAndImage() {
+            link.href = events[currentIndex].link;
+            image.src = events[currentIndex].imageSrc;
+            currentIndex = (currentIndex + 1) % events.length; // Move to the next event, looping back to the beginning if necessary
+        }
+    
+        updateLinkAndImage(); // Initially update link and image
+        fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
         // SMYM 26 + BMM3 + EGR 14
         } else if (month === 9 && (date === 3) && year === 2026) {    
