@@ -111,6 +111,19 @@ function createPastEventElement(eventData) {
 const eventData = [
 
   {
+    eventTitle: "Bronco Brawl Fall 2026",
+    imageUrl: "https://images.start.gg/images/tournament/950247/image-decfeb46c39c8917111aac24aa9fd7af-optimized.png",
+    eventUrl: "https://www.start.gg/tournament/bronco-brawl-fall-2026/details",
+    date: "October 17-18 2026",
+    location: "Pomona, California, USA",
+    entrants: 58,
+    first: "Nezergy",
+    second: "Sneez",
+    third: "Narq",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Deplatformed",
     imageUrl: "https://images.start.gg/images/tournament/939420/image-05aff82edf6a4d282d6e410517b6ec89-optimized.png",
     eventUrl: "https://www.start.gg/tournament/deplatformed/details",
@@ -121,7 +134,7 @@ const eventData = [
     second: "Salt",
     third: "Smear",
     vodsUrl: "",
-    hideRankImage: true
+    hideRankImage: false
   },
   {
     eventTitle: "Game 5 In The Woods! #2",
