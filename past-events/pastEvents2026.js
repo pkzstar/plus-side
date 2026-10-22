@@ -111,6 +111,19 @@ function createPastEventElement(eventData) {
 const eventData = [
 
   {
+    eventTitle: "Deplatformed",
+    imageUrl: "https://images.start.gg/images/tournament/939420/image-05aff82edf6a4d282d6e410517b6ec89-optimized.png",
+    eventUrl: "https://www.start.gg/tournament/deplatformed/details",
+    date: "October 17 2026",
+    location: "Calgary, Alberta, Canada",
+    entrants: 38,
+    first: "RapMonster",
+    second: "Salt",
+    third: "Smear",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Game 5 In The Woods! #2",
     imageUrl: "https://images.start.gg/images/tournament/941222/image-5b2dd0dd1ed1809cc4ce5be9ef68e83c.png",
     eventUrl: "https://www.start.gg/tournament/game-5-in-the-woods-2-1/details",

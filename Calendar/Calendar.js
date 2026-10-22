@@ -7686,6 +7686,22 @@ function showCalendar(month, year) {
         updateLinkAndImage(); // Initially update link and image
         fadeInOut(image); // Start fade-in/out animation // Start cycling events
 
+        // Deplatformed
+        } else if (month === 9 && (date === 17) && year === 2026) {    
+        // Example link with image
+        let link = document.createElement("a");
+        link.href = "https://www.start.gg/tournament/deplatformed/details";
+        link.target = "_blank";
+    
+        let image = document.createElement("img");
+        image.src = "https://images.start.gg/images/tournament/939420/image-05aff82edf6a4d282d6e410517b6ec89-optimized.png";
+    
+        image.classList.add("calendarImg");
+    
+    
+        link.appendChild(image);
+        cell.appendChild(link);
+
         // Crypt
         } else if (month === 9 && (date === 24) && year === 2026) {    
         // Example link with image
