@@ -137,6 +137,19 @@ const eventData = [
     hideRankImage: true
   },
   {
+    eventTitle: "Night of the Living DED #14",
+    imageUrl: "https://images.start.gg/images/tournament/942353/image-d987269970b0cd9b0a0bdce72af6fbdd-optimized.png",
+    eventUrl: "https://www.start.gg/tournament/night-of-the-living-ded-14-roots-regional/details",
+    date: "October 10 2026",
+    location: "Port Chester, New York, USA",
+    entrants: 10,
+    first: "wren",
+    second: "Future Shock",
+    third: "Slater",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Smash of the Titans 12",
     imageUrl: "https://images.start.gg/images/tournament/889737/image-e74e278444338c429cb409e1527715c1.png",
     eventUrl: "https://www.start.gg/tournament/smash-of-the-titans-12-1/details",

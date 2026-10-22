@@ -7555,7 +7555,7 @@ function showCalendar(month, year) {
         link.appendChild(image);
         cell.appendChild(link);
 
-        // Cabin Fever Day 2 + 3 & Smash Warriors 4 day 1 + SoTT12
+        // Cabin Fever Day 2 + 3 & Smash Warriors 4 day 1 + SoTT12 + NotlD14
         } else if (month === 9 && (date === 10) && year === 2026) {    
         const events = [
             {   
@@ -7570,6 +7570,10 @@ function showCalendar(month, year) {
             {
                 link: "https://www.start.gg/tournament/smash-of-the-titans-12-1/details",
                 imageSrc: "https://images.start.gg/images/tournament/889737/image-e74e278444338c429cb409e1527715c1.png"
+            },
+            {
+                link: "https://www.start.gg/tournament/night-of-the-living-ded-14-roots-regional/details",
+                imageSrc: "https://images.start.gg/images/tournament/942353/image-d987269970b0cd9b0a0bdce72af6fbdd-optimized.png"
             }
     
         ];
