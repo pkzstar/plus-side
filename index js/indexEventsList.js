@@ -118,28 +118,6 @@ eventName.appendChild(location);
 const eventsData = [
 
       {
-        name: "The Crypt 2026",
-        date: "10/24/26",
-        location: "Toronto, Ontario, Canada",
-        description: "Come Celebrate Halloween at The Crypt 2026 on October 24th Featuring P+ Singles and Doubles",
-        imageUrl: "https://images.start.gg/images/tournament/944467/image-575cfd39fe7bec254124bd4135f84419.png",
-        link: "https://www.start.gg/tournament/the-crypt-2026/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
-        name: "Best Of XII The VIth",
-        date: "10/24/26",
-        location: "Lynnwood, Washington, USA",
-        description: "Welcome to The Lynnwood Bowl and Skate the home of The Super SmashBowl, Split Neutral, and CRT Legacy!",
-        imageUrl: "https://images.start.gg/images/tournament/956764/image-6e182475f1cb680dc4f2a2491f394b4b-optimized.png",
-        link: "https://www.start.gg/tournament/best-of-xii-the-vith/details",
-        rankImg: false, 
-        trailer: "",
-        stream: ""
-      },
-      {
         name: "Wave Land 2026",
         date: "11/6/26 - 11/8/26",
         location: "Preston, VIC, Australia",
@@ -159,7 +137,18 @@ const eventsData = [
         link: "https://www.start.gg/tournament/tussle-thru-time/details",
         rankImg: true, 
         trailer: "https://fixupx.com/PPlusSide/status/2072465697934905435",
-        stream: "https://twitch.tv/pplusside"
+        stream: "https://www.multitwitch.tv/pplusside/pplusside2/isu_smash"
+      },
+      {
+        name: "0mega Con 2026",
+        date: "11/7/26",
+        location: "Mexicali, Baja California, Mexico",
+        description: "After the end of an era, Omega Con will take the lost projects in this new adventure in Mexicali, Baja California",
+        imageUrl: "https://images.start.gg/images/tournament/242007/image-178d206ae4cf36ab087b25c838e62252-optimized.png",
+        link: "https://www.start.gg/tournament/0mega-con-2026/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
       },
       {
         name: "One More Game II: Run it Back",
@@ -171,6 +160,72 @@ const eventsData = [
         rankImg: true, 
         trailer: "https://www.youtube.com/watch?v=1SJVYnyYT5A",
         stream: "https://twitch.tv/pplusside"
+      },
+      {
+        name: "Plus House 7",
+        date: "11/21/26",
+        location: "Springfield, Missouri, USA",
+        description: "18+ event! Alcohol and weed may be present",
+        imageUrl: "https://images.start.gg/images/tournament/956385/image-e5541534e0e6bf8f571d2fbcef9d09c5-optimized.png",
+        link: "https://www.start.gg/tournament/plus-house-7/details ",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.twitch.tv/plus_house"
+      },
+      {
+        name: "Get Outplayed 10",
+        date: "12/6/26",
+        location: "Peoria, Illinois, USA",
+        description: "Get Outplayed 10 is here. On December 6th, your favorite GRV regional returns for its Tenth installment at Bradley University.",
+        imageUrl: "https://images.start.gg/images/tournament/963563/image-97024f93458d8229cdacce4c518b293c-optimized.png",
+        link: "https://www.start.gg/tournament/get-outplayed-10/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Game 5: A Pittsburgh Project Plus and Rivals 2 Arcadian - $100 Pot Bonus!",
+        date: "12/13/26",
+        location: "Pittsburgh, Pennsylvania, USA",
+        description: "⋆⋆✩ WE GOT A GAME FIVE IN PITTSBURGH!!! ✩⋆⋆ Game 5 is PEN's (Pittsburgh, Northeast Ohio, Erie, and surrounding areas) big end-of-year regional arcadian meant to celebrate the communities that have been playing their hearts out for years now, with brackets built to encourage as much serious practice and competition as possible along with a raffle giving every attendee a chance to win a commemorative poster board signed by everyone that shows up!",
+        imageUrl: "https://images.start.gg/images/tournament/965259/image-bf2a30afacb161c83e0beb0c096e0ee6-optimized.png",
+        link: "https://www.start.gg/tournament/game-5-a-pittsburgh-project-plus-and-rivals-2-arcadian-100-pot-bonus/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://www.twitch.tv/pghprojectm"
+      },
+      {
+        name: "CHERRYBOMB 2",
+        date: "1/30/27",
+        location: "Austin, Texas, USA",
+        description: "An Austin regional tournament featuring RR Melee Singles, Melee Doubles, RR P+ Singles, and a Melee Redemption bracket, and 64 Remix Singles.",
+        imageUrl: "https://images.start.gg/images/tournament/950263/image-5f1916705bd8eb6bc5050f202e6887c7-optimized.jpg",
+        link: "https://www.start.gg/tournament/cherrybomb-2/details",
+        rankImg: false, 
+        trailer: "",
+        stream: ""
+      },
+      {
+        name: "Docked and Loaded 5",
+        date: "2/19/27 - 2/21/27",
+        location: "Auckland CBD, Auckland 1010, New Zealand",
+        description: "The long awaited fivequel. Expect some of New Zealand's hypest Smash Bros. Ultimate, Melee and Rivals plays at DOCKED & LOADED 5!",
+        imageUrl: "https://images.start.gg/images/tournament/956310/image-6a5de550efb9e960c156685f43fe760c-optimized.png",
+        link: "https://www.start.gg/tournament/docked-and-loaded-5/details",
+        rankImg: false, 
+        trailer: "",
+        stream: "https://twitch.tv/nzsmash"
+      },
+      {
+        name: "Perfect Pivot 3",
+        date: "4/17/27 - 4/18/27",
+        location: "Winnipeg, Manitoba, Canada",
+        description: "Manitoba's mainstay major event is back and better than it's ever been. Featuring Super Smash Bros. Ultimate, Melee, Remix, HDR, Project+, Smash 4 and MYSTERY BRACKET, players of all skill levels are welcome to come and play! Face off against Manitoba's biggest and best, or come hangout and try some new games. Entry into a bracket varies depending on the game, with a couple free-entry brackets to fill the time. ",
+        imageUrl: "https://images.start.gg/images/tournament/957629/image-b09c7c0a7ec253c6c361e31ca343ce0d-optimized.png",
+        link: "https://www.start.gg/tournament/perfect-pivot-3/details",
+        rankImg: false, 
+        trailer: "https://www.youtube.com/watch?v=mK7qYtVvKwU",
+        stream: ""
       },
     ];
 

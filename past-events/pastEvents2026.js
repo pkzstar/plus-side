@@ -111,6 +111,32 @@ function createPastEventElement(eventData) {
 const eventData = [
 
   {
+    eventTitle: "Best Of XII The VIth",
+    imageUrl: "https://images.start.gg/images/tournament/956764/image-6e182475f1cb680dc4f2a2491f394b4b-optimized.png",
+    eventUrl: "https://www.start.gg/tournament/best-of-xii-the-vith/details",
+    date: "October 24 2026",
+    location: "Lynnwood, Washington, USA",
+    entrants: 20,
+    first: "SipMastah",
+    second: "vivesthesia",
+    third: "Zushi",
+    vodsUrl: "",
+    hideRankImage: false
+  },
+  {
+    eventTitle: "The Crypt 2026",
+    imageUrl: "https://images.start.gg/images/tournament/944467/image-575cfd39fe7bec254124bd4135f84419.png",
+    eventUrl: "https://www.start.gg/tournament/the-crypt-2026/details",
+    date: "October 24 2026",
+    location: "Toronto, Ontario, Canada",
+    entrants: 23,
+    first: "Krumpberry",
+    second: "Erg",
+    third: "white sheep",
+    vodsUrl: "",
+    hideRankImage: true
+  },
+  {
     eventTitle: "Bronco Brawl Fall 2026",
     imageUrl: "https://images.start.gg/images/tournament/950247/image-decfeb46c39c8917111aac24aa9fd7af-optimized.png",
     eventUrl: "https://www.start.gg/tournament/bronco-brawl-fall-2026/details",
